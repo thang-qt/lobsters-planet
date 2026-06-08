@@ -29,8 +29,9 @@ const indexTemplate = `<!doctype html>
         {{ range .Sites }}
           <li>
             <a href="{{ .HomepageURL }}">{{ .Username }}</a>
-            <small><a href="{{ .ProfileURL }}">lobste.rs profile</a>{{ if .Karma }} · karma {{ .Karma }}{{ end }}</small>
+            <small><a href="{{ .ProfileURL }}">lobste.rs profile</a>{{ if .Karma }} · karma {{ .Karma }}{{ end }}{{ if .FeedURLs }} · feed discovered{{ end }}</small>
             {{ if .About }}<p>{{ .About }}</p>{{ end }}
+            {{ if .FeedURLs }}<p>{{ range .FeedURLs }}<a href="{{ . }}">feed</a> {{ end }}</p>{{ end }}
           </li>
         {{ end }}
         </ul>

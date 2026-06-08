@@ -37,6 +37,7 @@ type PublicSite struct {
 	Username         string     `json:"username"`
 	ProfileURL       string     `json:"profile_url"`
 	HomepageURL      string     `json:"homepage_url"`
+	FeedURLs         []string   `json:"feed_urls,omitempty"`
 	UsersPageRank    int        `json:"users_page_rank,omitempty"`
 	JoinedAt         *time.Time `json:"joined_at,omitempty"`
 	Karma            *int       `json:"karma,omitempty"`
@@ -116,6 +117,7 @@ func publicData(store state.State) ([]PublicUser, []PublicSite) {
 				Username:         user.Username,
 				ProfileURL:       user.ProfileURL,
 				HomepageURL:      user.HomepageURL,
+				FeedURLs:         user.FeedURLs,
 				UsersPageRank:    user.UsersPageRank,
 				JoinedAt:         user.JoinedAt,
 				Karma:            user.Karma,

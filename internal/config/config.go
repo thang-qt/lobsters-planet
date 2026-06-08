@@ -10,6 +10,7 @@ import (
 type Config struct {
 	UserAgent string         `yaml:"user_agent"`
 	Lobsters  LobstersConfig `yaml:"lobsters"`
+	Feeds     FeedsConfig    `yaml:"feeds"`
 	Output    OutputConfig   `yaml:"output"`
 }
 
@@ -20,6 +21,15 @@ type LobstersConfig struct {
 	OldProfileRecheckDays int    `yaml:"old_profile_recheck_days"`
 	MaxNewProfilesPerRun  int    `yaml:"max_new_profiles_per_run"`
 	MaxOldProfilesPerRun  int    `yaml:"max_old_profiles_per_run"`
+}
+
+type FeedsConfig struct {
+	RefreshIntervalHours    int      `yaml:"refresh_interval_hours"`
+	RequestTimeoutSeconds   int      `yaml:"request_timeout_seconds"`
+	RequestDelaySeconds     int      `yaml:"request_delay_seconds"`
+	DiscoveryRecheckDays    int      `yaml:"discovery_recheck_days"`
+	MaxSitesPerDiscoveryRun int      `yaml:"max_sites_per_discovery_run"`
+	CommonPaths             []string `yaml:"common_paths"`
 }
 
 type OutputConfig struct {
@@ -71,6 +81,18 @@ func Load(path string) (Config, error) {
 	}
 	if cfg.Lobsters.MaxOldProfilesPerRun < 0 {
 		cfg.Lobsters.MaxOldProfilesPerRun = 0
+	}
+	if cfg.Feeds.RequestTimeoutSeconds <= 0 {
+		cfg.Feeds.RequestTimeoutSeconds = 15
+	}
+	if cfg.Feeds.RequestDelaySeconds <= 0 {
+		cfg.Feeds.RequestDelaySeconds = 2
+	}
+	if cfg.Feeds.DiscoveryRecheckDays <= 0 {
+		cfg.Feeds.DiscoveryRecheckDays = 30
+	}
+	if cfg.Feeds.MaxSitesPerDiscoveryRun < 0 {
+		cfg.Feeds.MaxSitesPerDiscoveryRun = 0
 	}
 	return cfg, nil
 }

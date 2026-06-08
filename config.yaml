@@ -11,6 +11,16 @@ lobsters:
 feeds:
   refresh_interval_hours: 6
   request_timeout_seconds: 15
+  request_delay_seconds: 2
+  discovery_recheck_days: 30
+  max_sites_per_discovery_run: 25
+  common_paths:
+    - "/feed.xml"
+    - "/feed"
+    - "/rss.xml"
+    - "/rss"
+    - "/atom.xml"
+    - "/index.xml"
 
 output:
   state_file: "state/crawl-state.json"

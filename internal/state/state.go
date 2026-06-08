@@ -19,20 +19,24 @@ type State struct {
 }
 
 type DiscoveredUser struct {
-	Username            string     `json:"username"`
-	ProfileURL          string     `json:"profile_url"`
-	HomepageURL         string     `json:"homepage_url,omitempty"`
-	UsersPageRank       int        `json:"users_page_rank,omitempty"`
-	JoinedAt            *time.Time `json:"joined_at,omitempty"`
-	Karma               *int       `json:"karma,omitempty"`
-	StoriesSubmitted    *int       `json:"stories_submitted,omitempty"`
-	CommentsPosted      *int       `json:"comments_posted,omitempty"`
-	About               string     `json:"about,omitempty"`
-	DiscoveredAt        time.Time  `json:"discovered_at"`
-	LastSeenAt          time.Time  `json:"last_seen_at"`
-	ProfileCheckedAt    *time.Time `json:"profile_checked_at,omitempty"`
-	ProfileLastError    string     `json:"profile_last_error,omitempty"`
-	ProfileFailureCount int        `json:"profile_failure_count,omitempty"`
+	Username                  string     `json:"username"`
+	ProfileURL                string     `json:"profile_url"`
+	HomepageURL               string     `json:"homepage_url,omitempty"`
+	UsersPageRank             int        `json:"users_page_rank,omitempty"`
+	JoinedAt                  *time.Time `json:"joined_at,omitempty"`
+	Karma                     *int       `json:"karma,omitempty"`
+	StoriesSubmitted          *int       `json:"stories_submitted,omitempty"`
+	CommentsPosted            *int       `json:"comments_posted,omitempty"`
+	About                     string     `json:"about,omitempty"`
+	FeedURLs                  []string   `json:"feed_urls,omitempty"`
+	FeedDiscoveryCheckedAt    *time.Time `json:"feed_discovery_checked_at,omitempty"`
+	FeedDiscoveryLastError    string     `json:"feed_discovery_last_error,omitempty"`
+	FeedDiscoveryFailureCount int        `json:"feed_discovery_failure_count,omitempty"`
+	DiscoveredAt              time.Time  `json:"discovered_at"`
+	LastSeenAt                time.Time  `json:"last_seen_at"`
+	ProfileCheckedAt          *time.Time `json:"profile_checked_at,omitempty"`
+	ProfileLastError          string     `json:"profile_last_error,omitempty"`
+	ProfileFailureCount       int        `json:"profile_failure_count,omitempty"`
 }
 
 func Load(path string) (State, error) {
@@ -166,6 +170,37 @@ func (s *State) RecordProfileFailure(username string, checkedAt time.Time, profi
 	user.ProfileCheckedAt = &checkedAt
 	user.ProfileLastError = profileError.Error()
 	user.ProfileFailureCount++
+	s.Users[username] = user
+}
+
+func (s State) SitesDueForFeedDiscovery(now time.Time, recheckAfter time.Duration, maxSites int) []DiscoveredUser {
+	var due []DiscoveredUser
+	for _, user := range s.Users {
+		if user.HomepageURL == "" {
+			continue
+		}
+		if user.FeedDiscoveryCheckedAt == nil || now.Sub(*user.FeedDiscoveryCheckedAt) >= recheckAfter {
+			due = append(due, user)
+		}
+	}
+	sort.Slice(due, func(i, j int) bool { return priorityScore(due[i], now) > priorityScore(due[j], now) })
+	return limit(due, maxSites)
+}
+
+func (s *State) RecordFeedDiscoverySuccess(username string, feedURLs []string, checkedAt time.Time) {
+	user := s.Users[username]
+	user.FeedURLs = feedURLs
+	user.FeedDiscoveryCheckedAt = &checkedAt
+	user.FeedDiscoveryLastError = ""
+	user.FeedDiscoveryFailureCount = 0
+	s.Users[username] = user
+}
+
+func (s *State) RecordFeedDiscoveryFailure(username string, checkedAt time.Time, discoveryError error) {
+	user := s.Users[username]
+	user.FeedDiscoveryCheckedAt = &checkedAt
+	user.FeedDiscoveryLastError = discoveryError.Error()
+	user.FeedDiscoveryFailureCount++
 	s.Users[username] = user
 }
 

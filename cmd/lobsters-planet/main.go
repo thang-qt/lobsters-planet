@@ -8,6 +8,7 @@ import (
 
 	"lobsters-planet/internal/config"
 	"lobsters-planet/internal/discovery"
+	"lobsters-planet/internal/feeddiscovery"
 	"lobsters-planet/internal/output"
 )
 
@@ -18,6 +19,7 @@ Usage:
 
 Commands:
   discover  Discover Lobste.rs users and update local crawler state
+  feeds     Discover RSS/Atom feeds from known personal sites
   refresh   Refresh known feeds
   build     Generate public static site/data files
   help      Show this help
@@ -50,6 +52,8 @@ func run(args []string) error {
 		return nil
 	case "discover":
 		return discover(*configPath)
+	case "feeds":
+		return discoverFeeds(*configPath)
 	case "build":
 		return build(*configPath)
 	case "refresh":
@@ -59,6 +63,25 @@ func run(args []string) error {
 		fmt.Fprint(os.Stderr, usage)
 		return fmt.Errorf("unknown command")
 	}
+}
+
+func discoverFeeds(configPath string) error {
+	cfg, err := config.Load(configPath)
+	if err != nil {
+		return err
+	}
+
+	result, err := feeddiscovery.Run(context.Background(), cfg)
+	if err != nil {
+		return err
+	}
+
+	fmt.Printf("sites selected: %d\n", result.SitesSelected)
+	fmt.Printf("sites succeeded: %d\n", result.SitesSucceeded)
+	fmt.Printf("sites failed: %d\n", result.SitesFailed)
+	fmt.Printf("feeds found: %d\n", result.FeedsFound)
+	fmt.Printf("wrote %s\n", cfg.Output.StateFile)
+	return nil
 }
 
 func build(configPath string) error {

@@ -16,6 +16,9 @@ test:
 discover:
     go run ./cmd/lobsters-planet discover
 
+feeds:
+    go run ./cmd/lobsters-planet feeds
+
 build:
     go run ./cmd/lobsters-planet build
 
