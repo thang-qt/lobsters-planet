@@ -8,6 +8,7 @@ import (
 
 	"lobsters-planet/internal/config"
 	"lobsters-planet/internal/discovery"
+	"lobsters-planet/internal/output"
 )
 
 const usage = `lobsters-planet builds a static planet from Lobste.rs users' personal sites.
@@ -18,7 +19,7 @@ Usage:
 Commands:
   discover  Discover Lobste.rs users and update local crawler state
   refresh   Refresh known feeds
-  build     Generate the static site and combined feed
+  build     Generate public static site/data files
   help      Show this help
 `
 
@@ -49,13 +50,33 @@ func run(args []string) error {
 		return nil
 	case "discover":
 		return discover(*configPath)
-	case "refresh", "build":
+	case "build":
+		return build(*configPath)
+	case "refresh":
 		return fmt.Errorf("%s is not implemented yet", remaining[0])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command %q\n\n", remaining[0])
 		fmt.Fprint(os.Stderr, usage)
 		return fmt.Errorf("unknown command")
 	}
+}
+
+func build(configPath string) error {
+	cfg, err := config.Load(configPath)
+	if err != nil {
+		return err
+	}
+
+	result, err := output.Build(cfg)
+	if err != nil {
+		return err
+	}
+
+	fmt.Printf("exported %d users\n", result.Users)
+	fmt.Printf("exported %d sites\n", result.Sites)
+	fmt.Printf("user shards: %d\n", result.UserShards)
+	fmt.Printf("wrote %s\n", result.PublicDir)
+	return nil
 }
 
 func discover(configPath string) error {

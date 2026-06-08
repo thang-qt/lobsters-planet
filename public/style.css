@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fff8f2;
+  --fg: #241816;
+  --muted: #735f59;
+  --accent: #ac130d;
+  --card: #ffffffb8;
+  --line: #ead8d0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16100f;
+    --fg: #fff2ea;
+    --muted: #c5aaa0;
+    --card: #241918;
+    --line: #3b2925;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+main {
+  width: min(880px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+a { color: var(--accent); }
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  color: var(--muted);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .8rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  line-height: .95;
+  margin: .25rem 0 1rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stats div, .sites li {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.stats strong {
+  display: block;
+  font-size: 2rem;
+}
+
+.stats span, small, .hero p {
+  color: var(--muted);
+}
+
+.sites {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: .75rem;
+}
+
+.sites li > a {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.sites small {
+  display: block;
+}
+
+.sites p {
+  margin-bottom: 0;
+}

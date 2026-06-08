@@ -23,7 +23,10 @@ type LobstersConfig struct {
 }
 
 type OutputConfig struct {
-	StateFile string `yaml:"state_file"`
+	StateFile     string `yaml:"state_file"`
+	PublicDir     string `yaml:"public_dir"`
+	UsersPerShard int    `yaml:"users_per_shard"`
+	SiteTitle     string `yaml:"site_title"`
 }
 
 func Load(path string) (Config, error) {
@@ -44,6 +47,15 @@ func Load(path string) (Config, error) {
 	}
 	if cfg.Output.StateFile == "" {
 		return Config{}, fmt.Errorf("output.state_file is required")
+	}
+	if cfg.Output.PublicDir == "" {
+		return Config{}, fmt.Errorf("output.public_dir is required")
+	}
+	if cfg.Output.UsersPerShard <= 0 {
+		cfg.Output.UsersPerShard = 500
+	}
+	if cfg.Output.SiteTitle == "" {
+		cfg.Output.SiteTitle = "Lobsters Planet"
 	}
 	if cfg.Lobsters.RequestTimeoutSeconds <= 0 {
 		cfg.Lobsters.RequestTimeoutSeconds = 15

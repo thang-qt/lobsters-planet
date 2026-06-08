@@ -15,6 +15,7 @@ feeds:
 output:
   state_file: "state/crawl-state.json"
   public_dir: "public"
+  users_per_shard: 500
   max_latest_entries: 300
   site_title: "Lobsters Planet"
   site_url: "http://localhost:8080"

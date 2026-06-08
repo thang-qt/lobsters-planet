@@ -15,3 +15,9 @@ test:
 
 discover:
     go run ./cmd/lobsters-planet discover
+
+build:
+    go run ./cmd/lobsters-planet build
+
+serve:
+    nix shell nixpkgs#python3 -c python3 -m http.server 8080 --directory public
