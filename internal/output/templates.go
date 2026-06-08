@@ -24,7 +24,7 @@ const pageHead = `<!doctype html>
 
 const pageFoot = `
   <footer class="site-footer">
-    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>.</p>
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
   </footer>
 </body>
 </html>
