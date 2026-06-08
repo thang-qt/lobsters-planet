@@ -1,0 +1,57 @@
+name: Refresh and deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [master]
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  refresh-build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Test
+        run: go test ./...
+
+      - name: Refresh Lobste.rs users
+        run: go run ./cmd/lobsters-planet discover
+
+      - name: Discover personal site feeds
+        run: go run ./cmd/lobsters-planet feeds
+
+      - name: Refresh feeds
+        run: go run ./cmd/lobsters-planet refresh
+
+      - name: Build static site
+        run: go run ./cmd/lobsters-planet build
+
+      - name: Commit refreshed state and public output
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh planet data"
+          file_pattern: "state/crawl-state.json public config.yaml"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=lobsters-planet --branch=${{ github.ref_name }}

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lobsters Planet</title>
-    <link>http://localhost:8080</link>
+    <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Mon, 08 Jun 2026 16:01:17 +0000</lastBuildDate>
-    <item>
-      <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
-      <author>jcs</author>
-      <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
-    </item>
+    <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <lastBuildDate>Mon, 08 Jun 2026 16:06:13 +0000</lastBuildDate>
     <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
       <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <author>jcs</author>
+      <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>joshua stein</title>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -246,18 +246,18 @@
       <pubDate>Mon, 13 Jan 2025 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wallops 2.1 Released</title>
-      <link>https://jcs.org/2024/09/23/wallops21</link>
-      <guid isPermaLink="false">https://jcs.org/2024/09/23/wallops21</guid>
-      <description>Another update to Wallops building on the 2.0 release is available: wallops-2.1.sit (StuffIt 3 archive) SHA256: 7cb16046e076488e 1997e1232631cf2d c9737bac0a94f034 8caf5d183927f4a9 SHA1: fd1d7145aa4baaf5 322175f348644d10 57267a65 This update includes a number of new features and bugfixes: Implement tab completion in channels; by typing part of a user&#39;s nick and pressing tab, the input bar will show their completed nick with &#34;:&#34; after it Do UTF-8 to MacRoman conversion of incoming text, where poss…</description>
-      <author>jcs</author>
-      <pubDate>Mon, 23 Sep 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>BlueSCSI Wi-Fi Desk Accessory 1.2 Released</title>
       <link>https://jcs.org/2024/09/23/wifi_da12</link>
       <guid isPermaLink="false">https://jcs.org/2024/09/23/wifi_da12</guid>
       <description>BlueSCSI Wi-Fi Desk Accessory 1.2 has been released: wifi_da-1.2.sit (StuffIt 3 archive) SHA256: 984935cc5e3e2510 2849cd41c52764cb 08060d183d48cfb4 9f9da3eead49aea8 SHA1: 980b17f58babb839 977b7d714f8556a8 2bf33c7e Changes in this version: Added an &#34;(Other Network)&#34; option to the SSID list to manually enter a hidden SSID</description>
+      <author>jcs</author>
+      <pubDate>Mon, 23 Sep 2024 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wallops 2.1 Released</title>
+      <link>https://jcs.org/2024/09/23/wallops21</link>
+      <guid isPermaLink="false">https://jcs.org/2024/09/23/wallops21</guid>
+      <description>Another update to Wallops building on the 2.0 release is available: wallops-2.1.sit (StuffIt 3 archive) SHA256: 7cb16046e076488e 1997e1232631cf2d c9737bac0a94f034 8caf5d183927f4a9 SHA1: fd1d7145aa4baaf5 322175f348644d10 57267a65 This update includes a number of new features and bugfixes: Implement tab completion in channels; by typing part of a user&#39;s nick and pressing tab, the input bar will show their completed nick with &#34;:&#34; after it Do UTF-8 to MacRoman conversion of incoming text, where poss…</description>
       <author>jcs</author>
       <pubDate>Mon, 23 Sep 2024 05:00:00 +0000</pubDate>
     </item>
