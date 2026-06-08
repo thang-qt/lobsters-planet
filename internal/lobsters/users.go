@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"sort"
 	"strings"
 
 	"golang.org/x/net/html"
 )
 
 type User struct {
-	Username   string `json:"username"`
-	ProfileURL string `json:"profile_url"`
+	Username      string `json:"username"`
+	ProfileURL    string `json:"profile_url"`
+	UsersPageRank int    `json:"users_page_rank"`
 }
 
 func FetchUsers(ctx context.Context, client *http.Client, usersURL, userAgent string) ([]User, error) {
@@ -42,37 +42,72 @@ func FetchUsers(ctx context.Context, client *http.Client, usersURL, userAgent st
 		return nil, fmt.Errorf("parse users URL: %w", err)
 	}
 
-	usersByName := make(map[string]User)
+	users := collectUsersFromTrees(doc, base)
+	if len(users) == 0 {
+		users = collectUsersFromDocument(doc, base)
+	}
+	if len(users) == 0 {
+		return nil, fmt.Errorf("parse users page: found no profile links")
+	}
+	return users, nil
+}
+
+func collectUsersFromTrees(doc *html.Node, base *url.URL) []User {
+	seen := make(map[string]bool)
+	var users []User
 	var walk func(*html.Node)
 	walk = func(n *html.Node) {
-		if n.Type == html.ElementNode && n.Data == "a" {
-			for _, attr := range n.Attr {
-				if attr.Key != "href" || !strings.HasPrefix(attr.Val, "/~") {
-					continue
-				}
-				username := strings.TrimPrefix(attr.Val, "/~")
-				if username == "" || strings.Contains(username, "/") {
-					continue
-				}
-				profile, err := base.Parse(attr.Val)
-				if err == nil {
-					usersByName[username] = User{Username: username, ProfileURL: profile.String()}
-				}
-			}
+		if n.Type == html.ElementNode && n.Data == "ul" && hasClass(n, "user_tree") {
+			collectUsers(n, base, seen, &users)
+			return
 		}
 		for child := n.FirstChild; child != nil; child = child.NextSibling {
 			walk(child)
 		}
 	}
 	walk(doc)
+	return users
+}
 
-	users := make([]User, 0, len(usersByName))
-	for _, user := range usersByName {
-		users = append(users, user)
+func collectUsersFromDocument(doc *html.Node, base *url.URL) []User {
+	seen := make(map[string]bool)
+	var users []User
+	collectUsers(doc, base, seen, &users)
+	return users
+}
+
+func collectUsers(n *html.Node, base *url.URL, seen map[string]bool, users *[]User) {
+	if n.Type == html.ElementNode && n.Data == "a" {
+		for _, attr := range n.Attr {
+			if attr.Key != "href" || !strings.HasPrefix(attr.Val, "/~") {
+				continue
+			}
+			username := strings.TrimPrefix(attr.Val, "/~")
+			if username == "" || strings.Contains(username, "/") || seen[username] {
+				continue
+			}
+			profile, err := base.Parse(attr.Val)
+			if err == nil {
+				seen[username] = true
+				*users = append(*users, User{Username: username, ProfileURL: profile.String(), UsersPageRank: len(*users) + 1})
+			}
+		}
 	}
-	sort.Slice(users, func(i, j int) bool { return users[i].Username < users[j].Username })
-	if len(users) == 0 {
-		return nil, fmt.Errorf("parse users page: found no profile links")
+	for child := n.FirstChild; child != nil; child = child.NextSibling {
+		collectUsers(child, base, seen, users)
 	}
-	return users, nil
+}
+
+func hasClass(n *html.Node, className string) bool {
+	for _, attr := range n.Attr {
+		if attr.Key != "class" {
+			continue
+		}
+		for _, class := range strings.Fields(attr.Val) {
+			if class == className {
+				return true
+			}
+		}
+	}
+	return false
 }

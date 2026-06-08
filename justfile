@@ -12,3 +12,6 @@ lint:
 
 test:
     go test ./...
+
+discover:
+    go run ./cmd/lobsters-planet discover

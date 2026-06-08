@@ -4,13 +4,10 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"net/http"
 	"os"
-	"time"
 
 	"lobsters-planet/internal/config"
-	"lobsters-planet/internal/lobsters"
-	"lobsters-planet/internal/state"
+	"lobsters-planet/internal/discovery"
 )
 
 const usage = `lobsters-planet builds a static planet from Lobste.rs users' personal sites.
@@ -67,28 +64,18 @@ func discover(configPath string) error {
 		return err
 	}
 
-	store, err := state.Load(cfg.Output.StateFile)
+	result, _, err := discovery.Run(context.Background(), cfg)
 	if err != nil {
 		return err
 	}
 
-	client := &http.Client{Timeout: time.Duration(cfg.Lobsters.RequestTimeoutSeconds) * time.Second}
-	ctx := context.Background()
-	checkedAt := time.Now().UTC()
-
-	users, err := lobsters.FetchUsers(ctx, client, cfg.Lobsters.UsersURL, cfg.UserAgent)
-	if err != nil {
-		return err
-	}
-	newUsers := store.MergeUsers(users, checkedAt)
-
-	if err := state.Save(cfg.Output.StateFile, store); err != nil {
-		return err
-	}
-
-	fmt.Printf("fetched %d Lobste.rs users\n", len(users))
-	fmt.Printf("new users: %d\n", newUsers)
-	fmt.Printf("known users: %d\n", len(store.Users))
+	fmt.Printf("fetched %d Lobste.rs users\n", result.FetchedUsers)
+	fmt.Printf("new users: %d\n", result.NewUsers)
+	fmt.Printf("known users: %d\n", result.KnownUsers)
+	fmt.Printf("profiles selected: %d\n", result.ProfilesSelected)
+	fmt.Printf("profiles succeeded: %d\n", result.ProfilesSucceeded)
+	fmt.Printf("profiles failed: %d\n", result.ProfilesFailed)
+	fmt.Printf("homepages found: %d\n", result.HomepagesFound)
 	fmt.Printf("wrote %s\n", cfg.Output.StateFile)
 	return nil
 }

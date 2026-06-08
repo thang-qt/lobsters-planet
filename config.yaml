@@ -5,6 +5,7 @@ lobsters:
   request_delay_seconds: 5
   request_timeout_seconds: 15
   old_profile_recheck_days: 7
+  max_new_profiles_per_run: 25
   max_old_profiles_per_run: 100
 
 feeds:
