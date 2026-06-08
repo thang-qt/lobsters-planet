@@ -28,5 +28,8 @@ output:
   public_dir: "public"
   users_per_shard: 500
   max_latest_entries: 300
+  homepage_entries: 30
+  posts_per_page: 50
+  user_entries: 20
   site_title: "Lobsters Planet"
   site_url: "http://localhost:8080"

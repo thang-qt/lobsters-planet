@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>d_run</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~d_run">Lobste.rs profile</a>
+        <a href="http://darrennewton.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>28 Nov 2012</dd></div>
+        <div><dt>Karma</dt><dd>339</dd></div>
+        <div><dt>Stories</dt><dd>20</dd></div>
+        <div><dt>Comments</dt><dd>54</dd></div>
+        <div><dt>Profile checked</dt><dd>8 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>8 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Parenthesis enthusiast and abuser of browsers</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">21 Dec 2016 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2016/12/21/components-a-la-carte/">Components á la carte</a></h3>
+          <p>TL;DR - By exploiting Webpack’s async loading feature you can roll a feature-gating mechanism in your JavaScript app that only loads the code your end user is supposed to see. This is great for beta testing features and making smaller initial loads. You probably don’t need to do this in your application.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Dec 2016 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2016/12/17/identicons-with-clojurescript/">Identicons with ClojureScript</a></h3>
+          <p>A while back I put together a little graphics package written in Racket for generating identicons. This summer someone at work stumbled across it and asked if I could generate some of those identicons in the browser. I decided to give it a shot and whipped up a small subset of the original package in ClojureScript: identikon-cljs</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Mar 2015 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2015/03/08/sour-mash-getting-your-clojure-into-a-jar/">Sour Mash: getting your Clojure into a JAR</a></h3>
+          <p>This weekend I decided to finally bite the bullet and deploy one of my Clojure apps as a JAR. “Certainly” I thought to myself, “there are great tutorials for this online”. Yes, yes there are, except none of them worked for me and in fact did lead to the consumption of some rye whiskey. Caveats: Every Clojure app is different, and the details of your app will determine the steps necessary to build a JAR. None of the information I found online specifically addressed the problems I had, so …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Jan 2015 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2015/01/04/deterministic-pixels/">Deterministic Pixels</a></h3>
+          <p>I’ve always liked identicons, which WordPress and GitHub have used to great effect. The premise is simple: take a user identifier such as an IP or email address and deterministically convert it into an image based on a simple algorithm. To that I end I started hacking on Identikon - a little Racket program that generates different types of identicons based on rules modules.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Nov 2013 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2013/11/16/evented-arrays-a-javascript-conveyor-belt/">EventedArray: a JavaScript conveyor belt</a></h3>
+          <p>This post takes a quick look at EventedArray, a small Array-like JavaScript data structure (written in CoffeeScript) that allows you to register callbacks on accessor/mutator operations and also create fixed size buffers. All examples are in JavaScript.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 May 2013 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2013/05/05/get-functional-with-underscore-contrib/">Get Functional with Underscore-Contrib</a></h3>
+          <p>TL;DR - Fogus and Jeremy Ashkenas published the underscore-contrib repo recently which is loaded with functional JavaScript goodness based on the popular underscore library. I walk through a few examples of how I use it in the hopes you’ll get interested in working out new ways to solve your own day-to-day issues.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Sep 2012 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2012/09/16/hacking-up-sites-with-middleman/">Hacking up sites with Middleman</a></h3>
+          <p>TL;DR - I’m going to walk through how I rebuilt this blog using a static site generator. In the first half I walk through my decision for moving to a static site. You can skip down to the tech talk if you want.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Jul 2012 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2012/07/08/heroku-and-your-demo/">Heroku and your demo: It&#39;s great till it isn&#39;t</a></h3>
+          <p>In my previous blog post I linked to a demo application hosted on Heroku. Heroku is great, as you can use their free hosting to quickly get your demo up online using a variety of technologies. Unfortunately I ran into a few issues related to traffic spikes and bad weather. The cloud is great, until it’s not.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jun 2012 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2012/06/24/backbonejs-and-you/">Backbone.js and You</a></h3>
+          <p>I’m currently working with the amazing folks at Arc90 on a pretty hefty project. It’s a great working environment that really stresses collaboration and learning, with weekly code and design reviews. We’re starting to use Backbone.js on a number of projects, so a quick talk was organized to explain the ins and outs to everyone. Since I had worked on some previous projects using Backbone, they asked me to do an intro.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Dec 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/12/08/protip-url-parameters-with-nginx-and-php/">Protip: URL Parameters with Nginx &amp; PHP</a></h3>
+          <p>If you’re using nginx as your webserver and need to pass URL parameters to your PHP front controller then some adjustments to your configuration file are necessary:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Nov 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/11/19/for-programmers-the-best-of-edw519/">For Programmers: The Best of edw519</a></h3>
+          <p>A while back on Hacker News, a.k.a Ed Weissman posted his collection of tips and advice for programmers. It was amazing stuff.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">6 Nov 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/11/06/my-little-friend-z/">My little friend z</a></h3>
+          <p>I’m a command line interface kind of guy, which is funny since I do everything on Macs. Then again, I first embraced PCs with an Apple IIe, which was a CLI only experience. One little tool I’ve had installed for a while is z by Rupa. It’s a nice little shell script that keeps tabs on the directories you’ve been cding in and out of and then lets you quickjump to them using a simple regex. So instead of remembering a long path like:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Nov 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/11/05/occupy-wall-street-design-edition/">Occupy Wall Street - Design Edition</a></h3>
+          <p>My fellow worker bees over at Gabardine.com decided to flex their design chops by lending a hand to the folks downtown at Liberty Square. While Occupy Wall Street gives us a much needed civics lesson, and the 1% continues to skim the cream off your bank accounts, Scott Grant took some of the DIY signs from the occupation and re-made them as snappy posters.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Oct 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/10/30/mirror-site-and-convert-to-pdf/">How to: Convert site to PDF with wkhtmltopdf and wget</a></h3>
+          <p>A friend of mine emailed me the other day with a quick question: “What’s an easy way to convert an entire site to PDF? Are there tools for this?” Why yes, yes there are. In fact, it’s pretty easy to do if you’re on a Mac or Linux OS using wget and wkhtmltopdf:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Oct 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/10/29/darth-small/">Darth Small</a></h3>
+          
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Aug 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/08/28/phrap-php-pdo-wrapper/">Introducing Phrap</a></h3>
+          <p>Phrap is a super-light PHP database wrapper using PDO for basic CRUD operations with MySQL. If that doesn’t sound sexy, well, that’s because it isn’t.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Jan 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/01/30/rvm-compile-ruby-with-iconv/">Compile Ruby 1.9.2 with RVM using Homebrew installed Iconv</a></h3>
+          <p>I spent a very frustrating hour this morning trying to get the JSON gem to work on Ruby 1.9.2 p136 installed via RVM on Snow Leopard. I thought I would post my solution to help any other unfortunate souls.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Jan 2011 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2011/01/28/i-got-gamed-on-stack-overflow/">I got gamed on Stack Overflow</a></h3>
+          <p>Silly me. I stumbled across a question on Stack Overflow that was right up my alley, as it was something I had worked on before: Extract Relevant Tag/Keywords from Text block. The question posted by user593778 indicated that they wanted to use PHP or JavaScript to lift relevant keywords from a block of text.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Dec 2010 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2010/12/21/euler3coffeescript/">Project Euler #3 in CoffeeScript</a></h3>
+          <p>I always figure one of the best ways to learn a new language is to try out a couple of Project Euler exercises using it. I had solved this one with JavaScript previously, but using CoffeeScript let me use some more Python-style comprehensions to get to the same solution:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Sep 2010 · Miscellanea</p>
+          <h3><a href="http://darrennewton.com/2010/09/05/convert-csv-to-text-with-ruby/">Bending CSVs to your will with Ruby</a></h3>
+          <p>I’m currently working on a large print project. It’s a membership directory for a non-profit organization and I’m laying it out with Adobe InDesign. The client handed me a CSV dump of their member database for the directory. I’ve mentioned more times than I can count how much I dislike repetition (cutting, pasting, rinse, repeat) so I cooked up some Ruby scripts to parse the CSV into various XML and plaintext formats.</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>.</p>
+  </footer>
+</body>
+</html>

@@ -1,13 +1,16 @@
 package feeds
 
 import (
+	"bytes"
 	"context"
 	"fmt"
+	"io"
 	"net/http"
 	"strings"
 	"time"
 
 	"github.com/mmcdole/gofeed"
+	"golang.org/x/net/html"
 
 	"lobsters-planet/internal/state"
 )
@@ -59,7 +62,7 @@ func entryID(feedURL string, item *gofeed.Item) string {
 
 func summary(item *gofeed.Item) string {
 	for _, candidate := range []string{item.Description, item.Content} {
-		candidate = strings.Join(strings.Fields(candidate), " ")
+		candidate = plainText(candidate)
 		if len(candidate) > 500 {
 			return candidate[:500] + "…"
 		}
@@ -68,6 +71,57 @@ func summary(item *gofeed.Item) string {
 		}
 	}
 	return ""
+}
+
+func plainText(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+	if !strings.Contains(value, "<") || !strings.Contains(value, ">") {
+		return strings.Join(strings.Fields(value), " ")
+	}
+
+	var builder strings.Builder
+	tokenizer := html.NewTokenizer(bytes.NewBufferString(value))
+	skipDepth := 0
+	for {
+		tokenType := tokenizer.Next()
+		switch tokenType {
+		case html.ErrorToken:
+			if tokenizer.Err() == io.EOF {
+				return strings.Join(strings.Fields(builder.String()), " ")
+			}
+			return strings.Join(strings.Fields(value), " ")
+		case html.StartTagToken, html.SelfClosingTagToken:
+			token := tokenizer.Token()
+			name := strings.ToLower(token.Data)
+			if name == "script" || name == "style" || name == "noscript" {
+				skipDepth++
+				continue
+			}
+			if skipDepth == 0 && (name == "p" || name == "br" || name == "li" || name == "div" || name == "blockquote" || name == "h1" || name == "h2" || name == "h3") {
+				builder.WriteByte(' ')
+			}
+		case html.EndTagToken:
+			token := tokenizer.Token()
+			name := strings.ToLower(token.Data)
+			if name == "script" || name == "style" || name == "noscript" {
+				if skipDepth > 0 {
+					skipDepth--
+				}
+				continue
+			}
+			if skipDepth == 0 && (name == "p" || name == "li" || name == "div" || name == "blockquote") {
+				builder.WriteByte(' ')
+			}
+		case html.TextToken:
+			if skipDepth == 0 {
+				builder.Write(tokenizer.Text())
+				builder.WriteByte(' ')
+			}
+		}
+	}
 }
 
 func normalizeTime(value *time.Time) *time.Time {

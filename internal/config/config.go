@@ -38,6 +38,9 @@ type OutputConfig struct {
 	PublicDir        string `yaml:"public_dir"`
 	UsersPerShard    int    `yaml:"users_per_shard"`
 	MaxLatestEntries int    `yaml:"max_latest_entries"`
+	HomepageEntries  int    `yaml:"homepage_entries"`
+	PostsPerPage     int    `yaml:"posts_per_page"`
+	UserEntries      int    `yaml:"user_entries"`
 	SiteTitle        string `yaml:"site_title"`
 	SiteURL          string `yaml:"site_url"`
 }
@@ -69,6 +72,15 @@ func Load(path string) (Config, error) {
 	}
 	if cfg.Output.MaxLatestEntries <= 0 {
 		cfg.Output.MaxLatestEntries = 300
+	}
+	if cfg.Output.HomepageEntries <= 0 {
+		cfg.Output.HomepageEntries = 30
+	}
+	if cfg.Output.PostsPerPage <= 0 {
+		cfg.Output.PostsPerPage = 50
+	}
+	if cfg.Output.UserEntries <= 0 {
+		cfg.Output.UserEntries = 20
 	}
 	if cfg.Output.SiteTitle == "" {
 		cfg.Output.SiteTitle = "Lobsters Planet"

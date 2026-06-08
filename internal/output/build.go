@@ -26,6 +26,9 @@ type PublicUser struct {
 	Username         string     `json:"username"`
 	ProfileURL       string     `json:"profile_url"`
 	HomepageURL      string     `json:"homepage_url,omitempty"`
+	HasDetailPage    bool       `json:"has_detail_page,omitempty"`
+	ProfileCheckedAt *time.Time `json:"profile_checked_at,omitempty"`
+	FeedCheckedAt    *time.Time `json:"feed_checked_at,omitempty"`
 	UsersPageRank    int        `json:"users_page_rank,omitempty"`
 	JoinedAt         *time.Time `json:"joined_at,omitempty"`
 	Karma            *int       `json:"karma,omitempty"`
@@ -110,7 +113,7 @@ func Build(cfg config.Config) (Result, error) {
 	if err := writeRSS(filepath.Join(publicDir, "feed.xml"), cfg, entries, stats.GeneratedAt); err != nil {
 		return Result{}, err
 	}
-	if err := writeHTML(filepath.Join(publicDir, "index.html"), cfg.Output.SiteTitle, stats, sites); err != nil {
+	if err := writeSitePages(publicDir, cfg.Output.SiteTitle, stats, users, sites, entries, cfg.Output.UsersPerShard, cfg.Output.HomepageEntries, cfg.Output.PostsPerPage, cfg.Output.UserEntries); err != nil {
 		return Result{}, err
 	}
 
@@ -125,6 +128,9 @@ func publicData(store state.State, maxEntries int) ([]PublicUser, []PublicSite, 
 			Username:         user.Username,
 			ProfileURL:       user.ProfileURL,
 			HomepageURL:      user.HomepageURL,
+			HasDetailPage:    user.JoinedAt != nil || user.HomepageURL != "" || user.About != "",
+			ProfileCheckedAt: user.ProfileCheckedAt,
+			FeedCheckedAt:    latestFeedCheck(user, store),
 			UsersPageRank:    user.UsersPageRank,
 			JoinedAt:         user.JoinedAt,
 			Karma:            user.Karma,
@@ -152,6 +158,17 @@ func publicData(store state.State, maxEntries int) ([]PublicUser, []PublicSite, 
 	sort.Slice(sites, func(i, j int) bool { return compareSites(sites[i], sites[j]) < 0 })
 	entries := publicEntries(store, maxEntries)
 	return users, sites, entries
+}
+
+func latestFeedCheck(user state.DiscoveredUser, store state.State) *time.Time {
+	var latest *time.Time
+	for _, feedURL := range user.FeedURLs {
+		checkedAt := store.Feeds[feedURL].CheckedAt
+		if checkedAt != nil && (latest == nil || checkedAt.After(*latest)) {
+			latest = checkedAt
+		}
+	}
+	return latest
 }
 
 func publicEntries(store state.State, maxEntries int) []PublicEntry {
@@ -222,16 +239,105 @@ func writeJSON(path string, value any) error {
 	return writeFile(path, data)
 }
 
-func writeHTML(path, title string, stats Stats, sites []PublicSite) error {
-	page := struct {
-		Title string
-		Stats Stats
-		Sites []PublicSite
-	}{Title: title, Stats: stats, Sites: sites}
-	tmpl := template.Must(template.New("index").Parse(indexTemplate))
+func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, sites []PublicSite, entries []PublicEntry, usersPerPage, homepageEntries, postsPerPage, userEntries int) error {
+	entriesByUser := make(map[string][]PublicEntry)
+	for _, entry := range entries {
+		entriesByUser[entry.OwnerUsername] = append(entriesByUser[entry.OwnerUsername], entry)
+	}
+
+	if err := renderPage(filepath.Join(publicDir, "index.html"), homeTemplate, map[string]any{"Title": title, "Stats": stats, "Entries": entries[:min(homepageEntries, len(entries))], "Users": users[:min(18, len(users))], "Sites": sites}); err != nil {
+		return err
+	}
+	if err := writePostPages(publicDir, title, stats, entries, postsPerPage); err != nil {
+		return err
+	}
+	if err := renderPage(filepath.Join(publicDir, "users", "index.html"), usersTemplate, map[string]any{"Title": title, "Stats": stats, "Users": users[:min(usersPerPage, len(users))], "Page": 1, "Pages": (len(users) + usersPerPage - 1) / usersPerPage}); err != nil {
+		return err
+	}
+	pages := (len(users) + usersPerPage - 1) / usersPerPage
+	for page := 2; page <= pages; page++ {
+		start, end := (page-1)*usersPerPage, min(page*usersPerPage, len(users))
+		if err := renderPage(filepath.Join(publicDir, "users", fmt.Sprintf("page-%d.html", page)), usersTemplate, map[string]any{"Title": title, "Stats": stats, "Users": users[start:end], "Page": page, "Pages": pages}); err != nil {
+			return err
+		}
+	}
+	for _, user := range users {
+		if !user.HasDetailPage {
+			continue
+		}
+		userPosts := entriesByUser[user.Username]
+		if len(userPosts) > userEntries {
+			userPosts = userPosts[:userEntries]
+		}
+		if err := renderPage(filepath.Join(publicDir, "users", user.Username, "index.html"), userTemplate, map[string]any{"Title": title, "User": user, "Entries": userPosts}); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func writePostPages(publicDir, title string, stats Stats, entries []PublicEntry, postsPerPage int) error {
+	pages := (len(entries) + postsPerPage - 1) / postsPerPage
+	if pages == 0 {
+		pages = 1
+	}
+	for page := 1; page <= pages; page++ {
+		start, end := (page-1)*postsPerPage, min(page*postsPerPage, len(entries))
+		path := filepath.Join(publicDir, "posts", "index.html")
+		if page > 1 {
+			path = filepath.Join(publicDir, "posts", fmt.Sprintf("page-%d.html", page))
+		}
+		if err := renderPage(path, postsTemplate, map[string]any{"Title": title, "Stats": stats, "Entries": entries[start:end], "Page": page, "Pages": pages}); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func renderPage(path, pageTemplate string, data any) error {
+	functions := template.FuncMap{
+		"date": func(value *time.Time) string {
+			if value == nil {
+				return ""
+			}
+			return value.Format("2 Jan 2006")
+		},
+		"datetime": func(value time.Time) string {
+			if value.IsZero() {
+				return ""
+			}
+			return value.Format("2 Jan 2006, 15:04 UTC")
+		},
+		"entryDate": func(entry PublicEntry) string {
+			value := entryTime(entry)
+			if value.IsZero() {
+				return ""
+			}
+			return value.Format("2 Jan 2006")
+		},
+		"userPath": func(username string) string { return "/users/" + username + "/" },
+		"prevPath": func(page int) string {
+			if page <= 2 {
+				return "/users/"
+			}
+			return fmt.Sprintf("/users/page-%d.html", page-1)
+		},
+		"nextPath": func(page int) string { return fmt.Sprintf("/users/page-%d.html", page+1) },
+		"prevPostPath": func(page int) string {
+			if page <= 2 {
+				return "/posts/"
+			}
+			return fmt.Sprintf("/posts/page-%d.html", page-1)
+		},
+		"nextPostPath": func(page int) string { return fmt.Sprintf("/posts/page-%d.html", page+1) },
+	}
+	tmpl, err := template.New("page").Funcs(functions).Parse(pageTemplate)
+	if err != nil {
+		return fmt.Errorf("parse template for %s: %w", path, err)
+	}
 	var builder strings.Builder
-	if err := tmpl.Execute(&builder, page); err != nil {
-		return fmt.Errorf("render index: %w", err)
+	if err := tmpl.Execute(&builder, data); err != nil {
+		return fmt.Errorf("render %s: %w", path, err)
 	}
 	return writeFile(path, []byte(builder.String()))
 }
