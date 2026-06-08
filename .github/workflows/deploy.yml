@@ -1,4 +1,4 @@
-name: Refresh and deploy
+name: Refresh static site
 
 on:
   workflow_dispatch:
@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  deployments: write
 
 concurrency:
   group: deploy
@@ -49,9 +48,3 @@ jobs:
           commit_message: "Refresh planet data"
           file_pattern: "state/crawl-state.json public config.yaml"
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=lobsters-planet --branch=${{ github.ref_name }}
