@@ -15,6 +15,7 @@ const pageHead = `<!doctype html>
     <nav>
       <a href="/posts/">Posts</a>
       <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
       <a href="/data/sites.json">Data</a>
       <a class="pill" href="/feed.xml">RSS</a>
     </nav>
@@ -89,6 +90,68 @@ const postsTemplate = pageHead + `
       <span>Page {{ .Page }} of {{ .Pages }}</span>
       {{ if lt .Page .Pages }}<a href="{{ nextPostPath .Page }}">Next</a>{{ end }}
     </nav>
+  </main>
+` + pageFoot
+
+const analyticsTemplate = pageHead + `
+  <main>
+    <section class="page-title">
+      <p class="eyebrow">Analytics</p>
+      <h1>Dataset notes</h1>
+      <p>Based on crawled profiles and discovered feeds, not the full Lobste.rs database. Last built {{ datetime .Analytics.GeneratedAt }}. <a href="/data/analytics.json">JSON</a></p>
+    </section>
+
+    <section class="metrics" aria-label="analytics overview">
+      <div><strong>{{ .Analytics.Overview.Users }}</strong><span>users</span></div>
+      <div><strong>{{ .Analytics.Overview.CrawledProfiles }}</strong><span>crawled profiles</span></div>
+      <div><strong>{{ .Analytics.Overview.Homepages }}</strong><span>homepages</span></div>
+      <div><strong>{{ .Analytics.Overview.UsersWithFeeds }}</strong><span>users with feeds</span></div>
+      <div><strong>{{ .Analytics.Overview.Feeds }}</strong><span>feeds with posts</span></div>
+      <div><strong>{{ .Analytics.Overview.Entries }}</strong><span>entries</span></div>
+    </section>
+
+    <section class="analytics-section">
+      <h2>Oldest known users</h2>
+      <table>
+        <thead><tr><th>User</th><th>Joined</th><th>Karma</th><th>Site</th></tr></thead>
+        <tbody>{{ range .Analytics.OldestUsers }}<tr><td><a href="{{ userPath .Username }}">{{ .Username }}</a></td><td>{{ date .JoinedAt }}</td><td>{{ if .Karma }}{{ .Karma }}{{ end }}</td><td>{{ if .HomepageURL }}<a href="{{ .HomepageURL }}">site</a>{{ end }}</td></tr>{{ end }}</tbody>
+      </table>
+    </section>
+
+    <section class="analytics-grid">
+      <section class="analytics-section">
+        <h2>Highest karma</h2>
+        <ol class="rank-list">{{ range .Analytics.TopKarma }}<li><a href="{{ userPath .Username }}">{{ .Username }}</a> <span>{{ .Karma }}</span></li>{{ end }}</ol>
+      </section>
+      <section class="analytics-section">
+        <h2>Most stories</h2>
+        <ol class="rank-list">{{ range .Analytics.TopStories }}<li><a href="{{ userPath .Username }}">{{ .Username }}</a> <span>{{ .StoriesSubmitted }}</span></li>{{ end }}</ol>
+      </section>
+      <section class="analytics-section">
+        <h2>Most comments</h2>
+        <ol class="rank-list">{{ range .Analytics.TopComments }}<li><a href="{{ userPath .Username }}">{{ .Username }}</a> <span>{{ .CommentsPosted }}</span></li>{{ end }}</ol>
+      </section>
+    </section>
+
+    <section class="analytics-section">
+      <h2>Most active discovered feeds</h2>
+      <table>
+        <thead><tr><th>User</th><th>Entries</th><th>Latest</th><th>Feed</th></tr></thead>
+        <tbody>{{ range .Analytics.ActiveFeeds }}<tr><td><a href="{{ userPath .OwnerUsername }}">{{ .OwnerUsername }}</a></td><td>{{ .Entries }}</td><td>{{ date .LatestAt }}</td><td><a href="{{ .FeedURL }}">{{ if .FeedTitle }}{{ .FeedTitle }}{{ else }}feed{{ end }}</a></td></tr>{{ end }}</tbody>
+      </table>
+    </section>
+
+    <section class="analytics-section">
+      <h2>Recently active personal sites</h2>
+      <div class="entries">
+        {{ range .Analytics.RecentSites }}
+          <article class="entry">
+            <p class="meta">{{ date .LatestAt }} · <a href="{{ userPath .Username }}">{{ .Username }}</a>{{ if .FeedTitle }} · {{ .FeedTitle }}{{ end }}</p>
+            <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+          </article>
+        {{ end }}
+      </div>
+    </section>
   </main>
 ` + pageFoot
 

@@ -78,6 +78,45 @@ type UserShardIndexEntry struct {
 	Count int    `json:"count"`
 }
 
+type Analytics struct {
+	GeneratedAt time.Time         `json:"generated_at"`
+	Overview    AnalyticsOverview `json:"overview"`
+	OldestUsers []PublicUser      `json:"oldest_users"`
+	TopKarma    []PublicUser      `json:"top_karma"`
+	TopStories  []PublicUser      `json:"top_stories"`
+	TopComments []PublicUser      `json:"top_comments"`
+	ActiveFeeds []FeedAnalytics   `json:"active_feeds"`
+	RecentSites []RecentSite      `json:"recent_sites"`
+}
+
+type AnalyticsOverview struct {
+	Users           int `json:"users"`
+	CrawledProfiles int `json:"crawled_profiles"`
+	Homepages       int `json:"homepages"`
+	UsersWithFeeds  int `json:"users_with_feeds"`
+	Feeds           int `json:"feeds"`
+	FeedsWithPosts  int `json:"feeds_with_posts"`
+	Entries         int `json:"entries"`
+}
+
+type FeedAnalytics struct {
+	FeedURL       string     `json:"feed_url"`
+	FeedTitle     string     `json:"feed_title,omitempty"`
+	OwnerUsername string     `json:"owner_username"`
+	SiteURL       string     `json:"site_url"`
+	Entries       int        `json:"entries"`
+	LatestAt      *time.Time `json:"latest_at,omitempty"`
+}
+
+type RecentSite struct {
+	Username  string     `json:"username"`
+	SiteURL   string     `json:"site_url"`
+	FeedTitle string     `json:"feed_title,omitempty"`
+	LatestAt  *time.Time `json:"latest_at,omitempty"`
+	Title     string     `json:"title,omitempty"`
+	URL       string     `json:"url,omitempty"`
+}
+
 func Build(cfg config.Config) (Result, error) {
 	store, err := state.Load(cfg.Output.StateFile)
 	if err != nil {
@@ -113,7 +152,11 @@ func Build(cfg config.Config) (Result, error) {
 	if err := writeRSS(filepath.Join(publicDir, "feed.xml"), cfg, entries, stats.GeneratedAt); err != nil {
 		return Result{}, err
 	}
-	if err := writeSitePages(publicDir, cfg.Output.SiteTitle, stats, users, sites, entries, cfg.Output.UsersPerShard, cfg.Output.HomepageEntries, cfg.Output.PostsPerPage, cfg.Output.UserEntries); err != nil {
+	analytics := buildAnalytics(stats, users, sites, entries)
+	if err := writeJSON(filepath.Join(dataDir, "analytics.json"), analytics); err != nil {
+		return Result{}, err
+	}
+	if err := writeSitePages(publicDir, cfg.Output.SiteTitle, stats, users, sites, entries, analytics, cfg.Output.UsersPerShard, cfg.Output.HomepageEntries, cfg.Output.PostsPerPage, cfg.Output.UserEntries); err != nil {
 		return Result{}, err
 	}
 
@@ -239,7 +282,126 @@ func writeJSON(path string, value any) error {
 	return writeFile(path, data)
 }
 
-func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, sites []PublicSite, entries []PublicEntry, usersPerPage, homepageEntries, postsPerPage, userEntries int) error {
+func buildAnalytics(stats Stats, users []PublicUser, sites []PublicSite, entries []PublicEntry) Analytics {
+	analytics := Analytics{GeneratedAt: stats.GeneratedAt}
+	analytics.Overview.Users = len(users)
+	analytics.Overview.Homepages = len(sites)
+	analytics.Overview.Entries = len(entries)
+
+	for _, user := range users {
+		if user.ProfileCheckedAt != nil {
+			analytics.Overview.CrawledProfiles++
+		}
+		if user.FeedCheckedAt != nil {
+			analytics.Overview.UsersWithFeeds++
+		}
+	}
+
+	feeds := make(map[string]FeedAnalytics)
+	latestByUser := make(map[string]RecentSite)
+	for _, entry := range entries {
+		feed := feeds[entry.FeedURL]
+		feed.FeedURL = entry.FeedURL
+		feed.FeedTitle = entry.FeedTitle
+		feed.OwnerUsername = entry.OwnerUsername
+		feed.SiteURL = entry.SiteURL
+		feed.Entries++
+		entryAt := entryTime(entry)
+		if !entryAt.IsZero() && (feed.LatestAt == nil || entryAt.After(*feed.LatestAt)) {
+			feed.LatestAt = &entryAt
+		}
+		feeds[entry.FeedURL] = feed
+
+		recent := latestByUser[entry.OwnerUsername]
+		if recent.LatestAt == nil || (!entryAt.IsZero() && entryAt.After(*recent.LatestAt)) {
+			recent = RecentSite{Username: entry.OwnerUsername, SiteURL: entry.SiteURL, FeedTitle: entry.FeedTitle, LatestAt: nil, Title: entry.Title, URL: entry.URL}
+			if !entryAt.IsZero() {
+				recent.LatestAt = &entryAt
+			}
+			latestByUser[entry.OwnerUsername] = recent
+		}
+	}
+	analytics.Overview.Feeds = len(feeds)
+	for _, feed := range feeds {
+		analytics.ActiveFeeds = append(analytics.ActiveFeeds, feed)
+		if feed.Entries > 0 {
+			analytics.Overview.FeedsWithPosts++
+		}
+	}
+	for _, recent := range latestByUser {
+		analytics.RecentSites = append(analytics.RecentSites, recent)
+	}
+
+	oldest := filterUsers(users, func(user PublicUser) bool { return user.JoinedAt != nil })
+	sort.Slice(oldest, func(i, j int) bool { return oldest[i].JoinedAt.Before(*oldest[j].JoinedAt) })
+	analytics.OldestUsers = limitUsers(oldest, 25)
+
+	karma := filterUsers(users, func(user PublicUser) bool { return user.Karma != nil })
+	sort.Slice(karma, func(i, j int) bool { return *karma[i].Karma > *karma[j].Karma })
+	analytics.TopKarma = limitUsers(karma, 25)
+
+	stories := filterUsers(users, func(user PublicUser) bool { return user.StoriesSubmitted != nil })
+	sort.Slice(stories, func(i, j int) bool { return *stories[i].StoriesSubmitted > *stories[j].StoriesSubmitted })
+	analytics.TopStories = limitUsers(stories, 25)
+
+	comments := filterUsers(users, func(user PublicUser) bool { return user.CommentsPosted != nil })
+	sort.Slice(comments, func(i, j int) bool { return *comments[i].CommentsPosted > *comments[j].CommentsPosted })
+	analytics.TopComments = limitUsers(comments, 25)
+
+	sort.Slice(analytics.ActiveFeeds, func(i, j int) bool {
+		if analytics.ActiveFeeds[i].Entries != analytics.ActiveFeeds[j].Entries {
+			return analytics.ActiveFeeds[i].Entries > analytics.ActiveFeeds[j].Entries
+		}
+		return analytics.ActiveFeeds[i].OwnerUsername < analytics.ActiveFeeds[j].OwnerUsername
+	})
+	analytics.ActiveFeeds = limitFeeds(analytics.ActiveFeeds, 25)
+
+	sort.Slice(analytics.RecentSites, func(i, j int) bool {
+		if analytics.RecentSites[i].LatestAt == nil {
+			return false
+		}
+		if analytics.RecentSites[j].LatestAt == nil {
+			return true
+		}
+		return analytics.RecentSites[i].LatestAt.After(*analytics.RecentSites[j].LatestAt)
+	})
+	analytics.RecentSites = limitRecentSites(analytics.RecentSites, 25)
+
+	return analytics
+}
+
+func filterUsers(users []PublicUser, keep func(PublicUser) bool) []PublicUser {
+	filtered := make([]PublicUser, 0)
+	for _, user := range users {
+		if keep(user) {
+			filtered = append(filtered, user)
+		}
+	}
+	return filtered
+}
+
+func limitUsers(users []PublicUser, max int) []PublicUser {
+	if len(users) <= max {
+		return users
+	}
+	return users[:max]
+}
+
+func limitFeeds(feeds []FeedAnalytics, max int) []FeedAnalytics {
+	if len(feeds) <= max {
+		return feeds
+	}
+	return feeds[:max]
+}
+
+func limitRecentSites(sites []RecentSite, max int) []RecentSite {
+	if len(sites) <= max {
+		return sites
+	}
+	return sites[:max]
+}
+
+func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, sites []PublicSite, entries []PublicEntry, analytics Analytics, usersPerPage, homepageEntries, postsPerPage, userEntries int) error {
 	entriesByUser := make(map[string][]PublicEntry)
 	for _, entry := range entries {
 		entriesByUser[entry.OwnerUsername] = append(entriesByUser[entry.OwnerUsername], entry)
@@ -249,6 +411,9 @@ func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, si
 		return err
 	}
 	if err := writePostPages(publicDir, title, stats, entries, postsPerPage); err != nil {
+		return err
+	}
+	if err := renderPage(filepath.Join(publicDir, "analytics", "index.html"), analyticsTemplate, map[string]any{"Title": title, "Analytics": analytics}); err != nil {
 		return err
 	}
 	if err := renderPage(filepath.Join(publicDir, "users", "index.html"), usersTemplate, map[string]any{"Title": title, "Stats": stats, "Users": users[:min(usersPerPage, len(users))], "Page": 1, "Pages": (len(users) + usersPerPage - 1) / usersPerPage}); err != nil {
