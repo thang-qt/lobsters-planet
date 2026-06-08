@@ -29,14 +29,17 @@ type FeedsConfig struct {
 	RequestDelaySeconds     int      `yaml:"request_delay_seconds"`
 	DiscoveryRecheckDays    int      `yaml:"discovery_recheck_days"`
 	MaxSitesPerDiscoveryRun int      `yaml:"max_sites_per_discovery_run"`
+	MaxFeedsPerRefreshRun   int      `yaml:"max_feeds_per_refresh_run"`
 	CommonPaths             []string `yaml:"common_paths"`
 }
 
 type OutputConfig struct {
-	StateFile     string `yaml:"state_file"`
-	PublicDir     string `yaml:"public_dir"`
-	UsersPerShard int    `yaml:"users_per_shard"`
-	SiteTitle     string `yaml:"site_title"`
+	StateFile        string `yaml:"state_file"`
+	PublicDir        string `yaml:"public_dir"`
+	UsersPerShard    int    `yaml:"users_per_shard"`
+	MaxLatestEntries int    `yaml:"max_latest_entries"`
+	SiteTitle        string `yaml:"site_title"`
+	SiteURL          string `yaml:"site_url"`
 }
 
 func Load(path string) (Config, error) {
@@ -64,8 +67,14 @@ func Load(path string) (Config, error) {
 	if cfg.Output.UsersPerShard <= 0 {
 		cfg.Output.UsersPerShard = 500
 	}
+	if cfg.Output.MaxLatestEntries <= 0 {
+		cfg.Output.MaxLatestEntries = 300
+	}
 	if cfg.Output.SiteTitle == "" {
 		cfg.Output.SiteTitle = "Lobsters Planet"
+	}
+	if cfg.Output.SiteURL == "" {
+		cfg.Output.SiteURL = "http://localhost:8080"
 	}
 	if cfg.Lobsters.RequestTimeoutSeconds <= 0 {
 		cfg.Lobsters.RequestTimeoutSeconds = 15
@@ -93,6 +102,9 @@ func Load(path string) (Config, error) {
 	}
 	if cfg.Feeds.MaxSitesPerDiscoveryRun < 0 {
 		cfg.Feeds.MaxSitesPerDiscoveryRun = 0
+	}
+	if cfg.Feeds.MaxFeedsPerRefreshRun < 0 {
+		cfg.Feeds.MaxFeedsPerRefreshRun = 0
 	}
 	return cfg, nil
 }

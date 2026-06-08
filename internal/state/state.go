@@ -16,6 +16,33 @@ type State struct {
 	Version      int                       `json:"version"`
 	UsersChecked time.Time                 `json:"users_checked_at"`
 	Users        map[string]DiscoveredUser `json:"users"`
+	Feeds        map[string]DiscoveredFeed `json:"feeds,omitempty"`
+	Entries      map[string]FeedEntry      `json:"entries,omitempty"`
+}
+
+type DiscoveredFeed struct {
+	URL             string     `json:"url"`
+	OwnerUsername   string     `json:"owner_username"`
+	SiteURL         string     `json:"site_url"`
+	Title           string     `json:"title,omitempty"`
+	CheckedAt       *time.Time `json:"checked_at,omitempty"`
+	LastSuccessAt   *time.Time `json:"last_success_at,omitempty"`
+	LastPublishedAt *time.Time `json:"last_published_at,omitempty"`
+	LastError       string     `json:"last_error,omitempty"`
+	FailureCount    int        `json:"failure_count,omitempty"`
+}
+
+type FeedEntry struct {
+	ID            string     `json:"id"`
+	Title         string     `json:"title"`
+	URL           string     `json:"url"`
+	Summary       string     `json:"summary,omitempty"`
+	PublishedAt   *time.Time `json:"published_at,omitempty"`
+	UpdatedAt     *time.Time `json:"updated_at,omitempty"`
+	FeedURL       string     `json:"feed_url"`
+	FeedTitle     string     `json:"feed_title,omitempty"`
+	OwnerUsername string     `json:"owner_username"`
+	SiteURL       string     `json:"site_url"`
 }
 
 type DiscoveredUser struct {
@@ -42,7 +69,7 @@ type DiscoveredUser struct {
 func Load(path string) (State, error) {
 	data, err := os.ReadFile(path)
 	if errors.Is(err, os.ErrNotExist) {
-		return State{Version: 1, Users: make(map[string]DiscoveredUser)}, nil
+		return State{Version: 1, Users: make(map[string]DiscoveredUser), Feeds: make(map[string]DiscoveredFeed), Entries: make(map[string]FeedEntry)}, nil
 	}
 	if err != nil {
 		return State{}, fmt.Errorf("read state: %w", err)
@@ -54,7 +81,29 @@ func Load(path string) (State, error) {
 	if state.Users == nil {
 		state.Users = make(map[string]DiscoveredUser)
 	}
+	if state.Feeds == nil {
+		state.Feeds = make(map[string]DiscoveredFeed)
+	}
+	if state.Entries == nil {
+		state.Entries = make(map[string]FeedEntry)
+	}
+	state.RebuildFeedIndexFromUsers()
 	return state, nil
+}
+
+func (s *State) RebuildFeedIndexFromUsers() {
+	if s.Feeds == nil {
+		s.Feeds = make(map[string]DiscoveredFeed)
+	}
+	for _, user := range s.Users {
+		for _, feedURL := range user.FeedURLs {
+			feed := s.Feeds[feedURL]
+			feed.URL = feedURL
+			feed.OwnerUsername = user.Username
+			feed.SiteURL = user.HomepageURL
+			s.Feeds[feedURL] = feed
+		}
+	}
 }
 
 func (s *State) MergeUsers(users []lobsters.User, checkedAt time.Time) int {
@@ -188,12 +237,22 @@ func (s State) SitesDueForFeedDiscovery(now time.Time, recheckAfter time.Duratio
 }
 
 func (s *State) RecordFeedDiscoverySuccess(username string, feedURLs []string, checkedAt time.Time) {
+	if s.Feeds == nil {
+		s.Feeds = make(map[string]DiscoveredFeed)
+	}
 	user := s.Users[username]
 	user.FeedURLs = feedURLs
 	user.FeedDiscoveryCheckedAt = &checkedAt
 	user.FeedDiscoveryLastError = ""
 	user.FeedDiscoveryFailureCount = 0
 	s.Users[username] = user
+	for _, feedURL := range feedURLs {
+		feed := s.Feeds[feedURL]
+		feed.URL = feedURL
+		feed.OwnerUsername = username
+		feed.SiteURL = user.HomepageURL
+		s.Feeds[feedURL] = feed
+	}
 }
 
 func (s *State) RecordFeedDiscoveryFailure(username string, checkedAt time.Time, discoveryError error) {
@@ -202,6 +261,62 @@ func (s *State) RecordFeedDiscoveryFailure(username string, checkedAt time.Time,
 	user.FeedDiscoveryLastError = discoveryError.Error()
 	user.FeedDiscoveryFailureCount++
 	s.Users[username] = user
+}
+
+func (s State) FeedsDueForRefresh(now time.Time, refreshAfter time.Duration, maxFeeds int) []DiscoveredFeed {
+	var due []DiscoveredFeed
+	for _, feed := range s.Feeds {
+		if feed.CheckedAt == nil || now.Sub(*feed.CheckedAt) >= refreshAfter {
+			due = append(due, feed)
+		}
+	}
+	sort.Slice(due, func(i, j int) bool {
+		if due[i].LastPublishedAt != nil && due[j].LastPublishedAt != nil && !due[i].LastPublishedAt.Equal(*due[j].LastPublishedAt) {
+			return due[i].LastPublishedAt.After(*due[j].LastPublishedAt)
+		}
+		return due[i].URL < due[j].URL
+	})
+	return limitFeeds(due, maxFeeds)
+}
+
+func limitFeeds(feeds []DiscoveredFeed, max int) []DiscoveredFeed {
+	if max == 0 || len(feeds) <= max {
+		return feeds
+	}
+	return feeds[:max]
+}
+
+func (s *State) RecordFeedRefreshSuccess(feedURL, title string, entries []FeedEntry, checkedAt time.Time) {
+	if s.Entries == nil {
+		s.Entries = make(map[string]FeedEntry)
+	}
+	feed := s.Feeds[feedURL]
+	feed.URL = feedURL
+	feed.Title = title
+	feed.CheckedAt = &checkedAt
+	feed.LastSuccessAt = &checkedAt
+	feed.LastError = ""
+	feed.FailureCount = 0
+	for _, entry := range entries {
+		s.Entries[entry.ID] = entry
+		entryTime := entry.PublishedAt
+		if entryTime == nil {
+			entryTime = entry.UpdatedAt
+		}
+		if entryTime != nil && (feed.LastPublishedAt == nil || entryTime.After(*feed.LastPublishedAt)) {
+			feed.LastPublishedAt = entryTime
+		}
+	}
+	s.Feeds[feedURL] = feed
+}
+
+func (s *State) RecordFeedRefreshFailure(feedURL string, checkedAt time.Time, refreshError error) {
+	feed := s.Feeds[feedURL]
+	feed.URL = feedURL
+	feed.CheckedAt = &checkedAt
+	feed.LastError = refreshError.Error()
+	feed.FailureCount++
+	s.Feeds[feedURL] = feed
 }
 
 func Save(path string, state State) error {

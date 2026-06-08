@@ -17,6 +17,7 @@ import (
 type Result struct {
 	Users      int
 	Sites      int
+	Entries    int
 	UserShards int
 	PublicDir  string
 }
@@ -46,10 +47,24 @@ type PublicSite struct {
 	About            string     `json:"about,omitempty"`
 }
 
+type PublicEntry struct {
+	ID            string     `json:"id"`
+	Title         string     `json:"title"`
+	URL           string     `json:"url"`
+	Summary       string     `json:"summary,omitempty"`
+	PublishedAt   *time.Time `json:"published_at,omitempty"`
+	UpdatedAt     *time.Time `json:"updated_at,omitempty"`
+	FeedURL       string     `json:"feed_url"`
+	FeedTitle     string     `json:"feed_title,omitempty"`
+	OwnerUsername string     `json:"owner_username"`
+	SiteURL       string     `json:"site_url"`
+}
+
 type Stats struct {
 	GeneratedAt time.Time `json:"generated_at"`
 	Users       int       `json:"users"`
 	Sites       int       `json:"sites"`
+	Entries     int       `json:"entries"`
 	UserShards  int       `json:"user_shards"`
 }
 
@@ -66,7 +81,7 @@ func Build(cfg config.Config) (Result, error) {
 		return Result{}, err
 	}
 
-	users, sites := publicData(store)
+	users, sites, entries := publicData(store, cfg.Output.MaxLatestEntries)
 	publicDir := cfg.Output.PublicDir
 	dataDir := filepath.Join(publicDir, "data")
 	userDir := filepath.Join(dataDir, "users")
@@ -79,7 +94,7 @@ func Build(cfg config.Config) (Result, error) {
 		return Result{}, err
 	}
 
-	stats := Stats{GeneratedAt: time.Now().UTC(), Users: len(users), Sites: len(sites), UserShards: len(shards)}
+	stats := Stats{GeneratedAt: time.Now().UTC(), Users: len(users), Sites: len(sites), Entries: len(entries), UserShards: len(shards)}
 	if err := writeJSON(filepath.Join(dataDir, "stats.json"), stats); err != nil {
 		return Result{}, err
 	}
@@ -89,14 +104,20 @@ func Build(cfg config.Config) (Result, error) {
 	if err := writeJSON(filepath.Join(dataDir, "sites.json"), sites); err != nil {
 		return Result{}, err
 	}
+	if err := writeJSON(filepath.Join(publicDir, "latest.json"), entries); err != nil {
+		return Result{}, err
+	}
+	if err := writeRSS(filepath.Join(publicDir, "feed.xml"), cfg, entries, stats.GeneratedAt); err != nil {
+		return Result{}, err
+	}
 	if err := writeHTML(filepath.Join(publicDir, "index.html"), cfg.Output.SiteTitle, stats, sites); err != nil {
 		return Result{}, err
 	}
 
-	return Result{Users: len(users), Sites: len(sites), UserShards: len(shards), PublicDir: publicDir}, nil
+	return Result{Users: len(users), Sites: len(sites), Entries: len(entries), UserShards: len(shards), PublicDir: publicDir}, nil
 }
 
-func publicData(store state.State) ([]PublicUser, []PublicSite) {
+func publicData(store state.State, maxEntries int) ([]PublicUser, []PublicSite, []PublicEntry) {
 	users := make([]PublicUser, 0, len(store.Users))
 	sites := make([]PublicSite, 0)
 	for _, user := range store.Users {
@@ -129,7 +150,34 @@ func publicData(store state.State) ([]PublicUser, []PublicSite) {
 	}
 	sort.Slice(users, func(i, j int) bool { return compareUsers(users[i], users[j]) < 0 })
 	sort.Slice(sites, func(i, j int) bool { return compareSites(sites[i], sites[j]) < 0 })
-	return users, sites
+	entries := publicEntries(store, maxEntries)
+	return users, sites, entries
+}
+
+func publicEntries(store state.State, maxEntries int) []PublicEntry {
+	entries := make([]PublicEntry, 0, len(store.Entries))
+	for _, entry := range store.Entries {
+		entries = append(entries, PublicEntry{
+			ID: entry.ID, Title: entry.Title, URL: entry.URL, Summary: entry.Summary,
+			PublishedAt: entry.PublishedAt, UpdatedAt: entry.UpdatedAt, FeedURL: entry.FeedURL,
+			FeedTitle: entry.FeedTitle, OwnerUsername: entry.OwnerUsername, SiteURL: entry.SiteURL,
+		})
+	}
+	sort.Slice(entries, func(i, j int) bool { return entryTime(entries[i]).After(entryTime(entries[j])) })
+	if maxEntries > 0 && len(entries) > maxEntries {
+		entries = entries[:maxEntries]
+	}
+	return entries
+}
+
+func entryTime(entry PublicEntry) time.Time {
+	if entry.PublishedAt != nil {
+		return *entry.PublishedAt
+	}
+	if entry.UpdatedAt != nil {
+		return *entry.UpdatedAt
+	}
+	return time.Time{}
 }
 
 func compareUsers(a, b PublicUser) int {

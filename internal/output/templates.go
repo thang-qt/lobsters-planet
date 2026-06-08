@@ -19,6 +19,7 @@ const indexTemplate = `<!doctype html>
     <section class="stats" aria-label="stats">
       <div><strong>{{ .Stats.Users }}</strong><span>users</span></div>
       <div><strong>{{ .Stats.Sites }}</strong><span>sites found</span></div>
+      <div><strong>{{ .Stats.Entries }}</strong><span>feed entries</span></div>
       <div><strong>{{ .Stats.UserShards }}</strong><span>user shards</span></div>
     </section>
 
@@ -43,6 +44,8 @@ const indexTemplate = `<!doctype html>
     <section>
       <h2>Data</h2>
       <ul>
+        <li><a href="/feed.xml">feed.xml</a></li>
+        <li><a href="/latest.json">latest.json</a></li>
         <li><a href="/data/sites.json">sites.json</a></li>
         <li><a href="/data/stats.json">stats.json</a></li>
         <li><a href="/data/users-index.json">users-index.json</a></li>

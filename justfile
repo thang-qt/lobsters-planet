@@ -19,6 +19,9 @@ discover:
 feeds:
     go run ./cmd/lobsters-planet feeds
 
+refresh:
+    go run ./cmd/lobsters-planet refresh
+
 build:
     go run ./cmd/lobsters-planet build
 

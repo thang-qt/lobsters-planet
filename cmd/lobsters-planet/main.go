@@ -9,6 +9,7 @@ import (
 	"lobsters-planet/internal/config"
 	"lobsters-planet/internal/discovery"
 	"lobsters-planet/internal/feeddiscovery"
+	"lobsters-planet/internal/feedrefresh"
 	"lobsters-planet/internal/output"
 )
 
@@ -57,12 +58,31 @@ func run(args []string) error {
 	case "build":
 		return build(*configPath)
 	case "refresh":
-		return fmt.Errorf("%s is not implemented yet", remaining[0])
+		return refresh(*configPath)
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command %q\n\n", remaining[0])
 		fmt.Fprint(os.Stderr, usage)
 		return fmt.Errorf("unknown command")
 	}
+}
+
+func refresh(configPath string) error {
+	cfg, err := config.Load(configPath)
+	if err != nil {
+		return err
+	}
+
+	result, err := feedrefresh.Run(context.Background(), cfg)
+	if err != nil {
+		return err
+	}
+
+	fmt.Printf("feeds selected: %d\n", result.FeedsSelected)
+	fmt.Printf("feeds succeeded: %d\n", result.FeedsSucceeded)
+	fmt.Printf("feeds failed: %d\n", result.FeedsFailed)
+	fmt.Printf("entries found: %d\n", result.EntriesFound)
+	fmt.Printf("wrote %s\n", cfg.Output.StateFile)
+	return nil
 }
 
 func discoverFeeds(configPath string) error {
@@ -97,6 +117,7 @@ func build(configPath string) error {
 
 	fmt.Printf("exported %d users\n", result.Users)
 	fmt.Printf("exported %d sites\n", result.Sites)
+	fmt.Printf("exported %d entries\n", result.Entries)
 	fmt.Printf("user shards: %d\n", result.UserShards)
 	fmt.Printf("wrote %s\n", result.PublicDir)
 	return nil
