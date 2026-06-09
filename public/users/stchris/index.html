@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>stchris</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~stchris">Lobste.rs profile</a>
+        <a href="http://www.stchris.net">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>25 Mar 2017</dd></div>
+        <div><dt>Karma</dt><dd>2425</dd></div>
+        <div><dt>Stories</dt><dd>52</dd></div>
+        <div><dt>Comments</dt><dd>191</dd></div>
+        <div><dt>Profile checked</dt><dd>9 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>9 Jun 2026</dd></div>
+      </dl>
+      
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">4 Mar 2026 · stchris.net</p>
+          <h3><a href="https://www.stchris.net/little-helper-tools.html">Little helper tools for investigations</a></h3>
+          <p>Little helper tools for investigations 2026-03-04 For a while I&#39;ve been meaning to write some tools to help when investigating any &#34;pile of data&#34;. By pile of data I mean a folder full of files, which are supposed to be ingested and indexed before an investigation can start. The significant improvements we have seen in the last few months in terms of LLMs have made it possible for me to push these things forward in a fraction of the time it would have taken me. At the same time I&#39;ve had some idea…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Sep 2024 · stchris.net</p>
+          <h3><a href="https://www.stchris.net/people-leaving.html">On people leaving</a></h3>
+          <p>On people leaving 2024-09-14 A while back I used to work with someone called Otto. For a short while it was a great place to work, there was great team work and it all felt really good. Except every time someone I liked left the team, I would say to Otto that it&#39;s sad that X is leaving. And then Otto would say &#34;but change is good&#34;. I always think about this statement when someone dear to me and whom I&#39;m in close collaboration with is leaving. The statement feels both wrong and right to me at the…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Apr 2021 · stchris.net</p>
+          <h3><a href="https://www.stchris.net/gate-integration-tests.html">Gate Integration Tests on Environment Variables</a></h3>
+          <p>Gate Integration Tests on Environment Variables 2021-04-04 In this post Peter describes an effective, graceful way of differentiating between unit and integration tests in a Go codebase. While build tags and the standard tooling around tests might be Go related, I believe that the pattern applies to other ecosystems as well. For instance Python and Pytest. Pytest makes this easy using the skipif mark : import os import pytest def test_unit(): assert True @pytest.mark.skipif(os.getenv(&#34;DB&#34;) == No…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Nov 2020 · stchris.net</p>
+          <h3><a href="https://www.stchris.net/tiny-ci-system.html">A tiny CI system</a></h3>
+          <p>A tiny CI system 2020-11-08 This is a little demonstration of how little you need to host your own git repositories and have a modest Continuous Integration system for them. All you need is a unixy server you can ssh into, but arguably you can try this out locally as well. We will use Redis at one point to queue tasks, but strictly speaking this can be achieved without additional software. To keep things simple this will only work with one repository, since this is only describing a pattern. The…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Oct 2020 · stchris.net</p>
+          <h3><a href="https://www.stchris.net/consider-buying-used.html">Have you considered buying used hardware?</a></h3>
+          <p>Have you considered buying used hardware? 2020-10-23 For my current job I knew I wanted a Linux laptop again, after enough exposure to Apples ecosystem. Naturally a Thinkpad came to mind as an option, but I wanted to give used hardware a chance, given that Thinkpads are known to be reliable and well built. I went with used/refurbished hardware from a vendor I know and trust for a while now, lapstore.de , and I could not be happier with my choice. I went with a Lenovo Thinkpad T460s, as a comprom…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
