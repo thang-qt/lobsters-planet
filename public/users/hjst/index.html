@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>hjst</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~hjst">Lobste.rs profile</a>
+        <a href="https://henrytodd.uk">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>15 Apr 2014</dd></div>
+        <div><dt>Karma</dt><dd>510</dd></div>
+        <div><dt>Stories</dt><dd>0</dd></div>
+        <div><dt>Comments</dt><dd>0</dd></div>
+        <div><dt>Profile checked</dt><dd>9 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>9 Jun 2026</dd></div>
+      </dl>
+      
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">7 May 2022 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2022/fedora-iot-acme.sh-certs/">Handling TLS certs on Fedora IoT with acme.sh</a></h3>
+          <p>If you&#39;re running Fedora IoT (or Fedora CoreOS outside of Kubenetes) then you&#39;ll need to run your ACME client within a container if you want free auto-updating TLS certificates. One option for doing this is acme.sh . It wasn&#39;t obvious to me how this was expected to work, hence these notes. My primary resources were: acme.sh wiki page on using it within Docker Podman docs Note that I perform all of the following as the root user (see Shortcomings of Rootless Podman ), because one of my uses for t…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Apr 2022 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2022/ios-shortcut-times-crossword/">iOS Shortcut to fetch The Times crossword</a></h3>
+          <p>I like the Times crossword but: I don&#39;t like their iPad app I can&#39;t be bothered to log in All I really want is the PDF version of the puzzle to scribble on Happily, the PDF files offered for printing do not require a login and have predicatable filenames. I&#39;ve put together an iOS/iPadOS Shortcut which lets you pick a day and then fetches the puzzle PDF for that day: iCloud Shortcut download .</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Oct 2020 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2020/mp4-target-filesize-with-ffmpeg/">Targeting a specific filesize with FFmpeg</a></h3>
+          <p>FFmpeg doesn&#39;t have a way to provide a target filesize directly, so you need to work out your target bitrate instead and use 2-pass encoding . To get the target bitrate (in kilobits) you&#39;ll need: Target filesize in kilobits (size in GiB × (8 × 1024²)) Video duration in seconds Then you provide the video bitrate (filesize ÷ duration) on both passes with the -b:v option. The first pass is only for analysis, so we can use -an to ignore the audio tracks. It will write out a .log and a .log.mbtre…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Sep 2020 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2020/six-years-with-hugo/">6&#43; years of using Hugo for a tiny website</a></h3>
+          <p>I spent a bit of my holiday time recently simplifying this site, and it gave me an appreciation for Hugo (the thing that builds the HTML for me). I wanted to write this down while I still remember, so that when I&#39;m re-evaluating the choice of Hugo in another 6 years, I&#39;ll have something to refer to. % git log --diff-filter=A -- config.yaml commit 16e988b07edbf9e914d525e29bc88ba74d6ed466 Date: Fri Jan 31 17:51:46 2014 &#43;0800 Convert site structure from Jekyll to Hugo. As is usually the way with th…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Aug 2020 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2020/arbitrary-default-branch-names-git-aliases/">Git aliases using arbitrary default branch names</a></h3>
+          <p>I have a very simple git alias which shows me what&#39;s changed on my feature branch compared to the main branch (which is probably what I&#39;m about to target with a PR/merge): [alias] ld = diff master This only works if &#34;master&#34; is the name of the default branch in your current repo, and this is decreasingly common. % git ld fatal: ambiguous argument &#39;master&#39;: unknown revision or path not in the working tree. One solution is to call git symbolic-ref on the &#34;origin&#34; remote HEAD. % git symbolic-ref re…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Aug 2019 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/">Streaming Opus audio with MPD&#39;s httpd output</a></h3>
+          <p>With MPD ≥ 0.18 if you add this to your mpd.conf file… audio_output { type &#34;httpd&#34; name &#34;OwlCast&#34; encoder &#34;opus&#34; port &#34;8000&#34; bind_to_address &#34;0.0.0.0&#34; bitrate &#34;96000&#34; format &#34;44100:16:2&#34; # use :1 for mono max_clients &#34;0&#34; # max of zero means no limit always_on &#34;yes&#34; # don&#39;t drop listeners when audio stops tags &#34;yes&#34; # send artist/title metadata } …you&#39;ll get a new MPD output on port 8000 for HTTP streaming. The 96 kbps bitrate is suitable for music streaming and in my testing it sounds grea…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jul 2019 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2019/pkgsrc-on-macos/">Dependency upgrade errors with pkgsrc on macOS</a></h3>
+          <p>For some years now Joyent have been quietly hosting binary pkgsrc packages for macOS . It doesn&#39;t seem to have as high a profile as homebrew/fink/macports, but if you&#39;re familiar with BSD-style ports (and particularly if you need to compile things with custom options) you&#39;ll probably find it more comfortable. Anyway, it works well in my experience, with the only hiccup being that very occasionally during a package upgrade I will get an error like the following: # pkgin update # pkgin full-upgrad…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h3>
+          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/">Using Emacs &amp; restclient.el with SOAP services</a></h3>
+          <p>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Aug 2016 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2016/cross-platform-volumes-with-tcplay/">Encrypted cross-platform read/write volumes with tcplay</a></h3>
+          <p>tcplay is a reimplementation of truecrypt disk &amp; disk-image encryption using dm-crypt. Originally for DragonflyBSD, it’s been ported and is in most Linux distro repositories. It’s compatible with VeraCrypt on Mac and Windows. The following describes how to create &amp; use encrypted read/write volumes on a Linux host which can be used on Mac &amp; Windows machines. A note about filesystems When creating an encrypted disk image you must choose an internal filesystem which is supported on each of the …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Nov 2014 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2014/grouping-notifications-libnotify-notify-send/">Grouping desktop notifications with libnotify and notify-send</a></h3>
+          <p>In writing a script which generated libnotify desktop notifications with notify-send , I saw that they soon piled up and cluttered the notification area. Some applications (such as Transmission, or ABRT ) are able to stack/group their notifications together, so I set out to discover how. After a couple of hours of googling, reading and asking in irc channels I discovered it’s a lot more complicated than I hoped, and that no one has really written it down clearly anywhere. So, for the benefit o…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Aug 2014 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2014/windows-usb-install-media-in-linux/">Creating Windows USB install media in Linux</a></h3>
+          <p>I spent entirely too long today trying to discern why my efforts to dd a Windows USB install ISO onto a USB stick were failing. Everything worked, the USB stick would mount fine in Windows, but I couldn’t boot from it despite setting it bootable in cfdisk. The trick is to write a Windows (or presumably DOS?) compatible boot sector to the volume. I will no doubt forget this by the time I next need to create one of these installers, so I’m putting these notes here while I remember. The commonl…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Aug 2014 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2014/simpler-gnupg-mutt-config-with-gpgme/">Simpler GnuPG &amp; Mutt configuration with GPGME</a></h3>
+          <p>I was consulting the Mutt documentation recently when the intriguingly-named crypt_use_gpgme variable caught my eye. I set up GnuPG with Mutt years ago and haven’t touched it since, but I remember it being a surprisingly complex procedure. Lots of config lines defining commands like gpg --no-verbose --batch --output - --verify %s %f for mutt to fork separate gpg processes for each operation. GPGME provides a standardised API for applications to use instead of all the esoteric manual config. Th…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Feb 2014 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2014/graphing-mtr-reports-with-gnuplot/">Graphing mtr reports with gnuplot</a></h3>
+          <p>I wasn’t able to find any clear examples online of scripting gnuplot to graph mtr output, and I had a directory full of report files that I needed to turn into SVG graphs. If you’d like to follow along, here are the assumptions: You have mtr reports as text files generated by the -r switch. You want a stacked column chart of the best, average and worst response times. You need SVG output suitable for including in web pages. You are vaguely familiar with gnuplot (enough to tweak a .gp file). …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jan 2014 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2014/opensmtpd-with-mailroute/">Configuring a personal mail server with OpenSMTPD and MailRoute</a></h3>
+          <p>It’s been less than a year since the first production release of OpenSMTPD , but I’d heard good things and wanted to give it a try. Like most OpenBSD projects the manpages are excellent, but like all young projects examples are thin on the ground. I decided to try setting it up for my new home server: a tiny domU holding mail for just 4 accounts. All of my mail is relayed via MailRoute , and while it’s a normal smarthost setup I didn’t find any clear examples, so here’s mine in the hop…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

@@ -23,9 +23,99 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>249 recent entries. Last built 9 Jun 2026, 04:38 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>274 recent entries. Last built 9 Jun 2026, 10:05 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">4 Apr 2021 · <a href="/users/stchris/">stchris</a> · stchris.net</p>
+          <h2><a href="https://www.stchris.net/gate-integration-tests.html">Gate Integration Tests on Environment Variables</a></h2>
+          <p>Gate Integration Tests on Environment Variables 2021-04-04 In this post Peter describes an effective, graceful way of differentiating between unit and integration tests in a Go codebase. While build tags and the standard tooling around tests might be Go related, I believe that the pattern applies to other ecosystems as well. For instance Python and Pytest. Pytest makes this easy using the skipif mark : import os import pytest def test_unit(): assert True @pytest.mark.skipif(os.getenv(&#34;DB&#34;) == No…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Mar 2021 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/645835801710804992">Photo</a></h2>
+          
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Mar 2021 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/semver-will-not-save-you/">Semantic Versioning Will Not Save You</a></h2>
+          <p>The widely used Python package cryptography changed their build system to use Rust for low-level code, which caused an emotional GitHub thread. Enthusiasts of 32-bit hardware from the 1990s aside, a vocal faction stipulated adherence to Semantic Versioning from the maintainers, claiming it would’ve prevented all grief. I will show you not only why this is wrong but also how relying on Semantic Versioning hurts you – the user.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Feb 2021 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/lie-vs-lay/">Lie vs Lay</a></h2>
+          <p>Lie and lay are infamously confusing to non-native speakers. It’s so bad that it sparked a cottage industry of click-baity articles full of sketchy ads. Since English is my third language, I stumbled a lot myself until I wrote this cheatsheet.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Jan 2021 · <a href="/users/jcs/">jcs</a> · joshua stein</p>
+          <h2><a href="https://jcs.org/2021/01/27/x1nano#2024-06-25">OpenBSD on the Lenovo ThinkPad X1 Nano (1st Gen)</a></h2>
+          <p>Lenovo has finally made a smaller version of its X1 Carbon , something I&#39;ve been looking forward to for years. Table of Contents Top Hardware Firmware Current OpenBSD Support Summary Updates Hardware The X1 Nano is basically a 13&#34; version of the 14&#34; X1 Carbon, reducing its footprint, thickness, and weight. Availability in the US has been fairly limited (and expensive) at the moment, offering no WWAN or any customizable options, and Core i7 models are not shipping out for months. I purchased the …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Dec 2020 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/637629431339433984">Photo</a></h2>
+          
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Nov 2020 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/635701192599748608">Photo</a></h2>
+          
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Nov 2020 · <a href="/users/stchris/">stchris</a> · stchris.net</p>
+          <h2><a href="https://www.stchris.net/tiny-ci-system.html">A tiny CI system</a></h2>
+          <p>A tiny CI system 2020-11-08 This is a little demonstration of how little you need to host your own git repositories and have a modest Continuous Integration system for them. All you need is a unixy server you can ssh into, but arguably you can try this out locally as well. We will use Redis at one point to queue tasks, but strictly speaking this can be achieved without additional software. To keep things simple this will only work with one repository, since this is only describing a pattern. The…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Oct 2020 · <a href="/users/stchris/">stchris</a> · stchris.net</p>
+          <h2><a href="https://www.stchris.net/consider-buying-used.html">Have you considered buying used hardware?</a></h2>
+          <p>Have you considered buying used hardware? 2020-10-23 For my current job I knew I wanted a Linux laptop again, after enough exposure to Apples ecosystem. Naturally a Thinkpad came to mind as an option, but I wanted to give used hardware a chance, given that Thinkpads are known to be reliable and well built. I went with used/refurbished hardware from a vendor I know and trust for a while now, lapstore.de , and I could not be happier with my choice. I went with a Lenovo Thinkpad T460s, as a comprom…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Oct 2020 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2020/mp4-target-filesize-with-ffmpeg/">Targeting a specific filesize with FFmpeg</a></h2>
+          <p>FFmpeg doesn&#39;t have a way to provide a target filesize directly, so you need to work out your target bitrate instead and use 2-pass encoding . To get the target bitrate (in kilobits) you&#39;ll need: Target filesize in kilobits (size in GiB × (8 × 1024²)) Video duration in seconds Then you provide the video bitrate (filesize ÷ duration) on both passes with the -b:v option. The first pass is only for analysis, so we can use -an to ignore the audio tracks. It will write out a .log and a .log.mbtre…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Sep 2020 · <a href="/users/agnishom/">agnishom</a> · blank</p>
+          <h2><a href="https://agnishom.github.io/blog/2020/github-metadata/">a post with github metadata</a></h2>
+          <p>a quick run down on accessing github metadata.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Sep 2020 · <a href="/users/agnishom/">agnishom</a> · blank</p>
+          <h2><a href="https://agnishom.github.io/blog/2020/twitter/">a post with twitter</a></h2>
+          <p>an example of a blog post with twitter</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Sep 2020 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2020/six-years-with-hugo/">6&#43; years of using Hugo for a tiny website</a></h2>
+          <p>I spent a bit of my holiday time recently simplifying this site, and it gave me an appreciation for Hugo (the thing that builds the HTML for me). I wanted to write this down while I still remember, so that when I&#39;m re-evaluating the choice of Hugo in another 6 years, I&#39;ll have something to refer to. % git log --diff-filter=A -- config.yaml commit 16e988b07edbf9e914d525e29bc88ba74d6ed466 Date: Fri Jan 31 17:51:46 2014 &#43;0800 Convert site structure from Jekyll to Hugo. As is usually the way with th…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Aug 2020 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2020/arbitrary-default-branch-names-git-aliases/">Git aliases using arbitrary default branch names</a></h2>
+          <p>I have a very simple git alias which shows me what&#39;s changed on my feature branch compared to the main branch (which is probably what I&#39;m about to target with a PR/merge): [alias] ld = diff master This only works if &#34;master&#34; is the name of the default branch in your current repo, and this is decreasingly common. % git ld fatal: ambiguous argument &#39;master&#39;: unknown revision or path not in the working tree. One solution is to call git symbolic-ref on the &#34;origin&#34; remote HEAD. % git symbolic-ref re…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Aug 2020 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/626131603871186945">‘Quantum secret sharing’ scheme allows 10 parties to communicate securely – Physics World</a></h2>
+          <p>‘Quantum secret sharing’ scheme allows 10 parties to communicate securely – Physics World : A “quantum secret sharing” scheme that allows 10 parties share information securely – the highest number so far – has been developed and demonstrated by researchers in South Africa. The protocol involves each party performing quantum operations on the photon without measuring its state and the team says it could help increase both the rate at which data is shared on secure quantum networks a…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">11 Aug 2020 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
@@ -112,6 +202,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">11 Aug 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/">Streaming Opus audio with MPD&#39;s httpd output</a></h2>
+          <p>With MPD ≥ 0.18 if you add this to your mpd.conf file… audio_output { type &#34;httpd&#34; name &#34;OwlCast&#34; encoder &#34;opus&#34; port &#34;8000&#34; bind_to_address &#34;0.0.0.0&#34; bitrate &#34;96000&#34; format &#34;44100:16:2&#34; # use :1 for mono max_clients &#34;0&#34; # max of zero means no limit always_on &#34;yes&#34; # don&#39;t drop listeners when audio stops tags &#34;yes&#34; # send artist/title metadata } …you&#39;ll get a new MPD output on port 8000 for HTTP streaming. The 96 kbps bitrate is suitable for music streaming and in my testing it sounds grea…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">1 Aug 2019 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
           <h2><a href="https://jonbaer.com/post/186689297541">Every transistor has a unique quantum fingerprint—but can it be used as a form of ID?</a></h2>
           <p>Every transistor has a unique quantum fingerprint—but can it be used as a form of ID? : As trap sites are basically tiny defects that are randomly distributed in an uncontrollable way during fabrication, the number, location, and energy levels of trap sites differ for every transistor. As a result, single-electron effects lead to a unique modification in the current-voltage characteristics, effectively giving each transistor a unique “fingerprint.”</p>
@@ -121,6 +217,12 @@
           <p class="meta">1 Aug 2019 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
           <h2><a href="https://jonbaer.com/post/186689276716">Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science</a></h2>
           <p>Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science : Physics Professors Bryan Clark and Taylor Hughes of the University of Illinois at Urbana-Champaign have been awarded US Department of Energy (DOE) grants to develop new quantum computing capabilities. The awards are part of a $37-million DOE initiative supporting research that will lay the groundwork for the development of new quantum information systems and that will use current quantum information capabili…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jul 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/pkgsrc-on-macos/">Dependency upgrade errors with pkgsrc on macOS</a></h2>
+          <p>For some years now Joyent have been quietly hosting binary pkgsrc packages for macOS . It doesn&#39;t seem to have as high a profile as homebrew/fink/macports, but if you&#39;re familiar with BSD-style ports (and particularly if you need to compile things with custom options) you&#39;ll probably find it more comfortable. Anyway, it works well in my experience, with the only hiccup being that very occasionally during a package upgrade I will get an error like the following: # pkgin update # pkgin full-upgrad…</p>
         </article>
       
         <article class="entry">
@@ -139,6 +241,18 @@
           <p class="meta">3 May 2019 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
           <h2><a href="https://hynek.me/talks/python-foss/">Maintaining a Python Project When It’s Not Your Job</a></h2>
           <p>PyPI is a gold mine of great packages but those packages have to be written first. More often than not, projects that millions of people depend on are written and maintained by only one person. If you’re unlucky, that person is you! This talk tries to lighten the burden by giving you useful tools and approaches.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h2>
+          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/">Using Emacs &amp; restclient.el with SOAP services</a></h2>
+          <p>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</p>
         </article>
       
         <article class="entry">
@@ -196,6 +310,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">16 Aug 2016 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2016/cross-platform-volumes-with-tcplay/">Encrypted cross-platform read/write volumes with tcplay</a></h2>
+          <p>tcplay is a reimplementation of truecrypt disk &amp; disk-image encryption using dm-crypt. Originally for DragonflyBSD, it’s been ported and is in most Linux distro repositories. It’s compatible with VeraCrypt on Mac and Windows. The following describes how to create &amp; use encrypted read/write volumes on a Linux host which can be used on Mac &amp; Windows machines. A note about filesystems When creating an encrypted disk image you must choose an internal filesystem which is supported on each of the …</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">1 Aug 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
           <h2><a href="https://hynek.me/articles/decorators/">Please Fix Your Decorators</a></h2>
           <p>If your Python decorator unintentionally changes the signatures of my callables or doesn’t work with class methods, it’s broken and should be fixed. Sadly most decorators are broken because the web is full of bad advice.</p>
@@ -207,130 +327,10 @@
           <p>To get real time insight into running applications you need to instrument them and collect metrics: count events, measure times, expose numbers. That used to be a clusterfuck of technologies and approaches. Prometheus changes that.</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">19 May 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/conditional-python-dependencies/">Conditional Python Dependencies</a></h2>
-          <p>Since the inception of wheels that install Python packages without executing arbitrary code, we need a static way to encode conditional dependencies for our packages. Thanks to PEP 508 we do have a blessed way but sadly the prevalence of old setuptools and pip versions make it a minefield to use.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/python3-2016/">Python 3 in 2016</a></h2>
-          <p>My completely anecdotal view on the state of Python 3 in 2016. Based on my own recent experience, observations, and exchanges with other members of the Python community.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Jan 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/hasattr/">hasattr() – A Dangerous Misnomer</a></h2>
-          <p>Don’t use Python’s hasattr() unless you’re writing Python 3- only code and understand how it works.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">6 Jan 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/storing-passwords/">Storing Passwords in a Highly Parallelized World</a></h2>
-          <p>Why “Use bcrypt .” is not the best recommendation (anymore).</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">20 Oct 2015 · <a href="/users/agnishom/">agnishom</a> · blank</p>
-          <h2><a href="https://agnishom.github.io/blog/2015/comments/">a post with comments</a></h2>
-          <p>an example of a blog post with comments</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Oct 2015 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/testing-packaging/">Testing &amp; Packaging</a></h2>
-          <p>How to ensure that your tests run code that you think they are running, and how to measure your coverage over multiple tox runs (in parallel!).</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Jul 2015 · <a href="/users/jptsh/">jptsh</a> · jpt.sh</p>
-          <h2><a href="/posts/eight-years/">Eight Years</a></h2>
-          <p>May 29th, 2007 On May 29th 2007 I’d been living in DC for a little under a week. I liked it quite a bit, which was lucky as I’d made plans to move there sight unseen. In December of 2006 I’d accepted a position with Sunlight Foundation , an up-and-coming nonprofit with a mission I cared about and which already seemed to place an importance on technology. In fact my position was listed as being within Sunlight Labs, “a Sunlight foundation pilot project to prototype tech ideas” .</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Apr 2015 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/talks/beyond-grep/">Beyond grep: Practical Logging and Metrics</a></h2>
-          <p>Your Python applications are running but you’re wondering what they are doing? The only clue about their current state is the server load after ssh -ing into the servers? Let’s change that!</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">26 Mar 2015 · <a href="/users/jptsh/">jptsh</a> · jpt.sh</p>
-          <h2><a href="/posts/deploying-hugo-to-cloudfront/">Deploying Static Sites to CloudFront</a></h2>
-          <p>Like many developers, I’ve written my own blog software half a dozen times. I’ve probably spent a lot more time tweaking the software than writing posts so this time I decided to do something different. I wanted to keep things as simple as possible but still have an excuse to learn a few new things. I wound up settling on Hugo hosted on Amazon S3 w/ CloudFront in front of it. One of the deciding factors that made CloudFront come out on top is that I wanted to see what it’d take to get thin…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">8 Mar 2015 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2015/03/08/sour-mash-getting-your-clojure-into-a-jar/">Sour Mash: getting your Clojure into a JAR</a></h2>
-          <p>This weekend I decided to finally bite the bullet and deploy one of my Clojure apps as a JAR. “Certainly” I thought to myself, “there are great tutorials for this online”. Yes, yes there are, except none of them worked for me and in fact did lead to the consumption of some rye whiskey. Caveats: Every Clojure app is different, and the details of your app will determine the steps necessary to build a JAR. None of the information I found online specifically addressed the problems I had, so …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">4 Jan 2015 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2015/01/04/deterministic-pixels/">Deterministic Pixels</a></h2>
-          <p>I’ve always liked identicons, which WordPress and GitHub have used to great effect. The premise is simple: take a user identifier such as an IP or email address and deterministically convert it into an image based on a simple algorithm. To that I end I started hacking on Identikon - a little Racket program that generates different types of identicons based on rules modules.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 Sep 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/virtualenv-lives/">virtualenv Lives!</a></h2>
-          <p>Setting up Python to the point to be able install packages from PyPI can be annoying and time-intensive. Even worse are OS-provided installations that start throwing cryptic error messages. Especially desktops are prone to that but it’s possible to break the whole toolchain of a server by installing some shiny package you heard about on reddit .</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Apr 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/talks/tls/">The Sorry State Of SSL</a></h2>
-          <p>TLS is the best technology we have for securing our communications. It comes with many sharp edges though. This talk tries to jumpstart a rough understanding and these links should help you to complete the picture.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Mar 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/apple-openssl-verification-surprises/">Apple OpenSSL Verification Surprises</a></h2>
-          <p>Apple ships a patched version of OpenSSL with macOS. If no precautions are taken, their changes rob you of the power to choose your trusted certificate authorities (CAs) and break the semantics of a callback that can be used for custom checks and verifications in client software.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Nov 2013 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2013/11/16/evented-arrays-a-javascript-conveyor-belt/">EventedArray: a JavaScript conveyor belt</a></h2>
-          <p>This post takes a quick look at EventedArray, a small Array-like JavaScript data structure (written in CoffeeScript) that allows you to register callbacks on accessor/mutator operations and also create fixed size buffers. All examples are in JavaScript.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 Jul 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/">Sharing Your Labor of Love: PyPI Quick and Dirty</a></h2>
-          <p>A completely incomplete guide to packaging a Python module and sharing it with the world on PyPI.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 Jun 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/life-after-google-reader/">Life after Google Reader</a></h2>
-          <p>Google killed its Reader and my beloved Reeder for Mac and iPad officially won’t get updated in time. I think to have found an adequate setup to replace both.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 May 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/a-short-summary-on-sybase-sql-anywhere-python/">A Short Summary on Sybase SQL Anywhere and Python</a></h2>
-          <p>As some of my older rage-filled articles indicated, we’re still running some services on SAP’s SQL Anywhere . Since it cost me many hours and sanity wrangling, I think it may be helpful to others to summarize the current situation for Python developers.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 May 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/know-your-models/">Know Your Models</a></h2>
-          <p>In web development, we have an unfortunate double meaning for the word models . As evident as the separation of those two seems to seasoned developers, it shows again and again that it’s not as apparent to beginners.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">5 May 2013 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2013/05/05/get-functional-with-underscore-contrib/">Get Functional with Underscore-Contrib</a></h2>
-          <p>TL;DR - Fogus and Jeremy Ashkenas published the underscore-contrib repo recently which is loaded with functional JavaScript goodness based on the popular underscore library. I walk through a few examples of how I use it in the hopes you’ll get interested in working out new ways to solve your own day-to-day issues.</p>
-        </article>
-      
     </div>
     <nav class="pager">
       <a href="/posts/page-3.html">Previous</a>
-      <span>Page 4 of 5</span>
+      <span>Page 4 of 6</span>
       <a href="/posts/page-5.html">Next</a>
     </nav>
   </main>
