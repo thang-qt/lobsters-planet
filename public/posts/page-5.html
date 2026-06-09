@@ -23,9 +23,255 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>274 recent entries. Last built 9 Jun 2026, 10:05 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 9 Jun 2026, 15:31 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">11 Aug 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/">Streaming Opus audio with MPD&#39;s httpd output</a></h2>
+          <p>With MPD ≥ 0.18 if you add this to your mpd.conf file… audio_output { type &#34;httpd&#34; name &#34;OwlCast&#34; encoder &#34;opus&#34; port &#34;8000&#34; bind_to_address &#34;0.0.0.0&#34; bitrate &#34;96000&#34; format &#34;44100:16:2&#34; # use :1 for mono max_clients &#34;0&#34; # max of zero means no limit always_on &#34;yes&#34; # don&#39;t drop listeners when audio stops tags &#34;yes&#34; # send artist/title metadata } …you&#39;ll get a new MPD output on port 8000 for HTTP streaming. The 96 kbps bitrate is suitable for music streaming and in my testing it sounds grea…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Aug 2019 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/186689297541">Every transistor has a unique quantum fingerprint—but can it be used as a form of ID?</a></h2>
+          <p>Every transistor has a unique quantum fingerprint—but can it be used as a form of ID? : As trap sites are basically tiny defects that are randomly distributed in an uncontrollable way during fabrication, the number, location, and energy levels of trap sites differ for every transistor. As a result, single-electron effects lead to a unique modification in the current-voltage characteristics, effectively giving each transistor a unique “fingerprint.”</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Aug 2019 · <a href="/users/jonbaer/">jonbaer</a> · Jon Baer</p>
+          <h2><a href="https://jonbaer.com/post/186689276716">Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science</a></h2>
+          <p>Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science : Physics Professors Bryan Clark and Taylor Hughes of the University of Illinois at Urbana-Champaign have been awarded US Department of Energy (DOE) grants to develop new quantum computing capabilities. The awards are part of a $37-million DOE initiative supporting research that will lay the groundwork for the development of new quantum information systems and that will use current quantum information capabili…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jul 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/pkgsrc-on-macos/">Dependency upgrade errors with pkgsrc on macOS</a></h2>
+          <p>For some years now Joyent have been quietly hosting binary pkgsrc packages for macOS . It doesn&#39;t seem to have as high a profile as homebrew/fink/macports, but if you&#39;re familiar with BSD-style ports (and particularly if you need to compile things with custom options) you&#39;ll probably find it more comfortable. Anyway, it works well in my experience, with the only hiccup being that very occasionally during a package upgrade I will get an error like the following: # pkgin update # pkgin full-upgrad…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Jun 2019 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2019/react-useposition-hook/">Creating React usePosition() hook for getting browser&#39;s geolocation</a></h2>
+          <p>Decoupling of geolocation logic into React hook</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Jun 2019 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/simple-python-azure-pipelines/">Python in Azure Pipelines, Step by Step</a></h2>
+          <p>Since the acquisition of Travis CI , the future of their free offering is unclear. Azure Pipelines has a generous free tier, but the examples I found are discouragingly complex and take advantage of features like templating that most projects don’t need. To close that gap, this article shows you how to move a Python project with simple CI needs from Travis CI to Azure Pipelines.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 May 2019 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/hallway-track/">The Price of the Hallway Track</a></h2>
+          <p>There are many good reasons not to go to every talk possible when attending conferences. However, increasingly, it became hip to boast about avoiding going to talks – encouraging others to follow suit. That rubs me the wrong way as a speaker, and I’ll try to explain why.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 May 2019 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2019/technical-interview-preparation-checklist/">Technical Interview Preparation Checklist</a></h2>
+          <p>Useful insights from recruiters that they normally send to applicants before the technical interviews</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 May 2019 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/talks/python-foss/">Maintaining a Python Project When It’s Not Your Job</a></h2>
+          <p>PyPI is a gold mine of great packages but those packages have to be written first. More often than not, projects that millions of people depend on are written and maintained by only one person. If you’re unlucky, that person is you! This talk tries to lighten the burden by giving you useful tools and approaches.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h2>
+          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Apr 2019 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/">Using Emacs &amp; restclient.el with SOAP services</a></h2>
+          <p>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Jan 2019 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2019/most-trending-jupyter-notebooks-of-december/">Most Trending Jupyter Notebooks of December on GitHub</a></h2>
+          <p>A list of 25 most trending Jupyter Notebooks on GitHub as for December, 2018</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Dec 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/homemade-machine-learning-in-python/">Homemade Machine Learning in Python</a></h2>
+          <p>MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Nov 2018 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/python-app-deps-2018/">Python Application Dependency Management</a></h2>
+          <p>We have more ways to manage dependencies in Python applications than ever. But how do they fare in production? Unfortunately this topic turned out to be quite polarizing and was at the center of a lot of heated debates. This is my attempt at an opinionated review through a DevOps lens.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">31 Oct 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/machine-learning-in-matlaboctave/">Machine Learning in MatLab/Octave</a></h2>
+          <p>MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Aug 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/playground-and-cheatsheet-for-learning-python/">New Playground and Cheatsheet for Learning Python</a></h2>
+          <p>Collection of Python scripts that are split by topics and contain code examples with explanations, different use cases</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">18 Aug 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/top-33-javascript-projects-on-github-august-2018/">Top 33 JavaScript Projects on GitHub (August 2018)</a></h2>
+          <p>Top of JavaScript projects as for 2018</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Aug 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/playing-with-discrete-fourier-transform-algorithm/">Playing with Discrete Fourier Transform Algorithm in JavaScript</a></h2>
+          <p>Complex but yet magical topic!</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jul 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/extend-your-limits-rather-than-your-ambitions/">Extend your LIMITS rather than your AMBITIONS</a></h2>
+          <p>Extending ambitions rather than limits will bring nothing more than additional stress, unhappiness and dissatisfaction to our lives.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Jul 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/gift-of-24-hours/">The gift of 24 hours</a></h2>
+          <p>Advice on how to spend the 24 hours you have more productively</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Jun 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/permutations-combinations-cheat-sheet/">Permutations/Combinations Algorithms Cheat Sheets</a></h2>
+          <p>This article briefly describes the difference between mathematical permutations and combinations,explains the main idea behind permutations and combinations algorithms and contains links to algorithms implementation in JavaScript.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Jun 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/dynamic-programming-vs-divide-and-conquer/">Dynamic Programming vs Divide-and-Conquer</a></h2>
+          <p>In this article I’m trying to explain the difference/similarities between dynamic programing and divide and conquer approaches based on two examples - binary search and minimum edit distance (Levenshtein distance)</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Jun 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/links-to-promote-your-next-startup/">50 links you may use to promote your next startup for free</a></h2>
+          <p>The list of 50&#43; platforms you may use to promote your next project</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 May 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/algorithms-and-data-structures-in-javascript/">Algorithms and Data Structures in JavaScript</a></h2>
+          <p>Collection of classic algorithms and data structures implemented in ES6 JavaScript with explanations and links to further readings and YouTube videos</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">12 May 2018 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/talks/deploy-friendly/">How to Write Deployment-friendly Applications</a></h2>
+          <p>The DevOps movement gave us many ways to put Python applications into production. But how can you practically structure and configure your applications to make them indifferent to the environment they run in? How do secrets fit into the picture? And where do you put that log file?</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Mar 2018 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2018/aggregatus-service-is-live/">Aggregatus — new data aggregation service — is now live and in alpha</a></h2>
+          <p>Aggregate data from many sources into one collection</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Nov 2017 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/hashes-and-equality/">Python Hashes and Equality</a></h2>
+          <p>Most Python programmers don’t spend a lot of time thinking about how equality and hashing works. It usually just works. However there’s quite a bit of gotchas and edge cases that can lead to subtle and frustrating bugs once one starts to customize their behavior – especially if the rules on how they interact aren’t understood.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Aug 2017 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2017/docker-whale-in-digital-ocean/">Docker Whale in Digital Ocean or Automated Continuous Delivery Flow For Simple Projects</a></h2>
+          <p>The main idea is to automate project’s code and environment deployment to production and to make this process to be smooth and easy</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Jul 2017 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2017/if-you-ever-used-subway-you-should-know-what-binary-search-tree-is/">If you ever used subway you should know what Binary Search Tree is</a></h2>
+          <p>Binary search trees, sometimes called ordered or sorted binary trees, are a particular type of container… bla…bla…bla… Stop!</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jun 2017 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2017/dangerous-step-from-agile-to-fragile/">Dangerous step from Agile to frAgile (fixed-requirements-Agile) software development</a></h2>
+          <p>The dangerous step is — to FIX price, deadlines and vague scope for long-term project and at the same time try to be AGILE in development process.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Jun 2017 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2017/solid-principles-around-you/">S.O.L.I.D. Principles Around You</a></h2>
+          <p>Real-world visual examples of SOLID principles</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Jun 2017 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/docker-signals/">Why Your Dockerized Application Isn’t Receiving Signals</a></h2>
+          <p>Proper cleanup when terminating your application isn’t less important when it’s running inside of a Docker container. Although it only comes down to making sure signals reach your application and handling them, there’s a bunch of things that can go wrong.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Jun 2017 · <a href="/users/trekhleb/">trekhleb</a> · Trekhleb.dev RSS Feed</p>
+          <h2><a href="https://trekhleb.dev/blog/2017/how-to-create-aot-jit-compatible-angular-4-library/">How to create AOT/JIT compatible Angular 4 library with external SCSS/HTML templates</a></h2>
+          <p>Example of how to create a re-usable npm library for Angular projects</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 May 2017 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/speaking/">On Conference Speaking</a></h2>
+          <p>I’ve seen quite a bit of the world thanks to being invited to speak at conferences. Since some people are under the impression that serial conference speakers possess some special talents, I’d like to demystify my process by walking you through my latest talk from start to finish.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 May 2017 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/talks/reliability/">Solid Snakes or: How to Take 5 Weeks of Vacation</a></h2>
+          <p>No matter whether you run a web app, search for gravitational waves, or maintain a backup script: reliability of your systems make the difference between sweet dreams and production nightmares at 4am.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Dec 2016 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
+          <h2><a href="http://darrennewton.com/2016/12/21/components-a-la-carte/">Components á la carte</a></h2>
+          <p>TL;DR - By exploiting Webpack’s async loading feature you can roll a feature-gating mechanism in your JavaScript app that only loads the code your end user is supposed to see. This is great for beta testing features and making smaller initial loads. You probably don’t need to do this in your application.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Dec 2016 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
+          <h2><a href="http://darrennewton.com/2016/12/17/identicons-with-clojurescript/">Identicons with ClojureScript</a></h2>
+          <p>A while back I put together a little graphics package written in Racket for generating identicons. This summer someone at work stumbled across it and asked if I could generate some of those identicons in the browser. I decided to give it a shot and whipped up a small subset of the original package in ClojureScript: identikon-cljs</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Aug 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/serialization/">Better Python Object Serialization</a></h2>
+          <p>The Python standard library is full of underappreciated gems. One of them allows for simple and elegant function dispatching based on argument types . This makes it perfect for serialization of arbitrary objects – for example to JSON in web APIs and structured logs.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Aug 2016 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
+          <h2><a href="https://henrytodd.uk/notes/2016/cross-platform-volumes-with-tcplay/">Encrypted cross-platform read/write volumes with tcplay</a></h2>
+          <p>tcplay is a reimplementation of truecrypt disk &amp; disk-image encryption using dm-crypt. Originally for DragonflyBSD, it’s been ported and is in most Linux distro repositories. It’s compatible with VeraCrypt on Mac and Windows. The following describes how to create &amp; use encrypted read/write volumes on a Linux host which can be used on Mac &amp; Windows machines. A note about filesystems When creating an encrypted disk image you must choose an internal filesystem which is supported on each of the …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Aug 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/articles/decorators/">Please Fix Your Decorators</a></h2>
+          <p>If your Python decorator unintentionally changes the signatures of my callables or doesn’t work with class methods, it’s broken and should be fixed. Sadly most decorators are broken because the web is full of bad advice.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">31 May 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
+          <h2><a href="https://hynek.me/talks/prometheus/">Get Instrumented: How Prometheus Can Unify Your Metrics</a></h2>
+          <p>To get real time insight into running applications you need to instrument them and collect metrics: count events, measure times, expose numbers. That used to be a clusterfuck of technologies and approaches. Prometheus changes that.</p>
+        </article>
       
         <article class="entry">
           <p class="meta">19 May 2016 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
@@ -79,252 +325,6 @@
           <p class="meta">26 Mar 2015 · <a href="/users/jptsh/">jptsh</a> · jpt.sh</p>
           <h2><a href="/posts/deploying-hugo-to-cloudfront/">Deploying Static Sites to CloudFront</a></h2>
           <p>Like many developers, I’ve written my own blog software half a dozen times. I’ve probably spent a lot more time tweaking the software than writing posts so this time I decided to do something different. I wanted to keep things as simple as possible but still have an excuse to learn a few new things. I wound up settling on Hugo hosted on Amazon S3 w/ CloudFront in front of it. One of the deciding factors that made CloudFront come out on top is that I wanted to see what it’d take to get thin…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">8 Mar 2015 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2015/03/08/sour-mash-getting-your-clojure-into-a-jar/">Sour Mash: getting your Clojure into a JAR</a></h2>
-          <p>This weekend I decided to finally bite the bullet and deploy one of my Clojure apps as a JAR. “Certainly” I thought to myself, “there are great tutorials for this online”. Yes, yes there are, except none of them worked for me and in fact did lead to the consumption of some rye whiskey. Caveats: Every Clojure app is different, and the details of your app will determine the steps necessary to build a JAR. None of the information I found online specifically addressed the problems I had, so …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">4 Jan 2015 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2015/01/04/deterministic-pixels/">Deterministic Pixels</a></h2>
-          <p>I’ve always liked identicons, which WordPress and GitHub have used to great effect. The premise is simple: take a user identifier such as an IP or email address and deterministically convert it into an image based on a simple algorithm. To that I end I started hacking on Identikon - a little Racket program that generates different types of identicons based on rules modules.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">4 Nov 2014 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
-          <h2><a href="https://henrytodd.uk/notes/2014/grouping-notifications-libnotify-notify-send/">Grouping desktop notifications with libnotify and notify-send</a></h2>
-          <p>In writing a script which generated libnotify desktop notifications with notify-send , I saw that they soon piled up and cluttered the notification area. Some applications (such as Transmission, or ABRT ) are able to stack/group their notifications together, so I set out to discover how. After a couple of hours of googling, reading and asking in irc channels I discovered it’s a lot more complicated than I hoped, and that no one has really written it down clearly anywhere. So, for the benefit o…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 Sep 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/virtualenv-lives/">virtualenv Lives!</a></h2>
-          <p>Setting up Python to the point to be able install packages from PyPI can be annoying and time-intensive. Even worse are OS-provided installations that start throwing cryptic error messages. Especially desktops are prone to that but it’s possible to break the whole toolchain of a server by installing some shiny package you heard about on reddit .</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">30 Aug 2014 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
-          <h2><a href="https://henrytodd.uk/notes/2014/windows-usb-install-media-in-linux/">Creating Windows USB install media in Linux</a></h2>
-          <p>I spent entirely too long today trying to discern why my efforts to dd a Windows USB install ISO onto a USB stick were failing. Everything worked, the USB stick would mount fine in Windows, but I couldn’t boot from it despite setting it bootable in cfdisk. The trick is to write a Windows (or presumably DOS?) compatible boot sector to the volume. I will no doubt forget this by the time I next need to create one of these installers, so I’m putting these notes here while I remember. The commonl…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Aug 2014 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
-          <h2><a href="https://henrytodd.uk/notes/2014/simpler-gnupg-mutt-config-with-gpgme/">Simpler GnuPG &amp; Mutt configuration with GPGME</a></h2>
-          <p>I was consulting the Mutt documentation recently when the intriguingly-named crypt_use_gpgme variable caught my eye. I set up GnuPG with Mutt years ago and haven’t touched it since, but I remember it being a surprisingly complex procedure. Lots of config lines defining commands like gpg --no-verbose --batch --output - --verify %s %f for mutt to fork separate gpg processes for each operation. GPGME provides a standardised API for applications to use instead of all the esoteric manual config. Th…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Apr 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/talks/tls/">The Sorry State Of SSL</a></h2>
-          <p>TLS is the best technology we have for securing our communications. It comes with many sharp edges though. This talk tries to jumpstart a rough understanding and these links should help you to complete the picture.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Mar 2014 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/apple-openssl-verification-surprises/">Apple OpenSSL Verification Surprises</a></h2>
-          <p>Apple ships a patched version of OpenSSL with macOS. If no precautions are taken, their changes rob you of the power to choose your trusted certificate authorities (CAs) and break the semantics of a callback that can be used for custom checks and verifications in client software.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">2 Feb 2014 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
-          <h2><a href="https://henrytodd.uk/notes/2014/graphing-mtr-reports-with-gnuplot/">Graphing mtr reports with gnuplot</a></h2>
-          <p>I wasn’t able to find any clear examples online of scripting gnuplot to graph mtr output, and I had a directory full of report files that I needed to turn into SVG graphs. If you’d like to follow along, here are the assumptions: You have mtr reports as text files generated by the -r switch. You want a stacked column chart of the best, average and worst response times. You need SVG output suitable for including in web pages. You are vaguely familiar with gnuplot (enough to tweak a .gp file). …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">24 Jan 2014 · <a href="/users/hjst/">hjst</a> · Henry&#39;s notes</p>
-          <h2><a href="https://henrytodd.uk/notes/2014/opensmtpd-with-mailroute/">Configuring a personal mail server with OpenSMTPD and MailRoute</a></h2>
-          <p>It’s been less than a year since the first production release of OpenSMTPD , but I’d heard good things and wanted to give it a try. Like most OpenBSD projects the manpages are excellent, but like all young projects examples are thin on the ground. I decided to try setting it up for my new home server: a tiny domU holding mail for just 4 accounts. All of my mail is relayed via MailRoute , and while it’s a normal smarthost setup I didn’t find any clear examples, so here’s mine in the hop…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Nov 2013 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2013/11/16/evented-arrays-a-javascript-conveyor-belt/">EventedArray: a JavaScript conveyor belt</a></h2>
-          <p>This post takes a quick look at EventedArray, a small Array-like JavaScript data structure (written in CoffeeScript) that allows you to register callbacks on accessor/mutator operations and also create fixed size buffers. All examples are in JavaScript.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 Jul 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/">Sharing Your Labor of Love: PyPI Quick and Dirty</a></h2>
-          <p>A completely incomplete guide to packaging a Python module and sharing it with the world on PyPI.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 Jun 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/life-after-google-reader/">Life after Google Reader</a></h2>
-          <p>Google killed its Reader and my beloved Reeder for Mac and iPad officially won’t get updated in time. I think to have found an adequate setup to replace both.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 May 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/a-short-summary-on-sybase-sql-anywhere-python/">A Short Summary on Sybase SQL Anywhere and Python</a></h2>
-          <p>As some of my older rage-filled articles indicated, we’re still running some services on SAP’s SQL Anywhere . Since it cost me many hours and sanity wrangling, I think it may be helpful to others to summarize the current situation for Python developers.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 May 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/know-your-models/">Know Your Models</a></h2>
-          <p>In web development, we have an unfortunate double meaning for the word models . As evident as the separation of those two seems to seasoned developers, it shows again and again that it’s not as apparent to beginners.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">5 May 2013 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2013/05/05/get-functional-with-underscore-contrib/">Get Functional with Underscore-Contrib</a></h2>
-          <p>TL;DR - Fogus and Jeremy Ashkenas published the underscore-contrib repo recently which is loaded with functional JavaScript goodness based on the popular underscore library. I walk through a few examples of how I use it in the hopes you’ll get interested in working out new ways to solve your own day-to-day issues.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Mar 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/talks/python-deployments/">Solid Python Deployments for Everybody</a></h2>
-          <p>Without orientation, deployments of Python applications can be tiresome and even painful. This talk attempts to replace anxiety and pain through informed annoyance.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">6 Mar 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/taking-some-pain-out-of-python-logging/">Taking Some Pain out of Python Logging</a></h2>
-          <p>Even the best of us hate logging in Python sometimes. And while a lot of its problems are actually just bad docs and terrible defaults in the past, there is some pain that can be avoided.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">5 Feb 2013 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/">Hardening Your Web Server’s SSL Ciphers</a></h2>
-          <p>There are many wordy articles on configuring your web server’s TLS ciphers. This is not one of them. Instead, I will share a configuration that scores a straight “ A ” on Qualys’s SSL Server Test in 2023.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Sep 2012 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2012/09/16/hacking-up-sites-with-middleman/">Hacking up sites with Middleman</a></h2>
-          <p>TL;DR - I’m going to walk through how I rebuilt this blog using a static site generator. In the first half I walk through my decision for moving to a static site. You can skip down to the tech talk if you want.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">20 Jul 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/using-celery-with-pyramid/">Using Celery with Pyramid</a></h2>
-          <p>This one falls under: “I knew there has to be an easy way!”</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Jul 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/how-i-stopped-worrying-and-started-loving-pyladies/">How I Stopped Worrying and Started Loving PyLadies</a></h2>
-          <p>When I read about PyLadies for the first time, my thoughts were a common knee-jerk: “separation is bad, dividing the community, …”. Like many of my privileged peers, I was pro-diversity but I thought this is the wrong way. My views changed over time and I filed it under “lessons learned”. Unfortunately, my old thinking patterns don’t cease to pop up in discussions, so I decided to share my perspective.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">8 Jul 2012 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2012/07/08/heroku-and-your-demo/">Heroku and your demo: It&#39;s great till it isn&#39;t</a></h2>
-          <p>In my previous blog post I linked to a demo application hosted on Heroku. Heroku is great, as you can use their free hosting to quickly get your demo up online using a variety of technologies. Unfortunately I ran into a few issues related to traffic spikes and bad weather. The cloud is great, until it’s not.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">24 Jun 2012 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2012/06/24/backbonejs-and-you/">Backbone.js and You</a></h2>
-          <p>I’m currently working with the amazing folks at Arc90 on a pretty hefty project. It’s a great working environment that really stresses collaboration and learning, with weekly code and design reviews. We’re starting to use Backbone.js on a number of projects, so a quick talk was organized to explain the ins and outs to everyone. Since I had worked on some previous projects using Backbone, they asked me to do an intro.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 May 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/my-road-to-the-python-commit-bit/">My Road to the Python Commit Bit</a></h2>
-          <p>Like many OSS fans, I always wanted to be an active part of the movement. My last big project was for the Amiga in the past millennium though. Nowadays I’m happy that after years of small-scale dabbling on various projects I’ve found my haven. I’d like to share my way to my recent gain of push privileges on the Python project and hope to inspire some of you to do the same.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 May 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/python-app-deployment-with-native-packages/">Python Application Deployment with Native Packages</a></h2>
-          <p>Speed , reproducibility , easy rollbacks , and predictability is what we strive for when deploying our diverse Python applications. And that’s what we achieved by leveraging virtual environments and Linux system packages.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">23 Apr 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/python-deployment-anti-patterns/">Python Deployment Anti-Patterns</a></h2>
-          <p>Deploying web applications is hard. No shiny continuous deployment talk and no DevOps coolness can change that. Or to use DevOps Borat’s words : “Is all fun and game until you are need of put it in production.“ There are some mistakes I see people doing again and again so I’d like to address them here.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">25 Feb 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/celery-and-sybase/">Celery and Sybase SQL Anywhere</a></h2>
-          <p>In our newest installation of “why you should not use Sybase SQL Anywhere” I’d like to report the latest problem I had to solve: for some reason, I couldn’t connect using sqlanydb from Celery tasks.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">26 Jan 2012 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/fleeing-from-gmail/">Fleeing from Gmail</a></h2>
-          <p>So you came to the same conclusion as I: Google is actually evil indeed . That makes it kind of uncomfortable to have all your emails over there, doesn’t it? I for one decided that it’s time to leave and will show you how to do the same using an UNIX based OS.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">31 Dec 2011 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/my-2011/">My 2011</a></h2>
-          <p>I never did a retrospective but 2011 deserves one.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Dec 2011 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/dead-simple-connection-pooling-with-twisted/">Dead Simple Connection Pooling with Twisted</a></h2>
-          <p>There is this common notion, that asynchronous IO is hard and that writing a custom connection pool is even harder. The nice thing however is, that in reality asynchronous IO is just “weird” in the beginning – and that a connection pool using async IO is so simple it hurts.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">8 Dec 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/12/08/protip-url-parameters-with-nginx-and-php/">Protip: URL Parameters with Nginx &amp; PHP</a></h2>
-          <p>If you’re using nginx as your webserver and need to pass URL parameters to your PHP front controller then some adjustments to your configuration file are necessary:</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">6 Dec 2011 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/macvim-and-the-clipboard/">MacVim and the Clipboard</a></h2>
-          <p>After switching to the Mac, I had one big itch that spoiled all the bliss: MacVim sometimes simply refused to cooperate with the system clipboard. As you can imagine, an editor that can’t exchange text with other software is a rather painful thing.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Nov 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/11/19/for-programmers-the-best-of-edw519/">For Programmers: The Best of edw519</a></h2>
-          <p>A while back on Hacker News, a.k.a Ed Weissman posted his collection of tips and advice for programmers. It was amazing stuff.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">6 Nov 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/11/06/my-little-friend-z/">My little friend z</a></h2>
-          <p>I’m a command line interface kind of guy, which is funny since I do everything on Macs. Then again, I first embraced PCs with an Apple IIe, which was a CLI only experience. One little tool I’ve had installed for a while is z by Rupa. It’s a nice little shell script that keeps tabs on the directories you’ve been cding in and out of and then lets you quickjump to them using a simple regex. So instead of remembering a long path like:</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">5 Nov 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/11/05/occupy-wall-street-design-edition/">Occupy Wall Street - Design Edition</a></h2>
-          <p>My fellow worker bees over at Gabardine.com decided to flex their design chops by lending a hand to the folks downtown at Liberty Square. While Occupy Wall Street gives us a much needed civics lesson, and the 1% continues to skim the cream off your bank accounts, Scott Grant took some of the DIY signs from the occupation and re-made them as snappy posters.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">30 Oct 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/10/30/mirror-site-and-convert-to-pdf/">How to: Convert site to PDF with wkhtmltopdf and wget</a></h2>
-          <p>A friend of mine emailed me the other day with a quick question: “What’s an easy way to convert an entire site to PDF? Are there tools for this?” Why yes, yes there are. In fact, it’s pretty easy to do if you’re on a Mac or Linux OS using wget and wkhtmltopdf:</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 Oct 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/10/29/darth-small/">Darth Small</a></h2>
-          
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Oct 2011 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/why-tomatoes-are-awesome/">Why Tomatoes Are Awesome</a></h2>
-          <p>No, this isn’t going to be a smug post about nutrition. These tomatoes I’m going to talk about aren’t for eating but for kicking my ass to be more productive. I’m talking about the Pomodoro Technique of course.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">28 Aug 2011 · <a href="/users/d_run/">d_run</a> · Miscellanea</p>
-          <h2><a href="http://darrennewton.com/2011/08/28/phrap-php-pdo-wrapper/">Introducing Phrap</a></h2>
-          <p>Phrap is a super-light PHP database wrapper using PDO for basic CRUD operations with MySQL. If that doesn’t sound sexy, well, that’s because it isn’t.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">22 Aug 2011 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/my-mutt-gmail-setup/">My mutt and Gmail Setup</a></h2>
-          <p>So you want quick offline access to your mails using mutt to fully exploit your SSD and yet still have everything nicely working in Google’s web interface? Additionally, you would like to have access to your Google Contacts just like in your phone and everywhere else? I’ll show you how!</p>
         </article>
       
     </div>
