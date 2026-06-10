@@ -58,48 +58,6 @@
           <p>I like the Times crossword but: I don&#39;t like their iPad app I can&#39;t be bothered to log in All I really want is the PDF version of the puzzle to scribble on Happily, the PDF files offered for printing do not require a login and have predicatable filenames. I&#39;ve put together an iOS/iPadOS Shortcut which lets you pick a day and then fetches the puzzle PDF for that day: iCloud Shortcut download .</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">22 Oct 2020 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2020/mp4-target-filesize-with-ffmpeg/">Targeting a specific filesize with FFmpeg</a></h3>
-          <p>FFmpeg doesn&#39;t have a way to provide a target filesize directly, so you need to work out your target bitrate instead and use 2-pass encoding . To get the target bitrate (in kilobits) you&#39;ll need: Target filesize in kilobits (size in GiB × (8 × 1024²)) Video duration in seconds Then you provide the video bitrate (filesize ÷ duration) on both passes with the -b:v option. The first pass is only for analysis, so we can use -an to ignore the audio tracks. It will write out a .log and a .log.mbtre…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Sep 2020 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2020/six-years-with-hugo/">6&#43; years of using Hugo for a tiny website</a></h3>
-          <p>I spent a bit of my holiday time recently simplifying this site, and it gave me an appreciation for Hugo (the thing that builds the HTML for me). I wanted to write this down while I still remember, so that when I&#39;m re-evaluating the choice of Hugo in another 6 years, I&#39;ll have something to refer to. % git log --diff-filter=A -- config.yaml commit 16e988b07edbf9e914d525e29bc88ba74d6ed466 Date: Fri Jan 31 17:51:46 2014 &#43;0800 Convert site structure from Jekyll to Hugo. As is usually the way with th…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Aug 2020 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2020/arbitrary-default-branch-names-git-aliases/">Git aliases using arbitrary default branch names</a></h3>
-          <p>I have a very simple git alias which shows me what&#39;s changed on my feature branch compared to the main branch (which is probably what I&#39;m about to target with a PR/merge): [alias] ld = diff master This only works if &#34;master&#34; is the name of the default branch in your current repo, and this is decreasingly common. % git ld fatal: ambiguous argument &#39;master&#39;: unknown revision or path not in the working tree. One solution is to call git symbolic-ref on the &#34;origin&#34; remote HEAD. % git symbolic-ref re…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">11 Aug 2019 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/">Streaming Opus audio with MPD&#39;s httpd output</a></h3>
-          <p>With MPD ≥ 0.18 if you add this to your mpd.conf file… audio_output { type &#34;httpd&#34; name &#34;OwlCast&#34; encoder &#34;opus&#34; port &#34;8000&#34; bind_to_address &#34;0.0.0.0&#34; bitrate &#34;96000&#34; format &#34;44100:16:2&#34; # use :1 for mono max_clients &#34;0&#34; # max of zero means no limit always_on &#34;yes&#34; # don&#39;t drop listeners when audio stops tags &#34;yes&#34; # send artist/title metadata } …you&#39;ll get a new MPD output on port 8000 for HTTP streaming. The 96 kbps bitrate is suitable for music streaming and in my testing it sounds grea…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">24 Jul 2019 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2019/pkgsrc-on-macos/">Dependency upgrade errors with pkgsrc on macOS</a></h3>
-          <p>For some years now Joyent have been quietly hosting binary pkgsrc packages for macOS . It doesn&#39;t seem to have as high a profile as homebrew/fink/macports, but if you&#39;re familiar with BSD-style ports (and particularly if you need to compile things with custom options) you&#39;ll probably find it more comfortable. Anyway, it works well in my experience, with the only hiccup being that very occasionally during a package upgrade I will get an error like the following: # pkgin update # pkgin full-upgrad…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/">Using Emacs &amp; restclient.el with SOAP services</a></h3>
-          <p>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h3>
-          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
-        </article>
-      
     </div>
   </main>
 

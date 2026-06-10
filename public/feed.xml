@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Wed, 10 Jun 2026 04:52:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 10:35:56 +0000</lastBuildDate>
     <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/06/07/bookmarks/</link>
@@ -39,18 +39,18 @@
       <pubDate>Mon, 01 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untitled</title>
       <link>https://inkdroid.org/2026/05/31/untitled/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
       <description>Untitled by John Summers</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -157,6 +157,14 @@
       <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Baremetal vs. Proxmox vs. ESXi Performance Geekbench Scores</title>
+      <link>https://neil.computer/notes/baremetal-vs-proxmox-vs-esxi-performance-geekbench-scores/</link>
+      <guid isPermaLink="false">6a092420d5e103044cd684d3</guid>
+      <description>I have always wondered about the performance characteristics of virtualization. Despite the caveats in testing methodology, workloads, etc., it&#39;d be nice to see what the performance penalty is for using Baremetal vs. Proxmox vs. ESXi . Googling for answers results in some ancient paper from like 2008. Asking LLMs</description>
+      <author>neilpanchal</author>
+      <pubDate>Sun, 17 May 2026 03:03:10 +0000</pubDate>
     </item>
     <item>
       <title>Humanoid robots won’t surprise us when they arrive</title>
@@ -630,6 +638,14 @@
       <pubDate>Thu, 15 May 2025 01:07:00 +0000</pubDate>
     </item>
     <item>
+      <title>The ASMOKE Essential &#39;smart&#39; grill is neither smart nor essential</title>
+      <link>https://adriano.fyi/posts/asmoke-essential-smart-grill-is-neither-smart-nor-essential/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/asmoke-essential-smart-grill-is-neither-smart-nor-essential/</guid>
+      <description>The grill I recently purchased an ASMOKE Essential ‘Smart’ pellet grill. Before purchasing it, I did what any average consumer does and watched several YouTube review videos. As it turns out, those were all astroturfed , paid content from ASMOKE. My experience convinced me to write this post as counter-programming to ASMOKE’s prolific astroturfing. This post is what I wish I had found before purchasing the ASMOKE Essential very dumb, very bad, non-essential grill. My hope is that at least …</description>
+      <author>adriano</author>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>how indian colleges casually violate human rights</title>
       <link>https://agnishom.github.io/blog/2025/indian-colleges/</link>
       <guid isPermaLink="false">https://agnishom.github.io/blog/2025/indian-colleges</guid>
@@ -644,6 +660,14 @@
       <description>Track your location without giving up on your privacy</description>
       <author>blacklight</author>
       <pubDate>Mon, 24 Mar 2025 09:33:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Standalone OpenAI transcription Python script</title>
+      <link>https://samrat.me/standalone-openai-transcription-python-script/</link>
+      <guid isPermaLink="false">67dd64d98a98d90001587e92</guid>
+      <description>OpenAI announced some new audio models yesterday, including new transcription models( gpt-4o-transcribe and gpt-4o-mini-transcribe ). This model performs better than Whisper, though because they are built on top of language models, they&#39;re prone to prompt injection attacks . You can also access it using the Realtime API. After a bit</description>
+      <author>samrat</author>
+      <pubDate>Fri, 21 Mar 2025 13:15:55 +0000</pubDate>
     </item>
     <item>
       <title>Student Projects: Winter 2025</title>
@@ -670,6 +694,14 @@
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Assorted links(February 2025)</title>
+      <link>https://samrat.me/assorted-links-february-2025/</link>
+      <guid isPermaLink="false">679daed33491320001eafd0e</guid>
+      <description>Import AI 397: DeepSeek means AI proliferation is guaranteed; maritime wardrones; and more evidence of LLM capability overhangs Welcome to Import AI, a newsletter about AI research. Import AI Jack Clark But beneath all of this I have a sense of lurking horror - AI systems have got so useful</description>
+      <author>samrat</author>
+      <pubDate>Fri, 28 Feb 2025 13:37:55 +0000</pubDate>
+    </item>
+    <item>
       <title>iMac G4(K)</title>
       <link>https://jcs.org/2025/02/26/imacg4k#2026-02-17</link>
       <guid isPermaLink="false">https://jcs.org/2025/02/26/imacg4k#2026-02-17</guid>
@@ -686,12 +718,44 @@
       <pubDate>Mon, 24 Feb 2025 05:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Running ML models in Elixir using Pythonx</title>
+      <link>https://samrat.me/running-ml-models-in-elixir-using-pythonx/</link>
+      <guid isPermaLink="false">67b7b3c5c50c2c00016a4ccc</guid>
+      <description>I just discovered Pythonx , which runs a Python interpreter in the same OS process as Elixir. Looks like it also wraps uv so it sets up a virtual environment with all the Python dependencies your code needs. Here&#39;s how I got the MLX version of the recently released</description>
+      <author>samrat</author>
+      <pubDate>Thu, 20 Feb 2025 23:16:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Book mini-review: &#34;Children of Ruin&#34;</title>
+      <link>https://samrat.me/book-mini-review-children-of-ruin/</link>
+      <guid isPermaLink="false">67b0a92bc67c5a00019fdf54</guid>
+      <description>Children of Ruin is the second book in Adrian Tchaikovsky&#39;s Children of Time series. It follows another branch of the terraforming project that began in the first book. Interesting read with non-human intelligences which feels relevant because of all the recent AI buzz and the apparent imminence of</description>
+      <author>samrat</author>
+      <pubDate>Sat, 15 Feb 2025 14:57:13 +0000</pubDate>
+    </item>
+    <item>
       <title>Civic Tech&#39;s Third Wave</title>
       <link>/posts/third-wave-civic-tech/</link>
       <guid isPermaLink="false">/posts/third-wave-civic-tech/</guid>
       <description>I’ve spent nearly twenty years working in civic tech. It feels like with everything going on right now, I should have something to say… This is my attempt to put into words what’s been swirling around in my head during this chaos. This is my perspective , which I know is just a small part of the picture. In particular, I am focused on the US here, and while I’ve worked with many civic tech nonprofits, journalists, academics, and at commercial civic tech firms, I should note I’ve never …</description>
       <author>jptsh</author>
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a Membrane Pipeline to talk to Google Gemini</title>
+      <link>https://samrat.me/building-a-membrane-pipeline-to-talk-to-google-gemini/</link>
+      <guid isPermaLink="false">67a7492cd90f36000184d5b6</guid>
+      <description>This post was also published in the Software Mansion blog . Large Language Models like Google’s Gemini 2.0 Flash and OpenAI’s GPT-4o Realtime are multimodal, meaning users can chat with them via text, talk to them directly like in a conversation, or even send a live</description>
+      <author>samrat</author>
+      <pubDate>Sat, 08 Feb 2025 12:13:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assorted links(January 2025)</title>
+      <link>https://samrat.me/links-2025-01/</link>
+      <guid isPermaLink="false">679793813491320001eafc21</guid>
+      <description>Speed matters: Why working quickly is more important than it seems « the jsomers.net blog James Somers, July 26, 2015 REVIEW: Reentry, by Eric Berger Reentry: SpaceX, Elon Musk, and the Reusable Rockets that Launched a Second Space Age, Eric Berger (BenBella Books, 2024). Mr. and Mrs. Psmith’</description>
+      <author>samrat</author>
+      <pubDate>Mon, 27 Jan 2025 14:13:40 +0000</pubDate>
     </item>
     <item>
       <title>BlueSCSI Wi-Fi Desk Accessory 1.3 Released</title>
@@ -717,6 +781,22 @@
       <pubDate>Tue, 31 Dec 2024 07:08:03 +0000</pubDate>
     </item>
     <item>
+      <title>TIL: Avoid modifying headers with Dart HTTP package</title>
+      <link>https://samrat.me/til-avoid-modifying-headers-with-dart-http-package/</link>
+      <guid isPermaLink="false">676fcc0afcbdfa00011f1a2e</guid>
+      <description>I&#39;m using the http package to make a POST request to OpenAI, and the API seems to only strictly accept application/sdp as the Content-Type : flutter: Response body: {&#34;error&#34;:{&#34;message&#34;:&#34;Unsupported content type. This API method only accepts &#39;application/sdp&#39; requests,</description>
+      <author>samrat</author>
+      <pubDate>Sat, 28 Dec 2024 10:06:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Book mini-review: &#34;Children of Time&#34; by Adrian Tchaikovsky</title>
+      <link>https://samrat.me/book-mini-review-children-of-time-by-adrian-tchaikovsky/</link>
+      <guid isPermaLink="false">67644bab2fb2cc00015246b7</guid>
+      <description>Children of Time is a science fiction story about the evolution of intelligent spiders on a planet terraformed by humans. I found it enjoyable throughout but the ending is particularly beautiful. If you like the Three Body Problem or Greg Egan&#39;s &#34;Diaspora&#34;, you&#39;ll love</description>
+      <author>samrat</author>
+      <pubDate>Thu, 19 Dec 2024 16:43:58 +0000</pubDate>
+    </item>
+    <item>
       <title>API Design of X (Twitter) Home Timeline</title>
       <link>https://trekhleb.dev/blog/2024/api-design-x-home-timeline/</link>
       <guid isPermaLink="false">https://trekhleb.dev/blog/2024/api-design-x-home-timeline/</guid>
@@ -730,6 +810,46 @@
       <guid isPermaLink="false">https://jonbaer.com/post/768809886231478272</guid>
       <author>jonbaer</author>
       <pubDate>Tue, 03 Dec 2024 02:50:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fly.io Postgres failover fix</title>
+      <link>https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</guid>
+      <description>Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hetzner raises prices while significantly lowering bandwidth (US)</title>
+      <link>https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</guid>
+      <description>Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Book review: The MANIAC by Benjamín Labatut</title>
+      <link>https://samrat.me/book-review-the-maniac-by-benjamin-labatut/</link>
+      <guid isPermaLink="false">6741caf5f13d0e000177aaed</guid>
+      <description>Historical fiction about von Neumann and AI. This felt different than other historical novels I&#39;ve read because as far as I could tell, there was no fictional plotlines introduced to the history. The fictional bit is just the first-person narratives from people around von Neumann that never actually</description>
+      <author>samrat</author>
+      <pubDate>Sat, 23 Nov 2024 12:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT is Slipping</title>
+      <link>https://adriano.fyi/posts/chatgpt-is-slipping/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/chatgpt-is-slipping/</guid>
+      <description>ChatGPT is slipping Three months ago I put code in production that utilizes gpt-4o and/or gpt-4o-mini models to analyze feedback about businesses and categorize it. The prompts instruct the models to identify categories of feedback, and in a second phase, extract some examples of what people said. This is a simplification, but it took very little effort to craft some prompts that enabled even the meager gpt-4o-mini model to do exactly that. It didn’t feel like a stretch to imagine that this us…</description>
+      <author>adriano</author>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini file upload in Elixir</title>
+      <link>https://samrat.me/gemini-file-upload-in-elixir/</link>
+      <guid isPermaLink="false">6733c7170309e20001367bc5</guid>
+      <description>If you want to send videos or images to the Google Gemini API, eg for video summarization, you need to upload the video to a separate endpoint and wait for it to get processed. This is described in the Gemini docs , and it&#39;s fairly straightforward to translate into</description>
+      <author>samrat</author>
+      <pubDate>Tue, 12 Nov 2024 22:02:39 +0000</pubDate>
     </item>
     <item>
       <title>Reflections on Civic Tech from 10th Annual Civic Scopeathon</title>
@@ -746,6 +866,46 @@
       <description>my experience of living in Houston without a car, and the North American obsession with them</description>
       <author>agnishom</author>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Implementing distributed pooling in Elixir</title>
+      <link>https://samrat.me/elixir-distributed-pooling/</link>
+      <guid isPermaLink="false">672662986e63510001417047</guid>
+      <description>In Elixir, once you have clustering set up , it&#39;s ridiculously easy to run some code on another node in your cluster: Node.spawn(:&#34;another_beam_instance@10.0.1.2&#34;, fn -&gt; # This runs on a different node send(self(), node()) end) receive do response</description>
+      <author>samrat</author>
+      <pubDate>Wed, 06 Nov 2024 11:22:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>TIL: `pg` vs `pg2` Erlang modules</title>
+      <link>https://samrat.me/til-pg-vs-pg2-erlang-modules/</link>
+      <guid isPermaLink="false">67248c9e5ca6f9000160781a</guid>
+      <description>I started reading up on Erlang&#39;s pg module( pg = &#34;process groups&#34;, it&#39;s not related to Postgres!) recently and kept seeing references to pg2 . This is quite confusing because pg is the newer module that replaces pg2 . From pg.erl &#39;s initial commit message</description>
+      <author>samrat</author>
+      <pubDate>Fri, 01 Nov 2024 08:15:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>FLAME Dashboard</title>
+      <link>https://samrat.me/flame-dashboard-initial-release/</link>
+      <guid isPermaLink="false">6723deff5ca6f900016077eb</guid>
+      <description>I just released a small Elixir package: flame_dashboard ( Hex.pm package ). It adds a page to Phoenix LiveDashboard that lets you monitor your FLAME pools. Here&#39;s a video showing the dashboard in action: 0:00 / 0:13 1×</description>
+      <author>samrat</author>
+      <pubDate>Thu, 31 Oct 2024 19:53:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>TIL: Looking up a VM&#39;s private IP in Hetzner</title>
+      <link>https://samrat.me/til-looking-up-a-vms-private-ip-in-hetzner/</link>
+      <guid isPermaLink="false">672256685ca6f900016077c1</guid>
+      <description>I recently had to look up my Hetzner VM&#39;s IP in a private network I&#39;d set up from inside a Docker container. My initial set up was a bit clunky passing the host IP addresses during deployment but there&#39;s an easy way to look</description>
+      <author>samrat</author>
+      <pubDate>Wed, 30 Oct 2024 15:57:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elixir clustering on a Kamal+Hetzner deployment</title>
+      <link>https://samrat.me/elixir-clustering-on-a-kamal-hetzner-deployment/</link>
+      <guid isPermaLink="false">671fb6b15ca6f900016076e9</guid>
+      <description>I&#39;ve been experimenting with Kamal for deploying an Elixir application. The application was previously deployed on Fly.io and relies on the Erlang VM&#39;s clustering capabilities, so I had to get this working on the Hetzner deployment I&#39;d spun up using Kamal. It took</description>
+      <author>samrat</author>
+      <pubDate>Mon, 28 Oct 2024 17:15:29 +0000</pubDate>
     </item>
     <item>
       <title>Build Systems, Not Heroes</title>
@@ -810,6 +970,14 @@
       <description>Starting with 0.3.0 , Astral’s uv brought many great features, including support for cross-platform lock files uv.lock . Together with subsequent fixes, it has become Python’s finest workflow tool for my (non-scientific) use cases. Here’s how I build production-ready containers, as fast as possible.</description>
       <author>hynek</author>
       <pubDate>Wed, 28 Aug 2024 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Build a Minimal ZFS NAS without Synology, QNAP, TrueNAS</title>
+      <link>https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3546</guid>
+      <description>If you need a basic NAS and don&#39;t care about GUI features, it is suprisingly simple to set up a ZFS dataset and share it over the network using Samba.</description>
+      <author>neilpanchal</author>
+      <pubDate>Sat, 24 Aug 2024 06:10:12 +0000</pubDate>
     </item>
     <item>
       <title>Play all media, everywhere</title>
@@ -884,6 +1052,22 @@
       <pubDate>Wed, 20 Mar 2024 18:20:00 +0000</pubDate>
     </item>
     <item>
+      <title>Upsert UUIDs with sqlc</title>
+      <link>https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/</guid>
+      <description>Problem synopsis I’m a huge fan of sqlc’s approach to code generation. I’ve seen sqlc called a reverse ORM , and I really like that moniker. However, as a sqlc newbie, I’m still discovering its edge cases. Today’s edge case is using postgres UPSERT queries with sqlc . The crux is that when upserting, it’s necessary for unique key conflicts to occur so that the UPDATE portion of the query executes. But non-null uuid Go types tend to have a zero-value of 00000000-0000-0000-0000-0000000…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On Mastodon, a social media curmudgeon&#39;s perspective</title>
+      <link>https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/</guid>
+      <description>Mastodon While I’m in no way a Mastodon power user, I’ve really been enjoying the content that I get from my very limited Mastodon feed. I recently stopped consuming news from – hold on let’s not call it news. I recently stopped consuming useless information from a site that I won’t name. Everyone has those junk, just-for-fun sites they visit to blow off stream. You don’t have to be proud of them, and it’s fine that you visit them; every part of every day need not be productive. An…</description>
+      <author>adriano</author>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Video: C Programming on System 6 - Carl Update, Test Suite, Malloc Tracing</title>
       <link>https://jcs.org/2024/02/20/carl</link>
       <guid isPermaLink="false">https://jcs.org/2024/02/20/carl</guid>
@@ -908,6 +1092,30 @@
       <pubDate>Thu, 21 Dec 2023 05:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Choose Postgres queue technology</title>
+      <link>https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/</guid>
+      <description>Introduction Postgres queue tech is a thing of beauty, but far from mainstream. Its relative obscurity is partially attributable to the cargo cult of “scale”. The scalability cult has decreed that there are several queue technologies with greater “scalability” than Postgres, and for that reason alone, Postgres isn’t suitably scalable for anyone’s queuing needs. The cult of scalability would rather we build applications that scale beyond our wildest dreams than applications that meet …</description>
+      <author>adriano</author>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chart of Accounts for Startups and SaaS Companies</title>
+      <link>https://neil.computer/notes/chart-of-accounts-for-startups-and-saas-companies/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3545</guid>
+      <description>Accounting is fundamental to starting a business. You need to have a basic understanding of accounting principles and essential bookkeeping. I had to learn it. There was no choice. For filing taxes, your CPA is going to ask you for an Income Statement (also known as P/L statement). If</description>
+      <author>neilpanchal</author>
+      <pubDate>Fri, 15 Sep 2023 23:55:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eternal Robustness</title>
+      <link>https://neil.computer/notes/eternal-robustness/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3544</guid>
+      <description>&#34;Look, you can trust us. We can be depended upon. We are serious about our products and we take great care to provide you with excellence year after year. Your involvement with us will be predictable and stable.&#34;</description>
+      <author>neilpanchal</author>
+      <pubDate>Sun, 10 Sep 2023 21:34:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Refusing TypeScript is a signal that you don&#39;t care about code quality</title>
       <link>https://vitonsky.net/blog/2023/09/08/typescript-and-code-quality/</link>
       <guid isPermaLink="false">https://vitonsky.net/blog/2023/09/08/typescript-and-code-quality/</guid>
@@ -922,6 +1130,14 @@
       <description>I&#39;ve developed a few browser extensions, and every week I receive numerous emails with &#34;revenue offer&#34;. Some experienced developers know that offers like these will inject malware into the browsers of your users, but scammers who make these offers will not tell you about it. They offer &#34;integrations&#34; that don&#39;t look so suspicious. Imagine how many developers have accepted these offers. Then look at the number of extensions in your browser and think about how much risk there is that you have an e…</description>
       <author>vitonsky</author>
       <pubDate>Fri, 01 Sep 2023 18:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Favorite Perfumes</title>
+      <link>https://neil.computer/notes/favorite-perfumes/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3543</guid>
+      <description>A quick condensed list based on over 15 years of exploration in the world of perfumery. I didn&#39;t include obvious classics such as Polo Green and Aramis. If I were to pick 3 perfumes to wear for life, it would be: Hermes Bel Ami, Chanel Antaeus and Serge</description>
+      <author>neilpanchal</author>
+      <pubDate>Fri, 18 Aug 2023 08:14:57 +0000</pubDate>
     </item>
     <item>
       <title>BEM methodology is not about CSS</title>
@@ -940,12 +1156,28 @@
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Document your secrets, please</title>
+      <link>https://adriano.fyi/posts/2023-07-21-document-your-secrets-please/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023-07-21-document-your-secrets-please/</guid>
+      <description>TL;DR ess automates syncing .env with env.sample It’s available here on Github . The problem If you have a look through any software or infrastructure project you’ve worked on in the past, it won’t take long before you come across some “secrets”. Secrets are how we generally refer to things like passwords, API keys, and certificates that act as “identity”. If you have the secret to an identity, you or your systems are assumed to have that identity. Identities are authorized to do s…</description>
+      <author>adriano</author>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Linguist, an ultimate browser extension for translation</title>
       <link>https://vitonsky.net/blog/2023/07/13/linguist/</link>
       <guid isPermaLink="false">https://vitonsky.net/blog/2023/07/13/linguist/</guid>
       <description>The web browser is the most used program for me and for most users of the internet, so it is important for the browser to work efficiently during daily use. Although most browsers have embedded translation features and there are many browser extensions providing translation capabilities, I have found them to be not good enough and unacceptable for intensive use. This is why I have created Linguist - the ultimate browser extension for translation.</description>
       <author>vitonsky</author>
       <pubDate>Thu, 13 Jul 2023 00:19:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making static Hugo sites dynamic with htmx and Go</title>
+      <link>https://adriano.fyi/posts/2023/2023-07-04-making-hugo-static-sites-dynamic-with-htmx-and-go/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023/2023-07-04-making-hugo-static-sites-dynamic-with-htmx-and-go/</guid>
+      <description>Update :: live demo now available A demo of this concept is now available at https://garbagespeak.com and the demo source code is available at https://github.com/acaloiaro/garbagespeak.com/ . Intro I’ve encountered a lot of skepticism around the idea of adding dynamic behavior to Hugo sites with hugo-htmx-go-template . That skepticism is well founded, because Hugo bills itself as a static site generator. So why would anyone want to add dynamic functionality to Hugo sites when Hugo aspires to b…</description>
+      <author>adriano</author>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Observations</title>
@@ -972,20 +1204,28 @@
       <pubDate>Mon, 26 Jun 2023 14:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Let&#39;s Encrypt (cerbot) with Hashicorp&#39;s Nomad, Nginx, and Docker, the easy way</title>
+      <link>https://adriano.fyi/posts/2023/2023-06-17-lets-encrypt-with-hashicorp-nomad-nginx-and-docker/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023/2023-06-17-lets-encrypt-with-hashicorp-nomad-nginx-and-docker/</guid>
+      <description>Overview I’m always looking for the easy way. Certbot already makes retrieving TLS certificates from Let’s Encrypt easy. But it’s getting those certificates “into production” that tends to be less easy. This is the easy way to get Let’s Encrypt TLS certificates into production with Hashicorp’s Nomad. This is an overview of what we’ll be doing: Using Nomad’s docker driver to run docker container jobs. Using a cerbot docker image that performs a DNS-01 Challenge using Hetzner’s…</description>
+      <author>adriano</author>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[video] Mountain Biking Haflin Creek Trail in Durango, CO</title>
+      <link>https://adriano.fyi/posts/2023/2023-06-12-mountain-biking-haflin-creek-trail/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023/2023-06-12-mountain-biking-haflin-creek-trail/</guid>
+      <description>A rough edit of my Haflin Creek ride today. Roughly the first ~1000 ft. of vertical drop are missing from this video because the quality was too poor to include. Any by that, I mean that I don’t know how to position an action camera correctly. This was only my second time riding with a camera, and it took all of half a ride for a rock to kick up from my front tire and crack the lens. So I guess I’m in the market for a new camera? I was taking it easy on this ride since I was riding solo on a…</description>
+      <author>adriano</author>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Media Party 2023 Presentation: Automating Web Scraping with GPT</title>
       <link>/posts/mediaparty-2023/</link>
       <guid isPermaLink="false">/posts/mediaparty-2023/</guid>
       <description>Media Party 2023 Presentation: Web Scraping with GPT Media Party is a conference that “facilitates the intersection between the media and technology industry in an innovative, international and hands-on way.” This year was their first one in the US, and it was conveniently here in my backyard. The organizers were nice enough to invite me to speak on the work I’ve been doing recently on web scraping with GPT. If you’re interested, my slides are available here: Automating Web Scraping with…</description>
       <author>jptsh</author>
       <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>why salman khan sucks</title>
-      <link>https://theabbie.github.io/blog/why-salman-khan-sucks</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/why-salman-khan-sucks</guid>
-      <description>Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide career Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on …</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:41:00 +0000</pubDate>
     </item>
     <item>
       <title>the john quinones effect - WWYD</title>
@@ -1004,10 +1244,10 @@
       <pubDate>Wed, 26 Apr 2023 13:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>why pwa is the future</title>
-      <link>https://theabbie.github.io/blog/why-pwa-is-the-future</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/why-pwa-is-the-future</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-28 PWAs are powerful, effective, fast and app-like. It&#39;s hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many vanity native apps that exist today. progressive web apps are for everyone, desktop and mobile users alike. I think it’s important to reiterate that there is no mobile web. features Progressive web apps have taken functionality from both native…</description>
+      <title>why salman khan sucks</title>
+      <link>https://theabbie.github.io/blog/why-salman-khan-sucks</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/why-salman-khan-sucks</guid>
+      <description>Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide career Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on …</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:41:00 +0000</pubDate>
     </item>
@@ -1020,113 +1260,18 @@
       <pubDate>Wed, 26 Apr 2023 13:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>why does AMP not allow javascript</title>
-      <link>https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</guid>
-      <description>AMP does not allow Javascript for security reasons, since AMP cache is hosted on Google domains allowing JavaScript would allow you to read google cookies, which is a major security concern malicious things you could do create identical phishing pages allowing JavaScript would allow you to create identical phishing pages, it is very dangerous Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lu…</description>
+      <title>why pwa is the future</title>
+      <link>https://theabbie.github.io/blog/why-pwa-is-the-future</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/why-pwa-is-the-future</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-28 PWAs are powerful, effective, fast and app-like. It&#39;s hard to imagine a mobile web property that could not be significantly improved via PWA implementation. They can also potentially eliminate the need for many vanity native apps that exist today. progressive web apps are for everyone, desktop and mobile users alike. I think it’s important to reiterate that there is no mobile web. features Progressive web apps have taken functionality from both native…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:41:00 +0000</pubDate>
     </item>
     <item>
       <title>Peerlist: your new professional profile</title>
       <link>https://theabbie.github.io/blog/peerlist</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/peerlist</guid>
       <description>By Abhishek Chaudhary Published 2022-10-15 Peerlist is a social network for professionals who want to connect and collaborate with other professionals in the same industry and get insights, share opportunities and showcase their achievements and contribution in an organized manner. Join Peerlist Yet another social network? Don&#39;t we already have LinkedIn? what is it that peerlist provides that LinkedIn does not? To name a few... Integration with major platforms to showcase existing work. Verified…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Review: Rasbhari Swara Bhaskar Amazon prime</title>
-      <link>https://theabbie.github.io/blog/rasbhari-amazon-prime-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/rasbhari-amazon-prime-review</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-27 Amazon prime&#39;s new web series Rasbhari starring Swara Bhaskar is an adult web series which was slammed by movie critics, It has not been received nicely by people on internet and is receiving huge criticism for it&#39;s depiction of adult entertainment Nand is amongst the rush of men who pursue Shanu, the new English teacher in Meerut. Upon his discovering her supposed alter-ego, the sex-obsessed spirit of Rasbhari, their relationship takes a new turn. A no…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>non-profit whoreganization</title>
-      <link>https://theabbie.github.io/blog/non-profit-whoreganization</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/non-profit-whoreganization</guid>
-      <description>By Abhishek Chaudhary Published 2021-04-03 If having sex for money makes you a whore, having sex for free makes you a Non profit whoreganization</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>the most intelligent stand up comedian in India</title>
-      <link>https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-26 Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India popular videos Nitin Gupta (Rivaldo) on 2G, CWG and Madam G Nitin Gupta (Rivaldo) - Delhi Rapes and Rape of Reason Nitin Gupta (Rivaldo) - Professor in Love Nitin Gupta (Rivaldo) - Bomb Blasts THB - Love in December (FULL PLAY) social media twitter nitin Gupta rivaldo twitter facebook nitin Gupta rivaldo Facebook linkedin nitin Gupta rivaldo linkedin instagram nitin Gupta riva…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>official whatsapp background</title>
-      <link>https://theabbie.github.io/blog/official-whatsapp-background</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/official-whatsapp-background</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-24 This is the official whatsapp background used by dark mode, it has a lot of hidden messages, let&#39;s find out what is the official whatsapp background image The image given below is the official whatsapp background image. hidden messages in the image Do you now notice that there are lots of emoji and icons? Now whoever had designed this wallpaper, had created and designed hidden meanings to some. Let’s start the treasure hunt: theory of the image If we …</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>oeuvre fcrit</title>
-      <link>https://theabbie.github.io/blog/oeuvre-fcrit</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/oeuvre-fcrit</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-31 oeuvre is the official blog of Fr. C. Rodrigues Institute of Technology showcasing the up and coming creative talent in the institution. The Website is a showcase to the immense potential of engineering students around the world.</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>theabbie random photo gallery</title>
-      <link>https://theabbie.github.io/blog/theabbie-random-photo-gallery</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/theabbie-random-photo-gallery</guid>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>the last time you slept peacefully</title>
-      <link>https://theabbie.github.io/blog/the-last-time-you-slept-peacefully</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/the-last-time-you-slept-peacefully</guid>
-      <description>Sleeping is an essential activity, but, do we sleep peacefully, many would agree that they don&#39;t have good sleep at night and feel tired whole day, what causes this sleepiness during day and sleeplessness at night? studies show that most of the adults have sleeping disorders, these are mainly caused due to stress, but, there are various other factors which affect our sleeping schedule. what causes lack of sleep Although insomnia is the most common sleep complaint, it is not a single sleep disord…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>solution to grandfather paradox</title>
-      <link>https://theabbie.github.io/blog/solution-to-grandfather-paradox</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/solution-to-grandfather-paradox</guid>
-      <description>A particular solution to grandfather paradox is simple you can only see the past, not change it why cant we change the past that&#39;s because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can&#39;t change it after seeing it similar paradoxes ship of theseus paradox liar paradox sources grandfather paradox wikipedia time travel</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>not9gag</title>
-      <link>https://theabbie.github.io/blog/not9gag</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/not9gag</guid>
-      <description>funny</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>which three letter word starts with r ends with d and has e in the middle</title>
-      <link>https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-27 A new research on words shows that there is only one three letter word in the English dictionary that starts with r ends with d and has e in the middle, this has been proved by various experts, so, what is that word? Well, you guessed it right, the word is RED This riddle can only be solved by top 0.5% of adults and is super viral on Internet right now.</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>why is nepotism not bad</title>
-      <link>https://theabbie.github.io/blog/why-is-nepotism-not-bad</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/why-is-nepotism-not-bad</guid>
-      <description>There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That&#39;s the rule, and nepotism helps only in debut, once you are on screen it&#39;s the audience who decides whether you would do further movies or not, I haven&#39;t seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent examples of nepotism tiger shroff Jai Hemant &#34;Tiger&#34; Shroff is an Indian actor known for h…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>A tale of EchoJS</title>
-      <link>https://theabbie.github.io/blog/tale-of-echojs</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/tale-of-echojs</guid>
-      <description>By Abhishek Chaudhary Published 2021-02-12 The story of how EchoJS had to face spamming because of refusing to implement spam protection. What is EchoJS? EchoJS is an open-source community for sharing links related to JavaScript, It&#39;s old and extremely basic and barely has any spam protection, making it a hot target for spammers. How did EchoJS get spammed? As already mentioned, EchoJS barely has any Spam protection, which implies that Spamming is really easy on EchoJS. In this case, EchoJS does…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
     </item>
@@ -1147,43 +1292,114 @@
       <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
     </item>
     <item>
+      <title>oeuvre fcrit</title>
+      <link>https://theabbie.github.io/blog/oeuvre-fcrit</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/oeuvre-fcrit</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-31 oeuvre is the official blog of Fr. C. Rodrigues Institute of Technology showcasing the up and coming creative talent in the institution. The Website is a showcase to the immense potential of engineering students around the world.</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>official whatsapp background</title>
+      <link>https://theabbie.github.io/blog/official-whatsapp-background</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/official-whatsapp-background</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-24 This is the official whatsapp background used by dark mode, it has a lot of hidden messages, let&#39;s find out what is the official whatsapp background image The image given below is the official whatsapp background image. hidden messages in the image Do you now notice that there are lots of emoji and icons? Now whoever had designed this wallpaper, had created and designed hidden meanings to some. Let’s start the treasure hunt: theory of the image If we …</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>solution to grandfather paradox</title>
+      <link>https://theabbie.github.io/blog/solution-to-grandfather-paradox</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/solution-to-grandfather-paradox</guid>
+      <description>A particular solution to grandfather paradox is simple you can only see the past, not change it why cant we change the past that&#39;s because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can&#39;t change it after seeing it similar paradoxes ship of theseus paradox liar paradox sources grandfather paradox wikipedia time travel</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>not9gag</title>
+      <link>https://theabbie.github.io/blog/not9gag</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/not9gag</guid>
+      <description>funny</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>non-profit whoreganization</title>
+      <link>https://theabbie.github.io/blog/non-profit-whoreganization</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/non-profit-whoreganization</guid>
+      <description>By Abhishek Chaudhary Published 2021-04-03 If having sex for money makes you a whore, having sex for free makes you a Non profit whoreganization</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>why is nepotism not bad</title>
+      <link>https://theabbie.github.io/blog/why-is-nepotism-not-bad</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/why-is-nepotism-not-bad</guid>
+      <description>There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That&#39;s the rule, and nepotism helps only in debut, once you are on screen it&#39;s the audience who decides whether you would do further movies or not, I haven&#39;t seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent examples of nepotism tiger shroff Jai Hemant &#34;Tiger&#34; Shroff is an Indian actor known for h…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>which three letter word starts with r ends with d and has e in the middle</title>
+      <link>https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-27 A new research on words shows that there is only one three letter word in the English dictionary that starts with r ends with d and has e in the middle, this has been proved by various experts, so, what is that word? Well, you guessed it right, the word is RED This riddle can only be solved by top 0.5% of adults and is super viral on Internet right now.</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>why does AMP not allow javascript</title>
+      <link>https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/why-does-AMP-not-allow-javascript</guid>
+      <description>AMP does not allow Javascript for security reasons, since AMP cache is hosted on Google domains allowing JavaScript would allow you to read google cookies, which is a major security concern malicious things you could do create identical phishing pages allowing JavaScript would allow you to create identical phishing pages, it is very dangerous Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lu…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>the last time you slept peacefully</title>
+      <link>https://theabbie.github.io/blog/the-last-time-you-slept-peacefully</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/the-last-time-you-slept-peacefully</guid>
+      <description>Sleeping is an essential activity, but, do we sleep peacefully, many would agree that they don&#39;t have good sleep at night and feel tired whole day, what causes this sleepiness during day and sleeplessness at night? studies show that most of the adults have sleeping disorders, these are mainly caused due to stress, but, there are various other factors which affect our sleeping schedule. what causes lack of sleep Although insomnia is the most common sleep complaint, it is not a single sleep disord…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>theabbie random photo gallery</title>
+      <link>https://theabbie.github.io/blog/theabbie-random-photo-gallery</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/theabbie-random-photo-gallery</guid>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>the most intelligent stand up comedian in India</title>
+      <link>https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-26 Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India popular videos Nitin Gupta (Rivaldo) on 2G, CWG and Madam G Nitin Gupta (Rivaldo) - Delhi Rapes and Rape of Reason Nitin Gupta (Rivaldo) - Professor in Love Nitin Gupta (Rivaldo) - Bomb Blasts THB - Love in December (FULL PLAY) social media twitter nitin Gupta rivaldo twitter facebook nitin Gupta rivaldo Facebook linkedin nitin Gupta rivaldo linkedin instagram nitin Gupta riva…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>A tale of EchoJS</title>
+      <link>https://theabbie.github.io/blog/tale-of-echojs</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/tale-of-echojs</guid>
+      <description>By Abhishek Chaudhary Published 2021-02-12 The story of how EchoJS had to face spamming because of refusing to implement spam protection. What is EchoJS? EchoJS is an open-source community for sharing links related to JavaScript, It&#39;s old and extremely basic and barely has any spam protection, making it a hot target for spammers. How did EchoJS get spammed? As already mentioned, EchoJS barely has any Spam protection, which implies that Spamming is really easy on EchoJS. In this case, EchoJS does…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Review: Rasbhari Swara Bhaskar Amazon prime</title>
+      <link>https://theabbie.github.io/blog/rasbhari-amazon-prime-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/rasbhari-amazon-prime-review</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-27 Amazon prime&#39;s new web series Rasbhari starring Swara Bhaskar is an adult web series which was slammed by movie critics, It has not been received nicely by people on internet and is receiving huge criticism for it&#39;s depiction of adult entertainment Nand is amongst the rush of men who pursue Shanu, the new English teacher in Meerut. Upon his discovering her supposed alter-ego, the sex-obsessed spirit of Rasbhari, their relationship takes a new turn. A no…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
+    </item>
+    <item>
       <title>oeuvre fcrit team</title>
       <link>https://theabbie.github.io/blog/oeuvre-fcrit-team</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/oeuvre-fcrit-team</guid>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hasit Nanda: The Piano Prodigy</title>
-      <link>https://theabbie.github.io/blog/hasit-nanda</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/hasit-nanda</guid>
-      <description>Hasit Nanda is the most popular Pianist in India, He has a huge fanbase on Youtube, He is considered to be a gifted pianist. biography Hasit Nanda, 23, is a self-taught Pianist from Delhi, India. He is known for his unique improvisation skills and has been uploading his music on YouTube for over 8 years. ... There&#39;s a big chance Hasit Nanda has been supported by artists you listen to everyday, be it Hardwell, Skrillex, KSHMR, Zedd or Tiesto. social media hasit nanda youtube hasit nanda youtube h…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>How bitcoin works?</title>
-      <link>https://theabbie.github.io/blog/how-bitcoin-works</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/how-bitcoin-works</guid>
-      <description>By Abhishek Chaudhary Published 2021-12-11 There seems to be a lot of misunderstanding among people about how bitcoin and how the underlying blockchain works, let us try to understand how it works in a layman terms. A real-world analogy for bitcoins Suppose there were no banks and transactions had to be done without any central authority, we have a public transaction box (transaction pool) where anyone who wants to send money will write their address, receiver&#39;s address and amount on piece of pa…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>A brief history of responsive web design</title>
-      <link>https://theabbie.github.io/blog/history-of-responsive-web-design</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/history-of-responsive-web-design</guid>
-      <description>By Abhishek Chaudhary Published 2021-03-21 Websites are like a canvas. You have complete freedom to design them the way you want. But unlike a painting, not all people will view your site the way you want. The internet is huge and old, and devices are getting smaller and more compact. Now you have to adapt your painting for a smaller canvas without losing its beauty. This is where Responsive Design comes in. Websites can now look just as good on a phone as they do on a big-screen TV. But it wasn…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>TheAbbie: Blog</title>
-      <link>https://theabbie.github.io/blog/index</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/index</guid>
-      <description>Hey guys, I am Abhishek Chaudhary Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podc…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
       <title>metakgp</title>
@@ -1202,62 +1418,6 @@
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>Must-Watch Bollywood Movies</title>
-      <link>https://theabbie.github.io/blog/must-watch-bollywood-movies</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/must-watch-bollywood-movies</guid>
-      <description>Andhadhun Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor. andhadhun Udaan After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father&#39;s factory even though he wants to write. Udaan Ugly Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her …</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>most underrated bollywood movies</title>
-      <link>https://theabbie.github.io/blog/most-underrated-bollywood-movies</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/most-underrated-bollywood-movies</guid>
-      <description>bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that. udaan udaan plot After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father&#39;s factory even though he wants to write. udaan cast rajat barmecha ram kapoor ronit roy Aayan Boradiya udaan trailer ugly ugly plot Rahul, a struggling actor, searches for his daughter, Kali, after she goes mi…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>how to become a 9gagger</title>
-      <link>https://theabbie.github.io/blog/how-to-become-a-9gagger</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/how-to-become-a-9gagger</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-24 9gag is a place for stuff, and they are pretty serious about that, 9gaggers are known to be really funny in comments while really lonely in real life. This is a beginner&#39;s guide on how to become a 9gagger. be single If you are a guy this must be the first step, 9gaggers are known to be single, we crave for girls, If you see a girl picture you have to zoom her tiddies and post it in comments. be funny in comments the only thing that distinguishes 9gag fr…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>neal agarwal</title>
-      <link>https://theabbie.github.io/blog/neal-agarwal</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-agarwal</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-05 Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has been creative coding since he was ten years old. Below you can see some of his projects! who is neal agarwal Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has be…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>literacy is not equal to intelligence</title>
-      <link>https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</guid>
-      <description>literacy is having a certification that you have passed the basic education requirements, this is not related to intelligence examples Indians Literacy rate in India is around 65% but intelligence rate might not even be 30% what is intelligence I am not saying intelligence is not related to literacy, most of the intelligent population is literate, intelligence is using your knowledge properly. Indian education system The Indian education system along with our mentality is the main reason why Ind…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>5 essential tips for promoting your indie film</title>
-      <link>https://theabbie.github.io/blog/indie-film-promotion</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/indie-film-promotion</guid>
-      <description>When making indie films, promotion is an essential part as you don&#39;t have a high budget for promotion, these 5 essential tips will help you promote your indie film using various online and offline tools. Indie films stand for independent films, ie. films that are made by independent fimmakers without any connection to prominent studio Promotion of indie film while promoting indie film there are various factors to keep in mind Budget of the film Target audience of the film Content rating of the f…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>neal.fun review</title>
-      <link>https://theabbie.github.io/blog/neal-fun-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-fun-review</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-06 Every page on neal.fun is a different web experiment. Some pages are games and some are interactive articles. The site has been viewed millions of times and has been used in schools. neal.fun If you&#39;re feeling a little lacking in creativity, perspective, or even just good old goofy fun, do yourself a favor and visit neal.fun. The creation of one Neal Agarwal, neal.fun presents itself as being &#34;for people with too much time&#34; and offers several interactiv…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
       <title>how is tanmay bhat ruling youtube</title>
       <link>https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube</guid>
@@ -1266,18 +1426,10 @@
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>neal.fun</title>
-      <link>https://theabbie.github.io/blog/neal-fun</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-fun</guid>
-      <description>Bringing back the weird web one post at a time. neal.fun The Deep Sea At 332 meters, this is the deepest any human has ever scuba dived. Set by Ahmed Gabr in 2014. No sunlight is able to reach this deep. Many deep-sea creatures cope ... deep sea the size of space Explore the scale of the universe on this interactive page. Go from astronaut all the way to the observable universe! size of space Spend Bill gates money What would you do with 90 billion dollars? Find out by spending all of Bill Gates…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>foolproof gender predictor</title>
-      <link>https://theabbie.github.io/blog/foolproof-gender-predictor</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/foolproof-gender-predictor</guid>
-      <description>This tool uses psychological techniques to determine your gender in a fool proof way how it works it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all it is completely unbiased and independent of person&#39;s educational qualification it&#39;s similar to IQ or aptitude test but still, how it works It uses color choice as a determination method who made it Abhishek Chaudhary A.K.A TheAbbie is the creator of this superb app where can I find it …</description>
+      <title>Must-Watch Bollywood Movies</title>
+      <link>https://theabbie.github.io/blog/must-watch-bollywood-movies</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/must-watch-bollywood-movies</guid>
+      <description>Andhadhun Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor. andhadhun Udaan After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father&#39;s factory even though he wants to write. Udaan Ugly Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her …</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
@@ -1290,10 +1442,42 @@
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>Kun Faya Kun: The song that can fight Depression</title>
-      <link>https://theabbie.github.io/blog/kun-faya-kun</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/kun-faya-kun</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-28 Kun Faya Kun is a song composed by Sir A.R. Rahman, and from the movie Rockstar, It is a beautiful song which makes you feel really good, It gives you positivity and helps you fight Depression, If you ever feel low or sad just listen to it, It will surely help you fight it The Lyrics of this beautiful song are as follows Ya Nizamuddin Auliya, Ya Nizamuddin Salqa Kadam Badhaa Le, Hadon Ko Mitaa Le, Aaja Khaalipan Mein Pee Ka Ghar Tera, Tere Bin Khaali Aa…</description>
+      <title>5 essential tips for promoting your indie film</title>
+      <link>https://theabbie.github.io/blog/indie-film-promotion</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/indie-film-promotion</guid>
+      <description>When making indie films, promotion is an essential part as you don&#39;t have a high budget for promotion, these 5 essential tips will help you promote your indie film using various online and offline tools. Indie films stand for independent films, ie. films that are made by independent fimmakers without any connection to prominent studio Promotion of indie film while promoting indie film there are various factors to keep in mind Budget of the film Target audience of the film Content rating of the f…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>foolproof gender predictor</title>
+      <link>https://theabbie.github.io/blog/foolproof-gender-predictor</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/foolproof-gender-predictor</guid>
+      <description>This tool uses psychological techniques to determine your gender in a fool proof way how it works it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all it is completely unbiased and independent of person&#39;s educational qualification it&#39;s similar to IQ or aptitude test but still, how it works It uses color choice as a determination method who made it Abhishek Chaudhary A.K.A TheAbbie is the creator of this superb app where can I find it …</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>neal.fun review</title>
+      <link>https://theabbie.github.io/blog/neal-fun-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-fun-review</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-06 Every page on neal.fun is a different web experiment. Some pages are games and some are interactive articles. The site has been viewed millions of times and has been used in schools. neal.fun If you&#39;re feeling a little lacking in creativity, perspective, or even just good old goofy fun, do yourself a favor and visit neal.fun. The creation of one Neal Agarwal, neal.fun presents itself as being &#34;for people with too much time&#34; and offers several interactiv…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>how to become a 9gagger</title>
+      <link>https://theabbie.github.io/blog/how-to-become-a-9gagger</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/how-to-become-a-9gagger</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-24 9gag is a place for stuff, and they are pretty serious about that, 9gaggers are known to be really funny in comments while really lonely in real life. This is a beginner&#39;s guide on how to become a 9gagger. be single If you are a guy this must be the first step, 9gaggers are known to be single, we crave for girls, If you see a girl picture you have to zoom her tiddies and post it in comments. be funny in comments the only thing that distinguishes 9gag fr…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>how I got my youtube channel deleted</title>
+      <link>https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-26 Youtube recently deleted my youtube channel for possible copyright violations which I completely deserved but not in such an unexpected way, This post will explain how it happened my youtube channel I had a youtube channel ( theabbie ) which I had created along with my google account in 2015, I didn&#39;t upload stuff on it, I had uploaded 2-3 videos just to fun around. It was used by me only for watching videos, and other personal uses. youtube uploading b…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
@@ -1302,6 +1486,46 @@
       <link>https://theabbie.github.io/blog/no-twitter-edit-button</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/no-twitter-edit-button</guid>
       <description>By Abhishek Chaudhary Published 2022-04-26 an edit button may be the most demanded feature on Twitter even though everyone realizes it will not happen for the good. Many platforms allow editing option on public posts, but the thing common in these platforms is that they are just public forums and the users are nothing but content generators, you can post your views but it won&#39;t be considered something you should be held accountable for. Twitter is different, the users are primary and what they p…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>List of movies and shows I have watched</title>
+      <link>https://theabbie.github.io/blog/movies-and-shows-list</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/movies-and-shows-list</guid>
+      <description>By Abhishek Chaudhary Published 2021-01-01</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>TheAbbie: Blog</title>
+      <link>https://theabbie.github.io/blog/index</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/index</guid>
+      <description>Hey guys, I am Abhishek Chaudhary Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podc…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>most underrated bollywood movies</title>
+      <link>https://theabbie.github.io/blog/most-underrated-bollywood-movies</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/most-underrated-bollywood-movies</guid>
+      <description>bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that. udaan udaan plot After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father&#39;s factory even though he wants to write. udaan cast rajat barmecha ram kapoor ronit roy Aayan Boradiya udaan trailer ugly ugly plot Rahul, a struggling actor, searches for his daughter, Kali, after she goes mi…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>literacy is not equal to intelligence</title>
+      <link>https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/literacy-is-not-equal-to-intelligence</guid>
+      <description>literacy is having a certification that you have passed the basic education requirements, this is not related to intelligence examples Indians Literacy rate in India is around 65% but intelligence rate might not even be 30% what is intelligence I am not saying intelligence is not related to literacy, most of the intelligent population is literate, intelligence is using your knowledge properly. Indian education system The Indian education system along with our mentality is the main reason why Ind…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>neal.fun</title>
+      <link>https://theabbie.github.io/blog/neal-fun</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-fun</guid>
+      <description>Bringing back the weird web one post at a time. neal.fun The Deep Sea At 332 meters, this is the deepest any human has ever scuba dived. Set by Ahmed Gabr in 2014. No sunlight is able to reach this deep. Many deep-sea creatures cope ... deep sea the size of space Explore the scale of the universe on this interactive page. Go from astronaut all the way to the observable universe! size of space Spend Bill gates money What would you do with 90 billion dollars? Find out by spending all of Bill Gates…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
@@ -1322,168 +1546,50 @@
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>List of movies and shows I have watched</title>
-      <link>https://theabbie.github.io/blog/movies-and-shows-list</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/movies-and-shows-list</guid>
-      <description>By Abhishek Chaudhary Published 2021-01-01</description>
+      <title>Hasit Nanda: The Piano Prodigy</title>
+      <link>https://theabbie.github.io/blog/hasit-nanda</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/hasit-nanda</guid>
+      <description>Hasit Nanda is the most popular Pianist in India, He has a huge fanbase on Youtube, He is considered to be a gifted pianist. biography Hasit Nanda, 23, is a self-taught Pianist from Delhi, India. He is known for his unique improvisation skills and has been uploading his music on YouTube for over 8 years. ... There&#39;s a big chance Hasit Nanda has been supported by artists you listen to everyday, be it Hardwell, Skrillex, KSHMR, Zedd or Tiesto. social media hasit nanda youtube hasit nanda youtube h…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>how I got my youtube channel deleted</title>
-      <link>https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-26 Youtube recently deleted my youtube channel for possible copyright violations which I completely deserved but not in such an unexpected way, This post will explain how it happened my youtube channel I had a youtube channel ( theabbie ) which I had created along with my google account in 2015, I didn&#39;t upload stuff on it, I had uploaded 2-3 videos just to fun around. It was used by me only for watching videos, and other personal uses. youtube uploading b…</description>
+      <title>A brief history of responsive web design</title>
+      <link>https://theabbie.github.io/blog/history-of-responsive-web-design</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/history-of-responsive-web-design</guid>
+      <description>By Abhishek Chaudhary Published 2021-03-21 Websites are like a canvas. You have complete freedom to design them the way you want. But unlike a painting, not all people will view your site the way you want. The internet is huge and old, and devices are getting smaller and more compact. Now you have to adapt your painting for a smaller canvas without losing its beauty. This is where Responsive Design comes in. Websites can now look just as good on a phone as they do on a big-screen TV. But it wasn…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>fcrit memes</title>
-      <link>https://theabbie.github.io/blog/fcrit-memes</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/fcrit-memes</guid>
-      <description>Converting all your experiences into memes! Send in your content and feel the prison break with due credits Popular posts Credits fcrit meme page fcrit meme page</description>
+      <title>neal agarwal</title>
+      <link>https://theabbie.github.io/blog/neal-agarwal</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/neal-agarwal</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-05 Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has been creative coding since he was ten years old. Below you can see some of his projects! who is neal agarwal Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has be…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>decoding the monty hall game</title>
-      <link>https://theabbie.github.io/blog/decoding-the-monty-hall-game</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/decoding-the-monty-hall-game</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-23 The Monty Hall Game Show A.K.A. Let&#39;s make a deal was a Television game show, it had three doors, with a sports car behind one of them and goats behind others, you make a choice, the host opens some other door which will turn out to be a goat, now you have a choice, either stick to previous choice or switch, simple, isn&#39;t it? Is the probability 50%? A typical observation of the situation might suggest that the probability is 50%, you have two choices, y…</description>
+      <title>Kun Faya Kun: The song that can fight Depression</title>
+      <link>https://theabbie.github.io/blog/kun-faya-kun</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/kun-faya-kun</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-28 Kun Faya Kun is a song composed by Sir A.R. Rahman, and from the movie Rockstar, It is a beautiful song which makes you feel really good, It gives you positivity and helps you fight Depression, If you ever feel low or sad just listen to it, It will surely help you fight it The Lyrics of this beautiful song are as follows Ya Nizamuddin Auliya, Ya Nizamuddin Salqa Kadam Badhaa Le, Hadon Ko Mitaa Le, Aaja Khaalipan Mein Pee Ka Ghar Tera, Tere Bin Khaali Aa…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
-      <title>codejam 2020 review</title>
-      <link>https://theabbie.github.io/blog/codejam-2020-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/codejam-2020-review</guid>
-      <description>I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too my review choice of programming language I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it&#39;s not very perfect for competitive programming quality of problems the qualification round was extremely easy and anyone with decent programming knowledge…</description>
+      <title>How bitcoin works?</title>
+      <link>https://theabbie.github.io/blog/how-bitcoin-works</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/how-bitcoin-works</guid>
+      <description>By Abhishek Chaudhary Published 2021-12-11 There seems to be a lot of misunderstanding among people about how bitcoin and how the underlying blockchain works, let us try to understand how it works in a layman terms. A real-world analogy for bitcoins Suppose there were no banks and transactions had to be done without any central authority, we have a public transaction box (transaction pool) where anyone who wants to send money will write their address, receiver&#39;s address and amount on piece of pa…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>etamax fcrit</title>
-      <link>https://theabbie.github.io/blog/etamax-fcrit</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/etamax-fcrit</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-09 inter-college festival &#39;ETAMAX&#39; of Fr. Conceicao Rodrigues Institute of Technology (FCRIT), Vashi. ETAMAX is indeed a special fest for all Agnelites and the institution as well. Sing or dance, code or paint, write or listen, build or analyse, ETAMAX serves the best opportunities to grow and develop in the form of workshops, competitions, games, etc. A splendid blend of culture and technology, evolving all students and setting a platform for everyone to …</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:58 +0000</pubDate>
     </item>
     <item>
       <title>fcrit comps</title>
       <link>https://theabbie.github.io/blog/fcrit-comps</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/fcrit-comps</guid>
       <description>Aditya Unnikrishnan Birthday : 04/05/2001 Rishika Agarwal Birthday : 30/09/2000 Christopher john alappatt Birthday : 03/10/2001 Anushka Amte Birthday : 31/10/2001 Anna Jojo Birthday : 02/11/2001 Antony Bush Sahaya Raj Birthday : 22/08/2001 Divya Bajeriya Birthday : 08/08/2001 Najuka Borse Birthday : 19/07/2002 Bryan francis Birthday : 03/05/2001 Rachel Peter Carvalho Birthday : 07/08/2001 Abhishek Choudhary Birthday : 11/01/2002 Trevor Aaron Robert Dcosta Birthday : 04/09/2001 Shriya Sunil Deshm…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>brazen epiphany short film review: what&#39;s stopping you</title>
-      <link>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/brazen-epiphany-short-film-review</guid>
-      <description>This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what&#39;s stopping her. plot Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than th…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>best programmer in the world</title>
-      <link>https://theabbie.github.io/blog/best-programmer-in-the-world</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/best-programmer-in-the-world</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-28 Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions. history Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents&#39; work. When he was 8, his father designed a chi…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advent Of Code: My Best Hobby For 2021</title>
-      <link>https://theabbie.github.io/blog/advent-of-code-2021</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/advent-of-code-2021</guid>
-      <description>By Abhishek Chaudhary Published 2021-12-14 Advent Of Code is a set of coding questions that is organized every year prior to Christmas, there are many platforms to do programming, but Advent Of Code is different, I get the joy of solving a problem and has been by favourite hobby of 2021. Why I love Advent Of Code? There is no shortage of platforms where you can practise programming, or even compete with others, they even have problems of all kinds, for beginners to experts, while I do solve thos…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>100 Awesome Life Hacks</title>
-      <link>https://theabbie.github.io/blog/awesome-life-hacks</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/awesome-life-hacks</guid>
-      <description>By Abhishek Chaudhary Published 2021-04-04 100 awesome life hacks to make your life easier if you’re stuck on an annoying call, put your phone on airplane mode instead of just hanging up. The other person will see “call failed” instead of “call ended” Look up your buildings washer/dryer model on eBay and order a key for it. I haven’t paid for laundry in years and it cost me $8.00! Sleep like a baby knowing you’re not paying for on-site laundry. If the person sitting in front of you…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best Node.js Hosting Platforms</title>
-      <link>https://theabbie.github.io/blog/best-node-js-hosting-platforms</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/best-node-js-hosting-platforms</guid>
-      <description>Netlify Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps. Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, a…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>dQw4w9WgXcQ</title>
-      <link>https://theabbie.github.io/blog/dQw4w9WgXcQ</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/dQw4w9WgXcQ</guid>
-      <description>By Abhishek Chaudhary Published 2020-08-30 A cursed URL, people who are brave enough or tricked into visiting this URL have suffered from many strange symptoms like humiliation, anger, depression, suicidal tendencies and death these symptoms last until the person tricks another person into visiting this cursed URL or ultimately die.</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>TheAbbie Gif Collection</title>
-      <link>https://theabbie.github.io/blog/TheAbbie-Gif-Collection</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/TheAbbie-Gif-Collection</guid>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>AstralFans</title>
-      <link>https://theabbie.github.io/blog/astralfans-ben-awad</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/astralfans-ben-awad</guid>
-      <description>By Abhishek Chaudhary Published 2021-06-30 AstralFans is a new Startup by Tech Youtuber Ben Awad, It&#39;s a platform focussed on Creators and Influencers building there community and claims to work on limitations offered by Discord and similar platforms over the creators building there community.</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>beginner&#39;s guide to googling</title>
-      <link>https://theabbie.github.io/blog/beginners-guide-to-googling</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/beginners-guide-to-googling</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-24 though it may seem pointless but googling stuff is an art, there is no question unanswered on the internet but finding the answer requires mastering the art of googling, this guide will help you become a googling expert, let&#39;s see how. what is googling googling is the art of searching answers on google, though google is popular for giving the best answers, still, Internet is very huge and not all answers are optimised for SEO, thus googling becomes very…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>circumference of ellipse</title>
-      <link>https://theabbie.github.io/blog/circumference-of-ellipse</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/circumference-of-ellipse</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-26 Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. difficulty in finding exact formula There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (177…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>bb ki vines</title>
-      <link>https://theabbie.github.io/blog/bb-ki-vines</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/bb-ki-vines</guid>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>del.dog review</title>
-      <link>https://theabbie.github.io/blog/del-dog-dogbin-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/del-dog-dogbin-review</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-06 Sharing short code samples, logs, links or markdown notes is now easier than ever, If you want to use a custom slug you can do so by entering your desired url in the Custom URL field. dogbin - the sexiest pastebin and url shortener ever! Sharing short code samples, logs, links or markdown notes is now easier than ever! basics The easiest way to use dogbin, is from inside your browser. Type or paste your content into the text area on the homepage (ctrl +…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>estimate pi using random numbers</title>
-      <link>https://theabbie.github.io/blog/estimate-pi-using-random-numbers</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/estimate-pi-using-random-numbers</guid>
-      <description>pi is an irrational number and it has infinite decimal places we will use the concept of probability and definition of pi to calculate the value of pi steps to do so make a unit circle enclosed within square touching its boundaries randomly plot points inside the square count the number of points that lie inside the circle and total number of points calculation of Pi how probability works since we are randomly plotting points inside the square, the probability of it lying inside the circle is ar…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>chintu ka birthday review</title>
-      <link>https://theabbie.github.io/blog/chintu-ka-birthday-review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/chintu-ka-birthday-review</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-05 Chintu Ka Birthday portrays the essence of life, that it waits for none and one must live to the fullest under the direst of circumstances. It narrates the story of a family stuck in war-torn Baghdad in early 2000s, and has Solid performances from Vinay Pathak and his two proven co-actors Chintu Ka Birthday, as simple and unrelated the title may sound to the real story at play, deals in pressing issues of our times like migration and identity, thus stre…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
@@ -1496,6 +1602,60 @@
       <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
+      <title>TheAbbie Gif Collection</title>
+      <link>https://theabbie.github.io/blog/TheAbbie-Gif-Collection</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/TheAbbie-Gif-Collection</guid>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>etamax fcrit</title>
+      <link>https://theabbie.github.io/blog/etamax-fcrit</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/etamax-fcrit</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-09 inter-college festival &#39;ETAMAX&#39; of Fr. Conceicao Rodrigues Institute of Technology (FCRIT), Vashi. ETAMAX is indeed a special fest for all Agnelites and the institution as well. Sing or dance, code or paint, write or listen, build or analyse, ETAMAX serves the best opportunities to grow and develop in the form of workshops, competitions, games, etc. A splendid blend of culture and technology, evolving all students and setting a platform for everyone to …</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>best programmer in the world</title>
+      <link>https://theabbie.github.io/blog/best-programmer-in-the-world</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/best-programmer-in-the-world</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-28 Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions. history Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents&#39; work. When he was 8, his father designed a chi…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>beginner&#39;s guide to googling</title>
+      <link>https://theabbie.github.io/blog/beginners-guide-to-googling</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/beginners-guide-to-googling</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-24 though it may seem pointless but googling stuff is an art, there is no question unanswered on the internet but finding the answer requires mastering the art of googling, this guide will help you become a googling expert, let&#39;s see how. what is googling googling is the art of searching answers on google, though google is popular for giving the best answers, still, Internet is very huge and not all answers are optimised for SEO, thus googling becomes very…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>fcrit memes</title>
+      <link>https://theabbie.github.io/blog/fcrit-memes</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/fcrit-memes</guid>
+      <description>Converting all your experiences into memes! Send in your content and feel the prison break with due credits Popular posts Credits fcrit meme page fcrit meme page</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advent Of Code: My Best Hobby For 2021</title>
+      <link>https://theabbie.github.io/blog/advent-of-code-2021</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/advent-of-code-2021</guid>
+      <description>By Abhishek Chaudhary Published 2021-12-14 Advent Of Code is a set of coding questions that is organized every year prior to Christmas, there are many platforms to do programming, but Advent Of Code is different, I get the joy of solving a problem and has been by favourite hobby of 2021. Why I love Advent Of Code? There is no shortage of platforms where you can practise programming, or even compete with others, they even have problems of all kinds, for beginners to experts, while I do solve thos…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>bb ki vines</title>
+      <link>https://theabbie.github.io/blog/bb-ki-vines</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/bb-ki-vines</guid>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
       <title>firefox send review</title>
       <link>https://theabbie.github.io/blog/firefox-send-review</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/firefox-send-review</guid>
@@ -1504,90 +1664,98 @@
       <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>Everything wrong with Quora</title>
-      <link>https://theabbie.github.io/blog/Everything-wrong-with-Quora</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Everything-wrong-with-Quora</guid>
-      <description>By Abhishek Chaudhary Published 2021-04-08 Quora, the QnA platform which started out as the best knowledge source and time killer, where we would learn something, has changed a lot, something which makes it harder to tolerate. Can you still enjoy Quora? What is Quora? Quora is a Question-and-Answer platform, started in 2009, where people could ask anything, and people knowledgeable in that domain could answer them. Unlike other similar platforms, which soon realised that it&#39;s not a great idea to…</description>
+      <title>chintu ka birthday review</title>
+      <link>https://theabbie.github.io/blog/chintu-ka-birthday-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/chintu-ka-birthday-review</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-05 Chintu Ka Birthday portrays the essence of life, that it waits for none and one must live to the fullest under the direst of circumstances. It narrates the story of a family stuck in war-torn Baghdad in early 2000s, and has Solid performances from Vinay Pathak and his two proven co-actors Chintu Ka Birthday, as simple and unrelated the title may sound to the real story at play, deals in pressing issues of our times like migration and identity, thus stre…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>I Can Has Cheezburger</title>
-      <link>https://theabbie.github.io/blog/I-Can-Has-Cheezburger</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/I-Can-Has-Cheezburger</guid>
-      <description>By Abhishek Chaudhary Published 2020-06-18 I Can Has Cheezburger has become one of the most popular sites online. Its daily collection of LOLCats is the source of endless humor Cheezburger is a Seattle-based company founded in 2007 and is home to sites like I Can Has Cheezburger, FAIL Blog, Know Your Meme and Memebase. They are one of the largest social humor sites on the Internet where &#34;millions of people come every day to view, create or remix themes, and share their favorite funny pictures.&#34; …</description>
+      <title>100 Awesome Life Hacks</title>
+      <link>https://theabbie.github.io/blog/awesome-life-hacks</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/awesome-life-hacks</guid>
+      <description>By Abhishek Chaudhary Published 2021-04-04 100 awesome life hacks to make your life easier if you’re stuck on an annoying call, put your phone on airplane mode instead of just hanging up. The other person will see “call failed” instead of “call ended” Look up your buildings washer/dryer model on eBay and order a key for it. I haven’t paid for laundry in years and it cost me $8.00! Sleep like a baby knowing you’re not paying for on-site laundry. If the person sitting in front of you…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>PointerPointer points to your pointer</title>
-      <link>https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-28 pointerpointer is a website that shows pictures of people pointing to your pointer. It was created by Studio Moniker in Amsterdam the site offers no redeeming value except for a bit of pure comedic relief. The project is described as an experiment in pointer retrieval and it’s not quite as smart as it looks. What it does is locate your cursor and find a picture with people pointing towards that location on the screen. We&#39;ve been playing with it for a …</description>
+      <title>AstralFans</title>
+      <link>https://theabbie.github.io/blog/astralfans-ben-awad</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/astralfans-ben-awad</guid>
+      <description>By Abhishek Chaudhary Published 2021-06-30 AstralFans is a new Startup by Tech Youtuber Ben Awad, It&#39;s a platform focussed on Creators and Influencers building there community and claims to work on limitations offered by Discord and similar platforms over the creators building there community.</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>DevRant</title>
-      <link>https://theabbie.github.io/blog/DevRant</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/DevRant</guid>
-      <description>By Abhishek Chaudhary Published 2021-03-05 Join a fun community of developers DevRant</description>
+      <title>del.dog review</title>
+      <link>https://theabbie.github.io/blog/del-dog-dogbin-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/del-dog-dogbin-review</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-06 Sharing short code samples, logs, links or markdown notes is now easier than ever, If you want to use a custom slug you can do so by entering your desired url in the Custom URL field. dogbin - the sexiest pastebin and url shortener ever! Sharing short code samples, logs, links or markdown notes is now easier than ever! basics The easiest way to use dogbin, is from inside your browser. Type or paste your content into the text area on the homepage (ctrl +…</description>
       <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>codejam 2020 review</title>
+      <link>https://theabbie.github.io/blog/codejam-2020-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/codejam-2020-review</guid>
+      <description>I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too my review choice of programming language I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it&#39;s not very perfect for competitive programming quality of problems the qualification round was extremely easy and anyone with decent programming knowledge…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>decoding the monty hall game</title>
+      <link>https://theabbie.github.io/blog/decoding-the-monty-hall-game</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/decoding-the-monty-hall-game</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-23 The Monty Hall Game Show A.K.A. Let&#39;s make a deal was a Television game show, it had three doors, with a sports car behind one of them and goats behind others, you make a choice, the host opens some other door which will turn out to be a goat, now you have a choice, either stick to previous choice or switch, simple, isn&#39;t it? Is the probability 50%? A typical observation of the situation might suggest that the probability is 50%, you have two choices, y…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>dQw4w9WgXcQ</title>
+      <link>https://theabbie.github.io/blog/dQw4w9WgXcQ</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/dQw4w9WgXcQ</guid>
+      <description>By Abhishek Chaudhary Published 2020-08-30 A cursed URL, people who are brave enough or tricked into visiting this URL have suffered from many strange symptoms like humiliation, anger, depression, suicidal tendencies and death these symptoms last until the person tricks another person into visiting this cursed URL or ultimately die.</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best Node.js Hosting Platforms</title>
+      <link>https://theabbie.github.io/blog/best-node-js-hosting-platforms</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/best-node-js-hosting-platforms</guid>
+      <description>Netlify Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps. Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, a…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>estimate pi using random numbers</title>
+      <link>https://theabbie.github.io/blog/estimate-pi-using-random-numbers</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/estimate-pi-using-random-numbers</guid>
+      <description>pi is an irrational number and it has infinite decimal places we will use the concept of probability and definition of pi to calculate the value of pi steps to do so make a unit circle enclosed within square touching its boundaries randomly plot points inside the square count the number of points that lie inside the circle and total number of points calculation of Pi how probability works since we are randomly plotting points inside the square, the probability of it lying inside the circle is ar…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>brazen epiphany short film review: what&#39;s stopping you</title>
+      <link>https://theabbie.github.io/blog/brazen-epiphany-short-film-review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/brazen-epiphany-short-film-review</guid>
+      <description>This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what&#39;s stopping her. plot Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than th…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>circumference of ellipse</title>
+      <link>https://theabbie.github.io/blog/circumference-of-ellipse</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/circumference-of-ellipse</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-26 Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. difficulty in finding exact formula There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (177…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:57 +0000</pubDate>
     </item>
     <item>
       <title>BitClout Review</title>
       <link>https://theabbie.github.io/blog/BitClout-Review</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/BitClout-Review</guid>
       <description>By Abhishek Chaudhary Published 2021-04-13 BitClout describes itself as a social network that allows users to “speculate on people and posts with real money.” BitClout claims to be a fully open-sourced project that built a custom blockchain using architecture comparable to Bitcoin with “no company behind it” that will allow users to purchase a new asset class called “Creator Coins” for accounts on the site, which includes celebrities, musicians, and influencers. The FAQ describes the…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>NFT Marketplace on Ethereum with Polygon and Next.js</title>
-      <link>https://theabbie.github.io/blog/NFT-marketplace-ethereum-polygon-nextjs</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/NFT-marketplace-ethereum-polygon-nextjs</guid>
-      <description>By Abhishek Chaudhary Published 2021-09-29 Open Store is a NFT marketplace where traders can buy and sell NFT tokens through the usage of ethers and track the ownership of digital assets. https://github.com/rgab1508/OpenStore</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Generic Static Site Generator</title>
-      <link>https://theabbie.github.io/blog/Generic-Static-Site-Generator</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Generic-Static-Site-Generator</guid>
-      <description>By Abhishek Chaudhary Published 2020-08-24 This is a Generic Static Site Generator, It is written in JavaScript, It can be used to create static websites. It is an organised and completely customisable Static Site Generator, It treats webpages as objects which can be evaluated. This can be used to created all kinds of websites. Generic Static Site Generator Github Generic Static Site Generator NPM Generic SSG Generic Static Site Generator Gitter Generic Static Site Generator openbase Generic Sta…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Breadcrumbs demo</title>
-      <link>https://theabbie.github.io/blog/Breadcrumbs-demo</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Breadcrumbs-demo</guid>
-      <description>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user&#39;s location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house. source Smashing Magazine Smashing Magazine</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building In Public</title>
-      <link>https://theabbie.github.io/blog/Building-In-Public</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Building-In-Public</guid>
-      <description>By Abhishek Chaudhary Published 2021-03-13 Building in public is simple, just find public and build there, it is called building in public because it is not private, It is opposite of destroying in private. ELI5: Building is similar to creating, difference isn&#39;t apparent though. ELI5: Public is considered non-anonymous, non-private. Building in public is called building in public because it is opposite of destroying in private.</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seedr.cc Review</title>
-      <link>https://theabbie.github.io/blog/Seedr-cc-Review</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Seedr-cc-Review</guid>
-      <description>By Abhishek Chaudhary Published 2020-05-23 Seedr.cc is an amazing tool, it makes it so easy to stream torrents online, it really is a boon to those with slow internet connection. features superfast torrent download seedr.cc makes it possible to download torrents on cloud superfast and it can be streamed easily checking torrents before downloading fake torrents are a huge problem and seedr.cc solves it by allowing you to check the torrent before downloading try the amazing tool Do try this amazin…</description>
-      <author>theabbie</author>
-      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>All Futurama Opening Quotes</title>
-      <link>https://theabbie.github.io/blog/All-Futurama-Opening-Quotes</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/All-Futurama-Opening-Quotes</guid>
-      <description>By Abhishek Chaudhary Published 2021-03-16 All Futurama title captions in order! Episode 1 Episode 2 Episode 3 Episode 4 Episode 5 Episode 6 Episode 7 Episode 8 Episode 9 Episode 10 Episode 11 Episode 12 Episode 13 Episode 14 Episode 15 Episode 16 Episode 17 Episode 18 Episode 19 Episode 20 Episode 21 Episode 22 Episode 23 Episode 24 Episode 25 Episode 26 Episode 27 Episode 28 Episode 29 Episode 30 Episode 31 Episode 32 Episode 33 Episode 34 Episode 35 Episode 36 Episode 37 Episode 38 Episode 39…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
@@ -1600,10 +1768,10 @@
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
     <item>
-      <title>Primality Test Using Regex</title>
-      <link>https://theabbie.github.io/blog/Primality-Test-Using-Regex</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/Primality-Test-Using-Regex</guid>
-      <description>By Abhishek Chaudhary Published 2021-03-24 Out of all possible ways to check primality of a number, let us go a bit extreme and use regex to check primality, And as expected, this method is incredibly expensive, while not useful, we can just admire it&#39;s beauty Regular Expression to check Primality /.?|(..+?)\\1+/ That&#39;s it, Regex is powerful, it&#39;s much more than simple string matching, while this is computationally expensive, we can still admire it&#39;s simplicity. How does Primality Regex Work? .?…</description>
+      <title>CryptoCRIT</title>
+      <link>https://theabbie.github.io/blog/CryptoCRIT</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/CryptoCRIT</guid>
+      <description>By Abhishek Chaudhary Published 2020-08-02 CryptoCRIT is an open-source Cryptocurrency project which facilitates a Cryptocurrency wallet for making payments. The associated Cryptocurrency is called CritCoin. CryptoCRIT GitHub CryptoCRIT NPM CryptoCRIT InstaMojo CryptoCRIT Behance CryptoCRIT ResearchGate CryptoCRIT Dev.to CryptoCRIT fundsurfer CryptoCRIT Gitter CryptoCRIT Angellist CryptoCRIT F6s CryptoCRIT ResearchGate CryptoCRIT GumRoad CryptoCRIT GumRoad CryptoCRIT StartupExplore CryptoCRIT Li…</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
@@ -1616,6 +1784,22 @@
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
     <item>
+      <title>Everything wrong with Quora</title>
+      <link>https://theabbie.github.io/blog/Everything-wrong-with-Quora</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Everything-wrong-with-Quora</guid>
+      <description>By Abhishek Chaudhary Published 2021-04-08 Quora, the QnA platform which started out as the best knowledge source and time killer, where we would learn something, has changed a lot, something which makes it harder to tolerate. Can you still enjoy Quora? What is Quora? Quora is a Question-and-Answer platform, started in 2009, where people could ask anything, and people knowledgeable in that domain could answer them. Unlike other similar platforms, which soon realised that it&#39;s not a great idea to…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>NFT Marketplace on Ethereum with Polygon and Next.js</title>
+      <link>https://theabbie.github.io/blog/NFT-marketplace-ethereum-polygon-nextjs</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/NFT-marketplace-ethereum-polygon-nextjs</guid>
+      <description>By Abhishek Chaudhary Published 2021-09-29 Open Store is a NFT marketplace where traders can buy and sell NFT tokens through the usage of ethers and track the ownership of digital assets. https://github.com/rgab1508/OpenStore</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
       <title>PixelCraft: A Pixel Art Editor</title>
       <link>https://theabbie.github.io/blog/PixelCraft</link>
       <guid isPermaLink="false">https://theabbie.github.io/blog/PixelCraft</guid>
@@ -1624,10 +1808,74 @@
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
     <item>
-      <title>CryptoCRIT</title>
-      <link>https://theabbie.github.io/blog/CryptoCRIT</link>
-      <guid isPermaLink="false">https://theabbie.github.io/blog/CryptoCRIT</guid>
-      <description>By Abhishek Chaudhary Published 2020-08-02 CryptoCRIT is an open-source Cryptocurrency project which facilitates a Cryptocurrency wallet for making payments. The associated Cryptocurrency is called CritCoin. CryptoCRIT GitHub CryptoCRIT NPM CryptoCRIT InstaMojo CryptoCRIT Behance CryptoCRIT ResearchGate CryptoCRIT Dev.to CryptoCRIT fundsurfer CryptoCRIT Gitter CryptoCRIT Angellist CryptoCRIT F6s CryptoCRIT ResearchGate CryptoCRIT GumRoad CryptoCRIT GumRoad CryptoCRIT StartupExplore CryptoCRIT Li…</description>
+      <title>PointerPointer points to your pointer</title>
+      <link>https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/PointerPointer-points-to-your-pointer</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-28 pointerpointer is a website that shows pictures of people pointing to your pointer. It was created by Studio Moniker in Amsterdam the site offers no redeeming value except for a bit of pure comedic relief. The project is described as an experiment in pointer retrieval and it’s not quite as smart as it looks. What it does is locate your cursor and find a picture with people pointing towards that location on the screen. We&#39;ve been playing with it for a …</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Breadcrumbs demo</title>
+      <link>https://theabbie.github.io/blog/Breadcrumbs-demo</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Breadcrumbs-demo</guid>
+      <description>Breadcrumbs (or breadcrumb trail) is a secondary navigation system that shows a user&#39;s location in a site or web app. The term came from the Hansel and Gretel fairy tale in which the main characters create a trail of breadcrumbs in order to track back to their house. source Smashing Magazine Smashing Magazine</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Can Has Cheezburger</title>
+      <link>https://theabbie.github.io/blog/I-Can-Has-Cheezburger</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/I-Can-Has-Cheezburger</guid>
+      <description>By Abhishek Chaudhary Published 2020-06-18 I Can Has Cheezburger has become one of the most popular sites online. Its daily collection of LOLCats is the source of endless humor Cheezburger is a Seattle-based company founded in 2007 and is home to sites like I Can Has Cheezburger, FAIL Blog, Know Your Meme and Memebase. They are one of the largest social humor sites on the Internet where &#34;millions of people come every day to view, create or remix themes, and share their favorite funny pictures.&#34; …</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generic Static Site Generator</title>
+      <link>https://theabbie.github.io/blog/Generic-Static-Site-Generator</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Generic-Static-Site-Generator</guid>
+      <description>By Abhishek Chaudhary Published 2020-08-24 This is a Generic Static Site Generator, It is written in JavaScript, It can be used to create static websites. It is an organised and completely customisable Static Site Generator, It treats webpages as objects which can be evaluated. This can be used to created all kinds of websites. Generic Static Site Generator Github Generic Static Site Generator NPM Generic SSG Generic Static Site Generator Gitter Generic Static Site Generator openbase Generic Sta…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>All Futurama Opening Quotes</title>
+      <link>https://theabbie.github.io/blog/All-Futurama-Opening-Quotes</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/All-Futurama-Opening-Quotes</guid>
+      <description>By Abhishek Chaudhary Published 2021-03-16 All Futurama title captions in order! Episode 1 Episode 2 Episode 3 Episode 4 Episode 5 Episode 6 Episode 7 Episode 8 Episode 9 Episode 10 Episode 11 Episode 12 Episode 13 Episode 14 Episode 15 Episode 16 Episode 17 Episode 18 Episode 19 Episode 20 Episode 21 Episode 22 Episode 23 Episode 24 Episode 25 Episode 26 Episode 27 Episode 28 Episode 29 Episode 30 Episode 31 Episode 32 Episode 33 Episode 34 Episode 35 Episode 36 Episode 37 Episode 38 Episode 39…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building In Public</title>
+      <link>https://theabbie.github.io/blog/Building-In-Public</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Building-In-Public</guid>
+      <description>By Abhishek Chaudhary Published 2021-03-13 Building in public is simple, just find public and build there, it is called building in public because it is not private, It is opposite of destroying in private. ELI5: Building is similar to creating, difference isn&#39;t apparent though. ELI5: Public is considered non-anonymous, non-private. Building in public is called building in public because it is opposite of destroying in private.</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Primality Test Using Regex</title>
+      <link>https://theabbie.github.io/blog/Primality-Test-Using-Regex</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Primality-Test-Using-Regex</guid>
+      <description>By Abhishek Chaudhary Published 2021-03-24 Out of all possible ways to check primality of a number, let us go a bit extreme and use regex to check primality, And as expected, this method is incredibly expensive, while not useful, we can just admire it&#39;s beauty Regular Expression to check Primality /.?|(..+?)\\1+/ That&#39;s it, Regex is powerful, it&#39;s much more than simple string matching, while this is computationally expensive, we can still admire it&#39;s simplicity. How does Primality Regex Work? .?…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seedr.cc Review</title>
+      <link>https://theabbie.github.io/blog/Seedr-cc-Review</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/Seedr-cc-Review</guid>
+      <description>By Abhishek Chaudhary Published 2020-05-23 Seedr.cc is an amazing tool, it makes it so easy to stream torrents online, it really is a boon to those with slow internet connection. features superfast torrent download seedr.cc makes it possible to download torrents on cloud superfast and it can be streamed easily checking torrents before downloading fake torrents are a huge problem and seedr.cc solves it by allowing you to check the torrent before downloading try the amazing tool Do try this amazin…</description>
+      <author>theabbie</author>
+      <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>DevRant</title>
+      <link>https://theabbie.github.io/blog/DevRant</link>
+      <guid isPermaLink="false">https://theabbie.github.io/blog/DevRant</guid>
+      <description>By Abhishek Chaudhary Published 2021-03-05 Join a fun community of developers DevRant</description>
       <author>theabbie</author>
       <pubDate>Wed, 26 Apr 2023 13:40:56 +0000</pubDate>
     </item>
@@ -1646,6 +1894,14 @@
       <description>Ever seen a code base where understanding a simple method meant jumping through tangled class hierarchies? We all have! And while “Favor composition over inheritance!” is almost as old as object-oriented programming, strictly avoiding all types of subclassing leads to verbose, un-Pythonic code. So, what to do?</description>
       <author>hynek</author>
       <pubDate>Sat, 22 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AT&amp;T Wireless traffic shaping apparently making some websites unusable</title>
+      <link>https://adriano.fyi/posts/2023/2023-04-16-att-traffic-shaping-makes-websites-unusable/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2023/2023-04-16-att-traffic-shaping-makes-websites-unusable/</guid>
+      <description>Post-incident Sumary Hacker News Discussion To summarize this post, I was seemingly throttled by AT&amp;T for days. See the Original Post for the full write up. While gathering data for this post and attempting solutions, I changed my LTE router’s APN, which caused it to re-authenticate to AT&amp;T, and after I was re-authenticated I was no longer being throttled. One Hacker News user suggested that re-authenticating may have caused me to route through a different PGW (Packet Data Network Gateway) wit…</description>
+      <author>adriano</author>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Design system guide</title>
@@ -1741,6 +1997,14 @@
       <pubDate>Sat, 03 Dec 2022 23:35:00 +0000</pubDate>
     </item>
     <item>
+      <title>How to Choose Mountain Bike Brake Pads</title>
+      <link>https://adriano.fyi/posts/2022-11-06-how-to-choose-mountain-bike-brake-pads/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2022-11-06-how-to-choose-mountain-bike-brake-pads/</guid>
+      <description>Whether you think about them all the time or never at all – mountain bike brakes are what keep you alive on those gnarly descents. And while the whole braking system matters, I’m not going to talk about rotor sizes, 2-piston vs. 4-piston, or lever angle; I’m talking about the humble brake pad. I had long considered brake pad choice a foregone decision – resin (organic) pads are king and metal pads (sintered) are for Huffy! But that’s not very well informed. You should choose brake pads…</description>
+      <author>adriano</author>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Federated</title>
       <link>/posts/federated/</link>
       <guid isPermaLink="false">/posts/federated/</guid>
@@ -1749,12 +2013,28 @@
       <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>How to install PostgreSQL in a custom directory</title>
+      <link>https://neil.computer/notes/how-to-install-postgresql-in-a-custom-directory/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3541</guid>
+      <description>When you install postgresql using apt-get , it runs initdb and automatically creates a main cluster. Typically, the default data directory location is in /var/lib/postgresql/&lt;version&gt;/&lt;cluster&gt;/ . There are three ways to install PostgreSQL in a custom directory. Options 1 and 2 are not ideal.</description>
+      <author>neilpanchal</author>
+      <pubDate>Sat, 08 Oct 2022 02:13:34 +0000</pubDate>
+    </item>
+    <item>
       <title>SOLID Principles Sketches</title>
       <link>https://trekhleb.dev/blog/2022/solid-principles-sketches/</link>
       <guid isPermaLink="false">https://trekhleb.dev/blog/2022/solid-principles-sketches/</guid>
       <description>SOLID programming principles explained with minimalistic sketches and real-world examples</description>
       <author>trekhleb</author>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neofetch – Server Administration System</title>
+      <link>https://neil.computer/notes/neofetch/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3540</guid>
+      <description>I ssh into a lot of machines. Dozens of times a day. I need a quick way to see the health of the system as soon as I log in and with zero friction. I am obliged to use the one and only tool: neofetch . Neofetch is a pillar of</description>
+      <author>neilpanchal</author>
+      <pubDate>Tue, 04 Oct 2022 06:26:48 +0000</pubDate>
     </item>
     <item>
       <title>How I’m a Productive Programmer With a Memory of a Fruit Fly</title>
@@ -1813,6 +2093,22 @@
       <pubDate>Wed, 08 Jun 2022 00:20:00 +0000</pubDate>
     </item>
     <item>
+      <title>Dear Spotify. Can we just get a table of songs?</title>
+      <link>https://neil.computer/notes/dear-spotify-can-we-just-get-table-of-songs/</link>
+      <guid isPermaLink="false">696743775a67c705af8f353d</guid>
+      <description>Dear Spotify. I tried to search for podcasts on your Desktop app. I know you&#39;re into fancy cross-platform Electron framework. I&#39;ve come to terms with it. It&#39;s fine. It&#39;ll do. But, your understanding of interface design seems like it needs a bit</description>
+      <author>neilpanchal</author>
+      <pubDate>Sat, 04 Jun 2022 08:09:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dear JetBrains. Don&#39;t mess with your UI.</title>
+      <link>https://neil.computer/notes/dear-jetbrains-dont-mess-with-your-ui/</link>
+      <guid isPermaLink="false">696743775a67c705af8f353c</guid>
+      <description>So we have yet a new UI overhaul. This time, bringing consumer-grade UI practices to the world of professionals. Announcement: https://blog.jetbrains.com/idea/2022/05/take-part-in-the-new-ui-preview-for-your-jetbrains-ide/ New Jet Brains interface We&#39;re professionals. We can handle the complexity and the density of the current UI. You made</description>
+      <author>neilpanchal</author>
+      <pubDate>Fri, 03 Jun 2022 06:29:58 +0000</pubDate>
+    </item>
+    <item>
       <title>The most big problem of UI kits</title>
       <link>https://vitonsky.net/blog/2022/05/23/ui-kit-design/</link>
       <guid isPermaLink="false">https://vitonsky.net/blog/2022/05/23/ui-kit-design/</guid>
@@ -1845,6 +2141,22 @@
       <pubDate>Fri, 01 Apr 2022 10:12:35 +0000</pubDate>
     </item>
     <item>
+      <title>Berkeley Mono Font Variant Popularity</title>
+      <link>https://neil.computer/notes/berkeley-mono-font-variant-popularity/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3539</guid>
+      <description>Berkeley Mono Typeface Absolutely thrilled by the response after Hacker News launch of Berkeley Mono Typeface. I am truly humbled by the feedback, interest and people that have keen interest in typography. Berkeley Mono Font Variants Quick update on people asking what&#39;s the most popular variant. Seems like</description>
+      <author>neilpanchal</author>
+      <pubDate>Sat, 05 Mar 2022 21:32:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Berkeley Mono February Update</title>
+      <link>https://neil.computer/notes/berkeley-mono-february-update/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3536</guid>
+      <description>Hey Gang! First of all, thank you to everyone that participated in the Beta program. Feedback is very much appreciated. Here is a quick update on the progress: Website - Berkeleygraphics.com It is already up: https://berkeleygraphics.com but does not have the Berkeley Mono pages yet. Stack is</description>
+      <author>neilpanchal</author>
+      <pubDate>Sun, 06 Feb 2022 04:58:00 +0000</pubDate>
+    </item>
+    <item>
       <title>on the philosophy of rating systems</title>
       <link>https://agnishom.github.io/blog/2022/rating-systems/</link>
       <guid isPermaLink="false">https://agnishom.github.io/blog/2022/rating-systems</guid>
@@ -1853,12 +2165,44 @@
       <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Bell Labs Org Chart</title>
+      <link>https://neil.computer/notes/bell-labs-org-chart/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3535</guid>
+      <description>I&#39;ve always been curious about the story of Bell Labs – how it was formed, why it was successful, its challenges and struggles, innovation engine, people, its organizational structure, operations, and its legacy. The Idea Factory by Jon Gertner is an excellent albeit slightly inaccurate summary of what,</description>
+      <author>neilpanchal</author>
+      <pubDate>Sun, 23 Jan 2022 07:27:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teaching how to code is broken</title>
+      <link>https://neil.computer/notes/teaching-how-to-code-is-broken/</link>
+      <guid isPermaLink="false">696743775a67c705af8f3534</guid>
+      <description>Typically: Chapter 1: Types Chapter 2: Variables Chapter 3: Operators/Math Chapter 4: Control structures Chapter 5: Arrays Chapter 6: Functions Chapter 7: Structs Chapter 8: Classes and Objects Chapter 9: Methods Chapter 10: Inheritance and Polymorphism Chapter 11: Some advanced thing X Chapter 12: Some esoteric thing Y Chapter</description>
+      <author>neilpanchal</author>
+      <pubDate>Wed, 12 Jan 2022 06:50:50 +0000</pubDate>
+    </item>
+    <item>
       <title>import attrs</title>
       <link>https://hynek.me/articles/import-attrs/</link>
       <guid isPermaLink="false">https://hynek.me/articles/import-attrs/</guid>
       <description>An attempt at catharsis. This is a deeply personal blog post about the most influential project I’ve ever created: attrs , the progenitor of modern Python class utilities. I’m retelling its history from my perspective, how it begot dataclasses , and how I’m leading it into the future.</description>
       <author>hynek</author>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ZFS RAIDZ2 - Achieving 157 GB/s</title>
+      <link>https://neil.computer/notes/zfs-raidz2/</link>
+      <guid isPermaLink="false">696743775a67c705af8f352f</guid>
+      <description>Update: See Note 5 below . 157 GB/s is a misleading bandwidth due to the way fio lib handles the --filename option. Actual bandwidth is approximately 22 GB/s, which is still mighty impressive. I built a new server that&#39;s also going to serve as a NAS. It</description>
+      <author>neilpanchal</author>
+      <pubDate>Mon, 13 Dec 2021 03:31:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Berkeley Mono December Update</title>
+      <link>https://neil.computer/notes/berkeley-mono-december-update/</link>
+      <guid isPermaLink="false">696743775a67c705af8f352e</guid>
+      <description>It&#39;s been a while since I had announced the release of Berkeley Mono. The more I examine it under scrutinous eyes, the more I find that there is more work to be done. At one point, I had the following masters going through the final tuning: Berkeley Mono</description>
+      <author>neilpanchal</author>
+      <pubDate>Sat, 11 Dec 2021 23:23:29 +0000</pubDate>
     </item>
     <item>
       <title>How to Ditch Codecov for Python Projects</title>
@@ -1899,6 +2243,14 @@
       <description>Training the car to do self-parking using a genetic algorithm</description>
       <author>trekhleb</author>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Math Confession</title>
+      <link>https://adriano.fyi/posts/2021-09-23-my-math-confession/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2021-09-23-my-math-confession/</guid>
+      <description>I did math for the first time when I was 29 years old. This isn’t a self-deprecating snipe or feigned humility. I did math for the first time when I was 29 years old. When I finally did it for the first time – at least, the first recorded time – I didn’t know it had happened. It was six years later reading Paul Lockhart’s excellent piece entitled, “A Mathematician’s Lament” that I realized what I’d done; I’d finally done math all those years ago. At the time I was pretty sure…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Announcing a New Section: TIL</title>
@@ -1963,6 +2315,14 @@
       <description>Gate Integration Tests on Environment Variables 2021-04-04 In this post Peter describes an effective, graceful way of differentiating between unit and integration tests in a Go codebase. While build tags and the standard tooling around tests might be Go related, I believe that the pattern applies to other ecosystems as well. For instance Python and Pytest. Pytest makes this easy using the skipif mark : import os import pytest def test_unit(): assert True @pytest.mark.skipif(os.getenv(&#34;DB&#34;) == No…</description>
       <author>stchris</author>
       <pubDate>Sun, 04 Apr 2021 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configuring Sierra Wireless RV55 for IVPN</title>
+      <link>https://adriano.fyi/posts/2021-03-20-configure-sierra-wireless-rv55-with-ivpn/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/2021-03-20-configure-sierra-wireless-rv55-with-ivpn/</guid>
+      <description>After figuring out a problem after hours of struggle, the simplicity of the result often belies the difficulty of the process. When I look at the final configuration that I came up with in ACEManager, everything looks simple and obvious, but the process was far from it. That’s the case nearly every time I configure a new feature on my Sierra Wireless RV55 LTE router. This device is not made for consumers. It’s built for ambulances, traffic lights, Greyhound buses, remote gas pipelines, and t…</description>
+      <author>adriano</author>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Photo</title>
@@ -2032,360 +2392,6 @@
       <guid isPermaLink="false">https://jonbaer.com/post/635701192599748608</guid>
       <author>jonbaer</author>
       <pubDate>Tue, 24 Nov 2020 21:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A tiny CI system</title>
-      <link>https://www.stchris.net/tiny-ci-system.html</link>
-      <guid isPermaLink="false">https://www.stchris.net/tiny-ci-system.html</guid>
-      <description>A tiny CI system 2020-11-08 This is a little demonstration of how little you need to host your own git repositories and have a modest Continuous Integration system for them. All you need is a unixy server you can ssh into, but arguably you can try this out locally as well. We will use Redis at one point to queue tasks, but strictly speaking this can be achieved without additional software. To keep things simple this will only work with one repository, since this is only describing a pattern. The…</description>
-      <author>stchris</author>
-      <pubDate>Sun, 08 Nov 2020 03:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Have you considered buying used hardware?</title>
-      <link>https://www.stchris.net/consider-buying-used.html</link>
-      <guid isPermaLink="false">https://www.stchris.net/consider-buying-used.html</guid>
-      <description>Have you considered buying used hardware? 2020-10-23 For my current job I knew I wanted a Linux laptop again, after enough exposure to Apples ecosystem. Naturally a Thinkpad came to mind as an option, but I wanted to give used hardware a chance, given that Thinkpads are known to be reliable and well built. I went with used/refurbished hardware from a vendor I know and trust for a while now, lapstore.de , and I could not be happier with my choice. I went with a Lenovo Thinkpad T460s, as a comprom…</description>
-      <author>stchris</author>
-      <pubDate>Fri, 23 Oct 2020 23:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Targeting a specific filesize with FFmpeg</title>
-      <link>https://henrytodd.uk/notes/2020/mp4-target-filesize-with-ffmpeg/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2020/mp4-target-filesize-with-ffmpeg/</guid>
-      <description>FFmpeg doesn&#39;t have a way to provide a target filesize directly, so you need to work out your target bitrate instead and use 2-pass encoding . To get the target bitrate (in kilobits) you&#39;ll need: Target filesize in kilobits (size in GiB × (8 × 1024²)) Video duration in seconds Then you provide the video bitrate (filesize ÷ duration) on both passes with the -b:v option. The first pass is only for analysis, so we can use -an to ignore the audio tracks. It will write out a .log and a .log.mbtre…</description>
-      <author>hjst</author>
-      <pubDate>Thu, 22 Oct 2020 03:33:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>a post with github metadata</title>
-      <link>https://agnishom.github.io/blog/2020/github-metadata/</link>
-      <guid isPermaLink="false">https://agnishom.github.io/blog/2020/github-metadata</guid>
-      <description>a quick run down on accessing github metadata.</description>
-      <author>agnishom</author>
-      <pubDate>Mon, 28 Sep 2020 21:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>a post with twitter</title>
-      <link>https://agnishom.github.io/blog/2020/twitter/</link>
-      <guid isPermaLink="false">https://agnishom.github.io/blog/2020/twitter</guid>
-      <description>an example of a blog post with twitter</description>
-      <author>agnishom</author>
-      <pubDate>Mon, 28 Sep 2020 15:12:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>6+ years of using Hugo for a tiny website</title>
-      <link>https://henrytodd.uk/notes/2020/six-years-with-hugo/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2020/six-years-with-hugo/</guid>
-      <description>I spent a bit of my holiday time recently simplifying this site, and it gave me an appreciation for Hugo (the thing that builds the HTML for me). I wanted to write this down while I still remember, so that when I&#39;m re-evaluating the choice of Hugo in another 6 years, I&#39;ll have something to refer to. % git log --diff-filter=A -- config.yaml commit 16e988b07edbf9e914d525e29bc88ba74d6ed466 Date: Fri Jan 31 17:51:46 2014 +0800 Convert site structure from Jekyll to Hugo. As is usually the way with th…</description>
-      <author>hjst</author>
-      <pubDate>Sat, 19 Sep 2020 10:36:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Git aliases using arbitrary default branch names</title>
-      <link>https://henrytodd.uk/notes/2020/arbitrary-default-branch-names-git-aliases/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2020/arbitrary-default-branch-names-git-aliases/</guid>
-      <description>I have a very simple git alias which shows me what&#39;s changed on my feature branch compared to the main branch (which is probably what I&#39;m about to target with a PR/merge): [alias] ld = diff master This only works if &#34;master&#34; is the name of the default branch in your current repo, and this is decreasingly common. % git ld fatal: ambiguous argument &#39;master&#39;: unknown revision or path not in the working tree. One solution is to call git symbolic-ref on the &#34;origin&#34; remote HEAD. % git symbolic-ref re…</description>
-      <author>hjst</author>
-      <pubDate>Sun, 16 Aug 2020 11:56:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>‘Quantum secret sharing’ scheme allows 10 parties to communicate securely – Physics World</title>
-      <link>https://jonbaer.com/post/626131603871186945</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/626131603871186945</guid>
-      <description>‘Quantum secret sharing’ scheme allows 10 parties to communicate securely – Physics World : A “quantum secret sharing” scheme that allows 10 parties share information securely – the highest number so far – has been developed and demonstrated by researchers in South Africa. The protocol involves each party performing quantum operations on the photon without measuring its state and the team says it could help increase both the rate at which data is shared on secure quantum networks a…</description>
-      <author>jonbaer</author>
-      <pubDate>Tue, 11 Aug 2020 06:00:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>https://jonbaer.com/post/626130641411571712</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/626130641411571712</guid>
-      <author>jonbaer</author>
-      <pubDate>Tue, 11 Aug 2020 05:45:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>https://jonbaer.com/post/622793151737905152</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/622793151737905152</guid>
-      <author>jonbaer</author>
-      <pubDate>Sun, 05 Jul 2020 09:37:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Generating cooking recipes using TensorFlow and LSTM Recurrent Neural Network: A step-by-step guide</title>
-      <link>https://trekhleb.dev/blog/2020/recipes-generation/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2020/recipes-generation/</guid>
-      <description>I&#39;ve trained a character-level LSTM RNN on ~100k recipes dataset using TensorFlow, and it suggested me to cook Cream Soda with Onions, Puff Pastry Strawberry Soup, Zucchini flavor Tea and Salmon Mousse of Beef and Stilton Salad with Jalapenos</description>
-      <author>trekhleb</author>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Postgres websearch in Django 3.1</title>
-      <link>/posts/websearch-in-django-31/</link>
-      <guid isPermaLink="false">/posts/websearch-in-django-31/</guid>
-      <description>Earlier this week, Django 3.1 beta 1 was released . While the big news is the addition of asynchronous views and middleware, there’s a tiny feature I managed to get added that I wanted to bring a bit of attention to as it makes writing apps that use Postgres’ full text search a little easier &amp; nicer. It’s a small line in the changelog , but the SearchQuery constructor now accepts the argument search_type=&#34;websearch&#34; . This allows you to write code like:</description>
-      <author>jptsh</author>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>This is how social media could ruin your happiness</title>
-      <link>https://trekhleb.dev/blog/2020/this-is-how-social-media-could-ruin-your-happiness/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2020/this-is-how-social-media-could-ruin-your-happiness/</guid>
-      <description>The recipe for how you can ruin your happiness and start feeling miserable using social media</description>
-      <author>trekhleb</author>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>https://jonbaer.com/post/620222200853774336</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/620222200853774336</guid>
-      <author>jonbaer</author>
-      <pubDate>Sun, 07 Jun 2020 00:33:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Waiting in asyncio</title>
-      <link>https://hynek.me/articles/waiting-in-asyncio/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/waiting-in-asyncio/</guid>
-      <description>One of the main appeals of using Python’s asyncio is being able to fire off many coroutines and run them concurrently. How many ways do you know for waiting for their results?</description>
-      <author>hynek</author>
-      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Classy Abstractions</title>
-      <link>https://hynek.me/talks/abstractions/</link>
-      <guid isPermaLink="false">https://hynek.me/talks/abstractions/</guid>
-      <description>Let’s talk about abstractions and Pythonic code.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link></link>
-      <guid isPermaLink="false">theabbie0</guid>
-      <description>Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podcasting</description>
-      <author>theabbie</author>
-      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interactive Machine Learning Experiments</title>
-      <link>https://trekhleb.dev/blog/2020/machine-learning-experiments/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2020/machine-learning-experiments/</guid>
-      <description>Recognize digits and sketches. Detect objects. Classify images. Write a Shakespeare poem. All with TensorFlow 2 models demo.</description>
-      <author>trekhleb</author>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why You Should Document Your Tests</title>
-      <link>https://hynek.me/articles/document-your-tests/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/document-your-tests/</guid>
-      <description>Some projects have the policy that all tests must have an explanatory comment – including all of mine. At first, I found that baffling. If that’s you right now, this article is for you.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>John Horton Conway (26 December 1937 – 11 April 2020)</title>
-      <link>https://jonbaer.com/post/615150273431814144</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/615150273431814144</guid>
-      <description>John Horton Conway (26 December 1937 – 11 April 2020)</description>
-      <author>jonbaer</author>
-      <pubDate>Sun, 12 Apr 2020 00:56:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>I’ve open-sourced a simple Coronavirus (COVID-19) dashboard</title>
-      <link>https://trekhleb.dev/blog/2020/coronavirus-covid-19-dashboard/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2020/coronavirus-covid-19-dashboard/</guid>
-      <description>Coronavirus (COVID-19) dashboard to show the dynamics of Сoronavirus distribution per country</description>
-      <author>trekhleb</author>
-      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python in GitHub Actions</title>
-      <link>https://hynek.me/articles/python-github-actions/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/python-github-actions/</guid>
-      <description>GitHub’s own CI called GitHub Actions has been out of closed beta for a while and offers generous free quotas and a seamless integration with the rest of the site. Let’s have a look at how to use it for an open source Python package.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python in Production</title>
-      <link>https://hynek.me/articles/python-in-production/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/python-in-production/</guid>
-      <description>I’m missing a key part from the public Python discourse and I would like to help to change that.</description>
-      <author>hynek</author>
-      <pubDate>Sun, 23 Feb 2020 16:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python Packaging Metadata</title>
-      <link>https://hynek.me/articles/packaging-metadata/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/packaging-metadata/</guid>
-      <description>Since this topic keeps coming up, I’d like to briefly share my thoughts on Python package metadata because it’s – as always – more complex than it seems.</description>
-      <author>hynek</author>
-      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State-of-the-Art Shitcode Principles</title>
-      <link>https://trekhleb.dev/blog/2020/state-of-the-art-shitcode-principles/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2020/state-of-the-art-shitcode-principles/</guid>
-      <description>This a list of state-of-the-art shitcode principles your project should follow.</description>
-      <author>trekhleb</author>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>https://jonbaer.com/post/189890847341</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/189890847341</guid>
-      <author>jonbaer</author>
-      <pubDate>Fri, 27 Dec 2019 01:24:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Photo</title>
-      <link>https://jonbaer.com/post/189564054026</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/189564054026</guid>
-      <author>jonbaer</author>
-      <pubDate>Mon, 09 Dec 2019 03:31:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>NanoNeuron - 7 simple JS functions that explain how machines learn</title>
-      <link>https://trekhleb.dev/blog/2019/nano-neuron/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2019/nano-neuron/</guid>
-      <description>The NanoNeuron.js code example contains 7 simple JavaScript functions (which touches on model prediction, cost calculation, forward/backwards propagation, and training) that will give you a feeling of how machines can actually learn. No 3rd-party libraries, no external data-sets or dependencies, only pure and simple JavaScript functions.</description>
-      <author>trekhleb</author>
-      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Books That Changed My Life</title>
-      <link>https://hynek.me/articles/books-that-changed-my-life/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/books-that-changed-my-life/</guid>
-      <description>People always ask for book recommendations, so here’s my list of books that changed my life in one way or another. None of them is related to tech or programming, but all affect how I think and work.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Streaming Opus audio with MPD&#39;s httpd output</title>
-      <link>https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2019/streaming-opus-with-mpd/</guid>
-      <description>With MPD ≥ 0.18 if you add this to your mpd.conf file… audio_output { type &#34;httpd&#34; name &#34;OwlCast&#34; encoder &#34;opus&#34; port &#34;8000&#34; bind_to_address &#34;0.0.0.0&#34; bitrate &#34;96000&#34; format &#34;44100:16:2&#34; # use :1 for mono max_clients &#34;0&#34; # max of zero means no limit always_on &#34;yes&#34; # don&#39;t drop listeners when audio stops tags &#34;yes&#34; # send artist/title metadata } …you&#39;ll get a new MPD output on port 8000 for HTTP streaming. The 96 kbps bitrate is suitable for music streaming and in my testing it sounds grea…</description>
-      <author>hjst</author>
-      <pubDate>Sun, 11 Aug 2019 08:23:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Every transistor has a unique quantum fingerprint—but can it be used as a form of ID?</title>
-      <link>https://jonbaer.com/post/186689297541</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/186689297541</guid>
-      <description>Every transistor has a unique quantum fingerprint—but can it be used as a form of ID? : As trap sites are basically tiny defects that are randomly distributed in an uncontrollable way during fabrication, the number, location, and energy levels of trap sites differ for every transistor. As a result, single-electron effects lead to a unique modification in the current-voltage characteristics, effectively giving each transistor a unique “fingerprint.”</description>
-      <author>jonbaer</author>
-      <pubDate>Thu, 01 Aug 2019 01:21:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science</title>
-      <link>https://jonbaer.com/post/186689276716</link>
-      <guid isPermaLink="false">https://jonbaer.com/post/186689276716</guid>
-      <description>Illinois Physics Researchers Awarded DoE Grants to Advance Quantum Information Science : Physics Professors Bryan Clark and Taylor Hughes of the University of Illinois at Urbana-Champaign have been awarded US Department of Energy (DOE) grants to develop new quantum computing capabilities. The awards are part of a $37-million DOE initiative supporting research that will lay the groundwork for the development of new quantum information systems and that will use current quantum information capabili…</description>
-      <author>jonbaer</author>
-      <pubDate>Thu, 01 Aug 2019 01:20:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dependency upgrade errors with pkgsrc on macOS</title>
-      <link>https://henrytodd.uk/notes/2019/pkgsrc-on-macos/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2019/pkgsrc-on-macos/</guid>
-      <description>For some years now Joyent have been quietly hosting binary pkgsrc packages for macOS . It doesn&#39;t seem to have as high a profile as homebrew/fink/macports, but if you&#39;re familiar with BSD-style ports (and particularly if you need to compile things with custom options) you&#39;ll probably find it more comfortable. Anyway, it works well in my experience, with the only hiccup being that very occasionally during a package upgrade I will get an error like the following: # pkgin update # pkgin full-upgrad…</description>
-      <author>hjst</author>
-      <pubDate>Wed, 24 Jul 2019 08:51:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Creating React usePosition() hook for getting browser&#39;s geolocation</title>
-      <link>https://trekhleb.dev/blog/2019/react-useposition-hook/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2019/react-useposition-hook/</guid>
-      <description>Decoupling of geolocation logic into React hook</description>
-      <author>trekhleb</author>
-      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python in Azure Pipelines, Step by Step</title>
-      <link>https://hynek.me/articles/simple-python-azure-pipelines/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/simple-python-azure-pipelines/</guid>
-      <description>Since the acquisition of Travis CI , the future of their free offering is unclear. Azure Pipelines has a generous free tier, but the examples I found are discouragingly complex and take advantage of features like templating that most projects don’t need. To close that gap, this article shows you how to move a Python project with simple CI needs from Travis CI to Azure Pipelines.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 03 Jun 2019 09:14:00 +0000</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://brancz.com/archives/</link>
-      <guid isPermaLink="false">https://brancz.com/archives/</guid>
-      <author>brancz</author>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Price of the Hallway Track</title>
-      <link>https://hynek.me/articles/hallway-track/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/hallway-track/</guid>
-      <description>There are many good reasons not to go to every talk possible when attending conferences. However, increasingly, it became hip to boast about avoiding going to talks – encouraging others to follow suit. That rubs me the wrong way as a speaker, and I’ll try to explain why.</description>
-      <author>hynek</author>
-      <pubDate>Wed, 15 May 2019 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Technical Interview Preparation Checklist</title>
-      <link>https://trekhleb.dev/blog/2019/technical-interview-preparation-checklist/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2019/technical-interview-preparation-checklist/</guid>
-      <description>Useful insights from recruiters that they normally send to applicants before the technical interviews</description>
-      <author>trekhleb</author>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Maintaining a Python Project When It’s Not Your Job</title>
-      <link>https://hynek.me/talks/python-foss/</link>
-      <guid isPermaLink="false">https://hynek.me/talks/python-foss/</guid>
-      <description>PyPI is a gold mine of great packages but those packages have to be written first. More often than not, projects that millions of people depend on are written and maintained by only one person. If you’re unlucky, that person is you! This talk tries to lighten the burden by giving you useful tools and approaches.</description>
-      <author>hynek</author>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Emacs &amp; restclient.el with SOAP services</title>
-      <link>https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/</guid>
-      <description>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</description>
-      <author>hjst</author>
-      <pubDate>Wed, 03 Apr 2019 20:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Headless install of Raspbian Buster</title>
-      <link>https://henrytodd.uk/notes/2019/headless-raspbian-buster/</link>
-      <guid isPermaLink="false">https://henrytodd.uk/notes/2019/headless-raspbian-buster/</guid>
-      <description>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</description>
-      <author>hjst</author>
-      <pubDate>Wed, 03 Apr 2019 20:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Most Trending Jupyter Notebooks of December on GitHub</title>
-      <link>https://trekhleb.dev/blog/2019/most-trending-jupyter-notebooks-of-december/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2019/most-trending-jupyter-notebooks-of-december/</guid>
-      <description>A list of 25 most trending Jupyter Notebooks on GitHub as for December, 2018</description>
-      <author>trekhleb</author>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Homemade Machine Learning in Python</title>
-      <link>https://trekhleb.dev/blog/2018/homemade-machine-learning-in-python/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2018/homemade-machine-learning-in-python/</guid>
-      <description>MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained</description>
-      <author>trekhleb</author>
-      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python Application Dependency Management</title>
-      <link>https://hynek.me/articles/python-app-deps-2018/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/python-app-deps-2018/</guid>
-      <description>We have more ways to manage dependencies in Python applications than ever. But how do they fare in production? Unfortunately this topic turned out to be quite polarizing and was at the center of a lot of heated debates. This is my attempt at an opinionated review through a DevOps lens.</description>
-      <author>hynek</author>
-      <pubDate>Thu, 29 Nov 2018 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Machine Learning in MatLab/Octave</title>
-      <link>https://trekhleb.dev/blog/2018/machine-learning-in-matlaboctave/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2018/machine-learning-in-matlaboctave/</guid>
-      <description>MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained</description>
-      <author>trekhleb</author>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
