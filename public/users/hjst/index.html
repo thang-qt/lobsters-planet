@@ -33,7 +33,7 @@
         <div><dt>Stories</dt><dd>0</dd></div>
         <div><dt>Comments</dt><dd>0</dd></div>
         <div><dt>Profile checked</dt><dd>9 Jun 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>9 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>10 Jun 2026</dd></div>
       </dl>
       
     </section>
@@ -90,50 +90,14 @@
       
         <article class="entry">
           <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h3>
-          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
           <h3><a href="https://henrytodd.uk/notes/2019/emacs-restclient-with-soap-services/">Using Emacs &amp; restclient.el with SOAP services</a></h3>
           <p>Recently I’ve been using the handy restclient.el for testing/investigating a SOAP service. It’s not really designed for this, so I wanted to make notes on a couple of quirks. WSSE authentication This particular service requires every request to have an authentication “header” element inside the XML document for each request. This is quite unlike the usual restclient examples of bearer tokens in HTTP headers. A typical request document’s &lt;soapenv:Header&gt; contains this: &lt;wsse:Security xm…</p>
         </article>
       
         <article class="entry">
-          <p class="meta">16 Aug 2016 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2016/cross-platform-volumes-with-tcplay/">Encrypted cross-platform read/write volumes with tcplay</a></h3>
-          <p>tcplay is a reimplementation of truecrypt disk &amp; disk-image encryption using dm-crypt. Originally for DragonflyBSD, it’s been ported and is in most Linux distro repositories. It’s compatible with VeraCrypt on Mac and Windows. The following describes how to create &amp; use encrypted read/write volumes on a Linux host which can be used on Mac &amp; Windows machines. A note about filesystems When creating an encrypted disk image you must choose an internal filesystem which is supported on each of the …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">4 Nov 2014 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2014/grouping-notifications-libnotify-notify-send/">Grouping desktop notifications with libnotify and notify-send</a></h3>
-          <p>In writing a script which generated libnotify desktop notifications with notify-send , I saw that they soon piled up and cluttered the notification area. Some applications (such as Transmission, or ABRT ) are able to stack/group their notifications together, so I set out to discover how. After a couple of hours of googling, reading and asking in irc channels I discovered it’s a lot more complicated than I hoped, and that no one has really written it down clearly anywhere. So, for the benefit o…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">30 Aug 2014 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2014/windows-usb-install-media-in-linux/">Creating Windows USB install media in Linux</a></h3>
-          <p>I spent entirely too long today trying to discern why my efforts to dd a Windows USB install ISO onto a USB stick were failing. Everything worked, the USB stick would mount fine in Windows, but I couldn’t boot from it despite setting it bootable in cfdisk. The trick is to write a Windows (or presumably DOS?) compatible boot sector to the volume. I will no doubt forget this by the time I next need to create one of these installers, so I’m putting these notes here while I remember. The commonl…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Aug 2014 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2014/simpler-gnupg-mutt-config-with-gpgme/">Simpler GnuPG &amp; Mutt configuration with GPGME</a></h3>
-          <p>I was consulting the Mutt documentation recently when the intriguingly-named crypt_use_gpgme variable caught my eye. I set up GnuPG with Mutt years ago and haven’t touched it since, but I remember it being a surprisingly complex procedure. Lots of config lines defining commands like gpg --no-verbose --batch --output - --verify %s %f for mutt to fork separate gpg processes for each operation. GPGME provides a standardised API for applications to use instead of all the esoteric manual config. Th…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">2 Feb 2014 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2014/graphing-mtr-reports-with-gnuplot/">Graphing mtr reports with gnuplot</a></h3>
-          <p>I wasn’t able to find any clear examples online of scripting gnuplot to graph mtr output, and I had a directory full of report files that I needed to turn into SVG graphs. If you’d like to follow along, here are the assumptions: You have mtr reports as text files generated by the -r switch. You want a stacked column chart of the best, average and worst response times. You need SVG output suitable for including in web pages. You are vaguely familiar with gnuplot (enough to tweak a .gp file). …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">24 Jan 2014 · Henry&#39;s notes</p>
-          <h3><a href="https://henrytodd.uk/notes/2014/opensmtpd-with-mailroute/">Configuring a personal mail server with OpenSMTPD and MailRoute</a></h3>
-          <p>It’s been less than a year since the first production release of OpenSMTPD , but I’d heard good things and wanted to give it a try. Like most OpenBSD projects the manpages are excellent, but like all young projects examples are thin on the ground. I decided to try setting it up for my new home server: a tiny domU holding mail for just 4 accounts. All of my mail is relayed via MailRoute , and while it’s a normal smarthost setup I didn’t find any clear examples, so here’s mine in the hop…</p>
+          <p class="meta">3 Apr 2019 · Henry&#39;s notes</p>
+          <h3><a href="https://henrytodd.uk/notes/2019/headless-raspbian-buster/">Headless install of Raspbian Buster</a></h3>
+          <p>Having recently got a shiny new Raspberry Pi 4, and needing to figure out (again) how to set it up for a headless install with a WiFi connection and ssh access, I’m leaving these notes here for future me. Firstly, get the latest “lite” Raspbian image : aria2c https://downloads.raspberrypi.org/raspbian_lite_latest.torrent shasum -a 256 2019-06-20-raspbian-buster-lite.zip Check the hash against the one on the download page, then write the image to a suitable SD card (assuming macOS): diskuti…</p>
         </article>
       
     </div>
