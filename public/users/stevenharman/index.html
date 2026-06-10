@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>stevenharman</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~stevenharman">Lobste.rs profile</a>
+        <a href="https://stevenharman.net">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>13 Nov 2012</dd></div>
+        <div><dt>Karma</dt><dd>63</dd></div>
+        <div><dt>Stories</dt><dd>3</dd></div>
+        <div><dt>Comments</dt><dd>9</dd></div>
+        <div><dt>Profile checked</dt><dd>10 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>10 Jun 2026</dd></div>
+      </dl>
+      <p class="about">It Depends™, as a Service. Maker &amp; breaker of things. Software spelunker. Good at naps.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">21 Aug 2024 · Steven Harman</p>
+          <h3><a href="https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts">Configuring SSH Keys for Multiple GitHub Accounts</a></h3>
+          <p>Managing different SSH Keys for different Hosts is well-understood. Different keys for the same host (e.g., github.com ), based on which GitHub Organization we’re working with, that’s… a bit trickier. But, we have the technology! We’re going to configure our SSH and Git clients to seamlessly switch SSH keys between our personal GitHub Account and our GitHub Enterprise Cloud, EMU Account. You need the right key. 🔐 Typical Multi-Key Setup Most guides and information we’ll find on the …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 May 2024 · Steven Harman</p>
+          <h3><a href="https://stevenharman.net/on-flaky-tests-time-precision-and-order-dependence">On Flaky Tests, Time Precision, and Order Dependence</a></h3>
+          <p>A flaky test is one that fails unpredictably, without a corresponding change in the code under test. These often show up in CI runs where a test unrelated to any change made suddenly fails, and then mysteriously passes when re-run. There are many type and causes of “flakes”. Today I want to talk about flaky tests caused by time precision, and time-order dependence. The specific tools mentioned here will be Ruby, Rails, and PostgreSQL specific. But analogs exist in nearly all other languages …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">25 Jan 2024 · Steven Harman</p>
+          <h3><a href="https://stevenharman.net/so-we-have-a-memory-leak">So We&#39;ve Got a Memory Leak…</a></h3>
+          <p>Memory leaks happen. And if you’re here, reading this, I’d bet you’re dealing with one. First things first - are you sure it’s a leak, and not bloat ? Okay, so it’s a leak. Much has been written about various tools for profiling a leak , understanding heap dumps , common causes of leaks , work being done to improve Ruby’s memory layout , and so much more. Ben Sheldon’s recent “ The answer is in your heap: debugging a big memory increase in Ruby on Rails ” is a great example. Be…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Oct 2022 · Steven Harman</p>
+          <h3><a href="https://stevenharman.net/cherry-picking-specific-active-support-behavior">Cherry-picking Specific Active Support Behavior</a></h3>
+          <p>The Active Support library has always (or, close enough to always ) allowed us to cherry-pick specific extensions/behaviors, to load only strictly needed dependencies. That is, rather than loading the entirety of the library, we can load just the bits and pieces we need. This helps keep the amount of things loaded in memory smaller, and faster by doing less work. It can also aide in understanding by making more explicit the dependencies some code relies on. I’ve been using this technique for y…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Sep 2022 · Steven Harman</p>
+          <h3><a href="https://stevenharman.net/bin-dev-for-heroku-local">A Rails 7 compatible bin/dev for heroku local</a></h3>
+          <p>Rails 7 introduced a new bin/dev wrapper to launch and manage your Rails server, CSS watcher, and JS bundler into a single process, managed by foreman . This is quite handy for running everything with a single command. But what if you’re deploying to Heroku and using the Heroku CLI’s heroku local to run things locally? Or if you’re a fan of one of the other tools that manage processes based on your Procfile ? I’ve got you covered! bin/dev for heroku local The biggest, and most obvious ch…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
