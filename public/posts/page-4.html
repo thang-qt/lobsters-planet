@@ -23,9 +23,39 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 11 Jun 2026, 11:01 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 11 Jun 2026, 16:25 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">17 Nov 2024 · <a href="/users/adriano/">adriano</a> · Adriano Caloiaro&#39;s personal blog</p>
+          <h2><a href="https://adriano.fyi/posts/chatgpt-is-slipping/">ChatGPT is Slipping</a></h2>
+          <p>ChatGPT is slipping Three months ago I put code in production that utilizes gpt-4o and/or gpt-4o-mini models to analyze feedback about businesses and categorize it. The prompts instruct the models to identify categories of feedback, and in a second phase, extract some examples of what people said. This is a simplification, but it took very little effort to craft some prompts that enabled even the meager gpt-4o-mini model to do exactly that. It didn’t feel like a stretch to imagine that this us…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">12 Nov 2024 · <a href="/users/samrat/">samrat</a> · Samrat Man Singh</p>
+          <h2><a href="https://samrat.me/gemini-file-upload-in-elixir/">Gemini file upload in Elixir</a></h2>
+          <p>If you want to send videos or images to the Google Gemini API, eg for video summarization, you need to upload the video to a separate endpoint and wait for it to get processed. This is described in the Gemini docs , and it&#39;s fairly straightforward to translate into</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Nov 2024 · <a href="/users/jptsh/">jptsh</a> · jpt.sh</p>
+          <h2><a href="/posts/scopeathon-intro/">Reflections on Civic Tech from 10th Annual Civic Scopeathon</a></h2>
+          <p>( Notes from a brief introduction I gave at the 10th Annual Civic Scopeathon , put on by my students. Someone asked me to share it, so putting it up here without any real editing.) Civic Tech is a young field, about 20 years old. That means Scopeathon has been around for about half of that time. I want to take a second to talk about what has changed in civic tech in those past twenty years, and why Scopeathon embodies some of the most important ideals.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Nov 2024 · <a href="/users/mble/">mble</a> · Matt Blewitt</p>
+          <h2><a href="https://matt.blwt.io/post/regular-restarts-are-good-actually/">Regular Restarts Are Good, Actually</a></h2>
+          <p>Anecdotally, one of the more maligned features of the Heroku platform are the 24-hour limits on compute units, known as “dynos” . This is actually a good thing, but very misunderstood.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Nov 2024 · <a href="/users/agnishom/">agnishom</a> · blank</p>
+          <h2><a href="https://agnishom.github.io/blog/2024/car-free-houston/">living car-free in houston</a></h2>
+          <p>my experience of living in Houston without a car, and the North American obsession with them</p>
+        </article>
       
         <article class="entry">
           <p class="meta">6 Nov 2024 · <a href="/users/samrat/">samrat</a> · Samrat Man Singh</p>
@@ -37,6 +67,12 @@
           <p class="meta">3 Nov 2024 · <a href="/users/mble/">mble</a> · Matt Blewitt</p>
           <h2><a href="https://matt.blwt.io/post/on-that-okta-ldap-bug/">On That Okta LDAP Bug</a></h2>
           <p>A quick explanation of the Okta AD/LDAP DelAuth bug that was being shared around, and the importance of sensible defaults.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Nov 2024 · <a href="/users/suprjami/">suprjami</a> · superjamie.github.io</p>
+          <h2><a href="https://superjamie.github.io/2024/11/02/caddy-container-with-dns-provider">Caddy container with DNS provider</a></h2>
+          <p>I’ve been using Caddy as a reverse proxy for a while. It’s very well documented and easy to configure. Gone are the days of figuring out HTTPS and paying for a certificate, many webservers and proxies offer an automated TLS certificate via Let’s Encrypt automated challenges. Getting a valid TLS certificate is just one line in a config file. The default way to do this is with a “HTTP Challenge” where the webserver must listen on port 80, and the provider makes sure the webserver asking …</p>
         </article>
       
         <article class="entry">
@@ -289,42 +325,6 @@
           <p class="meta">4 Feb 2024 · <a href="/users/hlandau/">hlandau</a> · devever.net/~hl</p>
           <h2><a href="https://www.devever.net/~hl/bootstrapping-exam">[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”</a></h2>
           <p>The following is an “exam”. To my knowledge, nobody has ever passed it, as it is an extremely difficult challenge. But I am firmly convinced it is possible, and it makes for an interesting discussion.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Feb 2024 · <a href="/users/hlandau/">hlandau</a> · devever.net/~hl</p>
-          <h2><a href="https://www.devever.net/~hl/u/202402#03a">[Hμblog] 37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware</a></h2>
-          <p>37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware For those that missed it, a recording of my talk at 37C3 can be found here.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">25 Jan 2024 · <a href="/users/stevenharman/">stevenharman</a> · Steven Harman</p>
-          <h2><a href="https://stevenharman.net/so-we-have-a-memory-leak">So We&#39;ve Got a Memory Leak…</a></h2>
-          <p>Memory leaks happen. And if you’re here, reading this, I’d bet you’re dealing with one. First things first - are you sure it’s a leak, and not bloat ? Okay, so it’s a leak. Much has been written about various tools for profiling a leak , understanding heap dumps , common causes of leaks , work being done to improve Ruby’s memory layout , and so much more. Ben Sheldon’s recent “ The answer is in your heap: debugging a big memory increase in Ruby on Rails ” is a great example. Be…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">21 Dec 2023 · <a href="/users/hynek/">hynek</a> · Hynek Schlawack</p>
-          <h2><a href="https://hynek.me/articles/pull-requests-branch/">Don’t Start Pull Requests from Your Main Branch</a></h2>
-          <p>When contributing to other users’ repositories, always start a new branch in your fork.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Dec 2023 · <a href="/users/hlandau/">hlandau</a> · devever.net/~hl</p>
-          <h2><a href="https://www.devever.net/~hl/u/202312#13a">[Hμblog] Libreboot 10-year anniversary</a></h2>
-          <p>Libreboot 10-year anniversary Leah Rowe has written an interesting article about the history of the Libreboot project on the project&#39;s 10th anniversary. Recommended reading if you&#39;re interested in the open source firmware ecosystem.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 Dec 2023 · <a href="/users/hlandau/">hlandau</a> · devever.net/~hl</p>
-          <h2><a href="https://www.devever.net/~hl/37c3-announce">[Computing] I&#39;ll be speaking at 37C3 (and have some spare tickets)</a></h2>
-          <p>The 37th Chaos Communications Congress (CCC), taking place in Hamburg on the 27th through 30th December 2023 inclusive, has accepted my talk submission, “Adventures in Reverse Engineering Broadcom NIC Firmware”, so I&#39;ll be giving a talk there this Christmas. This will follow on from my blog post by the same name while also covering new ground.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">25 Nov 2023 · <a href="/users/hlandau/">hlandau</a> · devever.net/~hl</p>
-          <h2><a href="https://www.devever.net/~hl/u/202311#25a">[Hμblog] Towards Greater Accountability: A Proposal for CA Issuance Decision Logs</a></h2>
-          <p>Towards Greater Accountability: A Proposal for CA Issuance Decision Logs Exploring the Potential of Domain Control Notaries for MPDV in WebPKI Interesting articles by Ryan Hurst about possible improvements to WebPKI security via more certificate transparency (CT)-like technologies. There&#39;s also my own writings on CT .</p>
         </article>
       
     </div>
