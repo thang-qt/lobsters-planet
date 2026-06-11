@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>NoraCodes</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~NoraCodes">Lobste.rs profile</a>
+        <a href="https://nora.codes">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>2 Mar 2018</dd></div>
+        <div><dt>Karma</dt><dd>1768</dd></div>
+        <div><dt>Stories</dt><dd>0</dd></div>
+        <div><dt>Comments</dt><dd>0</dd></div>
+        <div><dt>Profile checked</dt><dd>11 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>11 Jun 2026</dd></div>
+      </dl>
+      
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">3 Jan 2026 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/">Manually Restoring Scroll Position on Reload with JavaScript</a></h3>
+          <p>I’m working on another site, written directly in HTML and stitched together with the C preprocessor (it’s really quite ergonomic!) and using the excellent Python package reloadserver to automatically reload the pages in my browser whenever I make changes. Unfortunately, Firefox, at least, doesn’t remember and restore scroll position on reload, which may be the behavior one wants when actually browsing, but is really annoying during the writing and design process.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Nov 2025 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/infrastructure-photography-manifesto-and-decker-in-html/">Infrastructure Photography Manifesto (and Decker-in-HTML)</a></h3>
+          <p>Hey look, I made a zine in Decker! You can read it right here, or download the deck file . And now for the nerd shit. Decker is really cool. It carries on the legacy of HyperCard, one of the first real hypertext media systems; it’s got that dithered, lo-fi, retro flair that I adore; and it runs in a lot of places - anywhere with SDL, and anywhere with a full-fledged browser.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Apr 2025 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/nimi-sin/">nimi sin</a></h3>
+          <p>This post is part of April Cools Club : an April 1st effort to publish genuine essays on unexpected topics. Please enjoy these true stories, and rest assured that the tech content will be back soon eventually! sina o pali e nimi sin. sina o pana e nimi mute tawa mi. nimi o kama sama pi soweli lili. mi wile e ni: nimi li kama mute a. That’s toki pona , a constructed language with somewhere between 118 and 181 words, depending on who you ask. It was meant to be quick and easy to learn, but more …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Oct 2024 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/adding-tags-to-my-projects-page/">Adding Tags to My Projects Page</a></h3>
+          <p>I’ve wanted to change up my projects page for a while, but wasn’t quite sure what to do. I didn’t want to use any JavaScript, but I did want to organize projects in multiple different ways, rather than just a single set of categories like I’ve had for a long time. Ultimately what I settled on is a tag system. The tags look like this: Project Name author library rust is a project! These tags are just text with some styling applied, and they’re inserted with a Hugo shortcode. I originall…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Jun 2024 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/filk/a_matter_of_time/">A Matter of Time</a></h3>
+          <p>“The Temper of Revenge” is one of my favorite filksongs, though I was introduced to it by the Star Trek II -related parody, “The Temperature of Revenge”. A few weeks ago, on a bus from Madison to Chicago, I decided to see if I could fit some lyrics about my favorite video game, Outer Wilds , to the tune. It took a lot of revising to do so without massively spoiling the game - and, if you ever intend to play it, do be careful of spoilers! - but I think I’ve succeeded.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 May 2024 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/methods-should-be-object-safe/">Methods Should Be Object Safe</a></h3>
+          <p>I think we should use “method”, in Rust, to refer specifically to associated functions which would be object safe if put in a trait. In this terminology scheme: associated function refers to any function defined in an impl block, which is how most people use it now 1 , 2 trait function refers to any function defined in a trait method specifically refers to associated functions with receivers like those specified in the object safety section of the Reference 3 and we should come up with anoth…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Feb 2024 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/adding-full-post-content-to-my-rss-feed/">Adding Full Post Content to my RSS Feed</a></h3>
+          <p>A reader reached out to me the other day to let me know that my RSS feed for this blog didn’t include post content, just descriptions, and that this hindered their ability to read my posts offline. This obviously isn’t ideal, so I set about adding the full post content. Customizing the RSS Feed Hugo comes with a builtin RSS feed template, but it’s easy enough to override. Simply copy the contents of this file to the themes/[theme name]/layouts/_default directory, and then edit to your hear…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">18 Feb 2024 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/pinning-nixpkgs-with-morph-and-colmena/">Pinning nixpkgs with Morph and Colmena</a></h3>
+          <p>I’ve used NixOS and Morph to manage the servers in my house for about a year now, and while I have many gripes with both the Nix language and the documentation around the nixpkgs and NixOS ecosystem, it’s been a great help. This post is for users of Morph and its near-drop-in replacement, Colmena . If you don’t already use one of these tools, take a look at them first! Why Pin nixpkgs? “Pinning”, in this context, refers to making the version of nixpkgs against which my configuration is…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Aug 2023 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/filk/columbia/">Fly On, Columbia! (Fly Columbia II)</a></h3>
+          <p>“Fly, Columbia” is a deeply hopeful song. Written in 1981 by Diana Gallagher, Leslie Fish’s performance on Minus Ten and Counting was one of the first filk recordings that really captured me. The chorus names OV-102 “the promise of better days to come”, and blesses her to “Sail an orbit free, track the moon and chase the sun.” Yet, that was not her fate, as we know all too well . When I heard The Longest Johns cover “Roll Northumbria” , I immediately thought of this song, and t…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Jun 2023 · Leonora Tindall on Nora Codes</p>
+          <h3><a href="https://nora.codes/post/the-horror/">The Horror</a></h3>
+          <p>Twelve It starts when you’re about twelve. You haven’t thought about it much until then; people call you things, but you’re just a kid, and that doesn’t matter yet. You ask for the toys you like, and you don’t think about whether they’re “boy” or “girl” toys. You have the friends you have, and maybe a few people make jokes about you having a “girlfriend”, but that’s all. You heard your parents tell a story once about how your mother thought she was having a girl, and sh…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
