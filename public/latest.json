@@ -198,10 +198,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -209,10 +209,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -1554,10 +1554,10 @@
     "site_url": "https://matt.blwt.io"
   },
   {
-    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
-    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
+    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "title": "Fly.io Postgres failover fix",
+    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -1565,10 +1565,10 @@
     "site_url": "https://adriano.fyi"
   },
   {
-    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "title": "Fly.io Postgres failover fix",
-    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
+    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
+    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -1775,10 +1775,10 @@
     "site_url": "https://nora.codes"
   },
   {
-    "id": "https://jcs.org/2024/09/23/wallops21",
-    "title": "Wallops 2.1 Released",
-    "url": "https://jcs.org/2024/09/23/wallops21",
-    "summary": "Another update to Wallops building on the 2.0 release is available: wallops-2.1.sit (StuffIt 3 archive) SHA256: 7cb16046e076488e 1997e1232631cf2d c9737bac0a94f034 8caf5d183927f4a9 SHA1: fd1d7145aa4baaf5 322175f348644d10 57267a65 This update includes a number of new features and bugfixes: Implement tab completion in channels; by typing part of a user's nick and pressing tab, the input bar will show their completed nick with \":\" after it Do UTF-8 to MacRoman conversion of incoming text, where poss…",
+    "id": "https://jcs.org/2024/09/23/wifi_da12",
+    "title": "BlueSCSI Wi-Fi Desk Accessory 1.2 Released",
+    "url": "https://jcs.org/2024/09/23/wifi_da12",
+    "summary": "BlueSCSI Wi-Fi Desk Accessory 1.2 has been released: wifi_da-1.2.sit (StuffIt 3 archive) SHA256: 984935cc5e3e2510 2849cd41c52764cb 08060d183d48cfb4 9f9da3eead49aea8 SHA1: 980b17f58babb839 977b7d714f8556a8 2bf33c7e Changes in this version: Added an \"(Other Network)\" option to the SSID list to manually enter a hidden SSID",
     "published_at": "2024-09-23T05:00:00Z",
     "feed_url": "https://jcs.org/rss",
     "feed_title": "joshua stein",
@@ -1786,10 +1786,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/2024/09/23/wifi_da12",
-    "title": "BlueSCSI Wi-Fi Desk Accessory 1.2 Released",
-    "url": "https://jcs.org/2024/09/23/wifi_da12",
-    "summary": "BlueSCSI Wi-Fi Desk Accessory 1.2 has been released: wifi_da-1.2.sit (StuffIt 3 archive) SHA256: 984935cc5e3e2510 2849cd41c52764cb 08060d183d48cfb4 9f9da3eead49aea8 SHA1: 980b17f58babb839 977b7d714f8556a8 2bf33c7e Changes in this version: Added an \"(Other Network)\" option to the SSID list to manually enter a hidden SSID",
+    "id": "https://jcs.org/2024/09/23/wallops21",
+    "title": "Wallops 2.1 Released",
+    "url": "https://jcs.org/2024/09/23/wallops21",
+    "summary": "Another update to Wallops building on the 2.0 release is available: wallops-2.1.sit (StuffIt 3 archive) SHA256: 7cb16046e076488e 1997e1232631cf2d c9737bac0a94f034 8caf5d183927f4a9 SHA1: fd1d7145aa4baaf5 322175f348644d10 57267a65 This update includes a number of new features and bugfixes: Implement tab completion in channels; by typing part of a user's nick and pressing tab, the input bar will show their completed nick with \":\" after it Do UTF-8 to MacRoman conversion of incoming text, where poss…",
     "published_at": "2024-09-23T05:00:00Z",
     "feed_url": "https://jcs.org/rss",
     "feed_title": "joshua stein",
@@ -1919,6 +1919,17 @@
     "feed_title": "Trekhleb.dev RSS Feed",
     "owner_username": "trekhleb",
     "site_url": "https://trekhleb.dev"
+  },
+  {
+    "id": "https://rbs.io/2024/07/network-manager-and-rusts-zbus/",
+    "title": "Network Manager and Rust's Zbus",
+    "url": "https://rbs.io/2024/07/network-manager-and-rusts-zbus/",
+    "summary": "For a fun side project recently I needed to put a linux computer\u0026rsquo;s wifi card into \u0026ldquo;access point\u0026rdquo; mode. I was working from Rust and so, even though I could probably have just called out to the nmcli command line tool, I wanted to try to do the whole thing from within my binary. Fortunately, NetworkManager has a D-Bus API that exposes basically all the configuration options available. Also fortunately, Rust has an extensive and fairly well documented D-Bus crate called zbus.",
+    "published_at": "2024-07-02T16:11:42Z",
+    "feed_url": "https://rbs.io/index.xml",
+    "feed_title": "Think Deeply and Rebuild Things",
+    "owner_username": "rschulman",
+    "site_url": "https://rbs.io"
   },
   {
     "id": "https://matt.blwt.io/post/modifying-pgdump/",
@@ -2430,17 +2441,6 @@
     "site_url": "https://www.devever.net/~hl/"
   },
   {
-    "id": "https://trekhleb.dev/blog/2023/observations/",
-    "title": "Observations",
-    "url": "https://trekhleb.dev/blog/2023/observations/",
-    "summary": "My subjective observations, assumptions, questions, and interpretations about the world around us. Ultimate origin, science, Creator, theories, axioms, consciousness, universe, God's sensor, good vs evil, etc. Don't take it seriously.",
-    "published_at": "2023-06-27T00:00:00Z",
-    "feed_url": "https://trekhleb.dev/rss.xml",
-    "feed_title": "Trekhleb.dev RSS Feed",
-    "owner_username": "trekhleb",
-    "site_url": "https://trekhleb.dev"
-  },
-  {
     "id": "/posts/jellyfish-is-now-rust/",
     "title": "jellyfish 1.0 \u0026 The Transition to Rust",
     "url": "/posts/jellyfish-is-now-rust/",
@@ -2450,6 +2450,17 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://trekhleb.dev/blog/2023/observations/",
+    "title": "Observations",
+    "url": "https://trekhleb.dev/blog/2023/observations/",
+    "summary": "My subjective observations, assumptions, questions, and interpretations about the world around us. Ultimate origin, science, Creator, theories, axioms, consciousness, universe, God's sensor, good vs evil, etc. Don't take it seriously.",
+    "published_at": "2023-06-27T00:00:00Z",
+    "feed_url": "https://trekhleb.dev/rss.xml",
+    "feed_title": "Trekhleb.dev RSS Feed",
+    "owner_username": "trekhleb",
+    "site_url": "https://trekhleb.dev"
   },
   {
     "id": "https://hynek.me/articles/turbo-charge-tox/",
@@ -2652,10 +2663,10 @@
     "site_url": "https://www.devever.net/~hl/"
   },
   {
-    "id": "https://theabbie.github.io/blog/why-salman-khan-sucks",
-    "title": "why salman khan sucks",
-    "url": "https://theabbie.github.io/blog/why-salman-khan-sucks",
-    "summary": "Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide career Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on …",
+    "id": "https://theabbie.github.io/blog/xkcd",
+    "title": "xkcd",
+    "url": "https://theabbie.github.io/blog/xkcd",
+    "summary": "By Abhishek Chaudhary Published 2020-06-05 xkcd, sometimes styled XKCD, is a webcomic created in 2005 by American author Randall Munroe. The comic's tagline describes it as A webcomic of romance, sarcasm, math, and language. Munroe states on the comic's website that the name of the comic is not an initialism, but just a word with no phonetic pronunciation. xkcd.com comics",
     "published_at": "2023-04-26T13:41:00Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2674,10 +2685,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/xkcd",
-    "title": "xkcd",
-    "url": "https://theabbie.github.io/blog/xkcd",
-    "summary": "By Abhishek Chaudhary Published 2020-06-05 xkcd, sometimes styled XKCD, is a webcomic created in 2005 by American author Randall Munroe. The comic's tagline describes it as A webcomic of romance, sarcasm, math, and language. Munroe states on the comic's website that the name of the comic is not an initialism, but just a word with no phonetic pronunciation. xkcd.com comics",
+    "id": "https://theabbie.github.io/blog/why-salman-khan-sucks",
+    "title": "why salman khan sucks",
+    "url": "https://theabbie.github.io/blog/why-salman-khan-sucks",
+    "summary": "Abdul Rashid Salim Salman Khan born on 27 December 1965 is an Indian film actor, producer, occasional singer and television personality. In a film career spanning over thirty years, Khan has received numerous awards, including two National Film Awards as a film producer, and two Filmfare Awards for acting. He has a significant following in Asia and the Indian diaspora worldwide career Khan made his acting debut with the 1988 film Biwi Ho To Aisi, which saw him play a supporting role. He went on …",
     "published_at": "2023-04-26T13:41:00Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2707,10 +2718,96 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/not9gag",
-    "title": "not9gag",
-    "url": "https://theabbie.github.io/blog/not9gag",
-    "summary": "funny",
+    "id": "https://theabbie.github.io/blog/the-last-time-you-slept-peacefully",
+    "title": "the last time you slept peacefully",
+    "url": "https://theabbie.github.io/blog/the-last-time-you-slept-peacefully",
+    "summary": "Sleeping is an essential activity, but, do we sleep peacefully, many would agree that they don't have good sleep at night and feel tired whole day, what causes this sleepiness during day and sleeplessness at night? studies show that most of the adults have sleeping disorders, these are mainly caused due to stress, but, there are various other factors which affect our sleeping schedule. what causes lack of sleep Although insomnia is the most common sleep complaint, it is not a single sleep disord…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/peerlist",
+    "title": "Peerlist: your new professional profile",
+    "url": "https://theabbie.github.io/blog/peerlist",
+    "summary": "By Abhishek Chaudhary Published 2022-10-15 Peerlist is a social network for professionals who want to connect and collaborate with other professionals in the same industry and get insights, share opportunities and showcase their achievements and contribution in an organized manner. Join Peerlist Yet another social network? Don't we already have LinkedIn? what is it that peerlist provides that LinkedIn does not? To name a few... Integration with major platforms to showcase existing work. Verified…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/rasbhari-amazon-prime-review",
+    "title": "Review: Rasbhari Swara Bhaskar Amazon prime",
+    "url": "https://theabbie.github.io/blog/rasbhari-amazon-prime-review",
+    "summary": "By Abhishek Chaudhary Published 2020-06-27 Amazon prime's new web series Rasbhari starring Swara Bhaskar is an adult web series which was slammed by movie critics, It has not been received nicely by people on internet and is receiving huge criticism for it's depiction of adult entertainment Nand is amongst the rush of men who pursue Shanu, the new English teacher in Meerut. Upon his discovering her supposed alter-ego, the sex-obsessed spirit of Rasbhari, their relationship takes a new turn. A no…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle",
+    "title": "which three letter word starts with r ends with d and has e in the middle",
+    "url": "https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle",
+    "summary": "By Abhishek Chaudhary Published 2020-05-27 A new research on words shows that there is only one three letter word in the English dictionary that starts with r ends with d and has e in the middle, this has been proved by various experts, so, what is that word? Well, you guessed it right, the word is RED This riddle can only be solved by top 0.5% of adults and is super viral on Internet right now.",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/why-do-muslims-explode",
+    "title": "why do muslims explode",
+    "url": "https://theabbie.github.io/blog/why-do-muslims-explode",
+    "summary": "terrorism has been in practice ever since stupidity existed, suicide bombing is a new form of terrorism suicide bombing Modern suicide bombing has been defined as \"involving explosives deliberately carried to the target either on the person or in a civilian vehicle and delivered by surprise\". how to stop it education, that's it sources suicide attack wikipedia suicide attack wikipedia Sharmeen Obaid Chinoy: Inside a school for suicide bombers Sharmeen Obaid Chinoy: Inside a school for suicide bo…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/theabbie-random-photo-gallery",
+    "title": "theabbie random photo gallery",
+    "url": "https://theabbie.github.io/blog/theabbie-random-photo-gallery",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/oeuvre-fcrit-team",
+    "title": "oeuvre fcrit team",
+    "url": "https://theabbie.github.io/blog/oeuvre-fcrit-team",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/why-is-nepotism-not-bad",
+    "title": "why is nepotism not bad",
+    "url": "https://theabbie.github.io/blog/why-is-nepotism-not-bad",
+    "summary": "There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That's the rule, and nepotism helps only in debut, once you are on screen it's the audience who decides whether you would do further movies or not, I haven't seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent examples of nepotism tiger shroff Jai Hemant \"Tiger\" Shroff is an Indian actor known for h…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/solution-to-grandfather-paradox",
+    "title": "solution to grandfather paradox",
+    "url": "https://theabbie.github.io/blog/solution-to-grandfather-paradox",
+    "summary": "A particular solution to grandfather paradox is simple you can only see the past, not change it why cant we change the past that's because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can't change it after seeing it similar paradoxes ship of theseus paradox liar paradox sources grandfather paradox wikipedia time travel",
     "published_at": "2023-04-26T13:40:59Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2740,74 +2837,21 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/theabbie-random-photo-gallery",
-    "title": "theabbie random photo gallery",
-    "url": "https://theabbie.github.io/blog/theabbie-random-photo-gallery",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/oeuvre-fcrit",
-    "title": "oeuvre fcrit",
-    "url": "https://theabbie.github.io/blog/oeuvre-fcrit",
-    "summary": "By Abhishek Chaudhary Published 2020-05-31 oeuvre is the official blog of Fr. C. Rodrigues Institute of Technology showcasing the up and coming creative talent in the institution. The Website is a showcase to the immense potential of engineering students around the world.",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle",
-    "title": "which three letter word starts with r ends with d and has e in the middle",
-    "url": "https://theabbie.github.io/blog/which-three-letter-word-starts-with-r-ends-with-d-and-has-e-in-the-middle",
-    "summary": "By Abhishek Chaudhary Published 2020-05-27 A new research on words shows that there is only one three letter word in the English dictionary that starts with r ends with d and has e in the middle, this has been proved by various experts, so, what is that word? Well, you guessed it right, the word is RED This riddle can only be solved by top 0.5% of adults and is super viral on Internet right now.",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/oeuvre-fcrit-team",
-    "title": "oeuvre fcrit team",
-    "url": "https://theabbie.github.io/blog/oeuvre-fcrit-team",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/the-last-time-you-slept-peacefully",
-    "title": "the last time you slept peacefully",
-    "url": "https://theabbie.github.io/blog/the-last-time-you-slept-peacefully",
-    "summary": "Sleeping is an essential activity, but, do we sleep peacefully, many would agree that they don't have good sleep at night and feel tired whole day, what causes this sleepiness during day and sleeplessness at night? studies show that most of the adults have sleeping disorders, these are mainly caused due to stress, but, there are various other factors which affect our sleeping schedule. what causes lack of sleep Although insomnia is the most common sleep complaint, it is not a single sleep disord…",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/solution-to-grandfather-paradox",
-    "title": "solution to grandfather paradox",
-    "url": "https://theabbie.github.io/blog/solution-to-grandfather-paradox",
-    "summary": "A particular solution to grandfather paradox is simple you can only see the past, not change it why cant we change the past that's because time is relative, we perceive time, the reflection we see in mirrors is past too, we see it, we can't change it after seeing it similar paradoxes ship of theseus paradox liar paradox sources grandfather paradox wikipedia time travel",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
     "id": "https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India",
     "title": "the most intelligent stand up comedian in India",
     "url": "https://theabbie.github.io/blog/the-most-intelligent-stand-up-comedian-in-India",
     "summary": "By Abhishek Chaudhary Published 2020-05-26 Nitin Gupta A.K.A. Rivaldo is the most intelligent stand up comedian in India popular videos Nitin Gupta (Rivaldo) on 2G, CWG and Madam G Nitin Gupta (Rivaldo) - Delhi Rapes and Rape of Reason Nitin Gupta (Rivaldo) - Professor in Love Nitin Gupta (Rivaldo) - Bomb Blasts THB - Love in December (FULL PLAY) social media twitter nitin Gupta rivaldo twitter facebook nitin Gupta rivaldo Facebook linkedin nitin Gupta rivaldo linkedin instagram nitin Gupta riva…",
+    "published_at": "2023-04-26T13:40:59Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/not9gag",
+    "title": "not9gag",
+    "url": "https://theabbie.github.io/blog/not9gag",
+    "summary": "funny",
     "published_at": "2023-04-26T13:40:59Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2826,32 +2870,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/rasbhari-amazon-prime-review",
-    "title": "Review: Rasbhari Swara Bhaskar Amazon prime",
-    "url": "https://theabbie.github.io/blog/rasbhari-amazon-prime-review",
-    "summary": "By Abhishek Chaudhary Published 2020-06-27 Amazon prime's new web series Rasbhari starring Swara Bhaskar is an adult web series which was slammed by movie critics, It has not been received nicely by people on internet and is receiving huge criticism for it's depiction of adult entertainment Nand is amongst the rush of men who pursue Shanu, the new English teacher in Meerut. Upon his discovering her supposed alter-ego, the sex-obsessed spirit of Rasbhari, their relationship takes a new turn. A no…",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/peerlist",
-    "title": "Peerlist: your new professional profile",
-    "url": "https://theabbie.github.io/blog/peerlist",
-    "summary": "By Abhishek Chaudhary Published 2022-10-15 Peerlist is a social network for professionals who want to connect and collaborate with other professionals in the same industry and get insights, share opportunities and showcase their achievements and contribution in an organized manner. Join Peerlist Yet another social network? Don't we already have LinkedIn? what is it that peerlist provides that LinkedIn does not? To name a few... Integration with major platforms to showcase existing work. Verified…",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/why-do-muslims-explode",
-    "title": "why do muslims explode",
-    "url": "https://theabbie.github.io/blog/why-do-muslims-explode",
-    "summary": "terrorism has been in practice ever since stupidity existed, suicide bombing is a new form of terrorism suicide bombing Modern suicide bombing has been defined as \"involving explosives deliberately carried to the target either on the person or in a civilian vehicle and delivered by surprise\". how to stop it education, that's it sources suicide attack wikipedia suicide attack wikipedia Sharmeen Obaid Chinoy: Inside a school for suicide bombers Sharmeen Obaid Chinoy: Inside a school for suicide bo…",
+    "id": "https://theabbie.github.io/blog/oeuvre-fcrit",
+    "title": "oeuvre fcrit",
+    "url": "https://theabbie.github.io/blog/oeuvre-fcrit",
+    "summary": "By Abhishek Chaudhary Published 2020-05-31 oeuvre is the official blog of Fr. C. Rodrigues Institute of Technology showcasing the up and coming creative talent in the institution. The Website is a showcase to the immense potential of engineering students around the world.",
     "published_at": "2023-04-26T13:40:59Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2881,65 +2903,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/why-is-nepotism-not-bad",
-    "title": "why is nepotism not bad",
-    "url": "https://theabbie.github.io/blog/why-is-nepotism-not-bad",
-    "summary": "There is no issue with nepotism, If your parents have done hard work to achieve name and fame, you are bound to get that for free, That's the rule, and nepotism helps only in debut, once you are on screen it's the audience who decides whether you would do further movies or not, I haven't seen any bad actor getting lots of movies because of nepotism, The problem is glamour not nepotism, glamour hides talent examples of nepotism tiger shroff Jai Hemant \"Tiger\" Shroff is an Indian actor known for h…",
-    "published_at": "2023-04-26T13:40:59Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/movies-and-shows-list",
-    "title": "List of movies and shows I have watched",
-    "url": "https://theabbie.github.io/blog/movies-and-shows-list",
-    "summary": "By Abhishek Chaudhary Published 2021-01-01",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube",
-    "title": "how is tanmay bhat ruling youtube",
-    "url": "https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube",
-    "summary": "By Abhishek Chaudhary Published 2020-05-31 The fat guy from AIB who was severely trolled for being a psychopath is ruling youtube right now history All India Bakchod is a Mumbai-based comedy group, and was the name of their podcast, YouTube channel and production company. The name is a parody of All India Radio, with bakchod being Hindi slang for 'dumb fuck'. It began in 2012 as a humorous/pop-culture podcast by comedians Tanmay Bhat and Gursimran Khamba. fate of AIB after being shut down by all…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/index",
-    "title": "TheAbbie: Blog",
-    "url": "https://theabbie.github.io/blog/index",
-    "summary": "Hey guys, I am Abhishek Chaudhary Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podc…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/neal-agarwal",
-    "title": "neal agarwal",
-    "url": "https://theabbie.github.io/blog/neal-agarwal",
-    "summary": "By Abhishek Chaudhary Published 2020-06-05 Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has been creative coding since he was ten years old. Below you can see some of his projects! who is neal agarwal Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has be…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/must-watch-bollywood-movies",
-    "title": "Must-Watch Bollywood Movies",
-    "url": "https://theabbie.github.io/blog/must-watch-bollywood-movies",
-    "summary": "Andhadhun Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor. andhadhun Udaan After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write. Udaan Ugly Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her …",
+    "id": "https://theabbie.github.io/blog/metakgp",
+    "title": "metakgp",
+    "url": "https://theabbie.github.io/blog/metakgp",
+    "summary": "By Abhishek Chaudhary Published 2020-06-19 MetaKGP is a loose association of engineers, hackers, artists, and students from IIT Kharagpur, who collaborate on various technical and non-technical projects. metakgp wiki The metakgp wiki is an open repository of community knowledge about IIT Kharagpur that anyone can edit. other projects more information",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2958,10 +2925,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/greatest-n-per-group",
-    "title": "Query the row with the greatest/least value per group",
-    "url": "https://theabbie.github.io/blog/greatest-n-per-group",
-    "summary": "By Abhishek Chaudhary Published 2021-04-05",
+    "id": "https://theabbie.github.io/blog/movies-and-shows-list",
+    "title": "List of movies and shows I have watched",
+    "url": "https://theabbie.github.io/blog/movies-and-shows-list",
+    "summary": "By Abhishek Chaudhary Published 2021-01-01",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -2980,10 +2947,21 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/neal-fun-review",
-    "title": "neal.fun review",
-    "url": "https://theabbie.github.io/blog/neal-fun-review",
-    "summary": "By Abhishek Chaudhary Published 2020-06-06 Every page on neal.fun is a different web experiment. Some pages are games and some are interactive articles. The site has been viewed millions of times and has been used in schools. neal.fun If you're feeling a little lacking in creativity, perspective, or even just good old goofy fun, do yourself a favor and visit neal.fun. The creation of one Neal Agarwal, neal.fun presents itself as being \"for people with too much time\" and offers several interactiv…",
+    "id": "https://theabbie.github.io/blog/most-underrated-bollywood-movies",
+    "title": "most underrated bollywood movies",
+    "url": "https://theabbie.github.io/blog/most-underrated-bollywood-movies",
+    "summary": "bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that. udaan udaan plot After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write. udaan cast rajat barmecha ram kapoor ronit roy Aayan Boradiya udaan trailer ugly ugly plot Rahul, a struggling actor, searches for his daughter, Kali, after she goes mi…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/index",
+    "title": "TheAbbie: Blog",
+    "url": "https://theabbie.github.io/blog/index",
+    "summary": "Hey guys, I am Abhishek Chaudhary Abhishek Chaudhary A.K.A TheAbbie born in 2002 is a computer engineer from Fr. Conceicao Rodrigues institute of technology, and he made he acting and writing debut in 2019 short film Brazen Epiphany, The film was made as a part of India Film project 50 hour filmmaking challenge. He is currently writing for TVF sketches. He also currently makes YouTube videos. Apart from acting and writing, his main fields of interests include programming and photography and podc…",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3002,10 +2980,32 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/foolproof-gender-predictor",
-    "title": "foolproof gender predictor",
-    "url": "https://theabbie.github.io/blog/foolproof-gender-predictor",
-    "summary": "This tool uses psychological techniques to determine your gender in a fool proof way how it works it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all it is completely unbiased and independent of person's educational qualification it's similar to IQ or aptitude test but still, how it works It uses color choice as a determination method who made it Abhishek Chaudhary A.K.A TheAbbie is the creator of this superb app where can I find it …",
+    "id": "https://theabbie.github.io/blog/infinite-non-repeating-sequence",
+    "title": "infinite non-repeating sequence",
+    "url": "https://theabbie.github.io/blog/infinite-non-repeating-sequence",
+    "summary": "We have a recursive function which generates infinite non-repeating sequence of numbers expression for the function the function has been demonstrated here view live example infinite non-repeating sequence real life examples Pi Pi to first 50 digits is 3.1415926535897932384626433832 7950288419716939937510 This continues forever and never repeats Source TheAbbie infinite non-repeating sequence TheAbbie infinite non-repeating sequence 3blue1brown 3blue1brown",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/indiachan",
+    "title": "IndiaChan",
+    "url": "https://theabbie.github.io/blog/indiachan",
+    "summary": "By Abhishek Chaudhary Published 2023-04-12 Welcome to IndiaChan, where freedom of expression meets the power of community! Join our revolutionary social platform designed for India, where you can share your thoughts, opinions, and ideas without censorship. Connect with like-minded individuals, engage in meaningful discussions, and explore a world of uncensored possibilities. Say goodbye to restrictions and hello to freedom on IndiaChan - the platform that embraces liberalism and empowers your vo…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/neal-agarwal",
+    "title": "neal agarwal",
+    "url": "https://theabbie.github.io/blog/neal-agarwal",
+    "summary": "By Abhishek Chaudhary Published 2020-06-05 Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has been creative coding since he was ten years old. Below you can see some of his projects! who is neal agarwal Neal Agarwal graduated from Virginia Tech with a degree in Computer Science and is interested in combining creativity and technology. He is passionate about the web and has be…",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3024,54 +3024,54 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/metakgp",
-    "title": "metakgp",
-    "url": "https://theabbie.github.io/blog/metakgp",
-    "summary": "By Abhishek Chaudhary Published 2020-06-19 MetaKGP is a loose association of engineers, hackers, artists, and students from IIT Kharagpur, who collaborate on various technical and non-technical projects. metakgp wiki The metakgp wiki is an open repository of community knowledge about IIT Kharagpur that anyone can edit. other projects more information",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/most-underrated-bollywood-movies",
-    "title": "most underrated bollywood movies",
-    "url": "https://theabbie.github.io/blog/most-underrated-bollywood-movies",
-    "summary": "bollywood has a history of ignoring some superb movies and watching salman khan movies, this list will guide you to that. udaan udaan plot After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write. udaan cast rajat barmecha ram kapoor ronit roy Aayan Boradiya udaan trailer ugly ugly plot Rahul, a struggling actor, searches for his daughter, Kali, after she goes mi…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/infinite-non-repeating-sequence",
-    "title": "infinite non-repeating sequence",
-    "url": "https://theabbie.github.io/blog/infinite-non-repeating-sequence",
-    "summary": "We have a recursive function which generates infinite non-repeating sequence of numbers expression for the function the function has been demonstrated here view live example infinite non-repeating sequence real life examples Pi Pi to first 50 digits is 3.1415926535897932384626433832 7950288419716939937510 This continues forever and never repeats Source TheAbbie infinite non-repeating sequence TheAbbie infinite non-repeating sequence 3blue1brown 3blue1brown",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/kun-faya-kun",
-    "title": "Kun Faya Kun: The song that can fight Depression",
-    "url": "https://theabbie.github.io/blog/kun-faya-kun",
-    "summary": "By Abhishek Chaudhary Published 2020-06-28 Kun Faya Kun is a song composed by Sir A.R. Rahman, and from the movie Rockstar, It is a beautiful song which makes you feel really good, It gives you positivity and helps you fight Depression, If you ever feel low or sad just listen to it, It will surely help you fight it The Lyrics of this beautiful song are as follows Ya Nizamuddin Auliya, Ya Nizamuddin Salqa Kadam Badhaa Le, Hadon Ko Mitaa Le, Aaja Khaalipan Mein Pee Ka Ghar Tera, Tere Bin Khaali Aa…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
     "id": "https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted",
     "title": "how I got my youtube channel deleted",
     "url": "https://theabbie.github.io/blog/how-I-got-my-youtube-channel-deleted",
     "summary": "By Abhishek Chaudhary Published 2020-05-26 Youtube recently deleted my youtube channel for possible copyright violations which I completely deserved but not in such an unexpected way, This post will explain how it happened my youtube channel I had a youtube channel ( theabbie ) which I had created along with my google account in 2015, I didn't upload stuff on it, I had uploaded 2-3 videos just to fun around. It was used by me only for watching videos, and other personal uses. youtube uploading b…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/how-to-become-a-9gagger",
+    "title": "how to become a 9gagger",
+    "url": "https://theabbie.github.io/blog/how-to-become-a-9gagger",
+    "summary": "By Abhishek Chaudhary Published 2020-05-24 9gag is a place for stuff, and they are pretty serious about that, 9gaggers are known to be really funny in comments while really lonely in real life. This is a beginner's guide on how to become a 9gagger. be single If you are a guy this must be the first step, 9gaggers are known to be single, we crave for girls, If you see a girl picture you have to zoom her tiddies and post it in comments. be funny in comments the only thing that distinguishes 9gag fr…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/no-twitter-edit-button",
+    "title": "Why Twitter can't have an edit button",
+    "url": "https://theabbie.github.io/blog/no-twitter-edit-button",
+    "summary": "By Abhishek Chaudhary Published 2022-04-26 an edit button may be the most demanded feature on Twitter even though everyone realizes it will not happen for the good. Many platforms allow editing option on public posts, but the thing common in these platforms is that they are just public forums and the users are nothing but content generators, you can post your views but it won't be considered something you should be held accountable for. Twitter is different, the users are primary and what they p…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube",
+    "title": "how is tanmay bhat ruling youtube",
+    "url": "https://theabbie.github.io/blog/how-is-tanmay-bhat-ruling-youtube",
+    "summary": "By Abhishek Chaudhary Published 2020-05-31 The fat guy from AIB who was severely trolled for being a psychopath is ruling youtube right now history All India Bakchod is a Mumbai-based comedy group, and was the name of their podcast, YouTube channel and production company. The name is a parody of All India Radio, with bakchod being Hindi slang for 'dumb fuck'. It began in 2012 as a humorous/pop-culture podcast by comedians Tanmay Bhat and Gursimran Khamba. fate of AIB after being shut down by all…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/must-watch-bollywood-movies",
+    "title": "Must-Watch Bollywood Movies",
+    "url": "https://theabbie.github.io/blog/must-watch-bollywood-movies",
+    "summary": "Andhadhun Akash, a piano player pretending to be visually-impaired, unwittingly becomes entangled in a number of problems as he witnesses the murder of a former film actor. andhadhun Udaan After being expelled from school, Rohan returns home to a strict father as well as a half-brother he was unaware of. He is forced to work at his father's factory even though he wants to write. Udaan Ugly Rahul, a struggling actor, searches for his daughter, Kali, after she goes missing. Soon, he and Bose, her …",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3101,28 +3101,6 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/indiachan",
-    "title": "IndiaChan",
-    "url": "https://theabbie.github.io/blog/indiachan",
-    "summary": "By Abhishek Chaudhary Published 2023-04-12 Welcome to IndiaChan, where freedom of expression meets the power of community! Join our revolutionary social platform designed for India, where you can share your thoughts, opinions, and ideas without censorship. Connect with like-minded individuals, engage in meaningful discussions, and explore a world of uncensored possibilities. Say goodbye to restrictions and hello to freedom on IndiaChan - the platform that embraces liberalism and empowers your vo…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/no-twitter-edit-button",
-    "title": "Why Twitter can't have an edit button",
-    "url": "https://theabbie.github.io/blog/no-twitter-edit-button",
-    "summary": "By Abhishek Chaudhary Published 2022-04-26 an edit button may be the most demanded feature on Twitter even though everyone realizes it will not happen for the good. Many platforms allow editing option on public posts, but the thing common in these platforms is that they are just public forums and the users are nothing but content generators, you can post your views but it won't be considered something you should be held accountable for. Twitter is different, the users are primary and what they p…",
-    "published_at": "2023-04-26T13:40:58Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
     "id": "https://theabbie.github.io/blog/history-of-responsive-web-design",
     "title": "A brief history of responsive web design",
     "url": "https://theabbie.github.io/blog/history-of-responsive-web-design",
@@ -3134,10 +3112,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/how-to-become-a-9gagger",
-    "title": "how to become a 9gagger",
-    "url": "https://theabbie.github.io/blog/how-to-become-a-9gagger",
-    "summary": "By Abhishek Chaudhary Published 2020-05-24 9gag is a place for stuff, and they are pretty serious about that, 9gaggers are known to be really funny in comments while really lonely in real life. This is a beginner's guide on how to become a 9gagger. be single If you are a guy this must be the first step, 9gaggers are known to be single, we crave for girls, If you see a girl picture you have to zoom her tiddies and post it in comments. be funny in comments the only thing that distinguishes 9gag fr…",
+    "id": "https://theabbie.github.io/blog/foolproof-gender-predictor",
+    "title": "foolproof gender predictor",
+    "url": "https://theabbie.github.io/blog/foolproof-gender-predictor",
+    "summary": "This tool uses psychological techniques to determine your gender in a fool proof way how it works it uses psychological techniques, ie. it does not ask you silly questions like who is your favourite actor and all it is completely unbiased and independent of person's educational qualification it's similar to IQ or aptitude test but still, how it works It uses color choice as a determination method who made it Abhishek Chaudhary A.K.A TheAbbie is the creator of this superb app where can I find it …",
     "published_at": "2023-04-26T13:40:58Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3145,10 +3123,54 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/beginners-guide-to-googling",
-    "title": "beginner's guide to googling",
-    "url": "https://theabbie.github.io/blog/beginners-guide-to-googling",
-    "summary": "By Abhishek Chaudhary Published 2020-05-24 though it may seem pointless but googling stuff is an art, there is no question unanswered on the internet but finding the answer requires mastering the art of googling, this guide will help you become a googling expert, let's see how. what is googling googling is the art of searching answers on google, though google is popular for giving the best answers, still, Internet is very huge and not all answers are optimised for SEO, thus googling becomes very…",
+    "id": "https://theabbie.github.io/blog/greatest-n-per-group",
+    "title": "Query the row with the greatest/least value per group",
+    "url": "https://theabbie.github.io/blog/greatest-n-per-group",
+    "summary": "By Abhishek Chaudhary Published 2021-04-05",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/kun-faya-kun",
+    "title": "Kun Faya Kun: The song that can fight Depression",
+    "url": "https://theabbie.github.io/blog/kun-faya-kun",
+    "summary": "By Abhishek Chaudhary Published 2020-06-28 Kun Faya Kun is a song composed by Sir A.R. Rahman, and from the movie Rockstar, It is a beautiful song which makes you feel really good, It gives you positivity and helps you fight Depression, If you ever feel low or sad just listen to it, It will surely help you fight it The Lyrics of this beautiful song are as follows Ya Nizamuddin Auliya, Ya Nizamuddin Salqa Kadam Badhaa Le, Hadon Ko Mitaa Le, Aaja Khaalipan Mein Pee Ka Ghar Tera, Tere Bin Khaali Aa…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/neal-fun-review",
+    "title": "neal.fun review",
+    "url": "https://theabbie.github.io/blog/neal-fun-review",
+    "summary": "By Abhishek Chaudhary Published 2020-06-06 Every page on neal.fun is a different web experiment. Some pages are games and some are interactive articles. The site has been viewed millions of times and has been used in schools. neal.fun If you're feeling a little lacking in creativity, perspective, or even just good old goofy fun, do yourself a favor and visit neal.fun. The creation of one Neal Agarwal, neal.fun presents itself as being \"for people with too much time\" and offers several interactiv…",
+    "published_at": "2023-04-26T13:40:58Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/best-programmer-in-the-world",
+    "title": "best programmer in the world",
+    "url": "https://theabbie.github.io/blog/best-programmer-in-the-world",
+    "summary": "By Abhishek Chaudhary Published 2020-05-28 Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions. history Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents' work. When he was 8, his father designed a chi…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/fcrit-comps",
+    "title": "fcrit comps",
+    "url": "https://theabbie.github.io/blog/fcrit-comps",
+    "summary": "Aditya Unnikrishnan Birthday : 04/05/2001 Rishika Agarwal Birthday : 30/09/2000 Christopher john alappatt Birthday : 03/10/2001 Anushka Amte Birthday : 31/10/2001 Anna Jojo Birthday : 02/11/2001 Antony Bush Sahaya Raj Birthday : 22/08/2001 Divya Bajeriya Birthday : 08/08/2001 Najuka Borse Birthday : 19/07/2002 Bryan francis Birthday : 03/05/2001 Rachel Peter Carvalho Birthday : 07/08/2001 Abhishek Choudhary Birthday : 11/01/2002 Trevor Aaron Robert Dcosta Birthday : 04/09/2001 Shriya Sunil Deshm…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3167,10 +3189,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/codejam-2020-review",
-    "title": "codejam 2020 review",
-    "url": "https://theabbie.github.io/blog/codejam-2020-review",
-    "summary": "I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too my review choice of programming language I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it's not very perfect for competitive programming quality of problems the qualification round was extremely easy and anyone with decent programming knowledge…",
+    "id": "https://theabbie.github.io/blog/brazen-epiphany-short-film-review",
+    "title": "brazen epiphany short film review: what's stopping you",
+    "url": "https://theabbie.github.io/blog/brazen-epiphany-short-film-review",
+    "summary": "This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what's stopping her. plot Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than th…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3178,20 +3200,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/best-programmer-in-the-world",
-    "title": "best programmer in the world",
-    "url": "https://theabbie.github.io/blog/best-programmer-in-the-world",
-    "summary": "By Abhishek Chaudhary Published 2020-05-28 Gennady Korotkevich is a Belarusian sport programmer who has won major international competitions since age 11, as well as numerous national competitions. history Korotkevich was born in Gomel (Homiel), southeastern Belarus. His parents, Vladimir and Lyudmila Korotkevich, are programmers in the mathematics department at Francysk Skaryna Homiel State University. At age 6, he became interested in his parents' work. When he was 8, his father designed a chi…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/TheAbbie-Gif-Collection",
-    "title": "TheAbbie Gif Collection",
-    "url": "https://theabbie.github.io/blog/TheAbbie-Gif-Collection",
+    "id": "https://theabbie.github.io/blog/decoding-the-monty-hall-game",
+    "title": "decoding the monty hall game",
+    "url": "https://theabbie.github.io/blog/decoding-the-monty-hall-game",
+    "summary": "By Abhishek Chaudhary Published 2020-05-23 The Monty Hall Game Show A.K.A. Let's make a deal was a Television game show, it had three doors, with a sports car behind one of them and goats behind others, you make a choice, the host opens some other door which will turn out to be a goat, now you have a choice, either stick to previous choice or switch, simple, isn't it? Is the probability 50%? A typical observation of the situation might suggest that the probability is 50%, you have two choices, y…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3210,76 +3222,21 @@
     "site_url": "https://theabbie.github.io"
   },
   {
+    "id": "https://theabbie.github.io/blog/beginners-guide-to-googling",
+    "title": "beginner's guide to googling",
+    "url": "https://theabbie.github.io/blog/beginners-guide-to-googling",
+    "summary": "By Abhishek Chaudhary Published 2020-05-24 though it may seem pointless but googling stuff is an art, there is no question unanswered on the internet but finding the answer requires mastering the art of googling, this guide will help you become a googling expert, let's see how. what is googling googling is the art of searching answers on google, though google is popular for giving the best answers, still, Internet is very huge and not all answers are optimised for SEO, thus googling becomes very…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
     "id": "https://theabbie.github.io/blog/What-if-a-rainstorm-dropped-all-of-its-water-in-a-single-giant-drop",
     "title": "What if a rainstorm dropped all of its water in a single giant drop",
     "url": "https://theabbie.github.io/blog/What-if-a-rainstorm-dropped-all-of-its-water-in-a-single-giant-drop",
     "summary": "By Abhishek Chaudhary Published 2020-06-06 The water plows into the ground, but the bedrock is unyielding. The pressure forces the water sideways, creating a supersonic omnidirectional jet that destroys everything in its path. The wall of water expands outward kilometer by kilometer, ripping up trees, houses, and topsoil as it goes. The house, porch, and old-timers are obliterated in an instant. Everything within a few kilometers is completely destroyed, leaving a pool of mud down to bedrock. Th…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/firefox-send-review",
-    "title": "firefox send review",
-    "url": "https://theabbie.github.io/blog/firefox-send-review",
-    "summary": "By Abhishek Chaudhary Published 2020-06-07 Firefox Send is a free-to-use, online file-sending service, able to handle files up to 2.5 GB. It was developed by Mozilla and is licensed under the terms of the open source Mozilla Public License. firefox send review Because Firefox Send is end-to-end encrypted, not even Mozilla can see the contents of what you’re sharing. You can also add a password to a given file, so that even if someone intercepts that URL—by compromising the recipient’s emai…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/best-node-js-hosting-platforms",
-    "title": "Best Node.js Hosting Platforms",
-    "url": "https://theabbie.github.io/blog/best-node-js-hosting-platforms",
-    "summary": "Netlify Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps. Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, a…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/chintu-ka-birthday-review",
-    "title": "chintu ka birthday review",
-    "url": "https://theabbie.github.io/blog/chintu-ka-birthday-review",
-    "summary": "By Abhishek Chaudhary Published 2020-06-05 Chintu Ka Birthday portrays the essence of life, that it waits for none and one must live to the fullest under the direst of circumstances. It narrates the story of a family stuck in war-torn Baghdad in early 2000s, and has Solid performances from Vinay Pathak and his two proven co-actors Chintu Ka Birthday, as simple and unrelated the title may sound to the real story at play, deals in pressing issues of our times like migration and identity, thus stre…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/etamax-fcrit",
-    "title": "etamax fcrit",
-    "url": "https://theabbie.github.io/blog/etamax-fcrit",
-    "summary": "By Abhishek Chaudhary Published 2020-06-09 inter-college festival 'ETAMAX' of Fr. Conceicao Rodrigues Institute of Technology (FCRIT), Vashi. ETAMAX is indeed a special fest for all Agnelites and the institution as well. Sing or dance, code or paint, write or listen, build or analyse, ETAMAX serves the best opportunities to grow and develop in the form of workshops, competitions, games, etc. A splendid blend of culture and technology, evolving all students and setting a platform for everyone to …",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/awesome-life-hacks",
-    "title": "100 Awesome Life Hacks",
-    "url": "https://theabbie.github.io/blog/awesome-life-hacks",
-    "summary": "By Abhishek Chaudhary Published 2021-04-04 100 awesome life hacks to make your life easier if you’re stuck on an annoying call, put your phone on airplane mode instead of just hanging up. The other person will see “call failed” instead of “call ended” Look up your buildings washer/dryer model on eBay and order a key for it. I haven’t paid for laundry in years and it cost me $8.00! Sleep like a baby knowing you’re not paying for on-site laundry. If the person sitting in front of you…",
-    "published_at": "2023-04-26T13:40:57Z",
-    "feed_url": "https://theabbie.github.io/rss.xml",
-    "feed_title": "TheAbbie",
-    "owner_username": "theabbie",
-    "site_url": "https://theabbie.github.io"
-  },
-  {
-    "id": "https://theabbie.github.io/blog/del-dog-dogbin-review",
-    "title": "del.dog review",
-    "url": "https://theabbie.github.io/blog/del-dog-dogbin-review",
-    "summary": "By Abhishek Chaudhary Published 2020-06-06 Sharing short code samples, logs, links or markdown notes is now easier than ever, If you want to use a custom slug you can do so by entering your desired url in the Custom URL field. dogbin - the sexiest pastebin and url shortener ever! Sharing short code samples, logs, links or markdown notes is now easier than ever! basics The easiest way to use dogbin, is from inside your browser. Type or paste your content into the text area on the homepage (ctrl +…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3298,10 +3255,10 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/brazen-epiphany-short-film-review",
-    "title": "brazen epiphany short film review: what's stopping you",
-    "url": "https://theabbie.github.io/blog/brazen-epiphany-short-film-review",
-    "summary": "This short film directed by Abhishek Chaudhary is an exceptionally brilliant depiction of a journalist who is caught in dilemma of what's stopping her. plot Jennifer, daughter of a single mother after claiming the position of the best journalist in india sat down for a interview. During this interview she is confronted with reasons to what does she owe her success. Throughout conversation we get to know that it is just not her love for the profession but her past, her fears and much more than th…",
+    "id": "https://theabbie.github.io/blog/estimate-pi-using-random-numbers",
+    "title": "estimate pi using random numbers",
+    "url": "https://theabbie.github.io/blog/estimate-pi-using-random-numbers",
+    "summary": "pi is an irrational number and it has infinite decimal places we will use the concept of probability and definition of pi to calculate the value of pi steps to do so make a unit circle enclosed within square touching its boundaries randomly plot points inside the square count the number of points that lie inside the circle and total number of points calculation of Pi how probability works since we are randomly plotting points inside the square, the probability of it lying inside the circle is ar…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3309,9 +3266,21 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/bb-ki-vines",
-    "title": "bb ki vines",
-    "url": "https://theabbie.github.io/blog/bb-ki-vines",
+    "id": "https://theabbie.github.io/blog/circumference-of-ellipse",
+    "title": "circumference of ellipse",
+    "url": "https://theabbie.github.io/blog/circumference-of-ellipse",
+    "summary": "By Abhishek Chaudhary Published 2020-05-26 Though, there is no exact formula for circumference of ellipse, like we have for circle, we have an approximate formula which works in most cases. difficulty in finding exact formula There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (177…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/best-node-js-hosting-platforms",
+    "title": "Best Node.js Hosting Platforms",
+    "url": "https://theabbie.github.io/blog/best-node-js-hosting-platforms",
+    "summary": "Netlify Netlify is a web developer platform that multiplies productivity. By unifying the elements of the modern decoupled web, from local development to advanced edge logic, Netlify enables a 10x faster path to much more performant, secure, and scalable websites and apps. Our bet on the JAMstack is quickly coming true. The web is rapidly changing away from monolithic to decoupled apps, and web developers are storming ahead with more power than ever. Netlify is built to cater to that movement, a…",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
@@ -3330,10 +3299,42 @@
     "site_url": "https://theabbie.github.io"
   },
   {
-    "id": "https://theabbie.github.io/blog/fcrit-comps",
-    "title": "fcrit comps",
-    "url": "https://theabbie.github.io/blog/fcrit-comps",
-    "summary": "Aditya Unnikrishnan Birthday : 04/05/2001 Rishika Agarwal Birthday : 30/09/2000 Christopher john alappatt Birthday : 03/10/2001 Anushka Amte Birthday : 31/10/2001 Anna Jojo Birthday : 02/11/2001 Antony Bush Sahaya Raj Birthday : 22/08/2001 Divya Bajeriya Birthday : 08/08/2001 Najuka Borse Birthday : 19/07/2002 Bryan francis Birthday : 03/05/2001 Rachel Peter Carvalho Birthday : 07/08/2001 Abhishek Choudhary Birthday : 11/01/2002 Trevor Aaron Robert Dcosta Birthday : 04/09/2001 Shriya Sunil Deshm…",
+    "id": "https://theabbie.github.io/blog/codejam-2020-review",
+    "title": "codejam 2020 review",
+    "url": "https://theabbie.github.io/blog/codejam-2020-review",
+    "summary": "I am a first-year engineering student and I participated in Codejam 2020 This was my first codejam and my first coding competition too my review choice of programming language I used Node.Js for the competition as I am pretty fluent in JavaScript Though JavaScript is a very popular programming language, within a few problems I realised that it's not very perfect for competitive programming quality of problems the qualification round was extremely easy and anyone with decent programming knowledge…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/chintu-ka-birthday-review",
+    "title": "chintu ka birthday review",
+    "url": "https://theabbie.github.io/blog/chintu-ka-birthday-review",
+    "summary": "By Abhishek Chaudhary Published 2020-06-05 Chintu Ka Birthday portrays the essence of life, that it waits for none and one must live to the fullest under the direst of circumstances. It narrates the story of a family stuck in war-torn Baghdad in early 2000s, and has Solid performances from Vinay Pathak and his two proven co-actors Chintu Ka Birthday, as simple and unrelated the title may sound to the real story at play, deals in pressing issues of our times like migration and identity, thus stre…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/awesome-life-hacks",
+    "title": "100 Awesome Life Hacks",
+    "url": "https://theabbie.github.io/blog/awesome-life-hacks",
+    "summary": "By Abhishek Chaudhary Published 2021-04-04 100 awesome life hacks to make your life easier if you’re stuck on an annoying call, put your phone on airplane mode instead of just hanging up. The other person will see “call failed” instead of “call ended” Look up your buildings washer/dryer model on eBay and order a key for it. I haven’t paid for laundry in years and it cost me $8.00! Sleep like a baby knowing you’re not paying for on-site laundry. If the person sitting in front of you…",
+    "published_at": "2023-04-26T13:40:57Z",
+    "feed_url": "https://theabbie.github.io/rss.xml",
+    "feed_title": "TheAbbie",
+    "owner_username": "theabbie",
+    "site_url": "https://theabbie.github.io"
+  },
+  {
+    "id": "https://theabbie.github.io/blog/bb-ki-vines",
+    "title": "bb ki vines",
+    "url": "https://theabbie.github.io/blog/bb-ki-vines",
     "published_at": "2023-04-26T13:40:57Z",
     "feed_url": "https://theabbie.github.io/rss.xml",
     "feed_title": "TheAbbie",
