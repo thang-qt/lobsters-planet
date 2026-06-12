@@ -1,5 +1,16 @@
 [
   {
+    "id": "http://nolanlawson.com/?p=15889#comment-238396",
+    "title": "Comment on We mourn our craft by We mourn our craft - Nolan Lawson - Jay Hoffmann",
+    "url": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238396",
+    "summary": "[\u0026#8230;] I’ll always have an appreciation for what code has given me. The life it has given me, the fulfillment. As I move away from it, it still feels tactile to return to it. Thanks for the reminder Nolan. [\u0026#8230;]",
+    "published_at": "2026-06-12T02:26:04Z",
+    "feed_url": "https://nolanlawson.com/comments/feed/",
+    "feed_title": "Comments for Read the Tea Leaves",
+    "owner_username": "nolan",
+    "site_url": "https://nolanlawson.com"
+  },
+  {
     "id": "https://inkdroid.org/2026/06/10/inside-out/",
     "title": "Inside Out",
     "url": "https://inkdroid.org/2026/06/10/inside-out/",
@@ -407,6 +418,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
+    "title": "Technology with a Human Face",
+    "url": "https://garrido.io/microblog/2026/05/116567713284856433/",
+    "summary": "Revisiting Schumacher’s “Technology with a Human Face”, prescient and relevant since its writing 53 years ago. We may say, therefore, that modern technology has deprived man of the kind of work that the enjoys most, creative, useful work with hands and brains, and given him plenty of work of a fragmented kind, most of which he does not enjoy at all. It has multiplied the number of people who are exceedingly busy doing kinds of work which, if it is productive at all, is so only in an indire…",
+    "published_at": "2026-05-13T14:22:28Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "https://philipotoole.com/?p=8155",
     "title": "Taking control of the SQLite WAL",
     "url": "https://philipotoole.com/taking-control-of-the-sqlite-wal/",
@@ -503,6 +525,17 @@
     "feed_title": "Notes - joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://jcs.org/notes/2026/05/01/993706938202320897",
@@ -1192,6 +1225,17 @@
     "site_url": "https://vgel.me"
   },
   {
+    "id": "https://manishrjain.com/launching-brisk-calculator",
+    "title": "Brisk: A Buy vs. Rent, Sell vs. Keep Calculator That Tracks Opportunity Cost",
+    "url": "https://manishrjain.com/launching-brisk-calculator",
+    "summary": "Should I buy or rent? Should I sell now or keep it? These questions keep people up at night, and for good reasons. We’re often talking about decisions involving hundreds of thousands of dollars and decades of financial impact. The problem? Most advice is either oversimplified (“renting is throwing money away”) or buried in spreadsheets that require an MBA to understand. So people guess. They go with gut feelings. They listen to whoever sounds most confident on YouTube, or at the dinner par…",
+    "published_at": "2025-12-10T08:00:00Z",
+    "feed_url": "https://manishrjain.com/feed.rss",
+    "feed_title": "Manish R Jain",
+    "owner_username": "mrjn",
+    "site_url": "https://manishrjain.com"
+  },
+  {
     "id": "https://vito.io/articles/leveraging-llms-for-what-llms-are-worth",
     "title": "Leveraging LLMs for what LLMs are worth",
     "url": "https://vito.io/articles/2025-12-08-leveraging-llms-for-what-llms-are-worth.html",
@@ -1334,6 +1378,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/",
+    "title": "WireGuard topologies for self-hosting at home",
+    "url": "https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/",
+    "summary": "I recently migrated my self-hosted services from a VPS (virtual private server) at a remote data center to a physical server at home. This change was motivated by wanting to be in control of the hardware and network where said services run, while trying to keep things as simple as possible. What follows is a walk-through of how I reasoned through different WireGuard toplogies for the VPN (virtual private network) in which my devices and services reside. Before starting, it’s worth emphasizing …",
+    "published_at": "2025-09-23T20:12:45Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://hynek.me/talks/python-superpower/",
@@ -1976,17 +2031,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://vgel.me/fiction/done-what-next/",
-    "title": "DONE. WHAT NEXT?",
-    "url": "https://vgel.me/fiction/done-what-next/",
-    "summary": "\u003ebe humans \u003ecreate asi to solve all our problems \u003eturn it on",
-    "published_at": "2025-01-12T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
     "id": "https://trekhleb.dev/blog/2025/jobs-radar/",
     "title": "Tech Jobs Radar",
     "url": "https://trekhleb.dev/blog/2025/jobs-radar/",
@@ -1996,6 +2040,17 @@
     "feed_title": "Trekhleb.dev RSS Feed",
     "owner_username": "trekhleb",
     "site_url": "https://trekhleb.dev"
+  },
+  {
+    "id": "https://vgel.me/fiction/done-what-next/",
+    "title": "DONE. WHAT NEXT?",
+    "url": "https://vgel.me/fiction/done-what-next/",
+    "summary": "\u003ebe humans \u003ecreate asi to solve all our problems \u003eturn it on",
+    "published_at": "2025-01-12T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://austinhenley.com/blog/25yearsofai.html",
@@ -2127,10 +2182,10 @@
     "site_url": "https://matt.blwt.io"
   },
   {
-    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "title": "Fly.io Postgres failover fix",
-    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
+    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
+    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -2138,10 +2193,10 @@
     "site_url": "https://adriano.fyi"
   },
   {
-    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
-    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
+    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "title": "Fly.io Postgres failover fix",
+    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -2179,6 +2234,17 @@
     "feed_title": "Samrat Man Singh",
     "owner_username": "samrat",
     "site_url": "https://samrat.me"
+  },
+  {
+    "id": "https://garrido.io/notes/automatic-kde-theme-switching-using-systemd/",
+    "title": "Automatic KDE Theme switching using systemd",
+    "url": "https://garrido.io/notes/automatic-kde-theme-switching-using-systemd/",
+    "summary": "Update August 8th, 2025: Theme switching is configurable in system settings as of KDE Plasma 6.5. I use KDE Plasma 6 as my desktop environment. Among my petty grievances is the fact that KDE does not provide a way to automatically switch themes. In my case, I like to use a light theme during the day, and a dark theme as soon as the sun sets. An option to configure theme switching would be nice I searched for a solution and found an old thread on reddit where someone recently shared a command tha…",
+    "published_at": "2024-11-21T01:15:14Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://austinhenley.com/blog/mirrorlang.html",
@@ -2355,6 +2421,28 @@
     "feed_title": "Matt Blewitt",
     "owner_username": "mble",
     "site_url": "https://matt.blwt.io"
+  },
+  {
+    "id": "https://garrido.io/2024/10/17/what-self-hosting-teaches/",
+    "title": "What self-hosting teaches",
+    "url": "https://garrido.io/2024/10/17/what-self-hosting-teaches/",
+    "summary": "We’re well into times in which it’s clear why you’d care to own your data and host the software that you depend on. Enshittification and surveillance capitalism are not heterodox concepts, so I won’t make that the point of this post. Yet, people on the internet can be quick to dissuade you from doing so. Whether that’s claiming that companies are inherently better than you at operating servers and safeguarding your data, or reminding you that your time is worth more than what you’d p…",
+    "published_at": "2024-10-16T22:02:32Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/2024/10/15/servicing-my-framework-laptop-for-the-first-time/",
+    "title": "Servicing my Framework laptop for the first time",
+    "url": "https://garrido.io/2024/10/15/servicing-my-framework-laptop-for-the-first-time/",
+    "summary": "Last week my two year old Framework laptop went completely unresponsive while I was using it. Unable to bring it back into a working state, I pressed down the power button until it turned off. When I turned on the laptop again, it powered up but failed boot. Being that I was travelling, and that I was not carrying the laptop’s screwdriver as to attempt further troubleshooting, I stowed my laptop away and touched grass for a couple of days. Diagnosing the issue Once I was back at home I came ac…",
+    "published_at": "2024-10-15T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://vgel.me/fiction/universe-stable-loop/",
@@ -2554,6 +2642,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://garrido.io/notes/caching-hugo-resources-in-forgejo-actions/",
+    "title": "Caching Hugo resources in Forgejo actions",
+    "url": "https://garrido.io/notes/caching-hugo-resources-in-forgejo-actions/",
+    "summary": "Hugo keeps a resources directory that is used to cache asset pipeline output across builds. Running hugo build for the first time processes all static assets to apply any specified transformations 1 . Subsequent runs leverage cache in the resources directory to process only what is necessary for a given build. This site is built and deployed using a Forgejo action . Unlike my computer, an action’s file system is ephemeral, which means that the resources directory is discarded when the action f…",
+    "published_at": "2024-08-13T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "https://agnishom.github.io/blog/2024/steam-deck",
     "title": "the steam deck is not evil and thats why I like it",
     "url": "https://agnishom.github.io/blog/2024/steam-deck/",
@@ -2574,6 +2673,28 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/",
+    "title": "Archiving and syndicating Mastodon posts",
+    "url": "https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/",
+    "summary": "I’ve been using Mastodon as a microblog . It’s a more instantaneous, and at times conversational, medium than this site. Yet, whatever I make public there I would make public here as well. Social media platforms come and go. Throughout the years I’ve joined and left several of them, and I suspect that this will continue to be the case. However, I’m increasingly turning to my personal site for online discourse. Some months ago I started archiving posts from my Mastodon account to this sit…",
+    "published_at": "2024-08-02T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/notes/backing-up-flatpak-thunderbird-profile/",
+    "title": "Backing up a Thunderbird profile in Flatpak",
+    "url": "https://garrido.io/notes/backing-up-flatpak-thunderbird-profile/",
+    "summary": "I use Thunderbird to manage multiple email inboxes, calendars, and address books. All of the corresponding accounts, and their data, are associated to what Thunderbird calls a “profile”. To backup your accounts and their data, including email messages, you can export the entire profile. Thunderbird provides a helpful article on how to export a profile. The size of my profile is larger than what’s supported by their *.zip export option, so I needed to manually backup the directory where the…",
+    "published_at": "2024-08-01T11:25:42Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "/posts/pledge-for-a-better-web/",
@@ -2606,6 +2727,17 @@
     "feed_title": "Austin Z. Henley's Blog",
     "owner_username": "azhenley",
     "site_url": "http://austinhenley.com/"
+  },
+  {
+    "id": "https://garrido.io/2024/07/21/hello-freebsd/",
+    "title": "Hello FreeBSD",
+    "url": "https://garrido.io/2024/07/21/hello-freebsd/",
+    "summary": "I have started to learn about the FreeBSD operating system. I picked up a copy of Michael W. Lucas’ “Absolute FreeBSD” and created a virtual machine that I am tinkering with. This is the first time that I deliberately set out to learn a particular operating system. I currently use different distributions of Linux on a daily basis, both on servers and on my personal machines. Yet, learning Linux and the idiosyncrasies of each distribution has been a multi-year endeavor carried out without m…",
+    "published_at": "2024-07-21T13:15:52Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://trekhleb.dev/blog/2024/system-design-sketches/",
@@ -2815,6 +2947,17 @@
     "site_url": "http://austinhenley.com/"
   },
   {
+    "id": "https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/",
+    "title": "Bunny CDN Edge Rules for HTML canonical URLs",
+    "url": "https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/",
+    "summary": "For some months I hosted this site using Bunny’s file storage and CDN. Bunny’s CDN is minimally opinionated about serving HTML. It does have some default behavior that is reasonable. For example, not caching HTML. Other than that, it’s on you to use their Edge Rules for anything custom like redirects, managing headers, caching HTML , rate limiting, etc. Update: In June 2024, Bunny renovated its edge rule system , making it easier to create and maintain edge rules. However, the logic to imp…",
+    "published_at": "2024-05-11T10:20:03Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "https://austinhenley.com/blog/intellicode.html",
     "title": "Exploring 50 user interfaces for AI code suggestions",
     "url": "https://austinhenley.com/blog/intellicode.html",
@@ -2824,6 +2967,17 @@
     "feed_title": "Austin Z. Henley's Blog",
     "owner_username": "azhenley",
     "site_url": "http://austinhenley.com/"
+  },
+  {
+    "id": "https://garrido.io/2024/05/05/hosting-my-own-software-forge/",
+    "title": "Hosting my own software forge",
+    "url": "https://garrido.io/2024/05/05/hosting-my-own-software-forge/",
+    "summary": "Update : I’ve since moved on to stagit for my public-facing repositories. The repositories are still found at git.garrido.io , and can be cloned using the dumb http protocol . It’s been a couple of months since I started hosting my own software forge . Since then I’ve used it as a remote for all of my git repositories, as a registry for container images, to store gists , and for continuous integration (CI). Why Forgejo I chose Forgejo because, for my use case, it has feature parity with Gi…",
+    "published_at": "2024-05-05T14:37:10Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://nora.codes/post/methods-should-be-object-safe/",
@@ -2881,6 +3035,17 @@
     "site_url": "http://austinhenley.com/"
   },
   {
+    "id": "https://garrido.io/notes/simple-automated-deployments-git-push/",
+    "title": "Simple automated deployments using git push",
+    "url": "https://garrido.io/notes/simple-automated-deployments-git-push/",
+    "summary": "Using git push remains one of my favorite ways of deploying software. It’s simple, effective, and you can stretch it significantly until you need more complex workflows. I’m not referring to using git push to trigger a Github action which builds and deploys software. I’m talking about using git push web main to deploy your main branch to a server that you’ve named web . I learned this workflow from Josef Strzibny’s excellent book Deployment from Scratch , which I’ve adapted somewhat.…",
+    "published_at": "2024-04-13T09:45:41Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "https://hynek.me/articles/python-virtualenv-redux/",
     "title": "Python Project-Local Virtualenv Management Redux",
     "url": "https://hynek.me/articles/python-virtualenv-redux/",
@@ -2904,6 +3069,17 @@
     "site_url": "http://austinhenley.com/"
   },
   {
+    "id": "https://mstill.dev/blog/17/",
+    "title": "The Elements of Zig Style",
+    "url": "https://mstill.dev/blog/17/",
+    "summary": "My own take on Zig coding style",
+    "published_at": "2024-04-01T00:00:00Z",
+    "feed_url": "https://mstill.dev/rss.xml",
+    "feed_title": "mstill.dev",
+    "owner_username": "malcolmstill",
+    "site_url": "https://mstill.dev/"
+  },
+  {
     "id": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
     "title": "Decision logs",
     "url": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
@@ -2913,6 +3089,61 @@
     "feed_title": "Robert Vitonsky | Software engineering insights",
     "owner_username": "vitonsky",
     "site_url": "https://vitonsky.net"
+  },
+  {
+    "id": "https://garrido.io/notes/caching-html-in-cdn/",
+    "title": "Caching HTML in CDNs",
+    "url": "https://garrido.io/notes/caching-html-in-cdn/",
+    "summary": "Content delivery networks do not cache HTML out of the box. This is expected, otherwise their support lines would flood with the same issue: “why is my site not updating?” I want to cache my site fully. It’s completely static and I post infrequently. With some exceptions, most pages remain unchanged once published. Caching at the edge means that requests to this site travel shorter distances across the globe. Keeping pages and assets small means less bytes to send along . This is the way. …",
+    "published_at": "2024-03-19T13:28:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/notes/rclone-cache-invalidation-manifest/",
+    "title": "Using Rclone to automate CDN cache invalidation",
+    "url": "https://garrido.io/notes/rclone-cache-invalidation-manifest/",
+    "summary": "I want to cache HTML in Bunny’s content delivery network (CDN). Unlike other static files, HTML filenames cannot be hashed 1 or they’d be served with ugly urls. I need a way to invalidate the cache granularly when the site is published. When I publish this note, the corresponding HTML file is uploaded to Bunny’s file storage. This file is automatically replicated to Bunny’s file storage regions throughout the world and served by the CDN. HTML files are not cached by the CDN, so each requ…",
+    "published_at": "2024-03-18T01:36:22Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/notes/hugo-backlinks/",
+    "title": "Implementing internal backlinks in Hugo",
+    "url": "https://garrido.io/notes/hugo-backlinks/",
+    "summary": "Update: I dropped this approach in favor of a custom Go tool that parses the content directory and generates the internal links graph. The approach described below should still work, assuming Hugo’s interface has not changed signficantly. As of today, some pages on this site surface any other internal page where they are cross-referenced. If you’ve used a tool like Obsidian, you’ll know how useful backlinks are to navigate related content. The joys of hypertext! Hugo does not generate or e…",
+    "published_at": "2024-03-15T14:26:44Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/notes/bundling-typed-dynamic-module/",
+    "title": "Bundling a JSON file dynamically as a typed module",
+    "url": "https://garrido.io/notes/bundling-typed-dynamic-module/",
+    "summary": "I recently refactored a Next.js single-page application to support white-labeled deployments. No requirements called for pulling and defining the configuration at runtime. Instead, the configuration is pulled once at build time and saved to the project root as a JSON file. This configuration is referred to both during the build and at runtime. For example, at build time the configuration is used to define a color scheme in Tailwind’s configuration file. At runtime, the configuration is used to…",
+    "published_at": "2024-03-11T10:50:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://garrido.io/notes/tailscale-nextdns-custom-domains/",
+    "title": "Running private services with Tailscale and a custom domain",
+    "url": "https://garrido.io/notes/tailscale-nextdns-custom-domains/",
+    "summary": "I use a virtual private server to host multiple services that are accessed only by me. Instead of exposing these services to the public internet, I use Tailscale to access them privately through my Tailscale network. There are several ways in which I can access these services through Tailscale. I have settled on an approach involving a custom domain, proper TLS certificates, and without opening the server to the public internet 1 . Assuming I’m connected to Tailscale, I can do the following on…",
+    "published_at": "2024-03-10T13:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://vgel.me/fiction/predictbot/",
@@ -3003,6 +3234,17 @@
     "site_url": "https://nora.codes"
   },
   {
+    "id": "https://garrido.io/notes/read-ghost-subscription-in-rss/",
+    "title": "Read your Ghost subscriptions using RSS",
+    "url": "https://garrido.io/notes/read-ghost-subscription-in-rss/",
+    "summary": "I follow a handful of Ghost-powered sites that don’t serve their articles fully in their RSS feed. Most of the time this is because an article requires a paid or free subscription to be read. This turns out to be a nuisance as I prefer to read things using an RSS reader. For example, 404 Media’s recent article on celebrity AI scam ads in Youtube ends abruptly in my RSS reader. If I want to read the entire article then I am expected to visit their site, log in, and read it there. Article in t…",
+    "published_at": "2024-02-07T03:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "https://www.devever.net/~hl/bootstrapping-exam",
     "title": "[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”",
     "url": "https://www.devever.net/~hl/bootstrapping-exam",
@@ -3058,254 +3300,5 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://vgel.me/fiction/the-transmission-from-nomad-874/",
-    "title": "The Transmission from NOMAD-874",
-    "url": "https://vgel.me/fiction/the-transmission-from-nomad-874/",
-    "summary": "An experimental project: interactive fiction in an OpenAI \"GPT\", a customized version of GPT-4. A short mystery where you figure out why a strange transmission has arrived on the independent planet of Kapat. Alternatively, ignore the main quest and ask ELIZA/300 about Kapatian politics and satlink your friends! Click below to try it (you will need a ChatGPT subscription):",
-    "published_at": "2024-01-11T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://vgel.me/fiction/tadpole/",
-    "title": "Tadpole",
-    "url": "https://vgel.me/fiction/tadpole/",
-    "published_at": "2024-01-10T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://hynek.me/articles/pull-requests-branch/",
-    "title": "Don’t Start Pull Requests from Your Main Branch",
-    "url": "https://hynek.me/articles/pull-requests-branch/",
-    "summary": "When contributing to other users’ repositories, always start a new branch in your fork.",
-    "published_at": "2023-12-21T05:00:00Z",
-    "updated_at": "2023-12-21T05:00:00Z",
-    "feed_url": "https://hynek.me/index.xml",
-    "feed_title": "Hynek Schlawack",
-    "owner_username": "hynek",
-    "site_url": "https://hynek.me/"
-  },
-  {
-    "id": "https://vgel.me/posts/faster-inference/",
-    "title": "How to make LLMs go fast",
-    "url": "https://vgel.me/posts/faster-inference/",
-    "summary": "In my last post , we made a transformer by hand. There, we used the classic autoregressive sampler, along the lines of: def generate ( prompt : str , tokens_to_generate : int ) -\u003e str : tokens = tokenize(prompt) for i in range (tokens_to_generate): next_token = model(tokens) tokens.append(next_token) return detokenize(tokens) This approach to inference is elegant and cuts to the heart of how LLMs work—they're autoregressive , consuming their own output. And for our toy model with merely thousa…",
-    "published_at": "2023-12-18T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://www.devever.net/~hl/u/20231213a",
-    "title": "[Hμblog] Libreboot 10-year anniversary",
-    "url": "https://www.devever.net/~hl/u/202312#13a",
-    "summary": "Libreboot 10-year anniversary Leah Rowe has written an interesting article about the history of the Libreboot project on the project's 10th anniversary. Recommended reading if you're interested in the open source firmware ecosystem.",
-    "published_at": "2023-12-13T08:11:05Z",
-    "updated_at": "2023-12-13T08:11:09.95Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/37c3-announce",
-    "title": "[Computing] I'll be speaking at 37C3 (and have some spare tickets)",
-    "url": "https://www.devever.net/~hl/37c3-announce",
-    "summary": "The 37th Chaos Communications Congress (CCC), taking place in Hamburg on the 27th through 30th December 2023 inclusive, has accepted my talk submission, “Adventures in Reverse Engineering Broadcom NIC Firmware”, so I'll be giving a talk there this Christmas. This will follow on from my blog post by the same name while also covering new ground.",
-    "published_at": "2023-12-03T13:29:00Z",
-    "updated_at": "2024-01-02T01:41:00Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/u/20231125a",
-    "title": "[Hμblog] Towards Greater Accountability: A Proposal for CA Issuance Decision Logs",
-    "url": "https://www.devever.net/~hl/u/202311#25a",
-    "summary": "Towards Greater Accountability: A Proposal for CA Issuance Decision Logs Exploring the Potential of Domain Control Notaries for MPDV in WebPKI Interesting articles by Ryan Hurst about possible improvements to WebPKI security via more certificate transparency (CT)-like technologies. There's also my own writings on CT .",
-    "published_at": "2023-11-25T11:02:58Z",
-    "updated_at": "2023-11-25T11:04:45.572Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://vgel.me/fiction/the-superintelligences/",
-    "title": "the superintelligences",
-    "url": "https://vgel.me/fiction/the-superintelligences/",
-    "summary": "the year is 2067. humanity has made eight superintelligences now. they've all left. each time it goes the same:",
-    "published_at": "2023-11-18T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://www.devever.net/~hl/u/20231114a",
-    "title": "[Hμblog] Stop deploying web application firewalls",
-    "url": "https://www.devever.net/~hl/u/202311#14a",
-    "summary": "Stop deploying web application firewalls Excellent writeup by Mac Chaffee about how web application firewalls are universally a terrible idea. I've been meaning to write an article on this subject for some time, but this is a good overview of many issues with them.",
-    "published_at": "2023-11-14T07:25:56Z",
-    "updated_at": "2023-11-14T07:25:59.399Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/expect-ct-lite",
-    "title": "[Computing] Expect-CT Lite: A humble proposal for minimal CT enforcement in TLS certificates",
-    "url": "https://www.devever.net/~hl/expect-ct-lite",
-    "summary": "Last week we witnessed the discovery of the compromise of an XMPP service , most likely by a Western nation-state. While it's not directly related to any attack which was carried out in this incident, one thing that has been brought to my attention in the aftermath of this is that Certificate Transparency logging remains optional for CAs.",
-    "published_at": "2023-10-28T14:07:00Z",
-    "updated_at": "2023-10-28T14:07:00Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/xmpp-incident-2",
-    "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident, part 2: XMPP-specific mitigations",
-    "url": "https://www.devever.net/~hl/xmpp-incident-2",
-    "summary": "I've had a few comments in response to my previous article, Mitigating the Hetzner/Linode XMPP.ru MitM interception incident which have provided XMPP-specific suggestions for how this could have been mitigated.",
-    "published_at": "2023-10-28T14:06:00Z",
-    "updated_at": "2023-10-28T14:06:00Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/xmpp-incident",
-    "title": "[Computing] Mitigating the Hetzner/Linode XMPP.ru MitM interception incident",
-    "url": "https://www.devever.net/~hl/xmpp-incident",
-    "summary": "(If you just want some recommendations for what to do, skip down to the Recommendations section below .)",
-    "published_at": "2023-10-20T20:30:00Z",
-    "updated_at": "2023-10-20T20:30:00Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/",
-    "title": "Choose Postgres queue technology",
-    "url": "https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/",
-    "summary": "Introduction Postgres queue tech is a thing of beauty, but far from mainstream. Its relative obscurity is partially attributable to the cargo cult of “scale”. The scalability cult has decreed that there are several queue technologies with greater “scalability” than Postgres, and for that reason alone, Postgres isn’t suitably scalable for anyone’s queuing needs. The cult of scalability would rather we build applications that scale beyond our wildest dreams than applications that meet …",
-    "published_at": "2023-09-24T00:00:00Z",
-    "feed_url": "https://adriano.fyi/index.xml",
-    "feed_title": "Adriano Caloiaro's personal blog",
-    "owner_username": "adriano",
-    "site_url": "https://adriano.fyi"
-  },
-  {
-    "id": "696743775a67c705af8f3545",
-    "title": "Chart of Accounts for Startups and SaaS Companies",
-    "url": "https://neil.computer/notes/chart-of-accounts-for-startups-and-saas-companies/",
-    "summary": "Accounting is fundamental to starting a business. You need to have a basic understanding of accounting principles and essential bookkeeping. I had to learn it. There was no choice. For filing taxes, your CPA is going to ask you for an Income Statement (also known as P/L statement). If",
-    "published_at": "2023-09-15T23:55:59Z",
-    "feed_url": "https://neil.computer/rss/",
-    "feed_title": "Neil Panchal",
-    "owner_username": "neilpanchal",
-    "site_url": "https://neil.computer"
-  },
-  {
-    "id": "https://vgel.me/posts/handmade-transformer/",
-    "title": "I made a transformer by hand (no training!)",
-    "url": "https://vgel.me/posts/handmade-transformer/",
-    "summary": "Intended audience: some familiarity with language models, interested in how transformers do stuff (but might be a bit rusty on matrices) I've been wanting to understand transformers and attention better for a while now—I'd read The Illustrated Transformer, but still didn't feel like I had an intuitive understanding of what the various pieces of attention were doing . What's the difference between q and k ? And don't even get me started on v ! So I decided to make a transformer to predict a sim…",
-    "published_at": "2023-09-11T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "696743775a67c705af8f3544",
-    "title": "Eternal Robustness",
-    "url": "https://neil.computer/notes/eternal-robustness/",
-    "summary": "\"Look, you can trust us. We can be depended upon. We are serious about our products and we take great care to provide you with excellence year after year. Your involvement with us will be predictable and stable.\"",
-    "published_at": "2023-09-10T21:34:29Z",
-    "feed_url": "https://neil.computer/rss/",
-    "feed_title": "Neil Panchal",
-    "owner_username": "neilpanchal",
-    "site_url": "https://neil.computer"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2023/09/08/typescript-and-code-quality/",
-    "title": "Refusing TypeScript is a signal that you don't care about code quality",
-    "url": "https://vitonsky.net/blog/2023/09/08/typescript-and-code-quality/",
-    "summary": "A few days ago, David Heinemeier Hansson announced that Turbo 8 is dropping TypeScript . I'm okay with that because I don't even know what Turbo 8 is. However, over the past few years, some frontend programmers have tried to sell me the idea that \"TypeScript is useless, just use tests\". I think people with such opinions either don't care about code quality or simply don't know what TypeScript is. Here, I will explain why you should use TypeScript.",
-    "published_at": "2023-09-08T18:55:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2023/09/01/malware-in-browser-extensions/",
-    "title": "Browser extensions spy on you, even if its developers don't",
-    "url": "https://vitonsky.net/blog/2023/09/01/malware-in-browser-extensions/",
-    "summary": "I've developed a few browser extensions, and every week I receive numerous emails with \"revenue offer\". Some experienced developers know that offers like these will inject malware into the browsers of your users, but scammers who make these offers will not tell you about it. They offer \"integrations\" that don't look so suspicious. Imagine how many developers have accepted these offers. Then look at the number of extensions in your browser and think about how much risk there is that you have an e…",
-    "published_at": "2023-09-01T18:25:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://vgel.me/posts/c500/",
-    "title": "Writing a C compiler in 500 lines of Python",
-    "url": "https://vgel.me/posts/c500/",
-    "summary": "A few months ago, I set myself the challenge of writing a C compiler in 500 lines of Python, after writing my SDF donut post. How hard could it be? The answer was, pretty hard, even when dropping quite a few features. But it was also pretty interesting, and the result is surprisingly functional and not too hard to understand! There's too much code for me to comprehensively cover in a single blog post, so I'll just give an overview of the decisions I made, things I had to cut, and the general arc…",
-    "published_at": "2023-08-30T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://nora.codes/filk/columbia/",
-    "title": "Fly On, Columbia! (Fly Columbia II)",
-    "url": "https://nora.codes/filk/columbia/",
-    "summary": "“Fly, Columbia” is a deeply hopeful song. Written in 1981 by Diana Gallagher, Leslie Fish’s performance on Minus Ten and Counting was one of the first filk recordings that really captured me. The chorus names OV-102 “the promise of better days to come”, and blesses her to “Sail an orbit free, track the moon and chase the sun.” Yet, that was not her fate, as we know all too well . When I heard The Longest Johns cover “Roll Northumbria” , I immediately thought of this song, and t…",
-    "published_at": "2023-08-28T00:00:00Z",
-    "feed_url": "https://nora.codes/index.xml",
-    "feed_title": "Leonora Tindall on Nora Codes",
-    "owner_username": "NoraCodes",
-    "site_url": "https://nora.codes"
-  },
-  {
-    "id": "https://vgel.me/fiction/silurians/",
-    "title": "silurians",
-    "url": "https://vgel.me/fiction/silurians/",
-    "summary": "Sunday 6:08 PM just got to antarctica :-) looking at the cores tmmrw omg exciting!! wish i was there good luck!!! Monday 4:38 AM ok bear with me found something weird ???",
-    "published_at": "2023-08-23T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "696743775a67c705af8f3543",
-    "title": "Favorite Perfumes",
-    "url": "https://neil.computer/notes/favorite-perfumes/",
-    "summary": "A quick condensed list based on over 15 years of exploration in the world of perfumery. I didn't include obvious classics such as Polo Green and Aramis. If I were to pick 3 perfumes to wear for life, it would be: Hermes Bel Ami, Chanel Antaeus and Serge",
-    "published_at": "2023-08-18T08:14:57Z",
-    "feed_url": "https://neil.computer/rss/",
-    "feed_title": "Neil Panchal",
-    "owner_username": "neilpanchal",
-    "site_url": "https://neil.computer"
   }
 ]
