@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Fri, 12 Jun 2026 15:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 20:30:08 +0000</lastBuildDate>
     <item>
       <title>Comment on We mourn our craft by Friday links: RIP Peter Klopfer, and more | Dynamic Ecology</title>
       <link>https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238397</link>
@@ -184,17 +184,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -255,12 +255,28 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Childhood Computing</title>
+      <link>https://susam.net/childhood-computing.html</link>
+      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
+      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
+      <author>susam</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Algorithm Behind Shazam</title>
       <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
       <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
       <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
       <author>jordi</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don&#39;t Roll Your Own ...</title>
+      <link>https://susam.net/do-not-roll-your-own.html</link>
+      <guid isPermaLink="false">urn:uuid:78208b12-52d0-473f-b325-527720307e2d</guid>
+      <description>This is going to be a rant about modern web design practices. But before I get to that, let me begin with a familiar principle from the world of cryptography. Among software developers, and especially among those who work on security-sensitive systems, there is a well-known maxim: Don&#39;t roll your own crypto. This does not mean that nobody is allowed to write cryptographic code. Someone has to. It means that, for ordinary production software that protects sensitive data of users, we should not re…</description>
+      <author>susam</author>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>rqlite v10.1: Schema management via the Web Console</title>
@@ -335,12 +351,28 @@
       <pubDate>Sat, 16 May 2026 00:57:19 +0000</pubDate>
     </item>
     <item>
+      <title>Five Minutes of Prime Time</title>
+      <link>https://susam.net/five-minutes-of-prime-time.html</link>
+      <guid isPermaLink="false">urn:uuid:98fe77c7-c72a-4c4a-93da-315d1342a76b</guid>
+      <description>Let me share a very silly story from roughly 18 years ago! In 2008, I joined RSA , the network security company named after the initials of the inventors of the RSA algorithm, Rivest, Shamir and Adleman, who were also the founders of RSA, the company. There was a bit of a nerd culture in the workplace where topics like prime numbers, combinatorics, probability theory, etc. were discussed fervently. A prime-number employee number was considered a lucky charm. I had a rather nice large five-digit …</description>
+      <author>susam</author>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/05/15/998851089162711041</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/05/15/998851089162711041</guid>
       <description>What good is a laptop that can&#39;t go to sleep Your browser doesn&#39;t seem to support HTML video. You can download the video instead.</description>
       <author>jcs</author>
       <pubDate>Fri, 15 May 2026 16:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Commenting Guidelines</title>
+      <link>https://susam.net/commenting.html</link>
+      <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
+      <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
+      <author>susam</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Technology with a Human Face</title>
@@ -382,12 +414,28 @@
       <pubDate>Mon, 11 May 2026 00:21:52 +0000</pubDate>
     </item>
     <item>
+      <title>The Problem of Pedagogy in Advanced Mathematics</title>
+      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
+      <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
+      <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
+      <author>susam</author>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/05/09/996796827831476225</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/05/09/996796827831476225</guid>
       <description>well that&#39;s gonna cost some money</description>
       <author>jcs</author>
       <pubDate>Sun, 10 May 2026 04:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Will Not Add Query Strings to Your URLs</title>
+      <link>https://susam.net/no-query-strings.html</link>
+      <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
+      <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
+      <author>susam</author>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
@@ -404,6 +452,14 @@
       <description>It&#39;s been a weird year. Last May I was working full-time for a client when they announced that they wanted to try Claude Code. Suddenly, I was furnished with an account and encouragement to try it out. I typed some clumsy prompts into Sonnet 3.5 and it had a clumsy go at writing Rust. It wasn&#39;t that great for my typical development work but I found a few use cases where it could solve annoying or tedious problems. Fast forward to now. New models are extremely capable and my job is infused with A…</description>
       <author>thombles</author>
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wander Console 0.6.0</title>
+      <link>https://susam.net/code/news/wander/0.6.0.html</link>
+      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
+      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
+      <author>susam</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
@@ -428,6 +484,22 @@
       <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
       <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From RSS to Atom</title>
+      <link>https://susam.net/from-rss-to-atom.html</link>
+      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
+      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
+      <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuickQWERTY 1.2.3</title>
+      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
+      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
+      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
+      <author>susam</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
@@ -588,6 +660,14 @@
       <description>rqlite is a lightweight, open-source, distributed relational database built on SQLite and Raft. Antithesis is an autonomous software testing company that runs software inside a deterministic hypervisor, injecting faults and exploring edge cases that the usual testing cannot reach. Last week, Carl Sverre &amp;#8212; a Senior Software Engineer at Antithesis and author of the distributed [&amp;#8230;]</description>
       <author>otoolep</author>
       <pubDate>Fri, 27 Mar 2026 01:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
+      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
+      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
+      <author>statox</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The diminished art of coding</title>
@@ -1036,6 +1116,14 @@
       <pubDate>Sun, 21 Dec 2025 12:30:54 +0000</pubDate>
     </item>
     <item>
+      <title>Synchronized colorscheme toggling for WezTerm and Neovim</title>
+      <link>https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</guid>
+      <description>TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I&#39;ve been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm&#39;s buil…</description>
+      <author>statox</author>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Tickling a Sun Ray 2 - It Speaks!</title>
       <link>https://vito.io/articles/2025-12-15-tickling-sun-ray-it-speaks.html</link>
       <guid isPermaLink="false">https://vito.io/articles/tickling-sun-ray-it-speaks</guid>
@@ -1203,6 +1291,14 @@
       <pubDate>Sun, 05 Oct 2025 18:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Looking for a new terminal emulator on Linux</title>
+      <link>https://www.statox.fr/posts/2025/10/new_terminal_emulator/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2025/10/new_terminal_emulator/</guid>
+      <description>This article is a work in progress Goal 🔗 Replace my current workflow of Gnome Terminal + tmux: Get rid of tmux (Some graphic inconsistencies, one dependency in my dotfiles) Keep my current keyboard centric workflow Ideally choose a tool which works well with Wayland based WM. Why not CPU or even GPU acceleration, NO electron based application Easy to install and update The terminal window can span the whole interface. No annoying &#34;options&#34; bar, scrollbar or fluff. workflow to preserve 🔗 S…</description>
+      <author>statox</author>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Why do LLMs freak out over the seahorse emoji?</title>
       <link>https://vgel.me/posts/seahorse/</link>
       <guid isPermaLink="false">https://vgel.me/posts/seahorse/</guid>
@@ -1243,6 +1339,13 @@
       <pubDate>Tue, 23 Sep 2025 20:12:45 +0000</pubDate>
     </item>
     <item>
+      <title>papershelf</title>
+      <link>https://nezubn.com/papershelf</link>
+      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
+      <author>nezubn</author>
+      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
+    </item>
+    <item>
       <title>products</title>
       <link>https://nezubn.com/products</link>
       <guid isPermaLink="false">https://nezubn.com/products</guid>
@@ -1254,13 +1357,6 @@
       <link>https://nezubn.com/</link>
       <guid isPermaLink="false">https://nezubn.com/</guid>
       <description>Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.</description>
-      <author>nezubn</author>
-      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>papershelf</title>
-      <link>https://nezubn.com/papershelf</link>
-      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
       <author>nezubn</author>
       <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
     </item>
@@ -1441,18 +1537,18 @@
       <pubDate>Tue, 24 Jun 2025 21:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is AI Really Killing Critical Thought?</title>
-      <link>https://boehs.org/node/ai-and-critical-thinking</link>
-      <guid isPermaLink="false">/node/ai-and-critical-thinking</guid>
-      <description>A letter that was once written to my town</description>
-      <author>boehs</author>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The 3DS Still Holds Up</title>
       <link>https://boehs.org/node/3ds</link>
       <guid isPermaLink="false">/node/3ds</guid>
       <description>I know the Switch 2 just came on but I want to give you a love letter to my 3DS</description>
+      <author>boehs</author>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is AI Really Killing Critical Thought?</title>
+      <link>https://boehs.org/node/ai-and-critical-thinking</link>
+      <guid isPermaLink="false">/node/ai-and-critical-thinking</guid>
+      <description>A letter that was once written to my town</description>
       <author>boehs</author>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1892,6 +1988,14 @@
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Python codegolf tips</title>
+      <link>https://www.statox.fr/posts/2025/01/python_golf_tips/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2025/01/python_golf_tips/</guid>
+      <description>See also my Javascript golf page Resources 🔗 Useful code to copy/paste in codingame &#34;fastest&#34; challenges: def log ( * args ) : import sys ; print ( * args , file = sys . stderr ) Input parsing 🔗 To call create an input from calling the same function several times: [ input ( ) for i in range ( 8 ) ] [ i ( ) for i in [ input ] * 8 ] [ input ( ) for _ in &#34;1&#34; * 8 ] Note that the list comprehension might be better in some cases. Example with The Descent where we need to read a list of integers …</description>
+      <author>statox</author>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>procrastination of the call</title>
       <link>https://vgel.me/fiction/procrastination-of-the-call/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/procrastination-of-the-call/</guid>
@@ -1931,18 +2035,18 @@
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>I Was Just Censored by Meta</title>
-      <link>https://boehs.org/node/meta-censorship</link>
-      <guid isPermaLink="false">/node/meta-censorship</guid>
-      <description>I took to Instagram to complain about Instagram. Here&#39;s how it went.</description>
-      <author>boehs</author>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Homomorphic Encryption in iOS 18</title>
       <link>https://boehs.org/node/homomorphic-encryption</link>
       <guid isPermaLink="false">/node/homomorphic-encryption</guid>
       <description>A mathematical miracle enables Apple&#39;s servers to process your photos while never knowing anything about them</description>
+      <author>boehs</author>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Was Just Censored by Meta</title>
+      <link>https://boehs.org/node/meta-censorship</link>
+      <guid isPermaLink="false">/node/meta-censorship</guid>
+      <description>I took to Instagram to complain about Instagram. Here&#39;s how it went.</description>
       <author>boehs</author>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
     </item>
@@ -2282,110 +2386,6 @@
       <guid isPermaLink="false">https://vgel.me/fiction/universe-stable-loop/</guid>
       <author>vgel</author>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long Distance Relationships</title>
-      <link>https://matt.blwt.io/post/long-distance-relationships/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/long-distance-relationships/</guid>
-      <description>I’ve been managing a fully remote, fully distributed team, covering timezones from UTC-8 through UTC+10, for the last couple of years. Through that time, I’ve learned a lot on organising work, interpersonal relationships, and ultimately how to overcome a lack of promximity to my reports.</description>
-      <author>mble</author>
-      <pubDate>Sat, 12 Oct 2024 11:46:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build Systems, Not Heroes</title>
-      <link>https://vitonsky.net/blog/2024/10/11/system-approach/</link>
-      <guid isPermaLink="false">https://vitonsky.net/blog/2024/10/11/system-approach/</guid>
-      <description>Enterprise programming is the management of system complexity. The main goals of most enterprise projects are to minimize bugs, ensure scalability, and release as soon as possible. These goals are unreachable in projects where people rely on individual skills rather than on a system-based approach.</description>
-      <author>vitonsky</author>
-      <pubDate>Fri, 11 Oct 2024 13:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Joy and Pain of Problem-Solving</title>
-      <link>https://jordivillar.com/notes/problem-solving/</link>
-      <guid isPermaLink="false">https://jordivillar.com/notes/problem-solving/</guid>
-      <description>Investigating challenging problems and bugs is an exciting experience that often leads to remarkable discoveries and personal growth. As a engineer, I’ve always found joy in decoding complex issues and diving deep into the unknown. The thrill of the hunt, the satisfaction of piecing together clues, and the ahá moment when everything falls into place are unique. One of the most rewarding aspects of problem-solving is the opportunity to learn new things. Every bug, every system failure, and eve…</description>
-      <author>jordi</author>
-      <pubDate>Sun, 06 Oct 2024 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adding Tags to My Projects Page</title>
-      <link>https://nora.codes/post/adding-tags-to-my-projects-page/</link>
-      <guid isPermaLink="false">https://nora.codes/post/adding-tags-to-my-projects-page/</guid>
-      <description>I’ve wanted to change up my projects page for a while, but wasn’t quite sure what to do. I didn’t want to use any JavaScript, but I did want to organize projects in multiple different ways, rather than just a single set of categories like I’ve had for a long time. Ultimately what I settled on is a tag system. The tags look like this: Project Name author library rust is a project! These tags are just text with some styling applied, and they’re inserted with a Hugo shortcode. I originall…</description>
-      <author>NoraCodes</author>
-      <pubDate>Thu, 03 Oct 2024 15:23:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ad hoc tools for gathering prompt context</title>
-      <link>https://austinhenley.com/blog/promptcontext.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/promptcontext.html</guid>
-      <description>https://austinhenley.com/blog/promptcontext.html</description>
-      <author>azhenley</author>
-      <pubDate>Tue, 01 Oct 2024 03:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>BlueSCSI Wi-Fi Desk Accessory 1.2 Released</title>
-      <link>https://jcs.org/2024/09/23/wifi_da12</link>
-      <guid isPermaLink="false">https://jcs.org/2024/09/23/wifi_da12</guid>
-      <description>BlueSCSI Wi-Fi Desk Accessory 1.2 has been released: wifi_da-1.2.sit (StuffIt 3 archive) SHA256: 984935cc5e3e2510 2849cd41c52764cb 08060d183d48cfb4 9f9da3eead49aea8 SHA1: 980b17f58babb839 977b7d714f8556a8 2bf33c7e Changes in this version: Added an &#34;(Other Network)&#34; option to the SSID list to manually enter a hidden SSID</description>
-      <author>jcs</author>
-      <pubDate>Mon, 23 Sep 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wallops 2.1 Released</title>
-      <link>https://jcs.org/2024/09/23/wallops21</link>
-      <guid isPermaLink="false">https://jcs.org/2024/09/23/wallops21</guid>
-      <description>Another update to Wallops building on the 2.0 release is available: wallops-2.1.sit (StuffIt 3 archive) SHA256: 7cb16046e076488e 1997e1232631cf2d c9737bac0a94f034 8caf5d183927f4a9 SHA1: fd1d7145aa4baaf5 322175f348644d10 57267a65 This update includes a number of new features and bugfixes: Implement tab completion in channels; by typing part of a user&#39;s nick and pressing tab, the input bar will show their completed nick with &#34;:&#34; after it Do UTF-8 to MacRoman conversion of incoming text, where poss…</description>
-      <author>jcs</author>
-      <pubDate>Mon, 23 Sep 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On people leaving</title>
-      <link>https://www.stchris.net/people-leaving.html</link>
-      <guid isPermaLink="false">https://www.stchris.net/people-leaving.html</guid>
-      <description>On people leaving 2024-09-14 A while back I used to work with someone called Otto. For a short while it was a great place to work, there was great team work and it all felt really good. Except every time someone I liked left the team, I would say to Otto that it&#39;s sad that X is leaving. And then Otto would say &#34;but change is good&#34;. I always think about this statement when someone dear to me and whom I&#39;m in close collaboration with is leaving. The statement feels both wrong and right to me at the…</description>
-      <author>stchris</author>
-      <pubDate>Sat, 14 Sep 2024 15:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wallops 2.0 Released</title>
-      <link>https://jcs.org/2024/09/12/wallops2</link>
-      <guid isPermaLink="false">https://jcs.org/2024/09/12/wallops2</guid>
-      <description>Another large update to my Wallops IRC client is available: wallops-2.0.sit (StuffIt 3 archive, includes source code and THINK C 5 project file) SHA256: 532f6c72eadbb9e7 ce74dded1bfcd713 69a61d818f7c7716 0bb8a66d6f1ccf9c SHA1: c375a24e00900378 e84745c1e11d3d69 76ef749c This release features an overhaul of the interface bringing tabs allowing multiple channels and private message queries, including a number of other new features and bugfixes: Support window resizing, using an initial window size …</description>
-      <author>jcs</author>
-      <pubDate>Thu, 12 Sep 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why I Still Use Python Virtual Environments in Docker</title>
-      <link>https://hynek.me/articles/docker-virtualenv/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/docker-virtualenv/</guid>
-      <description>Whenever I publish something about my Python Docker workflows, I invariably get challenged about whether it makes sense to use virtual environments in Docker containers. As always, it’s a trade-off, and I err on the side of standards and predictability.</description>
-      <author>hynek</author>
-      <pubDate>Mon, 02 Sep 2024 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>usesthis.com interview</title>
-      <link>/posts/uses-this-interview/</link>
-      <guid isPermaLink="false">/posts/uses-this-interview/</guid>
-      <description>A while back I got asked to do a usesthis.com interview, and it is now up here: https://usesthis.com/interviews/james.turk/ . I’m a big fan of usesthis.com and other sites that focus on tools &amp; this was fun to do. A lot has changed between when I wrote this &amp; now, I suppose that means I should write a new post.</description>
-      <author>jptsh</author>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Production-ready Python Docker Containers with uv</title>
-      <link>https://hynek.me/articles/docker-uv/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/docker-uv/</guid>
-      <description>Starting with 0.3.0 , Astral’s uv brought many great features, including support for cross-platform lock files uv.lock . Together with subsequent fixes, it has become Python’s finest workflow tool for my (non-scientific) use cases. Here’s how I build production-ready containers, as fast as possible.</description>
-      <author>hynek</author>
-      <pubDate>Wed, 28 Aug 2024 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evaluating your AI models in the wild</title>
-      <link>https://austinhenley.com/blog/aiinthewild.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/aiinthewild.html</guid>
-      <description>https://austinhenley.com/blog/aiinthewild.html</description>
-      <author>azhenley</author>
-      <pubDate>Sat, 24 Aug 2024 21:00:01 +0000</pubDate>
     </item>
   </channel>
 </rss>
