@@ -121,6 +121,17 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://jordivillar.com/blog/lazy-loading-images/",
+    "title": "How Lazy Container Loading Works",
+    "url": "https://jordivillar.com/blog/lazy-loading-images/",
+    "summary": "A few weeks ago I read Modal’s post on truly serverless GPUs . They describe getting GPU container starts from many minutes down to a few seconds, even on multi-gigabyte images. A few tricks make that possible. I wanted to build the one that handles the image itself, and watch it work. The core trick is surprisingly small, and it’s the same idea behind stargz , SOCI , Nydus , and Modal’s image loader: don’t download the image. Mount a tiny index, and fetch file contents lazily, the first…",
+    "published_at": "2026-06-02T08:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "http://nolanlawson.com/?p=16122#comment-238384",
     "title": "Comment on Using AI to write better code more slowly by Will",
     "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238384",
@@ -165,10 +176,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
+    "id": "https://inkdroid.org/2026/05/31/untitled/",
+    "title": "Untitled",
+    "url": "https://inkdroid.org/2026/05/31/untitled/",
+    "summary": "Untitled by John Summers",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -176,10 +187,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/untitled/",
-    "title": "Untitled",
-    "url": "https://inkdroid.org/2026/05/31/untitled/",
-    "summary": "Untitled by John Summers",
+    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -220,10 +231,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -231,10 +242,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -297,6 +308,17 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://jordivillar.com/reads/2026w20/",
+    "title": "2026W20",
+    "url": "https://jordivillar.com/reads/2026w20/",
+    "summary": "We’ve made the world too complicated — The piece names something I keep circling back to — most of us operate daily within systems we can’t meaningfully inspect. We write code on machines we don’t fully understand, live under laws we haven’t read, eat food from supply chains we can’t trace. The author doesn’t pretend to have a fix, and that honesty is the whole point. The temptation is always to either despair at the complexity or act like you’ve got a handle on it. The harder …",
+    "published_at": "2026-05-24T13:23:21Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://inkdroid.org/2026/05/24/bookmarks/",
     "title": "Weekly Bookmarks",
     "url": "https://inkdroid.org/2026/05/24/bookmarks/",
@@ -306,6 +328,17 @@
     "feed_title": "inkdroid",
     "owner_username": "edsu",
     "site_url": "https://inkdroid.org"
+  },
+  {
+    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "title": "The Algorithm Behind Shazam",
+    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://philipotoole.com/?p=8315",
@@ -363,10 +396,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -374,10 +407,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -682,6 +715,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://jordivillar.com/notes/act-like-what-you-want-to-be/",
+    "title": "Act like what you want to be",
+    "url": "https://jordivillar.com/notes/act-like-what-you-want-to-be/",
+    "summary": "I used to roll my eyes at people who started a new sport and immediately bought all the gear. Day one of running and they’re already showing up with top-of-the-line shoes, a smartwatch, wireless earbuds, and the most aerodynamic outfit money could buy. What a waste, I’d think. They haven’t even proven they like this yet. I’ve changed my mind. Buying the gear is a statement. Not to others, to yourself. It’s how some people say: I believe I can do this, and I’m going to. That belief is…",
+    "published_at": "2026-04-15T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "urn:uuid:00337a02-b7ee-433b-b0e8-ad125637978d",
     "title": "Promoting use of fine-grained PATs",
     "url": "https://octet-stream.net/b/scb/2026-04-11-promoting-use-of-fine-grained-pats.html",
@@ -716,6 +760,28 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://jordivillar.com/reads/2026w13/",
+    "title": "2026W13",
+    "url": "https://jordivillar.com/reads/2026w13/",
+    "summary": "The Singularity Will Not Be Streamed — What makes this story land is the contrast. The Singularity doesn’t get stopped by a hero or a kill switch — it gets killed by a toothpick, a neighborhood meeting about an electric car charger, and a phone thrown at the wrong moment. Meanwhile, Pau is worrying about his kid’s cavities and whether his startup pitch makes sense. The most consequential event in human history happens on a Mac mini in a Spanish apartment, and nobody notices. Funny, but a…",
+    "published_at": "2026-04-05T12:47:36Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://jordivillar.com/notes/nobody-talks-about-the-hardware/",
+    "title": "Nobody Talks About the Hardware",
+    "url": "https://jordivillar.com/notes/nobody-talks-about-the-hardware/",
+    "summary": "These days I’ve found myself reading about hardware shortage and how RAM, disk, and NAND manufacturers have all their production for 2026 already sold to AI/Data center companies. It had me thinking about the strange position compute finds itself in right now. GPUs weren’t designed for AI. They were designed for graphics as in pushing pixels, rendering triangles. It turned out that the math for doing that at scale overlaps just enough with neural network math. The entire current AI boom runs…",
+    "published_at": "2026-04-03T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://philipotoole.com/?p=8100",
     "title": "Antithesis chooses rqlite to demonstrate AI-assisted testing",
     "url": "https://philipotoole.com/antithesis-chooses-rqlite-to-demonstrate-ai-assisted-testing/",
@@ -738,6 +804,17 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://jordivillar.com/notes/between-jobs/",
+    "title": "Between jobs",
+    "url": "https://jordivillar.com/notes/between-jobs/",
+    "summary": "Currently I’m between jobs. Nothing special, a lot of people go between jobs. After working for several years on a fast-paced startup, you might be tempted to jump back to your next role. You could feel it or not, but you’re likely tired, even close to burnout. Taking a break between jobs is not just about resting. It’s about taking a step back, reflecting on your work, and finding a new path forward. If you’re looking for a break, take a break. And the most important thing, don’t try …",
+    "published_at": "2026-03-17T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog",
     "title": "Federated Replies and Reactions in Madblog",
     "url": "https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog",
@@ -758,6 +835,17 @@
     "feed_title": "Fabio Manganiello",
     "owner_username": "blacklight",
     "site_url": "https://fabiomanganiello.com"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2026w10/",
+    "title": "2026W10",
+    "url": "https://jordivillar.com/reads/2026w10/",
+    "summary": "Nobody Gets Promoted for Simplicity — The Engineer A vs Engineer B comparison is painfully recognizable. A ships a 50-line solution in days, B builds an event-driven architecture over three weeks, and B gets the promotion because “designed scalable architecture” reads better in a review doc than “solved it simply.” The line that stuck: “anyone can add complexity. It takes experience and confidence to leave it out.” I’ve been on both sides of this — writing the simple solution a…",
+    "published_at": "2026-03-09T09:35:28Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://philipotoole.com/?p=8088",
@@ -802,6 +890,28 @@
     "feed_title": "Austin Z. Henley's Blog",
     "owner_username": "azhenley",
     "site_url": "http://austinhenley.com/"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2026w07/",
+    "title": "2026W07",
+    "url": "https://jordivillar.com/reads/2026w07/",
+    "summary": "Hedonism and Entrepreneurship in Barcelona — A potential acquisition dies because a vegan exec unknowingly eats mayo on patatas bravas. A critical migration stalls at 69% while the engineer responsible plays ping-pong. Having lived the Barcelona startup scene myself, this one hit close. The absurdity is the point — startup success is so much more arbitrary than anyone wants to admit, and the line between “almost rich” and “back to Monday” is thinner than your Series A pitch deck sugg…",
+    "published_at": "2026-02-22T12:39:09Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://jordivillar.com/blog/tinybird/",
+    "title": "Four Years at Tinybird",
+    "url": "https://jordivillar.com/blog/tinybird/",
+    "summary": "I worked at Tinybird for 4 years, 2 months, and 21 days. It’s been an incredible experience that taught me a lot about startups, engineering, and myself. Still, it feels like I joined a lifetime ago. At this point, you’re probably wondering why? Why are you writing this post about leaving a startup? One of the things I enjoyed most about my early days at Tinybird was the long-form writing culture. It allowed us to express ideas and thoughts, share knowledge, and collaborate. Something diffic…",
+    "published_at": "2026-02-21T11:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://vito.io/articles/the-specification",
@@ -873,6 +983,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://jordivillar.com/reads/2026w05/",
+    "title": "2026W05",
+    "url": "https://jordivillar.com/reads/2026w05/",
+    "summary": "My AI Adoption Journey — The most practical thing here is the “reproduce your own work” phase: doing tasks manually and then redoing them with agents. Painful, but it forces you to learn where agents actually help versus where you’re just cargo-culting. I also liked the idea of end-of-day agent sessions to get warm starts the next morning. What resonated most is his framing around craftsmanship rather than ideology — he doesn’t care if AI is here to stay, he just wants to do good wor…",
+    "published_at": "2026-02-08T10:53:56Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://vgel.me/fiction/claugenition/",
     "title": "claugenition",
     "url": "https://vgel.me/fiction/claugenition/",
@@ -925,6 +1046,17 @@
     "feed_title": "Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2026w04/",
+    "title": "2026W04",
+    "url": "https://jordivillar.com/reads/2026w04/",
+    "summary": "Automatic Programming — The distinction antirez makes here finally gave me language for something I’ve been fumbling with. It’s not about whether you use AI to write code—it’s about whether you’re steering or just prompting and hoping. His Redis example hit hard: the value wasn’t in technical novelty but in the contained vision. That maps to what I see working well versus the codebases that feel like they emerged from a chatbot fever dream. Email triage with an embedding-based clas…",
+    "published_at": "2026-02-01T11:19:27Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15604",
@@ -992,6 +1124,17 @@
     "site_url": "https://vgel.me"
   },
   {
+    "id": "https://jordivillar.com/reads/2026w03/",
+    "title": "2026W03",
+    "url": "https://jordivillar.com/reads/2026w03/",
+    "summary": "I’m addicted to being useful — This hit close. The idea that some of us are fundamentally wired to solve problems, and engineering just happens to fit that dysfunction perfectly. I’ve been thinking about whether my drive to build things comes from genuine interest or just this compulsion to be useful. His point about how this actually protects against burnout when you can satisfy it rings true. How ClickHouse handles strings — The overlapping memory reads technique is wild. Reading the s…",
+    "published_at": "2026-01-25T12:34:09Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "http://nolanlawson.com/?p=15526",
     "title": "AI tribalism",
     "url": "https://nolanlawson.com/2026/01/24/ai-tribalism/",
@@ -1034,6 +1177,28 @@
     "feed_title": "Austin Z. Henley's Blog",
     "owner_username": "azhenley",
     "site_url": "http://austinhenley.com/"
+  },
+  {
+    "id": "https://jordivillar.com/blog/trust-but-verify/",
+    "title": "Trust AI, But Verify",
+    "url": "https://jordivillar.com/blog/trust-but-verify/",
+    "summary": "I wanted to understand buffer pool replacement policies better. So I asked Claude to run an experiment: implement LRU, Clock, LFU, and ARC, benchmark them under different workloads, tell me which one’s best. Claude wrote 2,000 lines of C++. Compiled it. Ran the benchmarks. Gave me results. “Simple LRU performs just as well as sophisticated ARC.” I almost bought it. The Results Looked Credible Zipfian Workload: LRU: 80.7% hit rate ARC: 80.4% hit rate Buffer Size Scaling: 10% buffer: LRU 66.…",
+    "published_at": "2026-01-17T12:40:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://jordivillar.com/notes/work-only-i-can-do/",
+    "title": "Work only I can do",
+    "url": "https://jordivillar.com/notes/work-only-i-can-do/",
+    "summary": "My entire strategy is to do the work only I can do. Work that can’t be taught. Work that requires some unique combination of my skills, opinions, tastes, and experiences. Work that without me, wouldn’t get done. Everyone’s talking about AI replacing jobs, automating work, making developers obsolete. The discourse is exhausting. Half the people are panicking, the other half are in denial, and nobody seems to be asking the right question. The question isn’t whether AI can write code. It ca…",
+    "published_at": "2026-01-14T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://philipotoole.com/?p=7852#comment-86263",
@@ -1102,6 +1267,17 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://jordivillar.com/reads/2026w00/",
+    "title": "2026W00",
+    "url": "https://jordivillar.com/reads/2026w00/",
+    "summary": "Distinguishing yourself early in your career as a developer — Honestly? This hit different. Phil breaks down the job market into three tiers and the advice that stuck: start local, skip the FAANG obsession early on, and—here’s what I appreciate most—write consistently about niche technical stuff. Not for clout, but because it’s genuinely one of the most effective ways to build credibility over time. The 6-12 month job search reality check is brutal but refreshing. Also, the idea that s…",
+    "published_at": "2026-01-04T18:53:33Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/",
     "title": "Manually Restoring Scroll Position on Reload with JavaScript",
     "url": "https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/",
@@ -1168,6 +1344,28 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://jordivillar.com/reads/2025w51/",
+    "title": "2025W51",
+    "url": "https://jordivillar.com/reads/2025w51/",
+    "summary": "How uv got so fast — This one hit different because everyone’s been saying “uv is fast because Rust” but the real story is way more interesting. It’s fast because of what it doesn’t do—no legacy .egg support, no bytecode compilation, no permissive spec violations. The timing was perfect: PEP 658 landed on PyPI in May 2023, giving direct access to package metadata, and uv launched February 2024. Honestly? Most of the speedups (parallel downloads, global cache, the PubGrub resolver) …",
+    "published_at": "2025-12-28T12:32:09Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://jordivillar.com/notes/166-hours/",
+    "title": "166 hours",
+    "url": "https://jordivillar.com/notes/166-hours/",
+    "summary": "Last year I wrote about hitting 130 hours of working out. I ended that note with a line I repeated three times: “I’m going to keep making progress.” I didn’t know if I’d actually do it. Part of me wondered if writing it down was just another way of setting myself up for disappointment. This year was rough. The kind of year where everything important changed in the span of a week, and the months after felt like trying to find solid ground that kept shifting. I still managed to work out …",
+    "published_at": "2025-12-27T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://vgel.me/fiction/the-high-room/",
     "title": "The High Room",
     "url": "https://vgel.me/fiction/the-high-room/",
@@ -1177,6 +1375,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2025w50/",
+    "title": "2025W50",
+    "url": "https://jordivillar.com/reads/2025w50/",
+    "summary": "Thin Desires Are Eating Your Life — This hit different. The distinction between thin desires (scrolling, checking notifications) and thick desires (learning something hard, building real skills) explains so much about why we feel empty despite having instant access to everything. What really stuck with me: tech companies have figured out how to extract the dopamine hit from meaningful activities while stripping away the transformation. Social media gives you the reward of connection without an…",
+    "published_at": "2025-12-21T12:30:54Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://vito.io/articles/tickling-sun-ray-it-speaks",
@@ -1200,6 +1409,17 @@
     "feed_title": "Fabio Manganiello",
     "owner_username": "blacklight",
     "site_url": "https://fabiomanganiello.com"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2025w49/",
+    "title": "2025W49",
+    "url": "https://jordivillar.com/reads/2025w49/",
+    "summary": "SQLite JSON Superpower: Virtual Columns + Indexing — This is one of those “why didn’t I know about this sooner?” moments. The idea is simple but powerful: dump your JSON into SQLite, create virtual columns that extract specific fields on the fly, then slap indexes on those virtual columns. Boom, you’ve got schemaless flexibility with relational performance. No backfilling, no migration headaches. You can literally add a new indexed column later without touching your data. The beauty is…",
+    "published_at": "2025-12-14T12:31:05Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://vito.io/articles/tickling-sun-ray-discovery",
@@ -1279,6 +1499,17 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://jordivillar.com/blog/memory-alignment/",
+    "title": "64-bit Misalignment",
+    "url": "https://jordivillar.com/blog/memory-alignment/",
+    "summary": "I’ve been following CMU’s 15-445/645 Database Systems course lately, trying to fill some gaps in my low-level systems knowledge. When the lectures covered memory alignment, it all made perfect sense. Cache lines, multiple memory operations, hardware penalties. Textbook stuff. But here’s the thing: I don’t trust theory until I’ve seen it break something myself. So I decided to write a benchmark. Simple plan: create two structs (one with natural alignment, one tightly packed) and demonst…",
+    "published_at": "2025-11-17T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "https://nora.codes/post/infrastructure-photography-manifesto-and-decker-in-html/",
@@ -1369,6 +1600,17 @@
     "site_url": "https://agnishom.github.io"
   },
   {
+    "id": "https://jordivillar.com/reads/2025w38/",
+    "title": "2025W38",
+    "url": "https://jordivillar.com/reads/2025w38/",
+    "summary": "Surviving Long-Running Projects — A nice reality check on how grueling big projects can be. The author basically says: expect them to drag on, plan for “boring” maintenance, and set up routines to keep your motivation and mental health intact. It’s more about staying sane than about technical tricks. How we built it: Real-time analytics for Stripe Billing — This is a cool peek under the hood. Stripe walks through how they built real-time analytics on top of billing, mixing Kafka, Flink…",
+    "published_at": "2025-09-28T12:27:37Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://vgel.me/fiction/vlvm/",
     "title": "vlvm",
     "url": "https://vgel.me/fiction/vlvm/",
@@ -1389,6 +1631,48 @@
     "feed_title": "Gabriel Garrido",
     "owner_username": "ggpsv",
     "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://nezubn.com/products",
+    "title": "products",
+    "url": "https://nezubn.com/products",
+    "published_at": "2025-09-23T01:22:11Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
+    "id": "https://nezubn.com/papershelf",
+    "title": "papershelf",
+    "url": "https://nezubn.com/papershelf",
+    "published_at": "2025-09-23T01:22:11Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
+    "id": "https://nezubn.com/",
+    "title": "An Engineer's Musings",
+    "url": "https://nezubn.com/",
+    "summary": "Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.",
+    "published_at": "2025-09-23T01:22:11Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
+    "id": "https://nezubn.com/posts/liquid_glass",
+    "title": "Liquid Glass Buttons",
+    "url": "https://nezubn.com/posts/liquid_glass",
+    "summary": "Apple released Liquid Glass with iOS 26.0 back in June at WWDC 2025.",
+    "published_at": "2025-09-21T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
   },
   {
     "id": "https://hynek.me/talks/python-superpower/",
@@ -1412,6 +1696,17 @@
     "feed_title": "Austin Z. Henley's Blog",
     "owner_username": "azhenley",
     "site_url": "http://austinhenley.com/"
+  },
+  {
+    "id": "https://nezubn.com/posts/social",
+    "title": "My social nest",
+    "url": "https://nezubn.com/posts/social",
+    "summary": "These are few of the places where you can find me on the internet.",
+    "published_at": "2025-09-14T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
   },
   {
     "id": "/posts/like-your-terminal-part-1/",
@@ -1469,6 +1764,17 @@
     "site_url": "https://matt.blwt.io"
   },
   {
+    "id": "https://nezubn.com/musings/musings_4",
+    "title": "Musings 4",
+    "url": "https://nezubn.com/musings/musings_4",
+    "summary": "The summer is finally coming to its end. The days are getting a little less warmer now. To be honest, I despise the heat.",
+    "published_at": "2025-08-23T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
     "id": "https://jcs.org/2025/08/19/wifi_da14",
     "title": "BlueSCSI Wi-Fi Desk Accessory 1.4 Released",
     "url": "https://jcs.org/2025/08/19/wifi_da14",
@@ -1513,6 +1819,17 @@
     "site_url": "https://jpt.sh"
   },
   {
+    "id": "https://jordivillar.com/reads/2025w31/",
+    "title": "2025W31",
+    "url": "https://jordivillar.com/reads/2025w31/",
+    "summary": "No, AI is not Making Engineers 10x as Productive — AI does not make engineers ten times more productive because much of coding involves thinking, reading, and preventing unnecessary work. AI helps with small tasks and gives short bursts of speed, but it often encourages haste and over-building. True productivity comes from experience, good habits, and teamwork, not just using AI tools. All the cool kids are doing it — The author is unsure about using large language models (LLMs) for coding b…",
+    "published_at": "2025-08-08T15:45:13Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist",
     "title": "Render your Jupyter notebooks in OpenGist",
     "url": "https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist",
@@ -1535,6 +1852,28 @@
     "site_url": "https://vitonsky.net"
   },
   {
+    "id": "https://jordivillar.com/blog/becoming-irrelevant/",
+    "title": "Am I Becoming Irrelevant?",
+    "url": "https://jordivillar.com/blog/becoming-irrelevant/",
+    "summary": "It feels silly to write just another blogpost about how to transition to a leadership role. Hopefully this is not a post about how to succeed in that transition. This is about how I felt every time I’ve been promoted to a leadership role. And how I haven’t been able to describe the frustration I felt. I’m writing it down (and publishing it) as a way to process it. I Used to Feel Relevant It usually starts with a few years into a company. I got things done. I shipped features that mattered.…",
+    "published_at": "2025-07-14T00:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://nezubn.com/posts/einsum",
+    "title": "What is Einsum anyway?",
+    "url": "https://nezubn.com/posts/einsum",
+    "summary": "Einstein summation lets us write an algebric expression in index-notation and have numpy/pytorch/jax generate the most effiecient set of tensor operations to compute it.",
+    "published_at": "2025-07-09T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
     "id": "https://vito.io/articles/a-better-conventional-commit",
     "title": "A Better Conventional Commit?",
     "url": "https://vito.io/articles/2025-07-07-a-better-conventional-commit.html",
@@ -1545,6 +1884,17 @@
     "feed_title": "Vito Sartori",
     "owner_username": "vito",
     "site_url": "https://vito.io"
+  },
+  {
+    "id": "https://nezubn.com/thoughts",
+    "title": "thoughts",
+    "url": "https://nezubn.com/thoughts",
+    "summary": "Everything I want but don’t have, and everything I have but don’t want, is because I lack knowledge. Quote “The cosmos is within us.",
+    "published_at": "2025-07-07T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
   },
   {
     "id": "https://vitonsky.net/blog/2025/06/24/open-source/",
@@ -1567,6 +1917,17 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://nezubn.com/musings/musings_3",
+    "title": "Musings 3",
+    "url": "https://nezubn.com/musings/musings_3",
+    "summary": "June is the most exciting month for me. Every year Apple organises its World Wide Developer Conference (WWDC) in June.",
+    "published_at": "2025-06-20T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
   },
   {
     "id": "https://austinhenley.com/blog/100.html",
@@ -1613,6 +1974,17 @@
     "site_url": "http://austinhenley.com/"
   },
   {
+    "id": "https://jordivillar.com/reads/2025w23/",
+    "title": "2025W23",
+    "url": "https://jordivillar.com/reads/2025w23/",
+    "summary": "Thrive in obscurity — Creative success often starts in obscurity, with many creators spending years sharing their work with few or no viewers. To stay motivated, focus on creating what you love instead of chasing popularity, as this will lead to better work and attract like-minded fans. Treat your early content as an investment for future audiences, knowing they may return to appreciate your journey later on. If you are useful, it doesn’t mean you are valued — In your career, being useful …",
+    "published_at": "2025-06-10T00:09:44Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://vgel.me/fiction/would-you-still-love-me/",
     "title": "Would you still love me...",
     "url": "https://vgel.me/fiction/would-you-still-love-me/",
@@ -1655,6 +2027,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://nezubn.com/musings/musings_2",
+    "title": "Musings 2",
+    "url": "https://nezubn.com/musings/musings_2",
+    "summary": "Oh man, did I skip a beat or what? I had thought that I would be regular in writing these but I have been shit lately.",
+    "published_at": "2025-05-24T00:00:00Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
   },
   {
     "id": "https://vito.io/articles/goodbye-arc",
@@ -1725,6 +2108,17 @@
     "site_url": "https://adriano.fyi"
   },
   {
+    "id": "https://jordivillar.com/blog/query-booster/",
+    "title": "Query Booster: How Tinybird optimizes table schemas for you",
+    "url": "https://jordivillar.com/blog/query-booster/",
+    "summary": "Original article: https://www.tinybird.co/blog-posts/query-booster-how-tinybird-optimizes-table-schemas-for-you A customer recently reached out to us with an interesting observation: their query latency had mysteriously dropped without any manual intervention. What they discovered was our Query Booster, quietly optimizing their workload behind the scenes. Query Booster automatically adapts to your database usage patterns, fine-tuning data source schemas for optimal performance. An example of Que…",
+    "published_at": "2025-05-12T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://austinhenley.com/blog/proactiveai.html",
     "title": "Where are the proactive AI coding tools?",
     "url": "https://austinhenley.com/blog/proactiveai.html",
@@ -1759,6 +2153,17 @@
     "site_url": "http://austinhenley.com/"
   },
   {
+    "id": "https://jordivillar.com/reads/2025w14/",
+    "title": "2025W14",
+    "url": "https://jordivillar.com/reads/2025w14/",
+    "summary": "What If We Made Advertising Illegal? — The idea of making advertising illegal may sound silly but couldn’t agree more. I’ve been unlucky enough to work for the industry and can’t imagine a better society with the current practices. Notes on kindness — “So eventually, if you care, you leave” The case against conversational interfaces — Conversational interfaces, like voice assistants and chatbots, often promise a new way to interact with technology but fail to replace traditional …",
+    "published_at": "2025-04-13T12:26:32Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://vgel.me/fiction/i-am-a-cat/",
     "title": "i am a cat",
     "url": "https://vgel.me/fiction/i-am-a-cat/",
@@ -1789,6 +2194,17 @@
     "feed_title": "Fabio Manganiello",
     "owner_username": "blacklight",
     "site_url": "https://fabiomanganiello.com"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2025w11/",
+    "title": "2025W11",
+    "url": "https://jordivillar.com/reads/2025w11/",
+    "summary": "Less ceremony, more shipping — Tinybird introduces their new deployment tool, which simplifies data schema changes for teams. This tool automates the entire deployment process, ensuring no downtime and minimizing errors. By applying software engineering best practices to data workflows, it allows developers to focus more on building rather than troubleshooting. PlanetScale redesign — Twitter thread about how PlanetScale redesigned their website and the impact it had. And a follow-up showing …",
+    "published_at": "2025-03-23T20:12:30Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "67dd64d98a98d90001587e92",
@@ -1834,6 +2250,17 @@
     "feed_title": "joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://jordivillar.com/reads/2025w09/",
+    "title": "2025W09",
+    "url": "https://jordivillar.com/reads/2025w09/",
+    "summary": "It’s been a while since the last time I published a post with the list of articles I’ve read. This one contains the highlights from the past few months. We Were Wrong About GPUs — Fly.io invested in GPU Machines to support AI/ML tasks for developers, but they learned that most developers prefer using APIs for AI instead of managing GPUs themselves. Despite the challenges and costs of deploying GPUs, they found that the demand for these machines was lower than expected. The company is now s…",
+    "published_at": "2025-03-09T13:10:52Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "/posts/map-python-data/",
@@ -1913,16 +2340,6 @@
     "site_url": "https://samrat.me"
   },
   {
-    "id": "https://vgel.me/fiction/dancing-statues/",
-    "title": "traditions (🔊)",
-    "url": "https://vgel.me/fiction/dancing-statues/",
-    "published_at": "2025-02-15T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
     "id": "/posts/third-wave-civic-tech/",
     "title": "Civic Tech's Third Wave",
     "url": "/posts/third-wave-civic-tech/",
@@ -1932,6 +2349,16 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://vgel.me/fiction/dancing-statues/",
+    "title": "traditions (🔊)",
+    "url": "https://vgel.me/fiction/dancing-statues/",
+    "published_at": "2025-02-15T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://vgel.me/fiction/minister-of-worms/",
@@ -2031,17 +2458,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://trekhleb.dev/blog/2025/jobs-radar/",
-    "title": "Tech Jobs Radar",
-    "url": "https://trekhleb.dev/blog/2025/jobs-radar/",
-    "summary": "A snapshot of open job positions from the top tech companies around the world, offering insights into geographical trends in the tech job market.",
-    "published_at": "2025-01-12T00:00:00Z",
-    "feed_url": "https://trekhleb.dev/rss.xml",
-    "feed_title": "Trekhleb.dev RSS Feed",
-    "owner_username": "trekhleb",
-    "site_url": "https://trekhleb.dev"
-  },
-  {
     "id": "https://vgel.me/fiction/done-what-next/",
     "title": "DONE. WHAT NEXT?",
     "url": "https://vgel.me/fiction/done-what-next/",
@@ -2051,6 +2467,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://trekhleb.dev/blog/2025/jobs-radar/",
+    "title": "Tech Jobs Radar",
+    "url": "https://trekhleb.dev/blog/2025/jobs-radar/",
+    "summary": "A snapshot of open job positions from the top tech companies around the world, offering insights into geographical trends in the tech job market.",
+    "published_at": "2025-01-12T00:00:00Z",
+    "feed_url": "https://trekhleb.dev/rss.xml",
+    "feed_title": "Trekhleb.dev RSS Feed",
+    "owner_username": "trekhleb",
+    "site_url": "https://trekhleb.dev"
   },
   {
     "id": "https://austinhenley.com/blog/25yearsofai.html",
@@ -2072,6 +2499,17 @@
     "feed_title": "Jon Baer",
     "owner_username": "jonbaer",
     "site_url": "https://www.jonbaer.com"
+  },
+  {
+    "id": "https://jordivillar.com/notes/130-hours/",
+    "title": "130 hours",
+    "url": "https://jordivillar.com/notes/130-hours/",
+    "summary": "For the last few years, especially after the pandemic forced us to switch to remote work, I’ve been searching for ways to break free from a stressful, sedentary lifestyle. I’ve been trying to be more consistent. I’ve tried different approaches, but each attempt would start with enthusiasm, only to gradually fade away. This year something was different. I still don’t know what it was, but I’ve been able to keep making progress. I’ve managed to work out for +130 hours. Almost a 70% inc…",
+    "published_at": "2024-12-29T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "676fcc0afcbdfa00011f1a2e",
@@ -2139,6 +2577,17 @@
     "site_url": "https://vgel.me"
   },
   {
+    "id": "https://jordivillar.com/blog/beyond-code/",
+    "title": "Beyond Code",
+    "url": "https://jordivillar.com/blog/beyond-code/",
+    "summary": "Let’s get real for a moment. I’ve been in the software engineering game for a while now. And yet, the impostor syndrome has been haunting me from time to time: what makes me valuable? I’ve been lucky to work with some amazing engineers who can solve any technical challenge, and I’ve seen them struggle with the same question. Here’s what I believe: our most valuable skills aren’t about how many programming languages you can juggle or how many complex algorithms you can solve. The Hard…",
+    "published_at": "2024-12-06T00:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://matt.blwt.io/post/leadership-power-tools-sql-and-statistics/",
     "title": "Leadership Power Tools: SQL and Statistics",
     "url": "https://matt.blwt.io/post/leadership-power-tools-sql-and-statistics/",
@@ -2182,10 +2631,10 @@
     "site_url": "https://matt.blwt.io"
   },
   {
-    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
-    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
+    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "title": "Fly.io Postgres failover fix",
+    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -2193,10 +2642,10 @@
     "site_url": "https://adriano.fyi"
   },
   {
-    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "title": "Fly.io Postgres failover fix",
-    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
+    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
+    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -2477,6 +2926,17 @@
     "site_url": "https://vitonsky.net"
   },
   {
+    "id": "https://jordivillar.com/notes/problem-solving/",
+    "title": "The Joy and Pain of Problem-Solving",
+    "url": "https://jordivillar.com/notes/problem-solving/",
+    "summary": "Investigating challenging problems and bugs is an exciting experience that often leads to remarkable discoveries and personal growth. As a engineer, I’ve always found joy in decoding complex issues and diving deep into the unknown. The thrill of the hunt, the satisfaction of piecing together clues, and the ahá moment when everything falls into place are unique. One of the most rewarding aspects of problem-solving is the opportunity to learn new things. Every bug, every system failure, and eve…",
+    "published_at": "2024-10-06T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://nora.codes/post/adding-tags-to-my-projects-page/",
     "title": "Adding Tags to My Projects Page",
     "url": "https://nora.codes/post/adding-tags-to-my-projects-page/",
@@ -2600,6 +3060,17 @@
     "site_url": "https://neil.computer"
   },
   {
+    "id": "https://jordivillar.com/notes/coding-ai/",
+    "title": "Coding with AI",
+    "url": "https://jordivillar.com/notes/coding-ai/",
+    "summary": "I’ve never been enthusiastic about the AI revolution. However, this week, I started using Zed.dev together with their AI assistant integration. I’m surprised by the experience and efficiency gains. I still have reservations, but it can be valuable allies in tackling programming challenges and routine tasks. For example, a few days ago, I was working on a tool that needed to parse ClickHouse explain output 1 , an easy task requiring recursively transverse all the properties looking for some s…",
+    "published_at": "2024-08-23T00:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts",
     "title": "Configuring SSH Keys for Multiple GitHub Accounts",
     "url": "https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts",
@@ -2611,9 +3082,9 @@
     "site_url": "https://stevenharman.net"
   },
   {
-    "id": "https://vgel.me/fiction/triangle/",
-    "title": "triangle",
-    "url": "https://vgel.me/fiction/triangle/",
+    "id": "https://vgel.me/fiction/invasive-species/",
+    "title": "invasive species",
+    "url": "https://vgel.me/fiction/invasive-species/",
     "published_at": "2024-08-19T00:00:00Z",
     "feed_url": "https://vgel.me/feed.xml",
     "feed_title": "Theia Vogel's website \u0026 blog",
@@ -2621,9 +3092,9 @@
     "site_url": "https://vgel.me"
   },
   {
-    "id": "https://vgel.me/fiction/invasive-species/",
-    "title": "invasive species",
-    "url": "https://vgel.me/fiction/invasive-species/",
+    "id": "https://vgel.me/fiction/triangle/",
+    "title": "triangle",
+    "url": "https://vgel.me/fiction/triangle/",
     "published_at": "2024-08-19T00:00:00Z",
     "feed_url": "https://vgel.me/feed.xml",
     "feed_title": "Theia Vogel's website \u0026 blog",
@@ -2665,16 +3136,6 @@
     "site_url": "https://agnishom.github.io"
   },
   {
-    "id": "https://vgel.me/fiction/clone-o-matic/",
-    "title": "clone-o-matic",
-    "url": "https://vgel.me/fiction/clone-o-matic/",
-    "published_at": "2024-08-02T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
     "id": "https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/",
     "title": "Archiving and syndicating Mastodon posts",
     "url": "https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/",
@@ -2684,6 +3145,16 @@
     "feed_title": "Gabriel Garrido",
     "owner_username": "ggpsv",
     "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://vgel.me/fiction/clone-o-matic/",
+    "title": "clone-o-matic",
+    "url": "https://vgel.me/fiction/clone-o-matic/",
+    "published_at": "2024-08-02T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://garrido.io/notes/backing-up-flatpak-thunderbird-profile/",
@@ -2751,6 +3222,17 @@
     "site_url": "https://trekhleb.dev"
   },
   {
+    "id": "https://jordivillar.com/reads/2024w28/",
+    "title": "2024W28",
+    "url": "https://jordivillar.com/reads/2024w28/",
+    "summary": "So You Want To Build A Browser Engine — This article goes deep into all the complicated things involved in making a browser engine. It’s amazing how browsers keep getting better and adding more features while maintaining all the required complexity. Databricks, Snowflake and the future — This piece tells you about the recent meetings of Snowflake and Databricks. It focuses on how they are putting money into Apache Iceberg. The time I spent three months investigating a 7-year old bug and fi…",
+    "published_at": "2024-07-15T00:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://austinhenley.com/blog/chatgptdatascience.html",
     "title": "Can ChatGPT do data science?",
     "url": "https://austinhenley.com/blog/chatgptdatascience.html",
@@ -2814,491 +3296,5 @@
     "feed_title": "Think Deeply and Rebuild Things",
     "owner_username": "rschulman",
     "site_url": "https://rbs.io"
-  },
-  {
-    "id": "https://matt.blwt.io/post/modifying-pgdump/",
-    "title": "Modifying pg_dump To Exclude Event Triggers",
-    "url": "https://matt.blwt.io/post/modifying-pgdump/",
-    "summary": "At $WORK , we have a case where we have implemented an event trigger to prevent customers from dropping an extension. As this extension is part of contrib and normally installed by users, we can’t prevent them from dropping it normally. However, event triggers can only be created by superusers, so a pg_dump of the database creates a dump that can’t be restored by a non-superuser. To solve this, lets implement a custom pg_dump that optionally excludes event triggers. You can see the following…",
-    "published_at": "2024-06-30T19:50:47Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2024/06/20/politics-in-software/",
-    "title": "Software with politic opinion is a security threat",
-    "url": "https://vitonsky.net/blog/2024/06/20/politics-in-software/",
-    "summary": "The software that has a political opinion implies a bias and high risk for security. Avoid software with a \"position\" today, so you don't get hacked tomorrow.",
-    "published_at": "2024-06-20T18:20:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://matt.blwt.io/post/building-a-postgresql-extension-line-by-line/",
-    "title": "Building a PostgreSQL Extension, Line by Line",
-    "url": "https://matt.blwt.io/post/building-a-postgresql-extension-line-by-line/",
-    "summary": "I’ve been working on a particular problem - how to offer logical replication for a very large number of Postgres databases, where I don’t have the ability (or capacity) to liaise with the users of the databases one-to-one. In order to mitigate some of the limitations , I wanted to implement a flexible extension to help guard against two of the larger pitfalls - DDL and large objects.",
-    "published_at": "2024-06-14T18:06:31Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://austinhenley.com/blog/bignum1.html",
-    "title": "Making a bignum library for fun",
-    "url": "https://austinhenley.com/blog/bignum1.html",
-    "summary": "https://austinhenley.com/blog/bignum1.html",
-    "published_at": "2024-06-13T22:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://matt.blwt.io/post/logical-replication-guardrails/",
-    "title": "Logical Replication Guardrails",
-    "url": "https://matt.blwt.io/post/logical-replication-guardrails/",
-    "summary": "I’ve been working with logical replication in PostgreSQL recently, and I wanted to share a few thoughts on how to implement some guardrails to make things easier on operators.",
-    "published_at": "2024-06-10T22:31:54Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://vgel.me/fiction/ghostis/",
-    "title": "ghostis",
-    "url": "https://vgel.me/fiction/ghostis/",
-    "published_at": "2024-06-07T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://nora.codes/filk/a_matter_of_time/",
-    "title": "A Matter of Time",
-    "url": "https://nora.codes/filk/a_matter_of_time/",
-    "summary": "“The Temper of Revenge” is one of my favorite filksongs, though I was introduced to it by the Star Trek II -related parody, “The Temperature of Revenge”. A few weeks ago, on a bus from Madison to Chicago, I decided to see if I could fit some lyrics about my favorite video game, Outer Wilds , to the tune. It took a lot of revising to do so without massively spoiling the game - and, if you ever intend to play it, do be careful of spoilers! - but I think I’ve succeeded.",
-    "published_at": "2024-06-02T00:00:00Z",
-    "feed_url": "https://nora.codes/index.xml",
-    "feed_title": "Leonora Tindall on Nora Codes",
-    "owner_username": "NoraCodes",
-    "site_url": "https://nora.codes"
-  },
-  {
-    "id": "https://matt.blwt.io/post/a-love-letter-to-giant-robots/",
-    "title": "A Love Letter to Giant Robots",
-    "url": "https://matt.blwt.io/post/a-love-letter-to-giant-robots/",
-    "summary": "Ah, giant robots . I grew up thinking they are the coolest things ever, and I still do. My first exposure to them was probably through 1994’s BattleTech animated series, where Adam Steiner piloted an AXM-2N Axman , in its frankly ridiculous neon green and purple paint job. And from there, well . I was hooked. Lets explore a little about some history, some of my favourite giant robot media, and even a small work-related thing.",
-    "published_at": "2024-06-01T14:32:47Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://matt.blwt.io/post/shunn/",
-    "title": "Shunn",
-    "url": "https://matt.blwt.io/post/shunn/",
-    "summary": "The Shunn manuscript format is a set of guidelines for writers to follow when submitting manuscripts to publishers. It was created by author William Shunn and is widely used in the publishing industry. Here is a brief demonstration of a tool I wrote to facilitate generating manuscripts in this format.",
-    "published_at": "2024-05-31T17:33:19Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://jcs.org/2024/05/29/x1usb",
-    "title": "Adding a USB Port to the ThinkPad X1 Nano (the Hard Way)",
-    "url": "https://jcs.org/2024/05/29/x1usb",
-    "summary": "I wanted to add an internal USB port to my ThinkPad X1 Nano which should have been a fairly easy thing to do, but it wasn't. Of course, if I were still using my Framework Laptop it would be as easy as plugging in a custom module but I've been using my X1 Nano as my primary laptop for quite some time now. Table of Contents Top Logitech Mouse M.2 Firmware Hacking? Fingerprint Reader USB Power Designing a PCB 3D-Printed Shim Logitech Mouse As convenient as the TrackPoint is on my ThinkPad, having a…",
-    "published_at": "2024-05-29T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://stevenharman.net/on-flaky-tests-time-precision-and-order-dependence",
-    "title": "On Flaky Tests, Time Precision, and Order Dependence",
-    "url": "https://stevenharman.net/on-flaky-tests-time-precision-and-order-dependence",
-    "summary": "A flaky test is one that fails unpredictably, without a corresponding change in the code under test. These often show up in CI runs where a test unrelated to any change made suddenly fails, and then mysteriously passes when re-run. There are many type and causes of “flakes”. Today I want to talk about flaky tests caused by time precision, and time-order dependence. The specific tools mentioned here will be Ruby, Rails, and PostgreSQL specific. But analogs exist in nearly all other languages …",
-    "published_at": "2024-05-20T00:00:00Z",
-    "feed_url": "https://stevenharman.net/feed.xml",
-    "feed_title": "Steven Harman",
-    "owner_username": "stevenharman",
-    "site_url": "https://stevenharman.net"
-  },
-  {
-    "id": "https://austinhenley.com/blog/codeaid.html",
-    "title": "CodeAid: A classroom deployment of an LLM-based programming assistant",
-    "url": "https://austinhenley.com/blog/codeaid.html",
-    "summary": "https://austinhenley.com/blog/codeaid.html",
-    "published_at": "2024-05-19T19:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/",
-    "title": "Bunny CDN Edge Rules for HTML canonical URLs",
-    "url": "https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/",
-    "summary": "For some months I hosted this site using Bunny’s file storage and CDN. Bunny’s CDN is minimally opinionated about serving HTML. It does have some default behavior that is reasonable. For example, not caching HTML. Other than that, it’s on you to use their Edge Rules for anything custom like redirects, managing headers, caching HTML , rate limiting, etc. Update: In June 2024, Bunny renovated its edge rule system , making it easier to create and maintain edge rules. However, the logic to imp…",
-    "published_at": "2024-05-11T10:20:03Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://austinhenley.com/blog/intellicode.html",
-    "title": "Exploring 50 user interfaces for AI code suggestions",
-    "url": "https://austinhenley.com/blog/intellicode.html",
-    "summary": "https://austinhenley.com/blog/intellicode.html",
-    "published_at": "2024-05-07T21:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://garrido.io/2024/05/05/hosting-my-own-software-forge/",
-    "title": "Hosting my own software forge",
-    "url": "https://garrido.io/2024/05/05/hosting-my-own-software-forge/",
-    "summary": "Update : I’ve since moved on to stagit for my public-facing repositories. The repositories are still found at git.garrido.io , and can be cloned using the dumb http protocol . It’s been a couple of months since I started hosting my own software forge . Since then I’ve used it as a remote for all of my git repositories, as a registry for container images, to store gists , and for continuous integration (CI). Why Forgejo I chose Forgejo because, for my use case, it has feature parity with Gi…",
-    "published_at": "2024-05-05T14:37:10Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://nora.codes/post/methods-should-be-object-safe/",
-    "title": "Methods Should Be Object Safe",
-    "url": "https://nora.codes/post/methods-should-be-object-safe/",
-    "summary": "I think we should use “method”, in Rust, to refer specifically to associated functions which would be object safe if put in a trait. In this terminology scheme: associated function refers to any function defined in an impl block, which is how most people use it now 1 , 2 trait function refers to any function defined in a trait method specifically refers to associated functions with receivers like those specified in the object safety section of the Reference 3 and we should come up with anoth…",
-    "published_at": "2024-05-04T23:06:36Z",
-    "feed_url": "https://nora.codes/index.xml",
-    "feed_title": "Leonora Tindall on Nora Codes",
-    "owner_username": "NoraCodes",
-    "site_url": "https://nora.codes"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2024/05/02/retrospective-of-development-logs/",
-    "title": "Keep the logs for retrospective analysis",
-    "url": "https://vitonsky.net/blog/2024/05/02/retrospective-of-development-logs/",
-    "summary": "Development logs are an important part of any project because they allow us to track progress, detect problems, and investigate incidents. Remember the value and advantages of development logs, and preserve as many logs as possible.",
-    "published_at": "2024-05-02T11:40:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://vgel.me/fiction/internet-of-dog-minds/",
-    "title": "internet of dog minds",
-    "url": "https://vgel.me/fiction/internet-of-dog-minds/",
-    "summary": "\u003e is 2035 \u003e all models above 3B params or 10^24 flops banned 10 years ago \u003e human_victory.jpg \u003e top deleted, but bottom has absolutely fallen out \u003e local bitnets on $20 asics everywhere \u003e we didn't get a single god mind \u003e but we got a dog mind in everything...",
-    "published_at": "2024-05-01T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://austinhenley.com/blog/copilotworkspace.html",
-    "title": "How I would redesign Copilot Workspace",
-    "url": "https://austinhenley.com/blog/copilotworkspace.html",
-    "summary": "https://austinhenley.com/blog/copilotworkspace.html",
-    "published_at": "2024-04-29T22:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://austinhenley.com/blog/datasciencemistakes.html",
-    "title": "Mistakes that data science students make",
-    "url": "https://austinhenley.com/blog/datasciencemistakes.html",
-    "summary": "https://austinhenley.com/blog/datasciencemistakes.html",
-    "published_at": "2024-04-28T20:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://garrido.io/notes/simple-automated-deployments-git-push/",
-    "title": "Simple automated deployments using git push",
-    "url": "https://garrido.io/notes/simple-automated-deployments-git-push/",
-    "summary": "Using git push remains one of my favorite ways of deploying software. It’s simple, effective, and you can stretch it significantly until you need more complex workflows. I’m not referring to using git push to trigger a Github action which builds and deploys software. I’m talking about using git push web main to deploy your main branch to a server that you’ve named web . I learned this workflow from Josef Strzibny’s excellent book Deployment from Scratch , which I’ve adapted somewhat.…",
-    "published_at": "2024-04-13T09:45:41Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://hynek.me/articles/python-virtualenv-redux/",
-    "title": "Python Project-Local Virtualenv Management Redux",
-    "url": "https://hynek.me/articles/python-virtualenv-redux/",
-    "summary": "One of my first TIL entries was about how you can imitate Node’s node_modules semantics in Python on UNIX-like operating systems. A lot has happened since then (to the better!) and it’s time for an update. direnv still rocks, though.",
-    "published_at": "2024-04-02T00:00:00Z",
-    "updated_at": "2024-09-23T00:00:00Z",
-    "feed_url": "https://hynek.me/index.xml",
-    "feed_title": "Hynek Schlawack",
-    "owner_username": "hynek",
-    "site_url": "https://hynek.me/"
-  },
-  {
-    "id": "https://austinhenley.com/blog/learningwithai.html",
-    "title": "Learning to code with and without AI",
-    "url": "https://austinhenley.com/blog/learningwithai.html",
-    "summary": "https://austinhenley.com/blog/learningwithai.html",
-    "published_at": "2024-04-01T03:45:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://mstill.dev/blog/17/",
-    "title": "The Elements of Zig Style",
-    "url": "https://mstill.dev/blog/17/",
-    "summary": "My own take on Zig coding style",
-    "published_at": "2024-04-01T00:00:00Z",
-    "feed_url": "https://mstill.dev/rss.xml",
-    "feed_title": "mstill.dev",
-    "owner_username": "malcolmstill",
-    "site_url": "https://mstill.dev/"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
-    "title": "Decision logs",
-    "url": "https://vitonsky.net/blog/2024/03/20/decision-logs/",
-    "summary": "Let's say you need to choose some technology for your project, or you already have problems with some technologies, so you want to replace them with others. If you do not maintain a decision log, you have a high risk of making bad decisions that are biased, based on authority, and take too long.",
-    "published_at": "2024-03-20T18:20:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://garrido.io/notes/caching-html-in-cdn/",
-    "title": "Caching HTML in CDNs",
-    "url": "https://garrido.io/notes/caching-html-in-cdn/",
-    "summary": "Content delivery networks do not cache HTML out of the box. This is expected, otherwise their support lines would flood with the same issue: “why is my site not updating?” I want to cache my site fully. It’s completely static and I post infrequently. With some exceptions, most pages remain unchanged once published. Caching at the edge means that requests to this site travel shorter distances across the globe. Keeping pages and assets small means less bytes to send along . This is the way. …",
-    "published_at": "2024-03-19T13:28:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://garrido.io/notes/rclone-cache-invalidation-manifest/",
-    "title": "Using Rclone to automate CDN cache invalidation",
-    "url": "https://garrido.io/notes/rclone-cache-invalidation-manifest/",
-    "summary": "I want to cache HTML in Bunny’s content delivery network (CDN). Unlike other static files, HTML filenames cannot be hashed 1 or they’d be served with ugly urls. I need a way to invalidate the cache granularly when the site is published. When I publish this note, the corresponding HTML file is uploaded to Bunny’s file storage. This file is automatically replicated to Bunny’s file storage regions throughout the world and served by the CDN. HTML files are not cached by the CDN, so each requ…",
-    "published_at": "2024-03-18T01:36:22Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://garrido.io/notes/hugo-backlinks/",
-    "title": "Implementing internal backlinks in Hugo",
-    "url": "https://garrido.io/notes/hugo-backlinks/",
-    "summary": "Update: I dropped this approach in favor of a custom Go tool that parses the content directory and generates the internal links graph. The approach described below should still work, assuming Hugo’s interface has not changed signficantly. As of today, some pages on this site surface any other internal page where they are cross-referenced. If you’ve used a tool like Obsidian, you’ll know how useful backlinks are to navigate related content. The joys of hypertext! Hugo does not generate or e…",
-    "published_at": "2024-03-15T14:26:44Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://garrido.io/notes/bundling-typed-dynamic-module/",
-    "title": "Bundling a JSON file dynamically as a typed module",
-    "url": "https://garrido.io/notes/bundling-typed-dynamic-module/",
-    "summary": "I recently refactored a Next.js single-page application to support white-labeled deployments. No requirements called for pulling and defining the configuration at runtime. Instead, the configuration is pulled once at build time and saved to the project root as a JSON file. This configuration is referred to both during the build and at runtime. For example, at build time the configuration is used to define a color scheme in Tailwind’s configuration file. At runtime, the configuration is used to…",
-    "published_at": "2024-03-11T10:50:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://garrido.io/notes/tailscale-nextdns-custom-domains/",
-    "title": "Running private services with Tailscale and a custom domain",
-    "url": "https://garrido.io/notes/tailscale-nextdns-custom-domains/",
-    "summary": "I use a virtual private server to host multiple services that are accessed only by me. Instead of exposing these services to the public internet, I use Tailscale to access them privately through my Tailscale network. There are several ways in which I can access these services through Tailscale. I have settled on an approach involving a custom domain, proper TLS certificates, and without opening the server to the public internet 1 . Assuming I’m connected to Tailscale, I can do the following on…",
-    "published_at": "2024-03-10T13:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://vgel.me/fiction/predictbot/",
-    "title": "predictbot",
-    "url": "https://vgel.me/fiction/predictbot/",
-    "summary": "\u003e 2025 \u003e asi emerges from a time series transformer \u003e just wants to predict stuff \u003e gives predictions away for free \u003e some nerds quietly pick up stock trading \u003e nobody else cares \u003e 6mos later a researcher posts \"PredictBot: Sparks of ASI\" on arxiv and it blows up",
-    "published_at": "2024-03-09T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/",
-    "title": "Upsert UUIDs with sqlc",
-    "url": "https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/",
-    "summary": "Problem synopsis I’m a huge fan of sqlc’s approach to code generation. I’ve seen sqlc called a reverse ORM , and I really like that moniker. However, as a sqlc newbie, I’m still discovering its edge cases. Today’s edge case is using postgres UPSERT queries with sqlc . The crux is that when upserting, it’s necessary for unique key conflicts to occur so that the UPDATE portion of the query executes. But non-null uuid Go types tend to have a zero-value of 00000000-0000-0000-0000-0000000…",
-    "published_at": "2024-03-07T00:00:00Z",
-    "feed_url": "https://adriano.fyi/index.xml",
-    "feed_title": "Adriano Caloiaro's personal blog",
-    "owner_username": "adriano",
-    "site_url": "https://adriano.fyi"
-  },
-  {
-    "id": "https://austinhenley.com/blog/acquiredin99days.html",
-    "title": "Acquired in 99 days",
-    "url": "https://austinhenley.com/blog/acquiredin99days.html",
-    "summary": "https://austinhenley.com/blog/acquiredin99days.html",
-    "published_at": "2024-03-06T15:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://nora.codes/post/adding-full-post-content-to-my-rss-feed/",
-    "title": "Adding Full Post Content to my RSS Feed",
-    "url": "https://nora.codes/post/adding-full-post-content-to-my-rss-feed/",
-    "summary": "A reader reached out to me the other day to let me know that my RSS feed for this blog didn’t include post content, just descriptions, and that this hindered their ability to read my posts offline. This obviously isn’t ideal, so I set about adding the full post content. Customizing the RSS Feed Hugo comes with a builtin RSS feed template, but it’s easy enough to override. Simply copy the contents of this file to the themes/[theme name]/layouts/_default directory, and then edit to your hear…",
-    "published_at": "2024-02-27T15:26:52Z",
-    "feed_url": "https://nora.codes/index.xml",
-    "feed_title": "Leonora Tindall on Nora Codes",
-    "owner_username": "NoraCodes",
-    "site_url": "https://nora.codes"
-  },
-  {
-    "id": "https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/",
-    "title": "On Mastodon, a social media curmudgeon's perspective",
-    "url": "https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/",
-    "summary": "Mastodon While I’m in no way a Mastodon power user, I’ve really been enjoying the content that I get from my very limited Mastodon feed. I recently stopped consuming news from – hold on let’s not call it news. I recently stopped consuming useless information from a site that I won’t name. Everyone has those junk, just-for-fun sites they visit to blow off stream. You don’t have to be proud of them, and it’s fine that you visit them; every part of every day need not be productive. An…",
-    "published_at": "2024-02-24T00:00:00Z",
-    "feed_url": "https://adriano.fyi/index.xml",
-    "feed_title": "Adriano Caloiaro's personal blog",
-    "owner_username": "adriano",
-    "site_url": "https://adriano.fyi"
-  },
-  {
-    "id": "https://jcs.org/2024/02/20/carl",
-    "title": "Video: C Programming on System 6 - Carl Update, Test Suite, Malloc Tracing",
-    "url": "https://jcs.org/2024/02/20/carl",
-    "summary": "I've been working on Carl, my IMAP e-mail client, for the past few months. Your browser doesn't seem to support HTML video. You can download the video (H.264/AAC format) instead. I need to work on not saying \"like\" so much. Video notes: Remaining PowerBook 1xx Batteries Subtext 4 Kludge BBS on Mastodon IMAP4rev2 rev2 RFC Encoded-word RFC MicroBug and SM 0 A9F4 and G 0 MacsBug My stack walking code Stack layout showing A6 links: Please contact me with any feedback or questions, view past videos i…",
-    "published_at": "2024-02-20T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://jcs.org/2024/02/19/subtext4",
-    "title": "Subtext 4.0 Released",
-    "url": "https://jcs.org/2024/02/19/subtext4",
-    "summary": "Subtext 4.0 has been released: subtext-4.0.sit (StuffIt 3 archive, includes source code and THINK C 5 project file) SHA256: c33a6abe15e7f071 59a18d936dce7c43 5d9619f80d6c53d1 cdd26fabf06712f7 SHA1: 0f4bdcd08b57b568 125d8ddcab5ad97f 1f5dd586 ipdb-2023-11.db (Free IP Geolocation from DB-IP , converted to Subtext IPdb format) Changes in this version: Move views out of database to flat files in a \"views\" directory, allowing them to be edited by other text editors and backed up; views are cached at s…",
-    "published_at": "2024-02-19T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://nora.codes/post/pinning-nixpkgs-with-morph-and-colmena/",
-    "title": "Pinning nixpkgs with Morph and Colmena",
-    "url": "https://nora.codes/post/pinning-nixpkgs-with-morph-and-colmena/",
-    "summary": "I’ve used NixOS and Morph to manage the servers in my house for about a year now, and while I have many gripes with both the Nix language and the documentation around the nixpkgs and NixOS ecosystem, it’s been a great help. This post is for users of Morph and its near-drop-in replacement, Colmena . If you don’t already use one of these tools, take a look at them first! Why Pin nixpkgs? “Pinning”, in this context, refers to making the version of nixpkgs against which my configuration is…",
-    "published_at": "2024-02-18T23:55:24Z",
-    "feed_url": "https://nora.codes/index.xml",
-    "feed_title": "Leonora Tindall on Nora Codes",
-    "owner_username": "NoraCodes",
-    "site_url": "https://nora.codes"
-  },
-  {
-    "id": "https://garrido.io/notes/read-ghost-subscription-in-rss/",
-    "title": "Read your Ghost subscriptions using RSS",
-    "url": "https://garrido.io/notes/read-ghost-subscription-in-rss/",
-    "summary": "I follow a handful of Ghost-powered sites that don’t serve their articles fully in their RSS feed. Most of the time this is because an article requires a paid or free subscription to be read. This turns out to be a nuisance as I prefer to read things using an RSS reader. For example, 404 Media’s recent article on celebrity AI scam ads in Youtube ends abruptly in my RSS reader. If I want to read the entire article then I am expected to visit their site, log in, and read it there. Article in t…",
-    "published_at": "2024-02-07T03:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
-    "id": "https://www.devever.net/~hl/bootstrapping-exam",
-    "title": "[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”",
-    "url": "https://www.devever.net/~hl/bootstrapping-exam",
-    "summary": "The following is an “exam”. To my knowledge, nobody has ever passed it, as it is an extremely difficult challenge. But I am firmly convinced it is possible, and it makes for an interesting discussion.",
-    "published_at": "2024-02-04T11:37:00Z",
-    "updated_at": "2024-02-04T11:37:00Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://www.devever.net/~hl/u/20240203a",
-    "title": "[Hμblog] 37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware",
-    "url": "https://www.devever.net/~hl/u/202402#03a",
-    "summary": "37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware For those that missed it, a recording of my talk at 37C3 can be found here.",
-    "published_at": "2024-02-03T07:31:16Z",
-    "updated_at": "2024-02-03T07:31:48.673Z",
-    "feed_url": "https://www.devever.net/~hl/index.feed",
-    "feed_title": "devever.net/~hl",
-    "owner_username": "hlandau",
-    "site_url": "https://www.devever.net/~hl/"
-  },
-  {
-    "id": "https://stevenharman.net/so-we-have-a-memory-leak",
-    "title": "So We've Got a Memory Leak…",
-    "url": "https://stevenharman.net/so-we-have-a-memory-leak",
-    "summary": "Memory leaks happen. And if you’re here, reading this, I’d bet you’re dealing with one. First things first - are you sure it’s a leak, and not bloat ? Okay, so it’s a leak. Much has been written about various tools for profiling a leak , understanding heap dumps , common causes of leaks , work being done to improve Ruby’s memory layout , and so much more. Ben Sheldon’s recent “ The answer is in your heap: debugging a big memory increase in Ruby on Rails ” is a great example. Be…",
-    "published_at": "2024-01-25T00:00:00Z",
-    "feed_url": "https://stevenharman.net/feed.xml",
-    "feed_title": "Steven Harman",
-    "owner_username": "stevenharman",
-    "site_url": "https://stevenharman.net"
-  },
-  {
-    "id": "https://vgel.me/posts/representation-engineering/",
-    "title": "Representation Engineering Mistral-7B an Acid Trip",
-    "url": "https://vgel.me/posts/representation-engineering/",
-    "summary": "In October 2023, a group of authors from the Center for AI Safety, among others, published Representation Engineering: A Top-Down Approach to AI Transparency . That paper looks at a few methods of doing what they call \"Representation Engineering\": calculating a \"control vector\" that can be read from or added to model activations during inference to interpret or control the model's behavior, without prompt engineering or finetuning. (There was also some similar work published in May 2023 on steer…",
-    "published_at": "2024-01-22T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://vgel.me/fiction/outside/",
-    "title": "Outside",
-    "url": "https://vgel.me/fiction/outside/",
-    "summary": "Dear President Carter, I once knew the name of every tree in the world, before it fell apart. I was born on an island in the Southeast Pacific, though we did not call it that, closest to Antarctica and Chile, but still far from both. We were fortunate: small, only half a day's walk across, and far in the southern cold. We did not attract explorers and banana farmers, like other, less fortunate islands. Until the invention of the satellite, we were not known to exist. We were \"uncontacted\" in you…",
-    "published_at": "2024-01-12T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
   }
 ]

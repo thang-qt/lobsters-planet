@@ -106,36 +106,6 @@
           <p>I’ve been managing a fully remote, fully distributed team, covering timezones from UTC-8 through UTC&#43;10, for the last couple of years. Through that time, I’ve learned a lot on organising work, interpersonal relationships, and ultimately how to overcome a lack of promximity to my reports.</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">30 Jun 2024 · Matt Blewitt</p>
-          <h3><a href="https://matt.blwt.io/post/modifying-pgdump/">Modifying pg_dump To Exclude Event Triggers</a></h3>
-          <p>At $WORK , we have a case where we have implemented an event trigger to prevent customers from dropping an extension. As this extension is part of contrib and normally installed by users, we can’t prevent them from dropping it normally. However, event triggers can only be created by superusers, so a pg_dump of the database creates a dump that can’t be restored by a non-superuser. To solve this, lets implement a custom pg_dump that optionally excludes event triggers. You can see the following…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Jun 2024 · Matt Blewitt</p>
-          <h3><a href="https://matt.blwt.io/post/building-a-postgresql-extension-line-by-line/">Building a PostgreSQL Extension, Line by Line</a></h3>
-          <p>I’ve been working on a particular problem - how to offer logical replication for a very large number of Postgres databases, where I don’t have the ability (or capacity) to liaise with the users of the databases one-to-one. In order to mitigate some of the limitations , I wanted to implement a flexible extension to help guard against two of the larger pitfalls - DDL and large objects.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jun 2024 · Matt Blewitt</p>
-          <h3><a href="https://matt.blwt.io/post/logical-replication-guardrails/">Logical Replication Guardrails</a></h3>
-          <p>I’ve been working with logical replication in PostgreSQL recently, and I wanted to share a few thoughts on how to implement some guardrails to make things easier on operators.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Jun 2024 · Matt Blewitt</p>
-          <h3><a href="https://matt.blwt.io/post/a-love-letter-to-giant-robots/">A Love Letter to Giant Robots</a></h3>
-          <p>Ah, giant robots . I grew up thinking they are the coolest things ever, and I still do. My first exposure to them was probably through 1994’s BattleTech animated series, where Adam Steiner piloted an AXM-2N Axman , in its frankly ridiculous neon green and purple paint job. And from there, well . I was hooked. Lets explore a little about some history, some of my favourite giant robot media, and even a small work-related thing.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">31 May 2024 · Matt Blewitt</p>
-          <h3><a href="https://matt.blwt.io/post/shunn/">Shunn</a></h3>
-          <p>The Shunn manuscript format is a set of guidelines for writers to follow when submitting manuscripts to publishers. It was created by author William Shunn and is widely used in the publishing industry. Here is a brief demonstration of a tool I wrote to facilitate generating manuscripts in this format.</p>
-        </article>
-      
     </div>
   </main>
 

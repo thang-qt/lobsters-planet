@@ -106,60 +106,6 @@
           <p>I have started to learn about the FreeBSD operating system. I picked up a copy of Michael W. Lucas’ “Absolute FreeBSD” and created a virtual machine that I am tinkering with. This is the first time that I deliberately set out to learn a particular operating system. I currently use different distributions of Linux on a daily basis, both on servers and on my personal machines. Yet, learning Linux and the idiosyncrasies of each distribution has been a multi-year endeavor carried out without m…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">11 May 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/">Bunny CDN Edge Rules for HTML canonical URLs</a></h3>
-          <p>For some months I hosted this site using Bunny’s file storage and CDN. Bunny’s CDN is minimally opinionated about serving HTML. It does have some default behavior that is reasonable. For example, not caching HTML. Other than that, it’s on you to use their Edge Rules for anything custom like redirects, managing headers, caching HTML , rate limiting, etc. Update: In June 2024, Bunny renovated its edge rule system , making it easier to create and maintain edge rules. However, the logic to imp…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">5 May 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/2024/05/05/hosting-my-own-software-forge/">Hosting my own software forge</a></h3>
-          <p>Update : I’ve since moved on to stagit for my public-facing repositories. The repositories are still found at git.garrido.io , and can be cloned using the dumb http protocol . It’s been a couple of months since I started hosting my own software forge . Since then I’ve used it as a remote for all of my git repositories, as a registry for container images, to store gists , and for continuous integration (CI). Why Forgejo I chose Forgejo because, for my use case, it has feature parity with Gi…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Apr 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/simple-automated-deployments-git-push/">Simple automated deployments using git push</a></h3>
-          <p>Using git push remains one of my favorite ways of deploying software. It’s simple, effective, and you can stretch it significantly until you need more complex workflows. I’m not referring to using git push to trigger a Github action which builds and deploys software. I’m talking about using git push web main to deploy your main branch to a server that you’ve named web . I learned this workflow from Josef Strzibny’s excellent book Deployment from Scratch , which I’ve adapted somewhat.…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Mar 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/caching-html-in-cdn/">Caching HTML in CDNs</a></h3>
-          <p>Content delivery networks do not cache HTML out of the box. This is expected, otherwise their support lines would flood with the same issue: “why is my site not updating?” I want to cache my site fully. It’s completely static and I post infrequently. With some exceptions, most pages remain unchanged once published. Caching at the edge means that requests to this site travel shorter distances across the globe. Keeping pages and assets small means less bytes to send along . This is the way. …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">18 Mar 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/rclone-cache-invalidation-manifest/">Using Rclone to automate CDN cache invalidation</a></h3>
-          <p>I want to cache HTML in Bunny’s content delivery network (CDN). Unlike other static files, HTML filenames cannot be hashed 1 or they’d be served with ugly urls. I need a way to invalidate the cache granularly when the site is published. When I publish this note, the corresponding HTML file is uploaded to Bunny’s file storage. This file is automatically replicated to Bunny’s file storage regions throughout the world and served by the CDN. HTML files are not cached by the CDN, so each requ…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 Mar 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/hugo-backlinks/">Implementing internal backlinks in Hugo</a></h3>
-          <p>Update: I dropped this approach in favor of a custom Go tool that parses the content directory and generates the internal links graph. The approach described below should still work, assuming Hugo’s interface has not changed signficantly. As of today, some pages on this site surface any other internal page where they are cross-referenced. If you’ve used a tool like Obsidian, you’ll know how useful backlinks are to navigate related content. The joys of hypertext! Hugo does not generate or e…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">11 Mar 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/bundling-typed-dynamic-module/">Bundling a JSON file dynamically as a typed module</a></h3>
-          <p>I recently refactored a Next.js single-page application to support white-labeled deployments. No requirements called for pulling and defining the configuration at runtime. Instead, the configuration is pulled once at build time and saved to the project root as a JSON file. This configuration is referred to both during the build and at runtime. For example, at build time the configuration is used to define a color scheme in Tailwind’s configuration file. At runtime, the configuration is used to…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Mar 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/tailscale-nextdns-custom-domains/">Running private services with Tailscale and a custom domain</a></h3>
-          <p>I use a virtual private server to host multiple services that are accessed only by me. Instead of exposing these services to the public internet, I use Tailscale to access them privately through my Tailscale network. There are several ways in which I can access these services through Tailscale. I have settled on an approach involving a custom domain, proper TLS certificates, and without opening the server to the public internet 1 . Assuming I’m connected to Tailscale, I can do the following on…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">7 Feb 2024 · Gabriel Garrido</p>
-          <h3><a href="https://garrido.io/notes/read-ghost-subscription-in-rss/">Read your Ghost subscriptions using RSS</a></h3>
-          <p>I follow a handful of Ghost-powered sites that don’t serve their articles fully in their RSS feed. Most of the time this is because an article requires a paid or free subscription to be read. This turns out to be a nuisance as I prefer to read things using an RSS reader. For example, 404 Media’s recent article on celebrity AI scam ads in Youtube ends abruptly in my RSS reader. If I want to read the entire article then I am expected to visit their site, log in, and read it there. Article in t…</p>
-        </article>
-      
     </div>
   </main>
 

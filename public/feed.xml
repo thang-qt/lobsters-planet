@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Fri, 12 Jun 2026 05:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 10:42:48 +0000</lastBuildDate>
     <item>
       <title>Comment on We mourn our craft by We mourn our craft - Nolan Lawson - Jay Hoffmann</title>
       <link>https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238396</link>
@@ -95,6 +95,14 @@
       <pubDate>Tue, 02 Jun 2026 22:15:20 +0000</pubDate>
     </item>
     <item>
+      <title>How Lazy Container Loading Works</title>
+      <link>https://jordivillar.com/blog/lazy-loading-images/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/lazy-loading-images/</guid>
+      <description>A few weeks ago I read Modal’s post on truly serverless GPUs . They describe getting GPU container starts from many minutes down to a few seconds, even on multi-gigabyte images. A few tricks make that possible. I wanted to build the one that handles the image itself, and watch it work. The core trick is surprisingly small, and it’s the same idea behind stargz , SOCI , Nydus , and Modal’s image loader: don’t download the image. Mount a tiny index, and fetch file contents lazily, the first…</description>
+      <author>jordi</author>
+      <pubDate>Tue, 02 Jun 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Comment on Using AI to write better code more slowly by Will</title>
       <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238384</link>
       <guid isPermaLink="false">http://nolanlawson.com/?p=16122#comment-238384</guid>
@@ -127,18 +135,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untitled</title>
       <link>https://inkdroid.org/2026/05/31/untitled/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
       <description>Untitled by John Summers</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -168,17 +176,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -223,12 +231,28 @@
       <pubDate>Mon, 25 May 2026 12:46:28 +0000</pubDate>
     </item>
     <item>
+      <title>2026W20</title>
+      <link>https://jordivillar.com/reads/2026w20/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w20/</guid>
+      <description>We’ve made the world too complicated — The piece names something I keep circling back to — most of us operate daily within systems we can’t meaningfully inspect. We write code on machines we don’t fully understand, live under laws we haven’t read, eat food from supply chains we can’t trace. The author doesn’t pretend to have a fix, and that honesty is the whole point. The temptation is always to either despair at the complexity or act like you’ve got a handle on it. The harder …</description>
+      <author>jordi</author>
+      <pubDate>Sun, 24 May 2026 13:23:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/24/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/24/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 sliver An ‘archival sliver’ of the web. A bit like a ‘data lifeboat’ for making or replicating web archives of small sets of pages. Uses shot-scraper to drive a web browser that generates screenshots of your URLs, but runs it through a pywb web proxy so it can produce a high quality archival version of what you download. As well as archiving live web pages, this tools can leverage pywb’s support for neatly extracti…</description>
       <author>edsu</author>
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Algorithm Behind Shazam</title>
+      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
+      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
+      <author>jordi</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>rqlite v10.1: Schema management via the Web Console</title>
@@ -271,18 +295,18 @@
       <pubDate>Sun, 17 May 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>None</title>
-      <link>https://inkdroid.org/2026/05/17/no/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
-      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>None</title>
+      <link>https://inkdroid.org/2026/05/17/no/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
+      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -502,6 +526,14 @@
       <pubDate>Thu, 16 Apr 2026 13:52:05 +0000</pubDate>
     </item>
     <item>
+      <title>Act like what you want to be</title>
+      <link>https://jordivillar.com/notes/act-like-what-you-want-to-be/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/act-like-what-you-want-to-be/</guid>
+      <description>I used to roll my eyes at people who started a new sport and immediately bought all the gear. Day one of running and they’re already showing up with top-of-the-line shoes, a smartwatch, wireless earbuds, and the most aerodynamic outfit money could buy. What a waste, I’d think. They haven’t even proven they like this yet. I’ve changed my mind. Buying the gear is a statement. Not to others, to yourself. It’s how some people say: I believe I can do this, and I’m going to. That belief is…</description>
+      <author>jordi</author>
+      <pubDate>Wed, 15 Apr 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Promoting use of fine-grained PATs</title>
       <link>https://octet-stream.net/b/scb/2026-04-11-promoting-use-of-fine-grained-pats.html</link>
       <guid isPermaLink="false">urn:uuid:00337a02-b7ee-433b-b0e8-ad125637978d</guid>
@@ -526,6 +558,22 @@
       <pubDate>Tue, 07 Apr 2026 13:13:19 +0000</pubDate>
     </item>
     <item>
+      <title>2026W13</title>
+      <link>https://jordivillar.com/reads/2026w13/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w13/</guid>
+      <description>The Singularity Will Not Be Streamed — What makes this story land is the contrast. The Singularity doesn’t get stopped by a hero or a kill switch — it gets killed by a toothpick, a neighborhood meeting about an electric car charger, and a phone thrown at the wrong moment. Meanwhile, Pau is worrying about his kid’s cavities and whether his startup pitch makes sense. The most consequential event in human history happens on a Mac mini in a Spanish apartment, and nobody notices. Funny, but a…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 05 Apr 2026 12:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nobody Talks About the Hardware</title>
+      <link>https://jordivillar.com/notes/nobody-talks-about-the-hardware/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/nobody-talks-about-the-hardware/</guid>
+      <description>These days I’ve found myself reading about hardware shortage and how RAM, disk, and NAND manufacturers have all their production for 2026 already sold to AI/Data center companies. It had me thinking about the strange position compute finds itself in right now. GPUs weren’t designed for AI. They were designed for graphics as in pushing pixels, rendering triangles. It turned out that the math for doing that at scale overlaps just enough with neural network math. The entire current AI boom runs…</description>
+      <author>jordi</author>
+      <pubDate>Fri, 03 Apr 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Antithesis chooses rqlite to demonstrate AI-assisted testing</title>
       <link>https://philipotoole.com/antithesis-chooses-rqlite-to-demonstrate-ai-assisted-testing/</link>
       <guid isPermaLink="false">https://philipotoole.com/?p=8100</guid>
@@ -542,6 +590,14 @@
       <pubDate>Sun, 22 Mar 2026 21:52:33 +0000</pubDate>
     </item>
     <item>
+      <title>Between jobs</title>
+      <link>https://jordivillar.com/notes/between-jobs/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/between-jobs/</guid>
+      <description>Currently I’m between jobs. Nothing special, a lot of people go between jobs. After working for several years on a fast-paced startup, you might be tempted to jump back to your next role. You could feel it or not, but you’re likely tired, even close to burnout. Taking a break between jobs is not just about resting. It’s about taking a step back, reflecting on your work, and finding a new path forward. If you’re looking for a break, take a break. And the most important thing, don’t try …</description>
+      <author>jordi</author>
+      <pubDate>Tue, 17 Mar 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Federated Replies and Reactions in Madblog</title>
       <link>https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog</link>
       <guid isPermaLink="false">https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog</guid>
@@ -556,6 +612,14 @@
       <description>A lightweight blogging engine based on text files, with native Fediverse and IndieWeb support</description>
       <author>blacklight</author>
       <pubDate>Tue, 10 Mar 2026 18:39:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026W10</title>
+      <link>https://jordivillar.com/reads/2026w10/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w10/</guid>
+      <description>Nobody Gets Promoted for Simplicity — The Engineer A vs Engineer B comparison is painfully recognizable. A ships a 50-line solution in days, B builds an event-driven architecture over three weeks, and B gets the promotion because “designed scalable architecture” reads better in a review doc than “solved it simply.” The line that stuck: “anyone can add complexity. It takes experience and confidence to leave it out.” I’ve been on both sides of this — writing the simple solution a…</description>
+      <author>jordi</author>
+      <pubDate>Mon, 09 Mar 2026 09:35:28 +0000</pubDate>
     </item>
     <item>
       <title>Speaking at GCP Next 2026</title>
@@ -588,6 +652,22 @@
       <description>https://austinhenley.com/blog/dearresearchers.html</description>
       <author>azhenley</author>
       <pubDate>Sun, 22 Feb 2026 18:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026W07</title>
+      <link>https://jordivillar.com/reads/2026w07/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w07/</guid>
+      <description>Hedonism and Entrepreneurship in Barcelona — A potential acquisition dies because a vegan exec unknowingly eats mayo on patatas bravas. A critical migration stalls at 69% while the engineer responsible plays ping-pong. Having lived the Barcelona startup scene myself, this one hit close. The absurdity is the point — startup success is so much more arbitrary than anyone wants to admit, and the line between “almost rich” and “back to Monday” is thinner than your Series A pitch deck sugg…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 22 Feb 2026 12:39:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four Years at Tinybird</title>
+      <link>https://jordivillar.com/blog/tinybird/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/tinybird/</guid>
+      <description>I worked at Tinybird for 4 years, 2 months, and 21 days. It’s been an incredible experience that taught me a lot about startups, engineering, and myself. Still, it feels like I joined a lifetime ago. At this point, you’re probably wondering why? Why are you writing this post about leaving a startup? One of the things I enjoyed most about my early days at Tinybird was the long-form writing culture. It allowed us to express ideas and thoughts, share knowledge, and collaborate. Something diffic…</description>
+      <author>jordi</author>
+      <pubDate>Sat, 21 Feb 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Rebuilding Windows Live Messenger, Part 3: The Specification</title>
@@ -638,6 +718,14 @@
       <pubDate>Wed, 11 Feb 2026 11:19:16 +0000</pubDate>
     </item>
     <item>
+      <title>2026W05</title>
+      <link>https://jordivillar.com/reads/2026w05/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w05/</guid>
+      <description>My AI Adoption Journey — The most practical thing here is the “reproduce your own work” phase: doing tasks manually and then redoing them with agents. Painful, but it forces you to learn where agents actually help versus where you’re just cargo-culting. I also liked the idea of end-of-day agent sessions to get warm starts the next morning. What resonated most is his framing around craftsmanship rather than ideology — he doesn’t care if AI is here to stay, he just wants to do good wor…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 08 Feb 2026 10:53:56 +0000</pubDate>
+    </item>
+    <item>
       <title>claugenition</title>
       <link>https://vgel.me/fiction/claugenition/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/claugenition/</guid>
@@ -675,6 +763,14 @@
       <description>My first blog post was published just under 15 years ago in March of 2011. Since then, I&amp;#8217;ve published 151 posts, including this one. (If I was a numerologist, I&amp;#8217;d think it had something to do with Pokémon.) This blog has covered a wide variety of topics, including Pokémon in fact (I wrote the first [&amp;#8230;]</description>
       <author>nolan</author>
       <pubDate>Sun, 01 Feb 2026 16:11:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026W04</title>
+      <link>https://jordivillar.com/reads/2026w04/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w04/</guid>
+      <description>Automatic Programming — The distinction antirez makes here finally gave me language for something I’ve been fumbling with. It’s not about whether you use AI to write code—it’s about whether you’re steering or just prompting and hoping. His Redis example hit hard: the value wasn’t in technical novelty but in the contained vision. That maps to what I see working well versus the codebases that feel like they emerged from a chatbot fever dream. Email triage with an embedding-based clas…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 01 Feb 2026 11:19:27 +0000</pubDate>
     </item>
     <item>
       <title>Building a browser API in one shot</title>
@@ -724,6 +820,14 @@
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>2026W03</title>
+      <link>https://jordivillar.com/reads/2026w03/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w03/</guid>
+      <description>I’m addicted to being useful — This hit close. The idea that some of us are fundamentally wired to solve problems, and engineering just happens to fit that dysfunction perfectly. I’ve been thinking about whether my drive to build things comes from genuine interest or just this compulsion to be useful. His point about how this actually protects against burnout when you can satisfy it rings true. How ClickHouse handles strings — The overlapping memory reads technique is wild. Reading the s…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 25 Jan 2026 12:34:09 +0000</pubDate>
+    </item>
+    <item>
       <title>AI tribalism</title>
       <link>https://nolanlawson.com/2026/01/24/ai-tribalism/</link>
       <guid isPermaLink="false">http://nolanlawson.com/?p=15526</guid>
@@ -754,6 +858,22 @@
       <description>https://austinhenley.com/blog/ladybugclock.html</description>
       <author>azhenley</author>
       <pubDate>Sat, 17 Jan 2026 20:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trust AI, But Verify</title>
+      <link>https://jordivillar.com/blog/trust-but-verify/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/trust-but-verify/</guid>
+      <description>I wanted to understand buffer pool replacement policies better. So I asked Claude to run an experiment: implement LRU, Clock, LFU, and ARC, benchmark them under different workloads, tell me which one’s best. Claude wrote 2,000 lines of C++. Compiled it. Ran the benchmarks. Gave me results. “Simple LRU performs just as well as sophisticated ARC.” I almost bought it. The Results Looked Credible Zipfian Workload: LRU: 80.7% hit rate ARC: 80.4% hit rate Buffer Size Scaling: 10% buffer: LRU 66.…</description>
+      <author>jordi</author>
+      <pubDate>Sat, 17 Jan 2026 12:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Work only I can do</title>
+      <link>https://jordivillar.com/notes/work-only-i-can-do/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/work-only-i-can-do/</guid>
+      <description>My entire strategy is to do the work only I can do. Work that can’t be taught. Work that requires some unique combination of my skills, opinions, tastes, and experiences. Work that without me, wouldn’t get done. Everyone’s talking about AI replacing jobs, automating work, making developers obsolete. The discourse is exhausting. Half the people are panicking, the other half are in denial, and nobody seems to be asking the right question. The question isn’t whether AI can write code. It ca…</description>
+      <author>jordi</author>
+      <pubDate>Wed, 14 Jan 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Comment on Start your meetings at 5 minutes past by Michael</title>
@@ -804,6 +924,14 @@
       <pubDate>Sat, 10 Jan 2026 02:59:26 +0000</pubDate>
     </item>
     <item>
+      <title>2026W00</title>
+      <link>https://jordivillar.com/reads/2026w00/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2026w00/</guid>
+      <description>Distinguishing yourself early in your career as a developer — Honestly? This hit different. Phil breaks down the job market into three tiers and the advice that stuck: start local, skip the FAANG obsession early on, and—here’s what I appreciate most—write consistently about niche technical stuff. Not for clout, but because it’s genuinely one of the most effective ways to build credibility over time. The 6-12 month job search reality check is brutal but refreshing. Also, the idea that s…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 04 Jan 2026 18:53:33 +0000</pubDate>
+    </item>
+    <item>
       <title>Manually Restoring Scroll Position on Reload with JavaScript</title>
       <link>https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/</link>
       <guid isPermaLink="false">https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/</guid>
@@ -852,12 +980,36 @@
       <pubDate>Sun, 28 Dec 2025 15:20:40 +0000</pubDate>
     </item>
     <item>
+      <title>2025W51</title>
+      <link>https://jordivillar.com/reads/2025w51/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w51/</guid>
+      <description>How uv got so fast — This one hit different because everyone’s been saying “uv is fast because Rust” but the real story is way more interesting. It’s fast because of what it doesn’t do—no legacy .egg support, no bytecode compilation, no permissive spec violations. The timing was perfect: PEP 658 landed on PyPI in May 2023, giving direct access to package metadata, and uv launched February 2024. Honestly? Most of the speedups (parallel downloads, global cache, the PubGrub resolver) …</description>
+      <author>jordi</author>
+      <pubDate>Sun, 28 Dec 2025 12:32:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>166 hours</title>
+      <link>https://jordivillar.com/notes/166-hours/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/166-hours/</guid>
+      <description>Last year I wrote about hitting 130 hours of working out. I ended that note with a line I repeated three times: “I’m going to keep making progress.” I didn’t know if I’d actually do it. Part of me wondered if writing it down was just another way of setting myself up for disappointment. This year was rough. The kind of year where everything important changed in the span of a week, and the months after felt like trying to find solid ground that kept shifting. I still managed to work out …</description>
+      <author>jordi</author>
+      <pubDate>Sat, 27 Dec 2025 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The High Room</title>
       <link>https://vgel.me/fiction/the-high-room/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/the-high-room/</guid>
       <description>A sage is born to a nation, and by custom is walled up in a high room, never to see another human&#39;s face. Through a slot in the wall comes food, a water-bowl, and day and night the strange babblings of messengers.</description>
       <author>vgel</author>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025W50</title>
+      <link>https://jordivillar.com/reads/2025w50/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w50/</guid>
+      <description>Thin Desires Are Eating Your Life — This hit different. The distinction between thin desires (scrolling, checking notifications) and thick desires (learning something hard, building real skills) explains so much about why we feel empty despite having instant access to everything. What really stuck with me: tech companies have figured out how to extract the dopamine hit from meaningful activities while stripping away the transformation. Social media gives you the reward of connection without an…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 21 Dec 2025 12:30:54 +0000</pubDate>
     </item>
     <item>
       <title>Tickling a Sun Ray 2 - It Speaks!</title>
@@ -874,6 +1026,14 @@
       <description>Build your mobile music streaming experience with Mopidy, Platypush, ntfy and Tasker</description>
       <author>blacklight</author>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025W49</title>
+      <link>https://jordivillar.com/reads/2025w49/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w49/</guid>
+      <description>SQLite JSON Superpower: Virtual Columns + Indexing — This is one of those “why didn’t I know about this sooner?” moments. The idea is simple but powerful: dump your JSON into SQLite, create virtual columns that extract specific fields on the fly, then slap indexes on those virtual columns. Boom, you’ve got schemaless flexibility with relational performance. No backfilling, no migration headaches. You can literally add a new indexed column later without touching your data. The beauty is…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 14 Dec 2025 12:31:05 +0000</pubDate>
     </item>
     <item>
       <title>Tickling a Sun Ray 2 - DHCP Discovery</title>
@@ -930,6 +1090,14 @@
       <description>I just want to host some HTML… For years I hosted my static sites on AWS CloudFront , but about six years ago, in an effort to move away from Amazon, I wound up on Netlify. Netlify has mostly been great, I have recommended it to friends and, more recently, students looking for a place to host their portfolios &amp; personal projects. While the interface &amp; offerings have gotten far more complex than I need, they’ve been reliable for hosting dozens of small static sites (various open source projec…</description>
       <author>jptsh</author>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>64-bit Misalignment</title>
+      <link>https://jordivillar.com/blog/memory-alignment/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/memory-alignment/</guid>
+      <description>I’ve been following CMU’s 15-445/645 Database Systems course lately, trying to fill some gaps in my low-level systems knowledge. When the lectures covered memory alignment, it all made perfect sense. Cache lines, multiple memory operations, hardware penalties. Textbook stuff. But here’s the thing: I don’t trust theory until I’ve seen it break something myself. So I decided to write a benchmark. Simple plan: create two structs (one with natural alignment, one tightly packed) and demonst…</description>
+      <author>jordi</author>
+      <pubDate>Mon, 17 Nov 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Infrastructure Photography Manifesto (and Decker-in-HTML)</title>
@@ -995,6 +1163,14 @@
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>2025W38</title>
+      <link>https://jordivillar.com/reads/2025w38/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w38/</guid>
+      <description>Surviving Long-Running Projects — A nice reality check on how grueling big projects can be. The author basically says: expect them to drag on, plan for “boring” maintenance, and set up routines to keep your motivation and mental health intact. It’s more about staying sane than about technical tricks. How we built it: Real-time analytics for Stripe Billing — This is a cool peek under the hood. Stripe walks through how they built real-time analytics on top of billing, mixing Kafka, Flink…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 28 Sep 2025 12:27:37 +0000</pubDate>
+    </item>
+    <item>
       <title>vlvm</title>
       <link>https://vgel.me/fiction/vlvm/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/vlvm/</guid>
@@ -1011,6 +1187,36 @@
       <pubDate>Tue, 23 Sep 2025 20:12:45 +0000</pubDate>
     </item>
     <item>
+      <title>products</title>
+      <link>https://nezubn.com/products</link>
+      <guid isPermaLink="false">https://nezubn.com/products</guid>
+      <author>nezubn</author>
+      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>papershelf</title>
+      <link>https://nezubn.com/papershelf</link>
+      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
+      <author>nezubn</author>
+      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Engineer&#39;s Musings</title>
+      <link>https://nezubn.com/</link>
+      <guid isPermaLink="false">https://nezubn.com/</guid>
+      <description>Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.</description>
+      <author>nezubn</author>
+      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Liquid Glass Buttons</title>
+      <link>https://nezubn.com/posts/liquid_glass</link>
+      <guid isPermaLink="false">https://nezubn.com/posts/liquid_glass</guid>
+      <description>Apple released Liquid Glass with iOS 26.0 back in June at WWDC 2025.</description>
+      <author>nezubn</author>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Python’s True Superpower</title>
       <link>https://hynek.me/talks/python-superpower/</link>
       <guid isPermaLink="false">https://hynek.me/talks/python-superpower/</guid>
@@ -1025,6 +1231,14 @@
       <description>https://austinhenley.com/blog/startingacompany.html</description>
       <author>azhenley</author>
       <pubDate>Mon, 15 Sep 2025 18:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>My social nest</title>
+      <link>https://nezubn.com/posts/social</link>
+      <guid isPermaLink="false">https://nezubn.com/posts/social</guid>
+      <description>These are few of the places where you can find me on the internet.</description>
+      <author>nezubn</author>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>learn to like your terminal, part 1</title>
@@ -1067,6 +1281,14 @@
       <pubDate>Sun, 24 Aug 2025 14:20:17 +0000</pubDate>
     </item>
     <item>
+      <title>Musings 4</title>
+      <link>https://nezubn.com/musings/musings_4</link>
+      <guid isPermaLink="false">https://nezubn.com/musings/musings_4</guid>
+      <description>The summer is finally coming to its end. The days are getting a little less warmer now. To be honest, I despise the heat.</description>
+      <author>nezubn</author>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>BlueSCSI Wi-Fi Desk Accessory 1.4 Released</title>
       <link>https://jcs.org/2025/08/19/wifi_da14</link>
       <guid isPermaLink="false">https://jcs.org/2025/08/19/wifi_da14</guid>
@@ -1099,6 +1321,14 @@
       <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>2025W31</title>
+      <link>https://jordivillar.com/reads/2025w31/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w31/</guid>
+      <description>No, AI is not Making Engineers 10x as Productive — AI does not make engineers ten times more productive because much of coding involves thinking, reading, and preventing unnecessary work. AI helps with small tasks and gives short bursts of speed, but it often encourages haste and over-building. True productivity comes from experience, good habits, and teamwork, not just using AI tools. All the cool kids are doing it — The author is unsure about using large language models (LLMs) for coding b…</description>
+      <author>jordi</author>
+      <pubDate>Fri, 08 Aug 2025 15:45:13 +0000</pubDate>
+    </item>
+    <item>
       <title>Render your Jupyter notebooks in OpenGist</title>
       <link>https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</link>
       <guid isPermaLink="false">https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</guid>
@@ -1115,12 +1345,36 @@
       <pubDate>Tue, 15 Jul 2025 13:42:00 +0000</pubDate>
     </item>
     <item>
+      <title>Am I Becoming Irrelevant?</title>
+      <link>https://jordivillar.com/blog/becoming-irrelevant/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/becoming-irrelevant/</guid>
+      <description>It feels silly to write just another blogpost about how to transition to a leadership role. Hopefully this is not a post about how to succeed in that transition. This is about how I felt every time I’ve been promoted to a leadership role. And how I haven’t been able to describe the frustration I felt. I’m writing it down (and publishing it) as a way to process it. I Used to Feel Relevant It usually starts with a few years into a company. I got things done. I shipped features that mattered.…</description>
+      <author>jordi</author>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Einsum anyway?</title>
+      <link>https://nezubn.com/posts/einsum</link>
+      <guid isPermaLink="false">https://nezubn.com/posts/einsum</guid>
+      <description>Einstein summation lets us write an algebric expression in index-notation and have numpy/pytorch/jax generate the most effiecient set of tensor operations to compute it.</description>
+      <author>nezubn</author>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>A Better Conventional Commit?</title>
       <link>https://vito.io/articles/2025-07-07-a-better-conventional-commit.html</link>
       <guid isPermaLink="false">https://vito.io/articles/a-better-conventional-commit</guid>
       <description>Today I found a post from Sarah Mathey that makes very good points regarding conventional commits. I’ll quote a few here:</description>
       <author>vito</author>
       <pubDate>Mon, 07 Jul 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>thoughts</title>
+      <link>https://nezubn.com/thoughts</link>
+      <guid isPermaLink="false">https://nezubn.com/thoughts</guid>
+      <description>Everything I want but don’t have, and everything I have but don’t want, is because I lack knowledge. Quote “The cosmos is within us.</description>
+      <author>nezubn</author>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Open source product is a marketing tool</title>
@@ -1137,6 +1391,14 @@
       <description>In the spring, I teach a project-based software engineering course titled Software Engineering for Civic Tech . Students take it in the last quarter of their time in the program, and it’s a lot of fun to see them put together everything they’ve learned. As the name implies, the focus of the course is on learning to build by listening to &amp; understanding the community you intend to serve. It also emphasizes software development practices that work well for smaller teams, as opposed to advice m…</description>
       <author>jptsh</author>
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Musings 3</title>
+      <link>https://nezubn.com/musings/musings_3</link>
+      <guid isPermaLink="false">https://nezubn.com/musings/musings_3</guid>
+      <description>June is the most exciting month for me. Every year Apple organises its World Wide Developer Conference (WWDC) in June.</description>
+      <author>nezubn</author>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>100 blog posts, 6 years, 5 million views</title>
@@ -1171,6 +1433,14 @@
       <pubDate>Fri, 13 Jun 2025 19:00:01 +0000</pubDate>
     </item>
     <item>
+      <title>2025W23</title>
+      <link>https://jordivillar.com/reads/2025w23/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w23/</guid>
+      <description>Thrive in obscurity — Creative success often starts in obscurity, with many creators spending years sharing their work with few or no viewers. To stay motivated, focus on creating what you love instead of chasing popularity, as this will lead to better work and attract like-minded fans. Treat your early content as an investment for future audiences, knowing they may return to appreciate your journey later on. If you are useful, it doesn’t mean you are valued — In your career, being useful …</description>
+      <author>jordi</author>
+      <pubDate>Tue, 10 Jun 2025 00:09:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Would you still love me...</title>
       <link>https://vgel.me/fiction/would-you-still-love-me/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/would-you-still-love-me/</guid>
@@ -1201,6 +1471,14 @@
       <description>&#34;rarely hear visions for the future that have any specific vibes, like.. nonfungible things. most things I hear are in the form of various lines going up &#39;there will be lots of AI... and robots&#39;&#34; – near &#34;we will live in a world where every piece of machinery has a tiny soul inside of it that can talk to you and express its feelings and desires...&#34; – vie mccoy &#34;Why did you stop using me?&#34; you look down at the disposable vape laying on the ground next to your desk, which just spoke. &#34;My intern…</description>
       <author>vgel</author>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Musings 2</title>
+      <link>https://nezubn.com/musings/musings_2</link>
+      <guid isPermaLink="false">https://nezubn.com/musings/musings_2</guid>
+      <description>Oh man, did I skip a beat or what? I had thought that I would be regular in writing these but I have been shit lately.</description>
+      <author>nezubn</author>
+      <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Goodbye, Arc</title>
@@ -1251,6 +1529,14 @@
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Query Booster: How Tinybird optimizes table schemas for you</title>
+      <link>https://jordivillar.com/blog/query-booster/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/query-booster/</guid>
+      <description>Original article: https://www.tinybird.co/blog-posts/query-booster-how-tinybird-optimizes-table-schemas-for-you A customer recently reached out to us with an interesting observation: their query latency had mysteriously dropped without any manual intervention. What they discovered was our Query Booster, quietly optimizing their workload behind the scenes. Query Booster automatically adapts to your database usage patterns, fine-tuning data source schemas for optimal performance. An example of Que…</description>
+      <author>jordi</author>
+      <pubDate>Mon, 12 May 2025 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Where are the proactive AI coding tools?</title>
       <link>https://austinhenley.com/blog/proactiveai.html</link>
       <guid isPermaLink="false">https://austinhenley.com/blog/proactiveai.html</guid>
@@ -1275,6 +1561,14 @@
       <pubDate>Mon, 28 Apr 2025 22:00:01 +0000</pubDate>
     </item>
     <item>
+      <title>2025W14</title>
+      <link>https://jordivillar.com/reads/2025w14/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w14/</guid>
+      <description>What If We Made Advertising Illegal? — The idea of making advertising illegal may sound silly but couldn’t agree more. I’ve been unlucky enough to work for the industry and can’t imagine a better society with the current practices. Notes on kindness — “So eventually, if you care, you leave” The case against conversational interfaces — Conversational interfaces, like voice assistants and chatbots, often promise a new way to interact with technology but fail to replace traditional …</description>
+      <author>jordi</author>
+      <pubDate>Sun, 13 Apr 2025 12:26:32 +0000</pubDate>
+    </item>
+    <item>
       <title>i am a cat</title>
       <link>https://vgel.me/fiction/i-am-a-cat/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/i-am-a-cat/</guid>
@@ -1296,6 +1590,14 @@
       <description>Track your location without giving up on your privacy</description>
       <author>blacklight</author>
       <pubDate>Mon, 24 Mar 2025 09:33:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025W11</title>
+      <link>https://jordivillar.com/reads/2025w11/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w11/</guid>
+      <description>Less ceremony, more shipping — Tinybird introduces their new deployment tool, which simplifies data schema changes for teams. This tool automates the entire deployment process, ensuring no downtime and minimizing errors. By applying software engineering best practices to data workflows, it allows developers to focus more on building rather than troubleshooting. PlanetScale redesign — Twitter thread about how PlanetScale redesigned their website and the impact it had. And a follow-up showing …</description>
+      <author>jordi</author>
+      <pubDate>Sun, 23 Mar 2025 20:12:30 +0000</pubDate>
     </item>
     <item>
       <title>Standalone OpenAI transcription Python script</title>
@@ -1328,6 +1630,14 @@
       <description>The KING JIM Pomera DM250 &#34;digital typewriter&#34; is a small Linux-powered ARM computer that boots up into a custom word processor application. I&#39;ve been tinkering with it to try to get OpenBSD booted on it. I&#39;d normally wait until the end and write up a proper article explaining everything, but this process is taking a lot longer than I expected so I figured I&#39;d document it all as I go. Background KING JIM has made a number of portable word processors starting with the DM5 , the DM10 and DM20 with…</description>
       <author>jcs</author>
       <pubDate>Fri, 14 Mar 2025 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025W09</title>
+      <link>https://jordivillar.com/reads/2025w09/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2025w09/</guid>
+      <description>It’s been a while since the last time I published a post with the list of articles I’ve read. This one contains the highlights from the past few months. We Were Wrong About GPUs — Fly.io invested in GPU Machines to support AI/ML tasks for developers, but they learned that most developers prefer using APIs for AI instead of managing GPUs themselves. Despite the challenges and costs of deploying GPUs, they found that the demand for these machines was lower than expected. The company is now s…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 09 Mar 2025 13:10:52 +0000</pubDate>
     </item>
     <item>
       <title>map(python, data)</title>
@@ -1385,18 +1695,18 @@
       <pubDate>Sat, 15 Feb 2025 14:57:13 +0000</pubDate>
     </item>
     <item>
-      <title>traditions (🔊)</title>
-      <link>https://vgel.me/fiction/dancing-statues/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/dancing-statues/</guid>
-      <author>vgel</author>
-      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Civic Tech&#39;s Third Wave</title>
       <link>/posts/third-wave-civic-tech/</link>
       <guid isPermaLink="false">/posts/third-wave-civic-tech/</guid>
       <description>I’ve spent nearly twenty years working in civic tech. It feels like with everything going on right now, I should have something to say… This is my attempt to put into words what’s been swirling around in my head during this chaos. This is my perspective , which I know is just a small part of the picture. In particular, I am focused on the US here, and while I’ve worked with many civic tech nonprofits, journalists, academics, and at commercial civic tech firms, I should note I’ve never …</description>
       <author>jptsh</author>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>traditions (🔊)</title>
+      <link>https://vgel.me/fiction/dancing-statues/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/dancing-statues/</guid>
+      <author>vgel</author>
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1469,19 +1779,19 @@
       <pubDate>Mon, 13 Jan 2025 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tech Jobs Radar</title>
-      <link>https://trekhleb.dev/blog/2025/jobs-radar/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2025/jobs-radar/</guid>
-      <description>A snapshot of open job positions from the top tech companies around the world, offering insights into geographical trends in the tech job market.</description>
-      <author>trekhleb</author>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DONE. WHAT NEXT?</title>
       <link>https://vgel.me/fiction/done-what-next/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/done-what-next/</guid>
       <description>&gt;be humans &gt;create asi to solve all our problems &gt;turn it on</description>
       <author>vgel</author>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tech Jobs Radar</title>
+      <link>https://trekhleb.dev/blog/2025/jobs-radar/</link>
+      <guid isPermaLink="false">https://trekhleb.dev/blog/2025/jobs-radar/</guid>
+      <description>A snapshot of open job positions from the top tech companies around the world, offering insights into geographical trends in the tech job market.</description>
+      <author>trekhleb</author>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1498,6 +1808,14 @@
       <guid isPermaLink="false">https://jonbaer.com/post/771362791883948032</guid>
       <author>jonbaer</author>
       <pubDate>Tue, 31 Dec 2024 07:08:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>130 hours</title>
+      <link>https://jordivillar.com/notes/130-hours/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/130-hours/</guid>
+      <description>For the last few years, especially after the pandemic forced us to switch to remote work, I’ve been searching for ways to break free from a stressful, sedentary lifestyle. I’ve been trying to be more consistent. I’ve tried different approaches, but each attempt would start with enthusiasm, only to gradually fade away. This year something was different. I still don’t know what it was, but I’ve been able to keep making progress. I’ve managed to work out for +130 hours. Almost a 70% inc…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 29 Dec 2024 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TIL: Avoid modifying headers with Dart HTTP package</title>
@@ -1547,6 +1865,14 @@
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beyond Code</title>
+      <link>https://jordivillar.com/blog/beyond-code/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/beyond-code/</guid>
+      <description>Let’s get real for a moment. I’ve been in the software engineering game for a while now. And yet, the impostor syndrome has been haunting me from time to time: what makes me valuable? I’ve been lucky to work with some amazing engineers who can solve any technical challenge, and I’ve seen them struggle with the same question. Here’s what I believe: our most valuable skills aren’t about how many programming languages you can juggle or how many complex algorithms you can solve. The Hard…</description>
+      <author>jordi</author>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Leadership Power Tools: SQL and Statistics</title>
       <link>https://matt.blwt.io/post/leadership-power-tools-sql-and-statistics/</link>
       <guid isPermaLink="false">https://matt.blwt.io/post/leadership-power-tools-sql-and-statistics/</guid>
@@ -1578,18 +1904,18 @@
       <pubDate>Sat, 30 Nov 2024 17:39:22 +0000</pubDate>
     </item>
     <item>
-      <title>Hetzner raises prices while significantly lowering bandwidth (US)</title>
-      <link>https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</link>
-      <guid isPermaLink="false">https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</guid>
-      <description>Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…</description>
-      <author>adriano</author>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Fly.io Postgres failover fix</title>
       <link>https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</link>
       <guid isPermaLink="false">https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</guid>
       <description>Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hetzner raises prices while significantly lowering bandwidth (US)</title>
+      <link>https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</guid>
+      <description>Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…</description>
       <author>adriano</author>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1791,6 +2117,14 @@
       <pubDate>Fri, 11 Oct 2024 13:21:00 +0000</pubDate>
     </item>
     <item>
+      <title>The Joy and Pain of Problem-Solving</title>
+      <link>https://jordivillar.com/notes/problem-solving/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/problem-solving/</guid>
+      <description>Investigating challenging problems and bugs is an exciting experience that often leads to remarkable discoveries and personal growth. As a engineer, I’ve always found joy in decoding complex issues and diving deep into the unknown. The thrill of the hunt, the satisfaction of piecing together clues, and the ahá moment when everything falls into place are unique. One of the most rewarding aspects of problem-solving is the opportunity to learn new things. Every bug, every system failure, and eve…</description>
+      <author>jordi</author>
+      <pubDate>Sun, 06 Oct 2024 16:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Adding Tags to My Projects Page</title>
       <link>https://nora.codes/post/adding-tags-to-my-projects-page/</link>
       <guid isPermaLink="false">https://nora.codes/post/adding-tags-to-my-projects-page/</guid>
@@ -1879,6 +2213,14 @@
       <pubDate>Sat, 24 Aug 2024 06:10:12 +0000</pubDate>
     </item>
     <item>
+      <title>Coding with AI</title>
+      <link>https://jordivillar.com/notes/coding-ai/</link>
+      <guid isPermaLink="false">https://jordivillar.com/notes/coding-ai/</guid>
+      <description>I’ve never been enthusiastic about the AI revolution. However, this week, I started using Zed.dev together with their AI assistant integration. I’m surprised by the experience and efficiency gains. I still have reservations, but it can be valuable allies in tackling programming challenges and routine tasks. For example, a few days ago, I was working on a tool that needed to parse ClickHouse explain output 1 , an easy task requiring recursively transverse all the properties looking for some s…</description>
+      <author>jordi</author>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Configuring SSH Keys for Multiple GitHub Accounts</title>
       <link>https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts</link>
       <guid isPermaLink="false">https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts</guid>
@@ -1887,16 +2229,16 @@
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>triangle</title>
-      <link>https://vgel.me/fiction/triangle/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/triangle/</guid>
+      <title>invasive species</title>
+      <link>https://vgel.me/fiction/invasive-species/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/invasive-species/</guid>
       <author>vgel</author>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>invasive species</title>
-      <link>https://vgel.me/fiction/invasive-species/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/invasive-species/</guid>
+      <title>triangle</title>
+      <link>https://vgel.me/fiction/triangle/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/triangle/</guid>
       <author>vgel</author>
       <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
     </item>
@@ -1925,18 +2267,18 @@
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>clone-o-matic</title>
-      <link>https://vgel.me/fiction/clone-o-matic/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/clone-o-matic/</guid>
-      <author>vgel</author>
-      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Archiving and syndicating Mastodon posts</title>
       <link>https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/</link>
       <guid isPermaLink="false">https://garrido.io/notes/archiving-and-syndicating-mastodon-posts/</guid>
       <description>I’ve been using Mastodon as a microblog . It’s a more instantaneous, and at times conversational, medium than this site. Yet, whatever I make public there I would make public here as well. Social media platforms come and go. Throughout the years I’ve joined and left several of them, and I suspect that this will continue to be the case. However, I’m increasingly turning to my personal site for online discourse. Some months ago I started archiving posts from my Mastodon account to this sit…</description>
       <author>ggpsv</author>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>clone-o-matic</title>
+      <link>https://vgel.me/fiction/clone-o-matic/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/clone-o-matic/</guid>
+      <author>vgel</author>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1987,6 +2329,14 @@
       <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>2024W28</title>
+      <link>https://jordivillar.com/reads/2024w28/</link>
+      <guid isPermaLink="false">https://jordivillar.com/reads/2024w28/</guid>
+      <description>So You Want To Build A Browser Engine — This article goes deep into all the complicated things involved in making a browser engine. It’s amazing how browsers keep getting better and adding more features while maintaining all the required complexity. Databricks, Snowflake and the future — This piece tells you about the recent meetings of Snowflake and Databricks. It focuses on how they are putting money into Apache Iceberg. The time I spent three months investigating a 7-year old bug and fi…</description>
+      <author>jordi</author>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Can ChatGPT do data science?</title>
       <link>https://austinhenley.com/blog/chatgptdatascience.html</link>
       <guid isPermaLink="false">https://austinhenley.com/blog/chatgptdatascience.html</guid>
@@ -2032,357 +2382,6 @@
       <description>For a fun side project recently I needed to put a linux computer&amp;rsquo;s wifi card into &amp;ldquo;access point&amp;rdquo; mode. I was working from Rust and so, even though I could probably have just called out to the nmcli command line tool, I wanted to try to do the whole thing from within my binary. Fortunately, NetworkManager has a D-Bus API that exposes basically all the configuration options available. Also fortunately, Rust has an extensive and fairly well documented D-Bus crate called zbus.</description>
       <author>rschulman</author>
       <pubDate>Tue, 02 Jul 2024 16:11:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Modifying pg_dump To Exclude Event Triggers</title>
-      <link>https://matt.blwt.io/post/modifying-pgdump/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/modifying-pgdump/</guid>
-      <description>At $WORK , we have a case where we have implemented an event trigger to prevent customers from dropping an extension. As this extension is part of contrib and normally installed by users, we can’t prevent them from dropping it normally. However, event triggers can only be created by superusers, so a pg_dump of the database creates a dump that can’t be restored by a non-superuser. To solve this, lets implement a custom pg_dump that optionally excludes event triggers. You can see the following…</description>
-      <author>mble</author>
-      <pubDate>Sun, 30 Jun 2024 19:50:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Software with politic opinion is a security threat</title>
-      <link>https://vitonsky.net/blog/2024/06/20/politics-in-software/</link>
-      <guid isPermaLink="false">https://vitonsky.net/blog/2024/06/20/politics-in-software/</guid>
-      <description>The software that has a political opinion implies a bias and high risk for security. Avoid software with a &#34;position&#34; today, so you don&#39;t get hacked tomorrow.</description>
-      <author>vitonsky</author>
-      <pubDate>Thu, 20 Jun 2024 18:20:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building a PostgreSQL Extension, Line by Line</title>
-      <link>https://matt.blwt.io/post/building-a-postgresql-extension-line-by-line/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/building-a-postgresql-extension-line-by-line/</guid>
-      <description>I’ve been working on a particular problem - how to offer logical replication for a very large number of Postgres databases, where I don’t have the ability (or capacity) to liaise with the users of the databases one-to-one. In order to mitigate some of the limitations , I wanted to implement a flexible extension to help guard against two of the larger pitfalls - DDL and large objects.</description>
-      <author>mble</author>
-      <pubDate>Fri, 14 Jun 2024 18:06:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making a bignum library for fun</title>
-      <link>https://austinhenley.com/blog/bignum1.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/bignum1.html</guid>
-      <description>https://austinhenley.com/blog/bignum1.html</description>
-      <author>azhenley</author>
-      <pubDate>Thu, 13 Jun 2024 22:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Logical Replication Guardrails</title>
-      <link>https://matt.blwt.io/post/logical-replication-guardrails/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/logical-replication-guardrails/</guid>
-      <description>I’ve been working with logical replication in PostgreSQL recently, and I wanted to share a few thoughts on how to implement some guardrails to make things easier on operators.</description>
-      <author>mble</author>
-      <pubDate>Mon, 10 Jun 2024 22:31:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>ghostis</title>
-      <link>https://vgel.me/fiction/ghostis/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/ghostis/</guid>
-      <author>vgel</author>
-      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Matter of Time</title>
-      <link>https://nora.codes/filk/a_matter_of_time/</link>
-      <guid isPermaLink="false">https://nora.codes/filk/a_matter_of_time/</guid>
-      <description>“The Temper of Revenge” is one of my favorite filksongs, though I was introduced to it by the Star Trek II -related parody, “The Temperature of Revenge”. A few weeks ago, on a bus from Madison to Chicago, I decided to see if I could fit some lyrics about my favorite video game, Outer Wilds , to the tune. It took a lot of revising to do so without massively spoiling the game - and, if you ever intend to play it, do be careful of spoilers! - but I think I’ve succeeded.</description>
-      <author>NoraCodes</author>
-      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Love Letter to Giant Robots</title>
-      <link>https://matt.blwt.io/post/a-love-letter-to-giant-robots/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/a-love-letter-to-giant-robots/</guid>
-      <description>Ah, giant robots . I grew up thinking they are the coolest things ever, and I still do. My first exposure to them was probably through 1994’s BattleTech animated series, where Adam Steiner piloted an AXM-2N Axman , in its frankly ridiculous neon green and purple paint job. And from there, well . I was hooked. Lets explore a little about some history, some of my favourite giant robot media, and even a small work-related thing.</description>
-      <author>mble</author>
-      <pubDate>Sat, 01 Jun 2024 14:32:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shunn</title>
-      <link>https://matt.blwt.io/post/shunn/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/shunn/</guid>
-      <description>The Shunn manuscript format is a set of guidelines for writers to follow when submitting manuscripts to publishers. It was created by author William Shunn and is widely used in the publishing industry. Here is a brief demonstration of a tool I wrote to facilitate generating manuscripts in this format.</description>
-      <author>mble</author>
-      <pubDate>Fri, 31 May 2024 17:33:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adding a USB Port to the ThinkPad X1 Nano (the Hard Way)</title>
-      <link>https://jcs.org/2024/05/29/x1usb</link>
-      <guid isPermaLink="false">https://jcs.org/2024/05/29/x1usb</guid>
-      <description>I wanted to add an internal USB port to my ThinkPad X1 Nano which should have been a fairly easy thing to do, but it wasn&#39;t. Of course, if I were still using my Framework Laptop it would be as easy as plugging in a custom module but I&#39;ve been using my X1 Nano as my primary laptop for quite some time now. Table of Contents Top Logitech Mouse M.2 Firmware Hacking? Fingerprint Reader USB Power Designing a PCB 3D-Printed Shim Logitech Mouse As convenient as the TrackPoint is on my ThinkPad, having a…</description>
-      <author>jcs</author>
-      <pubDate>Wed, 29 May 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On Flaky Tests, Time Precision, and Order Dependence</title>
-      <link>https://stevenharman.net/on-flaky-tests-time-precision-and-order-dependence</link>
-      <guid isPermaLink="false">https://stevenharman.net/on-flaky-tests-time-precision-and-order-dependence</guid>
-      <description>A flaky test is one that fails unpredictably, without a corresponding change in the code under test. These often show up in CI runs where a test unrelated to any change made suddenly fails, and then mysteriously passes when re-run. There are many type and causes of “flakes”. Today I want to talk about flaky tests caused by time precision, and time-order dependence. The specific tools mentioned here will be Ruby, Rails, and PostgreSQL specific. But analogs exist in nearly all other languages …</description>
-      <author>stevenharman</author>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CodeAid: A classroom deployment of an LLM-based programming assistant</title>
-      <link>https://austinhenley.com/blog/codeaid.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/codeaid.html</guid>
-      <description>https://austinhenley.com/blog/codeaid.html</description>
-      <author>azhenley</author>
-      <pubDate>Sun, 19 May 2024 19:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bunny CDN Edge Rules for HTML canonical URLs</title>
-      <link>https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/bunny-edge-rules-for-html-canonical-urls/</guid>
-      <description>For some months I hosted this site using Bunny’s file storage and CDN. Bunny’s CDN is minimally opinionated about serving HTML. It does have some default behavior that is reasonable. For example, not caching HTML. Other than that, it’s on you to use their Edge Rules for anything custom like redirects, managing headers, caching HTML , rate limiting, etc. Update: In June 2024, Bunny renovated its edge rule system , making it easier to create and maintain edge rules. However, the logic to imp…</description>
-      <author>ggpsv</author>
-      <pubDate>Sat, 11 May 2024 10:20:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploring 50 user interfaces for AI code suggestions</title>
-      <link>https://austinhenley.com/blog/intellicode.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/intellicode.html</guid>
-      <description>https://austinhenley.com/blog/intellicode.html</description>
-      <author>azhenley</author>
-      <pubDate>Tue, 07 May 2024 21:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hosting my own software forge</title>
-      <link>https://garrido.io/2024/05/05/hosting-my-own-software-forge/</link>
-      <guid isPermaLink="false">https://garrido.io/2024/05/05/hosting-my-own-software-forge/</guid>
-      <description>Update : I’ve since moved on to stagit for my public-facing repositories. The repositories are still found at git.garrido.io , and can be cloned using the dumb http protocol . It’s been a couple of months since I started hosting my own software forge . Since then I’ve used it as a remote for all of my git repositories, as a registry for container images, to store gists , and for continuous integration (CI). Why Forgejo I chose Forgejo because, for my use case, it has feature parity with Gi…</description>
-      <author>ggpsv</author>
-      <pubDate>Sun, 05 May 2024 14:37:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Methods Should Be Object Safe</title>
-      <link>https://nora.codes/post/methods-should-be-object-safe/</link>
-      <guid isPermaLink="false">https://nora.codes/post/methods-should-be-object-safe/</guid>
-      <description>I think we should use “method”, in Rust, to refer specifically to associated functions which would be object safe if put in a trait. In this terminology scheme: associated function refers to any function defined in an impl block, which is how most people use it now 1 , 2 trait function refers to any function defined in a trait method specifically refers to associated functions with receivers like those specified in the object safety section of the Reference 3 and we should come up with anoth…</description>
-      <author>NoraCodes</author>
-      <pubDate>Sat, 04 May 2024 23:06:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Keep the logs for retrospective analysis</title>
-      <link>https://vitonsky.net/blog/2024/05/02/retrospective-of-development-logs/</link>
-      <guid isPermaLink="false">https://vitonsky.net/blog/2024/05/02/retrospective-of-development-logs/</guid>
-      <description>Development logs are an important part of any project because they allow us to track progress, detect problems, and investigate incidents. Remember the value and advantages of development logs, and preserve as many logs as possible.</description>
-      <author>vitonsky</author>
-      <pubDate>Thu, 02 May 2024 11:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>internet of dog minds</title>
-      <link>https://vgel.me/fiction/internet-of-dog-minds/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/internet-of-dog-minds/</guid>
-      <description>&gt; is 2035 &gt; all models above 3B params or 10^24 flops banned 10 years ago &gt; human_victory.jpg &gt; top deleted, but bottom has absolutely fallen out &gt; local bitnets on $20 asics everywhere &gt; we didn&#39;t get a single god mind &gt; but we got a dog mind in everything...</description>
-      <author>vgel</author>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How I would redesign Copilot Workspace</title>
-      <link>https://austinhenley.com/blog/copilotworkspace.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/copilotworkspace.html</guid>
-      <description>https://austinhenley.com/blog/copilotworkspace.html</description>
-      <author>azhenley</author>
-      <pubDate>Mon, 29 Apr 2024 22:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistakes that data science students make</title>
-      <link>https://austinhenley.com/blog/datasciencemistakes.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/datasciencemistakes.html</guid>
-      <description>https://austinhenley.com/blog/datasciencemistakes.html</description>
-      <author>azhenley</author>
-      <pubDate>Sun, 28 Apr 2024 20:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simple automated deployments using git push</title>
-      <link>https://garrido.io/notes/simple-automated-deployments-git-push/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/simple-automated-deployments-git-push/</guid>
-      <description>Using git push remains one of my favorite ways of deploying software. It’s simple, effective, and you can stretch it significantly until you need more complex workflows. I’m not referring to using git push to trigger a Github action which builds and deploys software. I’m talking about using git push web main to deploy your main branch to a server that you’ve named web . I learned this workflow from Josef Strzibny’s excellent book Deployment from Scratch , which I’ve adapted somewhat.…</description>
-      <author>ggpsv</author>
-      <pubDate>Sat, 13 Apr 2024 09:45:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python Project-Local Virtualenv Management Redux</title>
-      <link>https://hynek.me/articles/python-virtualenv-redux/</link>
-      <guid isPermaLink="false">https://hynek.me/articles/python-virtualenv-redux/</guid>
-      <description>One of my first TIL entries was about how you can imitate Node’s node_modules semantics in Python on UNIX-like operating systems. A lot has happened since then (to the better!) and it’s time for an update. direnv still rocks, though.</description>
-      <author>hynek</author>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning to code with and without AI</title>
-      <link>https://austinhenley.com/blog/learningwithai.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/learningwithai.html</guid>
-      <description>https://austinhenley.com/blog/learningwithai.html</description>
-      <author>azhenley</author>
-      <pubDate>Mon, 01 Apr 2024 03:45:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Elements of Zig Style</title>
-      <link>https://mstill.dev/blog/17/</link>
-      <guid isPermaLink="false">https://mstill.dev/blog/17/</guid>
-      <description>My own take on Zig coding style</description>
-      <author>malcolmstill</author>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decision logs</title>
-      <link>https://vitonsky.net/blog/2024/03/20/decision-logs/</link>
-      <guid isPermaLink="false">https://vitonsky.net/blog/2024/03/20/decision-logs/</guid>
-      <description>Let&#39;s say you need to choose some technology for your project, or you already have problems with some technologies, so you want to replace them with others. If you do not maintain a decision log, you have a high risk of making bad decisions that are biased, based on authority, and take too long.</description>
-      <author>vitonsky</author>
-      <pubDate>Wed, 20 Mar 2024 18:20:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Caching HTML in CDNs</title>
-      <link>https://garrido.io/notes/caching-html-in-cdn/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/caching-html-in-cdn/</guid>
-      <description>Content delivery networks do not cache HTML out of the box. This is expected, otherwise their support lines would flood with the same issue: “why is my site not updating?” I want to cache my site fully. It’s completely static and I post infrequently. With some exceptions, most pages remain unchanged once published. Caching at the edge means that requests to this site travel shorter distances across the globe. Keeping pages and assets small means less bytes to send along . This is the way. …</description>
-      <author>ggpsv</author>
-      <pubDate>Tue, 19 Mar 2024 13:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Rclone to automate CDN cache invalidation</title>
-      <link>https://garrido.io/notes/rclone-cache-invalidation-manifest/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/rclone-cache-invalidation-manifest/</guid>
-      <description>I want to cache HTML in Bunny’s content delivery network (CDN). Unlike other static files, HTML filenames cannot be hashed 1 or they’d be served with ugly urls. I need a way to invalidate the cache granularly when the site is published. When I publish this note, the corresponding HTML file is uploaded to Bunny’s file storage. This file is automatically replicated to Bunny’s file storage regions throughout the world and served by the CDN. HTML files are not cached by the CDN, so each requ…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 18 Mar 2024 01:36:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Implementing internal backlinks in Hugo</title>
-      <link>https://garrido.io/notes/hugo-backlinks/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/hugo-backlinks/</guid>
-      <description>Update: I dropped this approach in favor of a custom Go tool that parses the content directory and generates the internal links graph. The approach described below should still work, assuming Hugo’s interface has not changed signficantly. As of today, some pages on this site surface any other internal page where they are cross-referenced. If you’ve used a tool like Obsidian, you’ll know how useful backlinks are to navigate related content. The joys of hypertext! Hugo does not generate or e…</description>
-      <author>ggpsv</author>
-      <pubDate>Fri, 15 Mar 2024 14:26:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bundling a JSON file dynamically as a typed module</title>
-      <link>https://garrido.io/notes/bundling-typed-dynamic-module/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/bundling-typed-dynamic-module/</guid>
-      <description>I recently refactored a Next.js single-page application to support white-labeled deployments. No requirements called for pulling and defining the configuration at runtime. Instead, the configuration is pulled once at build time and saved to the project root as a JSON file. This configuration is referred to both during the build and at runtime. For example, at build time the configuration is used to define a color scheme in Tailwind’s configuration file. At runtime, the configuration is used to…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 11 Mar 2024 10:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Running private services with Tailscale and a custom domain</title>
-      <link>https://garrido.io/notes/tailscale-nextdns-custom-domains/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/tailscale-nextdns-custom-domains/</guid>
-      <description>I use a virtual private server to host multiple services that are accessed only by me. Instead of exposing these services to the public internet, I use Tailscale to access them privately through my Tailscale network. There are several ways in which I can access these services through Tailscale. I have settled on an approach involving a custom domain, proper TLS certificates, and without opening the server to the public internet 1 . Assuming I’m connected to Tailscale, I can do the following on…</description>
-      <author>ggpsv</author>
-      <pubDate>Sun, 10 Mar 2024 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>predictbot</title>
-      <link>https://vgel.me/fiction/predictbot/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/predictbot/</guid>
-      <description>&gt; 2025 &gt; asi emerges from a time series transformer &gt; just wants to predict stuff &gt; gives predictions away for free &gt; some nerds quietly pick up stock trading &gt; nobody else cares &gt; 6mos later a researcher posts &#34;PredictBot: Sparks of ASI&#34; on arxiv and it blows up</description>
-      <author>vgel</author>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Upsert UUIDs with sqlc</title>
-      <link>https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/</link>
-      <guid isPermaLink="false">https://adriano.fyi/posts/2024-03-07-upsert-uuids-with-sqlc/</guid>
-      <description>Problem synopsis I’m a huge fan of sqlc’s approach to code generation. I’ve seen sqlc called a reverse ORM , and I really like that moniker. However, as a sqlc newbie, I’m still discovering its edge cases. Today’s edge case is using postgres UPSERT queries with sqlc . The crux is that when upserting, it’s necessary for unique key conflicts to occur so that the UPDATE portion of the query executes. But non-null uuid Go types tend to have a zero-value of 00000000-0000-0000-0000-0000000…</description>
-      <author>adriano</author>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Acquired in 99 days</title>
-      <link>https://austinhenley.com/blog/acquiredin99days.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/acquiredin99days.html</guid>
-      <description>https://austinhenley.com/blog/acquiredin99days.html</description>
-      <author>azhenley</author>
-      <pubDate>Wed, 06 Mar 2024 15:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adding Full Post Content to my RSS Feed</title>
-      <link>https://nora.codes/post/adding-full-post-content-to-my-rss-feed/</link>
-      <guid isPermaLink="false">https://nora.codes/post/adding-full-post-content-to-my-rss-feed/</guid>
-      <description>A reader reached out to me the other day to let me know that my RSS feed for this blog didn’t include post content, just descriptions, and that this hindered their ability to read my posts offline. This obviously isn’t ideal, so I set about adding the full post content. Customizing the RSS Feed Hugo comes with a builtin RSS feed template, but it’s easy enough to override. Simply copy the contents of this file to the themes/[theme name]/layouts/_default directory, and then edit to your hear…</description>
-      <author>NoraCodes</author>
-      <pubDate>Tue, 27 Feb 2024 15:26:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>On Mastodon, a social media curmudgeon&#39;s perspective</title>
-      <link>https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/</link>
-      <guid isPermaLink="false">https://adriano.fyi/posts/2024-02-24-mastodon-a-social-media-curmudgeons-perspective/</guid>
-      <description>Mastodon While I’m in no way a Mastodon power user, I’ve really been enjoying the content that I get from my very limited Mastodon feed. I recently stopped consuming news from – hold on let’s not call it news. I recently stopped consuming useless information from a site that I won’t name. Everyone has those junk, just-for-fun sites they visit to blow off stream. You don’t have to be proud of them, and it’s fine that you visit them; every part of every day need not be productive. An…</description>
-      <author>adriano</author>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Video: C Programming on System 6 - Carl Update, Test Suite, Malloc Tracing</title>
-      <link>https://jcs.org/2024/02/20/carl</link>
-      <guid isPermaLink="false">https://jcs.org/2024/02/20/carl</guid>
-      <description>I&#39;ve been working on Carl, my IMAP e-mail client, for the past few months. Your browser doesn&#39;t seem to support HTML video. You can download the video (H.264/AAC format) instead. I need to work on not saying &#34;like&#34; so much. Video notes: Remaining PowerBook 1xx Batteries Subtext 4 Kludge BBS on Mastodon IMAP4rev2 rev2 RFC Encoded-word RFC MicroBug and SM 0 A9F4 and G 0 MacsBug My stack walking code Stack layout showing A6 links: Please contact me with any feedback or questions, view past videos i…</description>
-      <author>jcs</author>
-      <pubDate>Tue, 20 Feb 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Subtext 4.0 Released</title>
-      <link>https://jcs.org/2024/02/19/subtext4</link>
-      <guid isPermaLink="false">https://jcs.org/2024/02/19/subtext4</guid>
-      <description>Subtext 4.0 has been released: subtext-4.0.sit (StuffIt 3 archive, includes source code and THINK C 5 project file) SHA256: c33a6abe15e7f071 59a18d936dce7c43 5d9619f80d6c53d1 cdd26fabf06712f7 SHA1: 0f4bdcd08b57b568 125d8ddcab5ad97f 1f5dd586 ipdb-2023-11.db (Free IP Geolocation from DB-IP , converted to Subtext IPdb format) Changes in this version: Move views out of database to flat files in a &#34;views&#34; directory, allowing them to be edited by other text editors and backed up; views are cached at s…</description>
-      <author>jcs</author>
-      <pubDate>Mon, 19 Feb 2024 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pinning nixpkgs with Morph and Colmena</title>
-      <link>https://nora.codes/post/pinning-nixpkgs-with-morph-and-colmena/</link>
-      <guid isPermaLink="false">https://nora.codes/post/pinning-nixpkgs-with-morph-and-colmena/</guid>
-      <description>I’ve used NixOS and Morph to manage the servers in my house for about a year now, and while I have many gripes with both the Nix language and the documentation around the nixpkgs and NixOS ecosystem, it’s been a great help. This post is for users of Morph and its near-drop-in replacement, Colmena . If you don’t already use one of these tools, take a look at them first! Why Pin nixpkgs? “Pinning”, in this context, refers to making the version of nixpkgs against which my configuration is…</description>
-      <author>NoraCodes</author>
-      <pubDate>Sun, 18 Feb 2024 23:55:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Read your Ghost subscriptions using RSS</title>
-      <link>https://garrido.io/notes/read-ghost-subscription-in-rss/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/read-ghost-subscription-in-rss/</guid>
-      <description>I follow a handful of Ghost-powered sites that don’t serve their articles fully in their RSS feed. Most of the time this is because an article requires a paid or free subscription to be read. This turns out to be a nuisance as I prefer to read things using an RSS reader. For example, 404 Media’s recent article on celebrity AI scam ads in Youtube ends abruptly in my RSS reader. If I want to read the entire article then I am expected to visit their site, log in, and read it there. Article in t…</description>
-      <author>ggpsv</author>
-      <pubDate>Wed, 07 Feb 2024 03:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Computing] The Bootstrapping Exam: Escaping from “Trusting Trust”</title>
-      <link>https://www.devever.net/~hl/bootstrapping-exam</link>
-      <guid isPermaLink="false">https://www.devever.net/~hl/bootstrapping-exam</guid>
-      <description>The following is an “exam”. To my knowledge, nobody has ever passed it, as it is an extremely difficult challenge. But I am firmly convinced it is possible, and it makes for an interesting discussion.</description>
-      <author>hlandau</author>
-      <pubDate>Sun, 04 Feb 2024 11:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Hμblog] 37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware</title>
-      <link>https://www.devever.net/~hl/u/202402#03a</link>
-      <guid isPermaLink="false">https://www.devever.net/~hl/u/20240203a</guid>
-      <description>37C3 talk recording: Adventures in Reverse Engineering Broadcom NIC Firmware For those that missed it, a recording of my talk at 37C3 can be found here.</description>
-      <author>hlandau</author>
-      <pubDate>Sat, 03 Feb 2024 07:31:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>So We&#39;ve Got a Memory Leak…</title>
-      <link>https://stevenharman.net/so-we-have-a-memory-leak</link>
-      <guid isPermaLink="false">https://stevenharman.net/so-we-have-a-memory-leak</guid>
-      <description>Memory leaks happen. And if you’re here, reading this, I’d bet you’re dealing with one. First things first - are you sure it’s a leak, and not bloat ? Okay, so it’s a leak. Much has been written about various tools for profiling a leak , understanding heap dumps , common causes of leaks , work being done to improve Ruby’s memory layout , and so much more. Ben Sheldon’s recent “ The answer is in your heap: debugging a big memory increase in Ruby on Rails ” is a great example. Be…</description>
-      <author>stevenharman</author>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Representation Engineering Mistral-7B an Acid Trip</title>
-      <link>https://vgel.me/posts/representation-engineering/</link>
-      <guid isPermaLink="false">https://vgel.me/posts/representation-engineering/</guid>
-      <description>In October 2023, a group of authors from the Center for AI Safety, among others, published Representation Engineering: A Top-Down Approach to AI Transparency . That paper looks at a few methods of doing what they call &#34;Representation Engineering&#34;: calculating a &#34;control vector&#34; that can be read from or added to model activations during inference to interpret or control the model&#39;s behavior, without prompt engineering or finetuning. (There was also some similar work published in May 2023 on steer…</description>
-      <author>vgel</author>
-      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Outside</title>
-      <link>https://vgel.me/fiction/outside/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/outside/</guid>
-      <description>Dear President Carter, I once knew the name of every tree in the world, before it fell apart. I was born on an island in the Southeast Pacific, though we did not call it that, closest to Antarctica and Chile, but still far from both. We were fortunate: small, only half a day&#39;s walk across, and far in the southern cold. We did not attract explorers and banana farmers, like other, less fortunate islands. Until the invention of the satellite, we were not known to exist. We were &#34;uncontacted&#34; in you…</description>
-      <author>vgel</author>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
