@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>bdesham</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~bdesham">Lobste.rs profile</a>
+        <a href="https://esham.io">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>16 Nov 2018</dd></div>
+        <div><dt>Karma</dt><dd>2765</dd></div>
+        <div><dt>Stories</dt><dd>28</dd></div>
+        <div><dt>Comments</dt><dd>549</dd></div>
+        <div><dt>Profile checked</dt><dd>13 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>13 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Professional and hobbyist software developer. He/him</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">20 Aug 2025 · Benjamin Esham</p>
+          <h3><a href="https://esham.io/2025/08/deriveddata">iOS development tip: use &lt;code&gt;trash&lt;/code&gt; instead of &lt;code&gt;rm&lt;/code&gt; to clear your DerivedData</a></h3>
+          <p>Every iOS and Mac developer is familiar with the situation: Xcode has gotten itself wedged somehow and the only solution 1 is to blow away the “DerivedData” folder in ~/Library/Developer/Xcode . Cache invalidation is hard but in this case cache destruction is easy, and I have a tip that makes it even easier. The obvious way to delete your DerivedData from the command line is $ rm -r ~/Library/Developer/Xcode/DerivedData But rm needs to enumerate every file and directory within DerivedData in…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">31 May 2025 · Benjamin Esham</p>
+          <h3><a href="https://esham.io/2025/05/shell-history">Curate your shell history</a></h3>
+          <p>Simon Tatham wrote an article recently called “Policy of transience” , explaining (among other things) why you might want to disable your shell history file. Simon writes: My unusual habit is: turn off the history file completely, by putting the command ‘ unset HISTFILE ’ in my .bashrc . I still get history within a single instance of the shell, so I can edit my last command ten times until it works properly; but history isn’t shared between my terminal windows, or preserved when I log…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 May 2025 · Benjamin Esham</p>
+          <h3><a href="https://esham.io/2025/05/freebsd-anki-server">How to self-host the Anki sync server in a FreeBSD jail</a></h3>
+          <p>Anki is a cross-platform flashcards app. It uses spaced repetition to show you your flashcards at the (hopefully) optimal times for building long-term recall. The Anki apps on various platforms can sync with each other. The Anki sync server is open-source; by default, the apps sync with a server instance that the Anki developers generously maintain for free. But you still might want to run your own: your data will be under your own control; syncing will be quite a bit faster; 1 outages will only…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Jan 2025 · Benjamin Esham</p>
+          <h3><a href="https://esham.io/2025/01/apple-ai-news">Authoritarians thrive on misinformation, and Apple is providing it as a service</a></h3>
+          <p>Oppressive regimes benefit when people are confused, when they cannot tell fact from fiction. “To abandon facts is to abandon freedom,” warns Yale history professor Timothy Snyder . “If nothing is true, then no one can criticize power, because there is no basis upon which to do so. If nothing is true, then all is spectacle.” George Lakoff and Gil Duran of FrameLab agree : “Once we can no longer discern fact from falsehood (or we no longer care), the authoritarians win.” As we grimly …</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
