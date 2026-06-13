@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>izissise</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~izissise">Lobste.rs profile</a>
+        <a href="https://izissise.net">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>2 Oct 2023</dd></div>
+        <div><dt>Karma</dt><dd>188</dd></div>
+        <div><dt>Stories</dt><dd>12</dd></div>
+        <div><dt>Comments</dt><dd>16</dd></div>
+        <div><dt>Profile checked</dt><dd>13 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>13 Jun 2026</dd></div>
+      </dl>
+      <p class="about">aspe:keyoxide.org:RXJDOBF6Q2FXNYZCWUC2B3DIUA openpgp4fpr:A92ED1528EE138C2614B59FA6B925387858B163C</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">11 May 2026 · Hugues Blog</p>
+          <h3><a href="/posts/webdev-livecompile/">Piping terminal output to the browser using systemfd</a></h3>
+          <p>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">25 Jan 2026 · Hugues Blog</p>
+          <h3><a href="/posts/gitignoreallowlist/">Allowlist for .gitignore</a></h3>
+          <p>At my current job, while reorganizing our company&#39;s root git monorepo, we decided to adopt a .gitignore allowlist pattern. I had previously experimented with this approach on raconn , but this monorepo is significantly larger. The complexity required a dedicated script to generate the .gitignore file effectively. Why use an allowlist? Pros: Pure state: You know exactly what is being tracked and must explicitly write tracking patterns. No unintended files: Prevents accidental commits of secrets, …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Oct 2025 · Hugues Blog</p>
+          <h3><a href="/posts/raconn/">Raconn - Ssh multi hostname</a></h3>
+          <p>TLDR: Raconn Introduction Recently I wanted to connect to a local machine with ssh but didn&#39;t know it&#39;s IP, I knew the MAC address which I could translate into the IPv6 link-local address but since the connect syscall requires the local iface name for ip6 link local, it would need to be hardcoded in the ssh config, making it inconvenient to change. Also if the same machine is accessible from a wider network, I&#39;d need a second entry in the config and have to remember which one to use depending on…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Mar 2025 · Hugues Blog</p>
+          <h3><a href="/posts/ngxp-upload/">Nginx Explorer - Upload</a></h3>
+          <p>After listing files and setting up per directory accesses , we would like to allow some users to upload files. This solution is very hacky, but it has the advantage of requiring only a standard nginx server and a bit of javaScript. Nginx Configuration First, we define our upload endpoint: ... server { ... location ^~ /___ngxp/upload/ { limit_except GET POST { deny all ; } if ($user_authorized = 0) { return 401 ; } # auth works here aswell client_body_temp_path /home/user/uploads/; # upload path …</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

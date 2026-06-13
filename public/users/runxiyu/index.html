@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>runxiyu</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~runxiyu">Lobste.rs profile</a>
+        <a href="https://runxiyu.org">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>13 Feb 2025</dd></div>
+        <div><dt>Karma</dt><dd>8536</dd></div>
+        <div><dt>Stories</dt><dd>387</dd></div>
+        <div><dt>Comments</dt><dd>402</dd></div>
+        <div><dt>Profile checked</dt><dd>13 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>13 Jun 2026</dd></div>
+      </dl>
+      <p class="about">they/she I am a random IBDP student who happens to like philosophy and programming. I am not a lawyer and I do not provide legal advice. I am writing Furgit, a Git library in Go. I may submit links or cite sources that I would generally disagree with. What I submit is not necessarily representative of my own views. None of my submissions or my own views represent that of my school. I generally dump links in large batches from my bookmarks.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">30 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/tmuxsvc/">Supervising services with tmux</a></h3>
+          <p>Properly configuring your service manager is good and all, but sometimes I just want to start a few services on startup and be able to tinker with them as I go. My solution is just to run my stuff in a tmux. I mean, this is a shell script. You can specify things and wait for readiness in whatever way you wish. #!/bin/sh set -ux session=&#34;tmuxsvc&#34; tmux has-session -t &#34;$session&#34; 2&gt;/dev/null &amp;&amp; { tmux attach -t &#34;$session&#34;; exit 0; } tmux new-session -d -s &#34;$session&#34; -n misc tmux new-window -t &#34;$sess…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/llmenv/">Environment variables indicative of coding agents</a></h3>
+          <p>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/shallowbundle/">Converting shallow Git bundles into normal repositories</a></h3>
+          <p>Let’s say you have a shallow Git bundle, i.e., not all referenced objects are present. How do you convert it into a normal shallow repository? Initialize the target as a bare-repo with your desired object-format. git init --bare --object-format=sha1 target.git &amp;&amp; cd target.git Find the start of the pack in each bundle (version 2 packs starts with 5041 434b 0000 0002 ). In my case it’s byte offset 77. Extract and index the packfile, creating the .idx and .rev . tail -c &#43;77 ../source.bundle | …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/ccc/">CCC 2026</a></h3>
+          <p>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/ch4ht/">On (not) using “cryptographic hashes” for hash table keys</a></h3>
+          <p>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/mlkem768pack/">Reducing ML-KEM-768 encapsulation key sizes by 24 octets</a></h3>
+          <p>Disclaimer: I am not a cryptographer. There may be serious bugs or side channels! The minimum MTU for IPv6 is 1280 octets; if you subtract the 40-octet IPv6 header and the 8-octet UDP header, you get 1232 usable octets. ML-KEM-768 public keys are 1184 octets long, leaving little space for other protocol material that you might want to stuff into a single UDP packet. Can you compress ML-KEM-768 public keys? Note that, in the standard ML-KEM-768 public key layout, octets [ 0 , 1152 ) \left[0, 1152…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h3>
+          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h3>
+          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/pq/">My view of the state of post-quantum cryptography</a></h3>
+          <p>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/nginx/">My nginx configuration</a></h3>
+          <p>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Mar 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/gplproxy/">GPL upgrades via section 14 proxy delegation</a></h3>
+          <p>I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is provided “as is”, without warranty of any kind, either express or implied. Problem Let’s say that you wrote a piece of software, and publish it unde…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Mar 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/ab1043/">California’s Digital Age Assurance Act, and FOSS</a></h3>
+          <p>These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Feb 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/aports/">Alpine Linux packages I maintain</a></h3>
+          <p>main/autoconf main/automake main/axel main/groff main/links main/make community/cwm community/dillo community/fluxbox community/ii community/neomutt community/oksh community/progress community/stagit community/unicode-character-database community/znc testing/acmeleaf testing/arahli testing/dacnis testing/sethrawall Please report issues on aports as usual. I don’t have formal regression testing for aports, but a report following Lindenii’s regression testing policy is still helpful.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Feb 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/umich/oktafido2/">Using FIDO2 security keys with U-M Okta</a></h3>
+          <p>Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Jan 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/doubleslash/">It is incorrect to “normalize” // in HTTP URL paths</a></h3>
+          <p>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Dec 2025 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/soc/ta/">中文人称代词：他、她、𲰼、𲎿</a></h3>
+          <p>中文里人称代词的历史还是挺悠久的，我没法在短时间内解释清楚。 不过，有几个重点还是可以列举一下： “他”本来是中性代词，可以无论性别，用于任何的人 “她”是由刘半农在 1920 年左右首创并推广的女性代词，部分原因包括方便翻译 现在，“他”一般默认男性，女性个体一般使用“她” 但是“他”毕竟是人字旁，不是什么男子旁，凭什么成为男性专用的代词呢？ ��…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Nov 2025 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/agpl/">What does the AGPL require?</a></h3>
+          <p>I am not a lawyer. This is provided solely for general information purposes and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is provided “as is”, without warranty of any kind, either express or implied. tl;dr The key legal question is not: Did you edit the source code? But: What const…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
