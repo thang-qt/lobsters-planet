@@ -666,6 +666,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -676,17 +687,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
   },
   {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
@@ -877,6 +877,17 @@
     "feed_title": "joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://cuonglm.xyz/post/go_issue_77193/",
+    "title": "An old compiler bug with a very bad outcome",
+    "url": "https://cuonglm.xyz/post/go_issue_77193/",
+    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
+    "published_at": "2026-04-08T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
   },
   {
     "id": "https://philipotoole.com/?p=8107",
@@ -1529,6 +1540,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://shime.sh/merry-christmas",
+    "title": "Merry Christmas",
+    "url": "https://shime.sh/merry-christmas",
+    "summary": "This Christmas is special because my little daughter realizes it’s Christmas for the first time today. I’ve woken up early, turned on the Christmas lights and put the present under the Christmas tree. This feels better than receiving a gift ever did and so from my experience it’s definitely true that “giving is more blessed than receiving”. Jonathan Haidt writes about this in The Happiness Hypothesis (which is one of the best books I’ve read this year): Those who reported giving more…",
+    "published_at": "2025-12-25T06:19:23Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
     "id": "https://vgel.me/fiction/the-high-room/",
     "title": "The High Room",
     "url": "https://vgel.me/fiction/the-high-room/",
@@ -1863,16 +1885,6 @@
     "site_url": "https://garrido.io"
   },
   {
-    "id": "https://nezubn.com/papershelf",
-    "title": "papershelf",
-    "url": "https://nezubn.com/papershelf",
-    "published_at": "2025-09-23T01:22:11Z",
-    "feed_url": "https://nezubn.com/index.xml",
-    "feed_title": "nezubn",
-    "owner_username": "nezubn",
-    "site_url": "https://nezubn.com"
-  },
-  {
     "id": "https://nezubn.com/products",
     "title": "products",
     "url": "https://nezubn.com/products",
@@ -1887,6 +1899,16 @@
     "title": "An Engineer's Musings",
     "url": "https://nezubn.com/",
     "summary": "Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.",
+    "published_at": "2025-09-23T01:22:11Z",
+    "feed_url": "https://nezubn.com/index.xml",
+    "feed_title": "nezubn",
+    "owner_username": "nezubn",
+    "site_url": "https://nezubn.com"
+  },
+  {
+    "id": "https://nezubn.com/papershelf",
+    "title": "papershelf",
+    "url": "https://nezubn.com/papershelf",
     "published_at": "2025-09-23T01:22:11Z",
     "feed_url": "https://nezubn.com/index.xml",
     "feed_title": "nezubn",
@@ -2072,6 +2094,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://cuonglm.xyz/post/go_issue_74431/",
+    "title": "Safer unsafe.Add",
+    "url": "https://cuonglm.xyz/post/go_issue_74431/",
+    "summary": "Prologue Go\u0026rsquo;s unsafe package is a powerful tool, allowing low-level memory manipulation when performance or specific system interactions demand it. However, with great power comes great responsibility – and potential for subtle bugs. To make pointer arithmetic a bit more manageable, Go 1.17 introduced unsafe.Add (CL 312214). This function was designed to offer a more convenient and ostensibly \u0026ldquo;safer\u0026rdquo; way to perform pointer arithmetic compared to the manual conversion dance of…",
+    "published_at": "2025-08-04T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
+  },
+  {
     "id": "https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist",
     "title": "Render your Jupyter notebooks in OpenGist",
     "url": "https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist",
@@ -2083,6 +2116,28 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://shime.sh/five-ideas",
+    "title": "I've just deleted five of my ideas",
+    "url": "https://shime.sh/five-ideas",
+    "summary": "I keep them in IDEAS.md file on iCloud. I have shortcuts on both my phone and laptop to open the file instantly. I don’t need the sync to be instant. I just want to have the latest version when I run these shortcuts. I added some ideas on my phone yesterday. Today, I opened the file on my laptop, but I didn’t notice it didn’t sync the huge \u003c0.1KB change, so when I saved the file, the changes were overwritten, which means my ideas are now gone. So a whole day has passed between me entering …",
+    "published_at": "2025-08-03T02:49:48Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
+    "id": "https://shime.sh/second-goodbye-to-linkedin",
+    "title": "Second goodbye to LinkedIn",
+    "url": "https://shime.sh/second-goodbye-to-linkedin",
+    "summary": "I’ve deleted LinkedIn for the second time. I originally did it back in 2015 (maybe even earlier, can’t remember the exact year) because I couldn’t stand all the recruiter emails asking me to relocate even though I had specific instructions for them to not email me about non-remote job opportunities. Then two years ago I had to look for a new client so I thought LinkedIn would help with that. It didn’t. The existence of LinkedIn fascinates me because most people can’t stand it, yet they…",
+    "published_at": "2025-07-21T05:31:23Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
     "id": "https://vitonsky.net/blog/2025/07/15/langstats/",
     "title": "Languages stats with ISO codes, speakers count, countries list and its population",
     "url": "https://vitonsky.net/blog/2025/07/15/langstats/",
@@ -2092,6 +2147,17 @@
     "feed_title": "Robert Vitonsky | Software engineering insights",
     "owner_username": "vitonsky",
     "site_url": "https://vitonsky.net"
+  },
+  {
+    "id": "https://shime.sh/shaving-that-yak",
+    "title": "Shaving that yak",
+    "url": "https://shime.sh/shaving-that-yak",
+    "summary": "For the past couple of days, I’ve been waking up around 3:30 AM, excitedly jumping out of bed to make some tweaks to the website you’re reading this on 1 . I’ve spent a lot of hours updating it to the latest version in hopes of improving the build time of 3 seconds, which is abysmal. After all this work, the build time is now down to about 100 milliseconds. Of course, for one reason or another, it’s precisely now that I stumble upon Bret Victor’s seminal talk with the core argument bei…",
+    "published_at": "2025-07-15T07:02:23Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
   },
   {
     "id": "https://jordivillar.com/blog/becoming-irrelevant/",
@@ -2150,10 +2216,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "/node/ai-and-critical-thinking",
-    "title": "Is AI Really Killing Critical Thought?",
-    "url": "https://boehs.org/node/ai-and-critical-thinking",
-    "summary": "A letter that was once written to my town",
+    "id": "/node/3ds",
+    "title": "The 3DS Still Holds Up",
+    "url": "https://boehs.org/node/3ds",
+    "summary": "I know the Switch 2 just came on but I want to give you a love letter to my 3DS",
     "published_at": "2025-06-24T00:00:00Z",
     "updated_at": "2025-06-24T00:00:00Z",
     "feed_url": "https://boehs.org/in/blog.xml",
@@ -2162,10 +2228,10 @@
     "site_url": "https://boehs.org"
   },
   {
-    "id": "/node/3ds",
-    "title": "The 3DS Still Holds Up",
-    "url": "https://boehs.org/node/3ds",
-    "summary": "I know the Switch 2 just came on but I want to give you a love letter to my 3DS",
+    "id": "/node/ai-and-critical-thinking",
+    "title": "Is AI Really Killing Critical Thought?",
+    "url": "https://boehs.org/node/ai-and-critical-thinking",
+    "summary": "A letter that was once written to my town",
     "published_at": "2025-06-24T00:00:00Z",
     "updated_at": "2025-06-24T00:00:00Z",
     "feed_url": "https://boehs.org/in/blog.xml",
@@ -2713,6 +2779,16 @@
     "site_url": "https://samrat.me"
   },
   {
+    "id": "https://vgel.me/fiction/dancing-statues/",
+    "title": "traditions (🔊)",
+    "url": "https://vgel.me/fiction/dancing-statues/",
+    "published_at": "2025-02-15T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
+  },
+  {
     "id": "/posts/third-wave-civic-tech/",
     "title": "Civic Tech's Third Wave",
     "url": "/posts/third-wave-civic-tech/",
@@ -2722,16 +2798,6 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
-  },
-  {
-    "id": "https://vgel.me/fiction/dancing-statues/",
-    "title": "traditions (🔊)",
-    "url": "https://vgel.me/fiction/dancing-statues/",
-    "published_at": "2025-02-15T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
   },
   {
     "id": "https://vgel.me/fiction/minister-of-worms/",
@@ -2876,10 +2942,21 @@
     "site_url": "https://vgel.me"
   },
   {
-    "id": "/node/meta-censorship",
-    "title": "I Was Just Censored by Meta",
-    "url": "https://boehs.org/node/meta-censorship",
-    "summary": "I took to Instagram to complain about Instagram. Here's how it went.",
+    "id": "https://shime.sh/the-prison-of-context",
+    "title": "The prison of context",
+    "url": "https://shime.sh/the-prison-of-context",
+    "summary": "I’ve recently stumbled upon “Stockdale Paradox”, named after Admiral Jim Stockdale, a prisoner of war who was tortured during his eight-year imprisonment during the Vietnam War. He said that he survived because he maintained the faith that he could and would prevail in the end, but at the same time had the discipline to confront the harsh reality. He mentions that it was not the pessimists, but the optimists who didn’t make it. [ 1 ] This reminds me of a couple of things. Firstly, this i…",
+    "published_at": "2025-01-10T07:15:00Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
+    "id": "/node/homomorphic-encryption",
+    "title": "Homomorphic Encryption in iOS 18",
+    "url": "https://boehs.org/node/homomorphic-encryption",
+    "summary": "A mathematical miracle enables Apple's servers to process your photos while never knowing anything about them",
     "published_at": "2025-01-10T00:00:00Z",
     "updated_at": "2025-01-10T00:00:00Z",
     "feed_url": "https://boehs.org/in/blog.xml",
@@ -2888,10 +2965,10 @@
     "site_url": "https://boehs.org"
   },
   {
-    "id": "/node/homomorphic-encryption",
-    "title": "Homomorphic Encryption in iOS 18",
-    "url": "https://boehs.org/node/homomorphic-encryption",
-    "summary": "A mathematical miracle enables Apple's servers to process your photos while never knowing anything about them",
+    "id": "/node/meta-censorship",
+    "title": "I Was Just Censored by Meta",
+    "url": "https://boehs.org/node/meta-censorship",
+    "summary": "I took to Instagram to complain about Instagram. Here's how it went.",
     "published_at": "2025-01-10T00:00:00Z",
     "updated_at": "2025-01-10T00:00:00Z",
     "feed_url": "https://boehs.org/in/blog.xml",
@@ -2910,6 +2987,28 @@
     "feed_title": "Benjamin Esham",
     "owner_username": "bdesham",
     "site_url": "https://esham.io"
+  },
+  {
+    "id": "https://shime.sh/on-evil-being-that-which-is-positive",
+    "title": "On evil being that which is positive",
+    "url": "https://shime.sh/on-evil-being-that-which-is-positive",
+    "summary": "I like Schopenhauer’s ideas more than I like Nietzsche’s and I agree with him that one can make oneself stupid by reading too much and I’ve re-read “On Thinking for Oneself” a couple of times, but that’s about it. See, a couple of years ago I’ve read this in “On the suffering of the world”. In it, he claims that “misfortune in general is the rule” and that we think more about the unpleasant and painful things because that is felt directly, instantly and with great clarity. …",
+    "published_at": "2025-01-08T22:23:00Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
+    "id": "https://shime.sh/schopenhauer-emerson-and-prompting-yourself",
+    "title": "Schopenhauer, Emerson, and prompting yourself",
+    "url": "https://shime.sh/schopenhauer-emerson-and-prompting-yourself",
+    "summary": "Following MacIver’s Daily Writing Practice made me roam through my Roam Research highlights in search of good prompts for the daily entry. I’ve stumbled upon this one, from an article by Henrik Karlsson : You can also get into this feedback loop by chasing your reading . You read and reflect on what you learn. Then you use those reflections to find even more interesting nooks in the history of literature, spurring more and more ideas. If you don’t have access to interesting peers, you migh…",
+    "published_at": "2025-01-07T22:28:00Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
   },
   {
     "id": "/node/tiktok-restored",
@@ -2976,6 +3075,28 @@
     "feed_title": "Samrat Man Singh",
     "owner_username": "samrat",
     "site_url": "https://samrat.me"
+  },
+  {
+    "id": "https://shime.sh/thoughts-on-coffee-making",
+    "title": "Thoughts on coffee making",
+    "url": "https://shime.sh/thoughts-on-coffee-making",
+    "summary": "I’ve been using Aeropress for about ten years and I still consider it one of the best purchases I’ve ever made. To me, this is a much better alternative to the most popular coffee style in Croatia: Turkish coffee. The coffee made with Aeropress tastes less bitter and generally more tasteful which is why I’ve also stopped adding sugar to it. I think adding sugar is so popular because it masks the awful taste of coffee. A ballpark estimate tells me that by switching to Aeropress I’ve not c…",
+    "published_at": "2024-12-26T07:39:00Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
+  },
+  {
+    "id": "https://shime.sh/into-hibernation",
+    "title": "Into hibernation",
+    "url": "https://shime.sh/into-hibernation",
+    "summary": "“In the midst of winter, I found there was, within me, an invincible summer,” said Camus. When I was younger I used to hate winters, but they have grown on me. Every season reveals its magic for those with eyes to see and that is true about winter as well. There is something alluring about the brisk winter air, about coming back to the warm indoors, and warming with a hot apple cinnamon tea. My former self would passionately disagree, but I’ll admit that there is something alluring even ab…",
+    "published_at": "2024-12-25T21:25:00Z",
+    "feed_url": "https://shime.sh/feed.xml",
+    "feed_title": "Articles • Hrvoje Šimić",
+    "owner_username": "shime",
+    "site_url": "https://shime.sh"
   },
   {
     "id": "67644bab2fb2cc00015246b7",
@@ -3098,10 +3219,10 @@
     "site_url": "https://boehs.org"
   },
   {
-    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "title": "Fly.io Postgres failover fix",
-    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
-    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
+    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
+    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
+    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -3109,10 +3230,10 @@
     "site_url": "https://adriano.fyi"
   },
   {
-    "id": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "title": "Hetzner raises prices while significantly lowering bandwidth (US)",
-    "url": "https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/",
-    "summary": "Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…",
+    "id": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "title": "Fly.io Postgres failover fix",
+    "url": "https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/",
+    "summary": "Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…",
     "published_at": "2024-11-28T00:00:00Z",
     "feed_url": "https://adriano.fyi/index.xml",
     "feed_title": "Adriano Caloiaro's personal blog",
@@ -3201,128 +3322,6 @@
     "url": "https://samrat.me/gemini-file-upload-in-elixir/",
     "summary": "If you want to send videos or images to the Google Gemini API, eg for video summarization, you need to upload the video to a separate endpoint and wait for it to get processed. This is described in the Gemini docs , and it's fairly straightforward to translate into",
     "published_at": "2024-11-12T22:02:39Z",
-    "feed_url": "https://samrat.me/rss/",
-    "feed_title": "Samrat Man Singh",
-    "owner_username": "samrat",
-    "site_url": "https://samrat.me"
-  },
-  {
-    "id": "/posts/scopeathon-intro/",
-    "title": "Reflections on Civic Tech from 10th Annual Civic Scopeathon",
-    "url": "/posts/scopeathon-intro/",
-    "summary": "( Notes from a brief introduction I gave at the 10th Annual Civic Scopeathon , put on by my students. Someone asked me to share it, so putting it up here without any real editing.) Civic Tech is a young field, about 20 years old. That means Scopeathon has been around for about half of that time. I want to take a second to talk about what has changed in civic tech in those past twenty years, and why Scopeathon embodies some of the most important ideals.",
-    "published_at": "2024-11-11T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
-  },
-  {
-    "id": "https://matt.blwt.io/post/regular-restarts-are-good-actually/",
-    "title": "Regular Restarts Are Good, Actually",
-    "url": "https://matt.blwt.io/post/regular-restarts-are-good-actually/",
-    "summary": "Anecdotally, one of the more maligned features of the Heroku platform are the 24-hour limits on compute units, known as “dynos” . This is actually a good thing, but very misunderstood.",
-    "published_at": "2024-11-08T12:51:16Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://vgel.me/fiction/going-and-going/",
-    "title": "going and going",
-    "url": "https://vgel.me/fiction/going-and-going/",
-    "published_at": "2024-11-08T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://agnishom.github.io/blog/2024/car-free-houston",
-    "title": "living car-free in houston",
-    "url": "https://agnishom.github.io/blog/2024/car-free-houston/",
-    "summary": "my experience of living in Houston without a car, and the North American obsession with them",
-    "published_at": "2024-11-07T00:00:00Z",
-    "updated_at": "2024-11-07T00:00:00Z",
-    "feed_url": "https://isomorphism.xyz/feed.xml",
-    "feed_title": "blank",
-    "owner_username": "agnishom",
-    "site_url": "https://agnishom.github.io"
-  },
-  {
-    "id": "672662986e63510001417047",
-    "title": "Implementing distributed pooling in Elixir",
-    "url": "https://samrat.me/elixir-distributed-pooling/",
-    "summary": "In Elixir, once you have clustering set up , it's ridiculously easy to run some code on another node in your cluster: Node.spawn(:\"another_beam_instance@10.0.1.2\", fn -\u003e # This runs on a different node send(self(), node()) end) receive do response",
-    "published_at": "2024-11-06T11:22:43Z",
-    "feed_url": "https://samrat.me/rss/",
-    "feed_title": "Samrat Man Singh",
-    "owner_username": "samrat",
-    "site_url": "https://samrat.me"
-  },
-  {
-    "id": "/node/election-2024",
-    "title": "We Showed Up. We Fought. We Lost.",
-    "url": "https://boehs.org/node/election-2024",
-    "summary": "Initial reflections on the 2024 election",
-    "published_at": "2024-11-06T00:00:00Z",
-    "updated_at": "2024-11-06T00:00:00Z",
-    "feed_url": "https://boehs.org/in/blog.xml",
-    "feed_title": "Evan Boehs in the blog",
-    "owner_username": "boehs",
-    "site_url": "https://boehs.org"
-  },
-  {
-    "id": "https://matt.blwt.io/post/on-that-okta-ldap-bug/",
-    "title": "On That Okta LDAP Bug",
-    "url": "https://matt.blwt.io/post/on-that-okta-ldap-bug/",
-    "summary": "A quick explanation of the Okta AD/LDAP DelAuth bug that was being shared around, and the importance of sensible defaults.",
-    "published_at": "2024-11-03T12:51:00Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://superjamie.github.io/2024/11/02/caddy-container-with-dns-provider",
-    "title": "Caddy container with DNS provider",
-    "url": "https://superjamie.github.io/2024/11/02/caddy-container-with-dns-provider",
-    "summary": "I’ve been using Caddy as a reverse proxy for a while. It’s very well documented and easy to configure. Gone are the days of figuring out HTTPS and paying for a certificate, many webservers and proxies offer an automated TLS certificate via Let’s Encrypt automated challenges. Getting a valid TLS certificate is just one line in a config file. The default way to do this is with a “HTTP Challenge” where the webserver must listen on port 80, and the provider makes sure the webserver asking …",
-    "published_at": "2024-11-02T00:00:00Z",
-    "feed_url": "https://superjamie.github.io/feed.xml",
-    "feed_title": "superjamie.github.io",
-    "owner_username": "suprjami",
-    "site_url": "https://superjamie.github.io/"
-  },
-  {
-    "id": "67248c9e5ca6f9000160781a",
-    "title": "TIL: `pg` vs `pg2` Erlang modules",
-    "url": "https://samrat.me/til-pg-vs-pg2-erlang-modules/",
-    "summary": "I started reading up on Erlang's pg module( pg = \"process groups\", it's not related to Postgres!) recently and kept seeing references to pg2 . This is quite confusing because pg is the newer module that replaces pg2 . From pg.erl 's initial commit message",
-    "published_at": "2024-11-01T08:15:23Z",
-    "feed_url": "https://samrat.me/rss/",
-    "feed_title": "Samrat Man Singh",
-    "owner_username": "samrat",
-    "site_url": "https://samrat.me"
-  },
-  {
-    "id": "6723deff5ca6f900016077eb",
-    "title": "FLAME Dashboard",
-    "url": "https://samrat.me/flame-dashboard-initial-release/",
-    "summary": "I just released a small Elixir package: flame_dashboard ( Hex.pm package ). It adds a page to Phoenix LiveDashboard that lets you monitor your FLAME pools. Here's a video showing the dashboard in action: 0:00 / 0:13 1×",
-    "published_at": "2024-10-31T19:53:32Z",
-    "feed_url": "https://samrat.me/rss/",
-    "feed_title": "Samrat Man Singh",
-    "owner_username": "samrat",
-    "site_url": "https://samrat.me"
-  },
-  {
-    "id": "672256685ca6f900016077c1",
-    "title": "TIL: Looking up a VM's private IP in Hetzner",
-    "url": "https://samrat.me/til-looking-up-a-vms-private-ip-in-hetzner/",
-    "summary": "I recently had to look up my Hetzner VM's IP in a private network I'd set up from inside a Docker container. My initial set up was a bit clunky passing the host IP addresses during deployment but there's an easy way to look",
-    "published_at": "2024-10-30T15:57:21Z",
     "feed_url": "https://samrat.me/rss/",
     "feed_title": "Samrat Man Singh",
     "owner_username": "samrat",

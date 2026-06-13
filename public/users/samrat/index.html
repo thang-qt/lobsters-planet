@@ -106,30 +106,6 @@
           <p>If you want to send videos or images to the Google Gemini API, eg for video summarization, you need to upload the video to a separate endpoint and wait for it to get processed. This is described in the Gemini docs , and it&#39;s fairly straightforward to translate into</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">6 Nov 2024 · Samrat Man Singh</p>
-          <h3><a href="https://samrat.me/elixir-distributed-pooling/">Implementing distributed pooling in Elixir</a></h3>
-          <p>In Elixir, once you have clustering set up , it&#39;s ridiculously easy to run some code on another node in your cluster: Node.spawn(:&#34;another_beam_instance@10.0.1.2&#34;, fn -&gt; # This runs on a different node send(self(), node()) end) receive do response</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Nov 2024 · Samrat Man Singh</p>
-          <h3><a href="https://samrat.me/til-pg-vs-pg2-erlang-modules/">TIL: `pg` vs `pg2` Erlang modules</a></h3>
-          <p>I started reading up on Erlang&#39;s pg module( pg = &#34;process groups&#34;, it&#39;s not related to Postgres!) recently and kept seeing references to pg2 . This is quite confusing because pg is the newer module that replaces pg2 . From pg.erl &#39;s initial commit message</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">31 Oct 2024 · Samrat Man Singh</p>
-          <h3><a href="https://samrat.me/flame-dashboard-initial-release/">FLAME Dashboard</a></h3>
-          <p>I just released a small Elixir package: flame_dashboard ( Hex.pm package ). It adds a page to Phoenix LiveDashboard that lets you monitor your FLAME pools. Here&#39;s a video showing the dashboard in action: 0:00 / 0:13 1×</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">30 Oct 2024 · Samrat Man Singh</p>
-          <h3><a href="https://samrat.me/til-looking-up-a-vms-private-ip-in-hetzner/">TIL: Looking up a VM&#39;s private IP in Hetzner</a></h3>
-          <p>I recently had to look up my Hetzner VM&#39;s IP in a private network I&#39;d set up from inside a Docker container. My initial set up was a bit clunky passing the host IP addresses during deployment but there&#39;s an easy way to look</p>
-        </article>
-      
     </div>
   </main>
 

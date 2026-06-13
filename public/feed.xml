@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Sat, 13 Jun 2026 04:56:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 09:36:53 +0000</lastBuildDate>
     <item>
       <title>Comment on We mourn our craft by Friday links: RIP Peter Klopfer, and more | Dynamic Ecology</title>
       <link>https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238397</link>
@@ -486,19 +486,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>From RSS to Atom</title>
-      <link>https://susam.net/from-rss-to-atom.html</link>
-      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
-      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
-      <author>susam</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Podman rootless containers and the Copy Fail exploit</title>
       <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
       <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
       <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
       <author>ggpsv</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From RSS to Atom</title>
+      <link>https://susam.net/from-rss-to-atom.html</link>
+      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
+      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
+      <author>susam</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -636,6 +636,14 @@
       <description>These are my notes and pre-built images for getting OpenBSD-current installed on the Pomera DM250, DM250X, DM250XY, and DM250US. Table of Contents Top Throat-clearing Making a backup Some DM250 hardware notes Making an OpenBSD installation SD card Installing OpenBSD Post-Installation Building a custom installation ramdisk Recovery Throat-clearing Much of my work has not yet been committed upstream so installation currently requires a custom kernel and U-Boot images which are provided here. OpenB…</description>
       <author>jcs</author>
       <pubDate>Thu, 09 Apr 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An old compiler bug with a very bad outcome</title>
+      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
+      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
+      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
+      <author>cuonglm</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>New guide for working with rqlite clusters</title>
@@ -1108,6 +1116,14 @@
       <pubDate>Sat, 27 Dec 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Merry Christmas</title>
+      <link>https://shime.sh/merry-christmas</link>
+      <guid isPermaLink="false">https://shime.sh/merry-christmas</guid>
+      <description>This Christmas is special because my little daughter realizes it’s Christmas for the first time today. I’ve woken up early, turned on the Christmas lights and put the present under the Christmas tree. This feels better than receiving a gift ever did and so from my experience it’s definitely true that “giving is more blessed than receiving”. Jonathan Haidt writes about this in The Happiness Hypothesis (which is one of the best books I’ve read this year): Those who reported giving more…</description>
+      <author>shime</author>
+      <pubDate>Thu, 25 Dec 2025 06:19:23 +0000</pubDate>
+    </item>
+    <item>
       <title>The High Room</title>
       <link>https://vgel.me/fiction/the-high-room/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/the-high-room/</guid>
@@ -1347,13 +1363,6 @@
       <pubDate>Tue, 23 Sep 2025 20:12:45 +0000</pubDate>
     </item>
     <item>
-      <title>papershelf</title>
-      <link>https://nezubn.com/papershelf</link>
-      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
-      <author>nezubn</author>
-      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
-    </item>
-    <item>
       <title>products</title>
       <link>https://nezubn.com/products</link>
       <guid isPermaLink="false">https://nezubn.com/products</guid>
@@ -1365,6 +1374,13 @@
       <link>https://nezubn.com/</link>
       <guid isPermaLink="false">https://nezubn.com/</guid>
       <description>Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.</description>
+      <author>nezubn</author>
+      <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>papershelf</title>
+      <link>https://nezubn.com/papershelf</link>
+      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
       <author>nezubn</author>
       <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
     </item>
@@ -1497,6 +1513,14 @@
       <pubDate>Fri, 08 Aug 2025 15:45:13 +0000</pubDate>
     </item>
     <item>
+      <title>Safer unsafe.Add</title>
+      <link>https://cuonglm.xyz/post/go_issue_74431/</link>
+      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_74431/</guid>
+      <description>Prologue Go&amp;rsquo;s unsafe package is a powerful tool, allowing low-level memory manipulation when performance or specific system interactions demand it. However, with great power comes great responsibility – and potential for subtle bugs. To make pointer arithmetic a bit more manageable, Go 1.17 introduced unsafe.Add (CL 312214). This function was designed to offer a more convenient and ostensibly &amp;ldquo;safer&amp;rdquo; way to perform pointer arithmetic compared to the manual conversion dance of…</description>
+      <author>cuonglm</author>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Render your Jupyter notebooks in OpenGist</title>
       <link>https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</link>
       <guid isPermaLink="false">https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</guid>
@@ -1505,12 +1529,36 @@
       <pubDate>Sun, 03 Aug 2025 19:57:57 +0000</pubDate>
     </item>
     <item>
+      <title>I&#39;ve just deleted five of my ideas</title>
+      <link>https://shime.sh/five-ideas</link>
+      <guid isPermaLink="false">https://shime.sh/five-ideas</guid>
+      <description>I keep them in IDEAS.md file on iCloud. I have shortcuts on both my phone and laptop to open the file instantly. I don’t need the sync to be instant. I just want to have the latest version when I run these shortcuts. I added some ideas on my phone yesterday. Today, I opened the file on my laptop, but I didn’t notice it didn’t sync the huge &lt;0.1KB change, so when I saved the file, the changes were overwritten, which means my ideas are now gone. So a whole day has passed between me entering …</description>
+      <author>shime</author>
+      <pubDate>Sun, 03 Aug 2025 02:49:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Second goodbye to LinkedIn</title>
+      <link>https://shime.sh/second-goodbye-to-linkedin</link>
+      <guid isPermaLink="false">https://shime.sh/second-goodbye-to-linkedin</guid>
+      <description>I’ve deleted LinkedIn for the second time. I originally did it back in 2015 (maybe even earlier, can’t remember the exact year) because I couldn’t stand all the recruiter emails asking me to relocate even though I had specific instructions for them to not email me about non-remote job opportunities. Then two years ago I had to look for a new client so I thought LinkedIn would help with that. It didn’t. The existence of LinkedIn fascinates me because most people can’t stand it, yet they…</description>
+      <author>shime</author>
+      <pubDate>Mon, 21 Jul 2025 05:31:23 +0000</pubDate>
+    </item>
+    <item>
       <title>Languages stats with ISO codes, speakers count, countries list and its population</title>
       <link>https://vitonsky.net/blog/2025/07/15/langstats/</link>
       <guid isPermaLink="false">https://vitonsky.net/blog/2025/07/15/langstats/</guid>
       <description>When I work on multi-lingual projects, it always takes a lot of time to estimate and prioritize the localization process. Even if you use machine translation, you can&#39;t just translate all languages in the world, since it takes a long time, and LLM will spend all your money on garbage generations like chars &#34;aa&#34; repeated thousands of times in a row. I built the NPM package langstats to solve this problem.</description>
       <author>vitonsky</author>
       <pubDate>Tue, 15 Jul 2025 13:42:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shaving that yak</title>
+      <link>https://shime.sh/shaving-that-yak</link>
+      <guid isPermaLink="false">https://shime.sh/shaving-that-yak</guid>
+      <description>For the past couple of days, I’ve been waking up around 3:30 AM, excitedly jumping out of bed to make some tweaks to the website you’re reading this on 1 . I’ve spent a lot of hours updating it to the latest version in hopes of improving the build time of 3 seconds, which is abysmal. After all this work, the build time is now down to about 100 milliseconds. Of course, for one reason or another, it’s precisely now that I stumble upon Bret Victor’s seminal talk with the core argument bei…</description>
+      <author>shime</author>
+      <pubDate>Tue, 15 Jul 2025 07:02:23 +0000</pubDate>
     </item>
     <item>
       <title>Am I Becoming Irrelevant?</title>
@@ -1553,18 +1601,18 @@
       <pubDate>Tue, 24 Jun 2025 21:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is AI Really Killing Critical Thought?</title>
-      <link>https://boehs.org/node/ai-and-critical-thinking</link>
-      <guid isPermaLink="false">/node/ai-and-critical-thinking</guid>
-      <description>A letter that was once written to my town</description>
-      <author>boehs</author>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The 3DS Still Holds Up</title>
       <link>https://boehs.org/node/3ds</link>
       <guid isPermaLink="false">/node/3ds</guid>
       <description>I know the Switch 2 just came on but I want to give you a love letter to my 3DS</description>
+      <author>boehs</author>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is AI Really Killing Critical Thought?</title>
+      <link>https://boehs.org/node/ai-and-critical-thinking</link>
+      <guid isPermaLink="false">/node/ai-and-critical-thinking</guid>
+      <description>A letter that was once written to my town</description>
       <author>boehs</author>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
     </item>
@@ -1951,18 +1999,18 @@
       <pubDate>Sat, 15 Feb 2025 14:57:13 +0000</pubDate>
     </item>
     <item>
+      <title>traditions (🔊)</title>
+      <link>https://vgel.me/fiction/dancing-statues/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/dancing-statues/</guid>
+      <author>vgel</author>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Civic Tech&#39;s Third Wave</title>
       <link>/posts/third-wave-civic-tech/</link>
       <guid isPermaLink="false">/posts/third-wave-civic-tech/</guid>
       <description>I’ve spent nearly twenty years working in civic tech. It feels like with everything going on right now, I should have something to say… This is my attempt to put into words what’s been swirling around in my head during this chaos. This is my perspective , which I know is just a small part of the picture. In particular, I am focused on the US here, and while I’ve worked with many civic tech nonprofits, journalists, academics, and at commercial civic tech firms, I should note I’ve never …</description>
       <author>jptsh</author>
-      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>traditions (🔊)</title>
-      <link>https://vgel.me/fiction/dancing-statues/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/dancing-statues/</guid>
-      <author>vgel</author>
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2067,12 +2115,12 @@
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>I Was Just Censored by Meta</title>
-      <link>https://boehs.org/node/meta-censorship</link>
-      <guid isPermaLink="false">/node/meta-censorship</guid>
-      <description>I took to Instagram to complain about Instagram. Here&#39;s how it went.</description>
-      <author>boehs</author>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <title>The prison of context</title>
+      <link>https://shime.sh/the-prison-of-context</link>
+      <guid isPermaLink="false">https://shime.sh/the-prison-of-context</guid>
+      <description>I’ve recently stumbled upon “Stockdale Paradox”, named after Admiral Jim Stockdale, a prisoner of war who was tortured during his eight-year imprisonment during the Vietnam War. He said that he survived because he maintained the faith that he could and would prevail in the end, but at the same time had the discipline to confront the harsh reality. He mentions that it was not the pessimists, but the optimists who didn’t make it. [ 1 ] This reminds me of a couple of things. Firstly, this i…</description>
+      <author>shime</author>
+      <pubDate>Fri, 10 Jan 2025 07:15:00 +0000</pubDate>
     </item>
     <item>
       <title>Homomorphic Encryption in iOS 18</title>
@@ -2083,12 +2131,36 @@
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>I Was Just Censored by Meta</title>
+      <link>https://boehs.org/node/meta-censorship</link>
+      <guid isPermaLink="false">/node/meta-censorship</guid>
+      <description>I took to Instagram to complain about Instagram. Here&#39;s how it went.</description>
+      <author>boehs</author>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Authoritarians thrive on misinformation, and Apple is providing it as a service</title>
       <link>https://esham.io/2025/01/apple-ai-news</link>
       <guid isPermaLink="false">https://esham.io/2025/01/apple-ai-news</guid>
       <description>Oppressive regimes benefit when people are confused, when they cannot tell fact from fiction. “To abandon facts is to abandon freedom,” warns Yale history professor Timothy Snyder . “If nothing is true, then no one can criticize power, because there is no basis upon which to do so. If nothing is true, then all is spectacle.” George Lakoff and Gil Duran of FrameLab agree : “Once we can no longer discern fact from falsehood (or we no longer care), the authoritarians win.” As we grimly …</description>
       <author>bdesham</author>
       <pubDate>Thu, 09 Jan 2025 17:57:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>On evil being that which is positive</title>
+      <link>https://shime.sh/on-evil-being-that-which-is-positive</link>
+      <guid isPermaLink="false">https://shime.sh/on-evil-being-that-which-is-positive</guid>
+      <description>I like Schopenhauer’s ideas more than I like Nietzsche’s and I agree with him that one can make oneself stupid by reading too much and I’ve re-read “On Thinking for Oneself” a couple of times, but that’s about it. See, a couple of years ago I’ve read this in “On the suffering of the world”. In it, he claims that “misfortune in general is the rule” and that we think more about the unpleasant and painful things because that is felt directly, instantly and with great clarity. …</description>
+      <author>shime</author>
+      <pubDate>Wed, 08 Jan 2025 22:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Schopenhauer, Emerson, and prompting yourself</title>
+      <link>https://shime.sh/schopenhauer-emerson-and-prompting-yourself</link>
+      <guid isPermaLink="false">https://shime.sh/schopenhauer-emerson-and-prompting-yourself</guid>
+      <description>Following MacIver’s Daily Writing Practice made me roam through my Roam Research highlights in search of good prompts for the daily entry. I’ve stumbled upon this one, from an article by Henrik Karlsson : You can also get into this feedback loop by chasing your reading . You read and reflect on what you learn. Then you use those reflections to find even more interesting nooks in the history of literature, spurring more and more ideas. If you don’t have access to interesting peers, you migh…</description>
+      <author>shime</author>
+      <pubDate>Tue, 07 Jan 2025 22:28:00 +0000</pubDate>
     </item>
     <item>
       <title>TikTok, Oligarchs, and Ass Kissing</title>
@@ -2135,6 +2207,22 @@
       <description>I&#39;m using the http package to make a POST request to OpenAI, and the API seems to only strictly accept application/sdp as the Content-Type : flutter: Response body: {&#34;error&#34;:{&#34;message&#34;:&#34;Unsupported content type. This API method only accepts &#39;application/sdp&#39; requests,</description>
       <author>samrat</author>
       <pubDate>Sat, 28 Dec 2024 10:06:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thoughts on coffee making</title>
+      <link>https://shime.sh/thoughts-on-coffee-making</link>
+      <guid isPermaLink="false">https://shime.sh/thoughts-on-coffee-making</guid>
+      <description>I’ve been using Aeropress for about ten years and I still consider it one of the best purchases I’ve ever made. To me, this is a much better alternative to the most popular coffee style in Croatia: Turkish coffee. The coffee made with Aeropress tastes less bitter and generally more tasteful which is why I’ve also stopped adding sugar to it. I think adding sugar is so popular because it masks the awful taste of coffee. A ballpark estimate tells me that by switching to Aeropress I’ve not c…</description>
+      <author>shime</author>
+      <pubDate>Thu, 26 Dec 2024 07:39:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Into hibernation</title>
+      <link>https://shime.sh/into-hibernation</link>
+      <guid isPermaLink="false">https://shime.sh/into-hibernation</guid>
+      <description>“In the midst of winter, I found there was, within me, an invincible summer,” said Camus. When I was younger I used to hate winters, but they have grown on me. Every season reveals its magic for those with eyes to see and that is true about winter as well. There is something alluring about the brisk winter air, about coming back to the warm indoors, and warming with a hot apple cinnamon tea. My former self would passionately disagree, but I’ll admit that there is something alluring even ab…</description>
+      <author>shime</author>
+      <pubDate>Wed, 25 Dec 2024 21:25:00 +0000</pubDate>
     </item>
     <item>
       <title>Book mini-review: &#34;Children of Time&#34; by Adrian Tchaikovsky</title>
@@ -2223,18 +2311,18 @@
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fly.io Postgres failover fix</title>
-      <link>https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</link>
-      <guid isPermaLink="false">https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</guid>
-      <description>Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…</description>
-      <author>adriano</author>
-      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hetzner raises prices while significantly lowering bandwidth (US)</title>
       <link>https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</link>
       <guid isPermaLink="false">https://adriano.fyi/posts/hetzner-raises-prices-while-significantly-lowering-bandwidth-in-us/</guid>
       <description>Hetzner raises prices This morning I received an email from Hetzner stating that they are raising prices in the US while significantly reducing bandwidth. The largest price percentage increase is 27.52% for CPX21 servers, and the smallest is 4.17% for CX3+ servers. Bandwidth allotments are decreasing on average, across all products, 88.19% from previous allotments. I’ve been a big fan of Hetzner. Unfortunately they’ve made a feeble attempt to dress this change up in the name of “fairness��…</description>
+      <author>adriano</author>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fly.io Postgres failover fix</title>
+      <link>https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</link>
+      <guid isPermaLink="false">https://adriano.fyi/posts/fly-dot-io-postgres-failover-fix/</guid>
+      <description>Fly.io Postgres failover fix ( flyctl pg failover ) This is a note to myself, meant to be succinct and helpful. I’m sharing it publicly to save others time. Most of the time Fly.io works as I expect it to, but occasionally there are edge cases that lack documentation, public announcements, or both. It’s possible that at some point Fly.io announced a breaking change and I missed it, but the behavior I observed deserves more than an announcement or silently released documentation. Today, I wan…</description>
       <author>adriano</author>
       <pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate>
     </item>
@@ -2300,93 +2388,6 @@
       <description>If you want to send videos or images to the Google Gemini API, eg for video summarization, you need to upload the video to a separate endpoint and wait for it to get processed. This is described in the Gemini docs , and it&#39;s fairly straightforward to translate into</description>
       <author>samrat</author>
       <pubDate>Tue, 12 Nov 2024 22:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reflections on Civic Tech from 10th Annual Civic Scopeathon</title>
-      <link>/posts/scopeathon-intro/</link>
-      <guid isPermaLink="false">/posts/scopeathon-intro/</guid>
-      <description>( Notes from a brief introduction I gave at the 10th Annual Civic Scopeathon , put on by my students. Someone asked me to share it, so putting it up here without any real editing.) Civic Tech is a young field, about 20 years old. That means Scopeathon has been around for about half of that time. I want to take a second to talk about what has changed in civic tech in those past twenty years, and why Scopeathon embodies some of the most important ideals.</description>
-      <author>jptsh</author>
-      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Regular Restarts Are Good, Actually</title>
-      <link>https://matt.blwt.io/post/regular-restarts-are-good-actually/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/regular-restarts-are-good-actually/</guid>
-      <description>Anecdotally, one of the more maligned features of the Heroku platform are the 24-hour limits on compute units, known as “dynos” . This is actually a good thing, but very misunderstood.</description>
-      <author>mble</author>
-      <pubDate>Fri, 08 Nov 2024 12:51:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>going and going</title>
-      <link>https://vgel.me/fiction/going-and-going/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/going-and-going/</guid>
-      <author>vgel</author>
-      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>living car-free in houston</title>
-      <link>https://agnishom.github.io/blog/2024/car-free-houston/</link>
-      <guid isPermaLink="false">https://agnishom.github.io/blog/2024/car-free-houston</guid>
-      <description>my experience of living in Houston without a car, and the North American obsession with them</description>
-      <author>agnishom</author>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Implementing distributed pooling in Elixir</title>
-      <link>https://samrat.me/elixir-distributed-pooling/</link>
-      <guid isPermaLink="false">672662986e63510001417047</guid>
-      <description>In Elixir, once you have clustering set up , it&#39;s ridiculously easy to run some code on another node in your cluster: Node.spawn(:&#34;another_beam_instance@10.0.1.2&#34;, fn -&gt; # This runs on a different node send(self(), node()) end) receive do response</description>
-      <author>samrat</author>
-      <pubDate>Wed, 06 Nov 2024 11:22:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>We Showed Up. We Fought. We Lost.</title>
-      <link>https://boehs.org/node/election-2024</link>
-      <guid isPermaLink="false">/node/election-2024</guid>
-      <description>Initial reflections on the 2024 election</description>
-      <author>boehs</author>
-      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On That Okta LDAP Bug</title>
-      <link>https://matt.blwt.io/post/on-that-okta-ldap-bug/</link>
-      <guid isPermaLink="false">https://matt.blwt.io/post/on-that-okta-ldap-bug/</guid>
-      <description>A quick explanation of the Okta AD/LDAP DelAuth bug that was being shared around, and the importance of sensible defaults.</description>
-      <author>mble</author>
-      <pubDate>Sun, 03 Nov 2024 12:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Caddy container with DNS provider</title>
-      <link>https://superjamie.github.io/2024/11/02/caddy-container-with-dns-provider</link>
-      <guid isPermaLink="false">https://superjamie.github.io/2024/11/02/caddy-container-with-dns-provider</guid>
-      <description>I’ve been using Caddy as a reverse proxy for a while. It’s very well documented and easy to configure. Gone are the days of figuring out HTTPS and paying for a certificate, many webservers and proxies offer an automated TLS certificate via Let’s Encrypt automated challenges. Getting a valid TLS certificate is just one line in a config file. The default way to do this is with a “HTTP Challenge” where the webserver must listen on port 80, and the provider makes sure the webserver asking …</description>
-      <author>suprjami</author>
-      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TIL: `pg` vs `pg2` Erlang modules</title>
-      <link>https://samrat.me/til-pg-vs-pg2-erlang-modules/</link>
-      <guid isPermaLink="false">67248c9e5ca6f9000160781a</guid>
-      <description>I started reading up on Erlang&#39;s pg module( pg = &#34;process groups&#34;, it&#39;s not related to Postgres!) recently and kept seeing references to pg2 . This is quite confusing because pg is the newer module that replaces pg2 . From pg.erl &#39;s initial commit message</description>
-      <author>samrat</author>
-      <pubDate>Fri, 01 Nov 2024 08:15:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>FLAME Dashboard</title>
-      <link>https://samrat.me/flame-dashboard-initial-release/</link>
-      <guid isPermaLink="false">6723deff5ca6f900016077eb</guid>
-      <description>I just released a small Elixir package: flame_dashboard ( Hex.pm package ). It adds a page to Phoenix LiveDashboard that lets you monitor your FLAME pools. Here&#39;s a video showing the dashboard in action: 0:00 / 0:13 1×</description>
-      <author>samrat</author>
-      <pubDate>Thu, 31 Oct 2024 19:53:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>TIL: Looking up a VM&#39;s private IP in Hetzner</title>
-      <link>https://samrat.me/til-looking-up-a-vms-private-ip-in-hetzner/</link>
-      <guid isPermaLink="false">672256685ca6f900016077c1</guid>
-      <description>I recently had to look up my Hetzner VM&#39;s IP in a private network I&#39;d set up from inside a Docker container. My initial set up was a bit clunky passing the host IP addresses during deployment but there&#39;s an easy way to look</description>
-      <author>samrat</author>
-      <pubDate>Wed, 30 Oct 2024 15:57:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
