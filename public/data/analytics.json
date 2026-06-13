@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-13T14:32:38.549103417Z",
+  "generated_at": "2026-06-13T19:57:37.950297735Z",
   "overview": {
-    "users": 20344,
-    "crawled_profiles": 650,
-    "homepages": 99,
-    "users_with_feeds": 59,
-    "feeds": 38,
-    "feeds_with_posts": 38,
+    "users": 20345,
+    "crawled_profiles": 675,
+    "homepages": 106,
+    "users_with_feeds": 63,
+    "feeds": 39,
+    "feeds_with_posts": 39,
     "entries": 300
   },
   "oldest_users": [
@@ -805,6 +805,20 @@
       "about": "My backslash escaped!"
     },
     {
+      "username": "serce",
+      "profile_url": "https://lobste.rs/~serce",
+      "homepage_url": "https://serce.me/",
+      "has_detail_page": true,
+      "profile_checked_at": "2026-06-13T19:56:42.554318231Z",
+      "feed_checked_at": "2026-06-13T19:57:35.612801494Z",
+      "users_page_rank": 671,
+      "joined_at": "2021-05-29T09:36:34Z",
+      "karma": 819,
+      "stories_submitted": 65,
+      "comments_posted": 35,
+      "about": "https://twitter.com/SerCeMan"
+    },
+    {
       "username": "qbit",
       "profile_url": "https://lobste.rs/~qbit",
       "has_detail_page": true,
@@ -944,18 +958,6 @@
       "stories_submitted": 39,
       "comments_posted": 238,
       "about": "They/Them, He/Him. Full bio, contact info, etc. on my site's about page. I also have a Gemini capsule at gemini://seirdy.one [Verifying my OpenPGP key: openpgp4fpr:ac6af1f838df3dcc2e47a6cf1e892db2a5f84479]"
-    },
-    {
-      "username": "sustrik",
-      "profile_url": "https://lobste.rs/~sustrik",
-      "has_detail_page": true,
-      "profile_checked_at": "2026-06-12T20:28:05.076803846Z",
-      "users_page_rank": 556,
-      "joined_at": "2016-03-08T13:41:41Z",
-      "karma": 575,
-      "stories_submitted": 38,
-      "comments_posted": 55,
-      "about": "http://www.250bpm.com"
     }
   ],
   "top_comments": [
@@ -1306,7 +1308,7 @@
       "feed_title": "Theia Vogel's website \u0026 blog",
       "owner_username": "vgel",
       "site_url": "https://vgel.me",
-      "entries": 20,
+      "entries": 19,
       "latest_at": "2026-02-08T00:00:00Z"
     },
     {
@@ -1358,14 +1360,6 @@
       "latest_at": "2026-05-25T16:16:40Z"
     },
     {
-      "feed_url": "https://philipotoole.com/feed/",
-      "feed_title": "Philip O'Toole",
-      "owner_username": "otoolep",
-      "site_url": "https://www.philipotoole.com",
-      "entries": 10,
-      "latest_at": "2026-06-01T13:42:34Z"
-    },
-    {
       "feed_url": "https://philipotoole.com/comments/feed/",
       "feed_title": "Comments for Philip O'Toole",
       "owner_username": "otoolep",
@@ -1374,20 +1368,20 @@
       "latest_at": "2026-05-18T12:14:14Z"
     },
     {
+      "feed_url": "https://philipotoole.com/feed/",
+      "feed_title": "Philip O'Toole",
+      "owner_username": "otoolep",
+      "site_url": "https://www.philipotoole.com",
+      "entries": 10,
+      "latest_at": "2026-06-01T13:42:34Z"
+    },
+    {
       "feed_url": "https://fabiomanganiello.com/feed.rss",
       "feed_title": "Fabio Manganiello",
       "owner_username": "blacklight",
       "site_url": "https://fabiomanganiello.com",
       "entries": 9,
       "latest_at": "2026-03-15T16:09:10Z"
-    },
-    {
-      "feed_url": "https://boehs.org/in/blog.xml",
-      "feed_title": "Evan Boehs in the blog",
-      "owner_username": "boehs",
-      "site_url": "https://boehs.org",
-      "entries": 9,
-      "latest_at": "2025-10-22T00:00:00Z"
     },
     {
       "feed_url": "https://susam.net/feed.xml",
@@ -1414,11 +1408,19 @@
       "latest_at": "2026-01-27T00:00:00Z"
     },
     {
+      "feed_url": "https://boehs.org/in/blog.xml",
+      "feed_title": "Evan Boehs in the blog",
+      "owner_username": "boehs",
+      "site_url": "https://boehs.org",
+      "entries": 7,
+      "latest_at": "2025-10-22T00:00:00Z"
+    },
+    {
       "feed_url": "https://jcs.org/rss",
       "feed_title": "joshua stein",
       "owner_username": "jcs",
       "site_url": "https://jcs.org",
-      "entries": 7,
+      "entries": 6,
       "latest_at": "2026-04-09T05:00:00Z"
     },
     {
@@ -1436,6 +1438,14 @@
       "site_url": "https://mccd.space",
       "entries": 6,
       "latest_at": "2026-02-11T00:00:00Z"
+    },
+    {
+      "feed_url": "https://serce.me/feed.xml",
+      "feed_title": "SerCe's blog",
+      "owner_username": "serce",
+      "site_url": "https://serce.me/",
+      "entries": 6,
+      "latest_at": "2026-02-05T00:00:00Z"
     },
     {
       "feed_url": "https://vitonsky.net/rss.xml",
@@ -1460,14 +1470,6 @@
       "site_url": "https://izissise.net",
       "entries": 4,
       "latest_at": "2026-05-11T00:00:00Z"
-    },
-    {
-      "feed_url": "https://samrat.me/rss/",
-      "feed_title": "Samrat Man Singh",
-      "owner_username": "samrat",
-      "site_url": "https://samrat.me",
-      "entries": 4,
-      "latest_at": "2025-03-21T13:15:55Z"
     },
     {
       "feed_url": "https://shime.sh/feed.xml",
@@ -1656,6 +1658,14 @@
       "url": "https://vgel.me/fiction/claugenition/"
     },
     {
+      "username": "serce",
+      "site_url": "https://serce.me/",
+      "feed_title": "SerCe's blog",
+      "latest_at": "2026-02-05T00:00:00Z",
+      "title": "We are QA Engineers now",
+      "url": "https://serce.me/posts/2026-02-05-we-are-qa-engineers-now"
+    },
+    {
       "username": "jptsh",
       "site_url": "https://jpt.sh",
       "feed_title": "jpt.sh",
@@ -1670,14 +1680,6 @@
       "latest_at": "2026-01-03T16:33:29Z",
       "title": "Manually Restoring Scroll Position on Reload with JavaScript",
       "url": "https://nora.codes/tutorial/manually-restoring-scroll-position-on-reload-with-javascript/"
-    },
-    {
-      "username": "shime",
-      "site_url": "https://shime.sh",
-      "feed_title": "Articles • Hrvoje Šimić",
-      "latest_at": "2025-12-25T06:19:23Z",
-      "title": "Merry Christmas",
-      "url": "https://shime.sh/merry-christmas"
     }
   ]
 }
