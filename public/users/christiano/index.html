@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>christiano</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~christiano">Lobste.rs profile</a>
+        <a href="https://christiano.dev">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>6 Jul 2020</dd></div>
+        <div><dt>Karma</dt><dd>382</dd></div>
+        <div><dt>Stories</dt><dd>36</dd></div>
+        <div><dt>Comments</dt><dd>17</dd></div>
+        <div><dt>Profile checked</dt><dd>14 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>14 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Data engineer, free software developer aspe:keyoxide.org:2WLBJR4DT4DC4V46ZRDQWMERDY</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">27 Apr 2026 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/til/newsflash/">Newsflash and Miniflux</a></h3>
+          <p>After writing about my self-hosted RSS workflow , I’ve found the perfect desktop companion for Miniflux. It’s Newsflash — a polished, native GNOME newsreader that connects directly to your Miniflux instance via API. It’s been my daily driver ever since. What’s next: evaluation Android apps to connect to Miniflux, I’ll post the research in a future post :-)</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Feb 2026 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/post/self_hosted_rss/">My Experience with Self-Hosted RSS solution</a></h3>
+          <p>As a privacy advocate and someone who believes in data sovereignty, I’ve been on a constant challenge to maintain control over my digital life. I I love reading news and staying well-informed, making me an avid news consumer. I actively support quality content producers by subscribing or donating money regularly, ensuring that I contribute to the sustainability of my favourite sources. After setting up Miniflux on my own server, I’ve completely transformed how I stay informed.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">25 Jan 2026 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/post/indieweb_smallweb/">The IndieWeb and Small web</a></h3>
+          <p>As someone who values privacy and the open web, I’ve been fascinated by the growing movement away from centralised platforms toward more personal, user-controlled online experiences. What surprised me recently was discovering just how many people are embracing these concepts without even knowing their names. IndieWeb The IndieWeb is a community of people who own their websites and content rather than posting to third-party platforms (like Medium, Substack, etc). It’s built on principles like…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Jan 2026 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/til/gradia/">Gradia: The Ultimate Screenshot Tool for GNOME</a></h3>
+          <p>I’ve been hunting for a screenshot tool that’s actually good for GNOME, and I’m pretty sure I found my new go-to: Gradia . I’ve been using it for a while now, and it’s fantastic. You can add notes, highlight sections, add arrows, very helpful when you’re working on documentation or teaching a tech class.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Oct 2025 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/til/postgres_null_char/">Postgres null character in psql</a></h3>
+          <p>In psql , null values are displayed as blank strings by default, which can be confusing to read. However, you can customize this behavior by setting a specific character to represent null values, making your output more readable and easier to interpret: \pset null &#39;-x-&#39; All null values will become -x- , which is much more convenient. anderson=# select * from test1; name | surname ------&#43;--------- A | -x- (1 row) Bonus It’s possible to choose an emoji as a replacement:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Jun 2025 · Christiano Anderson</p>
+          <h3><a href="https://christiano.dev/til/lsd-ls-replacement/">LSD - ls replacement</a></h3>
+          <p>I have a new ls replacement! I was using eza (see Eza on Fedora 42 ) for a while, but I’ve found something even better: lsd . This tool is a nice because it displays icons for file types, making it so much easier to navigate files directories. The default settings are great, but the date format mm/dd/yyyy is a bit odd. Changing this is the only modification needed to make the tool perfect.</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

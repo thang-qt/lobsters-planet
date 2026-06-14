@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>agwa</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~agwa">Lobste.rs profile</a>
+        <a href="https://www.agwa.name/">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>4 Sep 2025</dd></div>
+        <div><dt>Karma</dt><dd>389</dd></div>
+        <div><dt>Stories</dt><dd>3</dd></div>
+        <div><dt>Comments</dt><dd>24</dd></div>
+        <div><dt>Profile checked</dt><dd>14 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>14 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Bootstrapped founder of SSLMate. WebPKI/Certificate Transparency researcher.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">29 Apr 2026 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies">FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies</a></h3>
+          <p>HTTP reverse proxying is a minefield. Just the other week, a researcher disclosed a desync vulnerability in Discord&#39;s media proxy that allowed spying on private attachments. This is not unusual; these vulnerabilities just keep coming. The problem is the widespread use of HTTP as the protocol between reverse proxies and backends, even though it&#39;s unfit for the job. But we don&#39;t have to use HTTP here. There&#39;s a 30-year-old protocol for proxy-to-backend communication that avoids HTTP&#39;s pitfalls. It…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Feb 2026 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/ip_address_certs">Why IP Address Certificates Are Dangerous and Usually Unnecessary</a></h3>
+          <p>Imagine you&#39;re connecting to an IP address over TLS. The server presents a valid, properly-issued IP address certificate from a publicly-trusted certificate authority. But you&#39;re not really talking to that IP address, but to a man-in-the-middle (MitM) who was assigned the IP address over a year ago. How could this be? Unfortunately, publicly-trusted IP address certificates just don&#39;t provide the same level of security as certificates for domain names. Unless you&#39;re operating a DNS-over-TLS or DN…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">10 Dec 2025 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/cas_are_issuing_broken_certificates_again">Certificate Authorities Are Once Again Issuing Certificates That Don&#39;t Work</a></h3>
+          <p>Twice a year, the Certificate Transparency ecosystem undergoes a transition as certificate authorities start to submit certificates to new semiannual log partitions. And recently, the ecosystem has started transitioning to the new static-ct-api specification. Unfortunately, despite efforts to make these transitions extremely easy for certificate authorities, in the past week I have detected 16 certificate authorities who have bungled these transitions, issuing certificates that are rejected by s…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Nov 2025 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/google_suspended_sslmates_cloud_account_again">Google Just Suspended My Company&#39;s Google Cloud Account for the Third Time</a></h3>
+          <p>On each of the last two Fridays, Google has suspended SSLMate &#39;s Google Cloud access without notification, having previously suspended it in 2024 without notification. But this isn&#39;t just another cautionary tale about using Google Cloud Platform; it&#39;s also a story about usable security and how Google&#39;s capriciousness is forcing me to choose between weakening security or reducing usability. Apart from testing and experimentation, the only reason SSLMate still has a Google Cloud presence is to ena…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Oct 2025 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/verifying_go_reproducible_builds">I&#39;m Independently Verifying Go&#39;s Reproducible Builds</a></h3>
+          <p>When you try to compile a Go module that requires a newer version of the Go toolchain than the one you have installed, the go command automatically downloads the newer toolchain and uses it for compiling the module. ( And only that module; your system&#39;s go installation is not replaced. ) This useful feature was introduced in Go 1.21 and has let me quickly adopt new Go features in my open source projects without inconveniencing people with older versions of Go. However, the idea of downloading a …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Aug 2025 · Andrew Ayer - Blog</p>
+          <h3><a href="https://www.agwa.name/blog/post/sqlite_durability">SQLite&#39;s Durability Settings are a Mess</a></h3>
+          <p>One of the most important properties of a database is durability. Durability means that after a transaction commits, you can be confident that, absent catastrophic hardware failure, the changes made by the commit won&#39;t be lost. This should remain true even if the operating system crashes or the system loses power soon after the commit. On Linux, and most other Unix operating systems, durability is ensured by calling the fsync system call at the right time. Durability comes at a performance cost,…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

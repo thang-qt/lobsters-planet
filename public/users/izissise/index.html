@@ -33,7 +33,7 @@
         <div><dt>Stories</dt><dd>12</dd></div>
         <div><dt>Comments</dt><dd>16</dd></div>
         <div><dt>Profile checked</dt><dd>13 Jun 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>13 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>14 Jun 2026</dd></div>
       </dl>
       <p class="about">aspe:keyoxide.org:RXJDOBF6Q2FXNYZCWUC2B3DIUA openpgp4fpr:A92ED1528EE138C2614B59FA6B925387858B163C</p>
     </section>
@@ -62,12 +62,6 @@
           <p class="meta">24 Oct 2025 · Hugues Blog</p>
           <h3><a href="/posts/raconn/">Raconn - Ssh multi hostname</a></h3>
           <p>TLDR: Raconn Introduction Recently I wanted to connect to a local machine with ssh but didn&#39;t know it&#39;s IP, I knew the MAC address which I could translate into the IPv6 link-local address but since the connect syscall requires the local iface name for ip6 link local, it would need to be hardcoded in the ssh config, making it inconvenient to change. Also if the same machine is accessible from a wider network, I&#39;d need a second entry in the config and have to remember which one to use depending on…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Mar 2025 · Hugues Blog</p>
-          <h3><a href="/posts/ngxp-upload/">Nginx Explorer - Upload</a></h3>
-          <p>After listing files and setting up per directory accesses , we would like to allow some users to upload files. This solution is very hacky, but it has the advantage of requiring only a standard nginx server and a bit of javaScript. Nginx Configuration First, we define our upload endpoint: ... server { ... location ^~ /___ngxp/upload/ { limit_except GET POST { deny all ; } if ($user_authorized = 0) { return 401 ; } # auth works here aswell client_body_temp_path /home/user/uploads/; # upload path …</p>
         </article>
       
     </div>
