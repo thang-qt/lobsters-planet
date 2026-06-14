@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Sun, 14 Jun 2026 09:59:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 14:34:43 +0000</lastBuildDate>
     <item>
       <title>Bookmarks - data, design, vis, book</title>
       <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
@@ -207,18 +207,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Untitled</title>
-      <link>https://inkdroid.org/2026/05/31/untitled/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
-      <description>Untitled by John Summers</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untitled</title>
+      <link>https://inkdroid.org/2026/05/31/untitled/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
+      <description>Untitled by John Summers</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -526,19 +526,19 @@
       <pubDate>Mon, 11 May 2026 00:21:52 +0000</pubDate>
     </item>
     <item>
-      <title>The Problem of Pedagogy in Advanced Mathematics</title>
-      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
-      <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
-      <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
-      <author>susam</author>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Piping terminal output to the browser using systemfd</title>
       <link>/posts/webdev-livecompile/</link>
       <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
       <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
       <author>izissise</author>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Problem of Pedagogy in Advanced Mathematics</title>
+      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
+      <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
+      <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
+      <author>susam</author>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -574,19 +574,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>CCC 2026</title>
-      <link>https://runxiyu.org/ccc/</link>
-      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
-      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wander Console 0.6.0</title>
       <link>https://susam.net/code/news/wander/0.6.0.html</link>
       <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
       <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
       <author>susam</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CCC 2026</title>
+      <link>https://runxiyu.org/ccc/</link>
+      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
+      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -606,19 +606,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
       <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
       <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -966,6 +966,14 @@
       <pubDate>Mon, 09 Mar 2026 09:35:28 +0000</pubDate>
     </item>
     <item>
+      <title>Let yourself fall down more</title>
+      <link>https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/let-yourself-fall-down-more/</guid>
+      <description>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>I recently watched the movie [Sirāt](https://letterboxd.com/film/sirat-2025/) and loved it!&#xA;&#xA;gemini://ayushnix.com/reviews/me...</title>
       <link>https://social.ayushnix.com/@ayushnix/statuses/01KK6V87A19MP3F49TXJ4HYR51</link>
       <guid isPermaLink="false">https://social.ayushnix.com/@ayushnix/statuses/01KK6V87A19MP3F49TXJ4HYR51</guid>
@@ -1030,6 +1038,14 @@
       <pubDate>Mon, 02 Mar 2026 18:26:12 +0000</pubDate>
     </item>
     <item>
+      <title>You can&#39;t always fix it</title>
+      <link>https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/you-cant-always-fix-it/</guid>
+      <description>I have some weird hobbies, and one of those is opening up the network tab on just about anything I&#39;m using. Sometimes, I find egregious problems. Usually, this is something that can be fixed, when responsibly reported. But over time, I learned a bitter lesson: sometimes, you can&#39;t get it fixed. Tracking my package Recently, I was waiting for a time-sensitive delivery of medication. It used a courier company which focused on just delivering prescription medications. I opened up the tracking page …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>@Codeberg@social.anoxinon.de Has Codeberg taken a clear public stance against hosting repositories using LLMs to partially or...</title>
       <link>https://social.ayushnix.com/@ayushnix/statuses/01KJC9PNTV5SWY20PJC0F6K3YK</link>
       <guid isPermaLink="false">https://social.ayushnix.com/@ayushnix/statuses/01KJC9PNTV5SWY20PJC0F6K3YK</guid>
@@ -1052,6 +1068,14 @@
       <description>Building and supporting sustainable small tech on a human scale</description>
       <author>blacklight</author>
       <pubDate>Mon, 23 Feb 2026 05:18:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Binding port 0 to avoid port collisions</title>
+      <link>https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/binding-ephemeral-port/</guid>
+      <description>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dear researchers: Is AI all you&#39;ve got?</title>
@@ -1142,6 +1166,14 @@
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>TIL: Docker log rotation</title>
+      <link>https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/til-docker-log-rotation/</guid>
+      <description>Last week [1] , when I went to publish my blog post, I ran into a surprising error: I was out of disk space. My server is used only for hosting a couple of small static sites, so I was surprised. None of the content is very large, why is the disk full? A little investigation found the culprit. Starting from / and then drilling in using du -h -d 1 . showed me that a Docker folder was using most of the server&#39;s 25 GB disk. None of my container images are very large, so I checked in side and found …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Days of miracle and wonder</title>
       <link>https://nolanlawson.com/2026/02/15/days-of-miracle-and-wonder/</link>
       <guid isPermaLink="false">http://nolanlawson.com/?p=15926</guid>
@@ -1206,6 +1238,14 @@
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Using an engineering notebook</title>
+      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
+      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>2026W05</title>
       <link>https://jordivillar.com/reads/2026w05/</link>
       <guid isPermaLink="false">https://jordivillar.com/reads/2026w05/</guid>
@@ -1261,19 +1301,19 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Landlock is Great</title>
-      <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>My Eighth Year as a Bootstrapped Founder</title>
       <link>https://mtlynch.io/bootstrapped-founder-year-8/</link>
       <guid isPermaLink="false">https://mtlynch.io/bootstrapped-founder-year-8/</guid>
       <description>Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…</description>
       <author>mtlynch</author>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Landlock is Great</title>
+      <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1283,6 +1323,14 @@
       <description>A new release of my Wallops IRC client is available: wallops-2.2.sit (StuffIt 3 archive) SHA256: adc2b473664ec096 0b5b028335566831 dd69f4a1de40f79e 22bf1337292cca88 SHA1: 603c5080c41a0d57 52cae49a08376db4 e18628b1 This update includes a number of new features and bugfixes: Auto-connect with the last saved settings on startup, if they are available, unless the Command key is held down Add support for sending Pushover notifications when the user&#39;s nick is mentioned or directly messaged, when a scr…</description>
       <author>jcs</author>
       <pubDate>Mon, 02 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some good English word datasets</title>
+      <link>https://ntietz.com/blog/good-english-word-datasets/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/good-english-word-datasets/</guid>
+      <description>I&#39;m working on a silly word game right now, which means I need a list of words for it. I can&#39;t rely on the system word list, since this is for a web project. I&#39;d also like, ideally, multiple lists of words with different criteria: most common words, all words, some subsets. It&#39;s not really clear how many words there are , because what is a word [1] ? And how do you find what words are in use? Or decide that something&#39;s used enough that it merits being put in a list, rather than just being a miss…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>15 years of blogging</title>
@@ -1357,6 +1405,14 @@
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making niche solutions is the point</title>
+      <link>https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/making-niche-solutions-is-the-point/</guid>
+      <description>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Ancient of Days</title>
       <link>https://vgel.me/fiction/claude-computer/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
@@ -1428,6 +1484,14 @@
       <pubDate>Mon, 19 Jan 2026 14:02:40 +0000</pubDate>
     </item>
     <item>
+      <title>3D printing my laptop ergonomic setup</title>
+      <link>https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/</guid>
+      <description>Apparently, one of my hobbies is making updates to my ergonomic setup, then blogging about it from an Amtrak train. I&#39;ve gone and done it again. My setup stayed static for some time, but my most recent iteration ended up letting me down and I had to change it again. It gave me a lot of useful information and strongly shaped how I approached this iteration. This new one is closest to the first one I wrote about in 2024, but with some major improvements and reproducibility. Why make more changes? …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Simulating the ladybug clock puzzle</title>
       <link>https://austinhenley.com/blog/ladybugclock.html</link>
       <guid isPermaLink="false">https://austinhenley.com/blog/ladybugclock.html</guid>
@@ -1452,19 +1516,19 @@
       <pubDate>Sat, 17 Jan 2026 08:15:06 +0000</pubDate>
     </item>
     <item>
-      <title>2025 lookback</title>
-      <link>https://www.silvestar.codes/articles/2025-lookback/</link>
-      <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
-      <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
-      <author>starbist</author>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Local Test CI Using Git Hooks and Notes</title>
       <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
       <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
       <description>Preview unavailable atm</description>
       <author>mccd</author>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 lookback</title>
+      <link>https://www.silvestar.codes/articles/2025-lookback/</link>
+      <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
+      <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
+      <author>starbist</author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1498,6 +1562,14 @@
       <description>Last year, I built a WordPress plugin based on YAML schemas that could be used to define custom fields for templates, partials, and global data in WordPress.</description>
       <author>starbist</author>
       <pubDate>Mon, 12 Jan 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bayes theorem and how we talk about medical tests</title>
+      <link>https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/bayes-theorem-medical-tests/</guid>
+      <description>We want medical tests to give us a yes or no answer: you have the disease, you&#39;re cured. We treat them this way, often. My labs came back saying I&#39;m healthy. I have immunity. I&#39;m sick. Absolutely concrete results. The reality is more complicated, and tests do not give you a yes or no. They give you a likelihood. And most of the time, what the results mean for me , the test taker, is not immediately obvious or intuitive. They can mean something quite the opposite of what they seem. I ran into thi…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Comment on Start your meetings at 5 minutes past by Philip</title>
@@ -1554,6 +1626,14 @@
       <description>We previously ran meetings at Cruise this way. The reason it died: Google Calendar never offered this as a default meeting setting!</description>
       <author>otoolep</author>
       <pubDate>Sat, 10 Jan 2026 02:59:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reflecting on 2025, preparing for 2026</title>
+      <link>https://ntietz.com/blog/reflecting-on-2025-preparing-for-2026/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/reflecting-on-2025-preparing-for-2026/</guid>
+      <description>As I do every year, it&#39;s that time to reflect on the year that&#39;s been, and talk about some of my hopes and goals for the next year! I&#39;ll be honest, this one is harder to write than last year&#39;s. It was an emotionally intense year in a lot of ways. Here&#39;s to a good 2026! Reflecting on 2025 Where last year I got sick and had time black holes from that, this year I lost time to various planned surgeries. I didn&#39;t get nearly as much done, because it was also hard to stay focused with all the attacks …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>2026W00</title>
@@ -1796,6 +1876,14 @@
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A new system for organizing my writing and projects</title>
+      <link>https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/</guid>
+      <description>Keeping up with regular blog posts is a challenge. To do it, I&#39;ve churned through a few different organizational systems. Sometimes I have to change them due to actual life circumstances changing; other times, due to the old one just wearing off [1] . Well, my life circumstances have changed again. I&#39;m on medical leave right now recovering from surgery [2] , and I have been writing less this year anyway. So it&#39;s that time again: new system, baby. This post isn&#39;t a how-to. It&#39;s not a prescription…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Langjam Gamejam: Build a programming language and then use it to make a game in 7 days</title>
       <link>https://austinhenley.com/blog/langjamgamejam.html</link>
       <guid isPermaLink="false">https://austinhenley.com/blog/langjamgamejam.html</guid>
@@ -1818,6 +1906,14 @@
       <description>in The Fellowship of the Ring, Samwise Gamgee is gifted elven rope by the queen of Lothlorien - silky, smooth, impossibly strong, and almost sentient, able to intuit the user&#39;s needs. clearly a fantasy item. yet Tolkien&#39;s idea was only an extrapolation of traditional ‘craft’ to its extreme: in his logic, a rope that strong could only be made by an incredibly skilled artisan with great care, and in the process of being fashioned, would necessarily take on a bit of its maker’s soul. Ultra-Hi…</description>
       <author>vgel</author>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automating updates to a digital vigil</title>
+      <link>https://ntietz.com/blog/automating-updates-to-a-digital-vigil/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/automating-updates-to-a-digital-vigil/</guid>
+      <description>November 20th each year is Transgender Day of Remembrance (TDoR) . It is a day when we memorialize those who&#39;ve been lost to transphobia, through violence or suicide. And each year, I make the most difficult git commit of the year, updating the list of names in the digital vigil that I made a few years ago. I was late doing it this year, and I did it on November 20th last year. Ideally, it would be done early. I keep procrastinating it, because it&#39;s tough emotional work. Next year, I want it to …</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What does the AGPL require?</title>
@@ -1931,6 +2027,14 @@
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Interview with a new hosting provider founder</title>
+      <link>https://ntietz.com/blog/andromeda-industries-interview/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/andromeda-industries-interview/</guid>
+      <description>Most of us use infrastructure provided by companies like DigitalOcean and AWS. Some of us choose to work on that infrastructure. And some of us are really built different and choose to build all that infrastructure from scratch . This post is a real treat for me to bring you. I met Diana through a friend of mine, and I&#39;ve gotten some peeks behind the curtain as she builds a new hosting provider . So I was thrilled that she agreed to an interview to let me share some of that with you all. So, her…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The design space of AI coding tools</title>
       <link>https://austinhenley.com/blog/aidesignspace.html</link>
       <guid isPermaLink="false">https://austinhenley.com/blog/aidesignspace.html</guid>
@@ -2027,19 +2131,19 @@
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>an opinionated critique of duolingo</title>
-      <link>https://agnishom.github.io/blog/2025/duolingo/</link>
-      <guid isPermaLink="false">https://agnishom.github.io/blog/2025/duolingo</guid>
-      <description>beyond the green owl, from streaks and potions to pedagogy and politics</description>
-      <author>agnishom</author>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Prototype-First Software Design With Agents</title>
       <link>https://serce.me/posts/2025-09-30-prototype-first-software-design-with-agents</link>
       <guid isPermaLink="false">https://serce.me/posts/2025-09-30-prototype-first-software-design-with-agents</guid>
       <description>This article argues for designing software through prototyping and suggest the way you can adjust the shape of your codebase to leverage coding agents to build prototypes faster.</description>
       <author>serce</author>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>an opinionated critique of duolingo</title>
+      <link>https://agnishom.github.io/blog/2025/duolingo/</link>
+      <guid isPermaLink="false">https://agnishom.github.io/blog/2025/duolingo</guid>
+      <description>beyond the green owl, from streaks and potions to pedagogy and politics</description>
+      <author>agnishom</author>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2051,18 +2155,18 @@
       <pubDate>Sun, 28 Sep 2025 12:27:37 +0000</pubDate>
     </item>
     <item>
-      <title>List of 2x-resolution xkcd Cartoons</title>
-      <link>https://mtlynch.io/notes/xkcd-2x-resolution-list/</link>
-      <guid isPermaLink="false">https://mtlynch.io/notes/xkcd-2x-resolution-list/</guid>
-      <description>This is a list of all the xkcd cartoons that are available in 2x resolution, as of today’s date. See the accompanying post, “Get xkcd Cartoons at 2x Resolution,” for an explanation. 1: No higher res available 2: No higher res available 3: No higher res available 4: No higher res available 5: No higher res available 6: No higher res available 7: No higher res available 8: No higher res available 9: No higher res available 10: No higher res available 11: No higher res available 12: No higher…</description>
-      <author>mtlynch</author>
-      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Get xkcd Cartoons at 2x Resolution</title>
       <link>https://mtlynch.io/notes/xkcd-2x-resolution/</link>
       <guid isPermaLink="false">https://mtlynch.io/notes/xkcd-2x-resolution/</guid>
       <description>I recently learned a neat trick from Marcus Buffett : xkcd has an undocumented way to get images of the cartoons at double their normal resolution. The _2x trick For example, xkcd #2582 “Data Trap” lists this URL as the direct link: https://imgs.xkcd.com/comics/data_trap.png That leads to this 275x275px image, quite small by today’s standards: But there’s a trick! Add a _2x to the filename in the URL: https://imgs.xkcd.com/comics/data_trap_2x.png That gives you a version that’s 2x the …</description>
+      <author>mtlynch</author>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>List of 2x-resolution xkcd Cartoons</title>
+      <link>https://mtlynch.io/notes/xkcd-2x-resolution-list/</link>
+      <guid isPermaLink="false">https://mtlynch.io/notes/xkcd-2x-resolution-list/</guid>
+      <description>This is a list of all the xkcd cartoons that are available in 2x resolution, as of today’s date. See the accompanying post, “Get xkcd Cartoons at 2x Resolution,” for an explanation. 1: No higher res available 2: No higher res available 3: No higher res available 4: No higher res available 5: No higher res available 6: No higher res available 7: No higher res available 8: No higher res available 9: No higher res available 10: No higher res available 11: No higher res available 12: No higher…</description>
       <author>mtlynch</author>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -2127,6 +2231,14 @@
       <description>https://austinhenley.com/blog/startingacompany.html</description>
       <author>azhenley</author>
       <pubDate>Mon, 15 Sep 2025 18:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom for designing, off-the-shelf for shipping</title>
+      <link>https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/</guid>
+      <description>As software engineers, we&#39;re paid to write really cool type annotations solve problems. Usually we do this by taking a bunch of different pieces and putting them together to solve the problem. Maybe you mix together a database, a queue, a web framework, and some business logic. Or maybe you design a new storage engine, your own web framework, and a custom cache. It&#39;s an engineering question to determine which way is the right way. Should you build custom things? Or should you use off-the-shelf e…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>I Once Appeared in The Old New Thing</title>
@@ -2209,19 +2321,19 @@
       <pubDate>Sun, 24 Aug 2025 14:20:17 +0000</pubDate>
     </item>
     <item>
-      <title>Flash an AirGradient ONE from the Command Line</title>
-      <link>https://mtlynch.io/notes/flash-airgradient-cli/</link>
-      <guid isPermaLink="false">https://mtlynch.io/notes/flash-airgradient-cli/</guid>
-      <description>I’ve purchased two AirGradient ONE indoor quality monitors to measure air quality in my home. AirGradient devices are open-source, so you can flash your own custom firmware and collect your air data locally rather than sending it to AirGradient’s proprietary cloud dashboard. I keep an AirGradient ONE air quality monitor in my office to measure CO2 and pollution. The existing documentation for flashing firmware requires you to use the Arduino IDE, a clunky GUI program:</description>
-      <author>mtlynch</author>
-      <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Musings 4</title>
       <link>https://nezubn.com/musings/musings_4</link>
       <guid isPermaLink="false">https://nezubn.com/musings/musings_4</guid>
       <description>The summer is finally coming to its end. The days are getting a little less warmer now. To be honest, I despise the heat.</description>
       <author>nezubn</author>
+      <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flash an AirGradient ONE from the Command Line</title>
+      <link>https://mtlynch.io/notes/flash-airgradient-cli/</link>
+      <guid isPermaLink="false">https://mtlynch.io/notes/flash-airgradient-cli/</guid>
+      <description>I’ve purchased two AirGradient ONE indoor quality monitors to measure air quality in my home. AirGradient devices are open-source, so you can flash your own custom firmware and collect your air data locally rather than sending it to AirGradient’s proprietary cloud dashboard. I keep an AirGradient ONE air quality monitor in my office to measure CO2 and pollution. The existing documentation for flashing firmware requires you to use the Arduino IDE, a clunky GUI program:</description>
+      <author>mtlynch</author>
       <pubDate>Sat, 23 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2239,6 +2351,14 @@
       <description>BlueSCSI Wi-Fi Desk Accessory 1.4 has been released: wifi_da-1.4.sit (StuffIt 3 archive) SHA256: aed32aced3fc2cff 301a61930df654fc a641cd830aa21d8a 824dafde1b17e671 SHA1: 13f5c624598d9956 4922eb807d7231a3 631c995c This update fixes a bug that was breaking hidden SSID entry.</description>
       <author>jcs</author>
       <pubDate>Tue, 19 Aug 2025 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visualizing distributions with pepperoni pizza (and javascript)</title>
+      <link>https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/</guid>
+      <description>There&#39;s a pizza shop near me that serves a normal pizza. I mean, they distribute the toppings in a normal way. They&#39;re not uniform at all. The toppings are random, but not the way I want. The colloquial understanding of &#34;random&#34; is kind of the Platonic ideal of a pizza: slightly chaotic but things are more or less spread out over the whole piece in a regular way. If you take a slice you&#39;ll get more of less the same amount of pepperoni as any other slice. And every bite will have roughly the same…</description>
+      <author>ntietz</author>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Video: C Programming on System 6 - VCFMW, CMaster</title>
@@ -2279,126 +2399,6 @@
       <description>No, AI is not Making Engineers 10x as Productive — AI does not make engineers ten times more productive because much of coding involves thinking, reading, and preventing unnecessary work. AI helps with small tasks and gives short bursts of speed, but it often encourages haste and over-building. True productivity comes from experience, good habits, and teamwork, not just using AI tools. All the cool kids are doing it — The author is unsure about using large language models (LLMs) for coding b…</description>
       <author>jordi</author>
       <pubDate>Fri, 08 Aug 2025 15:45:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Safer unsafe.Add</title>
-      <link>https://cuonglm.xyz/post/go_issue_74431/</link>
-      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_74431/</guid>
-      <description>Prologue Go&amp;rsquo;s unsafe package is a powerful tool, allowing low-level memory manipulation when performance or specific system interactions demand it. However, with great power comes great responsibility – and potential for subtle bugs. To make pointer arithmetic a bit more manageable, Go 1.17 introduced unsafe.Add (CL 312214). This function was designed to offer a more convenient and ostensibly &amp;ldquo;safer&amp;rdquo; way to perform pointer arithmetic compared to the manual conversion dance of…</description>
-      <author>cuonglm</author>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Render your Jupyter notebooks in OpenGist</title>
-      <link>https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</link>
-      <guid isPermaLink="false">https://blog.fabiomanganiello.com/article/render-your-jupyter-notebooks-in-opengist</guid>
-      <description>No more Github links and no more sharing Jupyter tokens!</description>
-      <author>blacklight</author>
-      <pubDate>Sun, 03 Aug 2025 19:57:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>I&#39;ve just deleted five of my ideas</title>
-      <link>https://shime.sh/five-ideas</link>
-      <guid isPermaLink="false">https://shime.sh/five-ideas</guid>
-      <description>I keep them in IDEAS.md file on iCloud. I have shortcuts on both my phone and laptop to open the file instantly. I don’t need the sync to be instant. I just want to have the latest version when I run these shortcuts. I added some ideas on my phone yesterday. Today, I opened the file on my laptop, but I didn’t notice it didn’t sync the huge &lt;0.1KB change, so when I saved the file, the changes were overwritten, which means my ideas are now gone. So a whole day has passed between me entering …</description>
-      <author>shime</author>
-      <pubDate>Sun, 03 Aug 2025 02:49:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Migrating a ZFS pool from RAIDZ1 to RAIDZ2</title>
-      <link>https://mtlynch.io/raidz1-to-raidz2/</link>
-      <guid isPermaLink="false">https://mtlynch.io/raidz1-to-raidz2/</guid>
-      <description>I recently upgraded my home TrueNAS server and migrated 18 TB of data from a 4-disk RAIDZ1 ZFS pool to a new RAIDZ2 pool. The neat part is that I did it with only three additional 8 TB disks and never transferred my data to external storage. Upgrading from RAIDZ1 to RAIDZ2 without moving data to external storage is tricky because:</description>
-      <author>mtlynch</author>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Second goodbye to LinkedIn</title>
-      <link>https://shime.sh/second-goodbye-to-linkedin</link>
-      <guid isPermaLink="false">https://shime.sh/second-goodbye-to-linkedin</guid>
-      <description>I’ve deleted LinkedIn for the second time. I originally did it back in 2015 (maybe even earlier, can’t remember the exact year) because I couldn’t stand all the recruiter emails asking me to relocate even though I had specific instructions for them to not email me about non-remote job opportunities. Then two years ago I had to look for a new client so I thought LinkedIn would help with that. It didn’t. The existence of LinkedIn fascinates me because most people can’t stand it, yet they…</description>
-      <author>shime</author>
-      <pubDate>Mon, 21 Jul 2025 05:31:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two Simple Rules to Fix Code Reviews</title>
-      <link>https://serce.me/posts/2025-07-17-two-simple-rules-to-fix-code-reviews</link>
-      <guid isPermaLink="false">https://serce.me/posts/2025-07-17-two-simple-rules-to-fix-code-reviews</guid>
-      <description>This article describes how following two simple code review rules can make code reviews a great instrument, not a hurdle you have to go through.</description>
-      <author>serce</author>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Languages stats with ISO codes, speakers count, countries list and its population</title>
-      <link>https://vitonsky.net/blog/2025/07/15/langstats/</link>
-      <guid isPermaLink="false">https://vitonsky.net/blog/2025/07/15/langstats/</guid>
-      <description>When I work on multi-lingual projects, it always takes a lot of time to estimate and prioritize the localization process. Even if you use machine translation, you can&#39;t just translate all languages in the world, since it takes a long time, and LLM will spend all your money on garbage generations like chars &#34;aa&#34; repeated thousands of times in a row. I built the NPM package langstats to solve this problem.</description>
-      <author>vitonsky</author>
-      <pubDate>Tue, 15 Jul 2025 13:42:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shaving that yak</title>
-      <link>https://shime.sh/shaving-that-yak</link>
-      <guid isPermaLink="false">https://shime.sh/shaving-that-yak</guid>
-      <description>For the past couple of days, I’ve been waking up around 3:30 AM, excitedly jumping out of bed to make some tweaks to the website you’re reading this on 1 . I’ve spent a lot of hours updating it to the latest version in hopes of improving the build time of 3 seconds, which is abysmal. After all this work, the build time is now down to about 100 milliseconds. Of course, for one reason or another, it’s precisely now that I stumble upon Bret Victor’s seminal talk with the core argument bei…</description>
-      <author>shime</author>
-      <pubDate>Tue, 15 Jul 2025 07:02:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Am I Becoming Irrelevant?</title>
-      <link>https://jordivillar.com/blog/becoming-irrelevant/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/becoming-irrelevant/</guid>
-      <description>It feels silly to write just another blogpost about how to transition to a leadership role. Hopefully this is not a post about how to succeed in that transition. This is about how I felt every time I’ve been promoted to a leadership role. And how I haven’t been able to describe the frustration I felt. I’m writing it down (and publishing it) as a way to process it. I Used to Feel Relevant It usually starts with a few years into a company. I got things done. I shipped features that mattered.…</description>
-      <author>jordi</author>
-      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 7</title>
-      <link>https://mtlynch.io/retrospectives/2025/07/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2025/07/</guid>
-      <description>Highlights I look for ways to limit the number of half-complete tasks I’m juggling. I brainstorm ways to talk with more of my early readers. I have trouble accepting a design decision in the Gleam language. Goal grades At the start of each month, I declare what I’d like to accomplish. Here’s how I did against those goals: Offer a lower-friction way for users to pre-order my book Result : Switched from Kickstarter pre-orders to Stripe payment links. Grade : A I ran the initial pre-sale thro…</description>
-      <author>mtlynch</author>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What is Einsum anyway?</title>
-      <link>https://nezubn.com/posts/einsum</link>
-      <guid isPermaLink="false">https://nezubn.com/posts/einsum</guid>
-      <description>Einstein summation lets us write an algebric expression in index-notation and have numpy/pytorch/jax generate the most effiecient set of tensor operations to compute it.</description>
-      <author>nezubn</author>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Better Conventional Commit?</title>
-      <link>https://vito.io/articles/2025-07-07-a-better-conventional-commit.html</link>
-      <guid isPermaLink="false">https://vito.io/articles/a-better-conventional-commit</guid>
-      <description>Today I found a post from Sarah Mathey that makes very good points regarding conventional commits. I’ll quote a few here:</description>
-      <author>vito</author>
-      <pubDate>Mon, 07 Jul 2025 03:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>thoughts</title>
-      <link>https://nezubn.com/thoughts</link>
-      <guid isPermaLink="false">https://nezubn.com/thoughts</guid>
-      <description>Everything I want but don’t have, and everything I have but don’t want, is because I lack knowledge. Quote “The cosmos is within us.</description>
-      <author>nezubn</author>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>goHardDrive Leaked Personal Data for Thousands of Customers</title>
-      <link>https://mtlynch.io/goharddrive-leak/</link>
-      <guid isPermaLink="false">https://mtlynch.io/goharddrive-leak/</guid>
-      <description>I recently returned a product to goHardDrive, a merchant that specializes in selling used hard drives. During the return process, I discovered that they were accidentally publishing details about thousands of their customers, including their full names, mailing addresses, email addresses, and order details. The leak When I requested a return from goHardDrive, they assigned me a return merchandise authorization (RMA) number ending in five numeric digits. I’m not publishing my actual RMA number,…</description>
-      <author>mtlynch</author>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LSD - ls replacement</title>
-      <link>https://christiano.dev/til/lsd-ls-replacement/</link>
-      <guid isPermaLink="false">https://christiano.dev/til/lsd-ls-replacement/</guid>
-      <description>I have a new ls replacement! I was using eza (see Eza on Fedora 42 ) for a while, but I’ve found something even better: lsd . This tool is a nice because it displays icons for file types, making it so much easier to navigate files directories. The default settings are great, but the date format mm/dd/yyyy is a bit odd. Changing this is the only modification needed to make the tool perfect.</description>
-      <author>christiano</author>
-      <pubDate>Sun, 29 Jun 2025 09:30:05 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -52,12 +52,6 @@
           <p>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">4 Aug 2025 · CuongLM</p>
-          <h3><a href="https://cuonglm.xyz/post/go_issue_74431/">Safer unsafe.Add</a></h3>
-          <p>Prologue Go&amp;rsquo;s unsafe package is a powerful tool, allowing low-level memory manipulation when performance or specific system interactions demand it. However, with great power comes great responsibility – and potential for subtle bugs. To make pointer arithmetic a bit more manageable, Go 1.17 introduced unsafe.Add (CL 312214). This function was designed to offer a more convenient and ostensibly &amp;ldquo;safer&amp;rdquo; way to perform pointer arithmetic compared to the manual conversion dance of…</p>
-        </article>
-      
     </div>
   </main>
 

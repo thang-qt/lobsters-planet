@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>ntietz</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~ntietz">Lobste.rs profile</a>
+        <a href="https://ntietz.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>29 Aug 2020</dd></div>
+        <div><dt>Karma</dt><dd>491</dd></div>
+        <div><dt>Stories</dt><dd>20</dd></div>
+        <div><dt>Comments</dt><dd>57</dd></div>
+        <div><dt>Profile checked</dt><dd>14 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>14 Jun 2026</dd></div>
+      </dl>
+      <p class="about">I&#39;m a writer, programmer, and leader. I write about whatever catches my interest, and the day job has me working on architecture, performance, debugging, and security most of the time. Homepage is ntietz.com. Email me at me@ntietz.com if you like.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">9 Mar 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h3>
+          <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Mar 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&amp;utm_medium=feed">You can&#39;t always fix it</a></h3>
+          <p>I have some weird hobbies, and one of those is opening up the network tab on just about anything I&#39;m using. Sometimes, I find egregious problems. Usually, this is something that can be fixed, when responsibly reported. But over time, I learned a bitter lesson: sometimes, you can&#39;t get it fixed. Tracking my package Recently, I was waiting for a time-sensitive delivery of medication. It used a courier company which focused on just delivering prescription medications. I opened up the tracking page …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed">Binding port 0 to avoid port collisions</a></h3>
+          <p>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&amp;utm_medium=feed">TIL: Docker log rotation</a></h3>
+          <p>Last week [1] , when I went to publish my blog post, I ran into a surprising error: I was out of disk space. My server is used only for hosting a couple of small static sites, so I was surprised. None of the content is very large, why is the disk full? A little investigation found the culprit. Starting from / and then drilling in using du -h -d 1 . showed me that a Docker folder was using most of the server&#39;s 25 GB disk. None of my container images are very large, so I checked in side and found …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed">Using an engineering notebook</a></h3>
+          <p>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">2 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/good-english-word-datasets/?utm_source=atom&amp;utm_medium=feed">Some good English word datasets</a></h3>
+          <p>I&#39;m working on a silly word game right now, which means I need a list of words for it. I can&#39;t rely on the system word list, since this is for a web project. I&#39;d also like, ideally, multiple lists of words with different criteria: most common words, all words, some subsets. It&#39;s not really clear how many words there are , because what is a word [1] ? And how do you find what words are in use? Or decide that something&#39;s used enough that it merits being put in a list, rather than just being a miss…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 Jan 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&amp;utm_medium=feed">Making niche solutions is the point</a></h3>
+          <p>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Jan 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/?utm_source=atom&amp;utm_medium=feed">3D printing my laptop ergonomic setup</a></h3>
+          <p>Apparently, one of my hobbies is making updates to my ergonomic setup, then blogging about it from an Amtrak train. I&#39;ve gone and done it again. My setup stayed static for some time, but my most recent iteration ended up letting me down and I had to change it again. It gave me a lot of useful information and strongly shaped how I approached this iteration. This new one is closest to the first one I wrote about in 2024, but with some major improvements and reproducibility. Why make more changes? …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">12 Jan 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom&amp;utm_medium=feed">Bayes theorem and how we talk about medical tests</a></h3>
+          <p>We want medical tests to give us a yes or no answer: you have the disease, you&#39;re cured. We treat them this way, often. My labs came back saying I&#39;m healthy. I have immunity. I&#39;m sick. Absolutely concrete results. The reality is more complicated, and tests do not give you a yes or no. They give you a likelihood. And most of the time, what the results mean for me , the test taker, is not immediately obvious or intuitive. They can mean something quite the opposite of what they seem. I ran into thi…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Jan 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/reflecting-on-2025-preparing-for-2026/?utm_source=atom&amp;utm_medium=feed">Reflecting on 2025, preparing for 2026</a></h3>
+          <p>As I do every year, it&#39;s that time to reflect on the year that&#39;s been, and talk about some of my hopes and goals for the next year! I&#39;ll be honest, this one is harder to write than last year&#39;s. It was an emotionally intense year in a lot of ways. Here&#39;s to a good 2026! Reflecting on 2025 Where last year I got sick and had time black holes from that, this year I lost time to various planned surgeries. I didn&#39;t get nearly as much done, because it was also hard to stay focused with all the attacks …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Dec 2025 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom&amp;utm_medium=feed">A new system for organizing my writing and projects</a></h3>
+          <p>Keeping up with regular blog posts is a challenge. To do it, I&#39;ve churned through a few different organizational systems. Sometimes I have to change them due to actual life circumstances changing; other times, due to the old one just wearing off [1] . Well, my life circumstances have changed again. I&#39;m on medical leave right now recovering from surgery [2] , and I have been writing less this year anyway. So it&#39;s that time again: new system, baby. This post isn&#39;t a how-to. It&#39;s not a prescription…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Nov 2025 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/automating-updates-to-a-digital-vigil/?utm_source=atom&amp;utm_medium=feed">Automating updates to a digital vigil</a></h3>
+          <p>November 20th each year is Transgender Day of Remembrance (TDoR) . It is a day when we memorialize those who&#39;ve been lost to transphobia, through violence or suicide. And each year, I make the most difficult git commit of the year, updating the list of names in the digital vigil that I made a few years ago. I was late doing it this year, and I did it on November 20th last year. Ideally, it would be done early. I keep procrastinating it, because it&#39;s tough emotional work. Next year, I want it to …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Oct 2025 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/andromeda-industries-interview/?utm_source=atom&amp;utm_medium=feed">Interview with a new hosting provider founder</a></h3>
+          <p>Most of us use infrastructure provided by companies like DigitalOcean and AWS. Some of us choose to work on that infrastructure. And some of us are really built different and choose to build all that infrastructure from scratch . This post is a real treat for me to bring you. I met Diana through a friend of mine, and I&#39;ve gotten some peeks behind the curtain as she builds a new hosting provider . So I was thrilled that she agreed to an interview to let me share some of that with you all. So, her…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Sep 2025 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&amp;utm_medium=feed">Custom for designing, off-the-shelf for shipping</a></h3>
+          <p>As software engineers, we&#39;re paid to write really cool type annotations solve problems. Usually we do this by taking a bunch of different pieces and putting them together to solve the problem. Maybe you mix together a database, a queue, a web framework, and some business logic. Or maybe you design a new storage engine, your own web framework, and a custom cache. It&#39;s an engineering question to determine which way is the right way. Should you build custom things? Or should you use off-the-shelf e…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">18 Aug 2025 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom&amp;utm_medium=feed">Visualizing distributions with pepperoni pizza (and javascript)</a></h3>
+          <p>There&#39;s a pizza shop near me that serves a normal pizza. I mean, they distribute the toppings in a normal way. They&#39;re not uniform at all. The toppings are random, but not the way I want. The colloquial understanding of &#34;random&#34; is kind of the Platonic ideal of a pizza: slightly chaotic but things are more or less spread out over the whole piece in a regular way. If you take a slice you&#39;ll get more of less the same amount of pepperoni as any other slice. And every bite will have roughly the same…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
