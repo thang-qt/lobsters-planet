@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://jordivillar.com/reads/2026w23/",
+    "title": "2026W23",
+    "url": "https://jordivillar.com/reads/2026w23/",
+    "summary": "Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…",
+    "published_at": "2026-06-14T13:51:50Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
+  },
+  {
     "id": "https://inkdroid.org/2026/06/14/bookmarks/",
     "title": "Bookmarks - data, design, vis, book",
     "url": "https://inkdroid.org/2026/06/14/bookmarks/",
@@ -165,6 +176,17 @@
     "site_url": "https://inkdroid.org"
   },
   {
+    "id": "https://www.bejarano.io/terraform-autoapply/",
+    "title": "Safe Terraform auto-apply with conftest",
+    "url": "https://www.bejarano.io/terraform-autoapply/",
+    "summary": "Human review of Terraform plans doesn’t scale, and AI review isn’t deterministic enough for production. Here’s how we use conftest to auto-apply plans that meet an explicit, testable policy.",
+    "published_at": "2026-06-06T00:00:00Z",
+    "feed_url": "https://www.bejarano.io/feed.xml",
+    "feed_title": "Ricard Bejarano – Site Reliability Engineer",
+    "owner_username": "ricardbejarano",
+    "site_url": "https://www.bejarano.io"
+  },
+  {
     "id": "http://nolanlawson.com/?p=16122#comment-238387",
     "title": "Comment on Using AI to write better code more slowly by carson63000",
     "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238387",
@@ -220,6 +242,39 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://f055.net/?p=1421#comment-19982",
+    "title": "Comment on That time I recreated Photoshop in C++ by MARΞK",
+    "url": "https://f055.net/thattimei/that-time-i-recreated-photoshop-in-c/#comment-19982",
+    "summary": "HackerNews discussion https://news.ycombinator.com/item?id=43374278",
+    "published_at": "2026-06-02T16:40:06Z",
+    "feed_url": "https://f055.net/comments/feed/",
+    "feed_title": "Comments for F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
+  },
+  {
+    "id": "https://f055.net/?p=1798#comment-19981",
+    "title": "Comment on Windows GOG DOS Games on M-series Macs by MARΞK",
+    "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19981",
+    "summary": "HackerNews discussion https://news.ycombinator.com/item?id=48356603",
+    "published_at": "2026-06-02T16:39:11Z",
+    "feed_url": "https://f055.net/comments/feed/",
+    "feed_title": "Comments for F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
+  },
+  {
+    "id": "https://f055.net/?p=1798#comment-19970",
+    "title": "Comment on Windows GOG DOS Games on M-series Macs by MARΞK",
+    "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19970",
+    "summary": "In reply to \u0026lt;a href=\u0026quot;https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19933\u0026quot;\u0026gt;Stephen Baker\u0026lt;/a\u0026gt;. Thanks, this works too! I updated the post.",
+    "published_at": "2026-06-02T12:53:46Z",
+    "feed_url": "https://f055.net/comments/feed/",
+    "feed_title": "Comments for F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
+  },
+  {
     "id": "https://jordivillar.com/blog/lazy-loading-images/",
     "title": "How Lazy Container Loading Works",
     "url": "https://jordivillar.com/blog/lazy-loading-images/",
@@ -229,6 +284,17 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://f055.net/?p=1798#comment-19933",
+    "title": "Comment on Windows GOG DOS Games on M-series Macs by Stephen Baker",
+    "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19933",
+    "summary": "https://formulae.brew.sh/formula/innoextract can be used to extract the installer rather than using Windows",
+    "published_at": "2026-06-01T18:10:46Z",
+    "feed_url": "https://f055.net/comments/feed/",
+    "feed_title": "Comments for F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238384",
@@ -242,6 +308,17 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://f055.net/?p=1798#comment-19921",
+    "title": "Comment on Windows GOG DOS Games on M-series Macs by Gerard Braad",
+    "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19921",
+    "summary": "Can\u0026#039;t you use wine or 7z to extract the installer? I know some tools exist to deal with that, as I remember doing something similar on Linux before; just been a while ago so I am not completely sure anymore.",
+    "published_at": "2026-06-01T14:14:18Z",
+    "feed_url": "https://f055.net/comments/feed/",
+    "feed_title": "Comments for F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
+  },
+  {
     "id": "https://philipotoole.com/?p=8332",
     "title": "rqlite v10.2: Improving the web console",
     "url": "https://philipotoole.com/rqlite-v10-2-improving-the-web-console/",
@@ -251,6 +328,17 @@
     "feed_title": "Philip O'Toole",
     "owner_username": "otoolep",
     "site_url": "https://www.philipotoole.com"
+  },
+  {
+    "id": "https://f055.net/?p=1798",
+    "title": "Windows GOG DOS Games on M-series Macs",
+    "url": "https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/",
+    "summary": "GOG is great. I bought a few old games from them: SimCity 2000, Theme Hospital, Syndicate Plus. And by old games, I mean games from my childhood that still play like a good game, and not like digital drugs the likes of which are available for free from the mobile app stores. Anyway, the thing [\u0026#8230;]",
+    "published_at": "2026-06-01T12:42:41Z",
+    "feed_url": "https://f055.net/feed/",
+    "feed_title": "F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
   },
   {
     "id": "https://inkdroid.org/2026/06/01/inked-clouds/",
@@ -372,6 +460,17 @@
     "feed_title": "Notes - joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://nicomee.com/blog/muskism/",
+    "title": "Muskism: A Guide for the Perplexed",
+    "url": "https://nicomee.com/blog/muskism/",
+    "summary": "Slobodian and Tarnoff treat Elon Musk as a coherent political-economic formation with a lineage, and get trashed for it. A defense of being perplexed.",
+    "published_at": "2026-05-28T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://jcs.org/notes/2026/05/27/1003344849129705473",
@@ -552,10 +651,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -563,10 +662,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -630,6 +729,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -642,17 +752,6 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
     "title": "Technology with a Human Face",
     "url": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -662,6 +761,17 @@
     "feed_title": "Gabriel Garrido",
     "owner_username": "ggpsv",
     "site_url": "https://garrido.io"
+  },
+  {
+    "id": "https://f055.net/?p=1768",
+    "title": "That time I asked AI to write Sci-Fi for eternity",
+    "url": "https://f055.net/thattimei/that-time-i-asked-ai-to-write-sci-fi-for-eternity/",
+    "summary": "Last year I discovered I like sci-fi novels. To be precise, I found a collection of Isaac Asimov sci-fi novels and started reading them in the evenings to unwind. I know Asimov wrote the Foundation saga and more, but my particular interest in his novels was very specific: I wanted to find something to read, [\u0026#8230;]",
+    "published_at": "2026-05-13T10:24:35Z",
+    "feed_url": "https://f055.net/feed/",
+    "feed_title": "F055",
+    "owner_username": "f055",
+    "site_url": "https://f055.net"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KRG28Z94K9VJS5CPMR8R644Y",
@@ -706,6 +816,28 @@
     "feed_title": "Robert Vitonsky | Software engineering insights",
     "owner_username": "vitonsky",
     "site_url": "https://vitonsky.net"
+  },
+  {
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "published_at": "2026-05-12T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
+  },
+  {
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "published_at": "2026-05-12T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://jcs.org/notes/2026/05/10/997113530169065473",
@@ -787,17 +919,6 @@
     "site_url": "https://octet-stream.net/"
   },
   {
-    "id": "https://runxiyu.org/ccc/",
-    "title": "CCC 2026",
-    "url": "https://runxiyu.org/ccc/",
-    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
-    "published_at": "2026-05-08T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "urn:uuid:800b3a89-946c-4c78-b575-4262f7589885",
     "title": "Wander Console 0.6.0",
     "url": "https://susam.net/code/news/wander/0.6.0.html",
@@ -808,6 +929,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://runxiyu.org/ccc/",
+    "title": "CCC 2026",
+    "url": "https://runxiyu.org/ccc/",
+    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
+    "published_at": "2026-05-08T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://jcs.org/notes/2026/05/05/995089977752510465",
@@ -832,6 +964,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -844,15 +987,16 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
+    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
+    "title": "QuickQWERTY 1.2.3",
+    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
+    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "updated_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/ch4ht/",
@@ -864,18 +1008,6 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
-  },
-  {
-    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
-    "title": "QuickQWERTY 1.2.3",
-    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
-    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "updated_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1310,6 +1442,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
+  },
+  {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
     "title": "Madblog: A Markdown Folder That Federates Everywhere",
     "url": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -1421,6 +1564,17 @@
     "site_url": "https://runxiyu.org"
   },
   {
+    "id": "https://www.bejarano.io/terraform-performance/",
+    "title": "Advanced Terraform performance optimization",
+    "url": "https://www.bejarano.io/terraform-performance/",
+    "summary": "Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.",
+    "published_at": "2026-03-04T00:00:00Z",
+    "feed_url": "https://www.bejarano.io/feed.xml",
+    "feed_title": "Ricard Bejarano – Site Reliability Engineer",
+    "owner_username": "ricardbejarano",
+    "site_url": "https://www.bejarano.io"
+  },
+  {
     "id": "692f41d1b2bf510587f1a7b6",
     "title": "Cyclocross October 2025",
     "url": "https://blog.henryvandenbroek.com/cyclocross-october-2025/",
@@ -1464,6 +1618,17 @@
     "feed_title": "Posts from @ayushnix@social.ayushnix.com",
     "owner_username": "ayushnix",
     "site_url": "https://social.ayushnix.com/@ayushnix"
+  },
+  {
+    "id": "https://nicomee.com/blog/nixon-agonistes/",
+    "title": "Nixon Agonistes: A Book Review",
+    "url": "https://nicomee.com/blog/nixon-agonistes/",
+    "summary": "Rank punditry dressed up as a review of Garry Wills's \"Nixon Agonistes\".",
+    "published_at": "2026-02-25T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/the-small-tech-neighbourhood",
@@ -1704,6 +1869,17 @@
     "site_url": "https://mccd.space"
   },
   {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -1714,17 +1890,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -1803,6 +1968,17 @@
     "site_url": "https://serce.me/"
   },
   {
+    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "title": "My Eighth Year as a Bootstrapped Founder",
+    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
+    "published_at": "2026-02-03T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-03/landlock.gmi",
     "title": "Landlock is Great",
     "url": "https://mccd.space/posts/26-02-03/landlock.gmi",
@@ -1813,17 +1989,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "title": "My Eighth Year as a Bootstrapped Founder",
-    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
-    "published_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jcs.org/2026/02/02/wallops22",
@@ -2606,6 +2771,17 @@
     "site_url": "https://mtlynch.io"
   },
   {
+    "id": "https://nicomee.com/blog/get-the-fuck-off-github/",
+    "title": "Get the Fuck Off of GitHub.",
+    "url": "https://nicomee.com/blog/get-the-fuck-off-github/",
+    "summary": "Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.",
+    "published_at": "2025-12-01T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
+  },
+  {
     "id": "https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/",
     "title": "A new system for organizing my writing and projects",
     "url": "https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom\u0026utm_medium=feed",
@@ -2999,6 +3175,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://mtlynch.io/notes/xkcd-2x-resolution-list/",
+    "title": "List of 2x-resolution xkcd Cartoons",
+    "url": "https://mtlynch.io/notes/xkcd-2x-resolution-list/",
+    "summary": "This is a list of all the xkcd cartoons that are available in 2x resolution, as of today’s date. See the accompanying post, “Get xkcd Cartoons at 2x Resolution,” for an explanation. 1: No higher res available 2: No higher res available 3: No higher res available 4: No higher res available 5: No higher res available 6: No higher res available 7: No higher res available 8: No higher res available 9: No higher res available 10: No higher res available 11: No higher res available 12: No higher…",
+    "published_at": "2025-09-27T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://mtlynch.io/notes/xkcd-2x-resolution/",
     "title": "Get xkcd Cartoons at 2x Resolution",
     "url": "https://mtlynch.io/notes/xkcd-2x-resolution/",
@@ -3010,15 +3197,15 @@
     "site_url": "https://mtlynch.io"
   },
   {
-    "id": "https://mtlynch.io/notes/xkcd-2x-resolution-list/",
-    "title": "List of 2x-resolution xkcd Cartoons",
-    "url": "https://mtlynch.io/notes/xkcd-2x-resolution-list/",
-    "summary": "This is a list of all the xkcd cartoons that are available in 2x resolution, as of today’s date. See the accompanying post, “Get xkcd Cartoons at 2x Resolution,” for an explanation. 1: No higher res available 2: No higher res available 3: No higher res available 4: No higher res available 5: No higher res available 6: No higher res available 7: No higher res available 8: No higher res available 9: No higher res available 10: No higher res available 11: No higher res available 12: No higher…",
-    "published_at": "2025-09-27T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
+    "id": "68d56a5c6c4787048bf7a8e5",
+    "title": "Accountability as a Leader",
+    "url": "https://dmytrolitvinov.com/blog/accountability-as-a-leader/",
+    "summary": "Five Behaviors for Demonstrating Accountability Be consistent in my words in my attitudes in my beliefs in my actions And I am ensure that they are aligned, positive, uplifting, and inspiring. Take ownership \"I was wrong\" \"I made mistake\" \"I don't know\"",
+    "published_at": "2025-09-25T16:28:33Z",
+    "feed_url": "https://dmytrolitvinov.com/blog/rss/",
+    "feed_title": "Dmytro Litvinov",
+    "owner_username": "DmytroLitvinov",
+    "site_url": "https://DmytroLitvinov.com"
   },
   {
     "id": "https://vgel.me/fiction/vlvm/",
@@ -3053,9 +3240,10 @@
     "site_url": "https://nezubn.com"
   },
   {
-    "id": "https://nezubn.com/products",
-    "title": "products",
-    "url": "https://nezubn.com/products",
+    "id": "https://nezubn.com/",
+    "title": "An Engineer's Musings",
+    "url": "https://nezubn.com/",
+    "summary": "Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.",
     "published_at": "2025-09-23T01:22:11Z",
     "feed_url": "https://nezubn.com/index.xml",
     "feed_title": "nezubn",
@@ -3063,10 +3251,9 @@
     "site_url": "https://nezubn.com"
   },
   {
-    "id": "https://nezubn.com/",
-    "title": "An Engineer's Musings",
-    "url": "https://nezubn.com/",
-    "summary": "Hi, I am Ankit aka nezubn (ipa nezubn /nɛzʌb/ — no meaning, i made it up) on the internet.",
+    "id": "https://nezubn.com/products",
+    "title": "products",
+    "url": "https://nezubn.com/products",
     "published_at": "2025-09-23T01:22:11Z",
     "feed_url": "https://nezubn.com/index.xml",
     "feed_title": "nezubn",
@@ -3151,195 +3338,5 @@
     "feed_title": "mtlynch.io",
     "owner_username": "mtlynch",
     "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "/posts/like-your-terminal-part-1/",
-    "title": "learn to like your terminal, part 1",
-    "url": "/posts/like-your-terminal-part-1/",
-    "summary": "learn to like your terminal I’ve met a lot of people that have learned to use the terminal just enough for it to remain a perpetually frustrating experience. There’s a lot to love about terminal programs in 2025: CLI tools are typically faster and less memory-intensive than (increasingly) bloated GUI tools the UIs are remarkably consistent over time, no installing an update and having your favorite workflow broken (a la Adobe, MS Office, etc.) they can much more easily be taught (“run this…",
-    "published_at": "2025-09-08T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
-  },
-  {
-    "id": "https://blog.platypush.tech/article/Create-self-hosted-email-aliases-on-the-fly",
-    "title": "Create private self-hosted email aliases on the fly",
-    "url": "https://blog.platypush.tech/article/Create-self-hosted-email-aliases-on-the-fly",
-    "summary": "Protect your privacy and easily filter your email with a self-hosted solution for email aliases.",
-    "published_at": "2025-09-04T00:00:00Z",
-    "feed_url": "https://fabiomanganiello.com/feed.rss",
-    "feed_title": "Fabio Manganiello",
-    "owner_username": "blacklight",
-    "site_url": "https://fabiomanganiello.com"
-  },
-  {
-    "id": "https://austinhenley.com/blog/babytypechecker.html",
-    "title": "Baby's first type checker",
-    "url": "https://austinhenley.com/blog/babytypechecker.html",
-    "summary": "https://austinhenley.com/blog/babytypechecker.html",
-    "published_at": "2025-08-31T18:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "tag:www.agwa.name,2012:/blog/post/sqlite_durability",
-    "title": "SQLite's Durability Settings are a Mess",
-    "url": "https://www.agwa.name/blog/post/sqlite_durability",
-    "summary": "One of the most important properties of a database is durability. Durability means that after a transaction commits, you can be confident that, absent catastrophic hardware failure, the changes made by the commit won't be lost. This should remain true even if the operating system crashes or the system loses power soon after the commit. On Linux, and most other Unix operating systems, durability is ensured by calling the fsync system call at the right time. Durability comes at a performance cost,…",
-    "published_at": "2025-08-29T16:45:33Z",
-    "updated_at": "2025-08-29T16:45:33Z",
-    "feed_url": "https://www.agwa.name/blog/feed",
-    "feed_title": "Andrew Ayer - Blog",
-    "owner_username": "agwa",
-    "site_url": "https://www.agwa.name/"
-  },
-  {
-    "id": "https://vgel.me/fiction/brekyat/",
-    "title": "brekyat",
-    "url": "https://vgel.me/fiction/brekyat/",
-    "summary": "why do we celebrate brekyat? brekyat is where we ritually destroy the state every year. why do our people ritually destroy the state every year?",
-    "published_at": "2025-08-29T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://mtlynch.io/couples-email-domain/",
-    "title": "Give Your Spouse the Gift of a Couple's Email Domain",
-    "url": "https://mtlynch.io/couples-email-domain/",
-    "summary": "I’ve only been married for a few years, but I have a fantastic marriage tip you won’t hear from any marriage counselor or book: Get a couple’s email domain What’s a couple’s email domain? My wife and I share a .com domain name for email. I’m not going to reveal our real domain name, but pretend it’s this: @shinytable.com Emails to michael@shinytable.com go to both me and my wife, and the same for her name.",
-    "published_at": "2025-08-26T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://matt.blwt.io/post/overengineering-sleep/",
-    "title": "Over-Engineering Sleep",
-    "url": "https://matt.blwt.io/post/overengineering-sleep/",
-    "summary": "A while back, this implementation of a cross-platform sleep for GitHub Actions Runners caught my eye, and I wanted to see what it would take to re-implement sleep from the ground up, while trying to be as cross-platform as possible.",
-    "published_at": "2025-08-24T14:20:17Z",
-    "feed_url": "https://matt.blwt.io/post/index.xml",
-    "feed_title": "Matt Blewitt",
-    "owner_username": "mble",
-    "site_url": "https://matt.blwt.io"
-  },
-  {
-    "id": "https://mtlynch.io/notes/flash-airgradient-cli/",
-    "title": "Flash an AirGradient ONE from the Command Line",
-    "url": "https://mtlynch.io/notes/flash-airgradient-cli/",
-    "summary": "I’ve purchased two AirGradient ONE indoor quality monitors to measure air quality in my home. AirGradient devices are open-source, so you can flash your own custom firmware and collect your air data locally rather than sending it to AirGradient’s proprietary cloud dashboard. I keep an AirGradient ONE air quality monitor in my office to measure CO2 and pollution. The existing documentation for flashing firmware requires you to use the Arduino IDE, a clunky GUI program:",
-    "published_at": "2025-08-23T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://nezubn.com/musings/musings_4",
-    "title": "Musings 4",
-    "url": "https://nezubn.com/musings/musings_4",
-    "summary": "The summer is finally coming to its end. The days are getting a little less warmer now. To be honest, I despise the heat.",
-    "published_at": "2025-08-23T00:00:00Z",
-    "feed_url": "https://nezubn.com/index.xml",
-    "feed_title": "nezubn",
-    "owner_username": "nezubn",
-    "site_url": "https://nezubn.com"
-  },
-  {
-    "id": "https://esham.io/2025/08/deriveddata",
-    "title": "iOS development tip: use \u003ccode\u003etrash\u003c/code\u003e instead of \u003ccode\u003erm\u003c/code\u003e to clear your DerivedData",
-    "url": "https://esham.io/2025/08/deriveddata",
-    "summary": "Every iOS and Mac developer is familiar with the situation: Xcode has gotten itself wedged somehow and the only solution 1 is to blow away the “DerivedData” folder in ~/Library/Developer/Xcode . Cache invalidation is hard but in this case cache destruction is easy, and I have a tip that makes it even easier. The obvious way to delete your DerivedData from the command line is $ rm -r ~/Library/Developer/Xcode/DerivedData But rm needs to enumerate every file and directory within DerivedData in…",
-    "published_at": "2025-08-20T20:58:53Z",
-    "updated_at": "2025-08-20T20:58:53Z",
-    "feed_url": "https://esham.io/atom.xml",
-    "feed_title": "Benjamin Esham",
-    "owner_username": "bdesham",
-    "site_url": "https://esham.io"
-  },
-  {
-    "id": "https://jcs.org/2025/08/19/wifi_da14",
-    "title": "BlueSCSI Wi-Fi Desk Accessory 1.4 Released",
-    "url": "https://jcs.org/2025/08/19/wifi_da14",
-    "summary": "BlueSCSI Wi-Fi Desk Accessory 1.4 has been released: wifi_da-1.4.sit (StuffIt 3 archive) SHA256: aed32aced3fc2cff 301a61930df654fc a641cd830aa21d8a 824dafde1b17e671 SHA1: 13f5c624598d9956 4922eb807d7231a3 631c995c This update fixes a bug that was breaking hidden SSID entry.",
-    "published_at": "2025-08-19T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/",
-    "title": "Visualizing distributions with pepperoni pizza (and javascript)",
-    "url": "https://ntietz.com/blog/visualizing-distributions-with-pepperoni-pizza/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "There's a pizza shop near me that serves a normal pizza. I mean, they distribute the toppings in a normal way. They're not uniform at all. The toppings are random, but not the way I want. The colloquial understanding of \"random\" is kind of the Platonic ideal of a pizza: slightly chaotic but things are more or less spread out over the whole piece in a regular way. If you take a slice you'll get more of less the same amount of pepperoni as any other slice. And every bite will have roughly the same…",
-    "published_at": "2025-08-18T00:00:00Z",
-    "updated_at": "2025-08-18T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://jcs.org/2025/08/15/cmaster",
-    "title": "Video: C Programming on System 6 - VCFMW, CMaster",
-    "url": "https://jcs.org/2025/08/15/cmaster",
-    "summary": "I found a neat THINK C extension that I wanted to share, and I'm going to have a table at the Vintage Computer Festival Midwest next month. Your browser doesn't seem to support HTML video. You can download the video (H.264/AAC format) instead. Video notes: Vintage Computer Festival Midwest THINK C 5.0.4 CMaster (I'm using 1.2.5) Please contact me with any feedback or questions, view past videos in this series , and subscribe to my RSS feed to be notified about future videos and other posts. Join…",
-    "published_at": "2025-08-15T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://mtlynch.io/retrospectives/2025/08/",
-    "title": "Refactoring English: Month 8",
-    "url": "https://mtlynch.io/retrospectives/2025/08/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I find that not every reader who purchases early access to my book wants to give me feedback about rough drafts. I figure out where all my time is going…",
-    "published_at": "2025-08-13T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://austinhenley.com/blog/aihomework.html",
-    "title": "Assessing students in the era of AI",
-    "url": "https://austinhenley.com/blog/aihomework.html",
-    "summary": "https://austinhenley.com/blog/aihomework.html",
-    "published_at": "2025-08-10T18:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "/posts/quitting-github/",
-    "title": "Qutting GitHub",
-    "url": "/posts/quitting-github/",
-    "summary": "I’ve had this post sitting in my drafts since April. I decided to finish it in light of the news that GitHub is no longer independent inside Microsoft and going full-tilt into AI slop. I’ve decided to migrate all of my personal projects 1 off GitHub— come join me. Going forward, my public work will be on https://codeberg.org/jpt/ Read on if you’d like to understand why, or you can skip to Where To? if you’d like to make a similar move.",
-    "published_at": "2025-08-10T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
-  },
-  {
-    "id": "https://jordivillar.com/reads/2025w31/",
-    "title": "2025W31",
-    "url": "https://jordivillar.com/reads/2025w31/",
-    "summary": "No, AI is not Making Engineers 10x as Productive — AI does not make engineers ten times more productive because much of coding involves thinking, reading, and preventing unnecessary work. AI helps with small tasks and gives short bursts of speed, but it often encourages haste and over-building. True productivity comes from experience, good habits, and teamwork, not just using AI tools. All the cool kids are doing it — The author is unsure about using large language models (LLMs) for coding b…",
-    "published_at": "2025-08-08T15:45:13Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
   }
 ]
