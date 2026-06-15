@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Mon, 15 Jun 2026 05:34:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:50:17 +0000</lastBuildDate>
     <item>
       <title>2026W23</title>
       <link>https://jordivillar.com/reads/2026w23/</link>
@@ -535,19 +535,19 @@
       <pubDate>Fri, 15 May 2026 16:43:15 +0000</pubDate>
     </item>
     <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Commenting Guidelines</title>
       <link>https://susam.net/commenting.html</link>
       <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
       <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
       <author>susam</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -622,19 +622,19 @@
       <pubDate>Mon, 11 May 2026 00:21:52 +0000</pubDate>
     </item>
     <item>
-      <title>Piping terminal output to the browser using systemfd</title>
-      <link>/posts/webdev-livecompile/</link>
-      <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
-      <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
-      <author>izissise</author>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Problem of Pedagogy in Advanced Mathematics</title>
       <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
       <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
       <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
       <author>susam</author>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piping terminal output to the browser using systemfd</title>
+      <link>/posts/webdev-livecompile/</link>
+      <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
+      <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
+      <author>izissise</author>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -702,19 +702,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
       <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
       <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -980,6 +980,14 @@
       <description>These days I’ve found myself reading about hardware shortage and how RAM, disk, and NAND manufacturers have all their production for 2026 already sold to AI/Data center companies. It had me thinking about the strange position compute finds itself in right now. GPUs weren’t designed for AI. They were designed for graphics as in pushing pixels, rendering triangles. It turned out that the math for doing that at scale overlaps just enough with neural network math. The entire current AI boom runs…</description>
       <author>jordi</author>
       <pubDate>Fri, 03 Apr 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terraform at LumApps: Part 4 - Chasing performance</title>
+      <link>https://medium.com/lumapps-engineering/terraform-at-lumapps-part-4-8da59590ea0d</link>
+      <guid isPermaLink="false">https://medium.com/lumapps-engineering/terraform-at-lumapps-part-4-8da59590ea0d</guid>
+      <description>I authored or co-authored this post : https://medium.com/lumapps-engineering/terraform-at-lumapps-part-4-8da59590ea0d .</description>
+      <author>jeromepin</author>
+      <pubDate>Fri, 03 Apr 2026 09:14:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude Code Found a Linux Vulnerability Hidden for 23 Years</title>
@@ -1509,14 +1517,6 @@
       <pubDate>Tue, 27 Jan 2026 00:34:55 +0000</pubDate>
     </item>
     <item>
-      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
-      <link>https://runxiyu.org/comp/doubleslash/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
-      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
-      <author>runxiyu</author>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Default Apps, 2026</title>
       <link>/posts/2026-default-apps/</link>
       <guid isPermaLink="false">/posts/2026-default-apps/</guid>
@@ -1525,11 +1525,12 @@
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Ancient of Days</title>
-      <link>https://vgel.me/fiction/claude-computer/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
-      <author>vgel</author>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
+      <link>https://runxiyu.org/comp/doubleslash/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
+      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
+      <author>runxiyu</author>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Making niche solutions is the point</title>
@@ -1537,6 +1538,13 @@
       <guid isPermaLink="false">https://ntietz.com/blog/making-niche-solutions-is-the-point/</guid>
       <description>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</description>
       <author>ntietz</author>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ancient of Days</title>
+      <link>https://vgel.me/fiction/claude-computer/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
+      <author>vgel</author>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1636,19 +1644,19 @@
       <pubDate>Sat, 17 Jan 2026 08:15:06 +0000</pubDate>
     </item>
     <item>
-      <title>Local Test CI Using Git Hooks and Notes</title>
-      <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>2025 lookback</title>
       <link>https://www.silvestar.codes/articles/2025-lookback/</link>
       <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
       <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
       <author>starbist</author>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local Test CI Using Git Hooks and Notes</title>
+      <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1996,19 +2004,19 @@
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Get the Fuck Off of GitHub.</title>
-      <link>https://nicomee.com/blog/get-the-fuck-off-github/</link>
-      <guid isPermaLink="false">https://nicomee.com/blog/get-the-fuck-off-github/</guid>
-      <description>Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.</description>
-      <author>nicomeemes</author>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A new system for organizing my writing and projects</title>
       <link>https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/</guid>
       <description>Keeping up with regular blog posts is a challenge. To do it, I&#39;ve churned through a few different organizational systems. Sometimes I have to change them due to actual life circumstances changing; other times, due to the old one just wearing off [1] . Well, my life circumstances have changed again. I&#39;m on medical leave right now recovering from surgery [2] , and I have been writing less this year anyway. So it&#39;s that time again: new system, baby. This post isn&#39;t a how-to. It&#39;s not a prescription…</description>
       <author>ntietz</author>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get the Fuck Off of GitHub.</title>
+      <link>https://nicomee.com/blog/get-the-fuck-off-github/</link>
+      <guid isPermaLink="false">https://nicomee.com/blog/get-the-fuck-off-github/</guid>
+      <description>Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.</description>
+      <author>nicomeemes</author>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2323,9 +2331,9 @@
       <pubDate>Tue, 23 Sep 2025 20:12:45 +0000</pubDate>
     </item>
     <item>
-      <title>papershelf</title>
-      <link>https://nezubn.com/papershelf</link>
-      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
+      <title>products</title>
+      <link>https://nezubn.com/products</link>
+      <guid isPermaLink="false">https://nezubn.com/products</guid>
       <author>nezubn</author>
       <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
     </item>
@@ -2338,9 +2346,9 @@
       <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
     </item>
     <item>
-      <title>products</title>
-      <link>https://nezubn.com/products</link>
-      <guid isPermaLink="false">https://nezubn.com/products</guid>
+      <title>papershelf</title>
+      <link>https://nezubn.com/papershelf</link>
+      <guid isPermaLink="false">https://nezubn.com/papershelf</guid>
       <author>nezubn</author>
       <pubDate>Tue, 23 Sep 2025 01:22:11 +0000</pubDate>
     </item>
@@ -2369,19 +2377,19 @@
       <pubDate>Mon, 15 Sep 2025 18:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>Custom for designing, off-the-shelf for shipping</title>
-      <link>https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/</guid>
-      <description>As software engineers, we&#39;re paid to write really cool type annotations solve problems. Usually we do this by taking a bunch of different pieces and putting them together to solve the problem. Maybe you mix together a database, a queue, a web framework, and some business logic. Or maybe you design a new storage engine, your own web framework, and a custom cache. It&#39;s an engineering question to determine which way is the right way. Should you build custom things? Or should you use off-the-shelf e…</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>I Once Appeared in The Old New Thing</title>
       <link>https://mtlynch.io/my-old-new-thing-cameo/</link>
       <guid isPermaLink="false">https://mtlynch.io/my-old-new-thing-cameo/</guid>
       <description>I’m a pretty humble guy, so most people don’t know this extremely impressive fact about me: Raymond Chen once mentioned me on The Old New Thing , the classic Windows development blog. No, he didn’t mention me by name nor did he provide any way to identify me, but I still deserve credit for how little I boast about this stunning achievement. In 2009, Raymond Chen mentioned me in an issue of The Old New Thing .</description>
       <author>mtlynch</author>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom for designing, off-the-shelf for shipping</title>
+      <link>https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/custom-for-designing-offtheshelf-for-shipping/</guid>
+      <description>As software engineers, we&#39;re paid to write really cool type annotations solve problems. Usually we do this by taking a bunch of different pieces and putting them together to solve the problem. Maybe you mix together a database, a queue, a web framework, and some business logic. Or maybe you design a new storage engine, your own web framework, and a custom cache. It&#39;s an engineering question to determine which way is the right way. Should you build custom things? Or should you use off-the-shelf e…</description>
+      <author>ntietz</author>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2391,14 +2399,6 @@
       <description>These are few of the places where you can find me on the internet.</description>
       <author>nezubn</author>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 9</title>
-      <link>https://mtlynch.io/retrospectives/2025/09/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2025/09/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I got useful feedback from early readers about my chapter list. I found it frustrating to edit video of an interview but had fun creating a written tran…</description>
-      <author>mtlynch</author>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
