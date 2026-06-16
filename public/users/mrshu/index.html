@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>mrshu</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~mrshu">Lobste.rs profile</a>
+        <a href="https://mareksuppa.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>13 May 2025</dd></div>
+        <div><dt>Karma</dt><dd>16</dd></div>
+        <div><dt>Stories</dt><dd>0</dd></div>
+        <div><dt>Comments</dt><dd>1</dd></div>
+        <div><dt>Profile checked</dt><dd>16 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>16 Jun 2026</dd></div>
+      </dl>
+      <p class="about">A mystery...</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/load-bearing/">&#34;Load-bearing&#34; is becoming LLM speak</a></h3>
+          <p>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Apr 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/">Displaying account-specific Claude Code rate limits with ccstatusline</a></h3>
+          <p>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">31 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/package-manager-cooldown-periods/">Cooldown periods for package updates</a></h3>
+          <p>The last two weeks of March 2026 were brutal for software supply chains. A cascading campaign by a threat actor tracked as TeamPCP started with a compromised credential in Trivy (Aqua Security’s vulnerability scanner), which was then used to hijack Checkmarx KICS and then LiteLLM (an LLM proxy with ~97M monthly PyPI downloads). On top of that, axios – the most popular HTTP client on npm with ~100M weekly downloads – was compromised through a stolen maintainer token, with Google’s Threat …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">25 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h3>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">25 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h3>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/fish-wraps-flag/">Using --wraps to get tab completions on fish shell aliases</a></h3>
+          <p>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/github-pr-images-from-cli/">Uploading images to GitHub PRs from the CLI</a></h3>
+          <p>GitHub has no public API for uploading images to PR descriptions. The drag-and-drop in the web UI uses an undocumented endpoint ( /upload/policies/assets ) that requires browser session cookies – you simply can not call it with an API token or gh . The GitHub CLI team explicitly closed this as “not planned”, with the explanation that the upload flow requires a browser to obtain temporary S3 credentials. Pretty understandable but still tough to live with, particularly in this agent era we l…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h3>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/google-docs-markdown-export/">Google Docs can be exported to Markdown via URL change</a></h3>
+          <p>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/hugo-section-merge/">Hugo can merge multiple sections into one stream</a></h3>
+          <p>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">10 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/links/write-the-paper-first/">Write the Paper First</a></h3>
+          <p>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
