@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>cdown</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~cdown">Lobste.rs profile</a>
+        <a href="https://chrisdown.name">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>15 May 2020</dd></div>
+        <div><dt>Karma</dt><dd>160</dd></div>
+        <div><dt>Stories</dt><dd>5</dd></div>
+        <div><dt>Comments</dt><dd>21</dd></div>
+        <div><dt>Profile checked</dt><dd>16 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>16 Jun 2026</dd></div>
+      </dl>
+      <p class="about">I&#39;m part of the Facebook kernel team, and also help maintain systemd. I work on kernel memory management, control groups, and resource control and isolation.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">23 Mar 2026 · Chris Down</p>
+          <h3><a href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">Debunking zswap and zram myths</a></h3>
+          <p>tl;dr: If in doubt, prefer to use zswap. Only use zram if you have a highly specific reason to. In terms of architecture: zswap sits in front of your disk swap, compresses pages in RAM, and automatically tiers cold data to disk. It integrates directly with the kernel&#39;s memory management and distributes pressure gracefully. zram is a compressed RAM block device with a hard capacity limit. When you put swap on it and it fills up, there is no automatic eviction, and the kernel has very little lever…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

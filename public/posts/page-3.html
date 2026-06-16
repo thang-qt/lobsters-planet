@@ -23,7 +23,7 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 16 Jun 2026, 05:48 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 16 Jun 2026, 11:39 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
       
@@ -53,14 +53,14 @@
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h2>
-          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
+          <h2><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h2>
+          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
         </article>
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h2>
-          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
+          <h2><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h2>
+          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
         </article>
       
         <article class="entry">
@@ -253,20 +253,26 @@ I&#39;ve ...</a></h2>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
-          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
         </article>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
-          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
         </article>
       
         <article class="entry">
           <p class="meta">24 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h2><a href="https://mareksuppa.com/til/fish-wraps-flag/">Using --wraps to get tab completions on fish shell aliases</a></h2>
           <p>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Mar 2026 · <a href="/users/cdown/">cdown</a> · Chris Down</p>
+          <h2><a href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">Debunking zswap and zram myths</a></h2>
+          <p>tl;dr: If in doubt, prefer to use zswap. Only use zram if you have a highly specific reason to. In terms of architecture: zswap sits in front of your disk swap, compresses pages in RAM, and automatically tiers cold data to disk. It integrates directly with the kernel&#39;s memory management and distributes pressure gracefully. zram is a compressed RAM block device with a hard capacity limit. When you put swap on it and it fills up, there is no automatic eviction, and the kernel has very little lever…</p>
         </article>
       
         <article class="entry">
@@ -321,12 +327,6 @@ I&#39;ve ...</a></h2>
           <p class="meta">10 Mar 2026 · <a href="/users/blacklight/">blacklight</a> · Fabio Manganiello</p>
           <h2><a href="https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown">Madblog: A Markdown Folder That Federates Everywhere</a></h2>
           <p>A lightweight blogging engine based on text files, with native Fediverse and IndieWeb support</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Mar 2026 · <a href="/users/philzook/">philzook</a> · Hey There Buddo!</p>
-          <h2><a href="https://www.philipzucker.com/refine_assembly/">Refinement Modeling and Verification of RISC-V Assembly using Knuckledragger</a></h2>
-          <p>Binary verification is useful on a couple counts:</p>
         </article>
       
     </div>
