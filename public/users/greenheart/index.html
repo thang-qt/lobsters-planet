@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>greenheart</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~greenheart">Lobste.rs profile</a>
+        <a href="https://samuelplumppu.se">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>30 Jul 2025</dd></div>
+        <div><dt>Karma</dt><dd>72</dd></div>
+        <div><dt>Stories</dt><dd>2</dd></div>
+        <div><dt>Comments</dt><dd>12</dd></div>
+        <div><dt>Profile checked</dt><dd>16 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>16 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Experienced System Developer &amp; Sustainability Entrepreneur. Let&#39;s co-create a future that is regenerative and distributive by design 🌱</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">22 Jan 2026 · Samuel Plumppu</p>
+          <h3><a href="https://samuelplumppu.se/blog/practicing-systems-thinking">Practicing systems thinking to become a better developer</a></h3>
+          <p>Regularly practicing systems thinking is worthwhile for your career, but also because it gives a valuable lens to explore and better understand the world we live in. Everything is connected, and by understanding the systems around us, we can identify leverage points where we can make effective changes. This text assumes some familiarity with the fundamental concepts of systems thinking, but should still be worthwhile for anyone curious about improving their craft and creating impactful software …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Jan 2026 · Samuel Plumppu</p>
+          <h3><a href="https://samuelplumppu.se/blog/testing-rust-cli-apps">Testing Rust-based CLI applications using temporary directories</a></h3>
+          <p>I recently finished reading the book Command Line Applications in Rust , experimenting with the exercises and adding more test cases. While the testing chapter covers the basics of testing CLI apps , it didn&#39;t show the full potential of the recommended crates assert_cmd , assert_fs and predicates . Specifically, I wondered how to create a temporary directory with multiple nested subdirectories and files. This is very useful for testing CLI tools that scaffold projects. Or in the case of my curre…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Dec 2025 · Samuel Plumppu</p>
+          <h3><a href="https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp">Git-based CMS tip: Automatic updatedAt timestamps with Git</a></h3>
+          <p>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Dec 2025 · Samuel Plumppu</p>
+          <h3><a href="https://samuelplumppu.se/blog/live-reloading-db-schema-with-drizzle-sqlite">Live Reloading Database Schemas with Drizzle and SQLite</a></h3>
+          <p>During development, automatically reloading modified TypeScript code and restarting the app gives a significant productivity boost. This is very common for all kinds of frontend and backend projects. But what if you could live reload and automatically migrate your local development database whenever you change your Drizzle schema? This seemed a bit crazy at first, but it turns out this works quite well! Let&#39;s explore how. Prototyping database schemas with Drizzle When using Drizzle, you define y…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
