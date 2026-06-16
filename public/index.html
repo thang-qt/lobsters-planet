@@ -22,7 +22,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 162 discovered personal sites. Last built 16 Jun 2026, 11:39 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 163 discovered personal sites. Last built 16 Jun 2026, 17:29 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -31,6 +31,12 @@
       <a href="/posts/">All posts</a>
     </section>
     <div class="entries compact-feed">
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">14 Jun 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
@@ -208,12 +214,6 @@ https://social.ayushnix.com/@ayushn...</a></h3>
           <p class="meta">1 Jun 2026 · <a href="/users/nolan/">nolan</a> · Comments for Read the Tea Leaves</p>
           <h3><a href="https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238384">Comment on Using AI to write better code more slowly by Will</a></h3>
           <p>One of the hopes of the early internet was that, because anyone could get news from anywhere, everyone would read more different views, and become better, more worldly people. And there were certainly people who did use the internet to that effect, but it ultimately became a system where the easiest, most enticing way to use it was actually contrary to our own best interests. The internet didn&#39;t change people&#39;s behavior, it just amplified it. Similarly, while AI &lt;em&gt;can&lt;/em&gt; be used in the way t…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Jun 2026 · <a href="/users/f055/">f055</a> · Comments for F055</p>
-          <h3><a href="https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19921">Comment on Windows GOG DOS Games on M-series Macs by Gerard Braad</a></h3>
-          <p>Can&amp;#039;t you use wine or 7z to extract the installer? I know some tools exist to deal with that, as I remember doing something similar on Linux before; just been a while ago so I am not completely sure anymore.</p>
         </article>
       
     </div>

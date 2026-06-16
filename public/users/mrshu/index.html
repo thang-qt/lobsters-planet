@@ -47,6 +47,12 @@
     <div class="entries">
       
         <article class="entry">
+          <p class="meta">16 Jun 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">14 Jun 2026 · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/load-bearing/">&#34;Load-bearing&#34; is becoming LLM speak</a></h3>
           <p>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</p>

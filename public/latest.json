@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://jordivillar.com/reads/2026w23/",
     "title": "2026W23",
     "url": "https://jordivillar.com/reads/2026w23/",
@@ -865,10 +876,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -876,10 +887,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1046,6 +1057,17 @@
     "site_url": "https://garrido.io"
   },
   {
+    "id": "https://runxiyu.org/comp/ch4ht/",
+    "title": "On (not) using “cryptographic hashes” for hash table keys",
+    "url": "https://runxiyu.org/comp/ch4ht/",
+    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
     "title": "QuickQWERTY 1.2.3",
     "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
@@ -1056,17 +1078,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://runxiyu.org/comp/ch4ht/",
-    "title": "On (not) using “cryptographic hashes” for hash table keys",
-    "url": "https://runxiyu.org/comp/ch4ht/",
-    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1160,10 +1171,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1171,10 +1182,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1784,17 +1795,6 @@
     "site_url": "http://www.stchris.net"
   },
   {
-    "id": "https://runxiyu.org/comp/ab1043/",
-    "title": "California’s Digital Age Assurance Act, and FOSS",
-    "url": "https://runxiyu.org/comp/ab1043/",
-    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
-    "published_at": "2026-03-04T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://www.bejarano.io/terraform-performance/",
     "title": "Advanced Terraform performance optimization",
     "url": "https://www.bejarano.io/terraform-performance/",
@@ -1804,6 +1804,17 @@
     "feed_title": "Ricard Bejarano – Site Reliability Engineer",
     "owner_username": "ricardbejarano",
     "site_url": "https://www.bejarano.io"
+  },
+  {
+    "id": "https://runxiyu.org/comp/ab1043/",
+    "title": "California’s Digital Age Assurance Act, and FOSS",
+    "url": "https://runxiyu.org/comp/ab1043/",
+    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
+    "published_at": "2026-03-04T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "692f41d1b2bf510587f1a7b6",
@@ -2020,17 +2031,6 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
-    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "title": "Google Docs can be exported to Markdown via URL change",
-    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
-    "published_at": "2026-02-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://ntietz.com/blog/til-docker-log-rotation/",
     "title": "TIL: Docker log rotation",
     "url": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom\u0026utm_medium=feed",
@@ -2041,6 +2041,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "title": "Google Docs can be exported to Markdown via URL change",
+    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
+    "published_at": "2026-02-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15926",
@@ -2110,6 +2121,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hugo-section-merge/",
+    "title": "Hugo can merge multiple sections into one stream",
+    "url": "https://mareksuppa.com/til/hugo-section-merge/",
+    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
+    "published_at": "2026-02-11T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
     "title": "Remote Editing with Kakoune and Sway",
     "url": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
@@ -2120,17 +2142,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hugo-section-merge/",
-    "title": "Hugo can merge multiple sections into one stream",
-    "url": "https://mareksuppa.com/til/hugo-section-merge/",
-    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
-    "published_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mareksuppa.com/links/write-the-paper-first/",
@@ -2366,6 +2377,17 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "/posts/2026-default-apps/",
+    "title": "Default Apps, 2026",
+    "url": "/posts/2026-default-apps/",
+    "summary": "I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…",
+    "published_at": "2026-01-27T00:00:00Z",
+    "feed_url": "https://www.jpt.sh/index.xml",
+    "feed_title": "jpt.sh",
+    "owner_username": "jptsh",
+    "site_url": "https://jpt.sh"
+  },
+  {
     "id": "https://runxiyu.org/comp/doubleslash/",
     "title": "It is incorrect to “normalize” // in HTTP URL paths",
     "url": "https://runxiyu.org/comp/doubleslash/",
@@ -2377,15 +2399,14 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "/posts/2026-default-apps/",
-    "title": "Default Apps, 2026",
-    "url": "/posts/2026-default-apps/",
-    "summary": "I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
+    "id": "https://vgel.me/fiction/claude-computer/",
+    "title": "The Ancient of Days",
+    "url": "https://vgel.me/fiction/claude-computer/",
+    "published_at": "2026-01-26T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://ntietz.com/blog/making-niche-solutions-is-the-point/",
@@ -2398,16 +2419,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://vgel.me/fiction/claude-computer/",
-    "title": "The Ancient of Days",
-    "url": "https://vgel.me/fiction/claude-computer/",
-    "published_at": "2026-01-26T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
   },
   {
     "id": "https://jordivillar.com/reads/2026w03/",
@@ -3337,16 +3348,5 @@
     "feed_title": "[Insérez un titre ici]",
     "owner_username": "martinkirch",
     "site_url": "https://mkir.ch/"
-  },
-  {
-    "id": "https://mtlynch.io/notes/hold-off-on-litestream-0.5.0/",
-    "title": "Hold Off on Litestream 0.5.0",
-    "url": "https://mtlynch.io/notes/hold-off-on-litestream-0.5.0/",
-    "summary": "Litestream is an open-source tool that backs up SQLite databases to cloud storage in real time. I love it and use it in all of my projects. Litestream is owned by Fly.io , and they paused development on Litestream for almost two years in favor of an alternative project called LiteFS. Two weeks ago, Ben Johnson, Litestream’s creator and lead developer, announced that they were shifting focus back to Litestream and had just published a new release, 0.5.0 .",
-    "published_at": "2025-10-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   }
 ]
