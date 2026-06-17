@@ -23,9 +23,15 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 17 Jun 2026, 05:25 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 17 Jun 2026, 11:23 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">3 May 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
+          <h2><a href="https://runxiyu.org/comp/ch4ht/">On (not) using “cryptographic hashes” for hash table keys</a></h2>
+          <p>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">3 May 2026 · <a href="/users/susam/">susam</a> · Susam Pal</p>
@@ -83,14 +89,14 @@
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h2>
-          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
+          <h2><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h2>
+          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
         </article>
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h2>
-          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
+          <h2><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h2>
+          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
         </article>
       
         <article class="entry">
@@ -321,12 +327,6 @@ I&#39;ve ...</a></h2>
           <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
           <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Mar 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
-          <h2><a href="https://jordivillar.com/notes/between-jobs/">Between jobs</a></h2>
-          <p>Currently I’m between jobs. Nothing special, a lot of people go between jobs. After working for several years on a fast-paced startup, you might be tempted to jump back to your next role. You could feel it or not, but you’re likely tired, even close to burnout. Taking a break between jobs is not just about resting. It’s about taking a step back, reflecting on your work, and finding a new path forward. If you’re looking for a break, take a break. And the most important thing, don’t try …</p>
         </article>
       
     </div>
