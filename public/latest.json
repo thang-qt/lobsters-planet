@@ -22,10 +22,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
-    "title": "VER 2026 Results Viewer",
-    "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
-    "summary": "VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…",
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -33,10 +33,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …",
+    "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
+    "title": "VER 2026 Results Viewer",
+    "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
+    "summary": "VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -55,17 +55,6 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
-    "published_at": "2026-06-14T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": "https://inkdroid.org"
-  },
-  {
     "id": "https://inkdroid.org/2026/06/14/tree-2/",
     "title": "Tree 2",
     "url": "https://inkdroid.org/2026/06/14/tree-2/",
@@ -81,6 +70,17 @@
     "title": "Bookmarks - data, design, vis, book",
     "url": "https://inkdroid.org/2026/06/14/bookmarks/",
     "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
+    "published_at": "2026-06-14T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": "https://inkdroid.org"
+  },
+  {
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -163,6 +163,17 @@
     "feed_title": "mtlynch.io",
     "owner_username": "mtlynch",
     "site_url": "https://mtlynch.io"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "title": "Homelab Improvements",
+    "url": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "summary": "Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…",
+    "published_at": "2026-06-09T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KTKTWTZSCTQHV124ADRAS0XV",
@@ -529,10 +540,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -540,10 +551,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -763,10 +774,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -774,10 +785,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -853,6 +864,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -863,17 +885,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -942,10 +953,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -953,10 +964,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1055,17 +1066,6 @@
     "site_url": "https://octet-stream.net/"
   },
   {
-    "id": "https://runxiyu.org/ccc/",
-    "title": "CCC 2026",
-    "url": "https://runxiyu.org/ccc/",
-    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
-    "published_at": "2026-05-08T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "urn:uuid:800b3a89-946c-4c78-b575-4262f7589885",
     "title": "Wander Console 0.6.0",
     "url": "https://susam.net/code/news/wander/0.6.0.html",
@@ -1076,6 +1076,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://runxiyu.org/ccc/",
+    "title": "CCC 2026",
+    "url": "https://runxiyu.org/ccc/",
+    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
+    "published_at": "2026-05-08T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://jcs.org/notes/2026/05/05/995089977752510465",
@@ -1112,18 +1123,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
-    "title": "From RSS to Atom",
-    "url": "https://susam.net/from-rss-to-atom.html",
-    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
-    "published_at": "2026-05-04T00:00:00Z",
-    "updated_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
     "title": "Podman rootless containers and the Copy Fail exploit",
     "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
@@ -1135,12 +1134,12 @@
     "site_url": "https://garrido.io"
   },
   {
-    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
-    "title": "QuickQWERTY 1.2.3",
-    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
-    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "updated_at": "2026-05-03T00:00:00Z",
+    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
+    "title": "From RSS to Atom",
+    "url": "https://susam.net/from-rss-to-atom.html",
+    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
+    "published_at": "2026-05-04T00:00:00Z",
+    "updated_at": "2026-05-04T00:00:00Z",
     "feed_url": "https://susam.net/feed.xml",
     "feed_title": "Susam Pal",
     "owner_username": "susam",
@@ -1156,6 +1155,18 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
+    "title": "QuickQWERTY 1.2.3",
+    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
+    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "updated_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1226,6 +1237,17 @@
     "site_url": "https://www.agwa.name/"
   },
   {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/",
+    "title": "OpenClaw On Raspberry Pi 400",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/",
+    "summary": "Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…",
+    "published_at": "2026-04-29T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://vito.io/articles/leaving-github",
     "title": "On Leaving GitHub",
     "url": "https://vito.io/articles/2026-04-28-leaving-github.html",
@@ -1249,10 +1271,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1260,10 +1282,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1346,6 +1368,17 @@
     "feed_title": "Notes - joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "title": "OpenClaw On Raspberry Pi 4",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "summary": "I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …",
+    "published_at": "2026-04-18T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://www.philipzucker.com/thin_egraph",
@@ -1494,6 +1527,17 @@
     "site_url": "https://mtlynch.io"
   },
   {
+    "id": "https://cuonglm.xyz/post/go_issue_77193/",
+    "title": "An old compiler bug with a very bad outcome",
+    "url": "https://cuonglm.xyz/post/go_issue_77193/",
+    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
+    "published_at": "2026-04-08T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
+  },
+  {
     "id": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist",
     "title": "Opening Proprietary Code to Contributors Checklist",
     "url": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html",
@@ -1504,17 +1548,6 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
-  },
-  {
-    "id": "https://cuonglm.xyz/post/go_issue_77193/",
-    "title": "An old compiler bug with a very bad outcome",
-    "url": "https://cuonglm.xyz/post/go_issue_77193/",
-    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
-    "published_at": "2026-04-08T00:00:00Z",
-    "feed_url": "https://cuonglm.xyz/index.xml",
-    "feed_title": "CuongLM",
-    "owner_username": "cuonglm",
-    "site_url": "https://cuonglm.xyz/"
   },
   {
     "id": "https://philipotoole.com/?p=8107",
@@ -1628,6 +1661,17 @@
     "site_url": "http://www.statox.fr"
   },
   {
+    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "title": "PicoBot on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
     "title": "Alpha Equivalent Hash Consing with Thinnings",
     "url": "https://www.philipzucker.com/thin_hash_cons_codebruijn/",
@@ -1717,6 +1761,17 @@
     "site_url": "https://mareksuppa.com"
   },
   {
+    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "title": "PicoClaw on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://jordivillar.com/notes/between-jobs/",
     "title": "Between jobs",
     "url": "https://jordivillar.com/notes/between-jobs/",
@@ -1737,6 +1792,17 @@
     "feed_title": "mtlynch.io",
     "owner_username": "mtlynch",
     "site_url": "https://mtlynch.io"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/you-dont-need-a-mac-mini-to-run-openclaw/",
+    "title": "You don't need a Mac Mini to run OpenClaw",
+    "url": "https://www.lifewaza.com/posts/you-dont-need-a-mac-mini-to-run-openclaw/",
+    "summary": "Introduction # In this series, I’ll explore running OpenClaw on things that aren’t a Mac Mini, as well as exploring some alternatives to OpenClaw. You don’t need a Mac Mini to run OpenClaw 1 . OpenClaw is a NodeJS app that shouldn’t use up too many system resources. It should run pretty well on limited hardware like the Raspberry Pi 3b+ that’s sitting in my closet collecting dust, but let’s try it out and see. The OpenClaw documentation has this table: Pi Model RAM Works? Notes Pi 5 …",
+    "published_at": "2026-03-16T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog",
@@ -1921,17 +1987,6 @@
     "site_url": "http://www.stchris.net"
   },
   {
-    "id": "https://runxiyu.org/comp/ab1043/",
-    "title": "California’s Digital Age Assurance Act, and FOSS",
-    "url": "https://runxiyu.org/comp/ab1043/",
-    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
-    "published_at": "2026-03-04T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://www.bejarano.io/terraform-performance/",
     "title": "Advanced Terraform performance optimization",
     "url": "https://www.bejarano.io/terraform-performance/",
@@ -1941,6 +1996,17 @@
     "feed_title": "Ricard Bejarano – Site Reliability Engineer",
     "owner_username": "ricardbejarano",
     "site_url": "https://www.bejarano.io"
+  },
+  {
+    "id": "https://runxiyu.org/comp/ab1043/",
+    "title": "California’s Digital Age Assurance Act, and FOSS",
+    "url": "https://runxiyu.org/comp/ab1043/",
+    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
+    "published_at": "2026-03-04T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "692f41d1b2bf510587f1a7b6",
@@ -2031,6 +2097,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "title": "OpenClaw On Ubuntu 25",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "summary": "I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…",
+    "published_at": "2026-02-23T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://austinhenley.com/blog/dearresearchers.html",
@@ -2168,6 +2245,17 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
+    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "title": "Google Docs can be exported to Markdown via URL change",
+    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
+    "published_at": "2026-02-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://ntietz.com/blog/til-docker-log-rotation/",
     "title": "TIL: Docker log rotation",
     "url": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom\u0026utm_medium=feed",
@@ -2178,17 +2266,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "title": "Google Docs can be exported to Markdown via URL change",
-    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
-    "published_at": "2026-02-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15926",
@@ -2347,17 +2424,6 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://runxiyu.org/umich/oktafido2/",
-    "title": "Using FIDO2 security keys with U-M Okta",
-    "url": "https://runxiyu.org/umich/oktafido2/",
-    "summary": "Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://vgel.me/fiction/gyre/",
     "title": "Gyre",
     "url": "https://vgel.me/fiction/gyre/",
@@ -2367,6 +2433,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://runxiyu.org/umich/oktafido2/",
+    "title": "Using FIDO2 security keys with U-M Okta",
+    "url": "https://runxiyu.org/umich/oktafido2/",
+    "summary": "Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .",
+    "published_at": "2026-02-07T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://www.silvestar.codes/articles/ultigamemate/",
@@ -2526,6 +2603,17 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://runxiyu.org/comp/doubleslash/",
+    "title": "It is incorrect to “normalize” // in HTTP URL paths",
+    "url": "https://runxiyu.org/comp/doubleslash/",
+    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
+    "published_at": "2026-01-27T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "/posts/2026-default-apps/",
     "title": "Default Apps, 2026",
     "url": "/posts/2026-default-apps/",
@@ -2537,15 +2625,14 @@
     "site_url": "https://jpt.sh"
   },
   {
-    "id": "https://runxiyu.org/comp/doubleslash/",
-    "title": "It is incorrect to “normalize” // in HTTP URL paths",
-    "url": "https://runxiyu.org/comp/doubleslash/",
-    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
+    "id": "https://vgel.me/fiction/claude-computer/",
+    "title": "The Ancient of Days",
+    "url": "https://vgel.me/fiction/claude-computer/",
+    "published_at": "2026-01-26T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://ntietz.com/blog/making-niche-solutions-is-the-point/",
@@ -2558,16 +2645,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://vgel.me/fiction/claude-computer/",
-    "title": "The Ancient of Days",
-    "url": "https://vgel.me/fiction/claude-computer/",
-    "published_at": "2026-01-26T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
   },
   {
     "id": "https://jordivillar.com/reads/2026w03/",
@@ -2728,17 +2805,6 @@
     "site_url": "https://samuelplumppu.se"
   },
   {
-    "id": "https://www.silvestar.codes/articles/2025-lookback/",
-    "title": "2025 lookback",
-    "url": "https://www.silvestar.codes/articles/2025-lookback/",
-    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
-    "published_at": "2026-01-16T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
-  },
-  {
     "id": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
     "title": "Local Test CI Using Git Hooks and Notes",
     "url": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
@@ -2749,6 +2815,17 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
+  },
+  {
+    "id": "https://www.silvestar.codes/articles/2025-lookback/",
+    "title": "2025 lookback",
+    "url": "https://www.silvestar.codes/articles/2025-lookback/",
+    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
+    "published_at": "2026-01-16T00:00:00Z",
+    "feed_url": "https://www.silvestar.codes/rss.xml",
+    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
+    "owner_username": "starbist",
+    "site_url": "https://www.silvestar.codes"
   },
   {
     "id": "https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents",
@@ -3117,17 +3194,6 @@
     "site_url": "https://dhole.github.io/"
   },
   {
-    "id": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
-    "title": "Synchronized colorscheme toggling for WezTerm and Neovim",
-    "url": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
-    "summary": "TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I've been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm's buil…",
-    "published_at": "2025-12-16T00:00:00Z",
-    "feed_url": "https://www.statox.fr/feed.xml",
-    "feed_title": "The stuff I do",
-    "owner_username": "statox",
-    "site_url": "http://www.statox.fr"
-  },
-  {
     "id": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
     "title": "Git-based CMS tip: Automatic updatedAt timestamps with Git",
     "url": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
@@ -3138,6 +3204,17 @@
     "feed_title": "Samuel Plumppu",
     "owner_username": "greenheart",
     "site_url": "https://samuelplumppu.se"
+  },
+  {
+    "id": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
+    "title": "Synchronized colorscheme toggling for WezTerm and Neovim",
+    "url": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
+    "summary": "TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I've been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm's buil…",
+    "published_at": "2025-12-16T00:00:00Z",
+    "feed_url": "https://www.statox.fr/feed.xml",
+    "feed_title": "The stuff I do",
+    "owner_username": "statox",
+    "site_url": "http://www.statox.fr"
   },
   {
     "id": "https://vito.io/articles/tickling-sun-ray-it-speaks",
@@ -3274,85 +3351,5 @@
     "feed_url": "https://dimtion.fr/atom.xml",
     "owner_username": "dimtion",
     "site_url": "https://dimtion.fr"
-  },
-  {
-    "id": "https://samuelplumppu.se/blog/live-reloading-db-schema-with-drizzle-sqlite",
-    "title": "Live Reloading Database Schemas with Drizzle and SQLite",
-    "url": "https://samuelplumppu.se/blog/live-reloading-db-schema-with-drizzle-sqlite",
-    "summary": "During development, automatically reloading modified TypeScript code and restarting the app gives a significant productivity boost. This is very common for all kinds of frontend and backend projects. But what if you could live reload and automatically migrate your local development database whenever you change your Drizzle schema? This seemed a bit crazy at first, but it turns out this works quite well! Let's explore how. Prototyping database schemas with Drizzle When using Drizzle, you define y…",
-    "published_at": "2025-12-03T00:00:00Z",
-    "updated_at": "2026-01-16T18:16:56Z",
-    "feed_url": "https://samuelplumppu.se/feed.json",
-    "feed_title": "Samuel Plumppu",
-    "owner_username": "greenheart",
-    "site_url": "https://samuelplumppu.se"
-  },
-  {
-    "id": "https://mtlynch.io/first-impressions-of-meshcore/",
-    "title": "My First Impressions of MeshCore Off-Grid Messaging",
-    "url": "https://mtlynch.io/first-impressions-of-meshcore/",
-    "summary": "When my wife saw me playing with my new encrypted radio, she asked what it was for. “Imagine,” I said, “if I could type a message on my phone and send it to you, and the message would appear on your phone. Instantly!” She wasn’t impressed. “It also works if phone lines are down due to a power outage… or societal collapse.” Still nothing. “If we’re not within radio range of each other, we can route our messages through a mesh network of our neighbors’ radios. But don’t wor…",
-    "published_at": "2025-12-02T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://nicomee.com/blog/get-the-fuck-off-github/",
-    "title": "Get the Fuck Off of GitHub.",
-    "url": "https://nicomee.com/blog/get-the-fuck-off-github/",
-    "summary": "Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.",
-    "published_at": "2025-12-01T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
-  },
-  {
-    "id": "https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/",
-    "title": "A new system for organizing my writing and projects",
-    "url": "https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "Keeping up with regular blog posts is a challenge. To do it, I've churned through a few different organizational systems. Sometimes I have to change them due to actual life circumstances changing; other times, due to the old one just wearing off [1] . Well, my life circumstances have changed again. I'm on medical leave right now recovering from surgery [2] , and I have been writing less this year anyway. So it's that time again: new system, baby. This post isn't a how-to. It's not a prescription…",
-    "published_at": "2025-12-01T00:00:00Z",
-    "updated_at": "2025-12-01T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://dimtion.fr/blog/2025/optimizing-guttermarks-nvim/",
-    "title": "Optimizing GutterMarks.nvim",
-    "url": "https://dimtion.fr/blog/2025/optimizing-guttermarks-nvim/",
-    "summary": "A few weeks ago, I shared GutterMarks.nvim ( blog , GitHub ) a Neovim plugin to allow displaying the nvim marks in the gutter of a buffer. It got positive feedback, and since then I added a couple of convenient actions, and fixed a couple of minor bugs that the community had found. One thing I spent more time recently is optimizing the performances of the plugin. In the README I mention that the plugin is faster that other implementations (that I found), as I'm avoid using any timers to compute …",
-    "published_at": "2025-11-30T00:00:00Z",
-    "updated_at": "2025-11-30T00:00:00Z",
-    "feed_url": "https://dimtion.fr/atom.xml",
-    "owner_username": "dimtion",
-    "site_url": "https://dimtion.fr"
-  },
-  {
-    "id": "https://austinhenley.com/blog/langjamgamejam.html",
-    "title": "Langjam Gamejam: Build a programming language and then use it to make a game in 7 days",
-    "url": "https://austinhenley.com/blog/langjamgamejam.html",
-    "summary": "https://austinhenley.com/blog/langjamgamejam.html",
-    "published_at": "2025-11-28T20:00:01Z",
-    "feed_url": "https://austinhenley.com/blog/feed.rss",
-    "feed_title": "Austin Z. Henley's Blog",
-    "owner_username": "azhenley",
-    "site_url": "http://austinhenley.com/"
-  },
-  {
-    "id": "https://mccd.space/posts/25-11-27/pq.gmi",
-    "title": "Exploring pq, a plain-text database connector for plan9",
-    "url": "https://mccd.space/posts/25-11-27/pq.gmi",
-    "summary": "Preview unavailable atm",
-    "published_at": "2025-11-27T00:00:00Z",
-    "updated_at": "2025-11-27T00:00:00Z",
-    "feed_url": "https://mccd.space/rss.xml",
-    "feed_title": "mccd ߸",
-    "owner_username": "mccd",
-    "site_url": "https://mccd.space"
   }
 ]

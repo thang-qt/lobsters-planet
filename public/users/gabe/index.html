@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>gabe</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~gabe">Lobste.rs profile</a>
+        <a href="https://www.lifewaza.com/">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>3 Apr 2014</dd></div>
+        <div><dt>Karma</dt><dd>441</dd></div>
+        <div><dt>Stories</dt><dd>20</dd></div>
+        <div><dt>Comments</dt><dd>103</dd></div>
+        <div><dt>Profile checked</dt><dd>17 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>17 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Long time computer nerd. Lover of OpenBSD, vim, the command line, books, gardening, ducks, etc. Enjoy long walks in the mountains and pina coladas.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">9 Jun 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/homelab-improvements/">Homelab Improvements</a></h3>
+          <p>Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Apr 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/">OpenClaw On Raspberry Pi 400</a></h3>
+          <p>Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">18 Apr 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/">OpenClaw On Raspberry Pi 4</a></h3>
+          <p>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Mar 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/">PicoBot on a Raspberry Pi 3b&#43;</a></h3>
+          <p>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b&#43; I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h3>
+          <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Mar 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/you-dont-need-a-mac-mini-to-run-openclaw/">You don&#39;t need a Mac Mini to run OpenClaw</a></h3>
+          <p>Introduction # In this series, I’ll explore running OpenClaw on things that aren’t a Mac Mini, as well as exploring some alternatives to OpenClaw. You don’t need a Mac Mini to run OpenClaw 1 . OpenClaw is a NodeJS app that shouldn’t use up too many system resources. It should run pretty well on limited hardware like the Raspberry Pi 3b&#43; that’s sitting in my closet collecting dust, but let’s try it out and see. The OpenClaw documentation has this table: Pi Model RAM Works? Notes Pi 5 …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Feb 2026 · lifewaza</p>
+          <h3><a href="https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/">OpenClaw On Ubuntu 25</a></h3>
+          <p>I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
