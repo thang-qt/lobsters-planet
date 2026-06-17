@@ -23,9 +23,33 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 17 Jun 2026, 11:23 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 17 Jun 2026, 16:11 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">23 Mar 2026 · <a href="/users/cdown/">cdown</a> · Chris Down</p>
+          <h2><a href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">Debunking zswap and zram myths</a></h2>
+          <p>tl;dr: If in doubt, prefer to use zswap. Only use zram if you have a highly specific reason to. In terms of architecture: zswap sits in front of your disk swap, compresses pages in RAM, and automatically tiers cold data to disk. It integrates directly with the kernel&#39;s memory management and distributes pressure gracefully. zram is a compressed RAM block device with a hard capacity limit. When you put swap on it and it fills up, there is no automatic eviction, and the kernel has very little lever…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Mar 2026 · <a href="/users/nolan/">nolan</a> · Read the Tea Leaves</p>
+          <h2><a href="https://nolanlawson.com/2026/03/22/the-diminished-art-of-coding/">The diminished art of coding</a></h2>
+          <p>Programming is an art. It&amp;#8217;s less like fine art or music and closer to architecture or carpentry – combining form and function – but it is an art. If you don&amp;#8217;t believe me, consider code reviews. I&amp;#8217;ve definitely done code reviews where I admired the mastery on display, where the elegance of the solution shone [&amp;#8230;]</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/github-pr-images-from-cli/">Uploading images to GitHub PRs from the CLI</a></h2>
+          <p>GitHub has no public API for uploading images to PR descriptions. The drag-and-drop in the web UI uses an undocumented endpoint ( /upload/policies/assets ) that requires browser session cookies – you simply can not call it with an API token or gh . The GitHub CLI team explicitly closed this as “not planned”, with the explanation that the upload flow requires a browser to obtain temporary S3 credentials. Pretty understandable but still tough to live with, particularly in this agent era we l…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">17 Mar 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
@@ -52,9 +76,21 @@
         </article>
       
         <article class="entry">
+          <p class="meta">12 Mar 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h2><a href="https://code.dblock.org/2026/03/12/ai-slop-a-slack-api-rate-limiting-disaster.html">AI Slop: A Slack API Rate Limiting Disaster</a></h2>
+          <p>Yesterday I described AI-generated code as “plausible-looking, locally coherent, globally wrong.” Here’s a concrete example from my own codebase. I needed a cleanup job to close old Slack group DM conversations in my slack-sup2 app. The AI-generated solution looked perfectly reasonable: def close_old_sups! return 0 unless sup_close old_sups = sups . where ( conditions ) old_sups . each ( &amp; :close! ) old_sups . count end def close! return unless conversation_id return if closed_at logger . …</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
           <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
           <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Mar 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h2><a href="https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html">Right-Sizing Engineering Teams for AI</a></h2>
+          <p>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</p>
         </article>
       
         <article class="entry">
@@ -293,42 +329,6 @@ gemini://ayushnix.com/reviews/me...</a></h2>
           <p class="meta">14 Feb 2026 · <a href="/users/christiano/">christiano</a> · Christiano Anderson</p>
           <h2><a href="https://christiano.dev/post/self_hosted_rss/">My Experience with Self-Hosted RSS solution</a></h2>
           <p>As a privacy advocate and someone who believes in data sovereignty, I’ve been on a constant challenge to maintain control over my digital life. I I love reading news and staying well-informed, making me an avid news consumer. I actively support quality content producers by subscribing or donating money regularly, ensuring that I contribute to the sustainability of my favourite sources. After setting up Miniflux on my own server, I’ve completely transformed how I stay informed.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Feb 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
-          <h2><a href="https://mtlynch.io/retrospectives/2026/02/">Refactoring English: Month 14</a></h2>
-          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights A new strategy for finding book readers is having positive results. I had a breakthrough experience by letting an AI agent run in unrestricted mode. I��…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">11 Feb 2026 · <a href="/users/blacklight/">blacklight</a> · Fabio Manganiello</p>
-          <h2><a href="https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included">Webmentions with batteries included</a></h2>
-          <p>A zero-cost library to integrate Webmentions in your website</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">11 Feb 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/hugo-section-merge/">Hugo can merge multiple sections into one stream</a></h2>
-          <p>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">11 Feb 2026 · <a href="/users/mccd/">mccd</a> · mccd ߸</p>
-          <h2><a href="https://mccd.space/posts/26-02-11/remote-sway-kak.gmi">Remote Editing with Kakoune and Sway</a></h2>
-          <p>Preview unavailable atm</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Feb 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/write-the-paper-first/">Write the Paper First</a></h2>
-          <p>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">9 Feb 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed">Using an engineering notebook</a></h2>
-          <p>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</p>
         </article>
       
     </div>

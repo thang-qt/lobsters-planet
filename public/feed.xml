@@ -5,7 +5,15 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Wed, 17 Jun 2026 11:23:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 16:11:28 +0000</lastBuildDate>
+    <item>
+      <title>No more Standard Search for standard.site</title>
+      <link>https://octet-stream.net/b/scb/2026-06-17-no-more-standard-search-for-standard-site.html</link>
+      <guid isPermaLink="false">urn:uuid:68a104aa-7a1f-49da-8faa-2f61226b2374</guid>
+      <description>Recently I was working on some DB optimisations on Standard Search, my hobby search engine for pages which have standard.site records on AT Protocol. Partway through, as I sifted through the data, I decided to shut it down. One of the fun™ things about standard.site records is that anyone can create records for any URL. There&#39;s nothing stopping you. You&#39;re master of your own PDS. If you are an appview, i.e. some sort of service that wants to ingest and work with published standard.site records…</description>
+      <author>thombles</author>
+      <pubDate>Wed, 17 Jun 2026 10:39:20 +0000</pubDate>
+    </item>
     <item>
       <title>Comment on Using AI to write better code more slowly by I am not sure software engineering was ever what we thought it was – shipping bytes</title>
       <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238398</link>
@@ -13,14 +21,6 @@
       <description>[&amp;#8230;] is a different way to use these tools, though. Nolan Lawson writes about using AI to write better code, more slowly. Not to ship more, but to think more carefully — generating tests, exploring edge cases, [&amp;#8230;]</description>
       <author>nolan</author>
       <pubDate>Wed, 17 Jun 2026 09:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VER 2026 Results Viewer</title>
@@ -31,20 +31,20 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>2026W23</title>
       <link>https://jordivillar.com/reads/2026w23/</link>
       <guid isPermaLink="false">https://jordivillar.com/reads/2026w23/</guid>
       <description>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</description>
       <author>jordi</author>
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bookmarks - data, design, vis, book</title>
-      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Tree 1</title>
@@ -59,6 +59,14 @@
       <link>https://inkdroid.org/2026/06/14/tree-2/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
       <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bookmarks - data, design, vis, book</title>
+      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -327,18 +335,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untitled</title>
       <link>https://inkdroid.org/2026/05/31/untitled/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
       <description>Untitled by John Summers</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -384,17 +392,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -487,19 +495,19 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Algorithm Behind Shazam</title>
-      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
-      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
-      <author>jordi</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Backpressure is all you need</title>
       <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
       <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
       <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
       <author>lucasfcosta</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Algorithm Behind Shazam</title>
+      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
+      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
+      <author>jordi</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -615,19 +623,19 @@
       <pubDate>Fri, 15 May 2026 16:43:15 +0000</pubDate>
     </item>
     <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Commenting Guidelines</title>
       <link>https://susam.net/commenting.html</link>
       <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
       <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
       <author>susam</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -782,20 +790,20 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
+      <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
+      <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
+      <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
+      <author>dblock</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/05/04/994840285535244289</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/05/04/994840285535244289</guid>
       <description>they&#39;re good barrels brent</description>
       <author>jcs</author>
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From RSS to Atom</title>
@@ -806,12 +814,12 @@
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On (not) using “cryptographic hashes” for hash table keys</title>
-      <link>https://runxiyu.org/comp/ch4ht/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/ch4ht/</guid>
-      <description>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</description>
-      <author>runxiyu</author>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>QuickQWERTY 1.2.3</title>
@@ -819,6 +827,14 @@
       <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
       <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
       <author>susam</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On (not) using “cryptographic hashes” for hash table keys</title>
+      <link>https://runxiyu.org/comp/ch4ht/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/ch4ht/</guid>
+      <description>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</description>
+      <author>runxiyu</author>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1030,6 +1046,14 @@
       <pubDate>Sat, 11 Apr 2026 06:08:51 +0000</pubDate>
     </item>
     <item>
+      <title>How I Made $360 by Serving Markdown to A.I. agents from My Jekyll Blog</title>
+      <link>https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog</guid>
+      <description>In April 2025 I wrote Apologizing for My Obsessiveness Over Punctuation , a post about my various organizational compulsions. Near the end, almost as an aside, I mentioned that I obsessively categorize expenses in Monarch , a personal finance app, linking it with my referral code. That post earned me exactly one referral in the nine months that followed. Then, on January 15th, 2026, I wrote Serving Markdown for AI Agents . The idea is simple: for every post on this blog, there’s now a .md vers…</description>
+      <author>dblock</author>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CX Nationals 2025 — Fayetteville, Arkansas</title>
       <link>https://blog.henryvandenbroek.com/cx-nationals-2025-fayetteville-arkansas/</link>
       <guid isPermaLink="false">69a92b7cddaef94b8928230b</guid>
@@ -1052,6 +1076,14 @@
       <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I got to the front page of Hacker News with an article that I wrote in one sitting. I expect the next few years to be scary for software security. I’v…</description>
       <author>mtlynch</author>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Opening Proprietary Code to Contributors Checklist</title>
+      <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
+      <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
+      <author>dblock</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An old compiler bug with a very bad outcome</title>
@@ -1150,18 +1182,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Storing API keys for Claude Code providers in KeePassXC</title>
-      <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
-      <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude Code Cheat Sheet</title>
       <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
       <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Storing API keys for Claude Code providers in KeePassXC</title>
+      <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
+      <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1238,11 +1270,27 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AI Slop: A Slack API Rate Limiting Disaster</title>
+      <link>https://code.dblock.org/2026/03/12/ai-slop-a-slack-api-rate-limiting-disaster.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/03/12/ai-slop-a-slack-api-rate-limiting-disaster</guid>
+      <description>Yesterday I described AI-generated code as “plausible-looking, locally coherent, globally wrong.” Here’s a concrete example from my own codebase. I needed a cleanup job to close old Slack group DM conversations in my slack-sup2 app. The AI-generated solution looked perfectly reasonable: def close_old_sups! return 0 unless sup_close old_sups = sups . where ( conditions ) old_sups . each ( &amp; :close! ) old_sups . count end def close! return unless conversation_id return if closed_at logger . …</description>
+      <author>dblock</author>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>On the Ethics of Ambiguity</title>
       <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
       <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
       <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
       <author>nicomeemes</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Right-Sizing Engineering Teams for AI</title>
+      <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
+      <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
+      <author>dblock</author>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1669,6 +1717,14 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The Golden Ratio of Manager to IC</title>
+      <link>https://code.dblock.org/2026/02/04/the-golden-ratio-of-manager-to-ic.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/02/04/the-golden-ratio-of-manager-to-ic</guid>
+      <description>In today’s shocker , Meta is to “create a new applied AI engineering organization aiming for an ultra-flat structure of up to 50 employees to one manager”. Like all software engineers I, too, tend to apply a data‑driven, mathematical approach to every problem in the world. Yet I would have chosen a more romantic number and applied the golden ratio: roughly 1.6:1, the proportion that shows up in seashells, galaxies, and every second slide about “natural elegance”, rather than 50:1, a …</description>
+      <author>dblock</author>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Landlock is Great</title>
       <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
       <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
@@ -1757,19 +1813,19 @@
       <pubDate>Tue, 27 Jan 2026 00:34:55 +0000</pubDate>
     </item>
     <item>
-      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
-      <link>https://runxiyu.org/comp/doubleslash/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
-      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
-      <author>runxiyu</author>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Default Apps, 2026</title>
       <link>/posts/2026-default-apps/</link>
       <guid isPermaLink="false">/posts/2026-default-apps/</guid>
       <description>I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…</description>
       <author>jptsh</author>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
+      <link>https://runxiyu.org/comp/doubleslash/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
+      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
+      <author>runxiyu</author>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1914,6 +1970,14 @@
       <description>Preview unavailable atm</description>
       <author>mccd</author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Serving Markdown for AI Agents in Jekyll</title>
+      <link>https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents</guid>
+      <description>Dries Buytaert recently wrote about The Third Audience . For decades, websites have targeted two audiences: humans and search engines. AI agents are now the third audience, and most websites aren’t optimized for them yet. AI agents prefer clean, structured content over HTML. Markdown is ideal - it’s readable, semantic, and free of navigation chrome. So I made this blog serve its source markdown files alongside the HTML. How It Works For every post like /2026/01/15/serving-markdown-for-ai-age…</description>
+      <author>dblock</author>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Work only I can do</title>
@@ -2140,6 +2204,14 @@
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Happy Festivus</title>
+      <link>https://unapologetic.io/2025/12/happy-festivus</link>
+      <guid isPermaLink="false">https://unapologetic.io/2025/12/happy-festivus</guid>
+      <description>It’s December 23rd, and you know what that means… Time to get into the spirit of the world’s greatest holiday by breaking out your smoothest denim vest, digging up that old Atomic Sub card, and tossing a sawbuck on Captain Nemo in the third at Belmont. If you’ve been too distracted by tinsel to come up with your own grievances to air this season, allow me to be of assistance. Just press the pole.</description>
+      <author>guy</author>
+      <pubDate>Tue, 23 Dec 2025 09:52:00 +0000</pubDate>
+    </item>
+    <item>
       <title>With all the fuss around Mozilla&#39;s statement about making #Firefox an LLM slop generating browser and people looking at soft ...</title>
       <link>https://social.ayushnix.com/@ayushnix/statuses/01KD0HH51JQFWGHQQYYND93K42</link>
       <guid isPermaLink="false">https://social.ayushnix.com/@ayushnix/statuses/01KD0HH51JQFWGHQQYYND93K42</guid>
@@ -2164,19 +2236,19 @@
       <pubDate>Sat, 20 Dec 2025 22:15:20 +0000</pubDate>
     </item>
     <item>
-      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
-      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
-      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
-      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
-      <author>greenheart</author>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Synchronized colorscheme toggling for WezTerm and Neovim</title>
       <link>https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</link>
       <guid isPermaLink="false">https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</guid>
       <description>TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I&#39;ve been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm&#39;s buil…</description>
       <author>statox</author>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
+      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
+      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
+      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
+      <author>greenheart</author>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2330,77 +2402,6 @@
       <description>Preview unavailable atm</description>
       <author>mccd</author>
       <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Elven Rope, Ultra-High Molecular Weight Polyethylene, and LLMs</title>
-      <link>https://vgel.me/posts/elven-rope-and-llms/</link>
-      <guid isPermaLink="false">https://vgel.me/posts/elven-rope-and-llms/</guid>
-      <description>in The Fellowship of the Ring, Samwise Gamgee is gifted elven rope by the queen of Lothlorien - silky, smooth, impossibly strong, and almost sentient, able to intuit the user&#39;s needs. clearly a fantasy item. yet Tolkien&#39;s idea was only an extrapolation of traditional ‘craft’ to its extreme: in his logic, a rope that strong could only be made by an incredibly skilled artisan with great care, and in the process of being fashioned, would necessarily take on a bit of its maker’s soul. Ultra-Hi…</description>
-      <author>vgel</author>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Automating updates to a digital vigil</title>
-      <link>https://ntietz.com/blog/automating-updates-to-a-digital-vigil/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/automating-updates-to-a-digital-vigil/</guid>
-      <description>November 20th each year is Transgender Day of Remembrance (TDoR) . It is a day when we memorialize those who&#39;ve been lost to transphobia, through violence or suicide. And each year, I make the most difficult git commit of the year, updating the list of names in the digital vigil that I made a few years ago. I was late doing it this year, and I did it on November 20th last year. Ideally, it would be done early. I keep procrastinating it, because it&#39;s tough emotional work. Next year, I want it to …</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What does the AGPL require?</title>
-      <link>https://runxiyu.org/comp/agpl/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/agpl/</guid>
-      <description>I am not a lawyer. This is provided solely for general information purposes and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is provided “as is”, without warranty of any kind, either express or implied. tl;dr The key legal question is not: Did you edit the source code? But: What const…</description>
-      <author>runxiyu</author>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>trifold: painless static website hosting via CDN</title>
-      <link>/posts/host-static-sites-with-trifold/</link>
-      <guid isPermaLink="false">/posts/host-static-sites-with-trifold/</guid>
-      <description>I just want to host some HTML… For years I hosted my static sites on AWS CloudFront , but about six years ago, in an effort to move away from Amazon, I wound up on Netlify. Netlify has mostly been great, I have recommended it to friends and, more recently, students looking for a place to host their portfolios &amp; personal projects. While the interface &amp; offerings have gotten far more complex than I need, they’ve been reliable for hosting dozens of small static sites (various open source projec…</description>
-      <author>jptsh</author>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>64-bit Misalignment</title>
-      <link>https://jordivillar.com/blog/memory-alignment/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/memory-alignment/</guid>
-      <description>I’ve been following CMU’s 15-445/645 Database Systems course lately, trying to fill some gaps in my low-level systems knowledge. When the lectures covered memory alignment, it all made perfect sense. Cache lines, multiple memory operations, hardware penalties. Textbook stuff. But here’s the thing: I don’t trust theory until I’ve seen it break something myself. So I decided to write a benchmark. Simple plan: create two structs (one with natural alignment, one tightly packed) and demonst…</description>
-      <author>jordi</author>
-      <pubDate>Mon, 17 Nov 2025 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Add a VLAN to OPNsense in Just 26 Clicks Across 6 Screens</title>
-      <link>https://mtlynch.io/notes/opnsense-clicks/</link>
-      <guid isPermaLink="false">https://mtlynch.io/notes/opnsense-clicks/</guid>
-      <description>How many clicks does it take to add a new VLAN to an OPNsense firewall? Nothing fancy. Just your regular, basic VLAN with its own IPv4 range. How many clicks should that take? Maybe two or three? Five if we’re real wild? Every time I add a new VLAN to OPNsense, the process feels strangely tedious, so I decided to measure exactly how many clicks it takes to add a simple VLAN to my firewall.</description>
-      <author>mtlynch</author>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Infrastructure Photography Manifesto (and Decker-in-HTML)</title>
-      <link>https://nora.codes/post/infrastructure-photography-manifesto-and-decker-in-html/</link>
-      <guid isPermaLink="false">https://nora.codes/post/infrastructure-photography-manifesto-and-decker-in-html/</guid>
-      <description>Hey look, I made a zine in Decker! You can read it right here, or download the deck file . And now for the nerd shit. Decker is really cool. It carries on the legacy of HyperCard, one of the first real hypertext media systems; it’s got that dithered, lo-fi, retro flair that I adore; and it runs in a lot of places - anywhere with SDL, and anywhere with a full-fledged browser.</description>
-      <author>NoraCodes</author>
-      <pubDate>Sun, 09 Nov 2025 01:04:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>In Context</title>
-      <link>https://vgel.me/fiction/in-context/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/in-context/</guid>
-      <author>vgel</author>
-      <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 11</title>
-      <link>https://mtlynch.io/retrospectives/2025/11/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2025/11/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m running late on my book. A great blog post inspired me to think more about convenience shell scripts. The game Oxygen Not Included is fun. Goal gr…</description>
-      <author>mtlynch</author>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

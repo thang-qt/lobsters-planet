@@ -23,9 +23,45 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 17 Jun 2026, 11:23 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 17 Jun 2026, 16:11 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">12 Feb 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
+          <h2><a href="https://mtlynch.io/retrospectives/2026/02/">Refactoring English: Month 14</a></h2>
+          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights A new strategy for finding book readers is having positive results. I had a breakthrough experience by letting an AI agent run in unrestricted mode. I��…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Feb 2026 · <a href="/users/blacklight/">blacklight</a> · Fabio Manganiello</p>
+          <h2><a href="https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included">Webmentions with batteries included</a></h2>
+          <p>A zero-cost library to integrate Webmentions in your website</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Feb 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/hugo-section-merge/">Hugo can merge multiple sections into one stream</a></h2>
+          <p>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Feb 2026 · <a href="/users/mccd/">mccd</a> · mccd ߸</p>
+          <h2><a href="https://mccd.space/posts/26-02-11/remote-sway-kak.gmi">Remote Editing with Kakoune and Sway</a></h2>
+          <p>Preview unavailable atm</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">10 Feb 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/links/write-the-paper-first/">Write the Paper First</a></h2>
+          <p>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Feb 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
+          <h2><a href="https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed">Using an engineering notebook</a></h2>
+          <p>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">9 Feb 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
@@ -73,6 +109,12 @@
           <p class="meta">5 Feb 2026 · <a href="/users/serce/">serce</a> · SerCe&#39;s blog</p>
           <h2><a href="https://serce.me/posts/2026-02-05-we-are-qa-engineers-now">We are QA Engineers now</a></h2>
           <p>This article argues that working with coding agents turns every software engineer into a QA engineer and into what this new role now entails.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Feb 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h2><a href="https://code.dblock.org/2026/02/04/the-golden-ratio-of-manager-to-ic.html">The Golden Ratio of Manager to IC</a></h2>
+          <p>In today’s shocker , Meta is to “create a new applied AI engineering organization aiming for an ultra-flat structure of up to 50 employees to one manager”. Like all software engineers I, too, tend to apply a data‑driven, mathematical approach to every problem in the world. Yet I would have chosen a more romantic number and applied the golden ratio: roughly 1.6:1, the proportion that shows up in seashells, galaxies, and every second slide about “natural elegance”, rather than 50:1, a …</p>
         </article>
       
         <article class="entry">
@@ -142,15 +184,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">27 Jan 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/doubleslash/">It is incorrect to “normalize” // in HTTP URL paths</a></h2>
-          <p>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">27 Jan 2026 · <a href="/users/jptsh/">jptsh</a> · jpt.sh</p>
           <h2><a href="/posts/2026-default-apps/">Default Apps, 2026</a></h2>
           <p>I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Jan 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
+          <h2><a href="https://runxiyu.org/comp/doubleslash/">It is incorrect to “normalize” // in HTTP URL paths</a></h2>
+          <p>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</p>
         </article>
       
         <article class="entry">
@@ -262,6 +304,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">15 Jan 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h2><a href="https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents.html">Serving Markdown for AI Agents in Jekyll</a></h2>
+          <p>Dries Buytaert recently wrote about The Third Audience . For decades, websites have targeted two audiences: humans and search engines. AI agents are now the third audience, and most websites aren’t optimized for them yet. AI agents prefer clean, structured content over HTML. Markdown is ideal - it’s readable, semantic, and free of navigation chrome. So I made this blog serve its source markdown files alongside the HTML. How It Works For every post like /2026/01/15/serving-markdown-for-ai-age…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">14 Jan 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
           <h2><a href="https://jordivillar.com/notes/work-only-i-can-do/">Work only I can do</a></h2>
           <p>My entire strategy is to do the work only I can do. Work that can’t be taught. Work that requires some unique combination of my skills, opinions, tastes, and experiences. Work that without me, wouldn’t get done. Everyone’s talking about AI replacing jobs, automating work, making developers obsolete. The discourse is exhausting. Half the people are panicking, the other half are in denial, and nobody seems to be asking the right question. The question isn’t whether AI can write code. It ca…</p>
@@ -277,56 +325,6 @@
           <p class="meta">12 Jan 2026 · <a href="/users/otoolep/">otoolep</a> · Comments for Philip O&#39;Toole</p>
           <h2><a href="https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86263">Comment on Start your meetings at 5 minutes past by Michael</a></h2>
           <p>In reply to &amp;lt;a href=&amp;quot;https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86175&amp;quot;&amp;gt;Stan Levin&amp;lt;/a&amp;gt;. No individual &amp;quot;keeps&amp;quot; their own schedules Stan. Other people make the meetings and they are invited to them. Even preschoolers know how meetings work. Apparently, trolls don&amp;#039;t.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Jan 2026 · <a href="/users/starbist/">starbist</a> · Blog of fearless web developer Silvestar Bistrović</p>
-          <h2><a href="https://www.silvestar.codes/articles/yaml-custom-fields/">YAML Custom Fields</a></h2>
-          <p>Last year, I built a WordPress plugin based on YAML schemas that could be used to define custom fields for templates, partials, and global data in WordPress.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">12 Jan 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom&amp;utm_medium=feed">Bayes theorem and how we talk about medical tests</a></h2>
-          <p>We want medical tests to give us a yes or no answer: you have the disease, you&#39;re cured. We treat them this way, often. My labs came back saying I&#39;m healthy. I have immunity. I&#39;m sick. Absolutely concrete results. The reality is more complicated, and tests do not give you a yes or no. They give you a likelihood. And most of the time, what the results mean for me , the test taker, is not immediately obvious or intuitive. They can mean something quite the opposite of what they seem. I ran into thi…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/otoolep/">otoolep</a> · Comments for Philip O&#39;Toole</p>
-          <h2><a href="https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86182">Comment on Start your meetings at 5 minutes past by Philip</a></h2>
-          <p>In reply to &amp;lt;a href=&amp;quot;https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86179&amp;quot;&amp;gt;Patrick&amp;lt;/a&amp;gt;. Google Calendar gives you minute-level control over meeting start and end times, so the start time is explicitly set to 5 minutes past.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/otoolep/">otoolep</a> · Comments for Philip O&#39;Toole</p>
-          <h2><a href="https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86179">Comment on Start your meetings at 5 minutes past by Patrick</a></h2>
-          <p>In reply to &amp;lt;a href=&amp;quot;https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86175&amp;quot;&amp;gt;Stan Levin&amp;lt;/a&amp;gt;. Where does software come into play here? Setting meeting start times at :05/:35 still starts in the head of the organizer.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/otoolep/">otoolep</a> · Comments for Philip O&#39;Toole</p>
-          <h2><a href="https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86175">Comment on Start your meetings at 5 minutes past by Stan Levin</a></h2>
-          <p>Yet another attempt to solve a social problem with software. Learn to keep to your schedules already... you learn that in school, or at the latest at university...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h2><a href="https://social.ayushnix.com/@ayushnix/statuses/01KEKG2WE5Q9R6NWG5JSM3M2N2">Found this friendly cat near Kandivali, Mumbai
-
-#caturday</a></h2>
-          <p>@ayushnix@social.ayushnix.com posted 1 attachment: &#34;Found this friendly cat near Kandivali, Mumbai #caturday&#34;</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h2><a href="https://social.ayushnix.com/@ayushnix/statuses/01KEK4M8F25FHWN4DB0V2SDJ29">A few days after I [wrote a comment about GrapheneOS](https://lobste.rs/s/lyykk0/dumbphone_journey_eight_month_update#c_pzhlj...</a></h2>
-          <p>@ayushnix@social.ayushnix.com made a new post: &#34;A few days after I [wrote a comment about GrapheneOS](https://lobste.rs/s/lyykk0/dumbphone_journey_eight_month_update#c_pzhlji), the GrapheneOS account on the Fediverse proves what most people who socially...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">10 Jan 2026 · <a href="/users/otoolep/">otoolep</a> · Comments for Philip O&#39;Toole</p>
-          <h2><a href="https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86161">Comment on Start your meetings at 5 minutes past by Philip</a></h2>
-          <p>In reply to &amp;lt;a href=&amp;quot;https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86159&amp;quot;&amp;gt;Brayden&amp;lt;/a&amp;gt;. Ironic!</p>
         </article>
       
     </div>
