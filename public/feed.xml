@@ -5,12 +5,20 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Tue, 16 Jun 2026 21:25:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 05:25:39 +0000</lastBuildDate>
     <item>
       <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
       <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…</description>
+      <description>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VER 2026 Results Viewer</title>
+      <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
+      <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -21,6 +29,22 @@
       <description>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</description>
       <author>jordi</author>
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree 2</title>
+      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
+      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree 1</title>
+      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
+      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bookmarks - data, design, vis, book</title>
@@ -295,18 +319,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untitled</title>
       <link>https://inkdroid.org/2026/05/31/untitled/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
       <description>Untitled by John Summers</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -455,19 +479,19 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Algorithm Behind Shazam</title>
-      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
-      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
-      <author>jordi</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Backpressure is all you need</title>
       <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
       <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
       <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
       <author>lucasfcosta</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Algorithm Behind Shazam</title>
+      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
+      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
+      <author>jordi</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -519,18 +543,18 @@
       <pubDate>Sun, 17 May 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>None</title>
-      <link>https://inkdroid.org/2026/05/17/no/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
-      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>None</title>
+      <link>https://inkdroid.org/2026/05/17/no/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
+      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -647,18 +671,18 @@
       <pubDate>Tue, 12 May 2026 05:46:00 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Stars Tracker</title>
-      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
-      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
-      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
-      <author>nicomeemes</author>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>NPIValidator</title>
       <link>https://nicomee.com/projects/npi-validator/</link>
       <guid isPermaLink="false">https://nicomee.com/projects/npi-validator/</guid>
       <description>C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.</description>
+      <author>nicomeemes</author>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Stars Tracker</title>
+      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
+      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
+      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
       <author>nicomeemes</author>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -726,19 +750,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>Wander Console 0.6.0</title>
-      <link>https://susam.net/code/news/wander/0.6.0.html</link>
-      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
-      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
-      <author>susam</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CCC 2026</title>
       <link>https://runxiyu.org/ccc/</link>
       <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
       <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wander Console 0.6.0</title>
+      <link>https://susam.net/code/news/wander/0.6.0.html</link>
+      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
+      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
+      <author>susam</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -774,19 +798,19 @@
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>QuickQWERTY 1.2.3</title>
-      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
-      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
-      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
-      <author>susam</author>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On (not) using “cryptographic hashes” for hash table keys</title>
       <link>https://runxiyu.org/comp/ch4ht/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/ch4ht/</guid>
       <description>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</description>
       <author>runxiyu</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuickQWERTY 1.2.3</title>
+      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
+      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
+      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
+      <author>susam</author>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1118,18 +1142,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Storing API keys for Claude Code providers in KeePassXC</title>
       <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
       <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
+      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1478,19 +1502,19 @@
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Docs can be exported to Markdown via URL change</title>
-      <link>https://mareksuppa.com/til/google-docs-markdown-export/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/google-docs-markdown-export/</guid>
-      <description>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</description>
-      <author>mrshu</author>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>TIL: Docker log rotation</title>
       <link>https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/til-docker-log-rotation/</guid>
       <description>Last week [1] , when I went to publish my blog post, I ran into a surprising error: I was out of disk space. My server is used only for hosting a couple of small static sites, so I was surprised. None of the content is very large, why is the disk full? A little investigation found the culprit. Starting from / and then drilling in using du -h -d 1 . showed me that a Docker folder was using most of the server&#39;s 25 GB disk. None of my container images are very large, so I checked in side and found …</description>
       <author>ntietz</author>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Docs can be exported to Markdown via URL change</title>
+      <link>https://mareksuppa.com/til/google-docs-markdown-export/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/google-docs-markdown-export/</guid>
+      <description>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</description>
+      <author>mrshu</author>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1566,19 +1590,19 @@
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
-      <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
-      <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
-      <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
-      <author>mtlynch</author>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using an engineering notebook</title>
       <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
       <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
       <author>ntietz</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
+      <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
+      <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
+      <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
+      <author>mtlynch</author>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1637,19 +1661,19 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Landlock is Great</title>
-      <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>My Eighth Year as a Bootstrapped Founder</title>
       <link>https://mtlynch.io/bootstrapped-founder-year-8/</link>
       <guid isPermaLink="false">https://mtlynch.io/bootstrapped-founder-year-8/</guid>
       <description>Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…</description>
       <author>mtlynch</author>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Landlock is Great</title>
+      <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1868,19 +1892,19 @@
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>2025 lookback</title>
-      <link>https://www.silvestar.codes/articles/2025-lookback/</link>
-      <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
-      <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
-      <author>starbist</author>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Local Test CI Using Git Hooks and Notes</title>
       <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
       <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
       <description>Preview unavailable atm</description>
       <author>mccd</author>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 lookback</title>
+      <link>https://www.silvestar.codes/articles/2025-lookback/</link>
+      <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
+      <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
+      <author>starbist</author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2132,19 +2156,19 @@
       <pubDate>Sat, 20 Dec 2025 22:15:20 +0000</pubDate>
     </item>
     <item>
-      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
-      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
-      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
-      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
-      <author>greenheart</author>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Synchronized colorscheme toggling for WezTerm and Neovim</title>
       <link>https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</link>
       <guid isPermaLink="false">https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</guid>
       <description>TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I&#39;ve been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm&#39;s buil…</description>
       <author>statox</author>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
+      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
+      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
+      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
+      <author>greenheart</author>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2260,19 +2284,19 @@
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Get the Fuck Off of GitHub.</title>
-      <link>https://nicomee.com/blog/get-the-fuck-off-github/</link>
-      <guid isPermaLink="false">https://nicomee.com/blog/get-the-fuck-off-github/</guid>
-      <description>Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.</description>
-      <author>nicomeemes</author>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A new system for organizing my writing and projects</title>
       <link>https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/a-system-for-organizing-my-blog-writing/</guid>
       <description>Keeping up with regular blog posts is a challenge. To do it, I&#39;ve churned through a few different organizational systems. Sometimes I have to change them due to actual life circumstances changing; other times, due to the old one just wearing off [1] . Well, my life circumstances have changed again. I&#39;m on medical leave right now recovering from surgery [2] , and I have been writing less this year anyway. So it&#39;s that time again: new system, baby. This post isn&#39;t a how-to. It&#39;s not a prescription…</description>
       <author>ntietz</author>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get the Fuck Off of GitHub.</title>
+      <link>https://nicomee.com/blog/get-the-fuck-off-github/</link>
+      <guid isPermaLink="false">https://nicomee.com/blog/get-the-fuck-off-github/</guid>
+      <description>Almost two decades of open-source contributions and credibility, erased by GitHub without explanation or recourse. Move to sr.ht.</description>
+      <author>nicomeemes</author>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2377,30 +2401,6 @@
       <description>On each of the last two Fridays, Google has suspended SSLMate &#39;s Google Cloud access without notification, having previously suspended it in 2024 without notification. But this isn&#39;t just another cautionary tale about using Google Cloud Platform; it&#39;s also a story about usable security and how Google&#39;s capriciousness is forcing me to choose between weakening security or reducing usability. Apart from testing and experimentation, the only reason SSLMate still has a Google Cloud presence is to ena…</description>
       <author>agwa</author>
       <pubDate>Mon, 03 Nov 2025 13:31:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Notes from PyConFR&#39;2025</title>
-      <link>https://mkir.ch/2025-11-03/pyconf2025.html</link>
-      <guid isPermaLink="false">https://mkir.ch/2025-11-03/pyconf2025.html</guid>
-      <description>Things I learned</description>
-      <author>martinkirch</author>
-      <pubDate>Mon, 03 Nov 2025 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why your retrospectives don&#39;t work and how to fix them</title>
-      <link>https://lucasfcosta.com/blog/retrospectives/</link>
-      <guid isPermaLink="false">https://lucasfcosta.com/blog/retrospectives/</guid>
-      <description>Every team must believe in improvement, even when it no longer happens. That’s what retrospectives are for. Most teams also use retrospectives for documenting problems that nobody has time to fix. T...</description>
-      <author>lucasfcosta</author>
-      <pubDate>Sat, 01 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>I&#39;m Independently Verifying Go&#39;s Reproducible Builds</title>
-      <link>https://www.agwa.name/blog/post/verifying_go_reproducible_builds</link>
-      <guid isPermaLink="false">tag:www.agwa.name,2012:/blog/post/verifying_go_reproducible_builds</guid>
-      <description>When you try to compile a Go module that requires a newer version of the Go toolchain than the one you have installed, the go command automatically downloads the newer toolchain and uses it for compiling the module. ( And only that module; your system&#39;s go installation is not replaced. ) This useful feature was introduced in Go 1.21 and has let me quickly adopt new Go features in my open source projects without inconveniencing people with older versions of Go. However, the idea of downloading a …</description>
-      <author>agwa</author>
-      <pubDate>Wed, 29 Oct 2025 16:59:43 +0000</pubDate>
     </item>
   </channel>
 </rss>

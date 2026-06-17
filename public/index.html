@@ -22,7 +22,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 168 discovered personal sites. Last built 16 Jun 2026, 21:25 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 171 discovered personal sites. Last built 17 Jun 2026, 05:25 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -35,13 +35,31 @@
         <article class="entry">
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…</p>
+          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
+          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
       
         <article class="entry">
           <p class="meta">14 Jun 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
           <h3><a href="https://jordivillar.com/reads/2026w23/">2026W23</a></h3>
           <p>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
+          <h3><a href="https://inkdroid.org/2026/06/14/tree-2/">Tree 2</a></h3>
+          <p>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
+          <h3><a href="https://inkdroid.org/2026/06/14/tree-1/">Tree 1</a></h3>
+          <p>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</p>
         </article>
       
         <article class="entry">
@@ -196,24 +214,6 @@ https://social.ayushnix.com/@ayushn...</a></h3>
           <p class="meta">2 Jun 2026 · <a href="/users/f055/">f055</a> · Comments for F055</p>
           <h3><a href="https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19970">Comment on Windows GOG DOS Games on M-series Macs by MARΞK</a></h3>
           <p>In reply to &amp;lt;a href=&amp;quot;https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19933&amp;quot;&amp;gt;Stephen Baker&amp;lt;/a&amp;gt;. Thanks, this works too! I updated the post.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">2 Jun 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
-          <h3><a href="https://jordivillar.com/blog/lazy-loading-images/">How Lazy Container Loading Works</a></h3>
-          <p>A few weeks ago I read Modal’s post on truly serverless GPUs . They describe getting GPU container starts from many minutes down to a few seconds, even on multi-gigabyte images. A few tricks make that possible. I wanted to build the one that handles the image itself, and watch it work. The core trick is surprisingly small, and it’s the same idea behind stargz , SOCI , Nydus , and Modal’s image loader: don’t download the image. Mount a tiny index, and fetch file contents lazily, the first…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Jun 2026 · <a href="/users/f055/">f055</a> · Comments for F055</p>
-          <h3><a href="https://f055.net/technology/windows-gog-dos-games-on-m-series-macs/#comment-19933">Comment on Windows GOG DOS Games on M-series Macs by Stephen Baker</a></h3>
-          <p>https://formulae.brew.sh/formula/innoextract can be used to extract the installer rather than using Windows</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Jun 2026 · <a href="/users/nolan/">nolan</a> · Comments for Read the Tea Leaves</p>
-          <h3><a href="https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238384">Comment on Using AI to write better code more slowly by Will</a></h3>
-          <p>One of the hopes of the early internet was that, because anyone could get news from anywhere, everyone would read more different views, and become better, more worldly people. And there were certainly people who did use the internet to that effect, but it ultimately became a system where the easiest, most enticing way to use it was actually contrary to our own best interests. The internet didn&#39;t change people&#39;s behavior, it just amplified it. Similarly, while AI &lt;em&gt;can&lt;/em&gt; be used in the way t…</p>
         </article>
       
     </div>

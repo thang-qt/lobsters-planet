@@ -23,20 +23,38 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 16 Jun 2026, 21:25 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 17 Jun 2026, 05:25 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h2><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h2>
-          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself. Opening a connection to a host and port and writing the request by hand needs nothing beyond the shell that’s already there…</p>
+          <p>I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket. As it turns out, bash can speak HTTP by itself bash can open a TCP socket, and you can write a small HTTP request to it by hand. Opening a connection to a host and port and …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h2>
+          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
       
         <article class="entry">
           <p class="meta">14 Jun 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
           <h2><a href="https://jordivillar.com/reads/2026w23/">2026W23</a></h2>
           <p>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
+          <h2><a href="https://inkdroid.org/2026/06/14/tree-2/">Tree 2</a></h2>
+          <p>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
+          <h2><a href="https://inkdroid.org/2026/06/14/tree-1/">Tree 1</a></h2>
+          <p>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</p>
         </article>
       
         <article class="entry">
@@ -249,14 +267,14 @@ https://social.ayushnix.com/@ayushn...</a></h2>
       
         <article class="entry">
           <p class="meta">31 May 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h2><a href="https://inkdroid.org/2026/05/31/bookmarks/">Weekly Bookmarks</a></h2>
-          <p>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</p>
+          <h2><a href="https://inkdroid.org/2026/05/31/untitled/">Untitled</a></h2>
+          <p>Untitled by John Summers</p>
         </article>
       
         <article class="entry">
           <p class="meta">31 May 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h2><a href="https://inkdroid.org/2026/05/31/untitled/">Untitled</a></h2>
-          <p>Untitled by John Summers</p>
+          <h2><a href="https://inkdroid.org/2026/05/31/bookmarks/">Weekly Bookmarks</a></h2>
+          <p>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</p>
         </article>
       
         <article class="entry">
@@ -311,24 +329,6 @@ https://social.ayushnix.com/@ayushn...</a></h2>
           <p class="meta">27 May 2026 · <a href="/users/jcs/">jcs</a> · Notes - joshua stein</p>
           <h2><a href="https://jcs.org/notes/2026/05/27/1003344849129705473">joshua stein</a></h2>
           <p>we all directly and indirectly live in the shade, but not the shadow, of colossus</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 May 2026 · <a href="/users/nolan/">nolan</a> · Comments for Read the Tea Leaves</p>
-          <h2><a href="https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238367">Comment on Using AI to write better code more slowly by handsome tong</a></h2>
-          <p>&amp;lt;!-- wp:paragraph --&amp;gt; &amp;lt;p&amp;gt;I&amp;#039;ve been using Claude on a side project and your description of drowning in bug reports is spot-on—Mythos might just be the sanity check I need. It&amp;#039;s easy to fall into the slop cannon mentality, so thanks for making the case for going slow and high-quality.&amp;lt;/p&amp;gt; &amp;lt;!-- /wp:paragraph --&amp;gt;</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 May 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
-          <h2><a href="https://runxiyu.org/comp/shallowbundle/">Converting shallow Git bundles into normal repositories</a></h2>
-          <p>Let’s say you have a shallow Git bundle, i.e., not all referenced objects are present. How do you convert it into a normal shallow repository? Initialize the target as a bare-repo with your desired object-format. git init --bare --object-format=sha1 target.git &amp;&amp; cd target.git Find the start of the pack in each bundle (version 2 packs starts with 5041 434b 0000 0002 ). In my case it’s byte offset 77. Extract and index the packfile, creating the .idx and .rev . tail -c &#43;77 ../source.bundle | …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">25 May 2026 · <a href="/users/nolan/">nolan</a> · Read the Tea Leaves</p>
-          <h2><a href="https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/">Using AI to write better code more slowly</a></h2>
-          <p>A lot of people seem convinced that the point of AI coding is to write low-quality code as fast as possible. Spew out barely-passable slop, open massive PRs, and merge them unvetted. Ship it! But the thing is, LLMs are very flexible. And you can use them just as effectively to write high-quality code more [&amp;#8230;]</p>
         </article>
       
     </div>
