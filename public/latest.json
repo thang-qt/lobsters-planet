@@ -34,6 +34,17 @@
     "site_url": "https://ntietz.com"
   },
   {
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -49,17 +60,6 @@
     "title": "Hermes Agent formats its output based on the platform you connect as",
     "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
     "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1008,18 +1008,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
-    "title": "The Problem of Pedagogy in Advanced Mathematics",
-    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "/posts/webdev-livecompile/",
     "title": "Piping terminal output to the browser using systemfd",
     "url": "/posts/webdev-livecompile/",
@@ -1030,6 +1018,18 @@
     "feed_title": "Hugues Blog",
     "owner_username": "izissise",
     "site_url": "https://izissise.net"
+  },
+  {
+    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
+    "title": "The Problem of Pedagogy in Advanced Mathematics",
+    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
+    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -1146,17 +1146,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -1167,6 +1156,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
@@ -1404,6 +1404,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "title": "OpenClaw On Raspberry Pi 4",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "summary": "I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …",
+    "published_at": "2026-04-18T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/thin_egraph",
     "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
     "url": "https://www.philipzucker.com/thin_egraph/",
@@ -1414,17 +1425,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
-    "title": "OpenClaw On Raspberry Pi 4",
-    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
-    "summary": "I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …",
-    "published_at": "2026-04-18T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://jcs.org/notes/2026/04/17/988509061389520897",
@@ -1695,17 +1695,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
-    "title": "Using a systemd timer to monitor my laptop's battery",
-    "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
-    "summary": "I've been using i3 as my window manager for the past 7 years. It's great and you should check it out! However, one issue I have is that by default I don't get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn't check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…",
-    "published_at": "2026-03-27T00:00:00Z",
-    "feed_url": "https://www.statox.fr/feed.xml",
-    "feed_title": "The stuff I do",
-    "owner_username": "statox",
-    "site_url": "http://www.statox.fr"
-  },
-  {
     "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
     "title": "PicoBot on a Raspberry Pi 3b+",
     "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
@@ -1715,6 +1704,17 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
+    "title": "Using a systemd timer to monitor my laptop's battery",
+    "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
+    "summary": "I've been using i3 as my window manager for the past 7 years. It's great and you should check it out! However, one issue I have is that by default I don't get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn't check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.statox.fr/feed.xml",
+    "feed_title": "The stuff I do",
+    "owner_username": "statox",
+    "site_url": "http://www.statox.fr"
   },
   {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
@@ -1729,10 +1729,10 @@
     "site_url": "https://www.philipzucker.com/"
   },
   {
-    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "title": "Claude Code Cheat Sheet",
-    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
+    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "title": "Storing API keys for Claude Code providers in KeePassXC",
+    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1740,10 +1740,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "title": "Storing API keys for Claude Code providers in KeePassXC",
-    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
+    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "title": "Claude Code Cheat Sheet",
+    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1795,17 +1795,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "title": "PicoClaw on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
     "title": "How to get the deployed Git commit hash in Portainer CE",
     "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
@@ -1815,6 +1804,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "title": "PicoClaw on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -2132,17 +2132,6 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
-    "title": "OpenClaw On Ubuntu 25",
-    "url": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
-    "summary": "I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…",
-    "published_at": "2026-02-23T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://ntietz.com/blog/binding-ephemeral-port/",
     "title": "Binding port 0 to avoid port collisions",
     "url": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom\u0026utm_medium=feed",
@@ -2153,6 +2142,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "title": "OpenClaw On Ubuntu 25",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "summary": "I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…",
+    "published_at": "2026-02-23T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://austinhenley.com/blog/dearresearchers.html",
@@ -2414,6 +2414,17 @@
     "site_url": "https://mareksuppa.com"
   },
   {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -2424,17 +2435,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -2525,6 +2525,17 @@
     "site_url": "https://code.dblock.org/"
   },
   {
+    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "title": "My Eighth Year as a Bootstrapped Founder",
+    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
+    "published_at": "2026-02-03T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-03/landlock.gmi",
     "title": "Landlock is Great",
     "url": "https://mccd.space/posts/26-02-03/landlock.gmi",
@@ -2535,17 +2546,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "title": "My Eighth Year as a Bootstrapped Founder",
-    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
-    "published_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jcs.org/2026/02/02/wallops22",
@@ -2861,6 +2861,17 @@
     "site_url": "https://samuelplumppu.se"
   },
   {
+    "id": "https://www.silvestar.codes/articles/2025-lookback/",
+    "title": "2025 lookback",
+    "url": "https://www.silvestar.codes/articles/2025-lookback/",
+    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
+    "published_at": "2026-01-16T00:00:00Z",
+    "feed_url": "https://www.silvestar.codes/rss.xml",
+    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
+    "owner_username": "starbist",
+    "site_url": "https://www.silvestar.codes"
+  },
+  {
     "id": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
     "title": "Local Test CI Using Git Hooks and Notes",
     "url": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
@@ -2871,17 +2882,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/2025-lookback/",
-    "title": "2025 lookback",
-    "url": "https://www.silvestar.codes/articles/2025-lookback/",
-    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
-    "published_at": "2026-01-16T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
   },
   {
     "id": "https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents",
