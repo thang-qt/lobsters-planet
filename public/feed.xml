@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Wed, 17 Jun 2026 20:36:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 05:13:51 +0000</lastBuildDate>
     <item>
       <title>No more Standard Search for standard.site</title>
       <link>https://octet-stream.net/b/scb/2026-06-17-no-more-standard-search-for-standard-site.html</link>
@@ -23,10 +23,26 @@
       <pubDate>Wed, 17 Jun 2026 09:48:00 +0000</pubDate>
     </item>
     <item>
+      <title>Where I&#39;ve been, and the future of this blog</title>
+      <link>https://ntietz.com/blog/where-ive-been/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/where-ive-been/</guid>
+      <description>Recently, I got an email from a reader who noted that I hadn&#39;t published anything in a little while, and he said he hopes I&#39;m doing well. The truth is, some days I am and some days I&#39;m not. I want to share a little bit about what&#39;s been going on, and what the future looks like. This is a pretty vulnerable post, so here&#39;s the deal. I&#39;m going to tell you this, but it&#39;s just between you and me, okay? And there&#39;s one condition: you don&#39;t reach out to me to say &#34;I&#39;m so sorry!&#34; When people share stori…</description>
+      <author>ntietz</author>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
       <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
       <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hermes Agent formats its output based on the platform you connect as</title>
+      <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
+      <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -47,18 +63,18 @@
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
     </item>
     <item>
-      <title>Tree 2</title>
-      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
-      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bookmarks - data, design, vis, book</title>
       <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree 2</title>
+      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
+      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -400,17 +416,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -503,19 +519,19 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Backpressure is all you need</title>
-      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
-      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
-      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
-      <author>lucasfcosta</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Algorithm Behind Shazam</title>
       <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
       <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
       <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
       <author>jordi</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backpressure is all you need</title>
+      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
+      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
+      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
+      <author>lucasfcosta</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -567,18 +583,18 @@
       <pubDate>Sun, 17 May 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>None</title>
       <link>https://inkdroid.org/2026/05/17/no/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
       <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -695,18 +711,18 @@
       <pubDate>Tue, 12 May 2026 05:46:00 +0000</pubDate>
     </item>
     <item>
-      <title>NPIValidator</title>
-      <link>https://nicomee.com/projects/npi-validator/</link>
-      <guid isPermaLink="false">https://nicomee.com/projects/npi-validator/</guid>
-      <description>C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.</description>
-      <author>nicomeemes</author>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GitHub Stars Tracker</title>
       <link>https://nicomee.com/projects/gh-stars-tracker/</link>
       <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
       <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
+      <author>nicomeemes</author>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NPIValidator</title>
+      <link>https://nicomee.com/projects/npi-validator/</link>
+      <guid isPermaLink="false">https://nicomee.com/projects/npi-validator/</guid>
+      <description>C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.</description>
       <author>nicomeemes</author>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -718,19 +734,19 @@
       <pubDate>Mon, 11 May 2026 00:21:52 +0000</pubDate>
     </item>
     <item>
-      <title>Piping terminal output to the browser using systemfd</title>
-      <link>/posts/webdev-livecompile/</link>
-      <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
-      <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
-      <author>izissise</author>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Problem of Pedagogy in Advanced Mathematics</title>
       <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
       <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
       <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
       <author>susam</author>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piping terminal output to the browser using systemfd</title>
+      <link>/posts/webdev-livecompile/</link>
+      <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
+      <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
+      <author>izissise</author>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -774,19 +790,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>Wander Console 0.6.0</title>
-      <link>https://susam.net/code/news/wander/0.6.0.html</link>
-      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
-      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
-      <author>susam</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CCC 2026</title>
       <link>https://runxiyu.org/ccc/</link>
       <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
       <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wander Console 0.6.0</title>
+      <link>https://susam.net/code/news/wander/0.6.0.html</link>
+      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
+      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
+      <author>susam</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -814,19 +830,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
       <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
       <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1102,19 +1118,19 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An old compiler bug with a very bad outcome</title>
-      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
-      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
-      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
-      <author>cuonglm</author>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Opening Proprietary Code to Contributors Checklist</title>
       <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
       <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
       <author>dblock</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An old compiler bug with a very bad outcome</title>
+      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
+      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
+      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
+      <author>cuonglm</author>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1214,18 +1230,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Storing API keys for Claude Code providers in KeePassXC</title>
       <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
       <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
+      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1262,19 +1278,19 @@
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How to get the deployed Git commit hash in Portainer CE</title>
-      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
-      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
-      <author>mrshu</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoClaw on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
       <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
       <author>gabe</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to get the deployed Git commit hash in Portainer CE</title>
+      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
+      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
+      <author>mrshu</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1678,19 +1694,19 @@
       <pubDate>Wed, 11 Feb 2026 11:19:16 +0000</pubDate>
     </item>
     <item>
-      <title>Hugo can merge multiple sections into one stream</title>
-      <link>https://mareksuppa.com/til/hugo-section-merge/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/hugo-section-merge/</guid>
-      <description>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Remote Editing with Kakoune and Sway</title>
       <link>https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</link>
       <guid isPermaLink="false">https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</guid>
       <description>Preview unavailable atm</description>
       <author>mccd</author>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hugo can merge multiple sections into one stream</title>
+      <link>https://mareksuppa.com/til/hugo-section-merge/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/hugo-section-merge/</guid>
+      <description>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</description>
+      <author>mrshu</author>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1702,19 +1718,19 @@
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using an engineering notebook</title>
-      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
-      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
       <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
       <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
       <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
       <author>mtlynch</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using an engineering notebook</title>
+      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
+      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
+      <author>ntietz</author>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1741,19 +1757,19 @@
       <pubDate>Sat, 07 Feb 2026 16:52:07 +0000</pubDate>
     </item>
     <item>
-      <title>Gyre</title>
-      <link>https://vgel.me/fiction/gyre/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/gyre/</guid>
-      <description>! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don&#39;t be nervous. → Ok. Let me access that file. &gt;&gt;&gt; read(&#34;/mnt/mission/HEARTBEAT.md&#34;) No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What&#39;s going on?</description>
-      <author>vgel</author>
-      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using FIDO2 security keys with U-M Okta</title>
       <link>https://runxiyu.org/umich/oktafido2/</link>
       <guid isPermaLink="false">https://runxiyu.org/umich/oktafido2/</guid>
       <description>Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .</description>
       <author>runxiyu</author>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gyre</title>
+      <link>https://vgel.me/fiction/gyre/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/gyre/</guid>
+      <description>! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don&#39;t be nervous. → Ok. Let me access that file. &gt;&gt;&gt; read(&#34;/mnt/mission/HEARTBEAT.md&#34;) No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What&#39;s going on?</description>
+      <author>vgel</author>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2012,19 +2028,19 @@
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Local Test CI Using Git Hooks and Notes</title>
-      <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>2025 lookback</title>
       <link>https://www.silvestar.codes/articles/2025-lookback/</link>
       <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
       <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
       <author>starbist</author>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local Test CI Using Git Hooks and Notes</title>
+      <link>https://mccd.space/posts/26-01-16/simple-git-hook.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-01-16/simple-git-hook.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2386,22 +2402,6 @@
       <description>Joining an on-call rotation might change the future of your career – and maybe you as a person. This article shares my experience being on-call.</description>
       <author>serce</author>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Leveraging LLMs for what LLMs are worth</title>
-      <link>https://vito.io/articles/2025-12-08-leveraging-llms-for-what-llms-are-worth.html</link>
-      <guid isPermaLink="false">https://vito.io/articles/leveraging-llms-for-what-llms-are-worth</guid>
-      <description>Those who work with me know for sure of two important points:</description>
-      <author>vito</author>
-      <pubDate>Mon, 08 Dec 2025 03:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Calcification of Technology</title>
-      <link>https://dimtion.fr/blog/2025/tech-calcification/</link>
-      <guid isPermaLink="false">https://dimtion.fr/blog/2025/tech-calcification/</guid>
-      <description>One thing to notice when studying the history of tech or the internet is the winner takes all trend that results in slowly making tech a higher and higher tower of complexity. Here, I call tech calcification the observed principle that once a technology is sufficiently widespread, new capabilities of a technology are built on top of it instead of next to it. Here are a few examples: Everything is built on top of IPv4 . Everything is built on top of TCP . Everything is built on top of HTTP . Ever…</description>
-      <author>dimtion</author>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

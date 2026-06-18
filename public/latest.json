@@ -22,10 +22,33 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://ntietz.com/blog/where-ive-been/",
+    "title": "Where I've been, and the future of this blog",
+    "url": "https://ntietz.com/blog/where-ive-been/?utm_source=atom\u0026utm_medium=feed",
+    "summary": "Recently, I got an email from a reader who noted that I hadn't published anything in a little while, and he said he hopes I'm doing well. The truth is, some days I am and some days I'm not. I want to share a little bit about what's been going on, and what the future looks like. This is a pretty vulnerable post, so here's the deal. I'm going to tell you this, but it's just between you and me, okay? And there's one condition: you don't reach out to me to say \"I'm so sorry!\" When people share stori…",
+    "published_at": "2026-06-17T00:00:00Z",
+    "updated_at": "2026-06-17T00:00:00Z",
+    "feed_url": "https://ntietz.com/atom.xml",
+    "feed_title": "ntietz.com blog - technically a blog",
+    "owner_username": "ntietz",
+    "site_url": "https://ntietz.com"
+  },
+  {
     "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
     "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
     "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
     "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -55,10 +78,10 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-2/",
-    "title": "Tree 2",
-    "url": "https://inkdroid.org/2026/06/14/tree-2/",
-    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
+    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "title": "Bookmarks - data, design, vis, book",
+    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -66,10 +89,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "title": "Bookmarks - data, design, vis, book",
-    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
+    "id": "https://inkdroid.org/2026/06/14/tree-2/",
+    "title": "Tree 2",
+    "url": "https://inkdroid.org/2026/06/14/tree-2/",
+    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -540,10 +563,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -551,10 +574,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -685,17 +708,6 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "title": "Backpressure is all you need",
-    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://www.lucasfcosta.com/feed.xml",
-    "feed_title": "Lucas F. Costa - Blog",
-    "owner_username": "lucasfcosta",
-    "site_url": "https://www.lucasfcosta.com"
-  },
-  {
     "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
     "title": "The Algorithm Behind Shazam",
     "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
@@ -705,6 +717,17 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "title": "Backpressure is all you need",
+    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://www.lucasfcosta.com/feed.xml",
+    "feed_title": "Lucas F. Costa - Blog",
+    "owner_username": "lucasfcosta",
+    "site_url": "https://www.lucasfcosta.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -774,10 +797,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -785,10 +808,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -953,10 +976,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -964,10 +987,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -985,18 +1008,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "/posts/webdev-livecompile/",
-    "title": "Piping terminal output to the browser using systemfd",
-    "url": "/posts/webdev-livecompile/",
-    "summary": "An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I'm using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://blog.izissise.net/atom.xml",
-    "feed_title": "Hugues Blog",
-    "owner_username": "izissise",
-    "site_url": "https://izissise.net"
-  },
-  {
     "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
     "title": "The Problem of Pedagogy in Advanced Mathematics",
     "url": "https://susam.net/advanced-mathematics-pedagogy.html",
@@ -1007,6 +1018,18 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "/posts/webdev-livecompile/",
+    "title": "Piping terminal output to the browser using systemfd",
+    "url": "/posts/webdev-livecompile/",
+    "summary": "An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I'm using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://blog.izissise.net/atom.xml",
+    "feed_title": "Hugues Blog",
+    "owner_username": "izissise",
+    "site_url": "https://izissise.net"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -1066,6 +1089,17 @@
     "site_url": "https://octet-stream.net/"
   },
   {
+    "id": "https://runxiyu.org/ccc/",
+    "title": "CCC 2026",
+    "url": "https://runxiyu.org/ccc/",
+    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
+    "published_at": "2026-05-08T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "urn:uuid:800b3a89-946c-4c78-b575-4262f7589885",
     "title": "Wander Console 0.6.0",
     "url": "https://susam.net/code/news/wander/0.6.0.html",
@@ -1076,17 +1110,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://runxiyu.org/ccc/",
-    "title": "CCC 2026",
-    "url": "https://runxiyu.org/ccc/",
-    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
-    "published_at": "2026-05-08T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://jcs.org/notes/2026/05/05/995089977752510465",
@@ -1123,17 +1146,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -1144,6 +1156,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://runxiyu.org/comp/ch4ht/",
@@ -1527,17 +1550,6 @@
     "site_url": "https://mtlynch.io"
   },
   {
-    "id": "https://cuonglm.xyz/post/go_issue_77193/",
-    "title": "An old compiler bug with a very bad outcome",
-    "url": "https://cuonglm.xyz/post/go_issue_77193/",
-    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
-    "published_at": "2026-04-08T00:00:00Z",
-    "feed_url": "https://cuonglm.xyz/index.xml",
-    "feed_title": "CuongLM",
-    "owner_username": "cuonglm",
-    "site_url": "https://cuonglm.xyz/"
-  },
-  {
     "id": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist",
     "title": "Opening Proprietary Code to Contributors Checklist",
     "url": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html",
@@ -1548,6 +1560,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://cuonglm.xyz/post/go_issue_77193/",
+    "title": "An old compiler bug with a very bad outcome",
+    "url": "https://cuonglm.xyz/post/go_issue_77193/",
+    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
+    "published_at": "2026-04-08T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
   },
   {
     "id": "https://philipotoole.com/?p=8107",
@@ -1684,10 +1707,10 @@
     "site_url": "https://www.philipzucker.com/"
   },
   {
-    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "title": "Claude Code Cheat Sheet",
-    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
+    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "title": "Storing API keys for Claude Code providers in KeePassXC",
+    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1695,10 +1718,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "title": "Storing API keys for Claude Code providers in KeePassXC",
-    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
+    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "title": "Claude Code Cheat Sheet",
+    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1750,17 +1773,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "title": "How to get the deployed Git commit hash in Portainer CE",
-    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
     "title": "PicoClaw on a Raspberry Pi 3b+",
     "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
@@ -1770,6 +1782,17 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "title": "How to get the deployed Git commit hash in Portainer CE",
+    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -2335,17 +2358,6 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
-    "id": "https://mareksuppa.com/til/hugo-section-merge/",
-    "title": "Hugo can merge multiple sections into one stream",
-    "url": "https://mareksuppa.com/til/hugo-section-merge/",
-    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
-    "published_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
     "title": "Remote Editing with Kakoune and Sway",
     "url": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
@@ -2356,6 +2368,17 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
+  },
+  {
+    "id": "https://mareksuppa.com/til/hugo-section-merge/",
+    "title": "Hugo can merge multiple sections into one stream",
+    "url": "https://mareksuppa.com/til/hugo-section-merge/",
+    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
+    "published_at": "2026-02-11T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mareksuppa.com/links/write-the-paper-first/",
@@ -2369,6 +2392,17 @@
     "site_url": "https://mareksuppa.com"
   },
   {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -2379,17 +2413,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -2424,17 +2447,6 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://vgel.me/fiction/gyre/",
-    "title": "Gyre",
-    "url": "https://vgel.me/fiction/gyre/",
-    "summary": "! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don't be nervous. → Ok. Let me access that file. \u003e\u003e\u003e read(\"/mnt/mission/HEARTBEAT.md\") No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What's going on?",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
     "id": "https://runxiyu.org/umich/oktafido2/",
     "title": "Using FIDO2 security keys with U-M Okta",
     "url": "https://runxiyu.org/umich/oktafido2/",
@@ -2444,6 +2456,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://vgel.me/fiction/gyre/",
+    "title": "Gyre",
+    "url": "https://vgel.me/fiction/gyre/",
+    "summary": "! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don't be nervous. → Ok. Let me access that file. \u003e\u003e\u003e read(\"/mnt/mission/HEARTBEAT.md\") No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What's going on?",
+    "published_at": "2026-02-07T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://www.silvestar.codes/articles/ultigamemate/",
@@ -2805,6 +2828,17 @@
     "site_url": "https://samuelplumppu.se"
   },
   {
+    "id": "https://www.silvestar.codes/articles/2025-lookback/",
+    "title": "2025 lookback",
+    "url": "https://www.silvestar.codes/articles/2025-lookback/",
+    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
+    "published_at": "2026-01-16T00:00:00Z",
+    "feed_url": "https://www.silvestar.codes/rss.xml",
+    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
+    "owner_username": "starbist",
+    "site_url": "https://www.silvestar.codes"
+  },
+  {
     "id": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
     "title": "Local Test CI Using Git Hooks and Notes",
     "url": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
@@ -2815,17 +2849,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/2025-lookback/",
-    "title": "2025 lookback",
-    "url": "https://www.silvestar.codes/articles/2025-lookback/",
-    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
-    "published_at": "2026-01-16T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
   },
   {
     "id": "https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents",
@@ -3328,28 +3351,5 @@
     "feed_title": "SerCe's blog",
     "owner_username": "serce",
     "site_url": "https://serce.me/"
-  },
-  {
-    "id": "https://vito.io/articles/leveraging-llms-for-what-llms-are-worth",
-    "title": "Leveraging LLMs for what LLMs are worth",
-    "url": "https://vito.io/articles/2025-12-08-leveraging-llms-for-what-llms-are-worth.html",
-    "summary": "Those who work with me know for sure of two important points:",
-    "published_at": "2025-12-08T03:00:00Z",
-    "updated_at": "2025-12-08T03:00:00Z",
-    "feed_url": "https://vito.io/feed.xml",
-    "feed_title": "Vito Sartori",
-    "owner_username": "vito",
-    "site_url": "https://vito.io"
-  },
-  {
-    "id": "https://dimtion.fr/blog/2025/tech-calcification/",
-    "title": "Calcification of Technology",
-    "url": "https://dimtion.fr/blog/2025/tech-calcification/",
-    "summary": "One thing to notice when studying the history of tech or the internet is the winner takes all trend that results in slowly making tech a higher and higher tower of complexity. Here, I call tech calcification the observed principle that once a technology is sufficiently widespread, new capabilities of a technology are built on top of it instead of next to it. Here are a few examples: Everything is built on top of IPv4 . Everything is built on top of TCP . Everything is built on top of HTTP . Ever…",
-    "published_at": "2025-12-07T00:00:00Z",
-    "updated_at": "2025-12-07T00:00:00Z",
-    "feed_url": "https://dimtion.fr/atom.xml",
-    "owner_username": "dimtion",
-    "site_url": "https://dimtion.fr"
   }
 ]

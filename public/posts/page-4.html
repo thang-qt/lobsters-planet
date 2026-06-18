@@ -23,9 +23,21 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 17 Jun 2026, 20:36 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 18 Jun 2026, 05:13 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">27 Mar 2026 · <a href="/users/statox/">statox</a> · The stuff I do</p>
+          <h2><a href="https://www.statox.fr/posts/2026/03/systemd_timers/">Using a systemd timer to monitor my laptop&#39;s battery</a></h2>
+          <p>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
+          <h2><a href="https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/">PicoBot on a Raspberry Pi 3b&#43;</a></h2>
+          <p>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b&#43; I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</p>
+        </article>
       
         <article class="entry">
           <p class="meta">26 Mar 2026 · <a href="/users/philzook/">philzook</a> · Hey There Buddo!</p>
@@ -35,14 +47,14 @@
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
-          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
         </article>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
-          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
         </article>
       
         <article class="entry">
@@ -70,15 +82,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
-          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">19 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h2><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h2>
           <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
         </article>
       
         <article class="entry">
@@ -317,18 +329,6 @@ gemini://ayushnix.com/reviews/me...</a></h2>
           <p class="meta">17 Feb 2026 · <a href="/users/lucasfcosta/">lucasfcosta</a> · Lucas F. Costa - Blog</p>
           <h2><a href="https://lucasfcosta.com/blog/design-docs/">Design docs considered harmful</a></h2>
           <p>Somewhere in your company&#39;s Google Drive, there&#39;s a design doc from six months ago. It describes a system that doesn&#39;t exist. It was outdated by the second sprint and abandoned by the third. Fourteen...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h2><a href="https://social.ayushnix.com/@ayushnix/statuses/01KHN7GVSD1KWFJ1FRDRZGY8J7">“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate w...</a></h2>
-          <p>@ayushnix@social.ayushnix.com made a new post: &#34;“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate while observing, quite accurately, that it is above its own laws.” — Leto Atreide...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/vito/">vito</a> · Vito Sartori</p>
-          <h2><a href="https://vito.io/articles/2026-02-17-messenger-on-mac.html">Rebuilding Windows Live Messenger, Part 2: Messenger on macOS</a></h2>
-          <p>Just to take a breath between Assembly and graphics, I installed Mojave on an old Mac Mini and spun Microsoft Messenger, which is the equivalent of Windows Live Messenger for macOS, as removing Windows from the equation makes things way easier. The objective today is to fool it enough to make it think it is talking with the now long gone Microsoft servers.</p>
         </article>
       
     </div>
