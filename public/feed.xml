@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Fri, 19 Jun 2026 11:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 15:51:41 +0000</lastBuildDate>
     <item>
       <title>No more Standard Search for standard.site</title>
       <link>https://octet-stream.net/b/scb/2026-06-17-no-more-standard-search-for-standard-site.html</link>
@@ -31,6 +31,14 @@
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Hermes Agent formats its output based on the platform you connect as</title>
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
@@ -47,28 +55,12 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>2026W23</title>
       <link>https://jordivillar.com/reads/2026w23/</link>
       <guid isPermaLink="false">https://jordivillar.com/reads/2026w23/</guid>
       <description>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</description>
       <author>jordi</author>
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tree 1</title>
-      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
-      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bookmarks - data, design, vis, book</title>
@@ -83,6 +75,14 @@
       <link>https://inkdroid.org/2026/06/14/tree-2/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
       <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree 1</title>
+      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
+      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -416,17 +416,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -519,19 +519,19 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Backpressure is all you need</title>
-      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
-      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
-      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
-      <author>lucasfcosta</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Algorithm Behind Shazam</title>
       <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
       <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
       <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
       <author>jordi</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backpressure is all you need</title>
+      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
+      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
+      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
+      <author>lucasfcosta</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1014,19 +1014,19 @@
       <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw On Raspberry Pi 4</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
-      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
-      <author>gabe</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
       <link>https://www.philipzucker.com/thin_egraph/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
       <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
       <author>philzook</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw On Raspberry Pi 4</title>
+      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
+      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
+      <author>gabe</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1134,19 +1134,19 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Opening Proprietary Code to Contributors Checklist</title>
-      <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
-      <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
-      <author>dblock</author>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>An old compiler bug with a very bad outcome</title>
       <link>https://cuonglm.xyz/post/go_issue_77193/</link>
       <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
       <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
       <author>cuonglm</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Opening Proprietary Code to Contributors Checklist</title>
+      <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
+      <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
+      <author>dblock</author>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1222,19 +1222,19 @@
       <pubDate>Fri, 27 Mar 2026 01:50:55 +0000</pubDate>
     </item>
     <item>
-      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
-      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
-      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
-      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
-      <author>statox</author>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoBot on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</guid>
       <description>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</description>
       <author>gabe</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
+      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
+      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
+      <author>statox</author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1294,19 +1294,19 @@
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How to get the deployed Git commit hash in Portainer CE</title>
-      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
-      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
-      <author>mrshu</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoClaw on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
       <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
       <author>gabe</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to get the deployed Git commit hash in Portainer CE</title>
+      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
+      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
+      <author>mrshu</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1358,19 +1358,19 @@
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Right-Sizing Engineering Teams for AI</title>
-      <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
-      <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
-      <author>dblock</author>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On the Ethics of Ambiguity</title>
       <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
       <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
       <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
       <author>nicomeemes</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Right-Sizing Engineering Teams for AI</title>
+      <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
+      <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
+      <author>dblock</author>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1710,19 +1710,19 @@
       <pubDate>Wed, 11 Feb 2026 11:19:16 +0000</pubDate>
     </item>
     <item>
-      <title>Remote Editing with Kakoune and Sway</title>
-      <link>https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hugo can merge multiple sections into one stream</title>
       <link>https://mareksuppa.com/til/hugo-section-merge/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hugo-section-merge/</guid>
       <description>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</description>
       <author>mrshu</author>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote Editing with Kakoune and Sway</title>
+      <link>https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1734,19 +1734,19 @@
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using an engineering notebook</title>
-      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
-      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
       <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
       <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
       <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
       <author>mtlynch</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using an engineering notebook</title>
+      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
+      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
+      <author>ntietz</author>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1773,19 +1773,19 @@
       <pubDate>Sat, 07 Feb 2026 16:52:07 +0000</pubDate>
     </item>
     <item>
-      <title>Gyre</title>
-      <link>https://vgel.me/fiction/gyre/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/gyre/</guid>
-      <description>! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don&#39;t be nervous. → Ok. Let me access that file. &gt;&gt;&gt; read(&#34;/mnt/mission/HEARTBEAT.md&#34;) No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What&#39;s going on?</description>
-      <author>vgel</author>
-      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using FIDO2 security keys with U-M Okta</title>
       <link>https://runxiyu.org/umich/oktafido2/</link>
       <guid isPermaLink="false">https://runxiyu.org/umich/oktafido2/</guid>
       <description>Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .</description>
       <author>runxiyu</author>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gyre</title>
+      <link>https://vgel.me/fiction/gyre/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/gyre/</guid>
+      <description>! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don&#39;t be nervous. → Ok. Let me access that file. &gt;&gt;&gt; read(&#34;/mnt/mission/HEARTBEAT.md&#34;) No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What&#39;s going on?</description>
+      <author>vgel</author>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1813,19 +1813,19 @@
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>My Eighth Year as a Bootstrapped Founder</title>
-      <link>https://mtlynch.io/bootstrapped-founder-year-8/</link>
-      <guid isPermaLink="false">https://mtlynch.io/bootstrapped-founder-year-8/</guid>
-      <description>Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…</description>
-      <author>mtlynch</author>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Landlock is Great</title>
       <link>https://mccd.space/posts/26-02-03/landlock.gmi</link>
       <guid isPermaLink="false">https://mccd.space/posts/26-02-03/landlock.gmi</guid>
       <description>Preview unavailable atm</description>
       <author>mccd</author>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Eighth Year as a Bootstrapped Founder</title>
+      <link>https://mtlynch.io/bootstrapped-founder-year-8/</link>
+      <guid isPermaLink="false">https://mtlynch.io/bootstrapped-founder-year-8/</guid>
+      <description>Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…</description>
+      <author>mtlynch</author>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1917,18 +1917,18 @@
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Ancient of Days</title>
-      <link>https://vgel.me/fiction/claude-computer/</link>
-      <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
-      <author>vgel</author>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Making niche solutions is the point</title>
       <link>https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/making-niche-solutions-is-the-point/</guid>
       <description>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</description>
       <author>ntietz</author>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ancient of Days</title>
+      <link>https://vgel.me/fiction/claude-computer/</link>
+      <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
+      <author>vgel</author>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2010,6 +2010,14 @@
       <description>Apparently, one of my hobbies is making updates to my ergonomic setup, then blogging about it from an Amtrak train. I&#39;ve gone and done it again. My setup stayed static for some time, but my most recent iteration ended up letting me down and I had to change it again. It gave me a lot of useful information and strongly shaped how I approached this iteration. This new one is closest to the first one I wrote about in 2024, but with some major improvements and reproducibility. Why make more changes? …</description>
       <author>ntietz</author>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comment on The worst ANSI art renderer, except for all the others by ASCII Rendering Revolution: Shape-Based Vectors Hit 60 FPS | byteiota</title>
+      <link>https://hpjansson.org/blag/2019/01/07/the-worst-ansi-renderer-except-for-all-the-others/#comment-67237</link>
+      <guid isPermaLink="false">https://hpjansson.org/blag/?p=301#comment-67237</guid>
+      <description>[&amp;#8230;] lazymake (TUI for Makefiles), dtop (Docker management), and countless data visualization tools. The Chafa developer noted: &amp;#8220;This looks quite good, better than aalib or libcaca&amp;#8221;—established tools from [&amp;#8230;]</description>
+      <author>hpj</author>
+      <pubDate>Sun, 18 Jan 2026 14:23:26 +0000</pubDate>
     </item>
     <item>
       <title>↗ AI companies will fail. We can salvage something from the wreckage</title>
@@ -2356,19 +2364,19 @@
       <pubDate>Sat, 20 Dec 2025 22:15:20 +0000</pubDate>
     </item>
     <item>
-      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
-      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
-      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
-      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
-      <author>greenheart</author>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Synchronized colorscheme toggling for WezTerm and Neovim</title>
       <link>https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</link>
       <guid isPermaLink="false">https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/</guid>
       <description>TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I&#39;ve been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm&#39;s buil…</description>
       <author>statox</author>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Git-based CMS tip: Automatic updatedAt timestamps with Git</title>
+      <link>https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</link>
+      <guid isPermaLink="false">https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp</guid>
+      <description>One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…</description>
+      <author>greenheart</author>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2394,14 +2402,6 @@
       <description>SQLite JSON Superpower: Virtual Columns + Indexing — This is one of those “why didn’t I know about this sooner?” moments. The idea is simple but powerful: dump your JSON into SQLite, create virtual columns that extract specific fields on the fly, then slap indexes on those virtual columns. Boom, you’ve got schemaless flexibility with relational performance. No backfilling, no migration headaches. You can literally add a new indexed column later without touching your data. The beauty is…</description>
       <author>jordi</author>
       <pubDate>Sun, 14 Dec 2025 12:31:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tickling a Sun Ray 2 - DHCP Discovery</title>
-      <link>https://vito.io/articles/2025-12-13-tickling-sun-ray-discovery.html</link>
-      <guid isPermaLink="false">https://vito.io/articles/tickling-sun-ray-discovery</guid>
-      <description>This Christmas I just got a brand new, still sealed, Sun Ray 2. Basically the best gift I ever got. Period.</description>
-      <author>vito</author>
-      <pubDate>Sat, 13 Dec 2025 03:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
