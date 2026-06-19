@@ -34,6 +34,17 @@
     "site_url": "https://ntietz.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -49,17 +60,6 @@
     "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
     "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
     "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -486,10 +486,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
+    "id": "https://inkdroid.org/2026/05/31/untitled/",
+    "title": "Untitled",
+    "url": "https://inkdroid.org/2026/05/31/untitled/",
+    "summary": "Untitled by John Summers",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -497,10 +497,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/untitled/",
-    "title": "Untitled",
-    "url": "https://inkdroid.org/2026/05/31/untitled/",
-    "summary": "Untitled by John Summers",
+    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -563,10 +563,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -574,10 +574,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -797,10 +797,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -808,10 +808,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -887,17 +887,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -908,6 +897,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -976,10 +976,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -987,10 +987,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1008,18 +1008,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
-    "title": "The Problem of Pedagogy in Advanced Mathematics",
-    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "/posts/webdev-livecompile/",
     "title": "Piping terminal output to the browser using systemfd",
     "url": "/posts/webdev-livecompile/",
@@ -1030,6 +1018,18 @@
     "feed_title": "Hugues Blog",
     "owner_username": "izissise",
     "site_url": "https://izissise.net"
+  },
+  {
+    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
+    "title": "The Problem of Pedagogy in Advanced Mathematics",
+    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
+    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -1146,17 +1146,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -1169,16 +1158,15 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
-    "title": "QuickQWERTY 1.2.3",
-    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
-    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "updated_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://runxiyu.org/comp/ch4ht/",
@@ -1190,6 +1178,18 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
+    "title": "QuickQWERTY 1.2.3",
+    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
+    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "updated_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1294,10 +1294,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1305,10 +1305,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1572,17 +1572,6 @@
     "site_url": "https://mtlynch.io"
   },
   {
-    "id": "https://cuonglm.xyz/post/go_issue_77193/",
-    "title": "An old compiler bug with a very bad outcome",
-    "url": "https://cuonglm.xyz/post/go_issue_77193/",
-    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
-    "published_at": "2026-04-08T00:00:00Z",
-    "feed_url": "https://cuonglm.xyz/index.xml",
-    "feed_title": "CuongLM",
-    "owner_username": "cuonglm",
-    "site_url": "https://cuonglm.xyz/"
-  },
-  {
     "id": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist",
     "title": "Opening Proprietary Code to Contributors Checklist",
     "url": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html",
@@ -1593,6 +1582,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://cuonglm.xyz/post/go_issue_77193/",
+    "title": "An old compiler bug with a very bad outcome",
+    "url": "https://cuonglm.xyz/post/go_issue_77193/",
+    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
+    "published_at": "2026-04-08T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
   },
   {
     "id": "https://philipotoole.com/?p=8107",
@@ -1695,17 +1695,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "title": "PicoBot on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
-    "published_at": "2026-03-27T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
     "title": "Using a systemd timer to monitor my laptop's battery",
     "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
@@ -1715,6 +1704,17 @@
     "feed_title": "The stuff I do",
     "owner_username": "statox",
     "site_url": "http://www.statox.fr"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "title": "PicoBot on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
@@ -1795,17 +1795,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "title": "PicoClaw on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
     "title": "How to get the deployed Git commit hash in Portainer CE",
     "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
@@ -1815,6 +1804,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "title": "PicoClaw on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -1885,17 +1885,6 @@
     "site_url": "https://code.dblock.org/"
   },
   {
-    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "title": "On the Ethics of Ambiguity",
-    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
-    "published_at": "2026-03-11T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
-  },
-  {
     "id": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai",
     "title": "Right-Sizing Engineering Teams for AI",
     "url": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html",
@@ -1906,6 +1895,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -2290,6 +2290,17 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
+    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "title": "Google Docs can be exported to Markdown via URL change",
+    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
+    "published_at": "2026-02-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://ntietz.com/blog/til-docker-log-rotation/",
     "title": "TIL: Docker log rotation",
     "url": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom\u0026utm_medium=feed",
@@ -2300,17 +2311,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "title": "Google Docs can be exported to Markdown via URL change",
-    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
-    "published_at": "2026-02-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15926",
@@ -2414,17 +2414,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -2435,6 +2424,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -2469,17 +2469,6 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://runxiyu.org/umich/oktafido2/",
-    "title": "Using FIDO2 security keys with U-M Okta",
-    "url": "https://runxiyu.org/umich/oktafido2/",
-    "summary": "Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://vgel.me/fiction/gyre/",
     "title": "Gyre",
     "url": "https://vgel.me/fiction/gyre/",
@@ -2489,6 +2478,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://runxiyu.org/umich/oktafido2/",
+    "title": "Using FIDO2 security keys with U-M Okta",
+    "url": "https://runxiyu.org/umich/oktafido2/",
+    "summary": "Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .",
+    "published_at": "2026-02-07T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://www.silvestar.codes/articles/ultigamemate/",
@@ -2525,6 +2525,17 @@
     "site_url": "https://code.dblock.org/"
   },
   {
+    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "title": "My Eighth Year as a Bootstrapped Founder",
+    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
+    "published_at": "2026-02-03T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-03/landlock.gmi",
     "title": "Landlock is Great",
     "url": "https://mccd.space/posts/26-02-03/landlock.gmi",
@@ -2535,17 +2546,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "title": "My Eighth Year as a Bootstrapped Founder",
-    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
-    "published_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jcs.org/2026/02/02/wallops22",
@@ -2648,17 +2648,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://runxiyu.org/comp/doubleslash/",
-    "title": "It is incorrect to “normalize” // in HTTP URL paths",
-    "url": "https://runxiyu.org/comp/doubleslash/",
-    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "/posts/2026-default-apps/",
     "title": "Default Apps, 2026",
     "url": "/posts/2026-default-apps/",
@@ -2668,6 +2657,17 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://runxiyu.org/comp/doubleslash/",
+    "title": "It is incorrect to “normalize” // in HTTP URL paths",
+    "url": "https://runxiyu.org/comp/doubleslash/",
+    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
+    "published_at": "2026-01-27T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://vgel.me/fiction/claude-computer/",
@@ -2861,17 +2861,6 @@
     "site_url": "https://samuelplumppu.se"
   },
   {
-    "id": "https://www.silvestar.codes/articles/2025-lookback/",
-    "title": "2025 lookback",
-    "url": "https://www.silvestar.codes/articles/2025-lookback/",
-    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
-    "published_at": "2026-01-16T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
-  },
-  {
     "id": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
     "title": "Local Test CI Using Git Hooks and Notes",
     "url": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
@@ -2882,6 +2871,17 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
+  },
+  {
+    "id": "https://www.silvestar.codes/articles/2025-lookback/",
+    "title": "2025 lookback",
+    "url": "https://www.silvestar.codes/articles/2025-lookback/",
+    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
+    "published_at": "2026-01-16T00:00:00Z",
+    "feed_url": "https://www.silvestar.codes/rss.xml",
+    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
+    "owner_username": "starbist",
+    "site_url": "https://www.silvestar.codes"
   },
   {
     "id": "https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents",
@@ -3027,6 +3027,17 @@
     "feed_title": "Comments for Philip O'Toole",
     "owner_username": "otoolep",
     "site_url": "https://www.philipotoole.com"
+  },
+  {
+    "id": "https://www.brautaset.org/posts/musical-goals-2026.html",
+    "title": "Musical Goals (2026)",
+    "url": "https://www.brautaset.org/posts/musical-goals-2026.html",
+    "summary": "It's been more than five years since my last musical goals post, where I set some process-oriented goals, in addition to my longer-term outcome-oriented ones. I share my journey, progress on the old goals, and set some new ones.",
+    "published_at": "2026-01-08T19:52:00Z",
+    "feed_url": "https://www.brautaset.org/index.xml",
+    "feed_title": "Stig's Soapbox RSS Feed",
+    "owner_username": "stig",
+    "site_url": "https://www.brautaset.org"
   },
   {
     "id": "https://www.vesto.me/2026/01/08/2025-in-review.html",
@@ -3339,16 +3350,5 @@
     "feed_title": "Vito Sartori",
     "owner_username": "vito",
     "site_url": "https://vito.io"
-  },
-  {
-    "id": "https://social.ayushnix.com/@ayushnix/statuses/01KC8CZEPPW7TYW5XF0RKPPVTJ",
-    "title": "I'm going through the documentation of syslog-ng and its syntax is ... terrible? It's a weird amalgamation of C and shell scr...",
-    "url": "https://social.ayushnix.com/@ayushnix/statuses/01KC8CZEPPW7TYW5XF0RKPPVTJ",
-    "summary": "@ayushnix@social.ayushnix.com made a new post: \"I'm going through the documentation of syslog-ng and its syntax is ... terrible? It's a weird amalgamation of C and shell scripting that makes me think writing its configuration in a proper programming lan...",
-    "published_at": "2025-12-12T04:26:47Z",
-    "feed_url": "https://social.ayushnix.com/@ayushnix/feed.rss",
-    "feed_title": "Posts from @ayushnix@social.ayushnix.com",
-    "owner_username": "ayushnix",
-    "site_url": "https://social.ayushnix.com/@ayushnix"
   }
 ]
