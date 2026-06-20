@@ -45,10 +45,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -56,10 +56,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -89,10 +89,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
+    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "title": "Bookmarks - data, design, vis, book",
+    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -100,10 +100,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "title": "Bookmarks - data, design, vis, book",
-    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -486,10 +486,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
+    "id": "https://inkdroid.org/2026/05/31/untitled/",
+    "title": "Untitled",
+    "url": "https://inkdroid.org/2026/05/31/untitled/",
+    "summary": "Untitled by John Summers",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -497,10 +497,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/untitled/",
-    "title": "Untitled",
-    "url": "https://inkdroid.org/2026/05/31/untitled/",
-    "summary": "Untitled by John Summers",
+    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -708,17 +708,6 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "title": "The Algorithm Behind Shazam",
-    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
     "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
     "title": "Backpressure is all you need",
     "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
@@ -728,6 +717,17 @@
     "feed_title": "Lucas F. Costa - Blog",
     "owner_username": "lucasfcosta",
     "site_url": "https://www.lucasfcosta.com"
+  },
+  {
+    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "title": "The Algorithm Behind Shazam",
+    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -797,10 +797,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -808,10 +808,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -976,10 +976,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -987,10 +987,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1146,18 +1146,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
-    "title": "From RSS to Atom",
-    "url": "https://susam.net/from-rss-to-atom.html",
-    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
-    "published_at": "2026-05-04T00:00:00Z",
-    "updated_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
     "title": "Podman rootless containers and the Copy Fail exploit",
     "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
@@ -1169,12 +1157,12 @@
     "site_url": "https://garrido.io"
   },
   {
-    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
-    "title": "QuickQWERTY 1.2.3",
-    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
-    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "updated_at": "2026-05-03T00:00:00Z",
+    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
+    "title": "From RSS to Atom",
+    "url": "https://susam.net/from-rss-to-atom.html",
+    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
+    "published_at": "2026-05-04T00:00:00Z",
+    "updated_at": "2026-05-04T00:00:00Z",
     "feed_url": "https://susam.net/feed.xml",
     "feed_title": "Susam Pal",
     "owner_username": "susam",
@@ -1190,6 +1178,18 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
+    "title": "QuickQWERTY 1.2.3",
+    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
+    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "updated_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1294,10 +1294,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1305,10 +1305,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1729,10 +1729,10 @@
     "site_url": "https://www.philipzucker.com/"
   },
   {
-    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "title": "Storing API keys for Claude Code providers in KeePassXC",
-    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
+    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "title": "Claude Code Cheat Sheet",
+    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1740,10 +1740,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "title": "Claude Code Cheat Sheet",
-    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
+    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "title": "Storing API keys for Claude Code providers in KeePassXC",
+    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1885,6 +1885,17 @@
     "site_url": "https://code.dblock.org/"
   },
   {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
+  },
+  {
     "id": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai",
     "title": "Right-Sizing Engineering Teams for AI",
     "url": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html",
@@ -1895,17 +1906,6 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
-  },
-  {
-    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "title": "On the Ethics of Ambiguity",
-    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
-    "published_at": "2026-03-11T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -1952,6 +1952,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://brndn.io/posts/on-the-edge/",
+    "title": "On the Edge",
+    "url": "https://brndn.io/posts/on-the-edge/",
+    "summary": "I like to stand right on the edge of the subway platform. I stand right atop the yellow tactile paving they install at the edge of the platform for blind people. I stand there, facing outward toward the trains, staring into the abyss. It’s my morning ritual now. And evening. And whenever I take the train.",
+    "published_at": "2026-03-08T16:42:55Z",
+    "feed_url": "https://brndn.io/index.xml",
+    "feed_title": "Brenden's Blog",
+    "owner_username": "brndnmtthws",
+    "site_url": "https://brndn.io/"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KK6V87A19MP3F49TXJ4HYR51",
@@ -2290,6 +2301,17 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
+    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "title": "Google Docs can be exported to Markdown via URL change",
+    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
+    "published_at": "2026-02-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://ntietz.com/blog/til-docker-log-rotation/",
     "title": "TIL: Docker log rotation",
     "url": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom\u0026utm_medium=feed",
@@ -2300,17 +2322,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "title": "Google Docs can be exported to Markdown via URL change",
-    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
-    "published_at": "2026-02-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15926",
@@ -2414,17 +2425,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -2435,6 +2435,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -2456,6 +2467,17 @@
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
     "site_url": "https://vgel.me"
+  },
+  {
+    "id": "https://brndn.io/posts/on-evidence/",
+    "title": "On Evidence",
+    "url": "https://brndn.io/posts/on-evidence/",
+    "summary": "Images are interesting because, in the digital world, it’s trivial to alter them, and yet we still tend to treat images—photographs, video—as a kind of proof. If you see a photograph in a news article, most people don’t really stop to ask whether the thing actually happened. The photograph is the thing, or at least it stands in for it. Light hit something, a camera was there, therefore this event occurred. That association feels almost automatic, and it’s been reinforced culturally for…",
+    "published_at": "2026-02-07T22:05:17Z",
+    "feed_url": "https://brndn.io/index.xml",
+    "feed_title": "Brenden's Blog",
+    "owner_username": "brndnmtthws",
+    "site_url": "https://brndn.io/"
   },
   {
     "id": "http://nolanlawson.com/?p=15889",
@@ -2872,6 +2894,17 @@
     "site_url": "https://samuelplumppu.se"
   },
   {
+    "id": "https://www.silvestar.codes/articles/2025-lookback/",
+    "title": "2025 lookback",
+    "url": "https://www.silvestar.codes/articles/2025-lookback/",
+    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
+    "published_at": "2026-01-16T00:00:00Z",
+    "feed_url": "https://www.silvestar.codes/rss.xml",
+    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
+    "owner_username": "starbist",
+    "site_url": "https://www.silvestar.codes"
+  },
+  {
     "id": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
     "title": "Local Test CI Using Git Hooks and Notes",
     "url": "https://mccd.space/posts/26-01-16/simple-git-hook.gmi",
@@ -2882,17 +2915,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/2025-lookback/",
-    "title": "2025 lookback",
-    "url": "https://www.silvestar.codes/articles/2025-lookback/",
-    "summary": "Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.",
-    "published_at": "2026-01-16T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
   },
   {
     "id": "https://code.dblock.org/2026/01/15/serving-markdown-for-ai-agents",
@@ -3140,6 +3162,17 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://brndn.io/posts/who-are-you-when-no-one-is-watching/",
+    "title": "Who Are You When No One Is Watching?",
+    "url": "https://brndn.io/posts/who-are-you-when-no-one-is-watching/",
+    "summary": "If a “true” self exists at all, it probably only appears when no one is watching. The rest of the time, we’re adapting to context. At work, we perform the professional self. With friends, we’re relaxed, funny, interesting. With family, something else entirely. Online, where the audience is abstract and potentially infinite, we often project an idealized version of ourselves—the highlight reel.",
+    "published_at": "2025-12-30T20:52:10Z",
+    "feed_url": "https://brndn.io/index.xml",
+    "feed_title": "Brenden's Blog",
+    "owner_username": "brndnmtthws",
+    "site_url": "https://brndn.io/"
+  },
+  {
     "id": "https://vgel.me/fiction/corvid-and-i/",
     "title": "corvid and i",
     "url": "https://vgel.me/fiction/corvid-and-i/",
@@ -3294,18 +3327,6 @@
     "site_url": "https://dhole.github.io/"
   },
   {
-    "id": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
-    "title": "Git-based CMS tip: Automatic updatedAt timestamps with Git",
-    "url": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
-    "summary": "One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…",
-    "published_at": "2025-12-16T00:00:00Z",
-    "updated_at": "2026-01-18T05:34:57Z",
-    "feed_url": "https://samuelplumppu.se/feed.json",
-    "feed_title": "Samuel Plumppu",
-    "owner_username": "greenheart",
-    "site_url": "https://samuelplumppu.se"
-  },
-  {
     "id": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
     "title": "Synchronized colorscheme toggling for WezTerm and Neovim",
     "url": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
@@ -3317,37 +3338,15 @@
     "site_url": "http://www.statox.fr"
   },
   {
-    "id": "https://vito.io/articles/tickling-sun-ray-it-speaks",
-    "title": "Tickling a Sun Ray 2 - It Speaks!",
-    "url": "https://vito.io/articles/2025-12-15-tickling-sun-ray-it-speaks.html",
-    "summary": "This is the second post on a series I’m working on, regarding the black-box reverse-engineering of a Sun Microsystems Ray 2 Desktop Unit. The first post can be found here: Tickling a Sun Ray 2 - DHCP Discovery.",
-    "published_at": "2025-12-15T03:00:00Z",
-    "updated_at": "2025-12-15T03:00:00Z",
-    "feed_url": "https://vito.io/feed.xml",
-    "feed_title": "Vito Sartori",
-    "owner_username": "vito",
-    "site_url": "https://vito.io"
-  },
-  {
-    "id": "https://blog.platypush.tech/article/Self-host-your-music-experience-on-mobile",
-    "title": "Self-host your music experience on mobile",
-    "url": "https://blog.platypush.tech/article/Self-host-your-music-experience-on-mobile",
-    "summary": "Build your mobile music streaming experience with Mopidy, Platypush, ntfy and Tasker",
-    "published_at": "2025-12-15T00:00:00Z",
-    "feed_url": "https://fabiomanganiello.com/feed.rss",
-    "feed_title": "Fabio Manganiello",
-    "owner_username": "blacklight",
-    "site_url": "https://fabiomanganiello.com"
-  },
-  {
-    "id": "https://jordivillar.com/reads/2025w49/",
-    "title": "2025W49",
-    "url": "https://jordivillar.com/reads/2025w49/",
-    "summary": "SQLite JSON Superpower: Virtual Columns + Indexing — This is one of those “why didn’t I know about this sooner?” moments. The idea is simple but powerful: dump your JSON into SQLite, create virtual columns that extract specific fields on the fly, then slap indexes on those virtual columns. Boom, you’ve got schemaless flexibility with relational performance. No backfilling, no migration headaches. You can literally add a new indexed column later without touching your data. The beauty is…",
-    "published_at": "2025-12-14T12:31:05Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
+    "id": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
+    "title": "Git-based CMS tip: Automatic updatedAt timestamps with Git",
+    "url": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
+    "summary": "One of the main benefits of using a database to power either a backend API or a CMS is the ability to get consistent updatedAt timestamps for entries like posts, comments or other forms of content. Until recently, this has been one of the main features that made me consider database-powered CMSes and backends even in cases where 90% of the project would work much better with a Git-based CMS. However, it turns out that even Git-based CMSes can get this functionality, with only a few lines of code…",
+    "published_at": "2025-12-16T00:00:00Z",
+    "updated_at": "2026-01-18T05:34:57Z",
+    "feed_url": "https://samuelplumppu.se/feed.json",
+    "feed_title": "Samuel Plumppu",
+    "owner_username": "greenheart",
+    "site_url": "https://samuelplumppu.se"
   }
 ]
