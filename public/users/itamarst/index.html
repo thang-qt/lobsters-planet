@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>itamarst</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~itamarst">Lobste.rs profile</a>
+        <a href="https://pythonspeed.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>28 Apr 2016</dd></div>
+        <div><dt>Karma</dt><dd>7855</dd></div>
+        <div><dt>Stories</dt><dd>426</dd></div>
+        <div><dt>Comments</dt><dd>530</dd></div>
+        <div><dt>Profile checked</dt><dd>20 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>20 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Writing about Python performance at https://pythonspeed.com</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">1 Apr 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/reservoir-sampling-profilers/">Timesliced reservoir sampling: a new(?) algorithm for profilers</a></h3>
+          <p>Imagine you are processing a stream of events, of unknown length. It could end in 3 seconds, it could run for 3 months; you simply don’t know. As a result, storing the whole stream in memory or even on disk is not acceptable, but you still need to extract relevant information. Depending on what information you need, choosing a random sample of the stream will give you almost as good information as storing all the data. For example, consider a performance profiler, used to find which parts of y…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Feb 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/speed-unit-tests/">Unit testing your code&#39;s performance, part 2: Catching speed changes</a></h3>
+          <p>In a previous post I talked about unit testing for speed, and in particular testing for big-O scalability . The next step is catching cases where you’ve changed not the scalability, but the direct efficiency of your code. If your first thought is “how this is different from running benchmarks?”, well, good point! An excellent starting point for performance is implementing a benchmark that runs automatically in CI, on every single pull request. If you haven’t got that, you probably want t…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">30 Jan 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/base-image-python-docker-images/">The best Docker base image for your Python application (February 2026)</a></h3>
+          <p>When you’re building a Docker image for your Python application, you’re building on top of an existing image—and there are many possible choices for the resulting container. There are OS images like Ubuntu, and there are the many different variants of the python base image. And now there’s a new choice, installing Python using uv , which allows you to use any base image you’d like. Which one should you use? Which one is better? There are many choices, and it may not be obvious which is…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">29 Jan 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/numpy-parallelism/">Speeding up NumPy with parallelism</a></h3>
+          <p>If your NumPy code is too slow, what next? One option is taking advantage of the multiple cores on your CPU: using a thread pool to do work in parallel. Another option is to tune your code so it’s less wasteful. Or, since these are two different sources of speed, you can do both. In this article I’ll cover: A simple example of making a NumPy algorithm parallel. A separate kind of optimization, making a more efficient implementation in Numba. How to get even more speed by using both at once. …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Jan 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/big-o-tests/">Unit testing your code&#39;s performance, part 1: Big-O scaling</a></h3>
+          <p>When you implement an algorithm, you also implement tests to make sure the outputs are correct. This can help you: Ensure your code is correct. Catch problems if and when you change it in the future. If you’re trying to make sure your software is fast, or at least doesn’t get slower, automated tests for performance would also be useful. But where should you start? My suggestion: start by testing big-O scaling. It’s a critical aspect of your software’s speed, and it doesn’t require a co…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
