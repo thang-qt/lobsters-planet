@@ -23,7 +23,7 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 20 Jun 2026, 04:49 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 20 Jun 2026, 09:50 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
       
@@ -94,15 +94,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
-          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">19 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h2><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h2>
           <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
         </article>
       
         <article class="entry">
@@ -142,15 +142,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
-          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
-          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">11 Mar 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
           <h2><a href="https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html">Right-Sizing Engineering Teams for AI</a></h2>
           <p>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
+          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
+          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
         </article>
       
         <article class="entry">
@@ -282,15 +282,15 @@ gemini://ayushnix.com/reviews/me...</a></h2>
         </article>
       
         <article class="entry">
-          <p class="meta">23 Feb 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed">Binding port 0 to avoid port collisions</a></h2>
-          <p>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">23 Feb 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h2><a href="https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/">OpenClaw On Ubuntu 25</a></h2>
           <p>I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Feb 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
+          <h2><a href="https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed">Binding port 0 to avoid port collisions</a></h2>
+          <p>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</p>
         </article>
       
         <article class="entry">

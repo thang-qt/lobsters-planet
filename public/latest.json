@@ -34,6 +34,17 @@
     "site_url": "https://ntietz.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -49,17 +60,6 @@
     "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
     "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
     "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -89,10 +89,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "title": "Bookmarks - data, design, vis, book",
-    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -100,10 +100,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
+    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "title": "Bookmarks - data, design, vis, book",
+    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -797,10 +797,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -808,10 +808,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -887,17 +887,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -908,6 +897,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -1008,18 +1008,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
-    "title": "The Problem of Pedagogy in Advanced Mathematics",
-    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "/posts/webdev-livecompile/",
     "title": "Piping terminal output to the browser using systemfd",
     "url": "/posts/webdev-livecompile/",
@@ -1030,6 +1018,18 @@
     "feed_title": "Hugues Blog",
     "owner_username": "izissise",
     "site_url": "https://izissise.net"
+  },
+  {
+    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
+    "title": "The Problem of Pedagogy in Advanced Mathematics",
+    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
+    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -1146,6 +1146,18 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
+    "title": "From RSS to Atom",
+    "url": "https://susam.net/from-rss-to-atom.html",
+    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
+    "published_at": "2026-05-04T00:00:00Z",
+    "updated_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
+  },
+  {
     "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
     "title": "Podman rootless containers and the Copy Fail exploit",
     "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
@@ -1157,12 +1169,12 @@
     "site_url": "https://garrido.io"
   },
   {
-    "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
-    "title": "From RSS to Atom",
-    "url": "https://susam.net/from-rss-to-atom.html",
-    "summary": "Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …",
-    "published_at": "2026-05-04T00:00:00Z",
-    "updated_at": "2026-05-04T00:00:00Z",
+    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
+    "title": "QuickQWERTY 1.2.3",
+    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
+    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "updated_at": "2026-05-03T00:00:00Z",
     "feed_url": "https://susam.net/feed.xml",
     "feed_title": "Susam Pal",
     "owner_username": "susam",
@@ -1178,18 +1190,6 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
-  },
-  {
-    "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
-    "title": "QuickQWERTY 1.2.3",
-    "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
-    "summary": "QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "updated_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1294,10 +1294,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1305,10 +1305,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1795,17 +1795,6 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "title": "How to get the deployed Git commit hash in Portainer CE",
-    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
     "title": "PicoClaw on a Raspberry Pi 3b+",
     "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
@@ -1815,6 +1804,17 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "title": "How to get the deployed Git commit hash in Portainer CE",
+    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -1885,17 +1885,6 @@
     "site_url": "https://code.dblock.org/"
   },
   {
-    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "title": "On the Ethics of Ambiguity",
-    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
-    "published_at": "2026-03-11T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
-  },
-  {
     "id": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai",
     "title": "Right-Sizing Engineering Teams for AI",
     "url": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html",
@@ -1906,6 +1895,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -2143,6 +2143,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "title": "OpenClaw On Ubuntu 25",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
+    "summary": "I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…",
+    "published_at": "2026-02-23T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://ntietz.com/blog/binding-ephemeral-port/",
     "title": "Binding port 0 to avoid port collisions",
     "url": "https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom\u0026utm_medium=feed",
@@ -2153,17 +2164,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
-    "title": "OpenClaw On Ubuntu 25",
-    "url": "https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/",
-    "summary": "I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…",
-    "published_at": "2026-02-23T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://austinhenley.com/blog/dearresearchers.html",
@@ -2391,6 +2391,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hugo-section-merge/",
+    "title": "Hugo can merge multiple sections into one stream",
+    "url": "https://mareksuppa.com/til/hugo-section-merge/",
+    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
+    "published_at": "2026-02-11T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
     "title": "Remote Editing with Kakoune and Sway",
     "url": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
@@ -2401,17 +2412,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hugo-section-merge/",
-    "title": "Hugo can merge multiple sections into one stream",
-    "url": "https://mareksuppa.com/til/hugo-section-merge/",
-    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
-    "published_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mareksuppa.com/links/write-the-paper-first/",
@@ -2491,17 +2491,6 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://vgel.me/fiction/gyre/",
-    "title": "Gyre",
-    "url": "https://vgel.me/fiction/gyre/",
-    "summary": "! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don't be nervous. → Ok. Let me access that file. \u003e\u003e\u003e read(\"/mnt/mission/HEARTBEAT.md\") No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What's going on?",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
     "id": "https://runxiyu.org/umich/oktafido2/",
     "title": "Using FIDO2 security keys with U-M Okta",
     "url": "https://runxiyu.org/umich/oktafido2/",
@@ -2511,6 +2500,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://vgel.me/fiction/gyre/",
+    "title": "Gyre",
+    "url": "https://vgel.me/fiction/gyre/",
+    "summary": "! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don't be nervous. → Ok. Let me access that file. \u003e\u003e\u003e read(\"/mnt/mission/HEARTBEAT.md\") No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What's going on?",
+    "published_at": "2026-02-07T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": "https://vgel.me"
   },
   {
     "id": "https://www.silvestar.codes/articles/ultigamemate/",
@@ -2547,17 +2547,6 @@
     "site_url": "https://code.dblock.org/"
   },
   {
-    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "title": "My Eighth Year as a Bootstrapped Founder",
-    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
-    "published_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "https://mccd.space/posts/26-02-03/landlock.gmi",
     "title": "Landlock is Great",
     "url": "https://mccd.space/posts/26-02-03/landlock.gmi",
@@ -2568,6 +2557,17 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
+  },
+  {
+    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "title": "My Eighth Year as a Bootstrapped Founder",
+    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
+    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
+    "published_at": "2026-02-03T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jcs.org/2026/02/02/wallops22",
@@ -2670,17 +2670,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://runxiyu.org/comp/doubleslash/",
-    "title": "It is incorrect to “normalize” // in HTTP URL paths",
-    "url": "https://runxiyu.org/comp/doubleslash/",
-    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "/posts/2026-default-apps/",
     "title": "Default Apps, 2026",
     "url": "/posts/2026-default-apps/",
@@ -2690,6 +2679,17 @@
     "feed_title": "jpt.sh",
     "owner_username": "jptsh",
     "site_url": "https://jpt.sh"
+  },
+  {
+    "id": "https://runxiyu.org/comp/doubleslash/",
+    "title": "It is incorrect to “normalize” // in HTTP URL paths",
+    "url": "https://runxiyu.org/comp/doubleslash/",
+    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
+    "published_at": "2026-01-27T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://ntietz.com/blog/making-niche-solutions-is-the-point/",
@@ -3327,17 +3327,6 @@
     "site_url": "https://dhole.github.io/"
   },
   {
-    "id": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
-    "title": "Synchronized colorscheme toggling for WezTerm and Neovim",
-    "url": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
-    "summary": "TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I've been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm's buil…",
-    "published_at": "2025-12-16T00:00:00Z",
-    "feed_url": "https://www.statox.fr/feed.xml",
-    "feed_title": "The stuff I do",
-    "owner_username": "statox",
-    "site_url": "http://www.statox.fr"
-  },
-  {
     "id": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
     "title": "Git-based CMS tip: Automatic updatedAt timestamps with Git",
     "url": "https://samuelplumppu.se/blog/git-cms-tip-automatic-updated-at-timestamp",
@@ -3348,5 +3337,16 @@
     "feed_title": "Samuel Plumppu",
     "owner_username": "greenheart",
     "site_url": "https://samuelplumppu.se"
+  },
+  {
+    "id": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
+    "title": "Synchronized colorscheme toggling for WezTerm and Neovim",
+    "url": "https://www.statox.fr/posts/2025/12/wezterm_neovim_synced_colorscheme/",
+    "summary": "TL;DR : I wanted a keybinding to toggle between light and dark colorschemes and have the change apply immediately to all my WezTerm windows and Neovim instances across multiple running processes, using pure Lua configurations. If you want to skip the context and jump straight to the implementation, go to the solution . Recently I've been reworking my terminal setup. After years of using gnome-terminal with tmux, I made the jump to WezTerm and replaced most of my tmux workflow with WezTerm's buil…",
+    "published_at": "2025-12-16T00:00:00Z",
+    "feed_url": "https://www.statox.fr/feed.xml",
+    "feed_title": "The stuff I do",
+    "owner_username": "statox",
+    "site_url": "http://www.statox.fr"
   }
 ]
