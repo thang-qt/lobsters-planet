@@ -5,7 +5,31 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Mon, 22 Jun 2026 12:32:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 21:22:32 +0000</lastBuildDate>
+    <item>
+      <title>Build a fully local voice assistant in 2026</title>
+      <link>https://blog.platypush.tech/article/Local-voice-assistant</link>
+      <guid isPermaLink="false">https://blog.platypush.tech/article/Local-voice-assistant</guid>
+      <description>A practical setup for a Raspberry Pi-friendly voice assistant based on Platypush.</description>
+      <author>blacklight</author>
+      <pubDate>Mon, 22 Jun 2026 20:03:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comment on Using AI to write better code more slowly by Tom Conlon</title>
+      <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238400</link>
+      <guid isPermaLink="false">http://nolanlawson.com/?p=16122#comment-238400</guid>
+      <description>In reply to &amp;lt;a href=&amp;quot;https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238393&amp;quot;&amp;gt;Nolan Lawson&amp;lt;/a&amp;gt;. &amp;lt;!-- wp:paragraph --&amp;gt; &amp;lt;p&amp;gt;I just came across this, you might find it and some of the comments interesting Nolan&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://antman-does-software.com/i-will-never-use-ai-to-code-or-write&amp;quot; rel=&amp;quot;nofollow ugc&amp;quot;&amp;gt;https://antman-does-software.com/i-will-never-use-ai-to-code-or-write&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt…</description>
+      <author>nolan</author>
+      <pubDate>Mon, 22 Jun 2026 17:34:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bookmarks - book, ai, map, llm</title>
+      <link>https://inkdroid.org/2026/06/22/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/22/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 RFC 9958: Post-Quantum Cryptography for Engineers The advent of a cryptographically relevant quantum computer (CRQC) would render state-of-the-art, traditional public key algorithms deployed today obsolete, as the mathematical assumptions underpinning their security would no longer hold. To address this, protocols and infrastructure must transition to post-quantum algorithms, which are designed to resist both traditional and…</description>
+      <author>edsu</author>
+      <pubDate>Mon, 22 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>When it&#39;s the maintainer who&#39;s AI-pilled</title>
       <link>https://octet-stream.net/b/scb/2026-06-22-when-its-the-maintainer-whos-ai-pilled.html</link>
@@ -13,6 +37,22 @@
       <description>I had an odd experience the other day with an open source project. That project was dirge . It&#39;s clearly and unashamedly developed with heavy use of generative AI, both in the code and in the PRs. Normally, as a first impression, this would turn me off a project. There&#39;s a lot of low-grade slop out there after all and most of the time I&#39;m looking for the &#34;mature&#34; option if it exists. In this case I came to learn about dirge through an article the author wrote , describing some novel ideas in mak…</description>
       <author>thombles</author>
       <pubDate>Mon, 22 Jun 2026 01:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setting up a Reverse Proxy</title>
+      <link>https://www.lifewaza.com/posts/setting-up-a-reverse-proxy/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/setting-up-a-reverse-proxy/</guid>
+      <description>The first step on my homelab improvement journey is setting up a reverse proxy. What’s a reverse-proxy? A reverse proxy is a server that sits in front of your other servers. Instead of sending requests directly to the server where the application is running, you send them to the proxy and it proxies your request to the real server. It’s called a reverse proxy because a “normal” (or forward) proxy sits in front of client machines to proxy outbound requests to the internet, while a reverse…</description>
+      <author>gabe</author>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Midsummer sunrise</title>
+      <link>https://inkdroid.org/2026/06/21/midsummer-sunrise/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/21/midsummer-sunrise/</guid>
+      <description>Midsummer sunrise The sun peeking over the horizon of the Atlantic Ocean. A globe of firey starstuff over calm waves, orange and red spreading out into the sky.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 21 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Getting Wayland to work on unprivileged Incus container</title>
@@ -71,18 +111,18 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hermes Agent formats its output based on the platform you connect as</title>
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
       <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -607,14 +647,6 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Childhood Computing</title>
-      <link>https://susam.net/childhood-computing.html</link>
-      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
-      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
-      <author>susam</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Is this what life is supposed to feel like?</title>
       <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
@@ -623,12 +655,12 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Algorithm Behind Shazam</title>
-      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
-      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
-      <author>jordi</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+      <title>Childhood Computing</title>
+      <link>https://susam.net/childhood-computing.html</link>
+      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
+      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
+      <author>susam</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Backpressure is all you need</title>
@@ -636,6 +668,14 @@
       <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
       <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
       <author>lucasfcosta</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Algorithm Behind Shazam</title>
+      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
+      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
+      <author>jordi</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -687,18 +727,18 @@
       <pubDate>Sun, 17 May 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>None</title>
-      <link>https://inkdroid.org/2026/05/17/no/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
-      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>None</title>
+      <link>https://inkdroid.org/2026/05/17/no/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
+      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -862,19 +902,19 @@
       <pubDate>Mon, 11 May 2026 00:21:52 +0000</pubDate>
     </item>
     <item>
-      <title>The Problem of Pedagogy in Advanced Mathematics</title>
-      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
-      <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
-      <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
-      <author>susam</author>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Piping terminal output to the browser using systemfd</title>
       <link>/posts/webdev-livecompile/</link>
       <guid isPermaLink="false">/posts/webdev-livecompile/</guid>
       <description>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</description>
       <author>izissise</author>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Problem of Pedagogy in Advanced Mathematics</title>
+      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
+      <guid isPermaLink="false">urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980</guid>
+      <description>It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…</description>
+      <author>susam</author>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -918,19 +958,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>Wander Console 0.6.0</title>
-      <link>https://susam.net/code/news/wander/0.6.0.html</link>
-      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
-      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
-      <author>susam</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CCC 2026</title>
       <link>https://runxiyu.org/ccc/</link>
       <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
       <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wander Console 0.6.0</title>
+      <link>https://susam.net/code/news/wander/0.6.0.html</link>
+      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
+      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
+      <author>susam</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1150,19 +1190,19 @@
       <pubDate>Sun, 19 Apr 2026 14:44:10 +0000</pubDate>
     </item>
     <item>
-      <title>An ode to Strawberry Music Player</title>
-      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
-      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
-      <description>[Read more]</description>
-      <author>vesto</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>C++ Alternative Operator Representations</title>
       <link>https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</link>
       <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
       <description>Equivalent ways of writing the same tokens.</description>
       <author>pyj</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An ode to Strawberry Music Player</title>
+      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
+      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
+      <description>[Read more]</description>
+      <author>vesto</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1238,19 +1278,19 @@
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>One Thing</title>
-      <link>https://mlich.eu/posts/one-thing/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
-      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
-      <author>Juraj</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
       <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
       <description>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</description>
       <author>mrshu</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Thing</title>
+      <link>https://mlich.eu/posts/one-thing/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
+      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
+      <author>Juraj</author>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1406,19 +1446,19 @@
       <pubDate>Fri, 27 Mar 2026 01:50:55 +0000</pubDate>
     </item>
     <item>
-      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
-      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
-      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
-      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
-      <author>statox</author>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoBot on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</guid>
       <description>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</description>
       <author>gabe</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
+      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
+      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
+      <author>statox</author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1430,18 +1470,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Storing API keys for Claude Code providers in KeePassXC</title>
       <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
       <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
+      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1518,19 +1558,19 @@
       <pubDate>Thu, 19 Mar 2026 07:49:30 +0000</pubDate>
     </item>
     <item>
-      <title>PicoClaw on a Raspberry Pi 3b+</title>
-      <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
-      <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
-      <author>gabe</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How to get the deployed Git commit hash in Portainer CE</title>
       <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
       <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
       <author>mrshu</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PicoClaw on a Raspberry Pi 3b+</title>
+      <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
+      <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
+      <author>gabe</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1590,19 +1630,19 @@
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Right-Sizing Engineering Teams for AI</title>
-      <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
-      <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
-      <author>dblock</author>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On the Ethics of Ambiguity</title>
       <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
       <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
       <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
       <author>nicomeemes</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Right-Sizing Engineering Teams for AI</title>
+      <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
+      <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
+      <author>dblock</author>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1718,19 +1758,19 @@
       <pubDate>Wed, 04 Mar 2026 12:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>California’s Digital Age Assurance Act, and FOSS</title>
-      <link>https://runxiyu.org/comp/ab1043/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/ab1043/</guid>
-      <description>These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …</description>
-      <author>runxiyu</author>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Advanced Terraform performance optimization</title>
       <link>https://www.bejarano.io/terraform-performance/</link>
       <guid isPermaLink="false">https://www.bejarano.io/terraform-performance/</guid>
       <description>Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.</description>
       <author>ricardbejarano</author>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>California’s Digital Age Assurance Act, and FOSS</title>
+      <link>https://runxiyu.org/comp/ab1043/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/ab1043/</guid>
+      <description>These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …</description>
+      <author>runxiyu</author>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1750,10 +1790,10 @@
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Waves</title>
-      <link>https://mlich.eu/posts/waves/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/waves/</guid>
-      <description>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</description>
+      <title>The apartment you no longer live in</title>
+      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
+      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
       <author>Juraj</author>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1766,10 +1806,10 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The apartment you no longer live in</title>
-      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
-      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
+      <title>Waves</title>
+      <link>https://mlich.eu/posts/waves/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/waves/</guid>
+      <description>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</description>
       <author>Juraj</author>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2022,14 +2062,6 @@
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Write the Paper First</title>
-      <link>https://mareksuppa.com/links/write-the-paper-first/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/write-the-paper-first/</guid>
-      <description>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The First One Will Be Awful</title>
       <link>https://pyjarrett.github.io/2026/02/10/the-first-one-will-be-awful.html</link>
       <guid isPermaLink="false">https://pyjarrett.github.io/2026/02/10/the-first-one-will-be-awful.html</guid>
@@ -2038,12 +2070,12 @@
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
-      <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
-      <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
-      <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
-      <author>mtlynch</author>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Write the Paper First</title>
+      <link>https://mareksuppa.com/links/write-the-paper-first/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/write-the-paper-first/</guid>
+      <description>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Using an engineering notebook</title>
@@ -2051,6 +2083,14 @@
       <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
       <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
       <author>ntietz</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
+      <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
+      <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
+      <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
+      <author>mtlynch</author>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2237,14 +2277,6 @@
       <pubDate>Tue, 27 Jan 2026 00:34:55 +0000</pubDate>
     </item>
     <item>
-      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
-      <link>https://runxiyu.org/comp/doubleslash/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
-      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
-      <author>runxiyu</author>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Default Apps, 2026</title>
       <link>/posts/2026-default-apps/</link>
       <guid isPermaLink="false">/posts/2026-default-apps/</guid>
@@ -2253,18 +2285,26 @@
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making niche solutions is the point</title>
-      <link>https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/making-niche-solutions-is-the-point/</guid>
-      <description>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <title>It is incorrect to “normalize” // in HTTP URL paths</title>
+      <link>https://runxiyu.org/comp/doubleslash/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
+      <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
+      <author>runxiyu</author>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Ancient of Days</title>
       <link>https://vgel.me/fiction/claude-computer/</link>
       <guid isPermaLink="false">https://vgel.me/fiction/claude-computer/</guid>
       <author>vgel</author>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making niche solutions is the point</title>
+      <link>https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/making-niche-solutions-is-the-point/</guid>
+      <description>I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that &#34;This is the most niche thing I&#39;ve ever seen someone design/print.&#34; That, my friend, is the point: that we can make exactly what we need. And that&#39;s true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that&#39;s used a benchmark to see if the printer is working right. And …</description>
+      <author>ntietz</author>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2362,46 +2402,6 @@
       <description>I really enjoyed this essay about the AI bubble from Cory Doctorow. He does an excellent job of succinctly describing what is happening through the lens of labor and capital- something that I’ve found especially difficult to articulate to fellow tech workers as this bubble has grown more severe. This passage in particular stuck out to me: In automation theory, a “centaur” is a person who is assisted by a machine. Driving a car makes you a centaur, and so does using autocomplete. A reverse …</description>
       <author>vesto</author>
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simulating the ladybug clock puzzle</title>
-      <link>https://austinhenley.com/blog/ladybugclock.html</link>
-      <guid isPermaLink="false">https://austinhenley.com/blog/ladybugclock.html</guid>
-      <description>https://austinhenley.com/blog/ladybugclock.html</description>
-      <author>azhenley</author>
-      <pubDate>Sat, 17 Jan 2026 20:00:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trust AI, But Verify</title>
-      <link>https://jordivillar.com/blog/trust-but-verify/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/trust-but-verify/</guid>
-      <description>I wanted to understand buffer pool replacement policies better. So I asked Claude to run an experiment: implement LRU, Clock, LFU, and ARC, benchmark them under different workloads, tell me which one’s best. Claude wrote 2,000 lines of C++. Compiled it. Ran the benchmarks. Gave me results. “Simple LRU performs just as well as sophisticated ARC.” I almost bought it. The Results Looked Credible Zipfian Workload: LRU: 80.7% hit rate ARC: 80.4% hit rate Buffer Size Scaling: 10% buffer: LRU 66.…</description>
-      <author>jordi</author>
-      <pubDate>Sat, 17 Jan 2026 12:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gradia: The Ultimate Screenshot Tool for GNOME</title>
-      <link>https://christiano.dev/til/gradia/</link>
-      <guid isPermaLink="false">https://christiano.dev/til/gradia/</guid>
-      <description>I’ve been hunting for a screenshot tool that’s actually good for GNOME, and I’m pretty sure I found my new go-to: Gradia . I’ve been using it for a while now, and it’s fantastic. You can add notes, highlight sections, add arrows, very helpful when you’re working on documentation or teaching a tech class.</description>
-      <author>christiano</author>
-      <pubDate>Sat, 17 Jan 2026 08:15:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Testing Rust-based CLI applications using temporary directories</title>
-      <link>https://samuelplumppu.se/blog/testing-rust-cli-apps</link>
-      <guid isPermaLink="false">https://samuelplumppu.se/blog/testing-rust-cli-apps</guid>
-      <description>I recently finished reading the book Command Line Applications in Rust , experimenting with the exercises and adding more test cases. While the testing chapter covers the basics of testing CLI apps , it didn&#39;t show the full potential of the recommended crates assert_cmd , assert_fs and predicates . Specifically, I wondered how to create a temporary directory with multiple nested subdirectories and files. This is very useful for testing CLI tools that scaffold projects. Or in the case of my curre…</description>
-      <author>greenheart</author>
-      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2025 lookback</title>
-      <link>https://www.silvestar.codes/articles/2025-lookback/</link>
-      <guid isPermaLink="false">https://www.silvestar.codes/articles/2025-lookback/</guid>
-      <description>Another solid year for Silvestar. Long-term clients, challenging projects, and a few wins along the way.</description>
-      <author>starbist</author>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
