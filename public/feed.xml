@@ -5,7 +5,23 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Sun, 21 Jun 2026 20:09:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 05:39:53 +0000</lastBuildDate>
+    <item>
+      <title>When it&#39;s the maintainer who&#39;s AI-pilled</title>
+      <link>https://octet-stream.net/b/scb/2026-06-22-when-its-the-maintainer-whos-ai-pilled.html</link>
+      <guid isPermaLink="false">urn:uuid:ad014923-9aba-401f-9e59-c844a41f44df</guid>
+      <description>I had an odd experience the other day with an open source project. That project was dirge . It&#39;s clearly and unashamedly developed with heavy use of generative AI, both in the code and in the PRs. Normally, as a first impression, this would turn me off a project. There&#39;s a lot of low-grade slop out there after all and most of the time I&#39;m looking for the &#34;mature&#34; option if it exists. In this case I came to learn about dirge through an article the author wrote , describing some novel ideas in mak…</description>
+      <author>thombles</author>
+      <pubDate>Mon, 22 Jun 2026 01:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Wayland to work on unprivileged Incus container</title>
+      <link>https://runxiyu.org/comp/incuswl/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
+      <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
+      <author>runxiyu</author>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>No more Standard Search for standard.site</title>
       <link>https://octet-stream.net/b/scb/2026-06-17-no-more-standard-search-for-standard-site.html</link>
@@ -47,6 +63,14 @@
       <pubDate>Tue, 16 Jun 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VER 2026 Results Viewer</title>
       <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
@@ -59,14 +83,6 @@
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
       <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -583,14 +599,6 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is this what life is supposed to feel like?</title>
-      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
-      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
-      <author>Juraj</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Childhood Computing</title>
       <link>https://susam.net/childhood-computing.html</link>
       <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
@@ -599,12 +607,12 @@
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Algorithm Behind Shazam</title>
-      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
-      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
-      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
-      <author>jordi</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+      <title>Is this what life is supposed to feel like?</title>
+      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
+      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
+      <author>Juraj</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Backpressure is all you need</title>
@@ -612,6 +620,14 @@
       <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
       <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
       <author>lucasfcosta</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Algorithm Behind Shazam</title>
+      <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
+      <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
+      <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
+      <author>jordi</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -663,18 +679,18 @@
       <pubDate>Sun, 17 May 2026 21:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>None</title>
-      <link>https://inkdroid.org/2026/05/17/no/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
-      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>None</title>
+      <link>https://inkdroid.org/2026/05/17/no/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
+      <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -918,19 +934,19 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
-      <title>Seeing typos makes me hapy</title>
-      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
-      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
-      <author>Juraj</author>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
       <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
       <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
       <author>dblock</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seeing typos makes me hapy</title>
+      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
+      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
+      <author>Juraj</author>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -942,19 +958,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>From RSS to Atom</title>
-      <link>https://susam.net/from-rss-to-atom.html</link>
-      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
-      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
-      <author>susam</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Podman rootless containers and the Copy Fail exploit</title>
       <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
       <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
       <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
       <author>ggpsv</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From RSS to Atom</title>
+      <link>https://susam.net/from-rss-to-atom.html</link>
+      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
+      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
+      <author>susam</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1046,18 +1062,18 @@
       <pubDate>Mon, 27 Apr 2026 17:22:12 +0000</pubDate>
     </item>
     <item>
-      <title>Bandwidth-Optimized ML-KEM via Speculative Decapsulation</title>
-      <link>https://runxiyu.org/comp/bomsd/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/bomsd/</guid>
-      <description>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</description>
-      <author>runxiyu</author>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A continued, brief, incomplete, and mostly wrong history of programming languages</title>
       <link>https://runxiyu.org/comp/plslander/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/plslander/</guid>
       <description>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</description>
+      <author>runxiyu</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bandwidth-Optimized ML-KEM via Speculative Decapsulation</title>
+      <link>https://runxiyu.org/comp/bomsd/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/bomsd/</guid>
+      <description>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</description>
       <author>runxiyu</author>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1398,18 +1414,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Storing API keys for Claude Code providers in KeePassXC</title>
       <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
       <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
+      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1478,19 +1494,19 @@
       <pubDate>Thu, 19 Mar 2026 07:49:30 +0000</pubDate>
     </item>
     <item>
-      <title>How to get the deployed Git commit hash in Portainer CE</title>
-      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
-      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
-      <author>mrshu</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoClaw on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
       <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
       <author>gabe</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to get the deployed Git commit hash in Portainer CE</title>
+      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
+      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
+      <author>mrshu</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1550,19 +1566,19 @@
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On the Ethics of Ambiguity</title>
-      <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
-      <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
-      <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
-      <author>nicomeemes</author>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Right-Sizing Engineering Teams for AI</title>
       <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
       <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
       <author>dblock</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Ethics of Ambiguity</title>
+      <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
+      <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
+      <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
+      <author>nicomeemes</author>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1710,6 +1726,14 @@
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The apartment you no longer live in</title>
+      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
+      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
+      <author>Juraj</author>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Logit soft-capping</title>
       <link>https://dimtion.fr/wiki/ml/soft-capping/</link>
       <guid isPermaLink="false">https://dimtion.fr/wiki/ml/soft-capping/</guid>
@@ -1722,14 +1746,6 @@
       <link>https://mlich.eu/posts/waves/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/waves/</guid>
       <description>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</description>
-      <author>Juraj</author>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The apartment you no longer live in</title>
-      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
-      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
       <author>Juraj</author>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1926,19 +1942,19 @@
       <pubDate>Sun, 15 Feb 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Coding is the easy part of programming, again</title>
-      <link>https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html</link>
-      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html</guid>
-      <description>&#34;Coding is the easy part of programming&#34; I think it has been 5 years or so since I made that sentence my LinkedIn profile&#39;s headline. It was a catchy phrase to look smart, and also a snarky way to convey a message: that I acknowledge that a software project is not only an artefact, but rather, if not mostly, a socio-technical endeavour; that no software architecture makes sense without considering the educational background, stakes and psycology of the people working on it; that I am willing to …</description>
-      <author>balanza</author>
-      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Alpine Linux packages I maintain</title>
       <link>https://runxiyu.org/comp/aports/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/aports/</guid>
       <description>main/autoconf main/automake main/axel main/groff main/links main/make community/cwm community/dillo community/fluxbox community/ii community/neomutt community/oksh community/progress community/stagit community/unicode-character-database community/znc testing/acmeleaf testing/arahli testing/dacnis testing/sethrawall Please report issues on aports as usual. I don’t have formal regression testing for aports, but a report following Lindenii’s regression testing policy is still helpful.</description>
       <author>runxiyu</author>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding is the easy part of programming, again</title>
+      <link>https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html</link>
+      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html</guid>
+      <description>&#34;Coding is the easy part of programming&#34; I think it has been 5 years or so since I made that sentence my LinkedIn profile&#39;s headline. It was a catchy phrase to look smart, and also a snarky way to convey a message: that I acknowledge that a software project is not only an artefact, but rather, if not mostly, a socio-technical endeavour; that no software architecture makes sense without considering the educational background, stakes and psycology of the people working on it; that I am willing to …</description>
+      <author>balanza</author>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1966,19 +1982,19 @@
       <pubDate>Wed, 11 Feb 2026 11:19:16 +0000</pubDate>
     </item>
     <item>
-      <title>Remote Editing with Kakoune and Sway</title>
-      <link>https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</link>
-      <guid isPermaLink="false">https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</guid>
-      <description>Preview unavailable atm</description>
-      <author>mccd</author>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Hugo can merge multiple sections into one stream</title>
       <link>https://mareksuppa.com/til/hugo-section-merge/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hugo-section-merge/</guid>
       <description>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</description>
       <author>mrshu</author>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote Editing with Kakoune and Sway</title>
+      <link>https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</link>
+      <guid isPermaLink="false">https://mccd.space/posts/26-02-11/remote-sway-kak.gmi</guid>
+      <description>Preview unavailable atm</description>
+      <author>mccd</author>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1990,19 +2006,19 @@
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using an engineering notebook</title>
-      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
-      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Eversource EV Rebate Program Exposed Massachusetts Customer Data</title>
       <link>https://mtlynch.io/eversource-resource-innovations-exposure/</link>
       <guid isPermaLink="false">https://mtlynch.io/eversource-resource-innovations-exposure/</guid>
       <description>I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…</description>
       <author>mtlynch</author>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using an engineering notebook</title>
+      <link>https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom&amp;utm_medium=feed</link>
+      <guid isPermaLink="false">https://ntietz.com/blog/using-an-engineering-notebook/</guid>
+      <description>One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It&#39;s one of the most important things I do to remain productive and effective. Maybe the single most important. And it&#39;s a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don&#39;t, and 34% didn&#39;t know what one is! In two other programming communities I&#39;m in, there were really similar results. This practice i…</description>
+      <author>ntietz</author>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2181,19 +2197,19 @@
       <pubDate>Tue, 27 Jan 2026 00:34:55 +0000</pubDate>
     </item>
     <item>
-      <title>Default Apps, 2026</title>
-      <link>/posts/2026-default-apps/</link>
-      <guid isPermaLink="false">/posts/2026-default-apps/</guid>
-      <description>I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…</description>
-      <author>jptsh</author>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>It is incorrect to “normalize” // in HTTP URL paths</title>
       <link>https://runxiyu.org/comp/doubleslash/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/doubleslash/</guid>
       <description>(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…</description>
       <author>runxiyu</author>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Default Apps, 2026</title>
+      <link>/posts/2026-default-apps/</link>
+      <guid isPermaLink="false">/posts/2026-default-apps/</guid>
+      <description>I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…</description>
+      <author>jptsh</author>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2386,22 +2402,6 @@
       <description>In reply to &amp;lt;a href=&amp;quot;https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86175&amp;quot;&amp;gt;Stan Levin&amp;lt;/a&amp;gt;. No individual &amp;quot;keeps&amp;quot; their own schedules Stan. Other people make the meetings and they are invited to them. Even preschoolers know how meetings work. Apparently, trolls don&amp;#039;t.</description>
       <author>otoolep</author>
       <pubDate>Mon, 12 Jan 2026 22:46:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>YAML Custom Fields</title>
-      <link>https://www.silvestar.codes/articles/yaml-custom-fields/</link>
-      <guid isPermaLink="false">https://www.silvestar.codes/articles/yaml-custom-fields/</guid>
-      <description>Last year, I built a WordPress plugin based on YAML schemas that could be used to define custom fields for templates, partials, and global data in WordPress.</description>
-      <author>starbist</author>
-      <pubDate>Mon, 12 Jan 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bayes theorem and how we talk about medical tests</title>
-      <link>https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom&amp;utm_medium=feed</link>
-      <guid isPermaLink="false">https://ntietz.com/blog/bayes-theorem-medical-tests/</guid>
-      <description>We want medical tests to give us a yes or no answer: you have the disease, you&#39;re cured. We treat them this way, often. My labs came back saying I&#39;m healthy. I have immunity. I&#39;m sick. Absolutely concrete results. The reality is more complicated, and tests do not give you a yes or no. They give you a likelihood. And most of the time, what the results mean for me , the test taker, is not immediately obvious or intuitive. They can mean something quite the opposite of what they seem. I ran into thi…</description>
-      <author>ntietz</author>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

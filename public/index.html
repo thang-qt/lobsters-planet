@@ -22,7 +22,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 225 discovered personal sites. Last built 21 Jun 2026, 20:09 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 227 discovered personal sites. Last built 22 Jun 2026, 05:39 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -31,6 +31,18 @@
       <a href="/posts/">All posts</a>
     </section>
     <div class="entries compact-feed">
+      
+        <article class="entry">
+          <p class="meta">22 Jun 2026 · <a href="/users/thombles/">thombles</a> · Serious Computer Business</p>
+          <h3><a href="https://octet-stream.net/b/scb/2026-06-22-when-its-the-maintainer-whos-ai-pilled.html">When it&#39;s the maintainer who&#39;s AI-pilled</a></h3>
+          <p>I had an odd experience the other day with an open source project. That project was dirge . It&#39;s clearly and unashamedly developed with heavy use of generative AI, both in the code and in the PRs. Normally, as a first impression, this would turn me off a project. There&#39;s a lot of low-grade slop out there after all and most of the time I&#39;m looking for the &#34;mature&#34; option if it exists. In this case I came to learn about dirge through an article the author wrote , describing some novel ideas in mak…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Jun 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/incuswl/">Getting Wayland to work on unprivileged Incus container</a></h3>
+          <p>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</p>
+        </article>
       
         <article class="entry">
           <p class="meta">17 Jun 2026 · <a href="/users/thombles/">thombles</a> · Serious Computer Business</p>
@@ -64,6 +76,12 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
           <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
@@ -72,12 +90,6 @@
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/">Hermes Agent formats its output based on the platform you connect as</a></h3>
           <p>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
         </article>
       
         <article class="entry">
@@ -202,18 +214,6 @@ https://social.ayushnix.com/@ayushn...</a></h3>
           <p class="meta">7 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
           <h3><a href="https://inkdroid.org/2026/06/07/bookmarks/">Weekly Bookmarks</a></h3>
           <p>These are some things I’ve wandered across on the web this week. 🔖 Graph database-ball! Exploring the Game with the graph capabilities of LadybugDB, DuckDB and PostgreSQL This article presents a comparison of graph capabilities in three different databases: DuckDB (v1.4.4 with duckpgq), LadybugDB (0.16.1), and PostgreSQL (19devel). We will load a large volume of records (5,635,972 rows of baseball data covering people, parks, team records, and game play-by-plays) into each database, define …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">7 Jun 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h3><a href="https://social.ayushnix.com/@ayushnix/statuses/01KTFZAS5J1879RSWBNARGXZ68">There&#39;s a community park somewhere and the people around the park have mostly stopped paying attention to it. It has been neg...</a></h3>
-          <p>@ayushnix@social.ayushnix.com made a new post: &#34;There&#39;s a community park somewhere and the people around the park have mostly stopped paying attention to it. It has been neglected for some time and now has wild grass and weeds. Someone who helped built ...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">6 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h3><a href="https://inkdroid.org/2026/06/06/sometimes-it-just-feels-this-way/">Sometimes it just feels this way</a></h3>
-          <p>Sometimes it just feels this way</p>
         </article>
       
     </div>

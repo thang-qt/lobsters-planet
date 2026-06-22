@@ -1,5 +1,27 @@
 [
   {
+    "id": "urn:uuid:ad014923-9aba-401f-9e59-c844a41f44df",
+    "title": "When it's the maintainer who's AI-pilled",
+    "url": "https://octet-stream.net/b/scb/2026-06-22-when-its-the-maintainer-whos-ai-pilled.html",
+    "summary": "I had an odd experience the other day with an open source project. That project was dirge . It's clearly and unashamedly developed with heavy use of generative AI, both in the code and in the PRs. Normally, as a first impression, this would turn me off a project. There's a lot of low-grade slop out there after all and most of the time I'm looking for the \"mature\" option if it exists. In this case I came to learn about dirge through an article the author wrote , describing some novel ideas in mak…",
+    "published_at": "2026-06-22T01:41:04Z",
+    "feed_url": "https://octet-stream.net/feed",
+    "feed_title": "Serious Computer Business",
+    "owner_username": "thombles",
+    "site_url": "https://octet-stream.net/"
+  },
+  {
+    "id": "https://runxiyu.org/comp/incuswl/",
+    "title": "Getting Wayland to work on unprivileged Incus container",
+    "url": "https://runxiyu.org/comp/incuswl/",
+    "summary": "incus config device add \"$CONTAINER\" wayland proxy \\ connect=unix:\"$XDG_RUNTIME_DIR\"/\"$WAYLAND_DISPLAY\" \\ listen=unix:/run/user/1000/wayland-0 \\ bind=container \\ uid=1000 gid=1000 mode=0660 \\ security.uid=1000 security.gid=1000 incus config device add \"$CONTAINER\" gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.",
+    "published_at": "2026-06-21T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "urn:uuid:68a104aa-7a1f-49da-8faa-2f61226b2374",
     "title": "No more Standard Search for standard.site",
     "url": "https://octet-stream.net/b/scb/2026-06-17-no-more-standard-search-for-standard-site.html",
@@ -58,6 +80,17 @@
     "site_url": "https://jacky.wtf"
   },
   {
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -73,17 +106,6 @@
     "title": "Hermes Agent formats its output based on the platform you connect as",
     "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
     "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -803,17 +825,6 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
-    "title": "Is this what life is supposed to feel like?",
-    "url": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
-    "summary": "For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…",
-    "published_at": "2026-05-24T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64",
     "title": "Childhood Computing",
     "url": "https://susam.net/childhood-computing.html",
@@ -826,15 +837,15 @@
     "site_url": "https://susam.net/"
   },
   {
-    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "title": "The Algorithm Behind Shazam",
-    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
+    "id": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
+    "title": "Is this what life is supposed to feel like?",
+    "url": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
+    "summary": "For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…",
+    "published_at": "2026-05-24T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
@@ -846,6 +857,17 @@
     "feed_title": "Lucas F. Costa - Blog",
     "owner_username": "lucasfcosta",
     "site_url": "https://www.lucasfcosta.com"
+  },
+  {
+    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "title": "The Algorithm Behind Shazam",
+    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -915,10 +937,10 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -926,10 +948,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1275,17 +1297,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "title": "Seeing typos makes me hapy",
-    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
-    "published_at": "2026-05-05T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers",
     "title": "Coding with AI Agents is Now a Baseline Expectation for Managers",
     "url": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -1296,6 +1307,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "title": "Seeing typos makes me hapy",
+    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
+    "published_at": "2026-05-05T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://jcs.org/notes/2026/05/04/994840285535244289",
@@ -1309,6 +1331,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -1319,17 +1352,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
   },
   {
     "id": "https://runxiyu.org/comp/ch4ht/",
@@ -1457,10 +1479,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1468,10 +1490,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1948,10 +1970,10 @@
     "site_url": "https://www.philipzucker.com/"
   },
   {
-    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "title": "Claude Code Cheat Sheet",
-    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
-    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
+    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "title": "Storing API keys for Claude Code providers in KeePassXC",
+    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
+    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -1959,10 +1981,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "title": "Storing API keys for Claude Code providers in KeePassXC",
-    "url": "https://mareksuppa.com/til/keepassxc-claude-code-api-keys/",
-    "summary": "A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { \"env\" : { \"ANTHROPIC_BASE_URL\" : \"https://api.minimax.io/anthropic\" , \"ANTHROPIC_AUTH_TOKEN\" : \"\u003cMINIMAX_API_KEY\u003e\" } } …",
+    "id": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "title": "Claude Code Cheat Sheet",
+    "url": "https://mareksuppa.com/links/claude-code-cheat-sheet/",
+    "summary": "A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .",
     "published_at": "2026-03-25T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -2058,17 +2080,6 @@
     "site_url": "https://dev.to/karelvandenbussche"
   },
   {
-    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "title": "How to get the deployed Git commit hash in Portainer CE",
-    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
-    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
     "title": "PicoClaw on a Raspberry Pi 3b+",
     "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
@@ -2078,6 +2089,17 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "title": "How to get the deployed Git commit hash in Portainer CE",
+    "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
+    "summary": "When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H \"X-API-Key: $PORTAINER_API_KEY \" \\ \" $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID \"…",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -2159,17 +2181,6 @@
     "site_url": "https://code.dblock.org/"
   },
   {
-    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "title": "On the Ethics of Ambiguity",
-    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
-    "published_at": "2026-03-11T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
-  },
-  {
     "id": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai",
     "title": "Right-Sizing Engineering Teams for AI",
     "url": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html",
@@ -2180,6 +2191,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -2384,6 +2406,17 @@
     "site_url": "https://ntietz.com"
   },
   {
+    "id": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
+    "title": "The apartment you no longer live in",
+    "url": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
+    "summary": "You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.",
+    "published_at": "2026-03-01T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
+  },
+  {
     "id": "https://dimtion.fr/wiki/ml/soft-capping/",
     "title": "Logit soft-capping",
     "url": "https://dimtion.fr/wiki/ml/soft-capping/",
@@ -2399,17 +2432,6 @@
     "title": "Waves",
     "url": "https://mlich.eu/posts/waves/",
     "summary": "They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions",
-    "published_at": "2026-03-01T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
-    "id": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
-    "title": "The apartment you no longer live in",
-    "url": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
-    "summary": "You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.",
     "published_at": "2026-03-01T00:00:00Z",
     "feed_url": "http://juraj.mlich.eu/index.xml",
     "feed_title": "Juri Mlich",
@@ -2688,17 +2710,6 @@
     "site_url": "https://vito.io"
   },
   {
-    "id": "https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html",
-    "title": "Coding is the easy part of programming, again",
-    "url": "https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html",
-    "summary": "\"Coding is the easy part of programming\" I think it has been 5 years or so since I made that sentence my LinkedIn profile's headline. It was a catchy phrase to look smart, and also a snarky way to convey a message: that I acknowledge that a software project is not only an artefact, but rather, if not mostly, a socio-technical endeavour; that no software architecture makes sense without considering the educational background, stakes and psycology of the people working on it; that I am willing to …",
-    "published_at": "2026-02-15T00:00:00Z",
-    "feed_url": "https://emanuele.decup.is/feed.xml",
-    "feed_title": "a.k.a.balanza",
-    "owner_username": "balanza",
-    "site_url": "https://emanuele.decup.is"
-  },
-  {
     "id": "https://runxiyu.org/comp/aports/",
     "title": "Alpine Linux packages I maintain",
     "url": "https://runxiyu.org/comp/aports/",
@@ -2708,6 +2719,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html",
+    "title": "Coding is the easy part of programming, again",
+    "url": "https://emanuele.decup.is/posts/20260215-coding-is-the-easy-part-of-programming.html",
+    "summary": "\"Coding is the easy part of programming\" I think it has been 5 years or so since I made that sentence my LinkedIn profile's headline. It was a catchy phrase to look smart, and also a snarky way to convey a message: that I acknowledge that a software project is not only an artefact, but rather, if not mostly, a socio-technical endeavour; that no software architecture makes sense without considering the educational background, stakes and psycology of the people working on it; that I am willing to …",
+    "published_at": "2026-02-15T00:00:00Z",
+    "feed_url": "https://emanuele.decup.is/feed.xml",
+    "feed_title": "a.k.a.balanza",
+    "owner_username": "balanza",
+    "site_url": "https://emanuele.decup.is"
   },
   {
     "id": "https://christiano.dev/post/self_hosted_rss/",
@@ -2743,6 +2765,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hugo-section-merge/",
+    "title": "Hugo can merge multiple sections into one stream",
+    "url": "https://mareksuppa.com/til/hugo-section-merge/",
+    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
+    "published_at": "2026-02-11T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
     "title": "Remote Editing with Kakoune and Sway",
     "url": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
@@ -2753,17 +2786,6 @@
     "feed_title": "mccd ߸",
     "owner_username": "mccd",
     "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hugo-section-merge/",
-    "title": "Hugo can merge multiple sections into one stream",
-    "url": "https://mareksuppa.com/til/hugo-section-merge/",
-    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
-    "published_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mareksuppa.com/links/write-the-paper-first/",
@@ -2777,6 +2799,17 @@
     "site_url": "https://mareksuppa.com"
   },
   {
+    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
+    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
+    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
+    "published_at": "2026-02-09T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
     "title": "Using an engineering notebook",
     "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
@@ -2787,17 +2820,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://jordivillar.com/reads/2026w05/",
@@ -3046,17 +3068,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "/posts/2026-default-apps/",
-    "title": "Default Apps, 2026",
-    "url": "/posts/2026-default-apps/",
-    "summary": "I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
-  },
-  {
     "id": "https://runxiyu.org/comp/doubleslash/",
     "title": "It is incorrect to “normalize” // in HTTP URL paths",
     "url": "https://runxiyu.org/comp/doubleslash/",
@@ -3066,6 +3077,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "/posts/2026-default-apps/",
+    "title": "Default Apps, 2026",
+    "url": "/posts/2026-default-apps/",
+    "summary": "I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…",
+    "published_at": "2026-01-27T00:00:00Z",
+    "feed_url": "https://www.jpt.sh/index.xml",
+    "feed_title": "jpt.sh",
+    "owner_username": "jptsh",
+    "site_url": "https://jpt.sh"
   },
   {
     "id": "https://vgel.me/fiction/claude-computer/",
@@ -3336,28 +3358,5 @@
     "feed_title": "Comments for Philip O'Toole",
     "owner_username": "otoolep",
     "site_url": "https://www.philipotoole.com"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/yaml-custom-fields/",
-    "title": "YAML Custom Fields",
-    "url": "https://www.silvestar.codes/articles/yaml-custom-fields/",
-    "summary": "Last year, I built a WordPress plugin based on YAML schemas that could be used to define custom fields for templates, partials, and global data in WordPress.",
-    "published_at": "2026-01-12T11:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
-  },
-  {
-    "id": "https://ntietz.com/blog/bayes-theorem-medical-tests/",
-    "title": "Bayes theorem and how we talk about medical tests",
-    "url": "https://ntietz.com/blog/bayes-theorem-medical-tests/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "We want medical tests to give us a yes or no answer: you have the disease, you're cured. We treat them this way, often. My labs came back saying I'm healthy. I have immunity. I'm sick. Absolutely concrete results. The reality is more complicated, and tests do not give you a yes or no. They give you a likelihood. And most of the time, what the results mean for me , the test taker, is not immediately obvious or intuitive. They can mean something quite the opposite of what they seem. I ran into thi…",
-    "published_at": "2026-01-12T00:00:00Z",
-    "updated_at": "2026-01-12T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
   }
 ]

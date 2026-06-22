@@ -23,9 +23,21 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 21 Jun 2026, 20:09 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 22 Jun 2026, 05:39 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">15 Apr 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
+          <h2><a href="https://jordivillar.com/notes/act-like-what-you-want-to-be/">Act like what you want to be</a></h2>
+          <p>I used to roll my eyes at people who started a new sport and immediately bought all the gear. Day one of running and they’re already showing up with top-of-the-line shoes, a smartwatch, wireless earbuds, and the most aerodynamic outfit money could buy. What a waste, I’d think. They haven’t even proven they like this yet. I’ve changed my mind. Buying the gear is a statement. Not to others, to yourself. It’s how some people say: I believe I can do this, and I’m going to. That belief is…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Apr 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
+          <h2><a href="https://runxiyu.org/comp/nginx/">My nginx configuration</a></h2>
+          <p>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">13 Apr 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
@@ -173,14 +185,14 @@
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
-          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
         </article>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
-          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
         </article>
       
         <article class="entry">
@@ -232,15 +244,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
-          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">19 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h2><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h2>
           <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
         </article>
       
         <article class="entry">
@@ -286,15 +298,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
-          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
-          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">11 Mar 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
           <h2><a href="https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html">Right-Sizing Engineering Teams for AI</a></h2>
           <p>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
+          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
+          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
         </article>
       
         <article class="entry">
@@ -313,18 +325,6 @@
           <p class="meta">10 Mar 2026 · <a href="/users/gaborjbernat/">gaborjbernat</a> · Bernát Gábor — Python packaging, tox, virtualenv &amp; open source</p>
           <h2><a href="https://bernat.tech/posts/securing-python-supply-chain/">Defense in Depth: A Practical Guide to Python Supply Chain Security</a></h2>
           <p>&amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;alert-title&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fa-solid fa-circle-info&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; TLDR:&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Layer your defenses and don&amp;amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using &amp;lt;code&amp;gt;uv lock&amp;lt;/code&amp;gt; or &amp;lt;code&amp;gt;uv pip compile --generate-hashes&amp;lt;/code&amp;gt; so nobody can …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">9 Mar 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
-          <h2><a href="https://jordivillar.com/reads/2026w10/">2026W10</a></h2>
-          <p>Nobody Gets Promoted for Simplicity — The Engineer A vs Engineer B comparison is painfully recognizable. A ships a 50-line solution in days, B builds an event-driven architecture over three weeks, and B gets the promotion because “designed scalable architecture” reads better in a review doc than “solved it simply.” The line that stuck: “anyone can add complexity. It takes experience and confidence to leave it out.” I’ve been on both sides of this — writing the simple solution a…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">9 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h2>
-          <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
         </article>
       
     </div>
