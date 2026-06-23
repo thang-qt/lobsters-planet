@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Tue, 23 Jun 2026 10:16:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 15:39:55 +0000</lastBuildDate>
     <item>
       <title>Build a fully local voice assistant in 2026</title>
       <link>https://blog.platypush.tech/article/Local-voice-assistant</link>
@@ -191,6 +191,14 @@
       <pubDate>Tue, 16 Jun 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VER 2026 Results Viewer</title>
       <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
@@ -203,14 +211,6 @@
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
       <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -247,18 +247,18 @@
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bookmarks - data, design, vis, book</title>
-      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tree 2</title>
       <link>https://inkdroid.org/2026/06/14/tree-2/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
       <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bookmarks - data, design, vis, book</title>
+      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -663,18 +663,18 @@
       <pubDate>Sun, 31 May 2026 10:52:03 +0000</pubDate>
     </item>
     <item>
-      <title>Untitled</title>
-      <link>https://inkdroid.org/2026/05/31/untitled/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
-      <description>Untitled by John Summers</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untitled</title>
+      <link>https://inkdroid.org/2026/05/31/untitled/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
+      <description>Untitled by John Summers</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -871,19 +871,19 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Childhood Computing</title>
-      <link>https://susam.net/childhood-computing.html</link>
-      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
-      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
-      <author>susam</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Is this what life is supposed to feel like?</title>
       <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
       <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
       <author>Juraj</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Childhood Computing</title>
+      <link>https://susam.net/childhood-computing.html</link>
+      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
+      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
+      <author>susam</author>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1079,6 +1079,14 @@
       <pubDate>Fri, 15 May 2026 12:51:24 +0000</pubDate>
     </item>
     <item>
+      <title>Doc Watson &amp; David Grisman - Doc &amp; Dawg</title>
+      <link>https://bpapillon.com/recommended/doc-and-dawg/</link>
+      <guid isPermaLink="false">https://bpapillon.com/recommended/doc-and-dawg/</guid>
+      <description>I think I’m going to buy a mandolin.</description>
+      <author>bpapillon</author>
+      <pubDate>Fri, 15 May 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Why does the SSPX need bishops?</title>
       <link>https://www.sacredheartsc.com/blog/why-does-the-sspx-need-bishops/</link>
       <guid isPermaLink="false">https://www.sacredheartsc.com/blog/why-does-the-sspx-need-bishops/</guid>
@@ -1095,19 +1103,19 @@
       <pubDate>Thu, 14 May 2026 23:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Commenting Guidelines</title>
-      <link>https://susam.net/commenting.html</link>
-      <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
-      <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
-      <author>susam</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Refactoring English: Month 17</title>
       <link>https://mtlynch.io/retrospectives/2026/05/</link>
       <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
       <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
       <author>mtlynch</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Commenting Guidelines</title>
+      <link>https://susam.net/commenting.html</link>
+      <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
+      <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
+      <author>susam</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1302,19 +1310,19 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
-      <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
-      <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
-      <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
-      <author>dblock</author>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Seeing typos makes me hapy</title>
       <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
       <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
       <author>Juraj</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
+      <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
+      <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
+      <author>dblock</author>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1326,6 +1334,14 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
@@ -1334,12 +1350,12 @@
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <title>Rift - Christopher Meiklejohn</title>
+      <link>https://bpapillon.com/recommended/rift/</link>
+      <guid isPermaLink="false">https://bpapillon.com/recommended/rift/</guid>
+      <description>“Rift: For thirty years I programmed with Phish on, every day. In 2026, the music is out of phase with the work.” by Christopher Meiklejohn - as good a description as I’ve read about what was different in the Before Times.</description>
+      <author>bpapillon</author>
+      <pubDate>Sun, 03 May 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>QuickQWERTY 1.2.3</title>
@@ -1387,6 +1403,14 @@
       <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
       <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
       <author>philzook</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug Bash 2: Attack of the Clones</title>
+      <link>/bug-bash-two/</link>
+      <guid isPermaLink="false">/bug-bash-two</guid>
+      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
+      <author>amw-zero</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1438,18 +1462,18 @@
       <pubDate>Mon, 27 Apr 2026 17:22:12 +0000</pubDate>
     </item>
     <item>
-      <title>A continued, brief, incomplete, and mostly wrong history of programming languages</title>
-      <link>https://runxiyu.org/comp/plslander/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/plslander/</guid>
-      <description>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</description>
-      <author>runxiyu</author>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bandwidth-Optimized ML-KEM via Speculative Decapsulation</title>
       <link>https://runxiyu.org/comp/bomsd/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/bomsd/</guid>
       <description>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</description>
+      <author>runxiyu</author>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A continued, brief, incomplete, and mostly wrong history of programming languages</title>
+      <link>https://runxiyu.org/comp/plslander/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/plslander/</guid>
+      <description>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</description>
       <author>runxiyu</author>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1534,19 +1558,19 @@
       <pubDate>Sun, 19 Apr 2026 14:44:10 +0000</pubDate>
     </item>
     <item>
-      <title>C++ Alternative Operator Representations</title>
-      <link>https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</link>
-      <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
-      <description>Equivalent ways of writing the same tokens.</description>
-      <author>pyj</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>An ode to Strawberry Music Player</title>
       <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
       <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
       <description>[Read more]</description>
       <author>vesto</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>C++ Alternative Operator Representations</title>
+      <link>https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</link>
+      <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
+      <description>Equivalent ways of writing the same tokens.</description>
+      <author>pyj</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1558,19 +1582,19 @@
       <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
-      <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
-      <link>https://www.philipzucker.com/thin_egraph/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
-      <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
-      <author>philzook</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenClaw On Raspberry Pi 4</title>
       <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
       <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
       <author>gabe</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
+      <link>https://www.philipzucker.com/thin_egraph/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
+      <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
+      <author>philzook</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1798,19 +1822,19 @@
       <pubDate>Fri, 27 Mar 2026 01:50:55 +0000</pubDate>
     </item>
     <item>
-      <title>PicoBot on a Raspberry Pi 3b+</title>
-      <link>https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</guid>
-      <description>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</description>
-      <author>gabe</author>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
       <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
       <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
       <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
       <author>statox</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PicoBot on a Raspberry Pi 3b+</title>
+      <link>https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</guid>
+      <description>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</description>
+      <author>gabe</author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1846,19 +1870,19 @@
       <pubDate>Tue, 24 Mar 2026 07:47:45 +0000</pubDate>
     </item>
     <item>
-      <title>Ada&#39;s Super Powered Enums</title>
-      <link>https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</link>
-      <guid isPermaLink="false">https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</guid>
-      <description>A quick look at the power of Ada&#39;s enums.</description>
-      <author>pyj</author>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using --wraps to get tab completions on fish shell aliases</title>
       <link>https://mareksuppa.com/til/fish-wraps-flag/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/fish-wraps-flag/</guid>
       <description>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</description>
       <author>mrshu</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ada&#39;s Super Powered Enums</title>
+      <link>https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</link>
+      <guid isPermaLink="false">https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</guid>
+      <description>A quick look at the power of Ada&#39;s enums.</description>
+      <author>pyj</author>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1918,19 +1942,19 @@
       <pubDate>Thu, 19 Mar 2026 07:49:30 +0000</pubDate>
     </item>
     <item>
-      <title>How to get the deployed Git commit hash in Portainer CE</title>
-      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
-      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
-      <author>mrshu</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoClaw on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
       <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
       <author>gabe</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to get the deployed Git commit hash in Portainer CE</title>
+      <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
+      <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
+      <author>mrshu</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2150,6 +2174,14 @@
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The apartment you no longer live in</title>
+      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
+      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
+      <author>Juraj</author>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Waves</title>
       <link>https://mlich.eu/posts/waves/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/waves/</guid>
@@ -2163,14 +2195,6 @@
       <guid isPermaLink="false">https://emanuele.decup.is/posts/20260301-wok-030-is-out.html</guid>
       <description>I just released Wok 0.3.0 , whose main addition per se is worktree support. Nevertheless, I realized I never introduced the project properly. Time to do it. Introducing: Wok Wok is a CLI application that helps managing coding projects on the local laptop. It&#39;s an opinionated set of smart scripts that basically help me moving around project folders without thinking and typing too much. It does so by using some conventions and leveraging shell&#39;s autocomplete features. The name wok is at the same t…</description>
       <author>balanza</author>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The apartment you no longer live in</title>
-      <link>https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/the-apartment-you-no-longer-live-in/</guid>
-      <description>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</description>
-      <author>Juraj</author>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2334,12 +2358,12 @@
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Docs can be exported to Markdown via URL change</title>
-      <link>https://mareksuppa.com/til/google-docs-markdown-export/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/google-docs-markdown-export/</guid>
-      <description>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</description>
-      <author>mrshu</author>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <title>Record Low Crime Rates Are Real</title>
+      <link>https://bpapillon.com/recommended/record-low-crime-rates/</link>
+      <guid isPermaLink="false">https://bpapillon.com/recommended/record-low-crime-rates/</guid>
+      <description>“Record Low Crime Rates Are Real, Not Just Reporting Bias Or Improved Medical Care” on Astral Codex Ten - helpful data and analysis.</description>
+      <author>bpapillon</author>
+      <pubDate>Mon, 16 Feb 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TIL: Docker log rotation</title>
@@ -2347,6 +2371,14 @@
       <guid isPermaLink="false">https://ntietz.com/blog/til-docker-log-rotation/</guid>
       <description>Last week [1] , when I went to publish my blog post, I ran into a surprising error: I was out of disk space. My server is used only for hosting a couple of small static sites, so I was surprised. None of the content is very large, why is the disk full? A little investigation found the culprit. Starting from / and then drilling in using du -h -d 1 . showed me that a Docker folder was using most of the server&#39;s 25 GB disk. None of my container images are very large, so I checked in side and found …</description>
       <author>ntietz</author>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Docs can be exported to Markdown via URL change</title>
+      <link>https://mareksuppa.com/til/google-docs-markdown-export/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/google-docs-markdown-export/</guid>
+      <description>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</description>
+      <author>mrshu</author>
       <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2372,38 +2404,6 @@
       <description>&#34;Coding is the easy part of programming&#34; I think it has been 5 years or so since I made that sentence my LinkedIn profile&#39;s headline. It was a catchy phrase to look smart, and also a snarky way to convey a message: that I acknowledge that a software project is not only an artefact, but rather, if not mostly, a socio-technical endeavour; that no software architecture makes sense without considering the educational background, stakes and psycology of the people working on it; that I am willing to …</description>
       <author>balanza</author>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alpine Linux packages I maintain</title>
-      <link>https://runxiyu.org/comp/aports/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/aports/</guid>
-      <description>main/autoconf main/automake main/axel main/groff main/links main/make community/cwm community/dillo community/fluxbox community/ii community/neomutt community/oksh community/progress community/stagit community/unicode-character-database community/znc testing/acmeleaf testing/arahli testing/dacnis testing/sethrawall Please report issues on aports as usual. I don’t have formal regression testing for aports, but a report following Lindenii’s regression testing policy is still helpful.</description>
-      <author>runxiyu</author>
-      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>My Experience with Self-Hosted RSS solution</title>
-      <link>https://christiano.dev/post/self_hosted_rss/</link>
-      <guid isPermaLink="false">https://christiano.dev/post/self_hosted_rss/</guid>
-      <description>As a privacy advocate and someone who believes in data sovereignty, I’ve been on a constant challenge to maintain control over my digital life. I I love reading news and staying well-informed, making me an avid news consumer. I actively support quality content producers by subscribing or donating money regularly, ensuring that I contribute to the sustainability of my favourite sources. After setting up Miniflux on my own server, I’ve completely transformed how I stay informed.</description>
-      <author>christiano</author>
-      <pubDate>Sat, 14 Feb 2026 14:11:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 14</title>
-      <link>https://mtlynch.io/retrospectives/2026/02/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/02/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights A new strategy for finding book readers is having positive results. I had a breakthrough experience by letting an AI agent run in unrestricted mode. I��…</description>
-      <author>mtlynch</author>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Webmentions with batteries included</title>
-      <link>https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included</link>
-      <guid isPermaLink="false">https://blog.fabiomanganiello.com/article/webmentions-with-batteries-included</guid>
-      <description>A zero-cost library to integrate Webmentions in your website</description>
-      <author>blacklight</author>
-      <pubDate>Wed, 11 Feb 2026 11:19:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
