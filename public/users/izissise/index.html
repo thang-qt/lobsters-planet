@@ -52,12 +52,6 @@
           <p>An opportunity I use systemfd in combination with watchexec to run a web server project with a tight development loop. While I&#39;m using Rust and Cargo for the examples in this post, this technique works for any compiled backend language. The compiled program can reuse the already opened listening socket so web clients see no disruption (the socket is never closed). systemfd will keep the listening socket open on the specified port while watchexec will recompile the server and run it on source fil…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">25 Jan 2026 · Hugues Blog</p>
-          <h3><a href="/posts/gitignoreallowlist/">Allowlist for .gitignore</a></h3>
-          <p>At my current job, while reorganizing our company&#39;s root git monorepo, we decided to adopt a .gitignore allowlist pattern. I had previously experimented with this approach on raconn , but this monorepo is significantly larger. The complexity required a dedicated script to generate the .gitignore file effectively. Why use an allowlist? Pros: Pure state: You know exactly what is being tracked and must explicitly write tracking patterns. No unintended files: Prevents accidental commits of secrets, …</p>
-        </article>
-      
     </div>
   </main>
 

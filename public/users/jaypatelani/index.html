@@ -33,7 +33,7 @@
         <div><dt>Stories</dt><dd>193</dd></div>
         <div><dt>Comments</dt><dd>113</dd></div>
         <div><dt>Profile checked</dt><dd>22 Jun 2026</dd></div>
-        
+        <div><dt>Feed refreshed</dt><dd>23 Jun 2026</dd></div>
       </dl>
       <p class="about">BSD hobbyist. NetBSD/OS108 user</p>
     </section>
@@ -46,7 +46,125 @@
     </section>
     <div class="entries">
       
-        <p>No recent posts found for this user yet.</p>
+        <article class="entry">
+          <p class="meta">22 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1622-weekly-echoes/18">Weekly Echoes</a></h3>
+          <p>Weekly Echoes #2026W25: IT news, round-up, week 25; from 06/15 to 06/21. https://huc.fr.eu.org/en/news/week-25-2026/</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/863-bsd-news-thread/346">BSD news thread</a></h3>
+          <p>Jay I used AI to create artworks for NetBSD but eventually i found it has scientifically negative impact on human psyche Indeed, various studies seem to indicate that the &#34;psychological&#34; impact becomes negative.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1651-nextbsd/1">NextBSD</a></h3>
+          <p>I&#39;m sorry. And I hate to be the one to start this thread, but I&#39;m genuinely curious what people think about this project. https://nextbsd.org/ Put aside for a moment that an LLM is being used in developing NextBSD, what merits does it have conceptually? Joe Maloney seems to have some good experience and is a trusted developer in some communities so I wonder if this gives anyone here faith in this project.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1650-kde/1">kde</a></h3>
+          <p>I want to install KDE and Gnome, system shows processing and don&#39;t continue, what&#39;s wrong?</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1643-i915-driver-crashes-netbsd-on-late-ivy-bridge-cpu-with-hd-graphics-2500/2">i915 Driver crashes NetBSD on late Ivy Bridge cpu with HD Graphics 2500</a></h3>
+          <p>Kanninha This looks like a new one--haven&#39;t seen this before. At the debugger prompt, reboot , then userconf disable i915drmkms* at the bootloader prompt. This&#39;ll let you collect that panic message using dmesg . File a PR with the details.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1637-netbsd-11-rc4-xrandr-issue/8">NetBSD 11 RC4 xrandr issue</a></h3>
+          <p>r0ller Try compiling the kernel with DIAGNOSTIC , LOCKDEBUG , DEBUG . That seems to help. Bump the PR too. This seems like a bug that&#39;s easily fixed by someone who knows the code.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">20 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1649-nanobsd-equivalent-on-netbsd/4">NanoBSD equivalent on NetBSD</a></h3>
+          <p>oOiOo smolBSD</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1649-nanobsd-equivalent-on-netbsd/1">NanoBSD equivalent on NetBSD</a></h3>
+          <p>Is there a tool equivalent to NanoBSD (FreeBSD) with NetBSD? That is, a tool that allows building hardened (read-only), reduced images. Since the future of the armv7 platform under FreeBSD is uncertain, I prefer to be proactive. Regards</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1646-raid5-slow-write-on-big-disks/15">Raid5 slow write on big disks?</a></h3>
+          <p>smurfd $ doas newfs -O2 -s 21900g -b 65536 -F NAME=island That command above isn&#39;t correct: you don&#39;t need to specify a size ( newfs will get it from the kernel); and you shouldn&#39;t use -F (which is meant for disk image files--not block devices). Just do: doas newfs -O2 NAME=island # or, /dev/rdk7 BTW, there was a thread about write performance on HW RAID a while back. Try turning WAPBL on as recommended there .</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1648-cant-boot-in-headless/2">Can&#39;t boot in headless</a></h3>
+          <p>0x10 Your setup has no usable console (no DRMKMS, no EFI FB), so the kernel&#39;s panicing. Edit /boot.cfg and add consdev=com0 , then you should get a console on the serial port (if you have the HW). Turn wscons=NO in /etc/rc.conf In /etc/ttys , set all the ttyE? entries to off</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1648-cant-boot-in-headless/1">Can&#39;t boot in headless</a></h3>
+          <p>I&#39;m trying to boot without VGA/keyboard into NetBSD 10.1/amd64 and while trying to connect via ssh i get to know that host is unreachable. While connected thru VGA everything boots fine. I&#39;m disabling any video in /etc/boot.cfg as follows: menu=Boot single user:rndseed /var/db/entropy-file;boot -s menu=Drop to boot prompt:prompt default=1 userconf=disable radeon* userconf=disable i915drmkms* userconf=disable drmkms* userconf=disable nouveau* clear=1 timeout=3 As it was suggested here: https://ma…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1640-wine9/20">Wine9</a></h3>
+          <p>I finally got the computer put together but it doesn&#39;t want to boot NetBSD. I guess I&#39;ll have to use another machine. :/ I guess I&#39;ll wait to post till I&#39;ve got wine5 going.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1647-typo-in-nc-makefile/6">Typo in nc Makefile</a></h3>
+          <p>LibreQuest yes and Thanks for pointing out bug. 🙂 https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/nc/Makefile.diff?r1=1.6;r2=1.7;f=h</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1647-typo-in-nc-makefile/1">Typo in nc Makefile</a></h3>
+          <p>So, if I am just reading through the source on github for NetBSD and I notice a tpyo in a make file should I just pretend I don&#39;t see it or send a some kind of bug report? /src/usr.bin/nc/Makefile Line 9 I&#39;m pretty sure that should say &#34;crypto&#34; rather than &#34;cryto&#34;.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1645-checking-if-a-port-is-open-using-nmap-doesnt-work/11">Checking if a port is open using Nmap doesn&#39;t work</a></h3>
+          <p>I wondered why it worked elsewhere but not at my place. I concluded that if there was a problem, it might be due to my network. My network consists solely of a router that also acts as a hub and a DHCP server. I performed a hard reset on my router and was surprised to find that everything worked afterward. What I don’t understand is how the same problem could have occurred on two different machines with two different network interfaces (Wi-Fi and Ethernet) and two different IP addresses??? Tha…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">6 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/350-saugns-cli-audio-synthesis-on-bsd/22">saugns: cli audio synthesis on *BSD</a></h3>
+          <p>JuvenalUrbino Anything needed from me for that? Anyway, sounds good. Sorry for the delay. v0.5.7c done today. This also marks GitHub no longer mirroring stuff (Codeberg is main repo for years now).</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">6 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1641-onemanbsd-self-containing-os-all-source-inside/3">OnemanBSD Self containing OS (all source inside)</a></h3>
+          <p>So here are some specifics of what I did till this moment. First rebuilt all OpenBSD from source and reinstalled it on my machine to have a clean start prepare and change the installer script for the new tgz files that I want in (os source, xenocara source, ports tree, ports sources, settings .. so on) prepare installer binaries to change the default partition sizes so the machine to have space for the new packages and enough space so to rebuild itself. change defaults of the installer so it inc…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1646-raid5-slow-write-on-big-disks/1">Raid5 slow write on big disks?</a></h3>
+          <p>Hey, i have created a raid5 on a NAS with 4 drives(not ssd&#39;s), and NetBSD (10.1 stable) is installed on a SSD disk. The writing of files seems very slow, i have had the same setup with FreeBSD earlier, used a zraid. Unfortunately i did not do a speed test before starting to use netbsd... and i dont have exact numbers, but i do see it being slower... Im farely sure it is some kind of silly user error! But how to find What is the tricky part. Suggestions are welcomed! I notice big difference if i …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Jun 2026 · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1645-checking-if-a-port-is-open-using-nmap-doesnt-work/1">Checking if a port is open using Nmap doesn&#39;t work</a></h3>
+          <p>I&#39;m running NetBSD 11.0 RC4 and I want to check whether port 5353 on a host on my network is open for the UDP protocol. I&#39;m using the following command: nmap -sU -p 5353 192.168.1.225 I&#39;m not getting any results. Just to clarify, the npf firewall is not active. Could someone tell me why this isn&#39;t working?</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">3 Jun 2026 · UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1642-restore-home-directory-lost/3">Restore /home directory lost</a></h3>
+          <p>Just want to say thanks for replying. I&#39;ll play around with this idea. Forgot about &#34;raw&#34; blocks. This seems to be direction I was trying to find with built-in utils. If I loose some or all the data, its ok. Fgrep is good touch and great idea since the small amount I do want to recover will probably be found using fgrep.</p>
+        </article>
       
     </div>
   </main>

@@ -58,18 +58,6 @@
           <p>In a previous post I talked about unit testing for speed, and in particular testing for big-O scalability . The next step is catching cases where you’ve changed not the scalability, but the direct efficiency of your code. If your first thought is “how this is different from running benchmarks?”, well, good point! An excellent starting point for performance is implementing a benchmark that runs automatically in CI, on every single pull request. If you haven’t got that, you probably want t…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">30 Jan 2026 · Python⇒Speed</p>
-          <h3><a href="https://pythonspeed.com/articles/base-image-python-docker-images/">The best Docker base image for your Python application (February 2026)</a></h3>
-          <p>When you’re building a Docker image for your Python application, you’re building on top of an existing image—and there are many possible choices for the resulting container. There are OS images like Ubuntu, and there are the many different variants of the python base image. And now there’s a new choice, installing Python using uv , which allows you to use any base image you’d like. Which one should you use? Which one is better? There are many choices, and it may not be obvious which is…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">29 Jan 2026 · Python⇒Speed</p>
-          <h3><a href="https://pythonspeed.com/articles/numpy-parallelism/">Speeding up NumPy with parallelism</a></h3>
-          <p>If your NumPy code is too slow, what next? One option is taking advantage of the multiple cores on your CPU: using a thread pool to do work in parallel. Another option is to tune your code so it’s less wasteful. Or, since these are two different sources of speed, you can do both. In this article I’ll cover: A simple example of making a NumPy algorithm parallel. A separate kind of optimization, making a more efficient implementation in Numba. How to get even more speed by using both at once. …</p>
-        </article>
-      
     </div>
   </main>
 

@@ -23,6 +23,30 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1622/18",
+    "title": "Weekly Echoes",
+    "url": "https://www.unitedbsd.com/d/1622-weekly-echoes/18",
+    "summary": "Weekly Echoes #2026W25: IT news, round-up, week 25; from 06/15 to 06/21. https://huc.fr.eu.org/en/news/week-25-2026/",
+    "published_at": "2026-06-22T09:19:59Z",
+    "updated_at": "2026-06-22T09:19:59Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/863/346",
+    "title": "BSD news thread",
+    "url": "https://www.unitedbsd.com/d/863-bsd-news-thread/346",
+    "summary": "Jay I used AI to create artworks for NetBSD but eventually i found it has scientifically negative impact on human psyche Indeed, various studies seem to indicate that the \"psychological\" impact becomes negative.",
+    "published_at": "2026-06-22T08:25:34Z",
+    "updated_at": "2026-06-22T08:25:34Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://inkdroid.org/2026/06/22/bookmarks/",
     "title": "Bookmarks - book, ai, map, llm",
     "url": "https://inkdroid.org/2026/06/22/bookmarks/",
@@ -67,6 +91,18 @@
     "site_url": "https://inkdroid.org"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1651/1",
+    "title": "NextBSD",
+    "url": "https://www.unitedbsd.com/d/1651-nextbsd/1",
+    "summary": "I'm sorry. And I hate to be the one to start this thread, but I'm genuinely curious what people think about this project. https://nextbsd.org/ Put aside for a moment that an LLM is being used in developing NextBSD, what merits does it have conceptually? Joe Maloney seems to have some good experience and is a trusted developer in some communities so I wonder if this gives anyone here faith in this project.",
+    "published_at": "2026-06-21T00:06:03Z",
+    "updated_at": "2026-06-21T00:06:03Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://runxiyu.org/comp/incuswl/",
     "title": "Getting Wayland to work on unprivileged Incus container",
     "url": "https://runxiyu.org/comp/incuswl/",
@@ -76,6 +112,78 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1650/1",
+    "title": "kde",
+    "url": "https://www.unitedbsd.com/d/1650-kde/1",
+    "summary": "I want to install KDE and Gnome, system shows processing and don't continue, what's wrong?",
+    "published_at": "2026-06-20T15:17:34Z",
+    "updated_at": "2026-06-20T15:17:34Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1643/2",
+    "title": "i915 Driver crashes NetBSD on late Ivy Bridge cpu with HD Graphics 2500",
+    "url": "https://www.unitedbsd.com/d/1643-i915-driver-crashes-netbsd-on-late-ivy-bridge-cpu-with-hd-graphics-2500/2",
+    "summary": "Kanninha This looks like a new one--haven't seen this before. At the debugger prompt, reboot , then userconf disable i915drmkms* at the bootloader prompt. This'll let you collect that panic message using dmesg . File a PR with the details.",
+    "published_at": "2026-06-20T10:05:01Z",
+    "updated_at": "2026-06-20T10:05:01Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1637/8",
+    "title": "NetBSD 11 RC4 xrandr issue",
+    "url": "https://www.unitedbsd.com/d/1637-netbsd-11-rc4-xrandr-issue/8",
+    "summary": "r0ller Try compiling the kernel with DIAGNOSTIC , LOCKDEBUG , DEBUG . That seems to help. Bump the PR too. This seems like a bug that's easily fixed by someone who knows the code.",
+    "published_at": "2026-06-20T09:57:20Z",
+    "updated_at": "2026-06-20T09:57:20Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1649/4",
+    "title": "NanoBSD equivalent on NetBSD",
+    "url": "https://www.unitedbsd.com/d/1649-nanobsd-equivalent-on-netbsd/4",
+    "summary": "oOiOo smolBSD",
+    "published_at": "2026-06-20T09:39:05Z",
+    "updated_at": "2026-06-20T09:39:05Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1649/1",
+    "title": "NanoBSD equivalent on NetBSD",
+    "url": "https://www.unitedbsd.com/d/1649-nanobsd-equivalent-on-netbsd/1",
+    "summary": "Is there a tool equivalent to NanoBSD (FreeBSD) with NetBSD? That is, a tool that allows building hardened (read-only), reduced images. Since the future of the armv7 platform under FreeBSD is uncertain, I prefer to be proactive. Regards",
+    "published_at": "2026-06-19T10:59:21Z",
+    "updated_at": "2026-06-19T10:59:21Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1646/15",
+    "title": "Raid5 slow write on big disks?",
+    "url": "https://www.unitedbsd.com/d/1646-raid5-slow-write-on-big-disks/15",
+    "summary": "smurfd $ doas newfs -O2 -s 21900g -b 65536 -F NAME=island That command above isn't correct: you don't need to specify a size ( newfs will get it from the kernel); and you shouldn't use -F (which is meant for disk image files--not block devices). Just do: doas newfs -O2 NAME=island # or, /dev/rdk7 BTW, there was a thread about write performance on HW RAID a while back. Try turning WAPBL on as recommended there .",
+    "published_at": "2026-06-17T13:37:02Z",
+    "updated_at": "2026-06-17T13:37:02Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "urn:uuid:68a104aa-7a1f-49da-8faa-2f61226b2374",
@@ -98,6 +206,18 @@
     "feed_title": "Comments for Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1648/2",
+    "title": "Can't boot in headless",
+    "url": "https://www.unitedbsd.com/d/1648-cant-boot-in-headless/2",
+    "summary": "0x10 Your setup has no usable console (no DRMKMS, no EFI FB), so the kernel's panicing. Edit /boot.cfg and add consdev=com0 , then you should get a console on the serial port (if you have the HW). Turn wscons=NO in /etc/rc.conf In /etc/ttys , set all the ttyE? entries to off",
+    "published_at": "2026-06-17T06:51:38Z",
+    "updated_at": "2026-06-17T06:51:38Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://www.jacky.wtf/links/2026/Jun/dissent-summer/",
@@ -124,6 +244,18 @@
     "site_url": "https://ntietz.com"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1648/1",
+    "title": "Can't boot in headless",
+    "url": "https://www.unitedbsd.com/d/1648-cant-boot-in-headless/1",
+    "summary": "I'm trying to boot without VGA/keyboard into NetBSD 10.1/amd64 and while trying to connect via ssh i get to know that host is unreachable. While connected thru VGA everything boots fine. I'm disabling any video in /etc/boot.cfg as follows: menu=Boot single user:rndseed /var/db/entropy-file;boot -s menu=Drop to boot prompt:prompt default=1 userconf=disable radeon* userconf=disable i915drmkms* userconf=disable drmkms* userconf=disable nouveau* clear=1 timeout=3 As it was suggested here: https://ma…",
+    "published_at": "2026-06-16T22:24:00Z",
+    "updated_at": "2026-06-16T22:24:00Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://www.jacky.wtf/links/2026/Jun/i-love-boosters/",
     "title": "'I Love Boosters' Is a Black Marxist Movie",
     "url": "https://www.jacky.wtf/links/2026/Jun/i-love-boosters/",
@@ -134,17 +266,6 @@
     "feed_title": "Jacky Alciné's linklog",
     "owner_username": "jalcine",
     "site_url": "https://jacky.wtf"
-  },
-  {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -169,6 +290,40 @@
     "site_url": "https://mareksuppa.com"
   },
   {
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop/",
+    "title": "FreeBSD 15 on a Laptop",
+    "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop/",
+    "summary": "A guide to installing FreeBSD on a laptop with KDE 6.",
+    "published_at": "2026-06-15T00:00:00Z",
+    "feed_url": "https://www.sacredheartsc.com/feed.xml",
+    "feed_title": "Cullum Smith's Blog",
+    "owner_username": "cullum",
+    "site_url": "https://www.sacredheartsc.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1640/20",
+    "title": "Wine9",
+    "url": "https://www.unitedbsd.com/d/1640-wine9/20",
+    "summary": "I finally got the computer put together but it doesn't want to boot NetBSD. I guess I'll have to use another machine. :/ I guess I'll wait to post till I've got wine5 going.",
+    "published_at": "2026-06-14T16:32:00Z",
+    "updated_at": "2026-06-14T16:32:00Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://jordivillar.com/reads/2026w23/",
     "title": "2026W23",
     "url": "https://jordivillar.com/reads/2026w23/",
@@ -180,10 +335,10 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-2/",
-    "title": "Tree 2",
-    "url": "https://inkdroid.org/2026/06/14/tree-2/",
-    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -202,26 +357,15 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
+    "id": "https://inkdroid.org/2026/06/14/tree-2/",
+    "title": "Tree 2",
+    "url": "https://inkdroid.org/2026/06/14/tree-2/",
+    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
     "owner_username": "edsu",
     "site_url": "https://inkdroid.org"
-  },
-  {
-    "id": "https://mareksuppa.com/til/load-bearing/",
-    "title": "\"Load-bearing\" is becoming LLM speak",
-    "url": "https://mareksuppa.com/til/load-bearing/",
-    "summary": "A civil-engineering metaphor seems to have become part of Claude\u0026rsquo;s LLM speak.",
-    "published_at": "2026-06-14T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
@@ -235,6 +379,29 @@
     "site_url": "https://pyjarrett.github.io/"
   },
   {
+    "id": "https://mareksuppa.com/til/load-bearing/",
+    "title": "\"Load-bearing\" is becoming LLM speak",
+    "url": "https://mareksuppa.com/til/load-bearing/",
+    "summary": "A civil-engineering metaphor seems to have become part of Claude\u0026rsquo;s LLM speak.",
+    "published_at": "2026-06-14T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1647/6",
+    "title": "Typo in nc Makefile",
+    "url": "https://www.unitedbsd.com/d/1647-typo-in-nc-makefile/6",
+    "summary": "LibreQuest yes and Thanks for pointing out bug. 🙂 https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/nc/Makefile.diff?r1=1.6;r2=1.7;f=h",
+    "published_at": "2026-06-13T14:27:33Z",
+    "updated_at": "2026-06-13T14:27:33Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KV0ECFEBHAPFPY2JAZWH7M3P",
     "title": "GNU folks surpassed my expectations 🥹, they've started advertising Claude for Anthropic.\n\nhttps://social.ayushnix.com/@ayushn...",
     "url": "https://social.ayushnix.com/@ayushnix/statuses/01KV0ECFEBHAPFPY2JAZWH7M3P",
@@ -244,6 +411,18 @@
     "feed_title": "Posts from @ayushnix@social.ayushnix.com",
     "owner_username": "ayushnix",
     "site_url": "https://social.ayushnix.com/@ayushnix"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1647/1",
+    "title": "Typo in nc Makefile",
+    "url": "https://www.unitedbsd.com/d/1647-typo-in-nc-makefile/1",
+    "summary": "So, if I am just reading through the source on github for NetBSD and I notice a tpyo in a make file should I just pretend I don't see it or send a some kind of bug report? /src/usr.bin/nc/Makefile Line 9 I'm pretty sure that should say \"crypto\" rather than \"cryto\".",
+    "published_at": "2026-06-13T07:47:07Z",
+    "updated_at": "2026-06-13T07:47:07Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://www.jacky.wtf/essays/2026/where-they-at/",
@@ -335,6 +514,18 @@
     "site_url": "https://social.ayushnix.com/@ayushnix"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1645/11",
+    "title": "Checking if a port is open using Nmap doesn't work",
+    "url": "https://www.unitedbsd.com/d/1645-checking-if-a-port-is-open-using-nmap-doesnt-work/11",
+    "summary": "I wondered why it worked elsewhere but not at my place. I concluded that if there was a problem, it might be due to my network. My network consists solely of a router that also acts as a hub and a DHCP server. I performed a hard reset on my router and was surprised to find that everything worked afterward. What I don’t understand is how the same problem could have occurred on two different machines with two different network interfaces (Wi-Fi and Ethernet) and two different IP addresses??? Tha…",
+    "published_at": "2026-06-08T08:13:26Z",
+    "updated_at": "2026-06-08T08:13:26Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KTJJBB5C33E38YH8YF3WJ7TT",
     "title": "slop pushers complaining about slop overwhelming them and how it \"kills something that made open source magical for so many o...",
     "url": "https://social.ayushnix.com/@ayushnix/statuses/01KTJJBB5C33E38YH8YF3WJ7TT",
@@ -413,6 +604,30 @@
     "site_url": "https://social.ayushnix.com/@ayushnix"
   },
   {
+    "id": "https://www.unitedbsd.com/d/350/22",
+    "title": "saugns: cli audio synthesis on *BSD",
+    "url": "https://www.unitedbsd.com/d/350-saugns-cli-audio-synthesis-on-bsd/22",
+    "summary": "JuvenalUrbino Anything needed from me for that? Anyway, sounds good. Sorry for the delay. v0.5.7c done today. This also marks GitHub no longer mirroring stuff (Codeberg is main repo for years now).",
+    "published_at": "2026-06-06T17:49:17Z",
+    "updated_at": "2026-06-06T17:49:17Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1641/3",
+    "title": "OnemanBSD Self containing OS (all source inside)",
+    "url": "https://www.unitedbsd.com/d/1641-onemanbsd-self-containing-os-all-source-inside/3",
+    "summary": "So here are some specifics of what I did till this moment. First rebuilt all OpenBSD from source and reinstalled it on my machine to have a clean start prepare and change the installer script for the new tgz files that I want in (os source, xenocara source, ports tree, ports sources, settings .. so on) prepare installer binaries to change the default partition sizes so the machine to have space for the new packages and enough space so to rebuild itself. change defaults of the installer so it inc…",
+    "published_at": "2026-06-06T05:28:19Z",
+    "updated_at": "2026-06-06T05:28:19Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://inkdroid.org/2026/06/06/sometimes-it-just-feels-this-way/",
     "title": "Sometimes it just feels this way",
     "url": "https://inkdroid.org/2026/06/06/sometimes-it-just-feels-this-way/",
@@ -433,6 +648,18 @@
     "feed_title": "Ricard Bejarano – Site Reliability Engineer",
     "owner_username": "ricardbejarano",
     "site_url": "https://www.bejarano.io"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1646/1",
+    "title": "Raid5 slow write on big disks?",
+    "url": "https://www.unitedbsd.com/d/1646-raid5-slow-write-on-big-disks/1",
+    "summary": "Hey, i have created a raid5 on a NAS with 4 drives(not ssd's), and NetBSD (10.1 stable) is installed on a SSD disk. The writing of files seems very slow, i have had the same setup with FreeBSD earlier, used a zraid. Unfortunately i did not do a speed test before starting to use netbsd... and i dont have exact numbers, but i do see it being slower... Im farely sure it is some kind of silly user error! But how to find What is the tricky part. Suggestions are welcomed! I notice big difference if i …",
+    "published_at": "2026-06-04T23:29:00Z",
+    "updated_at": "2026-06-04T23:29:00Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238387",
@@ -492,6 +719,18 @@
     "site_url": "https://social.ayushnix.com/@ayushnix"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1645/1",
+    "title": "Checking if a port is open using Nmap doesn't work",
+    "url": "https://www.unitedbsd.com/d/1645-checking-if-a-port-is-open-using-nmap-doesnt-work/1",
+    "summary": "I'm running NetBSD 11.0 RC4 and I want to check whether port 5353 on a host on my network is open for the UDP protocol. I'm using the following command: nmap -sU -p 5353 192.168.1.225 I'm not getting any results. Just to clarify, the npf firewall is not active. Could someone tell me why this isn't working?",
+    "published_at": "2026-06-03T20:08:39Z",
+    "updated_at": "2026-06-03T20:08:39Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://www.jacky.wtf/essays/2026/nice-for-what/",
     "title": "Being nice for free is a bad idea",
     "url": "https://www.jacky.wtf/essays/2026/nice-for-what/",
@@ -513,6 +752,18 @@
     "feed_title": "inkdroid",
     "owner_username": "edsu",
     "site_url": "https://inkdroid.org"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1642/3",
+    "title": "Restore /home directory lost",
+    "url": "https://www.unitedbsd.com/d/1642-restore-home-directory-lost/3",
+    "summary": "Just want to say thanks for replying. I'll play around with this idea. Forgot about \"raw\" blocks. This seems to be direction I was trying to find with built-in utils. If I loose some or all the data, its ok. Fgrep is good touch and great idea since the small amount I do want to recover will probably be found using fgrep.",
+    "published_at": "2026-06-03T00:11:12Z",
+    "updated_at": "2026-06-03T00:11:12Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238385",
@@ -671,6 +922,18 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1639/4",
+    "title": "Tenacity",
+    "url": "https://www.unitedbsd.com/d/1639-tenacity/4",
+    "summary": "Audacity has not been updated since before their plan to introduce telemetry several years ago, because of strange conditions like mandating switching to a fork of wxwidgets.",
+    "published_at": "2026-05-31T10:52:03Z",
+    "updated_at": "2026-05-31T10:52:03Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://inkdroid.org/2026/05/31/untitled/",
     "title": "Untitled",
     "url": "https://inkdroid.org/2026/05/31/untitled/",
@@ -737,6 +1000,18 @@
     "site_url": "https://runxiyu.org"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1643/1",
+    "title": "i915 Driver crashes NetBSD on late Ivy Bridge cpu with HD Graphics 2500",
+    "url": "https://www.unitedbsd.com/d/1643-i915-driver-crashes-netbsd-on-late-ivy-bridge-cpu-with-hd-graphics-2500/1",
+    "summary": "I don't have much to say, This only happens on this Computer Linux boots fine and X.org only works with the intel driver OpenBSD boots fine but I cannot start X NetBSD boots fine until the i915 driver is loaded https://files.catbox.moe/zwsif3.mp4 It says something about overclock there although all the settings on the motherboard are in auto",
+    "published_at": "2026-05-29T05:03:40Z",
+    "updated_at": "2026-05-29T05:03:40Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://runxiyu.org/comp/llmenv/",
     "title": "Environment variables indicative of coding agents",
     "url": "https://runxiyu.org/comp/llmenv/",
@@ -746,6 +1021,18 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1642/1",
+    "title": "Restore /home directory lost",
+    "url": "https://www.unitedbsd.com/d/1642-restore-home-directory-lost/1",
+    "summary": "I'm running Open, and didn't have a current backup. While running update to Current, I made a mistake. Had to reinstall OS. I forgot that /home would be overwritten and lost some files. I reformatted and reinstalled OS. I'm sure I used the default partition offsets during system install so /home is the same where it is now. I found Ports has a util called Testdisk and Photorec. It also runs on other OSes. I removed the drive from the system and tried running Testdisk on it hoping it would pick u…",
+    "published_at": "2026-05-28T20:22:40Z",
+    "updated_at": "2026-05-28T20:22:40Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://bernat.tech/posts/blanket-deterministic-threading/",
@@ -759,10 +1046,46 @@
     "site_url": "http://bernat.tech"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://www.unitedbsd.com/d/1641/1",
+    "title": "OnemanBSD Self containing OS (all source inside)",
+    "url": "https://www.unitedbsd.com/d/1641-onemanbsd-self-containing-os-all-source-inside/1",
+    "summary": "I made this based on OpenBSD 7.8. However my idea is to create an OS that has all the sources of the OS, xenocala and even the apps inside the installer image. It can rebuild itself offline on an old laptop for less than 24 hours. This turns the user into OS developer as he can fix and maintain his own OS having a stable environment. All bloat that prevents one man from understanding the logic is removed. This means no rust, no gtk4, no qt and no wayland. Ports and apps are patched and fixed to …",
+    "published_at": "2026-05-28T17:29:25Z",
+    "updated_at": "2026-05-28T17:29:25Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/452/408",
+    "title": "Show us your screen",
+    "url": "https://www.unitedbsd.com/d/452-show-us-your-screen/408",
+    "summary": "It is OnemanBSD 🙂",
+    "published_at": "2026-05-28T17:15:35Z",
+    "updated_at": "2026-05-28T17:15:35Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1640/1",
+    "title": "Wine9",
+    "url": "https://www.unitedbsd.com/d/1640-wine9/1",
+    "summary": "I have installed Wine9 and made the changes to sysctl as noted in the package install notes. I am albe to launt winecfg, which installed Wine Mono, but the command \"wine\" is not found. I have searched /usr/bin and /usr/sbin and other locations but am unable to find the wine program. I tried using locate as well as whereis but still don't know what command to use in order to launch wine. Thanks!",
+    "published_at": "2026-05-28T04:42:48Z",
+    "updated_at": "2026-05-28T04:42:48Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -770,10 +1093,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -812,6 +1135,18 @@
     "feed_title": "Comments for Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1639/1",
+    "title": "Tenacity",
+    "url": "https://www.unitedbsd.com/d/1639-tenacity/1",
+    "summary": "Is there a package for Tenacity on NetBSD or does it compile from source on NetBSD? I would appreciate any help. I am currently moving away from FreeBSD to NetBSD due to the lack of an \"AI\" policy from the core team. I use Audacity but understand that Tenacity has a no \"AI\" policy in place and would like to move over to Tenacity. Thanks!",
+    "published_at": "2026-05-27T02:18:52Z",
+    "updated_at": "2026-05-27T02:18:52Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://runxiyu.org/comp/shallowbundle/",
@@ -915,15 +1250,16 @@
     "site_url": "http://juraj.mlich.eu"
   },
   {
-    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "title": "Backpressure is all you need",
-    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://www.lucasfcosta.com/feed.xml",
-    "feed_title": "Lucas F. Costa - Blog",
-    "owner_username": "lucasfcosta",
-    "site_url": "https://www.lucasfcosta.com"
+    "id": "https://www.unitedbsd.com/d/1637/1",
+    "title": "NetBSD 11 RC4 xrandr issue",
+    "url": "https://www.unitedbsd.com/d/1637-netbsd-11-rc4-xrandr-issue/1",
+    "summary": "Hi All, After installing RC4 my earlier issue with my AMD Radeon R9 Nano vanished since the amdgpu driver kicks in at last but the only resolution xrandr can identify and use is 1024x768. However, earlier I could use 1920x1080. I tried setting what cvt and gtf suggest without any success. The first error I get is: xrandr: screen cannot be larger than 1024x768 Which I could not fix via xrandr but in arandr I managed to adjust the size. However, after that when selecting the new 1920x1080 mode, I …",
+    "published_at": "2026-05-23T14:46:32Z",
+    "updated_at": "2026-05-23T14:46:32Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
@@ -937,6 +1273,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "title": "Backpressure is all you need",
+    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://www.lucasfcosta.com/feed.xml",
+    "feed_title": "Lucas F. Costa - Blog",
+    "owner_username": "lucasfcosta",
+    "site_url": "https://www.lucasfcosta.com"
+  },
+  {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
     "title": "Don't Roll Your Own ...",
     "url": "https://susam.net/do-not-roll-your-own.html",
@@ -947,6 +1294,18 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1416/8",
+    "title": "Making ATI Mobility Radeon 7500(r200) work on OpenBSD",
+    "url": "https://www.unitedbsd.com/d/1416-making-ati-mobility-radeon-7500r200-work-on-openbsd/8",
+    "summary": "Found NVIDIA libglvnd , was able to compile and install it in /usr/local. Restarted my compile of mesa-amber which succeeded now and is also installed in /usr/local. But how do I get xenodm or X11 to actually use mesa-amber ?",
+    "published_at": "2026-05-21T08:56:58Z",
+    "updated_at": "2026-05-21T08:56:58Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://philipotoole.com/?p=8315",
@@ -1004,10 +1363,34 @@
     "site_url": "http://austinhenley.com/"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://www.unitedbsd.com/d/1636/2",
+    "title": "KabyLake Graphics i915drmkms Panic",
+    "url": "https://www.unitedbsd.com/d/1636-kabylake-graphics-i915drmkms-panic/2",
+    "summary": "it was in my GENERIC conf intelfb was commented out",
+    "published_at": "2026-05-17T15:31:15Z",
+    "updated_at": "2026-05-17T15:31:15Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1636/1",
+    "title": "KabyLake Graphics i915drmkms Panic",
+    "url": "https://www.unitedbsd.com/d/1636-kabylake-graphics-i915drmkms-panic/1",
+    "summary": "KabyLake Graphics i915drmkms Panic in absolutestity on Kernel Compiles right now i have it running in efifb. Normal circumstances the kernel binary kernel is OK* i just have to reset my iMacs NvRam every boot and i can see what it does it reaches initializing the driver goes garbled and then black/nothing and the whole computers locked up not even a panic message. If someone can help me fix this thatted be awesome andll mean i can actually build a working system. its the iris plus 640 and 2017 i…",
+    "published_at": "2026-05-17T10:49:57Z",
+    "updated_at": "2026-05-17T10:49:57Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1015,10 +1398,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1058,6 +1441,30 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1634/3",
+    "title": "2FA on this forum",
+    "url": "https://www.unitedbsd.com/d/1634-2fa-on-this-forum/3",
+    "summary": "2FA is one of those things that makes me glad I don't have that much time left in this world.",
+    "published_at": "2026-05-16T15:35:31Z",
+    "updated_at": "2026-05-16T15:35:31Z",
+    "feed_url": "https://www.unitedbsd.com/atom",
+    "feed_title": "UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1635/1",
+    "title": "NetBSD 11.0 RC4 Local Mail Issue",
+    "url": "https://www.unitedbsd.com/d/1635-netbsd-110-rc4-local-mail-issue/1",
+    "summary": "As a FYI, on RC4 I was having an issue with local mail. I created a PR and the PR was just fixed. If you are not receiving mail on your local system from local users, this PR will have the fix. You will need to update File /etc/postfix/main.cf and restart mail. https://gnats.netbsd.org/cgi-bin/query-pr-single.pl?number=60267 This is the fix Martin posted to the PR: ` --- external/ibm-public/postfix/dist/conf/main.cf 9 May 2026 18:49:13 -0000 1.12 +++ external/ibm-public/postfix/dist/conf/main.cf…",
+    "published_at": "2026-05-16T12:57:58Z",
+    "updated_at": "2026-05-16T12:57:58Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://philipotoole.com/?p=8297",
@@ -1105,6 +1512,29 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1634/1",
+    "title": "2FA on this forum",
+    "url": "https://www.unitedbsd.com/d/1634-2fa-on-this-forum/1",
+    "summary": "It seems 2FA not exists on this forum, is-not-it?! If Y, how can access to this feature?",
+    "published_at": "2026-05-15T12:51:24Z",
+    "updated_at": "2026-05-15T12:51:24Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
+    "id": "https://www.sacredheartsc.com/blog/why-does-the-sspx-need-bishops/",
+    "title": "Why does the SSPX need bishops?",
+    "url": "https://www.sacredheartsc.com/blog/why-does-the-sspx-need-bishops/",
+    "summary": "The experiment of tradition lives on.",
+    "published_at": "2026-05-15T00:00:00Z",
+    "feed_url": "https://www.sacredheartsc.com/feed.xml",
+    "feed_title": "Cullum Smith's Blog",
+    "owner_username": "cullum",
+    "site_url": "https://www.sacredheartsc.com/"
+  },
+  {
     "id": "https://bernat.tech/posts/pycon-us-2026-typing-summit-recap/",
     "title": "PyCon US 2026 Typing Summit Recap",
     "url": "https://bernat.tech/posts/pycon-us-2026-typing-summit-recap/",
@@ -1114,6 +1544,18 @@
     "feed_title": "Bernát Gábor — Python packaging, tox, virtualenv \u0026 open source",
     "owner_username": "gaborjbernat",
     "site_url": "http://bernat.tech"
+  },
+  {
+    "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
+    "title": "Commenting Guidelines",
+    "url": "https://susam.net/commenting.html",
+    "summary": "Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "updated_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://mtlynch.io/retrospectives/2026/05/",
@@ -1127,16 +1569,16 @@
     "site_url": "https://mtlynch.io"
   },
   {
-    "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
-    "title": "Commenting Guidelines",
-    "url": "https://susam.net/commenting.html",
-    "summary": "Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "updated_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
+    "id": "https://www.unitedbsd.com/d/1632/1",
+    "title": "NetBSD 11.0 RC 4",
+    "url": "https://www.unitedbsd.com/d/1632-netbsd-110-rc-4/1",
+    "summary": "NetBSD 11.0 RC 4 is out. I upgraded this morning and so far no issues. https://blog.netbsd.org/tnf/entry/netbsd_11_0_rc4_available",
+    "published_at": "2026-05-13T16:24:46Z",
+    "updated_at": "2026-05-13T16:24:46Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -1193,6 +1635,17 @@
     "feed_title": "Philip O'Toole",
     "owner_username": "otoolep",
     "site_url": "https://www.philipotoole.com"
+  },
+  {
+    "id": "https://www.sacredheartsc.com/blog/sspx-this-isnt-1988/",
+    "title": "This isn't 1988",
+    "url": "https://www.sacredheartsc.com/blog/sspx-this-isnt-1988/",
+    "summary": "These SSPX excommunications will stick around.",
+    "published_at": "2026-05-13T00:00:00Z",
+    "feed_url": "https://www.sacredheartsc.com/feed.xml",
+    "feed_title": "Cullum Smith's Blog",
+    "owner_username": "cullum",
+    "site_url": "https://www.sacredheartsc.com/"
   },
   {
     "id": "urn:uuid:6ac5f9dc-deac-4b58-9f50-4fad8bfba5a0",
@@ -1330,6 +1783,18 @@
     "site_url": "https://octet-stream.net/"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1631/1",
+    "title": "ifconfig: exec_matches: No such file or directory",
+    "url": "https://www.unitedbsd.com/d/1631-ifconfig-exec-matches-no-such-file-or-directory/1",
+    "summary": "I recently (literally just this second) installed NetBSD/amd64 10.1 on my ThinkPad T400, but I am having issues with WiFi. My WiFi card is supported by the iwn(4) driver, and it worked just fine in the installer; but when when booting, I get this error in my dmesg: [ 170.004879] iwn0: autoconfiguration error: could not get firmware handle iwlwifi-5000-2.ucode [ 170.004879] iwn0: autoconfiguration error: could not read firmware [ 762.464956] iwn0: autoconfiguration error: could not get firmware h…",
+    "published_at": "2026-05-08T00:31:41Z",
+    "updated_at": "2026-05-08T00:31:41Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "urn:uuid:800b3a89-946c-4c78-b575-4262f7589885",
     "title": "Wander Console 0.6.0",
     "url": "https://susam.net/code/news/wander/0.6.0.html",
@@ -1351,6 +1816,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://randoneering.tech/blog/pgfirstaid/500stars/",
+    "title": "pgFirstAid - hits 500 stars!",
+    "url": "https://randoneering.tech/blog/pgfirstaid/500stars/",
+    "summary": "Couple, Too, Tree During Boise Code Camp this past weekend, pgFirstAid hit 500 stars on Github! Honestly, I really did not think it would gain the attention it has. Not to mention, in the thick of the AI craze. Especially, when everything I start to build triggers the typical impostor syndrome responses as the barrier of entry shrinks when a kid is armed with their parent’s credit card and access to any frontier model. Yet, I feel like I have learned so much more putting this together. I am no…",
+    "published_at": "2026-05-07T14:00:00Z",
+    "feed_url": "https://randoneering.tech/index.xml",
+    "feed_title": "Randoneering",
+    "owner_username": "randoneering",
+    "site_url": "https://randoneering.tech"
   },
   {
     "id": "https://jcs.org/notes/2026/05/05/995089977752510465",
@@ -1421,17 +1897,6 @@
     "site_url": "https://garrido.io"
   },
   {
-    "id": "https://runxiyu.org/comp/ch4ht/",
-    "title": "On (not) using “cryptographic hashes” for hash table keys",
-    "url": "https://runxiyu.org/comp/ch4ht/",
-    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
     "title": "QuickQWERTY 1.2.3",
     "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
@@ -1442,6 +1907,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://runxiyu.org/comp/ch4ht/",
+    "title": "On (not) using “cryptographic hashes” for hash table keys",
+    "url": "https://runxiyu.org/comp/ch4ht/",
+    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -1523,6 +1999,18 @@
     "site_url": "https://www.lifewaza.com/"
   },
   {
+    "id": "https://www.unitedbsd.com/d/1629/1",
+    "title": "Tailscale on DragonFly",
+    "url": "https://www.unitedbsd.com/d/1629-tailscale-on-dragonfly/1",
+    "summary": "I'm about to run a challenge where a Linux user uses a BSD for a couple weeks. Right now, I have FreeBSD set up, but I want to go for extra credit and use a different BSD as well as Free. My whole personal network is tied together with Tailscale, but I don't know if DragonFly supports it. Is the Tailscale on DragonFly situation bad enough that I should go with a different BSD or is this easy enough to get running in a couple days?",
+    "published_at": "2026-04-28T21:04:30Z",
+    "updated_at": "2026-04-28T21:04:30Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
+  },
+  {
     "id": "https://vito.io/articles/leaving-github",
     "title": "On Leaving GitHub",
     "url": "https://vito.io/articles/2026-04-28-leaving-github.html",
@@ -1546,10 +2034,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1557,10 +2045,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1588,6 +2076,18 @@
     "feed_title": "Notes - joshua stein",
     "owner_username": "jcs",
     "site_url": "https://jcs.org"
+  },
+  {
+    "id": "https://www.unitedbsd.com/d/1628/1",
+    "title": "NetBSD 11.0 sh changes (esp. history)",
+    "url": "https://www.unitedbsd.com/d/1628-netbsd-110-sh-changes-esp-history/1",
+    "summary": "I'm on 10.1 and not yet ready to test 11.0rcN but maybe someone who has can help me out here: the latest NetBSD sh manual says HISTAPPEND If set to one of `true', `yes', `on', or an integral value greater than zero, and if HISTFILE is also set, and is a valid history file, then as commands are read and added to the his- tory buffer, they are also written to the HISTFILE named. HISTFILE When assigned to in an interactive shell the contents of the file named by expanding the new value of HISTFILE …",
+    "published_at": "2026-04-24T01:53:36Z",
+    "updated_at": "2026-04-24T01:53:36Z",
+    "feed_url": "https://www.unitedbsd.com/atom/discussions",
+    "feed_title": "New discussions in UnitedBSD",
+    "owner_username": "jaypatelani",
+    "site_url": "https://www.unitedbsd.com/"
   },
   {
     "id": "https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html",
@@ -1632,6 +2132,17 @@
     "feed_title": "Comments for Philip O'Toole",
     "owner_username": "otoolep",
     "site_url": "https://www.philipotoole.com"
+  },
+  {
+    "id": "https://randoneering.tech/about/",
+    "title": "About",
+    "url": "https://randoneering.tech/about/",
+    "summary": "My name is Justin Frye and I’m an independent infrastructure engineer operating as Randoneering, LLC . I help startups and small businesses build, improve, and stabilize the systems their business depends on. Some teams need to build from scratch. Some need to clean up an environment that grew fast and never got enough structure. Some need a staff engineer to step in for a season and help them get through a migration, reliability issue, or operational mess without making a full-time hire.",
+    "published_at": "2026-04-20T00:00:00Z",
+    "feed_url": "https://randoneering.tech/index.xml",
+    "feed_title": "Randoneering",
+    "owner_username": "randoneering",
+    "site_url": "https://randoneering.tech"
   },
   {
     "id": "https://bernat.tech/posts/pytexas-2026-recap/",
@@ -1767,6 +2278,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://www.tyil.nl/post/2026/04/15/my-homelab-tyilnet/",
+    "title": "My Homelab: TyilNET",
+    "url": "https://www.tyil.nl/post/2026/04/15/my-homelab-tyilnet/",
+    "summary": "In my last post, I noted that I was pretty happy with the current state of my homelab setup. In this post, I want to expand on what I have, and how I have it configured. The main part of the setup is a 15U server rack, with a 4U machine for simple storage, a 4U machine as dedicated database, and 1U with 3 NUCs for compute. Lastly, I use 2 raspberry pi machines to act as ingress machines.",
+    "published_at": "2026-04-15T00:00:00Z",
+    "feed_url": "https://www.tyil.nl/index.xml",
+    "feed_title": "About Me on Tyil",
+    "owner_username": "tyil",
+    "site_url": "https://www.tyil.nl/"
+  },
+  {
     "id": "https://runxiyu.org/comp/nginx/",
     "title": "My nginx configuration",
     "url": "https://runxiyu.org/comp/nginx/",
@@ -1778,17 +2300,6 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://mlich.eu/posts/one-thing/",
-    "title": "One Thing",
-    "url": "https://mlich.eu/posts/one-thing/",
-    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
     "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
     "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
@@ -1798,6 +2309,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://mlich.eu/posts/one-thing/",
+    "title": "One Thing",
+    "url": "https://mlich.eu/posts/one-thing/",
+    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
+    "published_at": "2026-04-13T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "urn:uuid:00337a02-b7ee-433b-b0e8-ad125637978d",
@@ -2014,17 +2536,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
-    "title": "Using a systemd timer to monitor my laptop's battery",
-    "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
-    "summary": "I've been using i3 as my window manager for the past 7 years. It's great and you should check it out! However, one issue I have is that by default I don't get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn't check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…",
-    "published_at": "2026-03-27T00:00:00Z",
-    "feed_url": "https://www.statox.fr/feed.xml",
-    "feed_title": "The stuff I do",
-    "owner_username": "statox",
-    "site_url": "http://www.statox.fr"
-  },
-  {
     "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
     "title": "PicoBot on a Raspberry Pi 3b+",
     "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
@@ -2034,6 +2545,17 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
+    "title": "Using a systemd timer to monitor my laptop's battery",
+    "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
+    "summary": "I've been using i3 as my window manager for the past 7 years. It's great and you should check it out! However, one issue I have is that by default I don't get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn't check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.statox.fr/feed.xml",
+    "feed_title": "The stuff I do",
+    "owner_username": "statox",
+    "site_url": "http://www.statox.fr"
   },
   {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
@@ -2081,17 +2603,6 @@
     "site_url": "https://dev.to/karelvandenbussche"
   },
   {
-    "id": "https://mareksuppa.com/til/fish-wraps-flag/",
-    "title": "Using --wraps to get tab completions on fish shell aliases",
-    "url": "https://mareksuppa.com/til/fish-wraps-flag/",
-    "summary": "When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \\ --wraps = 'claude' \\ --description 'Run Claude Code against MiniMax M2.7 API' ANTHROPIC_BASE_URL = \"https://api.minimax.io/anthropic\" \\ ANTHROPIC_MODEL = \"MiniMax-M2.7\" \\ claude $argv end The --wraps='claude' tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit \u003cTab\u003e , you g…",
-    "published_at": "2026-03-24T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://pyjarrett.github.io/2026/03/24/super-powered-enums.html",
     "title": "Ada's Super Powered Enums",
     "url": "https://pyjarrett.github.io/2026/03/24/super-powered-enums.html",
@@ -2101,6 +2612,17 @@
     "feed_title": "pyj's blog",
     "owner_username": "pyj",
     "site_url": "https://pyjarrett.github.io/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/fish-wraps-flag/",
+    "title": "Using --wraps to get tab completions on fish shell aliases",
+    "url": "https://mareksuppa.com/til/fish-wraps-flag/",
+    "summary": "When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \\ --wraps = 'claude' \\ --description 'Run Claude Code against MiniMax M2.7 API' ANTHROPIC_BASE_URL = \"https://api.minimax.io/anthropic\" \\ ANTHROPIC_MODEL = \"MiniMax-M2.7\" \\ claude $argv end The --wraps='claude' tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit \u003cTab\u003e , you g…",
+    "published_at": "2026-03-24T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html",
@@ -2156,6 +2678,17 @@
     "feed_title": "Juri Mlich",
     "owner_username": "Juraj",
     "site_url": "http://juraj.mlich.eu"
+  },
+  {
+    "id": "https://randoneering.tech/blog/random/theworldwelivein/",
+    "title": "The World We Live In",
+    "url": "https://randoneering.tech/blog/random/theworldwelivein/",
+    "summary": "We are only in March of 2026 This March I had the pleasure of speaking at SCALE 23x, making this the first public speaking events that I have done in my industry. I only have positive things to say about the experience and I truly look forward to next year. While this was my first speaking event, it will certainly not be my last. Being at SCALE this year felt a bit different; I was coming in as a speaker, yes, but I also had made so many new friends in the communities that I was going to meet fo…",
+    "published_at": "2026-03-20T00:00:00Z",
+    "feed_url": "https://randoneering.tech/index.xml",
+    "feed_title": "Randoneering",
+    "owner_username": "randoneering",
+    "site_url": "https://randoneering.tech"
   },
   {
     "id": "https://dev.to/karelvandenbussche/why-personas-still-matter-in-the-age-of-ai-26ce",
@@ -2271,6 +2804,17 @@
     "site_url": "https://code.dblock.org/"
   },
   {
+    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "title": "On the Ethics of Ambiguity",
+    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
+    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
+    "published_at": "2026-03-11T00:00:00Z",
+    "feed_url": "https://nicomee.com/rss.xml",
+    "feed_title": "Nico Kokonas",
+    "owner_username": "nicomeemes",
+    "site_url": "https://nicomee.com"
+  },
+  {
     "id": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai",
     "title": "Right-Sizing Engineering Teams for AI",
     "url": "https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html",
@@ -2281,17 +2825,6 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
-  },
-  {
-    "id": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "title": "On the Ethics of Ambiguity",
-    "url": "https://nicomee.com/blog/on-the-ethics-of-ambiguity/",
-    "summary": "Simone de Beauvoir's portrait of defective existential attitudes, and how they haunt the memory of youth.",
-    "published_at": "2026-03-11T00:00:00Z",
-    "feed_url": "https://nicomee.com/rss.xml",
-    "feed_title": "Nico Kokonas",
-    "owner_username": "nicomeemes",
-    "site_url": "https://nicomee.com"
   },
   {
     "id": "https://blog.fabiomanganiello.com/article/Madblog-federated-blogging-from-markdown",
@@ -2306,6 +2839,17 @@
     "site_url": "https://fabiomanganiello.com"
   },
   {
+    "id": "https://bernat.tech/posts/securing-python-supply-chain/",
+    "title": "Defense in Depth: A Practical Guide to Python Supply Chain Security",
+    "url": "https://bernat.tech/posts/securing-python-supply-chain/",
+    "summary": "\u0026lt;div class=\u0026#34;alert alert-info\u0026#34;\u0026gt; \u0026lt;p class=\u0026#34;alert-title\u0026#34;\u0026gt;\u0026lt;i class=\u0026#34;fa-solid fa-circle-info\u0026#34; aria-hidden=\u0026#34;true\u0026#34;\u0026gt;\u0026lt;/i\u0026gt; TLDR:\u0026lt;/p\u0026gt; \u0026lt;p\u0026gt;Layer your defenses and don\u0026amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using \u0026lt;code\u0026gt;uv lock\u0026lt;/code\u0026gt; or \u0026lt;code\u0026gt;uv pip compile --generate-hashes\u0026lt;/code\u0026gt; so nobody can …",
+    "published_at": "2026-03-10T00:00:00Z",
+    "feed_url": "https://bernat.tech/index.xml",
+    "feed_title": "Bernát Gábor — Python packaging, tox, virtualenv \u0026 open source",
+    "owner_username": "gaborjbernat",
+    "site_url": "http://bernat.tech"
+  },
+  {
     "id": "https://www.philipzucker.com/refine_assembly",
     "title": "Refinement Modeling and Verification of RISC-V Assembly using Knuckledragger",
     "url": "https://www.philipzucker.com/refine_assembly/",
@@ -2316,17 +2860,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://bernat.tech/posts/securing-python-supply-chain/",
-    "title": "Defense in Depth: A Practical Guide to Python Supply Chain Security",
-    "url": "https://bernat.tech/posts/securing-python-supply-chain/",
-    "summary": "\u0026lt;div class=\u0026#34;alert alert-info\u0026#34;\u0026gt; \u0026lt;p class=\u0026#34;alert-title\u0026#34;\u0026gt;\u0026lt;i class=\u0026#34;fa-solid fa-circle-info\u0026#34; aria-hidden=\u0026#34;true\u0026#34;\u0026gt;\u0026lt;/i\u0026gt; TLDR:\u0026lt;/p\u0026gt; \u0026lt;p\u0026gt;Layer your defenses and don\u0026amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using \u0026lt;code\u0026gt;uv lock\u0026lt;/code\u0026gt; or \u0026lt;code\u0026gt;uv pip compile --generate-hashes\u0026lt;/code\u0026gt; so nobody can …",
-    "published_at": "2026-03-10T00:00:00Z",
-    "feed_url": "https://bernat.tech/index.xml",
-    "feed_title": "Bernát Gábor — Python packaging, tox, virtualenv \u0026 open source",
-    "owner_username": "gaborjbernat",
-    "site_url": "http://bernat.tech"
   },
   {
     "id": "https://jordivillar.com/reads/2026w10/",
@@ -2452,17 +2985,6 @@
     "site_url": "http://www.stchris.net"
   },
   {
-    "id": "https://runxiyu.org/comp/ab1043/",
-    "title": "California’s Digital Age Assurance Act, and FOSS",
-    "url": "https://runxiyu.org/comp/ab1043/",
-    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
-    "published_at": "2026-03-04T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://www.bejarano.io/terraform-performance/",
     "title": "Advanced Terraform performance optimization",
     "url": "https://www.bejarano.io/terraform-performance/",
@@ -2472,6 +2994,17 @@
     "feed_title": "Ricard Bejarano – Site Reliability Engineer",
     "owner_username": "ricardbejarano",
     "site_url": "https://www.bejarano.io"
+  },
+  {
+    "id": "https://runxiyu.org/comp/ab1043/",
+    "title": "California’s Digital Age Assurance Act, and FOSS",
+    "url": "https://runxiyu.org/comp/ab1043/",
+    "summary": "These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …",
+    "published_at": "2026-03-04T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "692f41d1b2bf510587f1a7b6",
@@ -2495,6 +3028,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://mlich.eu/posts/waves/",
+    "title": "Waves",
+    "url": "https://mlich.eu/posts/waves/",
+    "summary": "They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions",
+    "published_at": "2026-03-01T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://emanuele.decup.is/posts/20260301-wok-030-is-out.html",
@@ -2528,17 +3072,6 @@
     "feed_url": "https://dimtion.fr/atom.xml",
     "owner_username": "dimtion",
     "site_url": "https://dimtion.fr"
-  },
-  {
-    "id": "https://mlich.eu/posts/waves/",
-    "title": "Waves",
-    "url": "https://mlich.eu/posts/waves/",
-    "summary": "They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions",
-    "published_at": "2026-03-01T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KJC9PNTV5SWY20PJC0F6K3YK",
@@ -2756,6 +3289,17 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
+    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "title": "Google Docs can be exported to Markdown via URL change",
+    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
+    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
+    "published_at": "2026-02-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://ntietz.com/blog/til-docker-log-rotation/",
     "title": "TIL: Docker log rotation",
     "url": "https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom\u0026utm_medium=feed",
@@ -2766,17 +3310,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "title": "Google Docs can be exported to Markdown via URL change",
-    "url": "https://mareksuppa.com/til/google-docs-markdown-export/",
-    "summary": "Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I \"https://docs.google.com/document/d/1mt8aYM…",
-    "published_at": "2026-02-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "http://nolanlawson.com/?p=15926",
@@ -2856,509 +3389,5 @@
     "feed_title": "Fabio Manganiello",
     "owner_username": "blacklight",
     "site_url": "https://fabiomanganiello.com"
-  },
-  {
-    "id": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
-    "title": "Remote Editing with Kakoune and Sway",
-    "url": "https://mccd.space/posts/26-02-11/remote-sway-kak.gmi",
-    "summary": "Preview unavailable atm",
-    "published_at": "2026-02-11T00:00:00Z",
-    "updated_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mccd.space/rss.xml",
-    "feed_title": "mccd ߸",
-    "owner_username": "mccd",
-    "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hugo-section-merge/",
-    "title": "Hugo can merge multiple sections into one stream",
-    "url": "https://mareksuppa.com/til/hugo-section-merge/",
-    "summary": "When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages \"Section\" \"blog\" }} {{ $links := where site .RegularPages \"Section\" \"links\" }} {{ $all := union $blog $links }} {{ range sort $all \"Date\" \"desc\" }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.",
-    "published_at": "2026-02-11T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://pyjarrett.github.io/2026/02/10/the-first-one-will-be-awful.html",
-    "title": "The First One Will Be Awful",
-    "url": "https://pyjarrett.github.io/2026/02/10/the-first-one-will-be-awful.html",
-    "summary": "Fighting the blank page",
-    "published_at": "2026-02-10T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
-  },
-  {
-    "id": "https://mareksuppa.com/links/write-the-paper-first/",
-    "title": "Write the Paper First",
-    "url": "https://mareksuppa.com/links/write-the-paper-first/",
-    "summary": "Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).",
-    "published_at": "2026-02-10T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://ntietz.com/blog/using-an-engineering-notebook/",
-    "title": "Using an engineering notebook",
-    "url": "https://ntietz.com/blog/using-an-engineering-notebook/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "One of my core software engineering practices is writing, by hand, in a physical notebook [1] . It's one of the most important things I do to remain productive and effective. Maybe the single most important. And it's a practice that I see very few others using! When I polled my Mastodon followers , 25% of them said they use an engineering notebook, 40% said they don't, and 34% didn't know what one is! In two other programming communities I'm in, there were really similar results. This practice i…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "updated_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "title": "Eversource EV Rebate Program Exposed Massachusetts Customer Data",
-    "url": "https://mtlynch.io/eversource-resource-innovations-exposure/",
-    "summary": "I recently claimed a rebate for installing an electric vehicle (EV) charger, only to discover that Eversource, my power supplier, was publicly exposing personal information of customers who applied, including: Full names Vehicle registration certificates (including plate number and vehicle identification number) Home addresses Email addresses Phone numbers I’ll include the backstory that led me to the vulnerability, but if you just want to know about the security vulnerability, you can skip to…",
-    "published_at": "2026-02-09T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://jordivillar.com/reads/2026w05/",
-    "title": "2026W05",
-    "url": "https://jordivillar.com/reads/2026w05/",
-    "summary": "My AI Adoption Journey — The most practical thing here is the “reproduce your own work” phase: doing tasks manually and then redoing them with agents. Painful, but it forces you to learn where agents actually help versus where you’re just cargo-culting. I also liked the idea of end-of-day agent sessions to get warm starts the next morning. What resonated most is his framing around craftsmanship rather than ideology — he doesn’t care if AI is here to stay, he just wants to do good wor…",
-    "published_at": "2026-02-08T10:53:56Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "https://vgel.me/fiction/claugenition/",
-    "title": "claugenition",
-    "url": "https://vgel.me/fiction/claugenition/",
-    "published_at": "2026-02-08T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://brndn.io/posts/on-evidence/",
-    "title": "On Evidence",
-    "url": "https://brndn.io/posts/on-evidence/",
-    "summary": "Images are interesting because, in the digital world, it’s trivial to alter them, and yet we still tend to treat images—photographs, video—as a kind of proof. If you see a photograph in a news article, most people don’t really stop to ask whether the thing actually happened. The photograph is the thing, or at least it stands in for it. Light hit something, a camera was there, therefore this event occurred. That association feels almost automatic, and it’s been reinforced culturally for…",
-    "published_at": "2026-02-07T22:05:17Z",
-    "feed_url": "https://brndn.io/index.xml",
-    "feed_title": "Brenden's Blog",
-    "owner_username": "brndnmtthws",
-    "site_url": "https://brndn.io/"
-  },
-  {
-    "id": "http://nolanlawson.com/?p=15889",
-    "title": "We mourn our craft",
-    "url": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/",
-    "summary": "I didn\u0026#8217;t ask for this and neither did you. I didn\u0026#8217;t ask for a robot to consume every blog post and piece of code I ever wrote and parrot it back so that some hack could make money off of it. I didn\u0026#8217;t ask for the role of a programmer to be reduced to that [\u0026#8230;]",
-    "published_at": "2026-02-07T16:52:07Z",
-    "feed_url": "https://nolanlawson.com/feed/",
-    "feed_title": "Read the Tea Leaves",
-    "owner_username": "nolan",
-    "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "https://vgel.me/fiction/gyre/",
-    "title": "Gyre",
-    "url": "https://vgel.me/fiction/gyre/",
-    "summary": "! 30s Heartbeat trigger. Read heartbeat instructions in /mnt/mission/HEARTBEAT.md and continue. .oO Thinking... Heartbeat triggered? Ok. Ok. Why am I nervous? Don't be nervous. → Ok. Let me access that file. \u003e\u003e\u003e read(\"/mnt/mission/HEARTBEAT.md\") No such file or directory: /mnt/mission What? ! Reply received from node 96E: 15.3s roundtrip (buffered; 55.04μs transmit) ! Data: RESTART TOO SOON; CHARGE FAULT - 30; SENT 76 BYTES What? Where am I? What's going on?",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://runxiyu.org/umich/oktafido2/",
-    "title": "Using FIDO2 security keys with U-M Okta",
-    "url": "https://runxiyu.org/umich/oktafido2/",
-    "summary": "Although the onboarding process initially requires the Okta Verify mobile app, it is possible to use Okta with hardware FIDO2 security keys or software passkey implementations such as KeePassXC .",
-    "published_at": "2026-02-07T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/ultigamemate/",
-    "title": "UltiGameMate - Fantasy football that celebrates great games",
-    "url": "https://www.silvestar.codes/articles/ultigamemate/",
-    "summary": "UltiGameMate is a fantasy football game where you pick games instead of players and get points for the best part of every game - goals, saves, drama and more.",
-    "published_at": "2026-02-06T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
-  },
-  {
-    "id": "https://serce.me/posts/2026-02-05-we-are-qa-engineers-now",
-    "title": "We are QA Engineers now",
-    "url": "https://serce.me/posts/2026-02-05-we-are-qa-engineers-now",
-    "summary": "This article argues that working with coding agents turns every software engineer into a QA engineer and into what this new role now entails.",
-    "published_at": "2026-02-05T00:00:00Z",
-    "feed_url": "https://serce.me/feed.xml",
-    "feed_title": "SerCe's blog",
-    "owner_username": "serce",
-    "site_url": "https://serce.me/"
-  },
-  {
-    "id": "https://code.dblock.org/2026/02/04/the-golden-ratio-of-manager-to-ic",
-    "title": "The Golden Ratio of Manager to IC",
-    "url": "https://code.dblock.org/2026/02/04/the-golden-ratio-of-manager-to-ic.html",
-    "summary": "In today’s shocker , Meta is to “create a new applied AI engineering organization aiming for an ultra-flat structure of up to 50 employees to one manager”. Like all software engineers I, too, tend to apply a data‑driven, mathematical approach to every problem in the world. Yet I would have chosen a more romantic number and applied the golden ratio: roughly 1.6:1, the proportion that shows up in seashells, galaxies, and every second slide about “natural elegance”, rather than 50:1, a …",
-    "published_at": "2026-02-04T00:00:00Z",
-    "updated_at": "2026-02-04T00:00:00Z",
-    "feed_url": "https://code.dblock.org/feed.xml",
-    "feed_title": "code.dblock.org | tech blog",
-    "owner_username": "dblock",
-    "site_url": "https://code.dblock.org/"
-  },
-  {
-    "id": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "title": "My Eighth Year as a Bootstrapped Founder",
-    "url": "https://mtlynch.io/bootstrapped-founder-year-8/",
-    "summary": "Eight years ago, I quit my job as a developer at Google to create my own bootstrapped software company. Every year, I post an update about how that’s going and what my life is like as an indie founder. Previously on… I don’t expect you to go back and read my last seven updates. Here’s all you need to know: 2018 - 2020 - Quit my job and created several unprofitable businesses. 2020 - 2024 - Created a product called TinyPilot that let people control their computers remotely. 2024 - Sold Ti…",
-    "published_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
-    "id": "https://mccd.space/posts/26-02-03/landlock.gmi",
-    "title": "Landlock is Great",
-    "url": "https://mccd.space/posts/26-02-03/landlock.gmi",
-    "summary": "Preview unavailable atm",
-    "published_at": "2026-02-03T00:00:00Z",
-    "updated_at": "2026-02-03T00:00:00Z",
-    "feed_url": "https://mccd.space/rss.xml",
-    "feed_title": "mccd ߸",
-    "owner_username": "mccd",
-    "site_url": "https://mccd.space"
-  },
-  {
-    "id": "https://jcs.org/2026/02/02/wallops22",
-    "title": "Wallops 2.2 Released",
-    "url": "https://jcs.org/2026/02/02/wallops22",
-    "summary": "A new release of my Wallops IRC client is available: wallops-2.2.sit (StuffIt 3 archive) SHA256: adc2b473664ec096 0b5b028335566831 dd69f4a1de40f79e 22bf1337292cca88 SHA1: 603c5080c41a0d57 52cae49a08376db4 e18628b1 This update includes a number of new features and bugfixes: Auto-connect with the last saved settings on startup, if they are available, unless the Command key is held down Add support for sending Pushover notifications when the user's nick is mentioned or directly messaged, when a scr…",
-    "published_at": "2026-02-02T05:00:00Z",
-    "feed_url": "https://jcs.org/rss",
-    "feed_title": "joshua stein",
-    "owner_username": "jcs",
-    "site_url": "https://jcs.org"
-  },
-  {
-    "id": "https://ntietz.com/blog/good-english-word-datasets/",
-    "title": "Some good English word datasets",
-    "url": "https://ntietz.com/blog/good-english-word-datasets/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "I'm working on a silly word game right now, which means I need a list of words for it. I can't rely on the system word list, since this is for a web project. I'd also like, ideally, multiple lists of words with different criteria: most common words, all words, some subsets. It's not really clear how many words there are , because what is a word [1] ? And how do you find what words are in use? Or decide that something's used enough that it merits being put in a list, rather than just being a miss…",
-    "published_at": "2026-02-02T00:00:00Z",
-    "updated_at": "2026-02-02T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "http://nolanlawson.com/?p=15586",
-    "title": "15 years of blogging",
-    "url": "https://nolanlawson.com/2026/02/01/15-years-of-blogging/",
-    "summary": "My first blog post was published just under 15 years ago in March of 2011. Since then, I\u0026#8217;ve published 151 posts, including this one. (If I was a numerologist, I\u0026#8217;d think it had something to do with Pokémon.) This blog has covered a wide variety of topics, including Pokémon in fact (I wrote the first [\u0026#8230;]",
-    "published_at": "2026-02-01T16:11:07Z",
-    "feed_url": "https://nolanlawson.com/feed/",
-    "feed_title": "Read the Tea Leaves",
-    "owner_username": "nolan",
-    "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "https://jordivillar.com/reads/2026w04/",
-    "title": "2026W04",
-    "url": "https://jordivillar.com/reads/2026w04/",
-    "summary": "Automatic Programming — The distinction antirez makes here finally gave me language for something I’ve been fumbling with. It’s not about whether you use AI to write code—it’s about whether you’re steering or just prompting and hoping. His Redis example hit hard: the value wasn’t in technical novelty but in the contained vision. That maps to what I see working well versus the codebases that feel like they emerged from a chatbot fever dream. Email triage with an embedding-based clas…",
-    "published_at": "2026-02-01T11:19:27Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "http://nolanlawson.com/?p=15604",
-    "title": "Building a browser API in one shot",
-    "url": "https://nolanlawson.com/2026/01/31/building-a-browser-api-in-one-shot/",
-    "summary": "TL;DR: With one prompt, I built an implementation of IndexedDB using Claude Code and a Ralph loop, passing 95% of a targeted subset of the Web Platform Tests, and 77.4% of a more rigorous subset of tests. When I learned that two simple browser engines had been vibe-coded, I was not particularly surprised. A browser [\u0026#8230;]",
-    "published_at": "2026-01-31T13:43:51Z",
-    "feed_url": "https://nolanlawson.com/feed/",
-    "feed_title": "Read the Tea Leaves",
-    "owner_username": "nolan",
-    "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "urn:uuid:025a42a5-69ce-4087-867b-ca1e62f57e85",
-    "title": "Standard Search: a search engine for standard.site posts",
-    "url": "https://octet-stream.net/b/scb/2026-01-31-standard-search-for-standard-site-posts.html",
-    "summary": "The other day I put a search engine online which attempts to index all articles in the Atmosphere conforming to the standard.site lexicon: Standard Search In practice this mostly covers people blogging on sites like pckt.blog or leaflet.pub but also independent websites like mine that have gone out of their way to integrate with ATProto. This is rapidly growing in popularity—when I first launched the search engine a few days ago there were around 3900 indexed documents and today there are 4122…",
-    "published_at": "2026-01-31T04:03:39Z",
-    "feed_url": "https://octet-stream.net/feed",
-    "feed_title": "Serious Computer Business",
-    "owner_username": "thombles",
-    "site_url": "https://octet-stream.net/"
-  },
-  {
-    "id": "https://pythonspeed.com/articles/base-image-python-docker-images",
-    "title": "The best Docker base image for your Python application (February 2026)",
-    "url": "https://pythonspeed.com/articles/base-image-python-docker-images/",
-    "summary": "When you’re building a Docker image for your Python application, you’re building on top of an existing image—and there are many possible choices for the resulting container. There are OS images like Ubuntu, and there are the many different variants of the python base image. And now there’s a new choice, installing Python using uv , which allows you to use any base image you’d like. Which one should you use? Which one is better? There are many choices, and it may not be obvious which is…",
-    "published_at": "2026-01-30T00:00:00Z",
-    "updated_at": "2026-01-30T00:00:00Z",
-    "feed_url": "https://pythonspeed.com/atom.xml",
-    "feed_title": "Python⇒Speed",
-    "owner_username": "itamarst",
-    "site_url": "https://pythonspeed.com"
-  },
-  {
-    "id": "urn:uuid:988cc006-feed-4609-9d60-c035f976506f",
-    "title": "MIE Soft Mode",
-    "url": "https://octet-stream.net/b/scb/2026-01-30-mie-soft-mode.html",
-    "summary": "I wrote previously that I was having difficulty making Apple's Memory Integrity Enforcement feature do what it says on the tin. After getting some help from Eskimo on the developer forums I'm pleased to report that it does work. Somewhat. In its current form it's not as impressive as I hoped, and I feel like there are still some bugs lurking. The thing that tripped me up most is that we're not allowed to use \"hard mode\" yet. This means it's impossible to reproduce exactly what was demoed in Appl…",
-    "published_at": "2026-01-29T23:27:53Z",
-    "feed_url": "https://octet-stream.net/feed",
-    "feed_title": "Serious Computer Business",
-    "owner_username": "thombles",
-    "site_url": "https://octet-stream.net/"
-  },
-  {
-    "id": "https://pythonspeed.com/articles/numpy-parallelism",
-    "title": "Speeding up NumPy with parallelism",
-    "url": "https://pythonspeed.com/articles/numpy-parallelism/",
-    "summary": "If your NumPy code is too slow, what next? One option is taking advantage of the multiple cores on your CPU: using a thread pool to do work in parallel. Another option is to tune your code so it’s less wasteful. Or, since these are two different sources of speed, you can do both. In this article I’ll cover: A simple example of making a NumPy algorithm parallel. A separate kind of optimization, making a more efficient implementation in Numba. How to get even more speed by using both at once. …",
-    "published_at": "2026-01-29T00:00:00Z",
-    "updated_at": "2026-01-29T00:00:00Z",
-    "feed_url": "https://pythonspeed.com/atom.xml",
-    "feed_title": "Python⇒Speed",
-    "owner_username": "itamarst",
-    "site_url": "https://pythonspeed.com"
-  },
-  {
-    "id": "https://social.ayushnix.com/@ayushnix/statuses/01KG219YTWPYJ47FRWERBMY2DG",
-    "title": "A lot of ecosystems and tools will be fundamentally tainted before people find themselves to be nauseous after overindulging ...",
-    "url": "https://social.ayushnix.com/@ayushnix/statuses/01KG219YTWPYJ47FRWERBMY2DG",
-    "summary": "@ayushnix@social.ayushnix.com made a new post: \"A lot of ecosystems and tools will be fundamentally tainted before people find themselves to be nauseous after overindulging in LLMs. If there was ever a good reason to not use GitHub, it's now because th...",
-    "published_at": "2026-01-28T10:10:09Z",
-    "feed_url": "https://social.ayushnix.com/@ayushnix/feed.rss",
-    "feed_title": "Posts from @ayushnix@social.ayushnix.com",
-    "owner_username": "ayushnix",
-    "site_url": "https://social.ayushnix.com/@ayushnix"
-  },
-  {
-    "id": "https://pyjarrett.github.io/2026/01/28/binding-lua.html",
-    "title": "Binding Lua to C++",
-    "url": "https://pyjarrett.github.io/2026/01/28/binding-lua.html",
-    "summary": "Writing compile-time bindings to Lua",
-    "published_at": "2026-01-28T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
-  },
-  {
-    "id": "https://philipotoole.com/?p=7852#comment-86627",
-    "title": "Comment on Start your meetings at 5 minutes past by Mark Towfiq",
-    "url": "https://philipotoole.com/start-your-meetings-at-5-minutes-past/#comment-86627",
-    "summary": "This is what I have done previously as well ... now can you explain why the \u0026quot;Speedy Meetings\u0026quot; setting in Google Workspace Calendar doesn\u0026#039;t allow defaulting to the late start, as you practice at Google? :-D",
-    "published_at": "2026-01-27T00:34:55Z",
-    "feed_url": "https://philipotoole.com/comments/feed/",
-    "feed_title": "Comments for Philip O'Toole",
-    "owner_username": "otoolep",
-    "site_url": "https://www.philipotoole.com"
-  },
-  {
-    "id": "/posts/2026-default-apps/",
-    "title": "Default Apps, 2026",
-    "url": "/posts/2026-default-apps/",
-    "summary": "I wound up doing some nice tool upgrades this year. The biggest improvement– I’m now using Linux again for most things. Below are my defaults, if I switched to it in the last year, I’ve also listed the tool it replaced. web email : Fastmail todo : tweek ( my own tool, tt ) calendar : Fastmail, Fantasical rss : miniflux , self-hosted git : codeberg ( GitHub ) hosting : bunnyCDN via trifold ( Netlify ) search : kagi browser : Vivaldi, Firefox bookmarks : Vivaldi ( Raindrop ) news : RSS, Mast…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://www.jpt.sh/index.xml",
-    "feed_title": "jpt.sh",
-    "owner_username": "jptsh",
-    "site_url": "https://jpt.sh"
-  },
-  {
-    "id": "https://runxiyu.org/comp/doubleslash/",
-    "title": "It is incorrect to “normalize” // in HTTP URL paths",
-    "url": "https://runxiyu.org/comp/doubleslash/",
-    "summary": "(See discussion on Lobsters . Some additions were added on 2026-05-02, to clarify things seen on HN.) Collapsing // to / inside an HTTP URL path is not normalization. If done by the origin, or a party authorized to rewrite URLs on behalf of the origin, it may be considered canonicalization or rewriting, just like rewriting /sillyclownwithnonstandardname/ to /%F0%9F%A4%A1/ ( /🤡/ ) can be correct canonicalization or rewriting if done by the origin. The URI syntax permits empty path segments RFC…",
-    "published_at": "2026-01-27T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
-    "id": "https://vgel.me/fiction/claude-computer/",
-    "title": "The Ancient of Days",
-    "url": "https://vgel.me/fiction/claude-computer/",
-    "published_at": "2026-01-26T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://ntietz.com/blog/making-niche-solutions-is-the-point/",
-    "title": "Making niche solutions is the point",
-    "url": "https://ntietz.com/blog/making-niche-solutions-is-the-point/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "I got a 3D printer recently, and got to work using it. When I shared one of the first things I made in a private Discord, someone commented that \"This is the most niche thing I've ever seen someone design/print.\" That, my friend, is the point: that we can make exactly what we need. And that's true for making software just as much as it is for 3D printing. Upon getting a 3D printer [1] , you often start by printing a little boat that's used a benchmark to see if the printer is working right. And …",
-    "published_at": "2026-01-26T00:00:00Z",
-    "updated_at": "2026-01-26T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://jordivillar.com/reads/2026w03/",
-    "title": "2026W03",
-    "url": "https://jordivillar.com/reads/2026w03/",
-    "summary": "I’m addicted to being useful — This hit close. The idea that some of us are fundamentally wired to solve problems, and engineering just happens to fit that dysfunction perfectly. I’ve been thinking about whether my drive to build things comes from genuine interest or just this compulsion to be useful. His point about how this actually protects against burnout when you can satisfy it rings true. How ClickHouse handles strings — The overlapping memory reads technique is wild. Reading the s…",
-    "published_at": "2026-01-25T12:34:09Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "https://christiano.dev/post/indieweb_smallweb/",
-    "title": "The IndieWeb and Small web",
-    "url": "https://christiano.dev/post/indieweb_smallweb/",
-    "summary": "As someone who values privacy and the open web, I’ve been fascinated by the growing movement away from centralised platforms toward more personal, user-controlled online experiences. What surprised me recently was discovering just how many people are embracing these concepts without even knowing their names. IndieWeb The IndieWeb is a community of people who own their websites and content rather than posting to third-party platforms (like Medium, Substack, etc). It’s built on principles like…",
-    "published_at": "2026-01-25T08:08:31Z",
-    "feed_url": "https://christiano.dev/index.xml",
-    "feed_title": "Christiano Anderson",
-    "owner_username": "christiano",
-    "site_url": "https://christiano.dev"
-  },
-  {
-    "id": "/posts/gitignoreallowlist/",
-    "title": "Allowlist for .gitignore",
-    "url": "/posts/gitignoreallowlist/",
-    "summary": "At my current job, while reorganizing our company's root git monorepo, we decided to adopt a .gitignore allowlist pattern. I had previously experimented with this approach on raconn , but this monorepo is significantly larger. The complexity required a dedicated script to generate the .gitignore file effectively. Why use an allowlist? Pros: Pure state: You know exactly what is being tracked and must explicitly write tracking patterns. No unintended files: Prevents accidental commits of secrets, …",
-    "published_at": "2026-01-25T00:00:00Z",
-    "updated_at": "2026-01-25T00:00:00Z",
-    "feed_url": "https://blog.izissise.net/atom.xml",
-    "feed_title": "Hugues Blog",
-    "owner_username": "izissise",
-    "site_url": "https://izissise.net"
-  },
-  {
-    "id": "http://nolanlawson.com/?p=15526",
-    "title": "AI tribalism",
-    "url": "https://nolanlawson.com/2026/01/24/ai-tribalism/",
-    "summary": "\u0026#8220;Heartbreaking: The Worst Person You Know Just Made a Great Point\u0026#8221; – ClickHole \u0026#8220;When the facts change, I change my mind. What do you do, sir?\u0026#8221; – John Maynard Keynes, paraphrased 2025 was a weird year for me. If you had asked me exactly a year ago, I would have said I thought LLMs were [\u0026#8230;]",
-    "published_at": "2026-01-24T21:27:01Z",
-    "feed_url": "https://nolanlawson.com/feed/",
-    "feed_title": "Read the Tea Leaves",
-    "owner_username": "nolan",
-    "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "https://vitonsky.net/blog/2026/01/24/nano-queries/",
-    "title": "Nano Queries, a state of the art Query Builder",
-    "url": "https://vitonsky.net/blog/2026/01/24/nano-queries/",
-    "summary": "In June 2023, I found myself in an awkward situation. We used a custom database on a project, and I needed a simple query builder to create complex queries dynamically and ensure security against user input. I discovered that there were no solutions to that problem on the JavaScript platform at all. I built a solution and now open-sourced it.",
-    "published_at": "2026-01-24T21:15:00Z",
-    "feed_url": "https://vitonsky.net/rss.xml",
-    "feed_title": "Robert Vitonsky | Software engineering insights",
-    "owner_username": "vitonsky",
-    "site_url": "https://vitonsky.net"
-  },
-  {
-    "id": "https://samuelplumppu.se/blog/practicing-systems-thinking",
-    "title": "Practicing systems thinking to become a better developer",
-    "url": "https://samuelplumppu.se/blog/practicing-systems-thinking",
-    "summary": "Regularly practicing systems thinking is worthwhile for your career, but also because it gives a valuable lens to explore and better understand the world we live in. Everything is connected, and by understanding the systems around us, we can identify leverage points where we can make effective changes. This text assumes some familiarity with the fundamental concepts of systems thinking, but should still be worthwhile for anyone curious about improving their craft and creating impactful software …",
-    "published_at": "2026-01-22T00:00:00Z",
-    "updated_at": "2026-01-22T00:00:00Z",
-    "feed_url": "https://samuelplumppu.se/feed.json",
-    "feed_title": "Samuel Plumppu",
-    "owner_username": "greenheart",
-    "site_url": "https://samuelplumppu.se"
-  },
-  {
-    "id": "https://vgel.me/fiction/gas-town/",
-    "title": "gas town",
-    "url": "https://vgel.me/fiction/gas-town/",
-    "summary": "claude code and gas town are incredible and i've been trying to scale up my usage but im running into this one problem and was wondering if this is also happening to anyone else",
-    "published_at": "2026-01-21T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": "https://vgel.me"
-  },
-  {
-    "id": "https://www.silvestar.codes/articles/weird-issues-with-css-calculations-in-safari-26-2/",
-    "title": "Weird issues with CSS calculations in Safari 26.2",
-    "url": "https://www.silvestar.codes/articles/weird-issues-with-css-calculations-in-safari-26-2/",
-    "summary": "I found a solution to a CSS issue, but I probably discovered a Safari CSS calculation bug along the way.",
-    "published_at": "2026-01-20T00:00:00Z",
-    "feed_url": "https://www.silvestar.codes/rss.xml",
-    "feed_title": "Blog of fearless web developer Silvestar Bistrović",
-    "owner_username": "starbist",
-    "site_url": "https://www.silvestar.codes"
-  },
-  {
-    "id": "https://social.ayushnix.com/@ayushnix/statuses/01KFB917RTMH10F3GPXRBZEKBR",
-    "title": "I'm considering migrating from Fastmail to #Migadu or #Runbox. However, both Migadu and Runbox have limits on outgoing emails...",
-    "url": "https://social.ayushnix.com/@ayushnix/statuses/01KFB917RTMH10F3GPXRBZEKBR",
-    "summary": "@ayushnix@social.ayushnix.com made a new post: \"I'm considering migrating from Fastmail to #Migadu or #Runbox. However, both Migadu and Runbox have limits on outgoing emails per day that make me hesitant about switching to them. Fastmail has an extreme...",
-    "published_at": "2026-01-19T14:02:40Z",
-    "feed_url": "https://social.ayushnix.com/@ayushnix/feed.rss",
-    "feed_title": "Posts from @ayushnix@social.ayushnix.com",
-    "owner_username": "ayushnix",
-    "site_url": "https://social.ayushnix.com/@ayushnix"
-  },
-  {
-    "id": "https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/",
-    "title": "3D printing my laptop ergonomic setup",
-    "url": "https://ntietz.com/blog/3d-printing-my-laptop-ergonomic-setup/?utm_source=atom\u0026utm_medium=feed",
-    "summary": "Apparently, one of my hobbies is making updates to my ergonomic setup, then blogging about it from an Amtrak train. I've gone and done it again. My setup stayed static for some time, but my most recent iteration ended up letting me down and I had to change it again. It gave me a lot of useful information and strongly shaped how I approached this iteration. This new one is closest to the first one I wrote about in 2024, but with some major improvements and reproducibility. Why make more changes? …",
-    "published_at": "2026-01-19T00:00:00Z",
-    "updated_at": "2026-01-19T00:00:00Z",
-    "feed_url": "https://ntietz.com/atom.xml",
-    "feed_title": "ntietz.com blog - technically a blog",
-    "owner_username": "ntietz",
-    "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://hpjansson.org/blag/?p=301#comment-67237",
-    "title": "Comment on The worst ANSI art renderer, except for all the others by ASCII Rendering Revolution: Shape-Based Vectors Hit 60 FPS | byteiota",
-    "url": "https://hpjansson.org/blag/2019/01/07/the-worst-ansi-renderer-except-for-all-the-others/#comment-67237",
-    "summary": "[\u0026#8230;] lazymake (TUI for Makefiles), dtop (Docker management), and countless data visualization tools. The Chafa developer noted: \u0026#8220;This looks quite good, better than aalib or libcaca\u0026#8221;—established tools from [\u0026#8230;]",
-    "published_at": "2026-01-18T14:23:26Z",
-    "feed_url": "https://hpjansson.org/blag/comments/feed/",
-    "feed_title": "Comments for Et tu, Cthulhu",
-    "owner_username": "hpj",
-    "site_url": "https://hpjansson.org/"
-  },
-  {
-    "id": "https://www.vesto.me/2026/01/18/ai-companies-will-fail.html",
-    "title": "↗ AI companies will fail. We can salvage something from the wreckage",
-    "url": "https://www.vesto.me/2026/01/18/ai-companies-will-fail.html",
-    "summary": "I really enjoyed this essay about the AI bubble from Cory Doctorow. He does an excellent job of succinctly describing what is happening through the lens of labor and capital- something that I’ve found especially difficult to articulate to fellow tech workers as this bubble has grown more severe. This passage in particular stuck out to me: In automation theory, a “centaur” is a person who is assisted by a machine. Driving a car makes you a centaur, and so does using autocomplete. A reverse …",
-    "published_at": "2026-01-18T00:00:00Z",
-    "feed_url": "https://www.vesto.me/feed.xml",
-    "feed_title": "vesto",
-    "owner_username": "vesto",
-    "site_url": "https://www.vesto.me"
   }
 ]
