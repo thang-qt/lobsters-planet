@@ -22,7 +22,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 249 discovered personal sites. Last built 23 Jun 2026, 20:31 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 255 discovered personal sites. Last built 24 Jun 2026, 04:47 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -31,6 +31,18 @@
       <a href="/posts/">All posts</a>
     </section>
     <div class="entries compact-feed">
+      
+        <article class="entry">
+          <p class="meta">24 Jun 2026 · <a href="/users/nolan/">nolan</a> · Comments for Read the Tea Leaves</p>
+          <h3><a href="https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238401">Comment on Using AI to write better code more slowly by HN 热点评论速览 · 2026年5月27日 – DataPipe</a></h3>
+          <p>[&amp;#8230;] 原文链接：https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/ [&amp;#8230;]</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Jun 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
+          <h3><a href="https://www.unitedbsd.com/d/1652-libresslopenssl-error/1">LibreSSL/OpenSSL Error</a></h3>
+          <p>I&#39;m trying to generate a self signed SSL cert and getting an error on NetBSD 11.0 RC5 I&#39;m currently working in a virtual machine for testing so I may have typos typing out this error. Can&#39;t open &#34;/etc/openssl/openssl.cnf&#34; for reading, No such file or directory FFFFFFFFFFFFFFFFFFF:error:80000002:system library: BIO_new_file: No such file or directory:/usr/src/crypto/external/apache2/openssl/dist/crypto/bio/bss_file.c:67:calling fopen(/etc/openssl/openssl.cnf, r) FFFFFFFFFFFFFFFFF:error:10000080:B…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">22 Jun 2026 · <a href="/users/blacklight/">blacklight</a> · Fabio Manganiello</p>
@@ -172,6 +184,12 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
+          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/">Hermes Agent formats its output based on the platform you connect as</a></h3>
           <p>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</p>
         </article>
@@ -180,12 +198,6 @@
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
           <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
-          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
       
         <article class="entry">
@@ -198,18 +210,6 @@
           <p class="meta">14 Jun 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · UnitedBSD</p>
           <h3><a href="https://www.unitedbsd.com/d/1640-wine9/20">Wine9</a></h3>
           <p>I finally got the computer put together but it doesn&#39;t want to boot NetBSD. I guess I&#39;ll have to use another machine. :/ I guess I&#39;ll wait to post till I&#39;ve got wine5 going.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Jun 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
-          <h3><a href="https://jordivillar.com/reads/2026w23/">2026W23</a></h3>
-          <p>Software Is Made Between Commits — The claim that stuck with me: “the conversation that generates the code is becoming the true source of our software.” I’ve felt this shift myself. The PR description is always a lossy reconstruction of what actually happened. DeltaDB anchors references to deltas instead of line numbers, so they survive as code moves underneath. That’s the kind of detail that separates a real rethinking of version control from just adding chat to Git. If Claude Fable s…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h3><a href="https://inkdroid.org/2026/06/14/bookmarks/">Bookmarks - data, design, vis, book</a></h3>
-          <p>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</p>
         </article>
       
     </div>
