@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>gregburd</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~gregburd">Lobste.rs profile</a>
+        <a href="https://greg.burd.me/">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>9 Mar 2014</dd></div>
+        <div><dt>Karma</dt><dd>4</dd></div>
+        <div><dt>Stories</dt><dd>1</dd></div>
+        <div><dt>Comments</dt><dd>3</dd></div>
+        <div><dt>Profile checked</dt><dd>24 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>24 Jun 2026</dd></div>
+      </dl>
+      <p class="about">A software engineer. @gregburd or @gregburd@mastodon.social or https://codeberg.org/gregburd or https://github.com/gburd</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · greg@burd.me</p>
+          <h3><a href="https://greg.burd.me/posts/lime-runtime-extensible-lalr/">Lime: an LALR(1) parser generator with runtime grammar extensions</a></h3>
+          <p>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · greg@burd.me</p>
+          <h3><a href="https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/">pg_tre: approximate regex as a real Postgres index AM</a></h3>
+          <p>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · greg@burd.me</p>
+          <h3><a href="https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/">pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</a></h3>
+          <p>Open-source vector similarity for Postgres backed by Google Research&#39;s TurboQuant, with measured numbers against pgvector HNSW.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · greg@burd.me</p>
+          <h3><a href="https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/">pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</a></h3>
+          <p>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

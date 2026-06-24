@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>lalitm</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~lalitm">Lobste.rs profile</a>
+        <a href="https://lalitm.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>18 Oct 2025</dd></div>
+        <div><dt>Karma</dt><dd>1387</dd></div>
+        <div><dt>Stories</dt><dd>29</dd></div>
+        <div><dt>Comments</dt><dd>56</dd></div>
+        <div><dt>Profile checked</dt><dd>24 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>24 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Senior Staff Software Engineer at Google working on Perfetto. Passionate about open source, performance, and intersection of the two.</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">17 Jun 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/syntaqlite-06/">syntaqlite 0.6: SQLite dot commands and pyodide</a></h3>
+          <p>Since my original launch post for syntaqlite, I’ve been quietly working away on it in the background. A lot of the work has been fixing correctness bugs which I discovered as I integrated it into production as the parser for PerfettoSQL in the Perfetto trace processor: as I wrote previously, this has been my dream for over 8 years so it’s amazing to see it finally realized. Just today, I released syntaqlite 0.6 , the most interesting release since the original launch, so I wanted to talk abo…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/til-iroh/">TIL: Iroh: peer-to-peer networking for app developers</a></h3>
+          <p>I came across Iroh ( via , via ) today as it hit 1.0 and found it a really interesting solution to a problem I knew existed but had not thought a lot about. Judging from the comment sections, it seems pretty clear that lots of people are confused as to exactly what Iroh is. I don’t think their launch post does their product justice at all, and their tagline is “IP addresses break, dial keys instead” which sounds cool, but if you think about it for just a second, you’ll end up with lots o…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">7 Jun 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/perfetto-security-bugs-ai/">Security analysis is finally reaching software&#39;s long tail</a></h3>
+          <p>This post was formerly titled “17 bugs in 10 weeks from AI security scanning”. It was changed upon feedback from trusted readers who suggested, while accurate, it did not give a good sense of what I’m actually arguing in the post. Over the last several weeks, I’ve been receiving more security bug reports for Perfetto’s trace processor than I ever have before, all of them found by AI. And I’m very happy about it! These are bugs that would almost certainly not have been found a year ag…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 May 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/which-country-voted-best-at-eurovision/">Which country voted the best at Eurovision?</a></h3>
+          <p>Eurovision was on yesterday. I’ve never been interested much in the musical side but the weird political dynamics of Eurovision voting have always fascinated me; I tune in each year just for them and somewhat snarky commentary of Graham Norton, the UK commentator. As I was watching the jury votes come in, a question popped into my head: Which country has voted the best in Eurovision? That is, which country was best at picking the eventual top 10 and in the right order? Strangely enough, while …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 May 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/dont-answer-the-first-question/">Don&#39;t answer the first question</a></h3>
+          <p>In my work on Perfetto, a performance debugging tool, one question I get often is: “how do I split a Perfetto trace into multiple files?” Instead of answering directly, I say: “there isn’t an easy way to do that, but what’s leading you to collect traces large enough to want to split?” This is one of my golden rules at work. When a user asks me something “weird”: don’t answer the first version of the question . On the surface this might appear like I’m talking about the XY pro…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">5 Apr 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/building-syntaqlite-ai/">Eight years of wanting, three months of building with AI</a></h3>
+          <p>For eight years, I’ve wanted a high-quality set of devtools for working with SQLite. Given how important SQLite is to the industry 1 , I’ve long been puzzled that no one has invested in building a really good developer experience for it 2 . A couple of weeks ago, after ~250 hours of effort over three months 3 on evenings, weekends, and vacation days, I finally released syntaqlite ( GitHub ), fulfilling this long-held wish. And I believe the main reason this happened was because of AI coding …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Mar 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/syntaqlite/">syntaqlite: high-fidelity devtools that SQLite deserves</a></h3>
+          <p>Most SQL tools treat SQLite as a “flavor” of a generic SQL parser. They approximate the language, which means they break on SQLite-exclusive features like virtual tables , miss syntax like UPSERT , and ignore the 22 compile-time flags that change the syntax SQLite accepts. So I built syntaqlite : an open-source parser, formatter, validator, and LSP built directly on SQLite’s own Lemon-generated grammar. It sees SQL exactly how SQLite sees it, no matter which version of SQLite you’re usin…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

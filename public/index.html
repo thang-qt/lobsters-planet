@@ -22,7 +22,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 262 discovered personal sites. Last built 24 Jun 2026, 17:59 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 264 discovered personal sites. Last built 24 Jun 2026, 20:15 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -159,6 +159,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">17 Jun 2026 · <a href="/users/lalitm/">lalitm</a> · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/syntaqlite-06/">syntaqlite 0.6: SQLite dot commands and pyodide</a></h3>
+          <p>Since my original launch post for syntaqlite, I’ve been quietly working away on it in the background. A lot of the work has been fixing correctness bugs which I discovered as I integrated it into production as the parser for PerfettoSQL in the Perfetto trace processor: as I wrote previously, this has been my dream for over 8 years so it’s amazing to see it finally realized. Just today, I released syntaqlite 0.6 , the most interesting release since the original launch, so I wanted to talk abo…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">17 Jun 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · UnitedBSD</p>
           <h3><a href="https://www.unitedbsd.com/d/1646-raid5-slow-write-on-big-disks/15">Raid5 slow write on big disks?</a></h3>
           <p>smurfd $ doas newfs -O2 -s 21900g -b 65536 -F NAME=island That command above isn&#39;t correct: you don&#39;t need to specify a size ( newfs will get it from the kernel); and you shouldn&#39;t use -F (which is meant for disk image files--not block devices). Just do: doas newfs -O2 NAME=island # or, /dev/rdk7 BTW, there was a thread about write performance on HW RAID a while back. Try turning WAPBL on as recommended there .</p>
@@ -204,12 +210,6 @@
           <p class="meta">16 Jun 2026 · <a href="/users/jalcine/">jalcine</a> · Jacky Alciné&#39;s linklog</p>
           <h3><a href="https://www.jacky.wtf/links/2026/Jun/i-love-boosters/">&#39;I Love Boosters&#39; Is a Black Marxist Movie</a></h3>
           <p>I enjoyed every moment of I Love Boosters . From Lakeith Stanfield&#39;s attempt to woo our lead character to the literal heightening of contradiction that led to a global workers&#39; revolt — this is the kind of media that makes plain the difficulty of the people who are ignored and belabored for the comfort of the upper class. It focused on the production of fast fashion , the industry that&#39;s the underacknowledged child of the industralization of attire and the elitism of what it means to be &#34;in st…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
         </article>
       
     </div>

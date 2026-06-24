@@ -23,9 +23,27 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 24 Jun 2026, 17:59 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 24 Jun 2026, 20:15 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">28 May 2026 · <a href="/users/gaborjbernat/">gaborjbernat</a> · Bernát Gábor — Python packaging, tox, virtualenv &amp; open source</p>
+          <h2><a href="https://bernat.tech/posts/blanket-deterministic-threading/">Deterministic Multithreaded Testing in Python with blanket</a></h2>
+          <p>&amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;alert-title&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fa-solid fa-circle-info&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; TLDR:&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#why-multithreaded-python-tests-are-flaky&amp;#34;&amp;gt;&amp;lt;strong&amp;gt;The problem&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt; : testing multithreaded code is hard because the OS scheduler decides which thread runs when, making race conditions nearly impossible to reproduce in a test suite.&amp;lt;/li&amp;gt; &amp;…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
+          <h2><a href="https://www.unitedbsd.com/d/1641-onemanbsd-self-containing-os-all-source-inside/1">OnemanBSD Self containing OS (all source inside)</a></h2>
+          <p>I made this based on OpenBSD 7.8. However my idea is to create an OS that has all the sources of the OS, xenocala and even the apps inside the installer image. It can rebuild itself offline on an old laptop for less than 24 hours. This turns the user into OS developer as he can fix and maintain his own OS having a stable environment. All bloat that prevents one man from understanding the logic is removed. This means no rust, no gtk4, no qt and no wayland. Ports and apps are patched and fixed to …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · UnitedBSD</p>
+          <h2><a href="https://www.unitedbsd.com/d/452-show-us-your-screen/408">Show us your screen</a></h2>
+          <p>It is OnemanBSD 🙂</p>
+        </article>
       
         <article class="entry">
           <p class="meta">28 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
@@ -35,14 +53,14 @@
       
         <article class="entry">
           <p class="meta">28 May 2026 · <a href="/users/jcs/">jcs</a> · Notes - joshua stein</p>
-          <h2><a href="https://jcs.org/notes/2026/05/27/1003448877519323242">joshua stein</a></h2>
-          <p>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</p>
+          <h2><a href="https://jcs.org/notes/2026/05/27/1003448877519323137">joshua stein</a></h2>
+          <p>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</p>
         </article>
       
         <article class="entry">
           <p class="meta">28 May 2026 · <a href="/users/jcs/">jcs</a> · Notes - joshua stein</p>
-          <h2><a href="https://jcs.org/notes/2026/05/27/1003448877519323137">joshua stein</a></h2>
-          <p>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</p>
+          <h2><a href="https://jcs.org/notes/2026/05/27/1003448877519323242">joshua stein</a></h2>
+          <p>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</p>
         </article>
       
         <article class="entry">
@@ -73,6 +91,30 @@
           <p class="meta">27 May 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
           <h2><a href="https://runxiyu.org/comp/shallowbundle/">Converting shallow Git bundles into normal repositories</a></h2>
           <p>Let’s say you have a shallow Git bundle, i.e., not all referenced objects are present. How do you convert it into a normal shallow repository? Initialize the target as a bare-repo with your desired object-format. git init --bare --object-format=sha1 target.git &amp;&amp; cd target.git Find the start of the pack in each bundle (version 2 packs starts with 5041 434b 0000 0002 ). In my case it’s byte offset 77. Extract and index the packfile, creating the .idx and .rev . tail -c &#43;77 ../source.bundle | …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · <a href="/users/gregburd/">gregburd</a> · greg@burd.me</p>
+          <h2><a href="https://greg.burd.me/posts/lime-runtime-extensible-lalr/">Lime: an LALR(1) parser generator with runtime grammar extensions</a></h2>
+          <p>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · <a href="/users/gregburd/">gregburd</a> · greg@burd.me</p>
+          <h2><a href="https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/">pg_tre: approximate regex as a real Postgres index AM</a></h2>
+          <p>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · <a href="/users/gregburd/">gregburd</a> · greg@burd.me</p>
+          <h2><a href="https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/">pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</a></h2>
+          <p>Open-source vector similarity for Postgres backed by Google Research&#39;s TurboQuant, with measured numbers against pgvector HNSW.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 May 2026 · <a href="/users/gregburd/">gregburd</a> · greg@burd.me</p>
+          <h2><a href="https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/">pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</a></h2>
+          <p>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</p>
         </article>
       
         <article class="entry">
@@ -130,15 +172,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">23 May 2026 · <a href="/users/lucasfcosta/">lucasfcosta</a> · Lucas F. Costa - Blog</p>
-          <h2><a href="https://lucasfcosta.com/blog/backpressure-is-all-you-need/">Backpressure is all you need</a></h2>
-          <p>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">23 May 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
           <h2><a href="https://jordivillar.com/blog/the-algorithm-behind-shazam/">The Algorithm Behind Shazam</a></h2>
           <p>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 May 2026 · <a href="/users/lucasfcosta/">lucasfcosta</a> · Lucas F. Costa - Blog</p>
+          <h2><a href="https://lucasfcosta.com/blog/backpressure-is-all-you-need/">Backpressure is all you need</a></h2>
+          <p>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</p>
         </article>
       
         <article class="entry">
@@ -190,6 +232,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">17 May 2026 · <a href="/users/lalitm/">lalitm</a> · Lalit Maganti</p>
+          <h2><a href="https://lalitm.com/post/which-country-voted-best-at-eurovision/">Which country voted the best at Eurovision?</a></h2>
+          <p>Eurovision was on yesterday. I’ve never been interested much in the musical side but the weird political dynamics of Eurovision voting have always fascinated me; I tune in each year just for them and somewhat snarky commentary of Graham Norton, the UK commentator. As I was watching the jury votes come in, a question popped into my head: Which country has voted the best in Eurovision? That is, which country was best at picking the eventual top 10 and in the right order? Strangely enough, while …</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">17 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
           <h2><a href="https://www.unitedbsd.com/d/1636-kabylake-graphics-i915drmkms-panic/1">KabyLake Graphics i915drmkms Panic</a></h2>
           <p>KabyLake Graphics i915drmkms Panic in absolutestity on Kernel Compiles right now i have it running in efifb. Normal circumstances the kernel binary kernel is OK* i just have to reset my iMacs NvRam every boot and i can see what it does it reaches initializing the driver goes garbled and then black/nothing and the whole computers locked up not even a panic message. If someone can help me fix this thatted be awesome andll mean i can actually build a working system. its the iris plus 640 and 2017 i…</p>
@@ -232,6 +280,12 @@
         </article>
       
         <article class="entry">
+          <p class="meta">16 May 2026 · <a href="/users/lalitm/">lalitm</a> · Lalit Maganti</p>
+          <h2><a href="https://lalitm.com/post/dont-answer-the-first-question/">Don&#39;t answer the first question</a></h2>
+          <p>In my work on Perfetto, a performance debugging tool, one question I get often is: “how do I split a Perfetto trace into multiple files?” Instead of answering directly, I say: “there isn’t an easy way to do that, but what’s leading you to collect traces large enough to want to split?” This is one of my golden rules at work. When a user asks me something “weird”: don’t answer the first version of the question . On the surface this might appear like I’m talking about the XY pro…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">16 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
           <h2><a href="https://www.unitedbsd.com/d/1635-netbsd-110-rc4-local-mail-issue/1">NetBSD 11.0 RC4 Local Mail Issue</a></h2>
           <p>As a FYI, on RC4 I was having an issue with local mail. I created a PR and the PR was just fixed. If you are not receiving mail on your local system from local users, this PR will have the fix. You will need to update File /etc/postfix/main.cf and restart mail. https://gnats.netbsd.org/cgi-bin/query-pr-single.pl?number=60267 This is the fix Martin posted to the PR: ` --- external/ibm-public/postfix/dist/conf/main.cf 9 May 2026 18:49:13 -0000 1.12 &#43;&#43;&#43; external/ibm-public/postfix/dist/conf/main.cf…</p>
@@ -271,60 +325,6 @@
           <p class="meta">15 May 2026 · <a href="/users/bpapillon/">bpapillon</a> · Ben Papillon</p>
           <h2><a href="https://bpapillon.com/recommended/doc-and-dawg/">Doc Watson &amp; David Grisman - Doc &amp; Dawg</a></h2>
           <p>I think I’m going to buy a mandolin.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 May 2026 · <a href="/users/cullum/">cullum</a> · Cullum Smith&#39;s Blog</p>
-          <h2><a href="https://www.sacredheartsc.com/blog/why-does-the-sspx-need-bishops/">Why does the SSPX need bishops?</a></h2>
-          <p>The experiment of tradition lives on.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 May 2026 · <a href="/users/gaborjbernat/">gaborjbernat</a> · Bernát Gábor — Python packaging, tox, virtualenv &amp; open source</p>
-          <h2><a href="https://bernat.tech/posts/pycon-us-2026-typing-summit-recap/">PyCon US 2026 Typing Summit Recap</a></h2>
-          <p>&amp;lt;p&amp;gt;The &amp;lt;a href=&amp;#34;https://us.pycon.org/2026/events/typing-summit/&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;noopener noreferrer&amp;#34;&amp;gt;PyCon US 2026 Typing Summit&amp;lt;/a&amp;gt; ran Thursday May 14, 2026, from 1 PM to 5 PM in Room 201A of the Long Beach Convention Center, the day before the main conference started. Eight talks plus a Typing Council Q&amp;amp;amp;A, single track. This recap is for anyone who could not be in the room.&amp;lt;/p&amp;gt; &amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p cla…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 May 2026 · <a href="/users/susam/">susam</a> · Susam Pal</p>
-          <h2><a href="https://susam.net/commenting.html">Commenting Guidelines</a></h2>
-          <p>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 May 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
-          <h2><a href="https://mtlynch.io/retrospectives/2026/05/">Refactoring English: Month 17</a></h2>
-          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 May 2026 · <a href="/users/jaypatelani/">jaypatelani</a> · New discussions in UnitedBSD</p>
-          <h2><a href="https://www.unitedbsd.com/d/1632-netbsd-110-rc-4/1">NetBSD 11.0 RC 4</a></h2>
-          <p>NetBSD 11.0 RC 4 is out. I upgraded this morning and so far no issues. https://blog.netbsd.org/tnf/entry/netbsd_11_0_rc4_available</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 May 2026 · <a href="/users/ggpsv/">ggpsv</a> · Gabriel Garrido</p>
-          <h2><a href="https://garrido.io/microblog/2026/05/116567713284856433/">Technology with a Human Face</a></h2>
-          <p>Revisiting Schumacher’s “Technology with a Human Face”, prescient and relevant since its writing 53 years ago. We may say, therefore, that modern technology has deprived man of the kind of work that the enjoys most, creative, useful work with hands and brains, and given him plenty of work of a fragmented kind, most of which he does not enjoy at all. It has multiplied the number of people who are exceedingly busy doing kinds of work which, if it is productive at all, is so only in an indire…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 May 2026 · <a href="/users/jalcine/">jalcine</a> · Jacky Alciné&#39;s essays</p>
-          <h2><a href="https://www.jacky.wtf/essays/2026/going-all-in/">Where I&#39;m going with the work I&#39;m leaning into now</a></h2>
-          <p>I posted on the site for Olamaelcu and I wrote about it in my newsletter but it doesn&#39;t feel official if it&#39;s not coming from my website - the one I haven&#39;t published on in more than half a year. It didn&#39;t help that the longer I waited, the more I felt like I was letting the site effectively grow stale, irrelevant or useless [1] . The only thing stopping me from using this thing was myself. Seriously — I&#39;m still in the middle of this revival of what would have been what was running at v2.jacky…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 May 2026 · <a href="/users/f055/">f055</a> · F055</p>
-          <h2><a href="https://f055.net/thattimei/that-time-i-asked-ai-to-write-sci-fi-for-eternity/">That time I asked AI to write Sci-Fi for eternity</a></h2>
-          <p>Last year I discovered I like sci-fi novels. To be precise, I found a collection of Isaac Asimov sci-fi novels and started reading them in the evenings to unwind. I know Asimov wrote the Foundation saga and more, but my particular interest in his novels was very specific: I wanted to find something to read, [&amp;#8230;]</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 May 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h2><a href="https://social.ayushnix.com/@ayushnix/statuses/01KRG28Z94K9VJS5CPMR8R644Y">@swannodette@mas.to Hi! I&#39;m unable to find the talk &#34;Clojure for Schemers&#34; that you gave several years ago. There&#39;s a [vimeo ...</a></h2>
-          <p>@ayushnix@social.ayushnix.com made a new post: &#34;@swannodette@mas.to Hi! I&#39;m unable to find the talk &#34;Clojure for Schemers&#34; that you gave several years ago. There&#39;s a [vimeo link everywhere](https://vimeo.com/22675078) but it&#39;s dead. Do you have another ...</p>
         </article>
       
     </div>
