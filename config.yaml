@@ -2,7 +2,7 @@ user_agent: "lobsters-planet/0.1 (+https://lobsters-planet.thangqt.com; contact:
 
 lobsters:
   users_url: "https://lobste.rs/users"
-  request_delay_seconds: 5
+  request_delay_seconds: 15
   request_timeout_seconds: 15
   old_profile_recheck_days: 7
   max_new_profiles_per_run: 25
