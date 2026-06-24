@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Wed, 24 Jun 2026 04:47:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 10:00:42 +0000</lastBuildDate>
     <item>
       <title>Comment on Using AI to write better code more slowly by HN 热点评论速览 · 2026年5月27日 – DataPipe</title>
       <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238401</link>
@@ -207,10 +207,10 @@
       <pubDate>Tue, 16 Jun 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>VER 2026 Results Viewer</title>
-      <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
-      <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -223,10 +223,10 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <title>VER 2026 Results Viewer</title>
+      <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
+      <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -263,18 +263,18 @@
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tree 2</title>
-      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
-      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tree 1</title>
       <link>https://inkdroid.org/2026/06/14/tree-1/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
       <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tree 2</title>
+      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
+      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -784,17 +784,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -911,19 +911,19 @@
       <pubDate>Sat, 23 May 2026 14:46:32 +0000</pubDate>
     </item>
     <item>
-      <title>Backpressure is all you need</title>
-      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
-      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
-      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
-      <author>lucasfcosta</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Algorithm Behind Shazam</title>
       <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
       <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
       <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
       <author>jordi</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backpressure is all you need</title>
+      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
+      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
+      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
+      <author>lucasfcosta</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -999,18 +999,18 @@
       <pubDate>Sun, 17 May 2026 10:49:57 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>None</title>
       <link>https://inkdroid.org/2026/05/17/no/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/17/no/</guid>
       <description>There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/17/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/17/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…</description>
       <author>edsu</author>
       <pubDate>Sun, 17 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -1207,18 +1207,18 @@
       <pubDate>Tue, 12 May 2026 05:46:00 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Stars Tracker</title>
-      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
-      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
-      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
-      <author>nicomeemes</author>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>NPIValidator</title>
       <link>https://nicomee.com/projects/npi-validator/</link>
       <guid isPermaLink="false">https://nicomee.com/projects/npi-validator/</guid>
       <description>C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.</description>
+      <author>nicomeemes</author>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Stars Tracker</title>
+      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
+      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
+      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
       <author>nicomeemes</author>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1294,19 +1294,19 @@
       <pubDate>Fri, 08 May 2026 00:31:41 +0000</pubDate>
     </item>
     <item>
-      <title>CCC 2026</title>
-      <link>https://runxiyu.org/ccc/</link>
-      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
-      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wander Console 0.6.0</title>
       <link>https://susam.net/code/news/wander/0.6.0.html</link>
       <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
       <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
       <author>susam</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CCC 2026</title>
+      <link>https://runxiyu.org/ccc/</link>
+      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
+      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1350,19 +1350,19 @@
       <pubDate>Mon, 04 May 2026 21:28:04 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
       <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
       <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1414,19 +1414,19 @@
       <pubDate>Fri, 01 May 2026 06:04:41 +0000</pubDate>
     </item>
     <item>
-      <title>Bug Bash 2: Attack of the Clones</title>
-      <link>/bug-bash-two/</link>
-      <guid isPermaLink="false">/bug-bash-two</guid>
-      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
-      <author>amw-zero</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Lifting and Lowering Functions with The Dump Calculus</title>
       <link>https://www.philipzucker.com/dump_calculus/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
       <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
       <author>philzook</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug Bash 2: Attack of the Clones</title>
+      <link>/bug-bash-two/</link>
+      <guid isPermaLink="false">/bug-bash-two</guid>
+      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
+      <author>amw-zero</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1518,19 +1518,19 @@
       <pubDate>Fri, 24 Apr 2026 01:53:36 +0000</pubDate>
     </item>
     <item>
-      <title>Brute force is our zeitgeist</title>
-      <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
-      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
-      <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
-      <author>balanza</author>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>My view of the state of post-quantum cryptography</title>
       <link>https://runxiyu.org/comp/pq/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
       <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brute force is our zeitgeist</title>
+      <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
+      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
+      <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
+      <author>balanza</author>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1574,19 +1574,19 @@
       <pubDate>Sun, 19 Apr 2026 14:44:10 +0000</pubDate>
     </item>
     <item>
-      <title>An ode to Strawberry Music Player</title>
-      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
-      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
-      <description>[Read more]</description>
-      <author>vesto</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>C++ Alternative Operator Representations</title>
       <link>https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</link>
       <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
       <description>Equivalent ways of writing the same tokens.</description>
       <author>pyj</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An ode to Strawberry Music Player</title>
+      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
+      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
+      <description>[Read more]</description>
+      <author>vesto</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1598,19 +1598,19 @@
       <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
-      <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
-      <link>https://www.philipzucker.com/thin_egraph/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
-      <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
-      <author>philzook</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenClaw On Raspberry Pi 4</title>
       <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
       <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
       <author>gabe</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
+      <link>https://www.philipzucker.com/thin_egraph/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
+      <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
+      <author>philzook</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1670,19 +1670,19 @@
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>One Thing</title>
-      <link>https://mlich.eu/posts/one-thing/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
-      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
-      <author>Juraj</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
       <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
       <description>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</description>
       <author>mrshu</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Thing</title>
+      <link>https://mlich.eu/posts/one-thing/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
+      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
+      <author>Juraj</author>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1742,19 +1742,19 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An old compiler bug with a very bad outcome</title>
-      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
-      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
-      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
-      <author>cuonglm</author>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Opening Proprietary Code to Contributors Checklist</title>
       <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
       <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
       <author>dblock</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An old compiler bug with a very bad outcome</title>
+      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
+      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
+      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
+      <author>cuonglm</author>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1870,18 +1870,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Storing API keys for Claude Code providers in KeePassXC</title>
       <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
       <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Cheat Sheet</title>
+      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
+      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2038,19 +2038,19 @@
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On the Ethics of Ambiguity</title>
-      <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
-      <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
-      <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
-      <author>nicomeemes</author>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Right-Sizing Engineering Teams for AI</title>
       <link>https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai</guid>
       <description>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</description>
       <author>dblock</author>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Ethics of Ambiguity</title>
+      <link>https://nicomee.com/blog/on-the-ethics-of-ambiguity/</link>
+      <guid isPermaLink="false">https://nicomee.com/blog/on-the-ethics-of-ambiguity/</guid>
+      <description>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</description>
+      <author>nicomeemes</author>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2062,19 +2062,19 @@
       <pubDate>Tue, 10 Mar 2026 18:39:54 +0000</pubDate>
     </item>
     <item>
-      <title>Refinement Modeling and Verification of RISC-V Assembly using Knuckledragger</title>
-      <link>https://www.philipzucker.com/refine_assembly/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/refine_assembly</guid>
-      <description>Binary verification is useful on a couple counts:</description>
-      <author>philzook</author>
-      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Defense in Depth: A Practical Guide to Python Supply Chain Security</title>
       <link>https://bernat.tech/posts/securing-python-supply-chain/</link>
       <guid isPermaLink="false">https://bernat.tech/posts/securing-python-supply-chain/</guid>
       <description>&amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;alert-title&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fa-solid fa-circle-info&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; TLDR:&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Layer your defenses and don&amp;amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using &amp;lt;code&amp;gt;uv lock&amp;lt;/code&amp;gt; or &amp;lt;code&amp;gt;uv pip compile --generate-hashes&amp;lt;/code&amp;gt; so nobody can …</description>
       <author>gaborjbernat</author>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refinement Modeling and Verification of RISC-V Assembly using Knuckledragger</title>
+      <link>https://www.philipzucker.com/refine_assembly/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/refine_assembly</guid>
+      <description>Binary verification is useful on a couple counts:</description>
+      <author>philzook</author>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2166,19 +2166,19 @@
       <pubDate>Wed, 04 Mar 2026 12:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Advanced Terraform performance optimization</title>
-      <link>https://www.bejarano.io/terraform-performance/</link>
-      <guid isPermaLink="false">https://www.bejarano.io/terraform-performance/</guid>
-      <description>Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.</description>
-      <author>ricardbejarano</author>
-      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>California’s Digital Age Assurance Act, and FOSS</title>
       <link>https://runxiyu.org/comp/ab1043/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/ab1043/</guid>
       <description>These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …</description>
       <author>runxiyu</author>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advanced Terraform performance optimization</title>
+      <link>https://www.bejarano.io/terraform-performance/</link>
+      <guid isPermaLink="false">https://www.bejarano.io/terraform-performance/</guid>
+      <description>Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.</description>
+      <author>ricardbejarano</author>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2214,19 +2214,19 @@
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wok 0.3.0 is out</title>
-      <link>https://emanuele.decup.is/posts/20260301-wok-030-is-out.html</link>
-      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260301-wok-030-is-out.html</guid>
-      <description>I just released Wok 0.3.0 , whose main addition per se is worktree support. Nevertheless, I realized I never introduced the project properly. Time to do it. Introducing: Wok Wok is a CLI application that helps managing coding projects on the local laptop. It&#39;s an opinionated set of smart scripts that basically help me moving around project folders without thinking and typing too much. It does so by using some conventions and leveraging shell&#39;s autocomplete features. The name wok is at the same t…</description>
-      <author>balanza</author>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Waves</title>
       <link>https://mlich.eu/posts/waves/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/waves/</guid>
       <description>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</description>
       <author>Juraj</author>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wok 0.3.0 is out</title>
+      <link>https://emanuele.decup.is/posts/20260301-wok-030-is-out.html</link>
+      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260301-wok-030-is-out.html</guid>
+      <description>I just released Wok 0.3.0 , whose main addition per se is worktree support. Nevertheless, I realized I never introduced the project properly. Time to do it. Introducing: Wok Wok is a CLI application that helps managing coding projects on the local laptop. It&#39;s an opinionated set of smart scripts that basically help me moving around project folders without thinking and typing too much. It does so by using some conventions and leveraging shell&#39;s autocomplete features. The name wok is at the same t…</description>
+      <author>balanza</author>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2270,19 +2270,19 @@
       <pubDate>Mon, 23 Feb 2026 05:18:09 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw On Ubuntu 25</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/</guid>
-      <description>I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…</description>
-      <author>gabe</author>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Binding port 0 to avoid port collisions</title>
       <link>https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/binding-ephemeral-port/</guid>
       <description>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</description>
       <author>ntietz</author>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw On Ubuntu 25</title>
+      <link>https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-ubuntu-25/</guid>
+      <description>I wanted to play around with OpenClaw, but didn’t want to install it directly on my computer. I’m running Fedora 42 on this laptop and it comes with a virtualization app called “Boxes” which lets you create virtual machines (VMs) running just about anything you need. I downloaded the .iso for Ubuntu 25 from the Ubuntu website and installed it onto a fresh VM. I provisioned the VM with 30GB of hard drive space and 4GB of RAM. I’m pretty sure it can run on less, but I didn’t want to ru…</description>
+      <author>gabe</author>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
