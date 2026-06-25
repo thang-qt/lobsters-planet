@@ -23,9 +23,21 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 25 Jun 2026, 10:13 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 25 Jun 2026, 15:30 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">30 Mar 2026 · <a href="/users/balanza/">balanza</a> · a.k.a.balanza</p>
+          <h2><a href="https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html">How come we are releasing Distrobox v2</a></h2>
+          <p>Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I&#39;ve been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">28 Mar 2026 · <a href="/users/siddharthsabron1729/">siddharthsabron1729</a> · Siddharth Sabron</p>
+          <h2><a href="https://siddharthsabron.in/projects/click-url-shortner/">Clik - A Self-Deployable URL Shortener</a></h2>
+          <p>Random Click Image Link Building a URL shortener is a classic system design interview question. I built one to find out how many of those whiteboard answers actually survive contact with real code. The Stack No abstractions over abstractions. Here is what it runs on: Java 21 Spring Boot 3.4.2 handles HTTP so I can focus on what matters underneath MySQL 8.0 (the database choice is load-bearing, explained below) Spring Data JPA &#43; Hibernate with Envers for write auditing Spring Security with JWT-ba…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">27 Mar 2026 · <a href="/users/otoolep/">otoolep</a> · Philip O&#39;Toole</p>
@@ -136,15 +148,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
-          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">19 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h2><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h2>
           <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
         </article>
       
         <article class="entry">
@@ -214,15 +226,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">10 Mar 2026 · <a href="/users/gaborjbernat/">gaborjbernat</a> · Bernát Gábor — Python packaging, tox, virtualenv &amp; open source</p>
-          <h2><a href="https://bernat.tech/posts/securing-python-supply-chain/">Defense in Depth: A Practical Guide to Python Supply Chain Security</a></h2>
-          <p>&amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;alert-title&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fa-solid fa-circle-info&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; TLDR:&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Layer your defenses and don&amp;amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using &amp;lt;code&amp;gt;uv lock&amp;lt;/code&amp;gt; or &amp;lt;code&amp;gt;uv pip compile --generate-hashes&amp;lt;/code&amp;gt; so nobody can …</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">10 Mar 2026 · <a href="/users/philzook/">philzook</a> · Hey There Buddo!</p>
           <h2><a href="https://www.philipzucker.com/refine_assembly/">Refinement Modeling and Verification of RISC-V Assembly using Knuckledragger</a></h2>
           <p>Binary verification is useful on a couple counts:</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">10 Mar 2026 · <a href="/users/gaborjbernat/">gaborjbernat</a> · Bernát Gábor — Python packaging, tox, virtualenv &amp; open source</p>
+          <h2><a href="https://bernat.tech/posts/securing-python-supply-chain/">Defense in Depth: A Practical Guide to Python Supply Chain Security</a></h2>
+          <p>&amp;lt;div class=&amp;#34;alert alert-info&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;alert-title&amp;#34;&amp;gt;&amp;lt;i class=&amp;#34;fa-solid fa-circle-info&amp;#34; aria-hidden=&amp;#34;true&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; TLDR:&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;Layer your defenses and don&amp;amp;rsquo;t trust any single control. Use Ruff with security rules to catch bugs in your code before they ship. Pin all your dependencies with cryptographic hashes using &amp;lt;code&amp;gt;uv lock&amp;lt;/code&amp;gt; or &amp;lt;code&amp;gt;uv pip compile --generate-hashes&amp;lt;/code&amp;gt; so nobody can …</p>
         </article>
       
         <article class="entry">
@@ -232,15 +244,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">9 Mar 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
-          <h2><a href="https://nrposner.com/blog/affordances-in-library-api-design/">Affordances in Library API Design</a></h2>
-          <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">9 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
           <h2><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h2>
           <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Mar 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
+          <h2><a href="https://nrposner.com/blog/affordances-in-library-api-design/">Affordances in Library API Design</a></h2>
+          <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
         </article>
       
         <article class="entry">
@@ -315,18 +327,6 @@ gemini://ayushnix.com/reviews/me...</a></h2>
           <p class="meta">2 Mar 2026 · <a href="/users/hbroek/">hbroek</a> · Henry | Blog</p>
           <h2><a href="https://blog.henryvandenbroek.com/cyclocross-october-2025/">Cyclocross October 2025</a></h2>
           <p>Races at BOSSCROSS, Keene Pumpkin Cross, Tree House CX, and Really Rad Festival. 📸 Dixon Photo, Content Factory Racing</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">2 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&amp;utm_medium=feed">You can&#39;t always fix it</a></h2>
-          <p>I have some weird hobbies, and one of those is opening up the network tab on just about anything I&#39;m using. Sometimes, I find egregious problems. Usually, this is something that can be fixed, when responsibly reported. But over time, I learned a bitter lesson: sometimes, you can&#39;t get it fixed. Tracking my package Recently, I was waiting for a time-sensitive delivery of medication. It used a courier company which focused on just delivering prescription medications. I opened up the tracking page …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Mar 2026 · <a href="/users/dimtion/">dimtion</a></p>
-          <h2><a href="https://dimtion.fr/wiki/ml/soft-capping/">Logit soft-capping</a></h2>
-          <p>Logit From google : the vector of raw (non-normalized) predictions that a classification model generates, which is ordinarily then passed to a normalization function. If the model is solving a multi-class classification problem, logits typically become an input to the softmax function. The softmax function then generates a vector of (normalized) probabilities with one value for each possible class. Logit soft-capping Logit softcapping (introduced in Gemma 2 ) is a technique to cap the value betw…</p>
         </article>
       
     </div>
