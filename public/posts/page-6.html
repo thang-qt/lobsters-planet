@@ -23,7 +23,7 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 25 Jun 2026, 15:30 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 25 Jun 2026, 20:44 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
       
@@ -46,15 +46,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">27 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
-          <h2><a href="https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/">PicoBot on a Raspberry Pi 3b&#43;</a></h2>
-          <p>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b&#43; I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">27 Mar 2026 · <a href="/users/statox/">statox</a> · The stuff I do</p>
           <h2><a href="https://www.statox.fr/posts/2026/03/systemd_timers/">Using a systemd timer to monitor my laptop&#39;s battery</a></h2>
           <p>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">27 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
+          <h2><a href="https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/">PicoBot on a Raspberry Pi 3b&#43;</a></h2>
+          <p>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b&#43; I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</p>
         </article>
       
         <article class="entry">
@@ -65,14 +65,14 @@
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
-          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
         </article>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h2>
-          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+          <h2><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h2>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
         </article>
       
         <article class="entry">
@@ -82,15 +82,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">24 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/til/fish-wraps-flag/">Using --wraps to get tab completions on fish shell aliases</a></h2>
-          <p>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">24 Mar 2026 · <a href="/users/pyj/">pyj</a> · pyj&#39;s blog</p>
           <h2><a href="https://pyjarrett.github.io/2026/03/24/super-powered-enums.html">Ada&#39;s Super Powered Enums</a></h2>
           <p>A quick look at the power of Ada&#39;s enums.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">24 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/fish-wraps-flag/">Using --wraps to get tab completions on fish shell aliases</a></h2>
+          <p>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</p>
         </article>
       
         <article class="entry">
@@ -208,15 +208,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
-          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
-          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">11 Mar 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
           <h2><a href="https://code.dblock.org/2026/03/11/right-sizing-engineering-teams-for-ai.html">Right-Sizing Engineering Teams for AI</a></h2>
           <p>Before AI coding assistants, a typical engineering team of 8-10 people might have been lucky to have one or two “10x engineers”, or “workhorses”, the kind of engineer that both keeps project quality and feature velocity high. AI tools have solved the workhorse half of this equation, enabling massive raw output. Today, almost every engineer can produce a high volume of code with GitHub Copilot, Claude, or Cursor. But the quality half of the equation has not kept up. Teams are shipping mor…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Mar 2026 · <a href="/users/nicomeemes/">nicomeemes</a> · Nico Kokonas</p>
+          <h2><a href="https://nicomee.com/blog/on-the-ethics-of-ambiguity/">On the Ethics of Ambiguity</a></h2>
+          <p>Simone de Beauvoir&#39;s portrait of defective existential attitudes, and how they haunt the memory of youth.</p>
         </article>
       
         <article class="entry">
@@ -244,15 +244,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">9 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h2>
-          <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">9 Mar 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
           <h2><a href="https://nrposner.com/blog/affordances-in-library-api-design/">Affordances in Library API Design</a></h2>
           <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
+          <h2><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h2>
+          <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
         </article>
       
         <article class="entry">
@@ -312,15 +312,15 @@ gemini://ayushnix.com/reviews/me...</a></h2>
         </article>
       
         <article class="entry">
-          <p class="meta">4 Mar 2026 · <a href="/users/ricardbejarano/">ricardbejarano</a> · Ricard Bejarano – Site Reliability Engineer</p>
-          <h2><a href="https://www.bejarano.io/terraform-performance/">Advanced Terraform performance optimization</a></h2>
-          <p>Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">4 Mar 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
           <h2><a href="https://runxiyu.org/comp/ab1043/">California’s Digital Age Assurance Act, and FOSS</a></h2>
           <p>These solely represent my own interpretation and opinions. Some parts might be wrong — actually — some parts will be wrong. Please tell me somewhere. I am not a lawyer. This is provided solely for the purposes of general information and does not constitute legal advice, guidance, or counsel. No attorney-client relationship is established by the provision of this information, and no reliance should be placed on this information in lieu of seeking professional legal advice. All information is …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">4 Mar 2026 · <a href="/users/ricardbejarano/">ricardbejarano</a> · Ricard Bejarano – Site Reliability Engineer</p>
+          <h2><a href="https://www.bejarano.io/terraform-performance/">Advanced Terraform performance optimization</a></h2>
+          <p>Terraform init, plan and apply have distinct performance bottlenecks. Here’s a breakdown of each phase, what makes it slow, and what you can do about it.</p>
         </article>
       
         <article class="entry">
