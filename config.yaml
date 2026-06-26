@@ -17,9 +17,6 @@ feeds:
   max_feeds_per_refresh_run: 100
   exclude_site_urls:
     - "https://www.unitedbsd.com/"
-  exclude_feed_urls:
-    - "https://www.unitedbsd.com/atom"
-    - "https://www.unitedbsd.com/atom/discussions"
   common_paths:
     - "/feed.xml"
     - "/feed"
