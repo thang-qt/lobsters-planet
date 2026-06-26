@@ -54,14 +54,14 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
-          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
         </article>
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
+          <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
+          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
       
         <article class="entry">
@@ -84,14 +84,14 @@
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h3>
-          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
+          <h3><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h3>
+          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
         </article>
       
         <article class="entry">
           <p class="meta">25 Mar 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/links/claude-code-cheat-sheet/">Claude Code Cheat Sheet</a></h3>
-          <p>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</p>
+          <h3><a href="https://mareksuppa.com/til/keepassxc-claude-code-api-keys/">Storing API keys for Claude Code providers in KeePassXC</a></h3>
+          <p>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</p>
         </article>
       
         <article class="entry">
@@ -110,6 +110,24 @@
           <p class="meta">19 Mar 2026 · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h3>
           <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/google-docs-markdown-export/">Google Docs can be exported to Markdown via URL change</a></h3>
+          <p>Google Docs now supports exporting directly to Markdown by tweaking the URL. Take any Google Doc URL like: Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/edit?tab=t.0 Replace everything after the document ID with export?format=md : Copy https://docs.google.com/document/d/1mt8aYM88Jj5qkep1xYC5vj0wBlbX2u6gdxhf_puaiQI/export?format=md If you use curl to test it out, you might get just a 307 redirect: bash Copy curl -I &#34;https://docs.google.com/document/d/1mt8aYM…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">11 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/hugo-section-merge/">Hugo can merge multiple sections into one stream</a></h3>
+          <p>When building a Hugo site with multiple content types (blog, TIL, links), you can merge them into a single stream on the homepage using union : go-html-template Copy {{ $blog := where site .RegularPages &#34;Section&#34; &#34;blog&#34; }} {{ $links := where site .RegularPages &#34;Section&#34; &#34;links&#34; }} {{ $all := union $blog $links }} {{ range sort $all &#34;Date&#34; &#34;desc&#34; }} ... {{ end }} This is how sites like simonwillison.net create a unified content stream from diverse content types.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">10 Feb 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/links/write-the-paper-first/">Write the Paper First</a></h3>
+          <p>Jason Eisner ’s timeless advice on academic writing. The core idea is simple but very impactful: start writing the paper before you have all the results. Writing forces you to clarify your thinking, reveals gaps in your argument, and often redirects the research itself (e.g. what other experiments to do in order to arrive at a coherent story).</p>
         </article>
       
     </div>

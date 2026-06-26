@@ -58,6 +58,24 @@
           <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
         </article>
       
+        <article class="entry">
+          <p class="meta">2 Mar 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&amp;utm_medium=feed">You can&#39;t always fix it</a></h3>
+          <p>I have some weird hobbies, and one of those is opening up the network tab on just about anything I&#39;m using. Sometimes, I find egregious problems. Usually, this is something that can be fixed, when responsibly reported. But over time, I learned a bitter lesson: sometimes, you can&#39;t get it fixed. Tracking my package Recently, I was waiting for a time-sensitive delivery of medication. It used a courier company which focused on just delivering prescription medications. I opened up the tracking page …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">23 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/binding-ephemeral-port/?utm_source=atom&amp;utm_medium=feed">Binding port 0 to avoid port collisions</a></h3>
+          <p>It&#39;s common to spin up a server in a test so that you can do full end-to-end requests of it. It&#39;s a very important sort of test, to make sure things work all together. Most of the work I do is in complex web backends, and there&#39;s so much risk of not having all the request processing and middleware and setup exactly the same in a mock test... you must do at least some end-to-end tests or you&#39;re making a gamble that&#39;s going to bite you. And this is great, but you quickly run into a problem: port c…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Feb 2026 · ntietz.com blog - technically a blog</p>
+          <h3><a href="https://ntietz.com/blog/til-docker-log-rotation/?utm_source=atom&amp;utm_medium=feed">TIL: Docker log rotation</a></h3>
+          <p>Last week [1] , when I went to publish my blog post, I ran into a surprising error: I was out of disk space. My server is used only for hosting a couple of small static sites, so I was surprised. None of the content is very large, why is the disk full? A little investigation found the culprit. Starting from / and then drilling in using du -h -d 1 . showed me that a Docker folder was using most of the server&#39;s 25 GB disk. None of my container images are very large, so I checked in side and found …</p>
+        </article>
+      
     </div>
   </main>
 

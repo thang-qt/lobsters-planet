@@ -123,6 +123,7 @@ func Build(cfg config.Config) (Result, error) {
 		return Result{}, err
 	}
 
+	applyExclusions(&store, cfg)
 	users, sites, entries := publicData(store, cfg.Output.MaxLatestEntries)
 	publicDir := cfg.Output.PublicDir
 	dataDir := filepath.Join(publicDir, "data")
@@ -161,6 +162,49 @@ func Build(cfg config.Config) (Result, error) {
 	}
 
 	return Result{Users: len(users), Sites: len(sites), Entries: len(entries), UserShards: len(shards), PublicDir: publicDir}, nil
+}
+
+func applyExclusions(store *state.State, cfg config.Config) {
+	excludedSites := make(map[string]bool)
+	for _, siteURL := range cfg.Feeds.ExcludeSiteURLs {
+		excludedSites[config.NormalizeURL(siteURL)] = true
+	}
+	excludedFeeds := make(map[string]bool)
+	for _, feedURL := range cfg.Feeds.ExcludeFeedURLs {
+		excludedFeeds[config.NormalizeURL(feedURL)] = true
+	}
+
+	for username, user := range store.Users {
+		if excludedSites[config.NormalizeURL(user.HomepageURL)] {
+			for _, feedURL := range user.FeedURLs {
+				excludedFeeds[config.NormalizeURL(feedURL)] = true
+			}
+			user.HomepageURL = ""
+			user.FeedURLs = nil
+			store.Users[username] = user
+			continue
+		}
+		if len(user.FeedURLs) > 0 {
+			filtered := user.FeedURLs[:0]
+			for _, feedURL := range user.FeedURLs {
+				if !excludedFeeds[config.NormalizeURL(feedURL)] {
+					filtered = append(filtered, feedURL)
+				}
+			}
+			user.FeedURLs = filtered
+			store.Users[username] = user
+		}
+	}
+	for feedURL, feed := range store.Feeds {
+		if excludedFeeds[config.NormalizeURL(feedURL)] || excludedSites[config.NormalizeURL(feed.SiteURL)] {
+			delete(store.Feeds, feedURL)
+		}
+	}
+	for entryID, entry := range store.Entries {
+		if excludedFeeds[config.NormalizeURL(entry.FeedURL)] || excludedSites[config.NormalizeURL(entry.SiteURL)] {
+			delete(store.Entries, entryID)
+		}
+	}
 }
 
 func publicData(store state.State, maxEntries int) ([]PublicUser, []PublicSite, []PublicEntry) {

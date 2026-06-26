@@ -52,6 +52,12 @@
           <p>Imagine you are processing a stream of events, of unknown length. It could end in 3 seconds, it could run for 3 months; you simply don’t know. As a result, storing the whole stream in memory or even on disk is not acceptable, but you still need to extract relevant information. Depending on what information you need, choosing a random sample of the stream will give you almost as good information as storing all the data. For example, consider a performance profiler, used to find which parts of y…</p>
         </article>
       
+        <article class="entry">
+          <p class="meta">24 Feb 2026 · Python⇒Speed</p>
+          <h3><a href="https://pythonspeed.com/articles/speed-unit-tests/">Unit testing your code&#39;s performance, part 2: Catching speed changes</a></h3>
+          <p>In a previous post I talked about unit testing for speed, and in particular testing for big-O scalability . The next step is catching cases where you’ve changed not the scalability, but the direct efficiency of your code. If your first thought is “how this is different from running benchmarks?”, well, good point! An excellent starting point for performance is implementing a benchmark that runs automatically in CI, on every single pull request. If you haven’t got that, you probably want t…</p>
+        </article>
+      
     </div>
   </main>
 

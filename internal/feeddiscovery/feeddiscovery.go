@@ -28,6 +28,9 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 	now := time.Now().UTC()
 	due := store.SitesDueForFeedDiscovery(now, time.Duration(cfg.Feeds.DiscoveryRecheckDays)*24*time.Hour, cfg.Feeds.MaxSitesPerDiscoveryRun)
 
+	excludedSites := excludedSet(cfg.Feeds.ExcludeSiteURLs)
+	due = filterSites(due, excludedSites)
+
 	result := Result{SitesSelected: len(due)}
 	for index, site := range due {
 		if index > 0 {
@@ -47,6 +50,7 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 			continue
 		}
 
+		discovered.FeedURLs = filterFeedURLs(discovered.FeedURLs, excludedSet(cfg.Feeds.ExcludeFeedURLs))
 		store.RecordFeedDiscoverySuccess(site.Username, discovered.FeedURLs, checkedAt)
 		result.SitesSucceeded++
 		result.FeedsFound += len(discovered.FeedURLs)
@@ -61,4 +65,40 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 		return result, err
 	}
 	return result, nil
+}
+
+func excludedSet(values []string) map[string]bool {
+	excluded := make(map[string]bool)
+	for _, value := range values {
+		excluded[config.NormalizeURL(value)] = true
+	}
+	return excluded
+}
+
+func filterSites(sites []state.DiscoveredUser, excluded map[string]bool) []state.DiscoveredUser {
+	if len(excluded) == 0 {
+		return sites
+	}
+	filtered := make([]state.DiscoveredUser, 0, len(sites))
+	for _, site := range sites {
+		if excluded[config.NormalizeURL(site.HomepageURL)] {
+			continue
+		}
+		filtered = append(filtered, site)
+	}
+	return filtered
+}
+
+func filterFeedURLs(feedURLs []string, excluded map[string]bool) []string {
+	if len(excluded) == 0 {
+		return feedURLs
+	}
+	filtered := make([]string, 0, len(feedURLs))
+	for _, feedURL := range feedURLs {
+		if excluded[config.NormalizeURL(feedURL)] {
+			continue
+		}
+		filtered = append(filtered, feedURL)
+	}
+	return filtered
 }

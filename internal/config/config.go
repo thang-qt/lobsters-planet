@@ -2,7 +2,9 @@ package config
 
 import (
 	"fmt"
+	"net/url"
 	"os"
+	"strings"
 
 	"gopkg.in/yaml.v3"
 )
@@ -30,6 +32,8 @@ type FeedsConfig struct {
 	DiscoveryRecheckDays    int      `yaml:"discovery_recheck_days"`
 	MaxSitesPerDiscoveryRun int      `yaml:"max_sites_per_discovery_run"`
 	MaxFeedsPerRefreshRun   int      `yaml:"max_feeds_per_refresh_run"`
+	ExcludeSiteURLs         []string `yaml:"exclude_site_urls"`
+	ExcludeFeedURLs         []string `yaml:"exclude_feed_urls"`
 	CommonPaths             []string `yaml:"common_paths"`
 }
 
@@ -118,5 +122,38 @@ func Load(path string) (Config, error) {
 	if cfg.Feeds.MaxFeedsPerRefreshRun < 0 {
 		cfg.Feeds.MaxFeedsPerRefreshRun = 0
 	}
+	cfg.Feeds.ExcludeSiteURLs = normalizeURLs(cfg.Feeds.ExcludeSiteURLs)
+	cfg.Feeds.ExcludeFeedURLs = normalizeURLs(cfg.Feeds.ExcludeFeedURLs)
 	return cfg, nil
+}
+
+func normalizeURLs(values []string) []string {
+	seen := make(map[string]bool)
+	var normalized []string
+	for _, value := range values {
+		value = NormalizeURL(value)
+		if value == "" || seen[value] {
+			continue
+		}
+		seen[value] = true
+		normalized = append(normalized, value)
+	}
+	return normalized
+}
+
+func NormalizeURL(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Scheme == "" || parsed.Host == "" {
+		return strings.TrimRight(value, "/")
+	}
+	parsed.Fragment = ""
+	parsed.Host = strings.ToLower(parsed.Host)
+	if parsed.Path != "/" {
+		parsed.Path = strings.TrimRight(parsed.Path, "/")
+	}
+	return parsed.String()
 }
