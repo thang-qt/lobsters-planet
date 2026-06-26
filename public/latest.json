@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://chrismorgan.info/font-family",
+    "title": "font-family recommendations — Chris Morgan",
+    "url": "https://chrismorgan.info/font-family",
+    "published_at": "2026-06-25T20:03:30Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
+  },
+  {
     "id": "http://nolanlawson.com/?p=15889#comment-238402",
     "title": "Comment on We mourn our craft by Assistance for reading, not writing | x28's new Blog",
     "url": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238402",
@@ -20,6 +30,28 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://yeastconfections.substack.com/p/i-fed-the-people-building-the-metaverse",
+    "title": "I Fed the People Building the Metaverse",
+    "url": "https://yeastconfections.substack.com/p/i-fed-the-people-building-the-metaverse",
+    "summary": "\"People accuse each other of using ChatGPT like they’re exposing a steroid scandal in professional baseball. Someone uses an em dash and suddenly we’re convening a digital ethics tribunal. God forbid you use an antithesis statement. Meanwhile the people actually building this stuff are moving at corporate scale. Quietly. Casually. Confidently.\" I used to work at Meta. Not in tech. God no. I was a pastry chef at one of the Meta data centers, which is somehow an even stranger sentence to say o…",
+    "published_at": "2026-06-25T06:27:50Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
+  },
+  {
+    "id": "https://emrahdiril.com/claude-export/",
+    "title": "Claude Markdown Exporter",
+    "url": "https://emrahdiril.com/claude-export/",
+    "summary": "handy bookmarklet to export a chat from the claude web interface 1 Install the Bookmarklet Drag this button to your browser's bookmarks bar: Export Claude to Markdown v0.5.24.3 2 Use the Bookmarklet Navigate to a Claude conversation on claude.ai and click the bookmarklet in your bookmarks bar. The tool will: Extract the conversation content Remove unnecessary UI elements Prepare a clean export file 3 Save the Export The bookmarklet downloads a .md file to your computer. Keep the conversation in …",
+    "published_at": "2026-06-24T12:11:27Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238401",
@@ -66,6 +98,17 @@
     "site_url": "https://nolanlawson.com"
   },
   {
+    "id": "https://giants-club.net/articles/just-use-mastodon/",
+    "title": "Look, just fucking use Mastodon already",
+    "url": "https://giants-club.net/articles/just-use-mastodon/",
+    "summary": "seriously. it's not fucking hard Oh, Bluesky is getting a little shitty, you say? Oh no! Who could have predicted Bluesky could ever have run that risk? I mean, apart from everyone warning us that it was launched by weirdo alt-right blockchain-shilling AI-loving shitbird Jack Dorsey, and that their current CEO came from a weirdo alt-right blockchain-shilling AI-loving shitbird background. You know. Besides them. Now quelle surprise, Bluesky CEO Jay Graber’s out there mocking people asking why …",
+    "published_at": "2026-06-22T06:58:25Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
+  },
+  {
     "id": "https://inkdroid.org/2026/06/22/bookmarks/",
     "title": "Bookmarks - book, ai, map, llm",
     "url": "https://inkdroid.org/2026/06/22/bookmarks/",
@@ -97,6 +140,16 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://intheweights.com/p/andreas-gohr",
+    "title": "ANDREAS GOHR IS IN THE WEIGHTS",
+    "url": "https://intheweights.com/p/andreas-gohr",
+    "published_at": "2026-06-21T05:34:36Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
   },
   {
     "id": "https://simst.im/articles/how-to-get-recruited",
@@ -213,6 +266,17 @@
     "site_url": "https://lalitm.com"
   },
   {
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -228,17 +292,6 @@
     "title": "Hermes Agent formats its output based on the platform you connect as",
     "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
     "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -268,17 +321,6 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
-    "published_at": "2026-06-14T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": "https://inkdroid.org"
-  },
-  {
     "id": "https://inkdroid.org/2026/06/14/tree-2/",
     "title": "Tree 2",
     "url": "https://inkdroid.org/2026/06/14/tree-2/",
@@ -301,15 +343,15 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://mareksuppa.com/til/load-bearing/",
-    "title": "\"Load-bearing\" is becoming LLM speak",
-    "url": "https://mareksuppa.com/til/load-bearing/",
-    "summary": "A civil-engineering metaphor seems to have become part of Claude\u0026rsquo;s LLM speak.",
-    "published_at": "2026-06-14T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
+    "published_at": "2026-06-14T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": "https://inkdroid.org"
   },
   {
     "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
@@ -321,6 +363,17 @@
     "feed_title": "pyj's blog",
     "owner_username": "pyj",
     "site_url": "https://pyjarrett.github.io/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/load-bearing/",
+    "title": "\"Load-bearing\" is becoming LLM speak",
+    "url": "https://mareksuppa.com/til/load-bearing/",
+    "summary": "A civil-engineering metaphor seems to have become part of Claude\u0026rsquo;s LLM speak.",
+    "published_at": "2026-06-14T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KV0ECFEBHAPFPY2JAZWH7M3P",
@@ -355,6 +408,17 @@
     "feed_title": "Comments for Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
+  },
+  {
+    "id": "https://www.splitbrain.org/blog/2026-06/12-psa_bubbles.town_has_a_widget",
+    "title": "PSA: Bubbles.town has a widget",
+    "url": "https://www.splitbrain.org/blog/2026-06/12-psa_bubbles.town_has_a_widget",
+    "summary": "PSA: Bubbles.town has a widget I am a big fan of bubbles.town , a relatively new website to make it easier to discover the indieweb of personal blogs. Sounds familiar? I run indieblog.page where the idea is that you can discover new blogs one random post at a time . Bubble's approach is a different one. Instead of showing you random posts, they want to “bubble up” the best posts by user votes, similar to what Reddit or Hackernews do. However unlike on those sites, the posts are not user subm…",
+    "published_at": "2026-06-12T09:40:41Z",
+    "feed_url": "https://www.splitbrain.org/feed/blog",
+    "feed_title": "splitbrain.org - blog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
   },
   {
     "id": "https://inkdroid.org/2026/06/12/tascam/",
@@ -443,6 +507,17 @@
     "feed_title": "Comments for Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
+  },
+  {
+    "id": "https://www.splitbrain.org/blog/2026-06/06-pallet_wood_crafting_table",
+    "title": "Pallet Wood Crafting Table",
+    "url": "https://www.splitbrain.org/blog/2026-06/06-pallet_wood_crafting_table",
+    "summary": "Pallet Wood Crafting Table One of my favorite YouTube channels is EpicUpCycling . If you don't know it, check it out. Jason builds amazing things out of pallet wood. I'm far from his skill, but he taught me not to throw away or just burn pallets. The wood might look shabby but with a bit of work you can make it into something beautiful. As fate would have it, Kaddi wanted a dedicated crafting table in the office and at the same time I had some pallets from recent deliveries - so why not give it …",
+    "published_at": "2026-06-07T16:01:08Z",
+    "feed_url": "https://www.splitbrain.org/feed/blog",
+    "feed_title": "splitbrain.org - blog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
   },
   {
     "id": "https://lalitm.com/post/perfetto-security-bugs-ai/",
@@ -836,17 +911,6 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/llmenv/",
-    "title": "Environment variables indicative of coding agents",
-    "url": "https://runxiyu.org/comp/llmenv/",
-    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
-    "published_at": "2026-05-29T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
     "title": "Preserving Pixter",
     "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
@@ -856,6 +920,17 @@
     "feed_title": "Dmitry.GR",
     "owner_username": "dmitrygr",
     "site_url": "https://dmitry.gr"
+  },
+  {
+    "id": "https://runxiyu.org/comp/llmenv/",
+    "title": "Environment variables indicative of coding agents",
+    "url": "https://runxiyu.org/comp/llmenv/",
+    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
+    "published_at": "2026-05-29T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://bernat.tech/posts/blanket-deterministic-threading/",
@@ -935,10 +1010,22 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
-    "title": "pg_tre: approximate regex as a real Postgres index AM",
-    "url": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
-    "summary": "A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.",
+    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
+    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
+    "published_at": "2026-05-26T00:00:00Z",
+    "updated_at": "2026-05-26T00:00:00Z",
+    "feed_url": "https://greg.burd.me/atom.xml",
+    "feed_title": "greg@burd.me",
+    "owner_username": "gregburd",
+    "site_url": "https://greg.burd.me/"
+  },
+  {
+    "id": "https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/",
+    "title": "pg_mentat: bringing Mozilla's Mentat back inside PostgreSQL",
+    "url": "https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/",
+    "summary": "Datomic's data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -959,22 +1046,10 @@
     "site_url": "https://greg.burd.me/"
   },
   {
-    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
-    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
-    "published_at": "2026-05-26T00:00:00Z",
-    "updated_at": "2026-05-26T00:00:00Z",
-    "feed_url": "https://greg.burd.me/atom.xml",
-    "feed_title": "greg@burd.me",
-    "owner_username": "gregburd",
-    "site_url": "https://greg.burd.me/"
-  },
-  {
-    "id": "https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/",
-    "title": "pg_mentat: bringing Mozilla's Mentat back inside PostgreSQL",
-    "url": "https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/",
-    "summary": "Datomic's data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.",
+    "id": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
+    "title": "pg_tre: approximate regex as a real Postgres index AM",
+    "url": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
+    "summary": "A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1073,17 +1148,6 @@
     "site_url": "http://juraj.mlich.eu"
   },
   {
-    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "title": "Backpressure is all you need",
-    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
-    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://www.lucasfcosta.com/feed.xml",
-    "feed_title": "Lucas F. Costa - Blog",
-    "owner_username": "lucasfcosta",
-    "site_url": "https://www.lucasfcosta.com"
-  },
-  {
     "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
     "title": "The Algorithm Behind Shazam",
     "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
@@ -1093,6 +1157,17 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
+  },
+  {
+    "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "title": "Backpressure is all you need",
+    "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
+    "summary": "There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://www.lucasfcosta.com/feed.xml",
+    "feed_title": "Lucas F. Costa - Blog",
+    "owner_username": "lucasfcosta",
+    "site_url": "https://www.lucasfcosta.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -1329,17 +1404,6 @@
     "site_url": "http://bernat.tech"
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -1350,6 +1414,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://arne.me/library/platform-decay",
@@ -1452,10 +1527,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1463,10 +1538,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1689,17 +1764,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
-  },
-  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -1710,6 +1774,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
   },
   {
     "id": "https://bpapillon.com/recommended/rift/",
@@ -1779,6 +1854,18 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "/bug-bash-two",
+    "title": "Bug Bash 2: Attack of the Clones",
+    "url": "/bug-bash-two/",
+    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
+    "published_at": "2026-05-01T00:00:00Z",
+    "updated_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://concerningquality.com/feed.xml",
+    "feed_title": "Concerning Quality",
+    "owner_username": "amw-zero",
+    "site_url": "https://concerningquality.com"
+  },
+  {
     "id": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
     "title": "'Fernweh' in Urdu poetry",
     "url": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
@@ -1801,18 +1888,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "/bug-bash-two",
-    "title": "Bug Bash 2: Attack of the Clones",
-    "url": "/bug-bash-two/",
-    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
-    "published_at": "2026-05-01T00:00:00Z",
-    "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://concerningquality.com/feed.xml",
-    "feed_title": "Concerning Quality",
-    "owner_username": "amw-zero",
-    "site_url": "https://concerningquality.com"
   },
   {
     "id": "https://jcs.org/notes/2026/04/30/993283158047010817",
@@ -1883,10 +1958,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1894,10 +1969,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -1938,17 +2013,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html",
-    "title": "Brute force is our zeitgeist",
-    "url": "https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html",
-    "summary": "I just ran into this good article on lobste.rs . It's about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I've been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…",
-    "published_at": "2026-04-24T00:00:00Z",
-    "feed_url": "https://emanuele.decup.is/feed.xml",
-    "feed_title": "a.k.a.balanza",
-    "owner_username": "balanza",
-    "site_url": "https://emanuele.decup.is"
-  },
-  {
     "id": "https://runxiyu.org/comp/pq/",
     "title": "My view of the state of post-quantum cryptography",
     "url": "https://runxiyu.org/comp/pq/",
@@ -1958,6 +2022,17 @@
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
     "owner_username": "runxiyu",
     "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html",
+    "title": "Brute force is our zeitgeist",
+    "url": "https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html",
+    "summary": "I just ran into this good article on lobste.rs . It's about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I've been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…",
+    "published_at": "2026-04-24T00:00:00Z",
+    "feed_url": "https://emanuele.decup.is/feed.xml",
+    "feed_title": "a.k.a.balanza",
+    "owner_username": "balanza",
+    "site_url": "https://emanuele.decup.is"
   },
   {
     "id": "https://jcs.org/notes/2026/04/22/990429869592092673",
@@ -1982,17 +2057,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://randoneering.tech/about/",
-    "title": "About",
-    "url": "https://randoneering.tech/about/",
-    "summary": "My name is Justin Frye and I’m an independent infrastructure engineer operating as Randoneering, LLC . I help startups and small businesses build, improve, and stabilize the systems their business depends on. Some teams need to build from scratch. Some need to clean up an environment that grew fast and never got enough structure. Some need a staff engineer to step in for a season and help them get through a migration, reliability issue, or operational mess without making a full-time hire.",
-    "published_at": "2026-04-20T00:00:00Z",
-    "feed_url": "https://randoneering.tech/index.xml",
-    "feed_title": "Randoneering",
-    "owner_username": "randoneering",
-    "site_url": "https://randoneering.tech"
-  },
-  {
     "id": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
     "title": "Why Rust for Scientific Python Programming?",
     "url": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
@@ -2002,6 +2066,17 @@
     "feed_title": "nrposner",
     "owner_username": "nrposner",
     "site_url": "https://nrposner.com"
+  },
+  {
+    "id": "https://randoneering.tech/about/",
+    "title": "About",
+    "url": "https://randoneering.tech/about/",
+    "summary": "My name is Justin Frye and I’m an independent infrastructure engineer operating as Randoneering, LLC . I help startups and small businesses build, improve, and stabilize the systems their business depends on. Some teams need to build from scratch. Some need to clean up an environment that grew fast and never got enough structure. Some need a staff engineer to step in for a season and help them get through a migration, reliability issue, or operational mess without making a full-time hire.",
+    "published_at": "2026-04-20T00:00:00Z",
+    "feed_url": "https://randoneering.tech/index.xml",
+    "feed_title": "Randoneering",
+    "owner_username": "randoneering",
+    "site_url": "https://randoneering.tech"
   },
   {
     "id": "https://bernat.tech/posts/pytexas-2026-recap/",
@@ -2059,18 +2134,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://www.philipzucker.com/thin_egraph",
-    "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
-    "url": "https://www.philipzucker.com/thin_egraph/",
-    "summary": "Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.",
-    "published_at": "2026-04-18T00:00:00Z",
-    "updated_at": "2026-04-18T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": "https://www.philipzucker.com/"
-  },
-  {
     "id": "https://arne.me/library/tiamats-wrath",
     "title": "Tiamat's Wrath by James S. A. Corey",
     "url": "https://arne.me/library/tiamats-wrath",
@@ -2091,6 +2154,18 @@
     "feed_title": "lifewaza",
     "owner_username": "gabe",
     "site_url": "https://www.lifewaza.com/"
+  },
+  {
+    "id": "https://www.philipzucker.com/thin_egraph",
+    "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
+    "url": "https://www.philipzucker.com/thin_egraph/",
+    "summary": "Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.",
+    "published_at": "2026-04-18T00:00:00Z",
+    "updated_at": "2026-04-18T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": "https://www.philipzucker.com/"
   },
   {
     "id": "https://jcs.org/notes/2026/04/17/988509061389520897",
@@ -2181,15 +2256,26 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
-    "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "summary": "ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…",
+    "id": "http://iamkonstantin.eu/blog/meet-inlay-a-gleam-library-to-embed-common-urls-on-your-website/",
+    "title": "Meet Inlay, a Gleam library to embed common urls on your website",
+    "url": "http://iamkonstantin.eu/blog/meet-inlay-a-gleam-library-to-embed-common-urls-on-your-website/",
+    "summary": "Inlay is a library which renders embedded previews for content links (Mastodon, Pixelfed, Apple Music, Bluesky, Spotify, etc..) on your Lustre page I'm very happy to announce a new library I've been working on in the last couple of days - Inlay . The Gleam Way I've been actively looking for opportunities to integrate more Gleam into my work and the recent 11ty news have provided an excellent excuse to rewrite all my static websites using Lustre . In case you don't know, Lustre is a web framework…",
+    "published_at": "2026-04-13T17:55:00Z",
+    "feed_url": "https://iamkonstantin.eu/blog/feed/",
+    "feed_title": "Konstantin's Blog Feed",
+    "owner_username": "iamkonstantin",
+    "site_url": "https://iamkonstantin.eu"
+  },
+  {
+    "id": "https://mlich.eu/posts/one-thing/",
+    "title": "One Thing",
+    "url": "https://mlich.eu/posts/one-thing/",
+    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
     "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://arne.me/library/die-kaenguru-rebellion",
@@ -2203,15 +2289,15 @@
     "site_url": "https://arne.me"
   },
   {
-    "id": "https://mlich.eu/posts/one-thing/",
-    "title": "One Thing",
-    "url": "https://mlich.eu/posts/one-thing/",
-    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
+    "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
+    "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
+    "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
+    "summary": "ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…",
     "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "24eee1ac-ff2a-59a4-9580-dbcc1c3c5d29",
@@ -2236,17 +2322,6 @@
     "site_url": "https://octet-stream.net/"
   },
   {
-    "id": "https://arne.me/library/what-we-can-know",
-    "title": "What We Can Know by Ian McEwan",
-    "url": "https://arne.me/library/what-we-can-know",
-    "summary": "I read What We Can Know by Ian McEwan",
-    "published_at": "2026-04-11T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog",
     "title": "How I Made $360 by Serving Markdown to A.I. agents from My Jekyll Blog",
     "url": "https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog.html",
@@ -2257,6 +2332,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://arne.me/library/what-we-can-know",
+    "title": "What We Can Know by Ian McEwan",
+    "url": "https://arne.me/library/what-we-can-know",
+    "summary": "I read What We Can Know by Ian McEwan",
+    "published_at": "2026-04-11T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "69a92b7cddaef94b8928230b",
@@ -2304,6 +2390,17 @@
     "site_url": "https://mtlynch.io"
   },
   {
+    "id": "https://cuonglm.xyz/post/go_issue_77193/",
+    "title": "An old compiler bug with a very bad outcome",
+    "url": "https://cuonglm.xyz/post/go_issue_77193/",
+    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
+    "published_at": "2026-04-08T00:00:00Z",
+    "feed_url": "https://cuonglm.xyz/index.xml",
+    "feed_title": "CuongLM",
+    "owner_username": "cuonglm",
+    "site_url": "https://cuonglm.xyz/"
+  },
+  {
     "id": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist",
     "title": "Opening Proprietary Code to Contributors Checklist",
     "url": "https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html",
@@ -2314,17 +2411,6 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
-  },
-  {
-    "id": "https://cuonglm.xyz/post/go_issue_77193/",
-    "title": "An old compiler bug with a very bad outcome",
-    "url": "https://cuonglm.xyz/post/go_issue_77193/",
-    "summary": "Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {\u0026amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: \u0026lt;unlinkable\u0026gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT \u0026lt;unlinkable\u0026gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…",
-    "published_at": "2026-04-08T00:00:00Z",
-    "feed_url": "https://cuonglm.xyz/index.xml",
-    "feed_title": "CuongLM",
-    "owner_username": "cuonglm",
-    "site_url": "https://cuonglm.xyz/"
   },
   {
     "id": "https://philipotoole.com/?p=8107",
@@ -2472,17 +2558,6 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
-    "id": "https://arne.me/library/ancillary-justice",
-    "title": "Ancillary Justice by Ann Leckie",
-    "url": "https://arne.me/library/ancillary-justice",
-    "summary": "I read Ancillary Justice by Ann Leckie",
-    "published_at": "2026-03-30T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
     "title": "How come we are releasing Distrobox v2",
     "url": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
@@ -2492,6 +2567,17 @@
     "feed_title": "a.k.a.balanza",
     "owner_username": "balanza",
     "site_url": "https://emanuele.decup.is"
+  },
+  {
+    "id": "https://arne.me/library/ancillary-justice",
+    "title": "Ancillary Justice by Ann Leckie",
+    "url": "https://arne.me/library/ancillary-justice",
+    "summary": "I read Ancillary Justice by Ann Leckie",
+    "published_at": "2026-03-30T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "https://siddharthsabron.in/projects/click-url-shortner/",
@@ -2517,17 +2603,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "title": "PicoBot on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
-    "published_at": "2026-03-27T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
     "title": "Using a systemd timer to monitor my laptop's battery",
     "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
@@ -2537,6 +2612,17 @@
     "feed_title": "The stuff I do",
     "owner_username": "statox",
     "site_url": "http://www.statox.fr"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "title": "PicoBot on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
@@ -2705,17 +2791,6 @@
     "site_url": "https://dev.to/karelvandenbussche"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "title": "PicoClaw on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
-    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
-    "published_at": "2026-03-19T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
     "title": "How to get the deployed Git commit hash in Portainer CE",
     "url": "https://mareksuppa.com/til/portainer-ce-git-commit-hash/",
@@ -2725,6 +2800,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "title": "PicoClaw on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/",
+    "summary": "In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …",
+    "published_at": "2026-03-19T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://jordivillar.com/notes/between-jobs/",
@@ -2791,6 +2877,17 @@
     "feed_title": "Fabio Manganiello",
     "owner_username": "blacklight",
     "site_url": "https://fabiomanganiello.com"
+  },
+  {
+    "id": "http://iamkonstantin.eu/blog/weeknotes-1-2026/",
+    "title": "Weeknotes #1-2026",
+    "url": "http://iamkonstantin.eu/blog/weeknotes-1-2026/",
+    "summary": "Introducing week notes, work on Flowvi.be and the road ahead It's been a while since my last post. I think form now on, I will be focusing more on short notes highlighting interesting happenings and progress on my side projects. I'm tentatively calling it a Weeknote but we will see if this is sustainable 🙂. The last two weeks were focused on getting Flowvi.be 1.7.2 ready for release. I'm very happy with the work so far - refactoring of the Mood Engine into a more flexible and portable solutio…",
+    "published_at": "2026-03-15T12:50:00Z",
+    "feed_url": "https://iamkonstantin.eu/blog/feed/",
+    "feed_title": "Konstantin's Blog Feed",
+    "owner_username": "iamkonstantin",
+    "site_url": "https://iamkonstantin.eu"
   },
   {
     "id": "https://dev.to/karelvandenbussche/managing-ai-or-managing-a-team-c6h",
@@ -2896,17 +2993,6 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://nrposner.com/blog/affordances-in-library-api-design/",
-    "title": "Affordances in Library API Design",
-    "url": "https://nrposner.com/blog/affordances-in-library-api-design/",
-    "summary": "I was reading David Nicholson's Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of 'Domain-Driven Design' coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson's rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…",
-    "published_at": "2026-03-09T00:00:00Z",
-    "feed_url": "https://nrposner.com/rss/",
-    "feed_title": "nrposner",
-    "owner_username": "nrposner",
-    "site_url": "https://nrposner.com"
-  },
-  {
     "id": "https://ntietz.com/blog/let-yourself-fall-down-more/",
     "title": "Let yourself fall down more",
     "url": "https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom\u0026utm_medium=feed",
@@ -2917,6 +3003,17 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
+  },
+  {
+    "id": "https://nrposner.com/blog/affordances-in-library-api-design/",
+    "title": "Affordances in Library API Design",
+    "url": "https://nrposner.com/blog/affordances-in-library-api-design/",
+    "summary": "I was reading David Nicholson's Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of 'Domain-Driven Design' coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson's rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…",
+    "published_at": "2026-03-09T00:00:00Z",
+    "feed_url": "https://nrposner.com/rss/",
+    "feed_title": "nrposner",
+    "owner_username": "nrposner",
+    "site_url": "https://nrposner.com"
   },
   {
     "id": "https://brndn.io/posts/on-the-edge/",
@@ -2950,6 +3047,17 @@
     "feed_title": "DEV Community: Karel Vanden Bussche",
     "owner_username": "kavdnbus",
     "site_url": "https://dev.to/karelvandenbussche"
+  },
+  {
+    "id": "https://www.splitbrain.org/blog/2026-03/08-auto_delete_old_mails_from_gmail",
+    "title": "Auto-Delete old Mails from GMail",
+    "url": "https://www.splitbrain.org/blog/2026-03/08-auto_delete_old_mails_from_gmail",
+    "summary": "Auto-Delete old Mails from GMail My inbox is a mess. While I manage to maintain a somewhat close to “Inbox Zero” at work, my personal GMail's inbox currently sits at 2,215 emails . A large amount of those mails are notifications of some kind, like from Github for example. GMail has some mechanisms to automatically sort mails and I do make use of that, but those filters are applied when the mail arrives only. For notifications I want to see the mail. So it should land in my inbox. But when I …",
+    "published_at": "2026-03-08T12:50:07Z",
+    "feed_url": "https://www.splitbrain.org/feed/blog",
+    "feed_title": "splitbrain.org - blog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KK69E12QQR2J715VDT25EK6F",
@@ -3063,6 +3171,17 @@
     "site_url": "https://blog.henryvandenbroek.com"
   },
   {
+    "id": "https://www.splitbrain.org/blog/2026-03/02-old_game_new_clothes",
+    "title": "Old Game, New Clothes",
+    "url": "https://www.splitbrain.org/blog/2026-03/02-old_game_new_clothes",
+    "summary": "Old Game, New Clothes Back in university in 2003 we had to do a group project. I don't remember which course it was, but the assignment was pretty open. Basically as long as you coded something, you passed. I had just switched from my trusty Palm Tungsten E2 PDA to a Linux based Sharp Zaurus and I was missing a little puzzle game I enjoyed playing on the Palm. So my friend Frank and I decided to implement our own version. The Zaurus used QT as the graphics framework so we made it in C++ and QT. …",
+    "published_at": "2026-03-02T17:13:31Z",
+    "feed_url": "https://www.splitbrain.org/feed/blog",
+    "feed_title": "splitbrain.org - blog",
+    "owner_username": "splitbrain",
+    "site_url": "https://www.splitbrain.org"
+  },
+  {
     "id": "https://ntietz.com/blog/you-cant-always-fix-it/",
     "title": "You can't always fix it",
     "url": "https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom\u0026utm_medium=feed",
@@ -3073,28 +3192,6 @@
     "feed_title": "ntietz.com blog - technically a blog",
     "owner_username": "ntietz",
     "site_url": "https://ntietz.com"
-  },
-  {
-    "id": "https://dimtion.fr/wiki/ml/soft-capping/",
-    "title": "Logit soft-capping",
-    "url": "https://dimtion.fr/wiki/ml/soft-capping/",
-    "summary": "Logit From google : the vector of raw (non-normalized) predictions that a classification model generates, which is ordinarily then passed to a normalization function. If the model is solving a multi-class classification problem, logits typically become an input to the softmax function. The softmax function then generates a vector of (normalized) probabilities with one value for each possible class. Logit soft-capping Logit softcapping (introduced in Gemma 2 ) is a technique to cap the value betw…",
-    "published_at": "2026-03-01T00:00:00Z",
-    "updated_at": "2026-03-01T00:00:00Z",
-    "feed_url": "https://dimtion.fr/atom.xml",
-    "owner_username": "dimtion",
-    "site_url": "https://dimtion.fr"
-  },
-  {
-    "id": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
-    "title": "The apartment you no longer live in",
-    "url": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
-    "summary": "You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.",
-    "published_at": "2026-03-01T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://emanuele.decup.is/posts/20260301-wok-030-is-out.html",
@@ -3108,10 +3205,32 @@
     "site_url": "https://emanuele.decup.is"
   },
   {
+    "id": "https://dimtion.fr/wiki/ml/soft-capping/",
+    "title": "Logit soft-capping",
+    "url": "https://dimtion.fr/wiki/ml/soft-capping/",
+    "summary": "Logit From google : the vector of raw (non-normalized) predictions that a classification model generates, which is ordinarily then passed to a normalization function. If the model is solving a multi-class classification problem, logits typically become an input to the softmax function. The softmax function then generates a vector of (normalized) probabilities with one value for each possible class. Logit soft-capping Logit softcapping (introduced in Gemma 2 ) is a technique to cap the value betw…",
+    "published_at": "2026-03-01T00:00:00Z",
+    "updated_at": "2026-03-01T00:00:00Z",
+    "feed_url": "https://dimtion.fr/atom.xml",
+    "owner_username": "dimtion",
+    "site_url": "https://dimtion.fr"
+  },
+  {
     "id": "https://mlich.eu/posts/waves/",
     "title": "Waves",
     "url": "https://mlich.eu/posts/waves/",
     "summary": "They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions",
+    "published_at": "2026-03-01T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
+  },
+  {
+    "id": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
+    "title": "The apartment you no longer live in",
+    "url": "https://mlich.eu/posts/the-apartment-you-no-longer-live-in/",
+    "summary": "You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.",
     "published_at": "2026-03-01T00:00:00Z",
     "feed_url": "http://juraj.mlich.eu/index.xml",
     "feed_title": "Juri Mlich",
@@ -3229,129 +3348,5 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "https://jordivillar.com/blog/tinybird/",
-    "title": "Four Years at Tinybird",
-    "url": "https://jordivillar.com/blog/tinybird/",
-    "summary": "I worked at Tinybird for 4 years, 2 months, and 21 days. It’s been an incredible experience that taught me a lot about startups, engineering, and myself. Still, it feels like I joined a lifetime ago. At this point, you’re probably wondering why? Why are you writing this post about leaving a startup? One of the things I enjoyed most about my early days at Tinybird was the long-form writing culture. It allowed us to express ideas and thoughts, share knowledge, and collaborate. Something diffic…",
-    "published_at": "2026-02-21T11:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "tag:www.agwa.name,2012:/blog/post/ip_address_certs",
-    "title": "Why IP Address Certificates Are Dangerous and Usually Unnecessary",
-    "url": "https://www.agwa.name/blog/post/ip_address_certs",
-    "summary": "Imagine you're connecting to an IP address over TLS. The server presents a valid, properly-issued IP address certificate from a publicly-trusted certificate authority. But you're not really talking to that IP address, but to a man-in-the-middle (MitM) who was assigned the IP address over a year ago. How could this be? Unfortunately, publicly-trusted IP address certificates just don't provide the same level of security as certificates for domain names. Unless you're operating a DNS-over-TLS or DN…",
-    "published_at": "2026-02-19T12:25:21Z",
-    "updated_at": "2026-02-19T12:25:21Z",
-    "feed_url": "https://www.agwa.name/blog/feed",
-    "feed_title": "Andrew Ayer - Blog",
-    "owner_username": "agwa",
-    "site_url": "https://www.agwa.name/"
-  },
-  {
-    "id": "https://vito.io/articles/the-specification",
-    "title": "Rebuilding Windows Live Messenger, Part 3: The Specification",
-    "url": "https://vito.io/articles/2026-02-19-the-specification.html",
-    "summary": "This post continues the investigation that began with “This is not RLE”.",
-    "published_at": "2026-02-19T03:00:00Z",
-    "updated_at": "2026-02-19T03:00:00Z",
-    "feed_url": "https://vito.io/feed.xml",
-    "feed_title": "Vito Sartori",
-    "owner_username": "vito",
-    "site_url": "https://vito.io"
-  },
-  {
-    "id": "http://nolanlawson.com/?p=16006",
-    "title": "You had a story",
-    "url": "https://nolanlawson.com/2026/02/18/you-had-a-story/",
-    "summary": "You had a story you used to tell yourself about how you got here in life. You\u0026#8217;d share the story with others. Maybe you\u0026#8217;d be at a party, and someone would ask what you do, and you\u0026#8217;d say, \u0026#8220;I\u0026#8217;m a programmer.\u0026#8221; And their eyes would perk up and their mind would fill with images of [\u0026#8230;]",
-    "published_at": "2026-02-18T15:13:07Z",
-    "feed_url": "https://nolanlawson.com/feed/",
-    "feed_title": "Read the Tea Leaves",
-    "owner_username": "nolan",
-    "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "https://abhamra.com/blog/path-profiling/",
-    "title": "Understanding Whole Program Paths and Path Profiling",
-    "url": "https://abhamra.com/blog/path-profiling/",
-    "summary": "As a part of Georgia Tech's Compiler Design course, the last sliver of HW1 was to implement part of the trace and compression algorithm from James Larus' \"Whole Program Paths\" paper. I wanted to take some time today to go through the paper's ideas, my implementation, and some realizations/jumps I had to make along the way, partly because it's interesting and partly because I had fun thinking about some of the problems and techniques introduced to me in this paper. Before this, I had never really…",
-    "published_at": "2026-02-18T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": "https://abhamra.com/"
-  },
-  {
-    "id": "https://nrposner.com/blog/vectorized-hardware-instructions-rule-everything-around-me-actually/",
-    "title": "Vectorized Hardware Instructions Rule Everything Around Me, Actually",
-    "url": "https://nrposner.com/blog/vectorized-hardware-instructions-rule-everything-around-me-actually/",
-    "summary": "Yesterday , I shared a rather lengthy post about various ways to optimize NumPy array operations with lower-level solutions. One of the findings was that a zipped Rust array could be faster than NumPy, but it depended on several factors: How many binary NumPy operations are you performing? NumPy performs an intermediate array allocation on each operation, so the more operations you can fuse into a single pass, the more you can eliminate allocator and loop overhead. What operations are you perfor…",
-    "published_at": "2026-02-18T00:00:00Z",
-    "feed_url": "https://nrposner.com/rss/",
-    "feed_title": "nrposner",
-    "owner_username": "nrposner",
-    "site_url": "https://nrposner.com"
-  },
-  {
-    "id": "https://mkir.ch/2026-02-17/alposs-2026-radios-libres.html",
-    "title": "AlpOSS 2026: Radios libres ?",
-    "url": "https://mkir.ch/2026-02-17/alposs-2026-radios-libres.html",
-    "summary": "Les slides!",
-    "published_at": "2026-02-17T16:00:00Z",
-    "feed_url": "https://mkir.ch/rss.xml",
-    "feed_title": "[Insérez un titre ici]",
-    "owner_username": "martinkirch",
-    "site_url": "https://mkir.ch/"
-  },
-  {
-    "id": "https://lucasfcosta.com/blog/design-docs/",
-    "title": "Design docs considered harmful",
-    "url": "https://lucasfcosta.com/blog/design-docs/",
-    "summary": "Somewhere in your company's Google Drive, there's a design doc from six months ago. It describes a system that doesn't exist. It was outdated by the second sprint and abandoned by the third. Fourteen...",
-    "published_at": "2026-02-17T12:00:00Z",
-    "feed_url": "https://www.lucasfcosta.com/feed.xml",
-    "feed_title": "Lucas F. Costa - Blog",
-    "owner_username": "lucasfcosta",
-    "site_url": "https://www.lucasfcosta.com"
-  },
-  {
-    "id": "https://social.ayushnix.com/@ayushnix/statuses/01KHN7GVSD1KWFJ1FRDRZGY8J7",
-    "title": "“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate w...",
-    "url": "https://social.ayushnix.com/@ayushnix/statuses/01KHN7GVSD1KWFJ1FRDRZGY8J7",
-    "summary": "@ayushnix@social.ayushnix.com made a new post: \"“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate while observing, quite accurately, that it is above its own laws.” — Leto Atreide...",
-    "published_at": "2026-02-17T07:20:03Z",
-    "feed_url": "https://social.ayushnix.com/@ayushnix/feed.rss",
-    "feed_title": "Posts from @ayushnix@social.ayushnix.com",
-    "owner_username": "ayushnix",
-    "site_url": "https://social.ayushnix.com/@ayushnix"
-  },
-  {
-    "id": "https://vito.io/articles/messenger-on-mac",
-    "title": "Rebuilding Windows Live Messenger, Part 2: Messenger on macOS",
-    "url": "https://vito.io/articles/2026-02-17-messenger-on-mac.html",
-    "summary": "Just to take a breath between Assembly and graphics, I installed Mojave on an old Mac Mini and spun Microsoft Messenger, which is the equivalent of Windows Live Messenger for macOS, as removing Windows from the equation makes things way easier. The objective today is to fool it enough to make it think it is talking with the now long gone Microsoft servers.",
-    "published_at": "2026-02-17T03:00:00Z",
-    "updated_at": "2026-02-17T03:00:00Z",
-    "feed_url": "https://vito.io/feed.xml",
-    "feed_title": "Vito Sartori",
-    "owner_username": "vito",
-    "site_url": "https://vito.io"
-  },
-  {
-    "id": "https://nrposner.com/blog/when-vectorized-arrays-arent-enough/",
-    "title": "When Vectorized Arrays Aren't Enough",
-    "url": "https://nrposner.com/blog/when-vectorized-arrays-arent-enough/",
-    "summary": "Or, Zipped Arrays Rule Everything Around Me (see followup post ) I've been contributing on and off to the McFACTS simulation project for a few months now, and am currently in the process of testing and merging some pretty substantial optimizations to the core 'business logic' of the simulation, which mainly consists of long series of NumPy array operations. Pretty much all the optimizations in the pipeline right now are basically identical, to the point that I've considered just writing a macro …",
-    "published_at": "2026-02-17T00:00:00Z",
-    "feed_url": "https://nrposner.com/rss/",
-    "feed_title": "nrposner",
-    "owner_username": "nrposner",
-    "site_url": "https://nrposner.com"
   }
 ]

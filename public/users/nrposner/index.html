@@ -76,18 +76,6 @@
           <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">18 Feb 2026 · nrposner</p>
-          <h3><a href="https://nrposner.com/blog/vectorized-hardware-instructions-rule-everything-around-me-actually/">Vectorized Hardware Instructions Rule Everything Around Me, Actually</a></h3>
-          <p>Yesterday , I shared a rather lengthy post about various ways to optimize NumPy array operations with lower-level solutions. One of the findings was that a zipped Rust array could be faster than NumPy, but it depended on several factors: How many binary NumPy operations are you performing? NumPy performs an intermediate array allocation on each operation, so the more operations you can fuse into a single pass, the more you can eliminate allocator and loop overhead. What operations are you perfor…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · nrposner</p>
-          <h3><a href="https://nrposner.com/blog/when-vectorized-arrays-arent-enough/">When Vectorized Arrays Aren&#39;t Enough</a></h3>
-          <p>Or, Zipped Arrays Rule Everything Around Me (see followup post ) I&#39;ve been contributing on and off to the McFACTS simulation project for a few months now, and am currently in the process of testing and merging some pretty substantial optimizations to the core &#39;business logic&#39; of the simulation, which mainly consists of long series of NumPy array operations. Pretty much all the optimizations in the pipeline right now are basically identical, to the point that I&#39;ve considered just writing a macro …</p>
-        </article>
-      
     </div>
   </main>
 

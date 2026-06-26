@@ -23,9 +23,63 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 26 Jun 2026, 14:17 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 26 Jun 2026, 14:54 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/til/portainer-ce-git-commit-hash/">How to get the deployed Git commit hash in Portainer CE</a></h2>
+          <p>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">19 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
+          <h2><a href="https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/">PicoClaw on a Raspberry Pi 3b&#43;</a></h2>
+          <p>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b&#43; . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Mar 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
+          <h2><a href="https://jordivillar.com/notes/between-jobs/">Between jobs</a></h2>
+          <p>Currently I’m between jobs. Nothing special, a lot of people go between jobs. After working for several years on a fast-paced startup, you might be tempted to jump back to your next role. You could feel it or not, but you’re likely tired, even close to burnout. Taking a break between jobs is not just about resting. It’s about taking a step back, reflecting on your work, and finding a new path forward. If you’re looking for a break, take a break. And the most important thing, don’t try …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Mar 2026 · <a href="/users/lalitm/">lalitm</a> · Lalit Maganti</p>
+          <h2><a href="https://lalitm.com/post/syntaqlite/">syntaqlite: high-fidelity devtools that SQLite deserves</a></h2>
+          <p>Most SQL tools treat SQLite as a “flavor” of a generic SQL parser. They approximate the language, which means they break on SQLite-exclusive features like virtual tables , miss syntax like UPSERT , and ignore the 22 compile-time flags that change the syntax SQLite accepts. So I built syntaqlite : an open-source parser, formatter, validator, and LSP built directly on SQLite’s own Lemon-generated grammar. It sees SQL exactly how SQLite sees it, no matter which version of SQLite you’re usin…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Mar 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
+          <h2><a href="https://mtlynch.io/retrospectives/2026/03/">Refactoring English: Month 15</a></h2>
+          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights It turns out that most of Refactoring English ’s readers come from outside the US. I’m using AI-assisted coding too much. Goal grades At the start o…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Mar 2026 · <a href="/users/bahlo/">bahlo</a> · Arne Bahlo’s Book Reviews</p>
+          <h2><a href="https://arne.me/library/liebe-jorinde">Liebe Jorinde by Mareike Fallwickl</a></h2>
+          <p>I read Liebe Jorinde by Mareike Fallwickl</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Mar 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
+          <h2><a href="https://www.lifewaza.com/posts/you-dont-need-a-mac-mini-to-run-openclaw/">You don&#39;t need a Mac Mini to run OpenClaw</a></h2>
+          <p>Introduction # In this series, I’ll explore running OpenClaw on things that aren’t a Mac Mini, as well as exploring some alternatives to OpenClaw. You don’t need a Mac Mini to run OpenClaw 1 . OpenClaw is a NodeJS app that shouldn’t use up too many system resources. It should run pretty well on limited hardware like the Raspberry Pi 3b&#43; that’s sitting in my closet collecting dust, but let’s try it out and see. The OpenClaw documentation has this table: Pi Model RAM Works? Notes Pi 5 …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Mar 2026 · <a href="/users/blacklight/">blacklight</a> · Fabio Manganiello</p>
+          <h2><a href="https://blog.fabiomanganiello.com/article/Federated-replies-and-reactions-in-Madblog">Federated Replies and Reactions in Madblog</a></h2>
+          <p>Engage with the Web from plain text files</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Mar 2026 · <a href="/users/iamkonstantin/">iamkonstantin</a> · Konstantin&#39;s Blog Feed</p>
+          <h2><a href="http://iamkonstantin.eu/blog/weeknotes-1-2026/">Weeknotes #1-2026</a></h2>
+          <p>Introducing week notes, work on Flowvi.be and the road ahead It&#39;s been a while since my last post. I think form now on, I will be focusing more on short notes highlighting interesting happenings and progress on my side projects. I&#39;m tentatively calling it a Weeknote but we will see if this is sustainable 🙂. The last two weeks were focused on getting Flowvi.be 1.7.2 ready for release. I&#39;m very happy with the work so far - refactoring of the Mood Engine into a more flexible and portable solutio…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">14 Mar 2026 · <a href="/users/kavdnbus/">kavdnbus</a> · DEV Community: Karel Vanden Bussche</p>
@@ -82,15 +136,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">9 Mar 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
-          <h2><a href="https://nrposner.com/blog/affordances-in-library-api-design/">Affordances in Library API Design</a></h2>
-          <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">9 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
           <h2><a href="https://ntietz.com/blog/let-yourself-fall-down-more/?utm_source=atom&amp;utm_medium=feed">Let yourself fall down more</a></h2>
           <p>Last week, I got a pair of inline skates. I haven&#39;t had skates since high school, about twenty years ago. The first day I put them on and skated, I didn&#39;t fall down. The second day I put them on, I fell down a lot, and I&#39;m more proud of that. I made a lot faster progress that second day. We want to stay upright. At some point early on in life, we learn to avoid falling down. Maybe we skin our knee, or we get a bruise. Whatever the case, it hurts. Naturally, we want to avoid pain! But have you ev…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">9 Mar 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
+          <h2><a href="https://nrposner.com/blog/affordances-in-library-api-design/">Affordances in Library API Design</a></h2>
+          <p>I was reading David Nicholson&#39;s Domain-driven software design is a good idea, still a couple days ago, and it struck a few thoughts loose in my head. By way of summary, though you should read the original, Nicholson introduces the concept of &#39;Domain-Driven Design&#39; coined by Eric Evans in his 2003 book of the same name, though the general concept is older. In Nicholson&#39;s rendition, DDD involves software engineers and domain experts collaborating, not just to produce software, but to produce a pid…</p>
         </article>
       
         <article class="entry">
@@ -111,6 +165,12 @@ gemini://ayushnix.com/reviews/me...</a></h2>
           <p class="meta">8 Mar 2026 · <a href="/users/kavdnbus/">kavdnbus</a> · DEV Community: Karel Vanden Bussche</p>
           <h2><a href="https://dev.to/karelvandenbussche/designing-for-e-commerce-50p">Designing for e-commerce</a></h2>
           <p>Our young but innovative company created an innovative algorithm to bring, the most nutritious food for your beloved cat or dog, to your doorstep at exactly the time you need it. It might sound like something where no IT is needed, right? It&#39;s just bags with dogfood, how hard can it be? Well, this article will take you on a journey through what it entails to work for an e-commerce company, specifically Just Russel, as a technical engineer. First, we will discuss how well connected the engineerin…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">8 Mar 2026 · <a href="/users/splitbrain/">splitbrain</a> · splitbrain.org - blog</p>
+          <h2><a href="https://www.splitbrain.org/blog/2026-03/08-auto_delete_old_mails_from_gmail">Auto-Delete old Mails from GMail</a></h2>
+          <p>Auto-Delete old Mails from GMail My inbox is a mess. While I manage to maintain a somewhat close to “Inbox Zero” at work, my personal GMail&#39;s inbox currently sits at 2,215 emails . A large amount of those mails are notifications of some kind, like from Github for example. GMail has some mechanisms to automatically sort mails and I do make use of that, but those filters are applied when the mail arrives only. For notifications I want to see the mail. So it should land in my inbox. But when I …</p>
         </article>
       
         <article class="entry">
@@ -174,9 +234,21 @@ gemini://ayushnix.com/reviews/me...</a></h2>
         </article>
       
         <article class="entry">
+          <p class="meta">2 Mar 2026 · <a href="/users/splitbrain/">splitbrain</a> · splitbrain.org - blog</p>
+          <h2><a href="https://www.splitbrain.org/blog/2026-03/02-old_game_new_clothes">Old Game, New Clothes</a></h2>
+          <p>Old Game, New Clothes Back in university in 2003 we had to do a group project. I don&#39;t remember which course it was, but the assignment was pretty open. Basically as long as you coded something, you passed. I had just switched from my trusty Palm Tungsten E2 PDA to a Linux based Sharp Zaurus and I was missing a little puzzle game I enjoyed playing on the Palm. So my friend Frank and I decided to implement our own version. The Zaurus used QT as the graphics framework so we made it in C&#43;&#43; and QT. …</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">2 Mar 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
           <h2><a href="https://ntietz.com/blog/you-cant-always-fix-it/?utm_source=atom&amp;utm_medium=feed">You can&#39;t always fix it</a></h2>
           <p>I have some weird hobbies, and one of those is opening up the network tab on just about anything I&#39;m using. Sometimes, I find egregious problems. Usually, this is something that can be fixed, when responsibly reported. But over time, I learned a bitter lesson: sometimes, you can&#39;t get it fixed. Tracking my package Recently, I was waiting for a time-sensitive delivery of medication. It used a courier company which focused on just delivering prescription medications. I opened up the tracking page …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 Mar 2026 · <a href="/users/balanza/">balanza</a> · a.k.a.balanza</p>
+          <h2><a href="https://emanuele.decup.is/posts/20260301-wok-030-is-out.html">Wok 0.3.0 is out</a></h2>
+          <p>I just released Wok 0.3.0 , whose main addition per se is worktree support. Nevertheless, I realized I never introduced the project properly. Time to do it. Introducing: Wok Wok is a CLI application that helps managing coding projects on the local laptop. It&#39;s an opinionated set of smart scripts that basically help me moving around project folders without thinking and typing too much. It does so by using some conventions and leveraging shell&#39;s autocomplete features. The name wok is at the same t…</p>
         </article>
       
         <article class="entry">
@@ -187,20 +259,14 @@ gemini://ayushnix.com/reviews/me...</a></h2>
       
         <article class="entry">
           <p class="meta">1 Mar 2026 · <a href="/users/Juraj/">Juraj</a> · Juri Mlich</p>
-          <h2><a href="https://mlich.eu/posts/the-apartment-you-no-longer-live-in/">The apartment you no longer live in</a></h2>
-          <p>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">1 Mar 2026 · <a href="/users/balanza/">balanza</a> · a.k.a.balanza</p>
-          <h2><a href="https://emanuele.decup.is/posts/20260301-wok-030-is-out.html">Wok 0.3.0 is out</a></h2>
-          <p>I just released Wok 0.3.0 , whose main addition per se is worktree support. Nevertheless, I realized I never introduced the project properly. Time to do it. Introducing: Wok Wok is a CLI application that helps managing coding projects on the local laptop. It&#39;s an opinionated set of smart scripts that basically help me moving around project folders without thinking and typing too much. It does so by using some conventions and leveraging shell&#39;s autocomplete features. The name wok is at the same t…</p>
+          <h2><a href="https://mlich.eu/posts/waves/">Waves</a></h2>
+          <p>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</p>
         </article>
       
         <article class="entry">
           <p class="meta">1 Mar 2026 · <a href="/users/Juraj/">Juraj</a> · Juri Mlich</p>
-          <h2><a href="https://mlich.eu/posts/waves/">Waves</a></h2>
-          <p>They come and go Relentlessly, even if nobody’s looking But only if an ear is listening And an eye is looking Can their beauty be appreciated Like emotions Like emotions</p>
+          <h2><a href="https://mlich.eu/posts/the-apartment-you-no-longer-live-in/">The apartment you no longer live in</a></h2>
+          <p>You walk into the neighborhood. There’s a quiet excitement. You know where to go - you don’t need a map. You notice a new cafe around the block. The restaurant you liked closed. The trees look different somehow. You get closer to the building and think: I’ve walked this sidewalk a million times. I push open the front door, climb the stairs, turn the key - and I’m home. Except you aren’t. You notice the light is on. You wonder about the people who live there. It’s their home now.</p>
         </article>
       
         <article class="entry">
@@ -263,72 +329,6 @@ gemini://ayushnix.com/reviews/me...</a></h2>
           <p class="meta">22 Feb 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
           <h2><a href="https://jordivillar.com/reads/2026w07/">2026W07</a></h2>
           <p>Hedonism and Entrepreneurship in Barcelona — A potential acquisition dies because a vegan exec unknowingly eats mayo on patatas bravas. A critical migration stalls at 69% while the engineer responsible plays ping-pong. Having lived the Barcelona startup scene myself, this one hit close. The absurdity is the point — startup success is so much more arbitrary than anyone wants to admit, and the line between “almost rich” and “back to Monday” is thinner than your Series A pitch deck sugg…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">21 Feb 2026 · <a href="/users/jordi/">jordi</a> · Jordi Villar</p>
-          <h2><a href="https://jordivillar.com/blog/tinybird/">Four Years at Tinybird</a></h2>
-          <p>I worked at Tinybird for 4 years, 2 months, and 21 days. It’s been an incredible experience that taught me a lot about startups, engineering, and myself. Still, it feels like I joined a lifetime ago. At this point, you’re probably wondering why? Why are you writing this post about leaving a startup? One of the things I enjoyed most about my early days at Tinybird was the long-form writing culture. It allowed us to express ideas and thoughts, share knowledge, and collaborate. Something diffic…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Feb 2026 · <a href="/users/agwa/">agwa</a> · Andrew Ayer - Blog</p>
-          <h2><a href="https://www.agwa.name/blog/post/ip_address_certs">Why IP Address Certificates Are Dangerous and Usually Unnecessary</a></h2>
-          <p>Imagine you&#39;re connecting to an IP address over TLS. The server presents a valid, properly-issued IP address certificate from a publicly-trusted certificate authority. But you&#39;re not really talking to that IP address, but to a man-in-the-middle (MitM) who was assigned the IP address over a year ago. How could this be? Unfortunately, publicly-trusted IP address certificates just don&#39;t provide the same level of security as certificates for domain names. Unless you&#39;re operating a DNS-over-TLS or DN…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">19 Feb 2026 · <a href="/users/vito/">vito</a> · Vito Sartori</p>
-          <h2><a href="https://vito.io/articles/2026-02-19-the-specification.html">Rebuilding Windows Live Messenger, Part 3: The Specification</a></h2>
-          <p>This post continues the investigation that began with “This is not RLE”.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">18 Feb 2026 · <a href="/users/nolan/">nolan</a> · Read the Tea Leaves</p>
-          <h2><a href="https://nolanlawson.com/2026/02/18/you-had-a-story/">You had a story</a></h2>
-          <p>You had a story you used to tell yourself about how you got here in life. You&amp;#8217;d share the story with others. Maybe you&amp;#8217;d be at a party, and someone would ask what you do, and you&amp;#8217;d say, &amp;#8220;I&amp;#8217;m a programmer.&amp;#8221; And their eyes would perk up and their mind would fill with images of [&amp;#8230;]</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">18 Feb 2026 · <a href="/users/aphaelion/">aphaelion</a> · asb&#39;s corner</p>
-          <h2><a href="https://abhamra.com/blog/path-profiling/">Understanding Whole Program Paths and Path Profiling</a></h2>
-          <p>As a part of Georgia Tech&#39;s Compiler Design course, the last sliver of HW1 was to implement part of the trace and compression algorithm from James Larus&#39; &#34;Whole Program Paths&#34; paper. I wanted to take some time today to go through the paper&#39;s ideas, my implementation, and some realizations/jumps I had to make along the way, partly because it&#39;s interesting and partly because I had fun thinking about some of the problems and techniques introduced to me in this paper. Before this, I had never really…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">18 Feb 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
-          <h2><a href="https://nrposner.com/blog/vectorized-hardware-instructions-rule-everything-around-me-actually/">Vectorized Hardware Instructions Rule Everything Around Me, Actually</a></h2>
-          <p>Yesterday , I shared a rather lengthy post about various ways to optimize NumPy array operations with lower-level solutions. One of the findings was that a zipped Rust array could be faster than NumPy, but it depended on several factors: How many binary NumPy operations are you performing? NumPy performs an intermediate array allocation on each operation, so the more operations you can fuse into a single pass, the more you can eliminate allocator and loop overhead. What operations are you perfor…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/martinkirch/">martinkirch</a> · [Insérez un titre ici]</p>
-          <h2><a href="https://mkir.ch/2026-02-17/alposs-2026-radios-libres.html">AlpOSS 2026: Radios libres ?</a></h2>
-          <p>Les slides!</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/lucasfcosta/">lucasfcosta</a> · Lucas F. Costa - Blog</p>
-          <h2><a href="https://lucasfcosta.com/blog/design-docs/">Design docs considered harmful</a></h2>
-          <p>Somewhere in your company&#39;s Google Drive, there&#39;s a design doc from six months ago. It describes a system that doesn&#39;t exist. It was outdated by the second sprint and abandoned by the third. Fourteen...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/ayushnix/">ayushnix</a> · Posts from @ayushnix@social.ayushnix.com</p>
-          <h2><a href="https://social.ayushnix.com/@ayushnix/statuses/01KHN7GVSD1KWFJ1FRDRZGY8J7">“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate w...</a></h2>
-          <p>@ayushnix@social.ayushnix.com made a new post: &#34;“You talk of prisons and police and legalities, the perfect illusions behind which a prosperous power structure can operate while observing, quite accurately, that it is above its own laws.” — Leto Atreide...</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/vito/">vito</a> · Vito Sartori</p>
-          <h2><a href="https://vito.io/articles/2026-02-17-messenger-on-mac.html">Rebuilding Windows Live Messenger, Part 2: Messenger on macOS</a></h2>
-          <p>Just to take a breath between Assembly and graphics, I installed Mojave on an old Mac Mini and spun Microsoft Messenger, which is the equivalent of Windows Live Messenger for macOS, as removing Windows from the equation makes things way easier. The objective today is to fool it enough to make it think it is talking with the now long gone Microsoft servers.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">17 Feb 2026 · <a href="/users/nrposner/">nrposner</a> · nrposner</p>
-          <h2><a href="https://nrposner.com/blog/when-vectorized-arrays-arent-enough/">When Vectorized Arrays Aren&#39;t Enough</a></h2>
-          <p>Or, Zipped Arrays Rule Everything Around Me (see followup post ) I&#39;ve been contributing on and off to the McFACTS simulation project for a few months now, and am currently in the process of testing and merging some pretty substantial optimizations to the core &#39;business logic&#39; of the simulation, which mainly consists of long series of NumPy array operations. Pretty much all the optimizations in the pipeline right now are basically identical, to the point that I&#39;ve considered just writing a macro …</p>
         </article>
       
     </div>
