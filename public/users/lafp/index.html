@@ -33,7 +33,7 @@
         <div><dt>Stories</dt><dd>1</dd></div>
         <div><dt>Comments</dt><dd>11</dd></div>
         <div><dt>Profile checked</dt><dd>26 Jun 2026</dd></div>
-        
+        <div><dt>Feed refreshed</dt><dd>26 Jun 2026</dd></div>
       </dl>
       <p class="about">A mystery...</p>
     </section>
@@ -46,7 +46,17 @@
     </section>
     <div class="entries">
       
-        <p>No recent posts found for this user yet.</p>
+        <article class="entry">
+          <p class="meta">6 May 2026 · L. Pereira</p>
+          <h3><a href="https://tia.mat.br/posts/2026/05/06/a-new-hash-table-for-lwan.html">A new hash table for Lwan</a></h3>
+          <p>For a long time, Lwan used to use a heavily modified version of the hash table from the kmod project. I was lightly involved with that project during its inception, so this seemed like a natural choice. Over the years, that hash table proved inneficient for the use cases in Lwan, so I began patching it to try and improve its performance; I succeeded in some cases, but the added complexity and years of technical debt eventually caught up with me, so things started failing.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">26 Apr 2026 · L. Pereira</p>
+          <h3><a href="https://tia.mat.br/posts/2026/04/26/more-async-await-in-lwan.html">More async/await in Lwan</a></h3>
+          <p>In a previous blog post, I mentioned that there was no way to await on multiple file descriptors at once in Lwan. That changed shortly after I wrote that article, but I never wrote about it.</p>
+        </article>
       
     </div>
   </main>

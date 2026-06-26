@@ -19,6 +19,21 @@ func TestProfilesDuePrioritizesUncheckedByUsersPageRank(t *testing.T) {
 	}
 }
 
+func TestFeedsDuePrioritizesNeverCheckedFeeds(t *testing.T) {
+	now := time.Date(2026, 6, 8, 12, 0, 0, 0, time.UTC)
+	old := now.Add(-8 * time.Hour)
+	published := now.Add(-time.Hour)
+	store := State{Feeds: map[string]DiscoveredFeed{
+		"https://old.example/feed.xml": {URL: "https://old.example/feed.xml", CheckedAt: &old, LastPublishedAt: &published},
+		"https://new.example/feed.xml": {URL: "https://new.example/feed.xml"},
+	}}
+
+	due := store.FeedsDueForRefresh(now, 6*time.Hour, 1)
+	if len(due) != 1 || due[0].URL != "https://new.example/feed.xml" {
+		t.Fatalf("unexpected due feeds: %#v", due)
+	}
+}
+
 func TestProfilesDueIncludesStaleOldProfiles(t *testing.T) {
 	now := time.Date(2026, 6, 8, 12, 0, 0, 0, time.UTC)
 	old := now.Add(-8 * 24 * time.Hour)

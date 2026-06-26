@@ -271,8 +271,14 @@ func (s State) FeedsDueForRefresh(now time.Time, refreshAfter time.Duration, max
 		}
 	}
 	sort.Slice(due, func(i, j int) bool {
+		if (due[i].CheckedAt == nil) != (due[j].CheckedAt == nil) {
+			return due[i].CheckedAt == nil
+		}
 		if due[i].LastPublishedAt != nil && due[j].LastPublishedAt != nil && !due[i].LastPublishedAt.Equal(*due[j].LastPublishedAt) {
 			return due[i].LastPublishedAt.After(*due[j].LastPublishedAt)
+		}
+		if (due[i].LastPublishedAt != nil) != (due[j].LastPublishedAt != nil) {
+			return due[i].LastPublishedAt != nil
 		}
 		return due[i].URL < due[j].URL
 	})

@@ -14,7 +14,7 @@ feeds:
   request_delay_seconds: 2
   discovery_recheck_days: 30
   max_sites_per_discovery_run: 25
-  max_feeds_per_refresh_run: 100
+  max_feeds_per_refresh_run: 0
   exclude_site_urls:
     - "https://www.unitedbsd.com/"
   common_paths:
