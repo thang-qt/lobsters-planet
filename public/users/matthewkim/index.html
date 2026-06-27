@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>matthewkim</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~matthewkim">Lobste.rs profile</a>
+        <a href="https://chunkofcoal.com">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>5 Sep 2024</dd></div>
+        <div><dt>Karma</dt><dd>191</dd></div>
+        <div><dt>Stories</dt><dd>3</dd></div>
+        <div><dt>Comments</dt><dd>7</dd></div>
+        <div><dt>Profile checked</dt><dd>27 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>27 Jun 2026</dd></div>
+      </dl>
+      <p class="about">Just a chunk of coal who loves to program</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">20 Mar 2026 · Home on chunkofcoal.com</p>
+          <h3><a href="http://chunkofcoal.com/posts/simd-csv/">Let&#39;s see Paul Allen&#39;s SIMD CSV parser</a></h3>
+          <p>Look at the subtle nibble extraction. The tasteful lookup tables of it. Oh my god, it even has vqtbl1q_u8 and vmull_p64 . Editor&#39;s note: it seems some readers are confused who Paul Allen is. It is a reference to the movie American Psycho. Good explanation here or here . It is not a reference to Microsoft co-founder and billionaire Paul Allen and his SIMD CSV parser. A year ago I wrote a CSV parser that is able to parse 64 characters at a time. It’s purely for research and hand waves over cruci…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Mar 2026 · Home on chunkofcoal.com</p>
+          <h3><a href="http://chunkofcoal.com/posts/exponential-decay/">My memory isn&#39;t getting worse, it&#39;s just using exponential decay</a></h3>
+          <p>I’ve been working on a WASM interpreter from scratch. The unique feature is that it’s completely snapshotable, down to the instruction level. At any point during execution, you can call snapshot() and it will write out the entire execution state into a list of bytes, capturing everything up to that exact instruction. You can restore it later and execution picks up right where it left off. Here’s a demo running Conway’s Game of Life. You snapshot the simulation mid-tick, fork it into a ne…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>

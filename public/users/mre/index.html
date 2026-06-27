@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Lobsters Planet" href="/feed.xml">
+</head>
+<body>
+  <header class="site-nav">
+    <a class="brand" href="/">Lobsters Planet</a>
+    <nav>
+      <a href="/posts/">Posts</a>
+      <a href="/users/">Users</a>
+      <a href="/analytics/">Analytics</a>
+      <a href="/data/sites.json">Data</a>
+      <a class="pill" href="/feed.xml">RSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <p class="eyebrow">User</p>
+      <h1>mre</h1>
+      <div class="profile-links">
+        <a href="https://lobste.rs/~mre">Lobste.rs profile</a>
+        <a href="https://endler.dev">Personal site</a>
+      </div>
+      <dl class="facts">
+        <div><dt>Joined</dt><dd>1 Aug 2018</dd></div>
+        <div><dt>Karma</dt><dd>172</dd></div>
+        <div><dt>Stories</dt><dd>4</dd></div>
+        <div><dt>Comments</dt><dd>26</dd></div>
+        <div><dt>Profile checked</dt><dd>27 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>27 Jun 2026</dd></div>
+      </dl>
+      <p class="about">A mystery...</p>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Recent</p>
+        <h2>Posts from discovered feeds</h2>
+      </div>
+    </section>
+    <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">3 Jun 2026 · Matthias Endler</p>
+          <h3><a href="https://endler.dev/2026/how-other-link-checkers-recurse/">How Other Link Checkers Do Recursion</a></h3>
+          <p>After I published Five Years of Trying to Add Recursion to lychee , one reply I got was a very fair question: If recursion is so hard, how do other link checkers do it? Plenty of them already crawl websites! This sent me down a rabbit hole of reading the code of other link checkers. The key takeaway is: they didn’t find a clever trick we missed. They were built as crawlers from the very first commit, and I initially built lychee as a stream. I went and read the source of the recursive checkers…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">31 May 2026 · Matthias Endler</p>
+          <h3><a href="https://endler.dev/2026/lychee-recursion/">Five Years of Trying to Add Recursion to lychee</a></h3>
+          <p>Recursion has been lychee ’s longest-standing open issue. It’s been sitting there, unresolved, for over five years now. If you haven’t come across it before, lychee is a fast, async link checker written in Rust (BTW). You point it at your website, your docs, your README, your Markdown files. I started it in 2020 because I got bored at home. By now, around 40k GitHub repositories depend on it. Google, AWS, Microsoft, Cloudflare, and many others use it to check links in their documentation. …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 May 2026 · Matthias Endler</p>
+          <h3><a href="https://endler.dev/2026/newsletter-setup/">Hosting My Own Newsletter</a></h3>
+          <p>I had a newsletter on this blog for years, but I didn’t send a single email for a long time. This is the story of how I finally got it back up and running, and what I learned along the way. A quick note up front, because this caused some confusion: by “hosting my own” I mean I don’t use a newsletter platform . The signup backend and the CLI I use to send issues are mine, and the issues themselves are just markdown files in a git repo. I still use Plunk as the sending backend (so SES, bou…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">1 May 2026 · Matthias Endler</p>
+          <h3><a href="https://endler.dev/2026/taste/">On Taste</a></h3>
+          <p>I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…</p>
+        </article>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made on a rainy night by <a href="https://thangqt.com">ThangQT</a>. <a href="https://github.com/thang-qt/lobsters-planet">Source</a>.</p>
+  </footer>
+</body>
+</html>
