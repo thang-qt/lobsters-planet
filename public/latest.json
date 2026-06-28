@@ -1,5 +1,27 @@
 [
   {
+    "id": "urn:uuid:934a9890-bd14-475e-a6b8-85d1cbe15579",
+    "title": "Getting ready for local inference",
+    "url": "https://octet-stream.net/b/scb/2026-06-28-getting-ready-for-local-inference.html",
+    "summary": "Recently I’ve been experimenting with local LLMs for coding. Up until a couple of months ago I was a happy GitHub Copilot subscriber. I’d been quite satisfied to let other companies take on the cost of buying and managing hardware, particularly while everything is moving so quickly in the field. Local inference would be ideal for privacy/security/reliability reasons but it’s not a hard requirement for the work I tend to do. Copilot was particularly nice because I could bounce freely betwee…",
+    "published_at": "2026-06-28T11:06:41Z",
+    "feed_url": "https://octet-stream.net/feed",
+    "feed_title": "Serious Computer Business",
+    "owner_username": "thombles",
+    "site_url": "https://octet-stream.net/"
+  },
+  {
+    "id": "https://inkdroid.org/2026/06/28/bookmarks/",
+    "title": "Bookmarks - ai, war, ukraine, drone",
+    "url": "https://inkdroid.org/2026/06/28/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Beavis and Butt-Head Become A.I. Tech Bros Will A.I. finally be able to help Beavis and Butt-Head score? It did everybody else’s homework; they deserve something! ai humor video 🔖 Long Wave radio era set to end with switch-off A campaign has begun to get two large transmitter masts listed, after the BBC’s Long Wave (LW) service is turned off. The 700ft (213m) high Wychbold Masts in the Worcestershire countryside can b…",
+    "published_at": "2026-06-28T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": "https://inkdroid.org"
+  },
+  {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KW3N5R8S6BQPQXPZJA2QK6DN",
     "title": "I opened a Wikipedia page on Chromium after a while and immediately noticed how the hyperlink color (in light mode) bothers m...",
     "url": "https://social.ayushnix.com/@ayushnix/statuses/01KW3N5R8S6BQPQXPZJA2QK6DN",
@@ -299,6 +321,17 @@
     "site_url": "https://lalitm.com"
   },
   {
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "published_at": "2026-06-16T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
+  },
+  {
     "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
     "title": "VER 2026 Results Viewer",
     "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
@@ -314,17 +347,6 @@
     "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
     "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
     "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
-    "published_at": "2026-06-16T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -365,17 +387,6 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-2/",
-    "title": "Tree 2",
-    "url": "https://inkdroid.org/2026/06/14/tree-2/",
-    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
-    "published_at": "2026-06-14T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": "https://inkdroid.org"
-  },
-  {
     "id": "https://inkdroid.org/2026/06/14/tree-1/",
     "title": "Tree 1",
     "url": "https://inkdroid.org/2026/06/14/tree-1/",
@@ -398,15 +409,15 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "title": "Marcus Aurelius' Fortress of the Mind",
-    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
-    "published_at": "2026-06-14T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
+    "id": "https://inkdroid.org/2026/06/14/tree-2/",
+    "title": "Tree 2",
+    "url": "https://inkdroid.org/2026/06/14/tree-2/",
+    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
+    "published_at": "2026-06-14T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": "https://inkdroid.org"
   },
   {
     "id": "https://mareksuppa.com/til/load-bearing/",
@@ -418,6 +429,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "title": "Marcus Aurelius' Fortress of the Mind",
+    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
+    "published_at": "2026-06-14T00:00:00Z",
+    "feed_url": "https://pyjarrett.github.io/rss.xml",
+    "feed_title": "pyj's blog",
+    "owner_username": "pyj",
+    "site_url": "https://pyjarrett.github.io/"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KV0ECFEBHAPFPY2JAZWH7M3P",
@@ -899,17 +921,6 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://arne.me/library/unverdiente-ungleichheit",
-    "title": "Unverdiente Ungleichheit by Martyna Linartas",
-    "url": "https://arne.me/library/unverdiente-ungleichheit",
-    "summary": "I read Unverdiente Ungleichheit by Martyna Linartas",
-    "published_at": "2026-06-01T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://www.philipzucker.com/arena_coegraph2_rational",
     "title": "Arenas, Cyclic Terms, and Flat Equational Systems",
     "url": "https://www.philipzucker.com/arena_coegraph2_rational/",
@@ -920,6 +931,17 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
+  },
+  {
+    "id": "https://arne.me/library/unverdiente-ungleichheit",
+    "title": "Unverdiente Ungleichheit by Martyna Linartas",
+    "url": "https://arne.me/library/unverdiente-ungleichheit",
+    "summary": "I read Unverdiente Ungleichheit by Martyna Linartas",
+    "published_at": "2026-06-01T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238382",
@@ -1043,17 +1065,6 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/llmenv/",
-    "title": "Environment variables indicative of coding agents",
-    "url": "https://runxiyu.org/comp/llmenv/",
-    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
-    "published_at": "2026-05-29T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
     "title": "Preserving Pixter",
     "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
@@ -1063,6 +1074,17 @@
     "feed_title": "Dmitry.GR",
     "owner_username": "dmitrygr",
     "site_url": "https://dmitry.gr"
+  },
+  {
+    "id": "https://runxiyu.org/comp/llmenv/",
+    "title": "Environment variables indicative of coding agents",
+    "url": "https://runxiyu.org/comp/llmenv/",
+    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
+    "published_at": "2026-05-29T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://bernat.tech/posts/blanket-deterministic-threading/",
@@ -1176,10 +1198,10 @@
     "site_url": "https://greg.burd.me/"
   },
   {
-    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
-    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
+    "id": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
+    "title": "pg_turbovec: 4-bit vector search that beats pgvector on storage and latency",
+    "url": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
+    "summary": "Open-source vector similarity for Postgres backed by Google Research's TurboQuant, with measured numbers against pgvector HNSW.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1188,10 +1210,10 @@
     "site_url": "https://greg.burd.me/"
   },
   {
-    "id": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
-    "title": "pg_turbovec: 4-bit vector search that beats pgvector on storage and latency",
-    "url": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
-    "summary": "Open-source vector similarity for Postgres backed by Google Research's TurboQuant, with measured numbers against pgvector HNSW.",
+    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
+    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1335,17 +1357,6 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "title": "The Algorithm Behind Shazam",
-    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
     "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
     "title": "Backpressure is all you need",
     "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
@@ -1355,6 +1366,17 @@
     "feed_title": "Lucas F. Costa - Blog",
     "owner_username": "lucasfcosta",
     "site_url": "https://www.lucasfcosta.com"
+  },
+  {
+    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "title": "The Algorithm Behind Shazam",
+    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -1457,10 +1479,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#wishlist",
-    "title": "Wishlist",
-    "url": "https://jbaber.sdf.org/#wishlist",
-    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "id": "https://jbaber.sdf.org/#laarni",
+    "title": "Laarni",
+    "url": "https://jbaber.sdf.org/#laarni",
+    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1468,10 +1490,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#TIL",
-    "title": "Today I Learned",
-    "url": "https://jbaber.sdf.org/#TIL",
-    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
+    "id": "https://jbaber.sdf.org/#wishlist",
+    "title": "Wishlist",
+    "url": "https://jbaber.sdf.org/#wishlist",
+    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1490,10 +1512,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#laarni",
-    "title": "Laarni",
-    "url": "https://jbaber.sdf.org/#laarni",
-    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "id": "https://jbaber.sdf.org/#TIL",
+    "title": "Today I Learned",
+    "url": "https://jbaber.sdf.org/#TIL",
+    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1666,10 +1688,10 @@
     "site_url": "https://lalitm.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1677,10 +1699,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1710,6 +1732,17 @@
     "site_url": "https://blog.henryvandenbroek.com"
   },
   {
+    "id": "https://abhamra.com/blog/fishtrackted/",
+    "title": "Why not (make what someone already did)?",
+    "url": "https://abhamra.com/blog/fishtrackted/",
+    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
+    "published_at": "2026-05-17T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": "https://abhamra.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/proof_processing",
     "title": "Reading Proof Objects and Completed Rewrite Systems from eprover into Knuckledragger",
     "url": "https://www.philipzucker.com/proof_processing/",
@@ -1720,17 +1753,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://abhamra.com/blog/fishtrackted/",
-    "title": "Why not (make what someone already did)?",
-    "url": "https://abhamra.com/blog/fishtrackted/",
-    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
-    "published_at": "2026-05-17T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": "https://abhamra.com/"
   },
   {
     "id": "https://lalitm.com/post/dont-answer-the-first-question/",
@@ -1822,17 +1844,6 @@
     "site_url": "http://bernat.tech"
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -1854,6 +1865,17 @@
     "feed_title": "Arne Bahlo’s Book Reviews",
     "owner_username": "bahlo",
     "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -1945,10 +1967,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -1956,10 +1978,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -2012,18 +2034,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://www.philipzucker.com/dtt_python_family",
-    "title": "Family Orienting Python Frozenset Dependent Type Theory",
-    "url": "https://www.philipzucker.com/dtt_python_family/",
-    "summary": "I like trying to finitize things and put them in mundane trappings.",
-    "published_at": "2026-05-10T00:00:00Z",
-    "updated_at": "2026-05-10T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": "https://www.philipzucker.com/"
-  },
-  {
     "id": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
     "title": "An attempt to understand HRTB, Variance, Lifetimes, and Generics",
     "url": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
@@ -2034,6 +2044,18 @@
     "feed_title": "Amanjeev Sethi",
     "owner_username": "amanjeev",
     "site_url": "https://amanjeev.com/"
+  },
+  {
+    "id": "https://www.philipzucker.com/dtt_python_family",
+    "title": "Family Orienting Python Frozenset Dependent Type Theory",
+    "url": "https://www.philipzucker.com/dtt_python_family/",
+    "summary": "I like trying to finitize things and put them in mundane trappings.",
+    "published_at": "2026-05-10T00:00:00Z",
+    "updated_at": "2026-05-10T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": "https://www.philipzucker.com/"
   },
   {
     "id": "https://arne.me/library/25-letzte-sommer",
@@ -2148,17 +2170,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "title": "Seeing typos makes me hapy",
-    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
-    "published_at": "2026-05-05T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers",
     "title": "Coding with AI Agents is Now a Baseline Expectation for Managers",
     "url": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -2169,6 +2180,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "title": "Seeing typos makes me hapy",
+    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
+    "published_at": "2026-05-05T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://jcs.org/notes/2026/05/04/994840285535244289",
@@ -2272,6 +2294,17 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
+    "id": "https://endler.dev/2026/taste/",
+    "title": "On Taste",
+    "url": "https://endler.dev/2026/taste/",
+    "summary": "I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…",
+    "published_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://endler.dev/rss.xml",
+    "feed_title": "Matthias Endler",
+    "owner_username": "mre",
+    "site_url": "https://endler.dev"
+  },
+  {
     "id": "/bug-bash-two",
     "title": "Bug Bash 2: Attack of the Clones",
     "url": "/bug-bash-two/",
@@ -2306,17 +2339,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://endler.dev/2026/taste/",
-    "title": "On Taste",
-    "url": "https://endler.dev/2026/taste/",
-    "summary": "I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…",
-    "published_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://endler.dev/rss.xml",
-    "feed_title": "Matthias Endler",
-    "owner_username": "mre",
-    "site_url": "https://endler.dev"
   },
   {
     "id": "https://jcs.org/notes/2026/04/30/993283158047010817",
@@ -2508,17 +2530,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
-    "title": "Why Rust for Scientific Python Programming?",
-    "url": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
-    "summary": "Previously: Rust is 2x faster than Rust: PyO3 Edition Rust, Python, and You: Rust-Python Interop for Python devs Rust-Python Interop for Scientific Codebases All of which are basically the same blog post for slightly different audiences. In light of a conversation I had last week, I figured it was worthwhile to write up the main pitch for Rust in scientific programming, specifically for Python-Rust interoperation. This rendition is aimed at domain scientists accustomed to using Python and famili…",
-    "published_at": "2026-04-20T00:00:00Z",
-    "feed_url": "https://nrposner.com/rss/",
-    "feed_title": "nrposner",
-    "owner_username": "nrposner",
-    "site_url": "https://nrposner.com"
-  },
-  {
     "id": "https://randoneering.tech/about/",
     "title": "About",
     "url": "https://randoneering.tech/about/",
@@ -2528,6 +2539,17 @@
     "feed_title": "Randoneering",
     "owner_username": "randoneering",
     "site_url": "https://randoneering.tech"
+  },
+  {
+    "id": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
+    "title": "Why Rust for Scientific Python Programming?",
+    "url": "https://nrposner.com/blog/why-rust-for-scientific-python-programming/",
+    "summary": "Previously: Rust is 2x faster than Rust: PyO3 Edition Rust, Python, and You: Rust-Python Interop for Python devs Rust-Python Interop for Scientific Codebases All of which are basically the same blog post for slightly different audiences. In light of a conversation I had last week, I figured it was worthwhile to write up the main pitch for Rust in scientific programming, specifically for Python-Rust interoperation. This rendition is aimed at domain scientists accustomed to using Python and famili…",
+    "published_at": "2026-04-20T00:00:00Z",
+    "feed_url": "https://nrposner.com/rss/",
+    "feed_title": "nrposner",
+    "owner_username": "nrposner",
+    "site_url": "https://nrposner.com"
   },
   {
     "id": "https://bernat.tech/posts/pytexas-2026-recap/",
@@ -2563,17 +2585,6 @@
     "site_url": "https://pyjarrett.github.io/"
   },
   {
-    "id": "https://mitchellkember.com/crafts/off-white-shirt",
-    "title": "[Crafts] Off-White Shirt",
-    "url": "https://mitchellkember.com/crafts/off-white-shirt",
-    "summary": "Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…",
-    "published_at": "2026-04-19T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
-    "site_url": "https://mitchellkember.com"
-  },
-  {
     "id": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
     "title": "An ode to Strawberry Music Player",
     "url": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
@@ -2583,6 +2594,17 @@
     "feed_title": "vesto",
     "owner_username": "vesto",
     "site_url": "https://www.vesto.me"
+  },
+  {
+    "id": "https://mitchellkember.com/crafts/off-white-shirt",
+    "title": "[Crafts] Off-White Shirt",
+    "url": "https://mitchellkember.com/crafts/off-white-shirt",
+    "summary": "Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…",
+    "published_at": "2026-04-19T00:00:00Z",
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
+    "site_url": "https://mitchellkember.com"
   },
   {
     "id": "https://jcs.org/notes/2026/04/18/988807432787005441",
@@ -2596,6 +2618,17 @@
     "site_url": "https://jcs.org"
   },
   {
+    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "title": "OpenClaw On Raspberry Pi 4",
+    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
+    "summary": "I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …",
+    "published_at": "2026-04-18T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/thin_egraph",
     "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
     "url": "https://www.philipzucker.com/thin_egraph/",
@@ -2606,17 +2639,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
-    "title": "OpenClaw On Raspberry Pi 4",
-    "url": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
-    "summary": "I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …",
-    "published_at": "2026-04-18T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://arne.me/library/tiamats-wrath",
@@ -2740,17 +2762,6 @@
     "site_url": "https://arne.me"
   },
   {
-    "id": "https://mlich.eu/posts/one-thing/",
-    "title": "One Thing",
-    "url": "https://mlich.eu/posts/one-thing/",
-    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://mitchellkember.com/books/cities-of-the-plain",
     "title": "[Books] Cities of the Plain",
     "url": "https://mitchellkember.com/books/cities-of-the-plain",
@@ -2771,6 +2782,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://mlich.eu/posts/one-thing/",
+    "title": "One Thing",
+    "url": "https://mlich.eu/posts/one-thing/",
+    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
+    "published_at": "2026-04-13T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "24eee1ac-ff2a-59a4-9580-dbcc1c3c5d29",
@@ -3042,17 +3064,6 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
-    "id": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
-    "title": "How come we are releasing Distrobox v2",
-    "url": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
-    "summary": "Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I've been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …",
-    "published_at": "2026-03-30T00:00:00Z",
-    "feed_url": "https://emanuele.decup.is/feed.xml",
-    "feed_title": "a.k.a.balanza",
-    "owner_username": "balanza",
-    "site_url": "https://emanuele.decup.is"
-  },
-  {
     "id": "https://arne.me/library/ancillary-justice",
     "title": "Ancillary Justice by Ann Leckie",
     "url": "https://arne.me/library/ancillary-justice",
@@ -3062,6 +3073,17 @@
     "feed_title": "Arne Bahlo’s Book Reviews",
     "owner_username": "bahlo",
     "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
+    "title": "How come we are releasing Distrobox v2",
+    "url": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
+    "summary": "Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I've been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …",
+    "published_at": "2026-03-30T00:00:00Z",
+    "feed_url": "https://emanuele.decup.is/feed.xml",
+    "feed_title": "a.k.a.balanza",
+    "owner_username": "balanza",
+    "site_url": "https://emanuele.decup.is"
   },
   {
     "id": "https://siddharthsabron.in/projects/click-url-shortner/",
@@ -3154,17 +3176,6 @@
     "site_url": "https://dev.to/karelvandenbussche"
   },
   {
-    "id": "https://mareksuppa.com/til/fish-wraps-flag/",
-    "title": "Using --wraps to get tab completions on fish shell aliases",
-    "url": "https://mareksuppa.com/til/fish-wraps-flag/",
-    "summary": "When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \\ --wraps = 'claude' \\ --description 'Run Claude Code against MiniMax M2.7 API' ANTHROPIC_BASE_URL = \"https://api.minimax.io/anthropic\" \\ ANTHROPIC_MODEL = \"MiniMax-M2.7\" \\ claude $argv end The --wraps='claude' tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit \u003cTab\u003e , you g…",
-    "published_at": "2026-03-24T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
     "id": "https://pyjarrett.github.io/2026/03/24/super-powered-enums.html",
     "title": "Ada's Super Powered Enums",
     "url": "https://pyjarrett.github.io/2026/03/24/super-powered-enums.html",
@@ -3174,6 +3185,17 @@
     "feed_title": "pyj's blog",
     "owner_username": "pyj",
     "site_url": "https://pyjarrett.github.io/"
+  },
+  {
+    "id": "https://mareksuppa.com/til/fish-wraps-flag/",
+    "title": "Using --wraps to get tab completions on fish shell aliases",
+    "url": "https://mareksuppa.com/til/fish-wraps-flag/",
+    "summary": "When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \\ --wraps = 'claude' \\ --description 'Run Claude Code against MiniMax M2.7 API' ANTHROPIC_BASE_URL = \"https://api.minimax.io/anthropic\" \\ ANTHROPIC_MODEL = \"MiniMax-M2.7\" \\ claude $argv end The --wraps='claude' tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit \u003cTab\u003e , you g…",
+    "published_at": "2026-03-24T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html",
@@ -3242,6 +3264,17 @@
     "site_url": "http://juraj.mlich.eu"
   },
   {
+    "id": "https://nrposner.com/blog/matching-on-str-vs-bytes-in-rust/",
+    "title": "Matching on \u0026str vs bytes in Rust",
+    "url": "https://nrposner.com/blog/matching-on-str-vs-bytes-in-rust/",
+    "summary": "For the latest batch of optimizations speeding up/replacing AstroPy unit operations in McFACTS (expect my next blog post titled The Agony and the Ecstasy of AstroPy Units ), I've wound up just extracting the string representation of the unit type and matching on it directly: fn extract_unit (ob: \u0026 Bound \u003c' py, PyAny \u003e ) { // extract unit value let unit_obj = ob.getattr( \"unit\" ) ? ; // use python method to extract string representation let binding = unit_obj.call_method0( \"to_string\" ) ? ; let u…",
+    "published_at": "2026-03-20T00:00:00Z",
+    "feed_url": "https://nrposner.com/rss/",
+    "feed_title": "nrposner",
+    "owner_username": "nrposner",
+    "site_url": "https://nrposner.com"
+  },
+  {
     "id": "https://randoneering.tech/blog/random/theworldwelivein/",
     "title": "The World We Live In",
     "url": "https://randoneering.tech/blog/random/theworldwelivein/",
@@ -3262,17 +3295,6 @@
     "feed_title": "Home on chunkofcoal.com",
     "owner_username": "matthewkim",
     "site_url": "https://chunkofcoal.com"
-  },
-  {
-    "id": "https://nrposner.com/blog/matching-on-str-vs-bytes-in-rust/",
-    "title": "Matching on \u0026str vs bytes in Rust",
-    "url": "https://nrposner.com/blog/matching-on-str-vs-bytes-in-rust/",
-    "summary": "For the latest batch of optimizations speeding up/replacing AstroPy unit operations in McFACTS (expect my next blog post titled The Agony and the Ecstasy of AstroPy Units ), I've wound up just extracting the string representation of the unit type and matching on it directly: fn extract_unit (ob: \u0026 Bound \u003c' py, PyAny \u003e ) { // extract unit value let unit_obj = ob.getattr( \"unit\" ) ? ; // use python method to extract string representation let binding = unit_obj.call_method0( \"to_string\" ) ? ; let u…",
-    "published_at": "2026-03-20T00:00:00Z",
-    "feed_url": "https://nrposner.com/rss/",
-    "feed_title": "nrposner",
-    "owner_username": "nrposner",
-    "site_url": "https://nrposner.com"
   },
   {
     "id": "https://dev.to/karelvandenbussche/why-personas-still-matter-in-the-age-of-ai-26ce",
@@ -3317,27 +3339,5 @@
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
     "site_url": "https://jordivillar.com"
-  },
-  {
-    "id": "https://lalitm.com/post/syntaqlite/",
-    "title": "syntaqlite: high-fidelity devtools that SQLite deserves",
-    "url": "https://lalitm.com/post/syntaqlite/",
-    "summary": "Most SQL tools treat SQLite as a “flavor” of a generic SQL parser. They approximate the language, which means they break on SQLite-exclusive features like virtual tables , miss syntax like UPSERT , and ignore the 22 compile-time flags that change the syntax SQLite accepts. So I built syntaqlite : an open-source parser, formatter, validator, and LSP built directly on SQLite’s own Lemon-generated grammar. It sees SQL exactly how SQLite sees it, no matter which version of SQLite you’re usin…",
-    "published_at": "2026-03-17T05:35:45Z",
-    "feed_url": "https://lalitm.com/index.xml",
-    "feed_title": "Lalit Maganti",
-    "owner_username": "lalitm",
-    "site_url": "https://lalitm.com"
-  },
-  {
-    "id": "https://mtlynch.io/retrospectives/2026/03/",
-    "title": "Refactoring English: Month 15",
-    "url": "https://mtlynch.io/retrospectives/2026/03/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights It turns out that most of Refactoring English ’s readers come from outside the US. I’m using AI-assisted coding too much. Goal grades At the start o…",
-    "published_at": "2026-03-17T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   }
 ]
