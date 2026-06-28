@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Sun, 28 Jun 2026 14:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 20:05:21 +0000</lastBuildDate>
     <item>
       <title>Getting ready for local inference</title>
       <link>https://octet-stream.net/b/scb/2026-06-28-getting-ready-for-local-inference.html</link>
@@ -237,6 +237,14 @@
       <pubDate>Tue, 16 Jun 2026 01:36:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Hermes Agent formats its output based on the platform you connect as</title>
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
@@ -249,14 +257,6 @@
       <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
       <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -285,10 +285,10 @@
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
     </item>
     <item>
-      <title>Tree 1</title>
-      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
-      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
+      <title>Tree 2</title>
+      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
+      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -301,20 +301,12 @@
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tree 2</title>
-      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
-      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <title>Tree 1</title>
+      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
+      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>&#34;Load-bearing&#34; is becoming LLM speak</title>
-      <link>https://mareksuppa.com/til/load-bearing/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/load-bearing/</guid>
-      <description>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</description>
-      <author>mrshu</author>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Marcus Aurelius&#39; Fortress of the Mind</title>
@@ -322,6 +314,14 @@
       <guid isPermaLink="false">https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html</guid>
       <description>Thoughts on &#34;Meditations&#34; by the Roman emperor Marcus Aurelius</description>
       <author>pyj</author>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>&#34;Load-bearing&#34; is becoming LLM speak</title>
+      <link>https://mareksuppa.com/til/load-bearing/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/load-bearing/</guid>
+      <description>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</description>
+      <author>mrshu</author>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -773,19 +773,19 @@
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Preserving Pixter</title>
-      <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
-      <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
-      <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
-      <author>dmitrygr</author>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Environment variables indicative of coding agents</title>
       <link>https://runxiyu.org/comp/llmenv/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
       <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preserving Pixter</title>
+      <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
+      <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
+      <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
+      <author>dmitrygr</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -806,17 +806,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -861,14 +861,6 @@
       <pubDate>Tue, 26 May 2026 08:44:12 +0000</pubDate>
     </item>
     <item>
-      <title>pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</title>
-      <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
-      <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</title>
       <link>https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</guid>
@@ -877,18 +869,26 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lime: an LALR(1) parser generator with runtime grammar extensions</title>
-      <link>https://greg.burd.me/posts/lime-runtime-extensible-lalr/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/lime-runtime-extensible-lalr/</guid>
-      <description>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>pg_tre: approximate regex as a real Postgres index AM</title>
       <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
       <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</title>
+      <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
+      <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lime: an LALR(1) parser generator with runtime grammar extensions</title>
+      <link>https://greg.burd.me/posts/lime-runtime-extensible-lalr/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/lime-runtime-extensible-lalr/</guid>
+      <description>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -949,19 +949,19 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is this what life is supposed to feel like?</title>
-      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
-      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
-      <author>Juraj</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Childhood Computing</title>
       <link>https://susam.net/childhood-computing.html</link>
       <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
       <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
       <author>susam</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is this what life is supposed to feel like?</title>
+      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
+      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
+      <author>Juraj</author>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -981,19 +981,19 @@
       <pubDate>Sat, 23 May 2026 19:43:39 +0000</pubDate>
     </item>
     <item>
-      <title>Backpressure is all you need</title>
-      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
-      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
-      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
-      <author>lucasfcosta</author>
-      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Algorithm Behind Shazam</title>
       <link>https://jordivillar.com/blog/the-algorithm-behind-shazam/</link>
       <guid isPermaLink="false">https://jordivillar.com/blog/the-algorithm-behind-shazam/</guid>
       <description>I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…</description>
       <author>jordi</author>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backpressure is all you need</title>
+      <link>https://lucasfcosta.com/blog/backpressure-is-all-you-need/</link>
+      <guid isPermaLink="false">https://lucasfcosta.com/blog/backpressure-is-all-you-need/</guid>
+      <description>There are two obvious ways to use coding agents. Both are bad. The first is to let the LLM run unattended and hope the repository survives. This is fast, exciting, and stupid. It leads to bugs, conf...</description>
+      <author>lucasfcosta</author>
       <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1029,18 +1029,18 @@
       <pubDate>Fri, 22 May 2026 11:22:20 +0000</pubDate>
     </item>
     <item>
-      <title>Person - Action - Object</title>
-      <link>https://jbaber.sdf.org/#PAO</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
-      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Alfred E. Neuman quotes up to 2005</title>
       <link>https://jbaber.sdf.org/#alfred_e</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
       <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Person - Action - Object</title>
+      <link>https://jbaber.sdf.org/#PAO</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
+      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -1077,14 +1077,6 @@
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wishlist</title>
-      <link>https://jbaber.sdf.org/#wishlist</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#wishlist</guid>
-      <description>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Now</title>
       <link>https://jbaber.sdf.org/#now</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#now</guid>
@@ -1097,6 +1089,14 @@
       <link>https://jbaber.sdf.org/#TIL</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#TIL</guid>
       <description>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wishlist</title>
+      <link>https://jbaber.sdf.org/#wishlist</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#wishlist</guid>
+      <description>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1253,19 +1253,19 @@
       <pubDate>Sun, 17 May 2026 02:05:45 +0000</pubDate>
     </item>
     <item>
-      <title>Why not (make what someone already did)?</title>
-      <link>https://abhamra.com/blog/fishtrackted/</link>
-      <guid isPermaLink="false">https://abhamra.com/blog/fishtrackted/</guid>
-      <description>Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there&#39;s no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…</description>
-      <author>aphaelion</author>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Reading Proof Objects and Completed Rewrite Systems from eprover into Knuckledragger</title>
       <link>https://www.philipzucker.com/proof_processing/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/proof_processing</guid>
       <description>Automated reasoning is fun.</description>
       <author>philzook</author>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why not (make what someone already did)?</title>
+      <link>https://abhamra.com/blog/fishtrackted/</link>
+      <guid isPermaLink="false">https://abhamra.com/blog/fishtrackted/</guid>
+      <description>Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there&#39;s no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…</description>
+      <author>aphaelion</author>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1333,6 +1333,14 @@
       <pubDate>Thu, 14 May 2026 23:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Commenting Guidelines</title>
       <link>https://susam.net/commenting.html</link>
       <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
@@ -1346,14 +1354,6 @@
       <guid isPermaLink="false">https://arne.me/library/platform-decay</guid>
       <description>I read Platform Decay by Martha Wells</description>
       <author>bahlo</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1421,18 +1421,18 @@
       <pubDate>Tue, 12 May 2026 05:46:00 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Stars Tracker</title>
-      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
-      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
-      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
-      <author>nicomeemes</author>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>NPIValidator</title>
       <link>https://nicomee.com/projects/npi-validator/</link>
       <guid isPermaLink="false">https://nicomee.com/projects/npi-validator/</guid>
       <description>C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.</description>
+      <author>nicomeemes</author>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Stars Tracker</title>
+      <link>https://nicomee.com/projects/gh-stars-tracker/</link>
+      <guid isPermaLink="false">https://nicomee.com/projects/gh-stars-tracker/</guid>
+      <description>Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.</description>
       <author>nicomeemes</author>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1468,14 +1468,6 @@
       <pubDate>Sun, 10 May 2026 04:00:12 +0000</pubDate>
     </item>
     <item>
-      <title>An attempt to understand HRTB, Variance, Lifetimes, and Generics</title>
-      <link>https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</link>
-      <guid isPermaLink="false">https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</guid>
-      <description>This blog post assumes you are familiar with Rust’s generic types, ownership/borrowership system, and lifetime annotations. 🙏 A signature you may have seen If you’ve worked with reqwest and serde , and had a custom send() function to do your data munging or convert to your own error variants, you must have encountered something called Higher-Ranked Trait Bounds (HRTBs). So, in this snippet the &lt;T: for&lt;&#39;a&gt; Deserialize&lt;&#39;a&gt;&gt; part. pub async fn send &lt; T : for &lt;&#39; a &gt; Deserialize &lt;&#39; a &gt;&gt;( req :…</description>
-      <author>amanjeev</author>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Family Orienting Python Frozenset Dependent Type Theory</title>
       <link>https://www.philipzucker.com/dtt_python_family/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/dtt_python_family</guid>
@@ -1484,12 +1476,12 @@
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>25 letzte Sommer by Stephan Schäfer</title>
-      <link>https://arne.me/library/25-letzte-sommer</link>
-      <guid isPermaLink="false">https://arne.me/library/25-letzte-sommer</guid>
-      <description>I read 25 letzte Sommer by Stephan Schäfer</description>
-      <author>bahlo</author>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <title>An attempt to understand HRTB, Variance, Lifetimes, and Generics</title>
+      <link>https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</link>
+      <guid isPermaLink="false">https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</guid>
+      <description>This blog post assumes you are familiar with Rust’s generic types, ownership/borrowership system, and lifetime annotations. 🙏 A signature you may have seen If you’ve worked with reqwest and serde , and had a custom send() function to do your data munging or convert to your own error variants, you must have encountered something called Higher-Ranked Trait Bounds (HRTBs). So, in this snippet the &lt;T: for&lt;&#39;a&gt; Deserialize&lt;&#39;a&gt;&gt; part. pub async fn send &lt; T : for &lt;&#39; a &gt; Deserialize &lt;&#39; a &gt;&gt;( req :…</description>
+      <author>amanjeev</author>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>I Will Not Add Query Strings to Your URLs</title>
@@ -1497,6 +1489,14 @@
       <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
       <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
       <author>susam</author>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>25 letzte Sommer by Stephan Schäfer</title>
+      <link>https://arne.me/library/25-letzte-sommer</link>
+      <guid isPermaLink="false">https://arne.me/library/25-letzte-sommer</guid>
+      <description>I read 25 letzte Sommer by Stephan Schäfer</description>
+      <author>bahlo</author>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1564,19 +1564,19 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
-      <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
-      <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
-      <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
-      <author>dblock</author>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Seeing typos makes me hapy</title>
       <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
       <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
       <author>Juraj</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
+      <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
+      <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
+      <author>dblock</author>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1612,19 +1612,19 @@
       <pubDate>Sun, 03 May 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>QuickQWERTY 1.2.3</title>
-      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
-      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
-      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
-      <author>susam</author>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On (not) using “cryptographic hashes” for hash table keys</title>
       <link>https://runxiyu.org/comp/ch4ht/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/ch4ht/</guid>
       <description>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</description>
       <author>runxiyu</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuickQWERTY 1.2.3</title>
+      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
+      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
+      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
+      <author>susam</author>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1652,19 +1652,19 @@
       <pubDate>Fri, 01 May 2026 06:04:41 +0000</pubDate>
     </item>
     <item>
-      <title>On Taste</title>
-      <link>https://endler.dev/2026/taste/</link>
-      <guid isPermaLink="false">https://endler.dev/2026/taste/</guid>
-      <description>I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…</description>
-      <author>mre</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bug Bash 2: Attack of the Clones</title>
       <link>/bug-bash-two/</link>
       <guid isPermaLink="false">/bug-bash-two</guid>
       <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
       <author>amw-zero</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lifting and Lowering Functions with The Dump Calculus</title>
+      <link>https://www.philipzucker.com/dump_calculus/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
+      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
+      <author>philzook</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1676,11 +1676,11 @@
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lifting and Lowering Functions with The Dump Calculus</title>
-      <link>https://www.philipzucker.com/dump_calculus/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
-      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
-      <author>philzook</author>
+      <title>On Taste</title>
+      <link>https://endler.dev/2026/taste/</link>
+      <guid isPermaLink="false">https://endler.dev/2026/taste/</guid>
+      <description>I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…</description>
+      <author>mre</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1820,19 +1820,19 @@
       <pubDate>Mon, 20 Apr 2026 06:55:04 +0000</pubDate>
     </item>
     <item>
-      <title>About</title>
-      <link>https://randoneering.tech/about/</link>
-      <guid isPermaLink="false">https://randoneering.tech/about/</guid>
-      <description>My name is Justin Frye and I’m an independent infrastructure engineer operating as Randoneering, LLC . I help startups and small businesses build, improve, and stabilize the systems their business depends on. Some teams need to build from scratch. Some need to clean up an environment that grew fast and never got enough structure. Some need a staff engineer to step in for a season and help them get through a migration, reliability issue, or operational mess without making a full-time hire.</description>
-      <author>randoneering</author>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Why Rust for Scientific Python Programming?</title>
       <link>https://nrposner.com/blog/why-rust-for-scientific-python-programming/</link>
       <guid isPermaLink="false">https://nrposner.com/blog/why-rust-for-scientific-python-programming/</guid>
       <description>Previously: Rust is 2x faster than Rust: PyO3 Edition Rust, Python, and You: Rust-Python Interop for Python devs Rust-Python Interop for Scientific Codebases All of which are basically the same blog post for slightly different audiences. In light of a conversation I had last week, I figured it was worthwhile to write up the main pitch for Rust in scientific programming, specifically for Python-Rust interoperation. This rendition is aimed at domain scientists accustomed to using Python and famili…</description>
       <author>nrposner</author>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://randoneering.tech/about/</link>
+      <guid isPermaLink="false">https://randoneering.tech/about/</guid>
+      <description>My name is Justin Frye and I’m an independent infrastructure engineer operating as Randoneering, LLC . I help startups and small businesses build, improve, and stabilize the systems their business depends on. Some teams need to build from scratch. Some need to clean up an environment that grew fast and never got enough structure. Some need a staff engineer to step in for a season and help them get through a migration, reliability issue, or operational mess without making a full-time hire.</description>
+      <author>randoneering</author>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1860,19 +1860,19 @@
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An ode to Strawberry Music Player</title>
-      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
-      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
-      <description>[Read more]</description>
-      <author>vesto</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[Crafts] Off-White Shirt</title>
       <link>https://mitchellkember.com/crafts/off-white-shirt</link>
       <guid isPermaLink="false">https://mitchellkember.com/crafts/off-white-shirt</guid>
       <description>Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…</description>
       <author>mk12</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An ode to Strawberry Music Player</title>
+      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
+      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
+      <description>[Read more]</description>
+      <author>vesto</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1884,11 +1884,11 @@
       <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw On Raspberry Pi 4</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
-      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
-      <author>gabe</author>
+      <title>Tiamat&#39;s Wrath by James S. A. Corey</title>
+      <link>https://arne.me/library/tiamats-wrath</link>
+      <guid isPermaLink="false">https://arne.me/library/tiamats-wrath</guid>
+      <description>I read Tiamat&#39;s Wrath by James S. A. Corey</description>
+      <author>bahlo</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1900,11 +1900,11 @@
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tiamat&#39;s Wrath by James S. A. Corey</title>
-      <link>https://arne.me/library/tiamats-wrath</link>
-      <guid isPermaLink="false">https://arne.me/library/tiamats-wrath</guid>
-      <description>I read Tiamat&#39;s Wrath by James S. A. Corey</description>
-      <author>bahlo</author>
+      <title>OpenClaw On Raspberry Pi 4</title>
+      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
+      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
+      <author>gabe</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1980,22 +1980,6 @@
       <pubDate>Mon, 13 Apr 2026 17:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>Die Känguru-Rebellion by Marc-Uwe Kling</title>
-      <link>https://arne.me/library/die-kaenguru-rebellion</link>
-      <guid isPermaLink="false">https://arne.me/library/die-kaenguru-rebellion</guid>
-      <description>I read Die Känguru-Rebellion by Marc-Uwe Kling</description>
-      <author>bahlo</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[Books] Cities of the Plain</title>
-      <link>https://mitchellkember.com/books/cities-of-the-plain</link>
-      <guid isPermaLink="false">https://mitchellkember.com/books/cities-of-the-plain</guid>
-      <description>View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…</description>
-      <author>mk12</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
       <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
@@ -2009,6 +1993,22 @@
       <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
       <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
       <author>Juraj</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Die Känguru-Rebellion by Marc-Uwe Kling</title>
+      <link>https://arne.me/library/die-kaenguru-rebellion</link>
+      <guid isPermaLink="false">https://arne.me/library/die-kaenguru-rebellion</guid>
+      <description>I read Die Känguru-Rebellion by Marc-Uwe Kling</description>
+      <author>bahlo</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Books] Cities of the Plain</title>
+      <link>https://mitchellkember.com/books/cities-of-the-plain</link>
+      <guid isPermaLink="false">https://mitchellkember.com/books/cities-of-the-plain</guid>
+      <description>View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…</description>
+      <author>mk12</author>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2148,19 +2148,19 @@
       <pubDate>Fri, 03 Apr 2026 09:14:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Found a Linux Vulnerability Hidden for 23 Years</title>
-      <link>https://mtlynch.io/claude-code-found-linux-vulnerability/</link>
-      <guid isPermaLink="false">https://mtlynch.io/claude-code-found-linux-vulnerability/</guid>
-      <description>Nicholas Carlini , a research scientist at Anthropic, reported at the [un]prompted AI security conference that he used Claude Code to find multiple remotely exploitable security vulnerabilities in the Linux kernel, including one that sat undiscovered for 23 years. Nicholas was astonished at how effective Claude Code has been at finding these bugs: We now have a number of remotely exploitable heap buffer overflows in the Linux kernel. I have never found one of these in my life before. This is ver…</description>
-      <author>mtlynch</author>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Die Wut, die bleibt by Mareike Fallwickl</title>
       <link>https://arne.me/library/die-wut-die-bleibt</link>
       <guid isPermaLink="false">https://arne.me/library/die-wut-die-bleibt</guid>
       <description>I read Die Wut, die bleibt by Mareike Fallwickl</description>
       <author>bahlo</author>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code Found a Linux Vulnerability Hidden for 23 Years</title>
+      <link>https://mtlynch.io/claude-code-found-linux-vulnerability/</link>
+      <guid isPermaLink="false">https://mtlynch.io/claude-code-found-linux-vulnerability/</guid>
+      <description>Nicholas Carlini , a research scientist at Anthropic, reported at the [un]prompted AI security conference that he used Claude Code to find multiple remotely exploitable security vulnerabilities in the Linux kernel, including one that sat undiscovered for 23 years. Nicholas was astonished at how effective Claude Code has been at finding these bugs: We now have a number of remotely exploitable heap buffer overflows in the Linux kernel. I have never found one of these in my life before. This is ver…</description>
+      <author>mtlynch</author>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2180,19 +2180,19 @@
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cooldown periods for package updates</title>
-      <link>https://mareksuppa.com/til/package-manager-cooldown-periods/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/package-manager-cooldown-periods/</guid>
-      <description>The last two weeks of March 2026 were brutal for software supply chains. A cascading campaign by a threat actor tracked as TeamPCP started with a compromised credential in Trivy (Aqua Security’s vulnerability scanner), which was then used to hijack Checkmarx KICS and then LiteLLM (an LLM proxy with ~97M monthly PyPI downloads). On top of that, axios – the most popular HTTP client on npm with ~100M weekly downloads – was compromised through a stolen maintainer token, with Google’s Threat …</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Daily Feminist by Evelyn Höllrigl Tschaikner</title>
       <link>https://arne.me/library/the-daily-feminist</link>
       <guid isPermaLink="false">https://arne.me/library/the-daily-feminist</guid>
       <description>I read The Daily Feminist by Evelyn Höllrigl Tschaikner</description>
       <author>bahlo</author>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cooldown periods for package updates</title>
+      <link>https://mareksuppa.com/til/package-manager-cooldown-periods/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/package-manager-cooldown-periods/</guid>
+      <description>The last two weeks of March 2026 were brutal for software supply chains. A cascading campaign by a threat actor tracked as TeamPCP started with a compromised credential in Trivy (Aqua Security’s vulnerability scanner), which was then used to hijack Checkmarx KICS and then LiteLLM (an LLM proxy with ~97M monthly PyPI downloads). On top of that, axios – the most popular HTTP client on npm with ~100M weekly downloads – was compromised through a stolen maintainer token, with Google’s Threat …</description>
+      <author>mrshu</author>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2204,19 +2204,19 @@
       <pubDate>Mon, 30 Mar 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ancillary Justice by Ann Leckie</title>
-      <link>https://arne.me/library/ancillary-justice</link>
-      <guid isPermaLink="false">https://arne.me/library/ancillary-justice</guid>
-      <description>I read Ancillary Justice by Ann Leckie</description>
-      <author>bahlo</author>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How come we are releasing Distrobox v2</title>
       <link>https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</link>
       <guid isPermaLink="false">https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</guid>
       <description>Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I&#39;ve been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …</description>
       <author>balanza</author>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ancillary Justice by Ann Leckie</title>
+      <link>https://arne.me/library/ancillary-justice</link>
+      <guid isPermaLink="false">https://arne.me/library/ancillary-justice</guid>
+      <description>I read Ancillary Justice by Ann Leckie</description>
+      <author>bahlo</author>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2236,19 +2236,19 @@
       <pubDate>Fri, 27 Mar 2026 01:50:55 +0000</pubDate>
     </item>
     <item>
-      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
-      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
-      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
-      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
-      <author>statox</author>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PicoBot on a Raspberry Pi 3b+</title>
       <link>https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/</guid>
       <description>This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …</description>
       <author>gabe</author>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using a systemd timer to monitor my laptop&#39;s battery</title>
+      <link>https://www.statox.fr/posts/2026/03/systemd_timers/</link>
+      <guid isPermaLink="false">https://www.statox.fr/posts/2026/03/systemd_timers/</guid>
+      <description>I&#39;ve been using i3 as my window manager for the past 7 years. It&#39;s great and you should check it out! However, one issue I have is that by default I don&#39;t get an obvious notification when my battery is low. My personal laptop is getting old and the battery significantly drains when it is put to sleep. So recently it happened several times that I woke it up, didn&#39;t check my battery, and had it die a few minutes later because it was on super low battery. So I created a simple bash script which che…</description>
+      <author>statox</author>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2260,18 +2260,18 @@
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Storing API keys for Claude Code providers in KeePassXC</title>
-      <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
-      <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude Code Cheat Sheet</title>
       <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
       <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
+      <author>mrshu</author>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Storing API keys for Claude Code providers in KeePassXC</title>
+      <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
+      <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
       <author>mrshu</author>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2284,19 +2284,19 @@
       <pubDate>Tue, 24 Mar 2026 07:47:45 +0000</pubDate>
     </item>
     <item>
-      <title>Ada&#39;s Super Powered Enums</title>
-      <link>https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</link>
-      <guid isPermaLink="false">https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</guid>
-      <description>A quick look at the power of Ada&#39;s enums.</description>
-      <author>pyj</author>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Using --wraps to get tab completions on fish shell aliases</title>
       <link>https://mareksuppa.com/til/fish-wraps-flag/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/fish-wraps-flag/</guid>
       <description>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</description>
       <author>mrshu</author>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ada&#39;s Super Powered Enums</title>
+      <link>https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</link>
+      <guid isPermaLink="false">https://pyjarrett.github.io/2026/03/24/super-powered-enums.html</guid>
+      <description>A quick look at the power of Ada&#39;s enums.</description>
+      <author>pyj</author>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2308,19 +2308,19 @@
       <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Agony and the Ecstasy of AstroPy Units</title>
-      <link>https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/</link>
-      <guid isPermaLink="false">https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/</guid>
-      <description>After several months working part-time on optimizing McFACTS, I think we&#39;re rapidly approaching saturation: one by one, we&#39;ve cut the tall poppies down, cooled the hot paths, until the largest contributors to the runtime are either bookkeeping functions which are already very simple as they are, or calculations that are genuinely time-consuming and which we&#39;ve already optimized a good deal. Well, that&#39;s not quite right. We&#39;ve done this for the top-level function calls used directly from main(). …</description>
-      <author>nrposner</author>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>They don&#39;t own me</title>
       <link>https://mlich.eu/posts/they-dont-own-me/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/they-dont-own-me/</guid>
       <description>Fuck you, Instagram. Fuck you, TikTok. Fuck you, Dennik N. Fuck you, Reddit. Fuck you, Hacker News. Fuck you, YouTube. I’m not a fan of foul language. But I need to get this out. I’m Gen Z. I grew up with computers and internet available everywhere I go. And over the years, I’ve watched my relationship with these platforms turn into something I can only describe as addiction. Here’s what it looks like. I wake up. I check all the apps. An hour goes by. I do another loop through them all. …</description>
       <author>Juraj</author>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Agony and the Ecstasy of AstroPy Units</title>
+      <link>https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/</link>
+      <guid isPermaLink="false">https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/</guid>
+      <description>After several months working part-time on optimizing McFACTS, I think we&#39;re rapidly approaching saturation: one by one, we&#39;ve cut the tall poppies down, cooled the hot paths, until the largest contributors to the runtime are either bookkeeping functions which are already very simple as they are, or calculations that are genuinely time-consuming and which we&#39;ve already optimized a good deal. Well, that&#39;s not quite right. We&#39;ve done this for the top-level function calls used directly from main(). …</description>
+      <author>nrposner</author>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2356,19 +2356,19 @@
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The World We Live In</title>
-      <link>https://randoneering.tech/blog/random/theworldwelivein/</link>
-      <guid isPermaLink="false">https://randoneering.tech/blog/random/theworldwelivein/</guid>
-      <description>We are only in March of 2026 This March I had the pleasure of speaking at SCALE 23x, making this the first public speaking events that I have done in my industry. I only have positive things to say about the experience and I truly look forward to next year. While this was my first speaking event, it will certainly not be my last. Being at SCALE this year felt a bit different; I was coming in as a speaker, yes, but I also had made so many new friends in the communities that I was going to meet fo…</description>
-      <author>randoneering</author>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Let&#39;s see Paul Allen&#39;s SIMD CSV parser</title>
       <link>http://chunkofcoal.com/posts/simd-csv/</link>
       <guid isPermaLink="false">http://chunkofcoal.com/posts/simd-csv/</guid>
       <description>Look at the subtle nibble extraction. The tasteful lookup tables of it. Oh my god, it even has vqtbl1q_u8 and vmull_p64 . Editor&#39;s note: it seems some readers are confused who Paul Allen is. It is a reference to the movie American Psycho. Good explanation here or here . It is not a reference to Microsoft co-founder and billionaire Paul Allen and his SIMD CSV parser. A year ago I wrote a CSV parser that is able to parse 64 characters at a time. It’s purely for research and hand waves over cruci…</description>
       <author>matthewkim</author>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The World We Live In</title>
+      <link>https://randoneering.tech/blog/random/theworldwelivein/</link>
+      <guid isPermaLink="false">https://randoneering.tech/blog/random/theworldwelivein/</guid>
+      <description>We are only in March of 2026 This March I had the pleasure of speaking at SCALE 23x, making this the first public speaking events that I have done in my industry. I only have positive things to say about the experience and I truly look forward to next year. While this was my first speaking event, it will certainly not be my last. Being at SCALE this year felt a bit different; I was coming in as a speaker, yes, but I also had made so many new friends in the communities that I was going to meet fo…</description>
+      <author>randoneering</author>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2380,19 +2380,19 @@
       <pubDate>Thu, 19 Mar 2026 07:49:30 +0000</pubDate>
     </item>
     <item>
-      <title>PicoClaw on a Raspberry Pi 3b+</title>
-      <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
-      <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
-      <author>gabe</author>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How to get the deployed Git commit hash in Portainer CE</title>
       <link>https://mareksuppa.com/til/portainer-ce-git-commit-hash/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/portainer-ce-git-commit-hash/</guid>
       <description>When Portainer Community Edition deploys a stack from a git repository , it clones the repo, runs docker compose up , and then deletes the .git directory . This means the usual git rev-parse HEAD trick doesn’t work inside the running container – there’s no git history left. But Portainer does remember the commit it deployed. The stack API endpoint exposes it in GitConfig.ConfigHash : bash Copy curl -s -H &#34;X-API-Key: $PORTAINER_API_KEY &#34; \ &#34; $PORTAINER_URL /api/stacks/ $PORTAINER_STACK_ID &#34;…</description>
       <author>mrshu</author>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PicoClaw on a Raspberry Pi 3b+</title>
+      <link>https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/picoclaw-on-raspberry-pi-3b/</guid>
+      <description>In my first post of this series I installed OpenClaw on a Raspberry Pi 3b+ . It didn’t go too well, but I mentioned that I wanted to see if one of the other less resource-hungry Claws could run on it. I kept the same Raspberry Pi OS Lite install that I used for OpenClaw, but disabled the OpenClaw gateway since it was eating up all my RAM. Then I needed to install Go : sudo apt install golang Then follow the install docs : # Clone the repository git clone https://github.com/sipeed/picoclaw.git …</description>
+      <author>gabe</author>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
