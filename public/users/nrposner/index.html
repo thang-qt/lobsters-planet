@@ -64,12 +64,6 @@
           <p>After several months working part-time on optimizing McFACTS, I think we&#39;re rapidly approaching saturation: one by one, we&#39;ve cut the tall poppies down, cooled the hot paths, until the largest contributors to the runtime are either bookkeeping functions which are already very simple as they are, or calculations that are genuinely time-consuming and which we&#39;ve already optimized a good deal. Well, that&#39;s not quite right. We&#39;ve done this for the top-level function calls used directly from main(). …</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">20 Mar 2026 · nrposner</p>
-          <h3><a href="https://nrposner.com/blog/matching-on-str-vs-bytes-in-rust/">Matching on &amp;str vs bytes in Rust</a></h3>
-          <p>For the latest batch of optimizations speeding up/replacing AstroPy unit operations in McFACTS (expect my next blog post titled The Agony and the Ecstasy of AstroPy Units ), I&#39;ve wound up just extracting the string representation of the unit type and matching on it directly: fn extract_unit (ob: &amp; Bound &lt;&#39; py, PyAny &gt; ) { // extract unit value let unit_obj = ob.getattr( &#34;unit&#34; ) ? ; // use python method to extract string representation let binding = unit_obj.call_method0( &#34;to_string&#34; ) ? ; let u…</p>
-        </article>
-      
     </div>
   </main>
 
