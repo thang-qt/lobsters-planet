@@ -33,7 +33,7 @@
         <div><dt>Stories</dt><dd>0</dd></div>
         <div><dt>Comments</dt><dd>1</dd></div>
         <div><dt>Profile checked</dt><dd>23 Jun 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>29 Jun 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>30 Jun 2026</dd></div>
       </dl>
       <p class="about">A mystery...</p>
     </section>
@@ -48,8 +48,8 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
+          <h3><a href="https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/">Hermes Agent formats its output based on the platform you connect as</a></h3>
+          <p>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</p>
         </article>
       
         <article class="entry">
@@ -60,8 +60,8 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/">Hermes Agent formats its output based on the platform you connect as</a></h3>
-          <p>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
         </article>
       
         <article class="entry">
@@ -98,12 +98,6 @@
           <p class="meta">24 Mar 2026 · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/fish-wraps-flag/">Using --wraps to get tab completions on fish shell aliases</a></h3>
           <p>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">22 Mar 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/github-pr-images-from-cli/">Uploading images to GitHub PRs from the CLI</a></h3>
-          <p>GitHub has no public API for uploading images to PR descriptions. The drag-and-drop in the web UI uses an undocumented endpoint ( /upload/policies/assets ) that requires browser session cookies – you simply can not call it with an API token or gh . The GitHub CLI team explicitly closed this as “not planned”, with the explanation that the upload flow requires a browser to obtain temporary S3 credentials. Pretty understandable but still tough to live with, particularly in this agent era we l…</p>
         </article>
       
     </div>

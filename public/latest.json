@@ -262,6 +262,17 @@
     "site_url": "https://runxiyu.org"
   },
   {
+    "id": "https://omarabid.com/polymarket-bet/",
+    "title": "DeFi Theater: Why Polymarket's Incentives Don't Reward the Truth",
+    "url": "https://omarabid.com/polymarket-bet/",
+    "summary": "How Polymarket's resolution system punishes voters who defy the crowd, not those who are wrong.",
+    "published_at": "2026-06-21T00:00:00Z",
+    "feed_url": "https://omarabid.com/feed.xml",
+    "feed_title": "Omar Abid - Personal Blog",
+    "owner_username": "csomar",
+    "site_url": "https://omarabid.com"
+  },
+  {
     "id": "https://tante.cc/?p=9719#comment-69354",
     "title": "Comment on „KI“-Effizienzversprechen und der Niedergang der Demokratie by ruslan.daniels",
     "url": "https://tante.cc/2026/06/16/ki-effizienzversprechen-und-der-niedergang-der-demokratie/#comment-69354",
@@ -364,10 +375,10 @@
     "site_url": "https://lalitm.com"
   },
   {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -386,10 +397,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -430,10 +441,10 @@
     "site_url": "https://jordivillar.com"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-2/",
-    "title": "Tree 2",
-    "url": "https://inkdroid.org/2026/06/14/tree-2/",
-    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
+    "id": "https://inkdroid.org/2026/06/14/tree-1/",
+    "title": "Tree 1",
+    "url": "https://inkdroid.org/2026/06/14/tree-1/",
+    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -441,10 +452,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/tree-1/",
-    "title": "Tree 1",
-    "url": "https://inkdroid.org/2026/06/14/tree-1/",
-    "summary": "Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.",
+    "id": "https://inkdroid.org/2026/06/14/tree-2/",
+    "title": "Tree 2",
+    "url": "https://inkdroid.org/2026/06/14/tree-2/",
+    "summary": "Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.",
     "published_at": "2026-06-14T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -463,17 +474,6 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "title": "Marcus Aurelius' Fortress of the Mind",
-    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
-    "published_at": "2026-06-14T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
-  },
-  {
     "id": "https://mareksuppa.com/til/load-bearing/",
     "title": "\"Load-bearing\" is becoming LLM speak",
     "url": "https://mareksuppa.com/til/load-bearing/",
@@ -483,6 +483,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "title": "Marcus Aurelius' Fortress of the Mind",
+    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
+    "published_at": "2026-06-14T00:00:00Z",
+    "feed_url": "https://pyjarrett.github.io/rss.xml",
+    "feed_title": "pyj's blog",
+    "owner_username": "pyj",
+    "site_url": "https://pyjarrett.github.io/"
   },
   {
     "id": "https://social.ayushnix.com/@ayushnix/statuses/01KV0ECFEBHAPFPY2JAZWH7M3P",
@@ -1240,10 +1251,10 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
-    "title": "pg_turbovec: 4-bit vector search that beats pgvector on storage and latency",
-    "url": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
-    "summary": "Open-source vector similarity for Postgres backed by Google Research's TurboQuant, with measured numbers against pgvector HNSW.",
+    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
+    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1252,10 +1263,10 @@
     "site_url": "https://greg.burd.me/"
   },
   {
-    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
-    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
+    "id": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
+    "title": "pg_tre: approximate regex as a real Postgres index AM",
+    "url": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
+    "summary": "A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1276,10 +1287,10 @@
     "site_url": "https://greg.burd.me/"
   },
   {
-    "id": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
-    "title": "pg_tre: approximate regex as a real Postgres index AM",
-    "url": "https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/",
-    "summary": "A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.",
+    "id": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
+    "title": "pg_turbovec: 4-bit vector search that beats pgvector on storage and latency",
+    "url": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
+    "summary": "Open-source vector similarity for Postgres backed by Google Research's TurboQuant, with measured numbers against pgvector HNSW.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1478,10 +1489,10 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://jbaber.sdf.org/#alfred_e",
-    "title": "Alfred E. Neuman quotes up to 2005",
-    "url": "https://jbaber.sdf.org/#alfred_e",
-    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
+    "id": "https://jbaber.sdf.org/#PAO",
+    "title": "Person - Action - Object",
+    "url": "https://jbaber.sdf.org/#PAO",
+    "summary": "Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it's a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I've actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1500,28 +1511,6 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#Computers",
-    "title": "Computers",
-    "url": "https://jbaber.sdf.org/#Computers",
-    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
-    "published_at": "2026-05-22T01:41:07Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": "https://jbaber.sdf.org"
-  },
-  {
-    "id": "https://jbaber.sdf.org/#PAO",
-    "title": "Person - Action - Object",
-    "url": "https://jbaber.sdf.org/#PAO",
-    "summary": "Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it's a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I've actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…",
-    "published_at": "2026-05-22T01:41:07Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": "https://jbaber.sdf.org"
-  },
-  {
     "id": "https://jbaber.sdf.org/#cairo",
     "title": "Cairo Composite Manager",
     "url": "https://jbaber.sdf.org/#cairo",
@@ -1533,10 +1522,32 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#now",
-    "title": "Now",
-    "url": "https://jbaber.sdf.org/#now",
-    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
+    "id": "https://jbaber.sdf.org/#alfred_e",
+    "title": "Alfred E. Neuman quotes up to 2005",
+    "url": "https://jbaber.sdf.org/#alfred_e",
+    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
+    "published_at": "2026-05-22T01:41:07Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": "https://jbaber.sdf.org"
+  },
+  {
+    "id": "https://jbaber.sdf.org/#Computers",
+    "title": "Computers",
+    "url": "https://jbaber.sdf.org/#Computers",
+    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
+    "published_at": "2026-05-22T01:41:07Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": "https://jbaber.sdf.org"
+  },
+  {
+    "id": "https://jbaber.sdf.org/#wishlist",
+    "title": "Wishlist",
+    "url": "https://jbaber.sdf.org/#wishlist",
+    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1544,10 +1555,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#TIL",
-    "title": "Today I Learned",
-    "url": "https://jbaber.sdf.org/#TIL",
-    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
+    "id": "https://jbaber.sdf.org/#now",
+    "title": "Now",
+    "url": "https://jbaber.sdf.org/#now",
+    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1566,10 +1577,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#wishlist",
-    "title": "Wishlist",
-    "url": "https://jbaber.sdf.org/#wishlist",
-    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "id": "https://jbaber.sdf.org/#TIL",
+    "title": "Today I Learned",
+    "url": "https://jbaber.sdf.org/#TIL",
+    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1898,17 +1909,6 @@
     "site_url": "http://bernat.tech"
   },
   {
-    "id": "https://arne.me/library/platform-decay",
-    "title": "Platform Decay by Martha Wells",
-    "url": "https://arne.me/library/platform-decay",
-    "summary": "I read Platform Decay by Martha Wells",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://mtlynch.io/retrospectives/2026/05/",
     "title": "Refactoring English: Month 17",
     "url": "https://mtlynch.io/retrospectives/2026/05/",
@@ -1930,6 +1930,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://arne.me/library/platform-decay",
+    "title": "Platform Decay by Martha Wells",
+    "url": "https://arne.me/library/platform-decay",
+    "summary": "I read Platform Decay by Martha Wells",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -2021,10 +2032,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -2032,10 +2043,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -2053,18 +2064,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
-    "title": "The Problem of Pedagogy in Advanced Mathematics",
-    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "/posts/webdev-livecompile/",
     "title": "Piping terminal output to the browser using systemfd",
     "url": "/posts/webdev-livecompile/",
@@ -2075,6 +2074,18 @@
     "feed_title": "Hugues Blog",
     "owner_username": "izissise",
     "site_url": "https://izissise.net"
+  },
+  {
+    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
+    "title": "The Problem of Pedagogy in Advanced Mathematics",
+    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
+    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -2112,17 +2123,6 @@
     "site_url": "https://amanjeev.com/"
   },
   {
-    "id": "https://arne.me/library/25-letzte-sommer",
-    "title": "25 letzte Sommer by Stephan Schäfer",
-    "url": "https://arne.me/library/25-letzte-sommer",
-    "summary": "I read 25 letzte Sommer by Stephan Schäfer",
-    "published_at": "2026-05-09T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://ethancedwards.com/blog/what-value-do-you-provide",
     "title": "What Value Do You Provide?",
     "url": "https://ethancedwards.com/blog/what-value-do-you-provide",
@@ -2144,6 +2144,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://arne.me/library/25-letzte-sommer",
+    "title": "25 letzte Sommer by Stephan Schäfer",
+    "url": "https://arne.me/library/25-letzte-sommer",
+    "summary": "I read 25 letzte Sommer by Stephan Schäfer",
+    "published_at": "2026-05-09T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "https://jcs.org/notes/2026/05/08/996208116721344513",
@@ -2168,17 +2179,6 @@
     "site_url": "https://octet-stream.net/"
   },
   {
-    "id": "https://runxiyu.org/ccc/",
-    "title": "CCC 2026",
-    "url": "https://runxiyu.org/ccc/",
-    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
-    "published_at": "2026-05-08T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "urn:uuid:800b3a89-946c-4c78-b575-4262f7589885",
     "title": "Wander Console 0.6.0",
     "url": "https://susam.net/code/news/wander/0.6.0.html",
@@ -2189,6 +2189,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://runxiyu.org/ccc/",
+    "title": "CCC 2026",
+    "url": "https://runxiyu.org/ccc/",
+    "summary": "CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…",
+    "published_at": "2026-05-08T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://randoneering.tech/blog/pgfirstaid/500stars/",
@@ -2303,17 +2314,6 @@
     "site_url": "https://bpapillon.com"
   },
   {
-    "id": "https://runxiyu.org/comp/ch4ht/",
-    "title": "On (not) using “cryptographic hashes” for hash table keys",
-    "url": "https://runxiyu.org/comp/ch4ht/",
-    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
     "title": "QuickQWERTY 1.2.3",
     "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
@@ -2324,6 +2324,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://runxiyu.org/comp/ch4ht/",
+    "title": "On (not) using “cryptographic hashes” for hash table keys",
+    "url": "https://runxiyu.org/comp/ch4ht/",
+    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -2370,6 +2381,29 @@
     "site_url": "https://andrew.cloud/"
   },
   {
+    "id": "https://endler.dev/2026/taste/",
+    "title": "On Taste",
+    "url": "https://endler.dev/2026/taste/",
+    "summary": "I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…",
+    "published_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://endler.dev/rss.xml",
+    "feed_title": "Matthias Endler",
+    "owner_username": "mre",
+    "site_url": "https://endler.dev"
+  },
+  {
+    "id": "/bug-bash-two",
+    "title": "Bug Bash 2: Attack of the Clones",
+    "url": "/bug-bash-two/",
+    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
+    "published_at": "2026-05-01T00:00:00Z",
+    "updated_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://concerningquality.com/feed.xml",
+    "feed_title": "Concerning Quality",
+    "owner_username": "amw-zero",
+    "site_url": "https://concerningquality.com"
+  },
+  {
     "id": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
     "title": "'Fernweh' in Urdu poetry",
     "url": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
@@ -2392,29 +2426,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "/bug-bash-two",
-    "title": "Bug Bash 2: Attack of the Clones",
-    "url": "/bug-bash-two/",
-    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
-    "published_at": "2026-05-01T00:00:00Z",
-    "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://concerningquality.com/feed.xml",
-    "feed_title": "Concerning Quality",
-    "owner_username": "amw-zero",
-    "site_url": "https://concerningquality.com"
-  },
-  {
-    "id": "https://endler.dev/2026/taste/",
-    "title": "On Taste",
-    "url": "https://endler.dev/2026/taste/",
-    "summary": "I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…",
-    "published_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://endler.dev/rss.xml",
-    "feed_title": "Matthias Endler",
-    "owner_username": "mre",
-    "site_url": "https://endler.dev"
   },
   {
     "id": "https://jcs.org/notes/2026/04/30/993283158047010817",
@@ -2661,17 +2672,6 @@
     "site_url": "https://pyjarrett.github.io/"
   },
   {
-    "id": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
-    "title": "An ode to Strawberry Music Player",
-    "url": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
-    "summary": "[Read more]",
-    "published_at": "2026-04-19T00:00:00Z",
-    "feed_url": "https://www.vesto.me/feed.xml",
-    "feed_title": "vesto",
-    "owner_username": "vesto",
-    "site_url": "https://www.vesto.me"
-  },
-  {
     "id": "https://mitchellkember.com/crafts/off-white-shirt",
     "title": "[Crafts] Off-White Shirt",
     "url": "https://mitchellkember.com/crafts/off-white-shirt",
@@ -2681,6 +2681,17 @@
     "feed_title": "Mitchell Kember",
     "owner_username": "mk12",
     "site_url": "https://mitchellkember.com"
+  },
+  {
+    "id": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
+    "title": "An ode to Strawberry Music Player",
+    "url": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
+    "summary": "[Read more]",
+    "published_at": "2026-04-19T00:00:00Z",
+    "feed_url": "https://www.vesto.me/feed.xml",
+    "feed_title": "vesto",
+    "owner_username": "vesto",
+    "site_url": "https://www.vesto.me"
   },
   {
     "id": "https://jcs.org/notes/2026/04/18/988807432787005441",
@@ -2794,17 +2805,6 @@
     "site_url": "https://www.tyil.nl/"
   },
   {
-    "id": "https://runxiyu.org/comp/nginx/",
-    "title": "My nginx configuration",
-    "url": "https://runxiyu.org/comp/nginx/",
-    "summary": "Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc 'h3=\":443\"; ma=86400'; ssl_protoc…",
-    "published_at": "2026-04-14T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://arne.me/library/und-alle-so-still",
     "title": "Und alle so still by Mareike Fallwickl",
     "url": "https://arne.me/library/und-alle-so-still",
@@ -2816,6 +2816,17 @@
     "site_url": "https://arne.me"
   },
   {
+    "id": "https://runxiyu.org/comp/nginx/",
+    "title": "My nginx configuration",
+    "url": "https://runxiyu.org/comp/nginx/",
+    "summary": "Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc 'h3=\":443\"; ma=86400'; ssl_protoc…",
+    "published_at": "2026-04-14T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "http://iamkonstantin.eu/blog/meet-inlay-a-gleam-library-to-embed-common-urls-on-your-website/",
     "title": "Meet Inlay, a Gleam library to embed common urls on your website",
     "url": "http://iamkonstantin.eu/blog/meet-inlay-a-gleam-library-to-embed-common-urls-on-your-website/",
@@ -2825,17 +2836,6 @@
     "feed_title": "Konstantin's Blog Feed",
     "owner_username": "iamkonstantin",
     "site_url": "https://iamkonstantin.eu"
-  },
-  {
-    "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
-    "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "summary": "ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://mitchellkember.com/books/cities-of-the-plain",
@@ -2869,6 +2869,17 @@
     "feed_title": "Arne Bahlo’s Book Reviews",
     "owner_username": "bahlo",
     "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
+    "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
+    "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
+    "summary": "ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…",
+    "published_at": "2026-04-13T00:00:00Z",
+    "feed_url": "https://mareksuppa.com/feed.xml",
+    "feed_title": "Marek Šuppa",
+    "owner_username": "mrshu",
+    "site_url": "https://mareksuppa.com"
   },
   {
     "id": "https://ethancedwards.com/blog/pro-humanitate",
@@ -3073,17 +3084,6 @@
     "site_url": "https://jeromepin.fr"
   },
   {
-    "id": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-    "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
-    "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
-    "summary": "Nicholas Carlini , a research scientist at Anthropic, reported at the [un]prompted AI security conference that he used Claude Code to find multiple remotely exploitable security vulnerabilities in the Linux kernel, including one that sat undiscovered for 23 years. Nicholas was astonished at how effective Claude Code has been at finding these bugs: We now have a number of remotely exploitable heap buffer overflows in the Linux kernel. I have never found one of these in my life before. This is ver…",
-    "published_at": "2026-04-03T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
-  },
-  {
     "id": "https://arne.me/library/die-wut-die-bleibt",
     "title": "Die Wut, die bleibt by Mareike Fallwickl",
     "url": "https://arne.me/library/die-wut-die-bleibt",
@@ -3093,6 +3093,17 @@
     "feed_title": "Arne Bahlo’s Book Reviews",
     "owner_username": "bahlo",
     "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+    "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+    "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+    "summary": "Nicholas Carlini , a research scientist at Anthropic, reported at the [un]prompted AI security conference that he used Claude Code to find multiple remotely exploitable security vulnerabilities in the Linux kernel, including one that sat undiscovered for 23 years. Nicholas was astonished at how effective Claude Code has been at finding these bugs: We now have a number of remotely exploitable heap buffer overflows in the Linux kernel. I have never found one of these in my life before. This is ver…",
+    "published_at": "2026-04-03T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://tante.cc/?p=8783",
@@ -3118,17 +3129,6 @@
     "site_url": "https://pythonspeed.com"
   },
   {
-    "id": "https://arne.me/library/the-daily-feminist",
-    "title": "The Daily Feminist by Evelyn Höllrigl Tschaikner",
-    "url": "https://arne.me/library/the-daily-feminist",
-    "summary": "I read The Daily Feminist by Evelyn Höllrigl Tschaikner",
-    "published_at": "2026-03-31T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://mareksuppa.com/til/package-manager-cooldown-periods/",
     "title": "Cooldown periods for package updates",
     "url": "https://mareksuppa.com/til/package-manager-cooldown-periods/",
@@ -3138,6 +3138,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://arne.me/library/the-daily-feminist",
+    "title": "The Daily Feminist by Evelyn Höllrigl Tschaikner",
+    "url": "https://arne.me/library/the-daily-feminist",
+    "summary": "I read The Daily Feminist by Evelyn Höllrigl Tschaikner",
+    "published_at": "2026-03-31T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "https://www.silvestar.codes/articles/web-dev-is-making-me-hear-voices-and-see-things/",
@@ -3151,17 +3162,6 @@
     "site_url": "https://www.silvestar.codes"
   },
   {
-    "id": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
-    "title": "How come we are releasing Distrobox v2",
-    "url": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
-    "summary": "Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I've been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …",
-    "published_at": "2026-03-30T00:00:00Z",
-    "feed_url": "https://emanuele.decup.is/feed.xml",
-    "feed_title": "a.k.a.balanza",
-    "owner_username": "balanza",
-    "site_url": "https://emanuele.decup.is"
-  },
-  {
     "id": "https://arne.me/library/ancillary-justice",
     "title": "Ancillary Justice by Ann Leckie",
     "url": "https://arne.me/library/ancillary-justice",
@@ -3171,6 +3171,17 @@
     "feed_title": "Arne Bahlo’s Book Reviews",
     "owner_username": "bahlo",
     "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
+    "title": "How come we are releasing Distrobox v2",
+    "url": "https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html",
+    "summary": "Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I've been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …",
+    "published_at": "2026-03-30T00:00:00Z",
+    "feed_url": "https://emanuele.decup.is/feed.xml",
+    "feed_title": "a.k.a.balanza",
+    "owner_username": "balanza",
+    "site_url": "https://emanuele.decup.is"
   },
   {
     "id": "https://siddharthsabron.in/projects/click-url-shortner/",
@@ -3196,17 +3207,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "title": "PicoBot on a Raspberry Pi 3b+",
-    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
-    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
-    "published_at": "2026-03-27T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://www.statox.fr/posts/2026/03/systemd_timers/",
     "title": "Using a systemd timer to monitor my laptop's battery",
     "url": "https://www.statox.fr/posts/2026/03/systemd_timers/",
@@ -3216,6 +3216,17 @@
     "feed_title": "The stuff I do",
     "owner_username": "statox",
     "site_url": "http://www.statox.fr"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "title": "PicoBot on a Raspberry Pi 3b+",
+    "url": "https://www.lifewaza.com/posts/picobot-on-raspberry-pi-3b/",
+    "summary": "This post is another side quest in the “You Don’t Need a Mac Mini to run OpenClaw” series. When I was first looking for alternatives to OpenClaw , I ran across the PicoBot project and bookmarked it for later. While I was struggling to get OpenClaw up and running on my Pi 3b+ I found PicoClaw , which I confused for PicoBot as both projects are written in Go and both aim to be small Ai assistants that can run on limited hardware. In my first draft of my last post I even swapped the names on …",
+    "published_at": "2026-03-27T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "https://www.philipzucker.com/thin_hash_cons_codebruijn",
@@ -3296,17 +3307,6 @@
     "site_url": "https://chrisdown.name"
   },
   {
-    "id": "https://mlich.eu/posts/they-dont-own-me/",
-    "title": "They don't own me",
-    "url": "https://mlich.eu/posts/they-dont-own-me/",
-    "summary": "Fuck you, Instagram. Fuck you, TikTok. Fuck you, Dennik N. Fuck you, Reddit. Fuck you, Hacker News. Fuck you, YouTube. I’m not a fan of foul language. But I need to get this out. I’m Gen Z. I grew up with computers and internet available everywhere I go. And over the years, I’ve watched my relationship with these platforms turn into something I can only describe as addiction. Here’s what it looks like. I wake up. I check all the apps. An hour goes by. I do another loop through them all. …",
-    "published_at": "2026-03-23T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/",
     "title": "The Agony and the Ecstasy of AstroPy Units",
     "url": "https://nrposner.com/blog/the-agony-and-the-ecstasy-of-astropy-units/",
@@ -3318,6 +3318,17 @@
     "site_url": "https://nrposner.com"
   },
   {
+    "id": "https://mlich.eu/posts/they-dont-own-me/",
+    "title": "They don't own me",
+    "url": "https://mlich.eu/posts/they-dont-own-me/",
+    "summary": "Fuck you, Instagram. Fuck you, TikTok. Fuck you, Dennik N. Fuck you, Reddit. Fuck you, Hacker News. Fuck you, YouTube. I’m not a fan of foul language. But I need to get this out. I’m Gen Z. I grew up with computers and internet available everywhere I go. And over the years, I’ve watched my relationship with these platforms turn into something I can only describe as addiction. Here’s what it looks like. I wake up. I check all the apps. An hour goes by. I do another loop through them all. …",
+    "published_at": "2026-03-23T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
+  },
+  {
     "id": "http://nolanlawson.com/?p=16078",
     "title": "The diminished art of coding",
     "url": "https://nolanlawson.com/2026/03/22/the-diminished-art-of-coding/",
@@ -3327,16 +3338,5 @@
     "feed_title": "Read the Tea Leaves",
     "owner_username": "nolan",
     "site_url": "https://nolanlawson.com"
-  },
-  {
-    "id": "https://mareksuppa.com/til/github-pr-images-from-cli/",
-    "title": "Uploading images to GitHub PRs from the CLI",
-    "url": "https://mareksuppa.com/til/github-pr-images-from-cli/",
-    "summary": "GitHub has no public API for uploading images to PR descriptions. The drag-and-drop in the web UI uses an undocumented endpoint ( /upload/policies/assets ) that requires browser session cookies – you simply can not call it with an API token or gh . The GitHub CLI team explicitly closed this as “not planned”, with the explanation that the upload flow requires a browser to obtain temporary S3 credentials. Pretty understandable but still tough to live with, particularly in this agent era we l…",
-    "published_at": "2026-03-22T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
   }
 ]
