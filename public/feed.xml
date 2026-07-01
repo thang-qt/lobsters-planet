@@ -5,7 +5,39 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Tue, 30 Jun 2026 20:50:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 05:37:19 +0000</lastBuildDate>
+    <item>
+      <title>Comment on Trying to manufacture permission by feliks✨</title>
+      <link>https://chaos.social/@feliks/116841210810378493</link>
+      <guid isPermaLink="false">https://tante.cc/?p=9791#comment-69453</guid>
+      <description>In reply to &lt;a href=&#34;https://chaos.social/@feliks/116841203415940494&#34;&gt;feliks &lt;/a&gt;. &lt;p&gt;&lt;a href=&#34;https://tante.cc&#34; rel=&#34;ugc&#34;&gt;@blog&lt;/a&gt; i like the your expression of &#34;manufacturing permission&#34; as it points to a real problem that requires ourselves to defend against yet the quotation fails to match credibility in evidence by false claims (stated above)&lt;/p&gt;</description>
+      <author>tante</author>
+      <pubDate>Tue, 30 Jun 2026 21:36:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comment on Trying to manufacture permission by feliks✨</title>
+      <link>https://chaos.social/@feliks/116841203415940494</link>
+      <guid isPermaLink="false">https://tante.cc/?p=9791#comment-69452</guid>
+      <description>&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://tante.cc&amp;quot; rel=&amp;quot;ugc&amp;quot;&amp;gt;@blog&amp;lt;/a&amp;gt; if you weren&amp;#039;t writing so sensational and actually took a position that could be taken serious your article might be worth sharing. but i guess you see too many people misusing a tool that has a lot of potential&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;#062; [people at work] who do think that you can use LLMs to meaningfully gather information&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;unfortunately you deprive yourself of the opportunity to be taken…</description>
+      <author>tante</author>
+      <pubDate>Tue, 30 Jun 2026 21:34:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trying to manufacture permission</title>
+      <link>https://tante.cc/2026/06/30/trying-to-manufacture-permission/</link>
+      <guid isPermaLink="false">https://tante.cc/?p=9791</guid>
+      <description>I wanna expand on something I wrote a few months ago: One of the features of “AI” is the diffusion of responsibility: “AI” systems are being put in all kinds of processes and when they fuck up (and they always fuck up) it was just the “AI”, or “someone should have checked things”. “AI” companies [&amp;#8230;]</description>
+      <author>tante</author>
+      <pubDate>Tue, 30 Jun 2026 21:17:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>On &#34;When impressive performance gains do not matter&#34;</title>
+      <link>https://lalitm.com/post/on-when-impressive-performance/</link>
+      <guid isPermaLink="false">https://lalitm.com/post/on-when-impressive-performance/</guid>
+      <description>When impressive performance gains do not matter is a very nice article covering some ways in which going after performance alone is not sufficient without considering the wider picture. It resonated a lot with how I think about performance. If there are multiple bottlenecks in the pipeline—and with these systems, this is common—the overall throughput will not improve until every last bottleneck is removed. His focus is on distributed systems bottlenecks, but I’ve hit the same “do-nothing…</description>
+      <author>lalitm</author>
+      <pubDate>Tue, 30 Jun 2026 15:25:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bubbles</title>
       <link>https://christiano.dev/til/bubbles/</link>
@@ -130,7 +162,7 @@
       <guid isPermaLink="false">https://blog.platypush.tech/article/Local-voice-assistant</guid>
       <description>A practical setup for a Raspberry Pi-friendly voice assistant based on Platypush.</description>
       <author>blacklight</author>
-      <pubDate>Mon, 22 Jun 2026 20:03:06 +0000</pubDate>
+      <pubDate>Mon, 22 Jun 2026 18:20:00 +0000</pubDate>
     </item>
     <item>
       <title>Comment on Using AI to write better code more slowly by Tom Conlon</title>
@@ -284,10 +316,10 @@
       <pubDate>Tue, 16 Jun 2026 01:36:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <title>Hermes Agent formats its output based on the platform you connect as</title>
+      <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
+      <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -300,10 +332,10 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hermes Agent formats its output based on the platform you connect as</title>
-      <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
-      <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -332,6 +364,14 @@
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
     </item>
     <item>
+      <title>Bookmarks - data, design, vis, book</title>
+      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Tree 2</title>
       <link>https://inkdroid.org/2026/06/14/tree-2/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
@@ -344,14 +384,6 @@
       <link>https://inkdroid.org/2026/06/14/tree-1/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
       <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bookmarks - data, design, vis, book</title>
-      <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -756,18 +788,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Weekly Bookmarks</title>
-      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
-      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Untitled</title>
       <link>https://inkdroid.org/2026/05/31/untitled/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
       <description>Untitled by John Summers</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weekly Bookmarks</title>
+      <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
+      <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -836,19 +868,19 @@
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Environment variables indicative of coding agents</title>
-      <link>https://runxiyu.org/comp/llmenv/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
-      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Preserving Pixter</title>
       <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
       <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
       <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
       <author>dmitrygr</author>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Environment variables indicative of coding agents</title>
+      <link>https://runxiyu.org/comp/llmenv/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
+      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -924,10 +956,10 @@
       <pubDate>Tue, 26 May 2026 08:44:12 +0000</pubDate>
     </item>
     <item>
-      <title>pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</title>
-      <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
-      <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
+      <title>pg_tre: approximate regex as a real Postgres index AM</title>
+      <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
+      <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -940,18 +972,18 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>pg_tre: approximate regex as a real Postgres index AM</title>
-      <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
-      <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</title>
       <link>https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</guid>
       <description>Open-source vector similarity for Postgres backed by Google Research&#39;s TurboQuant, with measured numbers against pgvector HNSW.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</title>
+      <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
+      <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1092,18 +1124,18 @@
       <pubDate>Fri, 22 May 2026 11:22:20 +0000</pubDate>
     </item>
     <item>
-      <title>Computers</title>
-      <link>https://jbaber.sdf.org/#Computers</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
-      <description>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Cairo Composite Manager</title>
       <link>https://jbaber.sdf.org/#cairo</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#cairo</guid>
       <description>Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I&#39;m doing, this advice should be taken with a grain of salt. I make no claims that following my directions won&#39;t erase all your data and destroy your computer. short how to</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alfred E. Neuman quotes up to 2005</title>
+      <link>https://jbaber.sdf.org/#alfred_e</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
+      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -1116,18 +1148,18 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Beautiful Things</title>
-      <link>https://jbaber.sdf.org/#beauty</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#beauty</guid>
-      <description>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</description>
+      <title>Computers</title>
+      <link>https://jbaber.sdf.org/#Computers</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
+      <description>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Alfred E. Neuman quotes up to 2005</title>
-      <link>https://jbaber.sdf.org/#alfred_e</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
-      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
+      <title>Beautiful Things</title>
+      <link>https://jbaber.sdf.org/#beauty</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#beauty</guid>
+      <description>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -1396,6 +1428,14 @@
       <pubDate>Thu, 14 May 2026 23:30:00 +0000</pubDate>
     </item>
     <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Commenting Guidelines</title>
       <link>https://susam.net/commenting.html</link>
       <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
@@ -1409,14 +1449,6 @@
       <guid isPermaLink="false">https://arne.me/library/platform-decay</guid>
       <description>I read Platform Decay by Martha Wells</description>
       <author>bahlo</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1531,19 +1563,19 @@
       <pubDate>Sun, 10 May 2026 04:00:12 +0000</pubDate>
     </item>
     <item>
-      <title>Family Orienting Python Frozenset Dependent Type Theory</title>
-      <link>https://www.philipzucker.com/dtt_python_family/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/dtt_python_family</guid>
-      <description>I like trying to finitize things and put them in mundane trappings.</description>
-      <author>philzook</author>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>An attempt to understand HRTB, Variance, Lifetimes, and Generics</title>
       <link>https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</link>
       <guid isPermaLink="false">https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/</guid>
       <description>This blog post assumes you are familiar with Rust’s generic types, ownership/borrowership system, and lifetime annotations. 🙏 A signature you may have seen If you’ve worked with reqwest and serde , and had a custom send() function to do your data munging or convert to your own error variants, you must have encountered something called Higher-Ranked Trait Bounds (HRTBs). So, in this snippet the &lt;T: for&lt;&#39;a&gt; Deserialize&lt;&#39;a&gt;&gt; part. pub async fn send &lt; T : for &lt;&#39; a &gt; Deserialize &lt;&#39; a &gt;&gt;( req :…</description>
       <author>amanjeev</author>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Family Orienting Python Frozenset Dependent Type Theory</title>
+      <link>https://www.philipzucker.com/dtt_python_family/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/dtt_python_family</guid>
+      <description>I like trying to finitize things and put them in mundane trappings.</description>
+      <author>philzook</author>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1587,19 +1619,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>CCC 2026</title>
-      <link>https://runxiyu.org/ccc/</link>
-      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
-      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wander Console 0.6.0</title>
       <link>https://susam.net/code/news/wander/0.6.0.html</link>
       <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
       <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
       <author>susam</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CCC 2026</title>
+      <link>https://runxiyu.org/ccc/</link>
+      <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
+      <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1635,19 +1667,19 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
-      <title>Seeing typos makes me hapy</title>
-      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
-      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
-      <author>Juraj</author>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
       <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
       <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
       <author>dblock</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seeing typos makes me hapy</title>
+      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
+      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
+      <author>Juraj</author>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1683,19 +1715,19 @@
       <pubDate>Mon, 04 May 2026 16:11:37 +0000</pubDate>
     </item>
     <item>
-      <title>Podman rootless containers and the Copy Fail exploit</title>
-      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
-      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
-      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
-      <author>ggpsv</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From RSS to Atom</title>
       <link>https://susam.net/from-rss-to-atom.html</link>
       <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
       <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
       <author>susam</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Podman rootless containers and the Copy Fail exploit</title>
+      <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
+      <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
+      <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
+      <author>ggpsv</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1755,6 +1787,14 @@
       <pubDate>Fri, 01 May 2026 03:35:08 +0000</pubDate>
     </item>
     <item>
+      <title>Lifting and Lowering Functions with The Dump Calculus</title>
+      <link>https://www.philipzucker.com/dump_calculus/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
+      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
+      <author>philzook</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>On Taste</title>
       <link>https://endler.dev/2026/taste/</link>
       <guid isPermaLink="false">https://endler.dev/2026/taste/</guid>
@@ -1768,14 +1808,6 @@
       <guid isPermaLink="false">/bug-bash-two</guid>
       <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
       <author>amw-zero</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lifting and Lowering Functions with The Dump Calculus</title>
-      <link>https://www.philipzucker.com/dump_calculus/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
-      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
-      <author>philzook</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1803,19 +1835,19 @@
       <pubDate>Wed, 29 Apr 2026 15:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>The Will to Change by Bell Hooks</title>
-      <link>https://arne.me/library/the-will-to-change</link>
-      <guid isPermaLink="false">https://arne.me/library/the-will-to-change</guid>
-      <description>I read The Will to Change by Bell Hooks</description>
-      <author>bahlo</author>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenClaw On Raspberry Pi 400</title>
       <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</guid>
       <description>Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…</description>
       <author>gabe</author>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Will to Change by Bell Hooks</title>
+      <link>https://arne.me/library/the-will-to-change</link>
+      <guid isPermaLink="false">https://arne.me/library/the-will-to-change</guid>
+      <description>I read The Will to Change by Bell Hooks</description>
+      <author>bahlo</author>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1875,19 +1907,19 @@
       <pubDate>Fri, 24 Apr 2026 20:27:33 +0000</pubDate>
     </item>
     <item>
-      <title>Brute force is our zeitgeist</title>
-      <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
-      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
-      <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
-      <author>balanza</author>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>My view of the state of post-quantum cryptography</title>
       <link>https://runxiyu.org/comp/pq/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
       <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brute force is our zeitgeist</title>
+      <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
+      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
+      <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
+      <author>balanza</author>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1955,14 +1987,6 @@
       <pubDate>Sun, 19 Apr 2026 14:44:10 +0000</pubDate>
     </item>
     <item>
-      <title>[Crafts] Off-White Shirt</title>
-      <link>https://mitchellkember.com/crafts/off-white-shirt</link>
-      <guid isPermaLink="false">https://mitchellkember.com/crafts/off-white-shirt</guid>
-      <description>Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…</description>
-      <author>mk12</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>An ode to Strawberry Music Player</title>
       <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
       <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
@@ -1976,6 +2000,14 @@
       <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
       <description>Equivalent ways of writing the same tokens.</description>
       <author>pyj</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Crafts] Off-White Shirt</title>
+      <link>https://mitchellkember.com/crafts/off-white-shirt</link>
+      <guid isPermaLink="false">https://mitchellkember.com/crafts/off-white-shirt</guid>
+      <description>Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…</description>
+      <author>mk12</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2059,19 +2091,19 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>My nginx configuration</title>
-      <link>https://runxiyu.org/comp/nginx/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/nginx/</guid>
-      <description>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</description>
-      <author>runxiyu</author>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Und alle so still by Mareike Fallwickl</title>
       <link>https://arne.me/library/und-alle-so-still</link>
       <guid isPermaLink="false">https://arne.me/library/und-alle-so-still</guid>
       <description>I read Und alle so still by Mareike Fallwickl</description>
       <author>bahlo</author>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My nginx configuration</title>
+      <link>https://runxiyu.org/comp/nginx/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/nginx/</guid>
+      <description>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</description>
+      <author>runxiyu</author>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2081,22 +2113,6 @@
       <description>Inlay is a library which renders embedded previews for content links (Mastodon, Pixelfed, Apple Music, Bluesky, Spotify, etc..) on your Lustre page I&#39;m very happy to announce a new library I&#39;ve been working on in the last couple of days - Inlay . The Gleam Way I&#39;ve been actively looking for opportunities to integrate more Gleam into my work and the recent 11ty news have provided an excellent excuse to rewrite all my static websites using Lustre . In case you don&#39;t know, Lustre is a web framework…</description>
       <author>iamkonstantin</author>
       <pubDate>Mon, 13 Apr 2026 17:55:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
-      <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
-      <description>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</description>
-      <author>mrshu</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>One Thing</title>
-      <link>https://mlich.eu/posts/one-thing/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
-      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
-      <author>Juraj</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Die Känguru-Rebellion by Marc-Uwe Kling</title>
@@ -2112,6 +2128,22 @@
       <guid isPermaLink="false">https://mitchellkember.com/books/cities-of-the-plain</guid>
       <description>View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…</description>
       <author>mk12</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
+      <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
+      <description>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</description>
+      <author>mrshu</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Thing</title>
+      <link>https://mlich.eu/posts/one-thing/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
+      <description>I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…</description>
+      <author>Juraj</author>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2139,19 +2171,19 @@
       <pubDate>Sat, 11 Apr 2026 06:08:51 +0000</pubDate>
     </item>
     <item>
-      <title>How I Made $360 by Serving Markdown to A.I. agents from My Jekyll Blog</title>
-      <link>https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog.html</link>
-      <guid isPermaLink="false">https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog</guid>
-      <description>In April 2025 I wrote Apologizing for My Obsessiveness Over Punctuation , a post about my various organizational compulsions. Near the end, almost as an aside, I mentioned that I obsessively categorize expenses in Monarch , a personal finance app, linking it with my referral code. That post earned me exactly one referral in the nine months that followed. Then, on January 15th, 2026, I wrote Serving Markdown for AI Agents . The idea is simple: for every post on this blog, there’s now a .md vers…</description>
-      <author>dblock</author>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What We Can Know by Ian McEwan</title>
       <link>https://arne.me/library/what-we-can-know</link>
       <guid isPermaLink="false">https://arne.me/library/what-we-can-know</guid>
       <description>I read What We Can Know by Ian McEwan</description>
       <author>bahlo</author>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I Made $360 by Serving Markdown to A.I. agents from My Jekyll Blog</title>
+      <link>https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog.html</link>
+      <guid isPermaLink="false">https://code.dblock.org/2026/04/11/how-i-made-360-dollars-by-serving-markdown-from-my-jekyll-blog</guid>
+      <description>In April 2025 I wrote Apologizing for My Obsessiveness Over Punctuation , a post about my various organizational compulsions. Near the end, almost as an aside, I mentioned that I obsessively categorize expenses in Monarch , a personal finance app, linking it with my referral code. That post earned me exactly one referral in the nine months that followed. Then, on January 15th, 2026, I wrote Serving Markdown for AI Agents . The idea is simple: for every post on this blog, there’s now a .md vers…</description>
+      <author>dblock</author>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2187,19 +2219,19 @@
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An old compiler bug with a very bad outcome</title>
-      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
-      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
-      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
-      <author>cuonglm</author>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Opening Proprietary Code to Contributors Checklist</title>
       <link>https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/04/08/opening-proprietary-code-to-contributors-checklist</guid>
       <description>Before AI coding assistants, a typical engineering team built expertise with the years: new team members joined, contributed small bug fixes, then were given more ambitious tasks over time as they became more comfortable in a codebase, to ultimately become experts. This process took years. In contrast, today, almost every engineer, and many non-engineers, have access to tools that can gather context from any codebase, and produce a large volume of high-quality code in a day. This lowers the bar …</description>
       <author>dblock</author>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An old compiler bug with a very bad outcome</title>
+      <link>https://cuonglm.xyz/post/go_issue_77193/</link>
+      <guid isPermaLink="false">https://cuonglm.xyz/post/go_issue_77193/</guid>
+      <description>Prologue This is the oldest compiler bug fix I have worked on so far. The problem Consider following code: package p func f() { var x int _ = [...][]*int{ {&amp;amp;x}, nil, nil, nil, nil, } } Compiling above code with go1.24.13 tool compile -S x.go: &amp;lt;unlinkable&amp;gt;.f STEXT size=79 args=0x0 locals=0x10 funcid=0x0 align=0x0 0x0000 00000 (/home/cuonglm/x.go:3) TEXT &amp;lt;unlinkable&amp;gt;.f(SB), ABIInternal, $16-0 0x0000 00000 (/home/cuonglm/x.go:3) CMPQ SP, 16(R14) 0x0004 00004 (/home/cuonglm/x.go:3) P…</description>
+      <author>cuonglm</author>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2259,19 +2291,19 @@
       <pubDate>Fri, 03 Apr 2026 09:14:00 +0000</pubDate>
     </item>
     <item>
-      <title>Die Wut, die bleibt by Mareike Fallwickl</title>
-      <link>https://arne.me/library/die-wut-die-bleibt</link>
-      <guid isPermaLink="false">https://arne.me/library/die-wut-die-bleibt</guid>
-      <description>I read Die Wut, die bleibt by Mareike Fallwickl</description>
-      <author>bahlo</author>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude Code Found a Linux Vulnerability Hidden for 23 Years</title>
       <link>https://mtlynch.io/claude-code-found-linux-vulnerability/</link>
       <guid isPermaLink="false">https://mtlynch.io/claude-code-found-linux-vulnerability/</guid>
       <description>Nicholas Carlini , a research scientist at Anthropic, reported at the [un]prompted AI security conference that he used Claude Code to find multiple remotely exploitable security vulnerabilities in the Linux kernel, including one that sat undiscovered for 23 years. Nicholas was astonished at how effective Claude Code has been at finding these bugs: We now have a number of remotely exploitable heap buffer overflows in the Linux kernel. I have never found one of these in my life before. This is ver…</description>
       <author>mtlynch</author>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Die Wut, die bleibt by Mareike Fallwickl</title>
+      <link>https://arne.me/library/die-wut-die-bleibt</link>
+      <guid isPermaLink="false">https://arne.me/library/die-wut-die-bleibt</guid>
+      <description>I read Die Wut, die bleibt by Mareike Fallwickl</description>
+      <author>bahlo</author>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2291,19 +2323,19 @@
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Daily Feminist by Evelyn Höllrigl Tschaikner</title>
-      <link>https://arne.me/library/the-daily-feminist</link>
-      <guid isPermaLink="false">https://arne.me/library/the-daily-feminist</guid>
-      <description>I read The Daily Feminist by Evelyn Höllrigl Tschaikner</description>
-      <author>bahlo</author>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cooldown periods for package updates</title>
       <link>https://mareksuppa.com/til/package-manager-cooldown-periods/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/package-manager-cooldown-periods/</guid>
       <description>The last two weeks of March 2026 were brutal for software supply chains. A cascading campaign by a threat actor tracked as TeamPCP started with a compromised credential in Trivy (Aqua Security’s vulnerability scanner), which was then used to hijack Checkmarx KICS and then LiteLLM (an LLM proxy with ~97M monthly PyPI downloads). On top of that, axios – the most popular HTTP client on npm with ~100M weekly downloads – was compromised through a stolen maintainer token, with Google’s Threat …</description>
       <author>mrshu</author>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Daily Feminist by Evelyn Höllrigl Tschaikner</title>
+      <link>https://arne.me/library/the-daily-feminist</link>
+      <guid isPermaLink="false">https://arne.me/library/the-daily-feminist</guid>
+      <description>I read The Daily Feminist by Evelyn Höllrigl Tschaikner</description>
+      <author>bahlo</author>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2315,19 +2347,19 @@
       <pubDate>Mon, 30 Mar 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How come we are releasing Distrobox v2</title>
-      <link>https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</link>
-      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</guid>
-      <description>Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I&#39;ve been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …</description>
-      <author>balanza</author>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ancillary Justice by Ann Leckie</title>
       <link>https://arne.me/library/ancillary-justice</link>
       <guid isPermaLink="false">https://arne.me/library/ancillary-justice</guid>
       <description>I read Ancillary Justice by Ann Leckie</description>
       <author>bahlo</author>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How come we are releasing Distrobox v2</title>
+      <link>https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</link>
+      <guid isPermaLink="false">https://emanuele.decup.is/posts/20260330-how-come-we-are-releasing-distrobox-v2.html</guid>
+      <description>Distrobox v2 has been announced to the public yesterday and I cannot be more thrilled! It is a complete rewrite in Go that we have been working on for the last few months. The introduction post tells everything worth knowing about the project; here I would like to say something about how my fellows and I got here. Distrobox is a great daily driver First of all: I&#39;ve been using Distrobox for some time, and it rapidly became one of the tools I always want on my workstation. I initially used it as …</description>
+      <author>balanza</author>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2369,38 +2401,6 @@
       <description>Another step on a journey to a thinning egraph.</description>
       <author>philzook</author>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code Cheat Sheet</title>
-      <link>https://mareksuppa.com/links/claude-code-cheat-sheet/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/claude-code-cheat-sheet/</guid>
-      <description>A nicely organized cheat sheet of Claude Code commands, many of which are not widely known (e.g. /insights , /review ). Automatically updated daily . See also the Hacker News discussion .</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Storing API keys for Claude Code providers in KeePassXC</title>
-      <link>https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/keepassxc-claude-code-api-keys/</guid>
-      <description>A growing number of providers expose Anthropic-compatible API endpoints for Claude Code: MiniMax Z.AI DeepSeek Moonshot/Kimi Alibaba/DashScope OpenRouter They all work the same way: set ANTHROPIC_BASE_URL and ANTHROPIC_AUTH_TOKEN , and Claude Code talks to them instead of Anthropic. Their docs typically suggest putting the key straight into ~/.claude/settings.json : json Copy { &#34;env&#34; : { &#34;ANTHROPIC_BASE_URL&#34; : &#34;https://api.minimax.io/anthropic&#34; , &#34;ANTHROPIC_AUTH_TOKEN&#34; : &#34;&lt;MINIMAX_API_KEY&gt;&#34; } } …</description>
-      <author>mrshu</author>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent Memory Is Just a Database You Forgot to Index</title>
-      <link>https://dev.to/karelvandenbussche/agent-memory-is-just-a-database-you-forgot-to-index-b5d</link>
-      <guid isPermaLink="false">https://dev.to/karelvandenbussche/agent-memory-is-just-a-database-you-forgot-to-index-b5d</guid>
-      <description>In my previous article, I explored why personas still matter when working with AI agents. Distinct perspectives shape output in ways that raw context alone cannot replicate. But I also raised a limitation that I want to address head-on: every fresh context window starts from zero. The persona needs to rebuild its understanding of your codebase from scratch, every single time. This is not just an inconvenience. It is a structural problem. If every session begins with a blank slate, your agents sp…</description>
-      <author>kavdnbus</author>
-      <pubDate>Tue, 24 Mar 2026 07:47:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using --wraps to get tab completions on fish shell aliases</title>
-      <link>https://mareksuppa.com/til/fish-wraps-flag/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/fish-wraps-flag/</guid>
-      <description>When you write a wrapper function in fish, you can use the --wraps flag to inherit tab completions from the wrapped command: fish Copy function claude -minimax \ --wraps = &#39;claude&#39; \ --description &#39;Run Claude Code against MiniMax M2.7 API&#39; ANTHROPIC_BASE_URL = &#34;https://api.minimax.io/anthropic&#34; \ ANTHROPIC_MODEL = &#34;MiniMax-M2.7&#34; \ claude $argv end The --wraps=&#39;claude&#39; tells fish that claude-minimax is a wrapper around claude . This means that when you type claude-minimax -- and hit &lt;Tab&gt; , you g…</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
