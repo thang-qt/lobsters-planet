@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T05:37:19.770154306Z",
+  "generated_at": "2026-07-01T10:46:17.938404909Z",
   "overview": {
-    "users": 20406,
-    "crawled_profiles": 2400,
-    "homepages": 325,
-    "users_with_feeds": 182,
-    "feeds": 76,
-    "feeds_with_posts": 76,
+    "users": 20407,
+    "crawled_profiles": 2425,
+    "homepages": 327,
+    "users_with_feeds": 184,
+    "feeds": 72,
+    "feeds_with_posts": 72,
     "entries": 300
   },
   "oldest_users": [
@@ -905,17 +905,6 @@
       "comments_posted": 0
     },
     {
-      "username": "davidk01",
-      "profile_url": "https://lobste.rs/~davidk01",
-      "has_detail_page": true,
-      "profile_checked_at": "2026-06-25T20:29:16.566681547Z",
-      "users_page_rank": 415,
-      "joined_at": "2018-12-16T13:21:53Z",
-      "karma": 1120,
-      "stories_submitted": 87,
-      "comments_posted": 0
-    },
-    {
       "username": "amw-zero",
       "profile_url": "https://lobste.rs/~amw-zero",
       "homepage_url": "https://concerningquality.com",
@@ -928,6 +917,17 @@
       "stories_submitted": 87,
       "comments_posted": 1005,
       "about": "A mystery..."
+    },
+    {
+      "username": "davidk01",
+      "profile_url": "https://lobste.rs/~davidk01",
+      "has_detail_page": true,
+      "profile_checked_at": "2026-06-25T20:29:16.566681547Z",
+      "users_page_rank": 415,
+      "joined_at": "2018-12-16T13:21:53Z",
+      "karma": 1120,
+      "stories_submitted": 87,
+      "comments_posted": 0
     },
     {
       "username": "vfoley",
@@ -1283,6 +1283,14 @@
       "latest_at": "2026-06-30T21:36:29Z"
     },
     {
+      "feed_url": "https://mastodon.roundpond.net/@CartyBoston.rss",
+      "feed_title": "CartyBoston",
+      "owner_username": "CartyBoston",
+      "site_url": "https://mastodon.roundpond.net/@CartyBoston",
+      "entries": 20,
+      "latest_at": "2026-07-01T10:35:15Z"
+    },
+    {
       "feed_url": "https://inkdroid.org/feed.xml",
       "feed_title": "inkdroid",
       "owner_username": "edsu",
@@ -1307,14 +1315,6 @@
       "latest_at": "2026-06-25T18:40:50Z"
     },
     {
-      "feed_url": "https://arne.me/library/feed.xml",
-      "feed_title": "Arne Bahlo’s Book Reviews",
-      "owner_username": "bahlo",
-      "site_url": "https://arne.me",
-      "entries": 12,
-      "latest_at": "2026-06-01T00:00:00Z"
-    },
-    {
       "feed_url": "https://runxiyu.org/index.xml",
       "feed_title": "Runxi Yu on Runxi Yu’s Website",
       "owner_username": "runxiyu",
@@ -1323,28 +1323,20 @@
       "latest_at": "2026-06-29T00:00:00Z"
     },
     {
+      "feed_url": "https://arne.me/library/feed.xml",
+      "feed_title": "Arne Bahlo’s Book Reviews",
+      "owner_username": "bahlo",
+      "site_url": "https://arne.me",
+      "entries": 9,
+      "latest_at": "2026-06-01T00:00:00Z"
+    },
+    {
       "feed_url": "https://jbaber.sdf.org/feed.xml",
       "feed_title": "John Baber-Lucero",
       "owner_username": "jbaber",
       "site_url": "https://jbaber.sdf.org",
       "entries": 9,
       "latest_at": "2026-05-22T01:41:07Z"
-    },
-    {
-      "feed_url": "https://jordivillar.com/rss.xml",
-      "feed_title": "Jordi Villar",
-      "owner_username": "jordi",
-      "site_url": "https://jordivillar.com",
-      "entries": 9,
-      "latest_at": "2026-06-29T08:26:52Z"
-    },
-    {
-      "feed_url": "https://philipotoole.com/feed/",
-      "feed_title": "Philip O'Toole",
-      "owner_username": "otoolep",
-      "site_url": "https://www.philipotoole.com",
-      "entries": 9,
-      "latest_at": "2026-06-01T13:42:34Z"
     },
     {
       "feed_url": "https://susam.net/feed.xml",
@@ -1363,11 +1355,27 @@
       "latest_at": "2026-06-27T04:24:59Z"
     },
     {
+      "feed_url": "https://philipotoole.com/feed/",
+      "feed_title": "Philip O'Toole",
+      "owner_username": "otoolep",
+      "site_url": "https://www.philipotoole.com",
+      "entries": 8,
+      "latest_at": "2026-06-01T13:42:34Z"
+    },
+    {
+      "feed_url": "https://jordivillar.com/rss.xml",
+      "feed_title": "Jordi Villar",
+      "owner_username": "jordi",
+      "site_url": "https://jordivillar.com",
+      "entries": 7,
+      "latest_at": "2026-06-29T08:26:52Z"
+    },
+    {
       "feed_url": "https://lalitm.com/index.xml",
       "feed_title": "Lalit Maganti",
       "owner_username": "lalitm",
       "site_url": "https://lalitm.com",
-      "entries": 7,
+      "entries": 6,
       "latest_at": "2026-06-30T15:25:00Z"
     },
     {
@@ -1375,24 +1383,8 @@
       "feed_title": "Hey There Buddo!",
       "owner_username": "philzook",
       "site_url": "https://www.philipzucker.com/",
-      "entries": 7,
+      "entries": 6,
       "latest_at": "2026-06-01T00:00:00Z"
-    },
-    {
-      "feed_url": "https://mareksuppa.com/feed.xml",
-      "feed_title": "Marek Šuppa",
-      "owner_username": "mrshu",
-      "site_url": "https://mareksuppa.com",
-      "entries": 6,
-      "latest_at": "2026-06-16T00:00:00Z"
-    },
-    {
-      "feed_url": "https://tante.cc/feed/",
-      "feed_title": "Smashing Frames",
-      "owner_username": "tante",
-      "site_url": "https://tante.cc",
-      "entries": 6,
-      "latest_at": "2026-06-30T21:17:19Z"
     },
     {
       "feed_url": "https://octet-stream.net/feed",
@@ -1411,14 +1403,6 @@
       "latest_at": "2026-06-02T16:40:06Z"
     },
     {
-      "feed_url": "https://www.lifewaza.com/index.xml",
-      "feed_title": "lifewaza",
-      "owner_username": "gabe",
-      "site_url": "https://www.lifewaza.com/",
-      "entries": 5,
-      "latest_at": "2026-06-22T00:00:00Z"
-    },
-    {
       "feed_url": "https://www.jacky.wtf/essays/feed.atom",
       "feed_title": "Jacky Alciné's essays",
       "owner_username": "jalcine",
@@ -1427,12 +1411,36 @@
       "latest_at": "2026-06-12T21:00:00Z"
     },
     {
+      "feed_url": "https://mareksuppa.com/feed.xml",
+      "feed_title": "Marek Šuppa",
+      "owner_username": "mrshu",
+      "site_url": "https://mareksuppa.com",
+      "entries": 5,
+      "latest_at": "2026-06-16T00:00:00Z"
+    },
+    {
       "feed_url": "https://www.splitbrain.org/feed/links",
       "feed_title": "Linkblog",
       "owner_username": "splitbrain",
       "site_url": "https://www.splitbrain.org",
       "entries": 5,
       "latest_at": "2026-06-25T20:03:30Z"
+    },
+    {
+      "feed_url": "https://tante.cc/feed/",
+      "feed_title": "Smashing Frames",
+      "owner_username": "tante",
+      "site_url": "https://tante.cc",
+      "entries": 5,
+      "latest_at": "2026-06-30T21:17:19Z"
+    },
+    {
+      "feed_url": "https://www.lifewaza.com/index.xml",
+      "feed_title": "lifewaza",
+      "owner_username": "gabe",
+      "site_url": "https://www.lifewaza.com/",
+      "entries": 4,
+      "latest_at": "2026-06-22T00:00:00Z"
     },
     {
       "feed_url": "https://bernat.tech/index.xml",
@@ -1465,17 +1473,16 @@
       "site_url": "https://endler.dev",
       "entries": 4,
       "latest_at": "2026-06-03T00:00:00Z"
-    },
-    {
-      "feed_url": "https://mtlynch.io/index.xml",
-      "feed_title": "mtlynch.io",
-      "owner_username": "mtlynch",
-      "site_url": "https://mtlynch.io",
-      "entries": 4,
-      "latest_at": "2026-06-10T00:00:00Z"
     }
   ],
   "recent_sites": [
+    {
+      "username": "CartyBoston",
+      "site_url": "https://mastodon.roundpond.net/@CartyBoston",
+      "feed_title": "CartyBoston",
+      "latest_at": "2026-07-01T10:35:15Z",
+      "url": "https://mastodon.roundpond.net/@CartyBoston/116844273027752948"
+    },
     {
       "username": "tante",
       "site_url": "https://tante.cc",
@@ -1667,14 +1674,6 @@
       "latest_at": "2026-06-06T00:00:00Z",
       "title": "Safe Terraform auto-apply with conftest",
       "url": "https://www.bejarano.io/terraform-autoapply/"
-    },
-    {
-      "username": "mre",
-      "site_url": "https://endler.dev",
-      "feed_title": "Matthias Endler",
-      "latest_at": "2026-06-03T00:00:00Z",
-      "title": "How Other Link Checkers Do Recursion",
-      "url": "https://endler.dev/2026/how-other-link-checkers-recurse/"
     }
   ]
 }
