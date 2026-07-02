@@ -5,7 +5,7 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Thu, 02 Jul 2026 04:53:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 09:57:57 +0000</lastBuildDate>
     <item>
       <title>Comment on Trying to manufacture permission by feliks✨</title>
       <link>https://chaos.social/@feliks/116844932523558406</link>
@@ -77,6 +77,14 @@
       <description>Platner dropped out of George Washington. I don&#39;t judge people for not going to college, I was a faculty brat, privileged. I am less impressed when they drop out, I struggled with *everything* that was not computer science and still managed to focus enough to graduate, I&#39;m proud of it. Platner was given an opportunity many don&#39;t have and squandered it. It&#39;s not evil, it&#39;s just not what I am looking for in a senator. Yes, I&#39;ll vote for him.</description>
       <author>CartyBoston</author>
       <pubDate>Wed, 01 Jul 2026 09:12:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>June 2026</title>
+      <link>https://timharek.no/blog/2026-june-recently/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/2026-june-recently/</guid>
+      <description>2026 is officially 50% done. My goal for this month’s post was to have a proper tagline for the lead, but I can’t think of anything… 🍀 Life Our youngest daughter is growing and “waking up”! It’s still so amazing to see tiny progress every day, and that she’s paying more and more attention. And our oldest is getting big, she’s turning three soon! At work we’ve been busy catching up to new and old leads, following through on projects, finishing things up, clearing up loose end…</description>
+      <author>timharek</author>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Comment on Trying to manufacture permission by feliks✨</title>
@@ -428,19 +436,19 @@
       <pubDate>Sun, 21 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Getting Wayland to work on unprivileged Incus container</title>
-      <link>https://runxiyu.org/comp/incuswl/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
-      <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
-      <author>runxiyu</author>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DeFi Theater: Why Polymarket&#39;s Incentives Don&#39;t Reward the Truth</title>
       <link>https://omarabid.com/polymarket-bet/</link>
       <guid isPermaLink="false">https://omarabid.com/polymarket-bet/</guid>
       <description>How Polymarket&#39;s resolution system punishes voters who defy the crowd, not those who are wrong.</description>
       <author>csomar</author>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Wayland to work on unprivileged Incus container</title>
+      <link>https://runxiyu.org/comp/incuswl/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
+      <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
+      <author>runxiyu</author>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -524,6 +532,14 @@
       <pubDate>Tue, 16 Jun 2026 01:36:00 +0000</pubDate>
     </item>
     <item>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <author>mrshu</author>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VER 2026 Results Viewer</title>
       <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
       <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
@@ -536,14 +552,6 @@
       <link>https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</link>
       <guid isPermaLink="false">https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/</guid>
       <description>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</description>
-      <author>mrshu</author>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -828,6 +836,14 @@
       <pubDate>Thu, 04 Jun 2026 06:59:42 +0000</pubDate>
     </item>
     <item>
+      <title>May 2026</title>
+      <link>https://timharek.no/blog/2026-may-recently/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/2026-may-recently/</guid>
+      <description>We’re half way through the year, time flies, and I have procrastinated writing this blogpost. 🍀 Life I’m adjusting to having two kids 😅 It’s not the kids themselves making me tired, it’s everything the role demands of us as parents. Our oldest still wants to be the center of attention, which is understandable. But don’t get me wrong, it’s great having two kids! There’s so much to look forward to each day. The newborn is changing and growing for each day, and our oldest keeps …</description>
+      <author>timharek</author>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Comment on AI as a Fascist Artifact by Gabriela Roßbach</title>
       <link>https://hessen.social/@GabrielaRossbach/116688473694309994</link>
       <guid isPermaLink="false">https://tante.cc/?p=8833#comment-69318</guid>
@@ -972,6 +988,14 @@
       <pubDate>Mon, 01 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Unverdiente Ungleichheit by Martyna Linartas</title>
+      <link>https://arne.me/library/unverdiente-ungleichheit</link>
+      <guid isPermaLink="false">https://arne.me/library/unverdiente-ungleichheit</guid>
+      <description>I read Unverdiente Ungleichheit by Martyna Linartas</description>
+      <author>bahlo</author>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Arenas, Cyclic Terms, and Flat Equational Systems</title>
       <link>https://www.philipzucker.com/arena_coegraph2_rational/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/arena_coegraph2_rational</guid>
@@ -988,14 +1012,6 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Unverdiente Ungleichheit by Martyna Linartas</title>
-      <link>https://arne.me/library/unverdiente-ungleichheit</link>
-      <guid isPermaLink="false">https://arne.me/library/unverdiente-ungleichheit</guid>
-      <description>I read Unverdiente Ungleichheit by Martyna Linartas</description>
-      <author>bahlo</author>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Comment on Using AI to write better code more slowly by Konstantin Mihaltsov</title>
       <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238382</link>
       <guid isPermaLink="false">http://nolanlawson.com/?p=16122#comment-238382</guid>
@@ -1004,18 +1020,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Untitled</title>
-      <link>https://inkdroid.org/2026/05/31/untitled/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
-      <description>Untitled by John Summers</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untitled</title>
+      <link>https://inkdroid.org/2026/05/31/untitled/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
+      <description>Untitled by John Summers</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -1084,19 +1100,19 @@
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Environment variables indicative of coding agents</title>
-      <link>https://runxiyu.org/comp/llmenv/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
-      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Preserving Pixter</title>
       <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
       <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
       <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
       <author>dmitrygr</author>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Environment variables indicative of coding agents</title>
+      <link>https://runxiyu.org/comp/llmenv/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
+      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1180,6 +1196,14 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Lime: an LALR(1) parser generator with runtime grammar extensions</title>
+      <link>https://greg.burd.me/posts/lime-runtime-extensible-lalr/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/lime-runtime-extensible-lalr/</guid>
+      <description>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</title>
       <link>https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</guid>
@@ -1192,14 +1216,6 @@
       <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
       <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lime: an LALR(1) parser generator with runtime grammar extensions</title>
-      <link>https://greg.burd.me/posts/lime-runtime-extensible-lalr/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/lime-runtime-extensible-lalr/</guid>
-      <description>Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1348,18 +1364,18 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Person - Action - Object</title>
-      <link>https://jbaber.sdf.org/#PAO</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
-      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Computers</title>
       <link>https://jbaber.sdf.org/#Computers</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
       <description>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Person - Action - Object</title>
+      <link>https://jbaber.sdf.org/#PAO</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
+      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -1380,18 +1396,18 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Laarni</title>
-      <link>https://jbaber.sdf.org/#laarni</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
-      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Now</title>
       <link>https://jbaber.sdf.org/#now</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#now</guid>
       <description>Now These are things I&#39;m doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laarni</title>
+      <link>https://jbaber.sdf.org/#laarni</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
+      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1596,6 +1612,14 @@
       <pubDate>Sat, 16 May 2026 00:57:19 +0000</pubDate>
     </item>
     <item>
+      <title>Minirack NAS Part 1</title>
+      <link>https://polsevev.dev/blog/minirack_nas_part1/</link>
+      <guid isPermaLink="false">https://polsevev.dev/blog/minirack_nas_part1/</guid>
+      <description>Planning and building</description>
+      <author>polsevev</author>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Five Minutes of Prime Time</title>
       <link>https://susam.net/five-minutes-of-prime-time.html</link>
       <guid isPermaLink="false">urn:uuid:98fe77c7-c72a-4c4a-93da-315d1342a76b</guid>
@@ -1644,14 +1668,6 @@
       <pubDate>Thu, 14 May 2026 23:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Platform Decay by Martha Wells</title>
       <link>https://arne.me/library/platform-decay</link>
       <guid isPermaLink="false">https://arne.me/library/platform-decay</guid>
@@ -1665,6 +1681,14 @@
       <guid isPermaLink="false">urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01</guid>
       <description>Commenting Guidelines This website has an active comments section , carefully maintained and curated by the author of this website. When commenting on this website, please keep the following points in mind: You may include HTML or Markdown in your comment. Comments are converted to HTML and sanitised before they are published on this website. All submitted comments are held for review. Whether a comment is published or not is at the discretion of the author of this website. Typically, only the f…</description>
       <author>susam</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1811,19 +1835,19 @@
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>I Will Not Add Query Strings to Your URLs</title>
-      <link>https://susam.net/no-query-strings.html</link>
-      <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
-      <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
-      <author>susam</author>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What Value Do You Provide?</title>
       <link>https://ethancedwards.com/blog/what-value-do-you-provide</link>
       <guid isPermaLink="false">https://ethancedwards.com/blog/what-value-do-you-provide</guid>
       <description>In a world of increasingly capable AI, what value do you provide?</description>
       <author>ethancedwards8</author>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Will Not Add Query Strings to Your URLs</title>
+      <link>https://susam.net/no-query-strings.html</link>
+      <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
+      <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
+      <author>susam</author>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1947,19 +1971,19 @@
       <pubDate>Mon, 04 May 2026 16:11:37 +0000</pubDate>
     </item>
     <item>
-      <title>From RSS to Atom</title>
-      <link>https://susam.net/from-rss-to-atom.html</link>
-      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
-      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
-      <author>susam</author>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Podman rootless containers and the Copy Fail exploit</title>
       <link>https://garrido.io/notes/podman-rootless-containers-copy-fail/</link>
       <guid isPermaLink="false">https://garrido.io/notes/podman-rootless-containers-copy-fail/</guid>
       <description>On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…</description>
       <author>ggpsv</author>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From RSS to Atom</title>
+      <link>https://susam.net/from-rss-to-atom.html</link>
+      <guid isPermaLink="false">urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e</guid>
+      <description>Yesterday, I switched my website from RSS feeds to Atom feeds. In case you are wondering whether you have somehow landed on an ancient post from 2010, no, you have not. Yes, this is the year 2026, and I have finally switched from RSS feeds to Atom feeds. Yes, I am fifteen, or perhaps twenty, years too late. Contents Impulse Coding Atom Entries Temporary Workaround Does It Matter? References Impulse Coding I have always wanted to do this but could never make the time for it. Finally, it happened …</description>
+      <author>susam</author>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1971,19 +1995,19 @@
       <pubDate>Sun, 03 May 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>QuickQWERTY 1.2.3</title>
-      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
-      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
-      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
-      <author>susam</author>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On (not) using “cryptographic hashes” for hash table keys</title>
       <link>https://runxiyu.org/comp/ch4ht/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/ch4ht/</guid>
       <description>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</description>
       <author>runxiyu</author>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuickQWERTY 1.2.3</title>
+      <link>https://susam.net/code/news/quickqwerty/1.2.3.html</link>
+      <guid isPermaLink="false">urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a</guid>
+      <description>QuickQWERTY 1.2.3 is now available. QuickQWERTY is a web-based touch typing tutor for QWERTY keyboards that runs directly in the browser. This release includes two small bug fixes. In the previous release , QuickQWERTY source code management moved from GitHub to Codeberg. During that update, the licence link in the footer was updated incorrectly. The broken licence link has now been fixed. Further, there was a minor bug that caused a redundant dialog box to appear while switching between 6-7 spl…</description>
+      <author>susam</author>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2019,6 +2043,14 @@
       <pubDate>Fri, 01 May 2026 03:35:08 +0000</pubDate>
     </item>
     <item>
+      <title>Bug Bash 2: Attack of the Clones</title>
+      <link>/bug-bash-two/</link>
+      <guid isPermaLink="false">/bug-bash-two</guid>
+      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
+      <author>amw-zero</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Lifting and Lowering Functions with The Dump Calculus</title>
       <link>https://www.philipzucker.com/dump_calculus/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
@@ -2032,14 +2064,6 @@
       <guid isPermaLink="false">https://endler.dev/2026/taste/</guid>
       <description>I’ve been refining this blog’s design for two decades now. With each new version, I get a little better at knowing what I want. Turns out, my designs tend to get simpler with time. At this point, it’s all typography and negative space. I got better at knowing what I value and what I can take away . Uncluttering brings joy. Maybe that’s a deeply human thing? Screenshots of my blog’s design over the years 2007 2011 2018 2026 Obsession and Preference Spend enough time with anything, and y…</description>
       <author>mre</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bug Bash 2: Attack of the Clones</title>
-      <link>/bug-bash-two/</link>
-      <guid isPermaLink="false">/bug-bash-two</guid>
-      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
-      <author>amw-zero</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2059,6 +2083,14 @@
       <pubDate>Thu, 30 Apr 2026 16:45:06 +0000</pubDate>
     </item>
     <item>
+      <title>April 2026</title>
+      <link>https://timharek.no/blog/2026-april-recently/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/2026-april-recently/</guid>
+      <description>Summer is approaching, my family is getting bigger, and life keeps on giving! From the blog since my last recently post: Subscribe via RSS 🍀 Life Our second daughter was born this month! We are now a happy family of six, including the cat and dog. Everything went as smooth as it could go, and we have been adjusting very well to the new situation. My significant other is doing an incredible job, she is amazing, she is an excellent mother ❤️ I’m grateful to live in a country where we are …</description>
+      <author>timharek</author>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies</title>
       <link>https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</link>
       <guid isPermaLink="false">tag:www.agwa.name,2012:/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies</guid>
@@ -2067,19 +2099,19 @@
       <pubDate>Wed, 29 Apr 2026 15:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw On Raspberry Pi 400</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</guid>
-      <description>Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…</description>
-      <author>gabe</author>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Will to Change by Bell Hooks</title>
       <link>https://arne.me/library/the-will-to-change</link>
       <guid isPermaLink="false">https://arne.me/library/the-will-to-change</guid>
       <description>I read The Will to Change by Bell Hooks</description>
       <author>bahlo</author>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw On Raspberry Pi 400</title>
+      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</guid>
+      <description>Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…</description>
+      <author>gabe</author>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2139,19 +2171,19 @@
       <pubDate>Fri, 24 Apr 2026 20:27:33 +0000</pubDate>
     </item>
     <item>
-      <title>My view of the state of post-quantum cryptography</title>
-      <link>https://runxiyu.org/comp/pq/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
-      <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Brute force is our zeitgeist</title>
       <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
       <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
       <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
       <author>balanza</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My view of the state of post-quantum cryptography</title>
+      <link>https://runxiyu.org/comp/pq/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
+      <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2219,14 +2251,6 @@
       <pubDate>Sun, 19 Apr 2026 14:44:10 +0000</pubDate>
     </item>
     <item>
-      <title>An ode to Strawberry Music Player</title>
-      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
-      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
-      <description>[Read more]</description>
-      <author>vesto</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>[Crafts] Off-White Shirt</title>
       <link>https://mitchellkember.com/crafts/off-white-shirt</link>
       <guid isPermaLink="false">https://mitchellkember.com/crafts/off-white-shirt</guid>
@@ -2243,6 +2267,14 @@
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>An ode to Strawberry Music Player</title>
+      <link>https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</link>
+      <guid isPermaLink="false">https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html</guid>
+      <description>[Read more]</description>
+      <author>vesto</author>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/04/18/988807432787005441</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/04/18/988807432787005441</guid>
@@ -2251,19 +2283,19 @@
       <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw On Raspberry Pi 4</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
-      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
-      <author>gabe</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
       <link>https://www.philipzucker.com/thin_egraph/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
       <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
       <author>philzook</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw On Raspberry Pi 4</title>
+      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
+      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
+      <author>gabe</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2347,30 +2379,6 @@
       <pubDate>Mon, 13 Apr 2026 17:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Books] Cities of the Plain</title>
-      <link>https://mitchellkember.com/books/cities-of-the-plain</link>
-      <guid isPermaLink="false">https://mitchellkember.com/books/cities-of-the-plain</guid>
-      <description>View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…</description>
-      <author>mk12</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Die Känguru-Rebellion by Marc-Uwe Kling</title>
-      <link>https://arne.me/library/die-kaenguru-rebellion</link>
-      <guid isPermaLink="false">https://arne.me/library/die-kaenguru-rebellion</guid>
-      <description>I read Die Känguru-Rebellion by Marc-Uwe Kling</description>
-      <author>bahlo</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Displaying account-specific Claude Code rate limits with ccstatusline</title>
-      <link>https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/</guid>
-      <description>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</description>
-      <author>mrshu</author>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>One Thing</title>
       <link>https://mlich.eu/posts/one-thing/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/one-thing/</guid>
@@ -2379,28 +2387,20 @@
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pro Humanitate</title>
-      <link>https://ethancedwards.com/blog/pro-humanitate</link>
-      <guid isPermaLink="false">https://ethancedwards.com/blog/pro-humanitate</guid>
-      <description>For Humanity</description>
-      <author>ethancedwards8</author>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <title>Subscribe via RSS</title>
+      <link>https://timharek.no/blog/subscribe-via-rss/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/subscribe-via-rss/</guid>
+      <description>Last year I wrote Subscribe via e-mail . I made it possible for people to subscribe to the blog with an e-mail instead of having to rely on RSS. But now, 13 months later, and $126 poorer, I’m canceling my Buttondown subscription. The main reason is money, it’s expensive with $9 for just 7 subscribers. I see in my server logs that a lot more are subscribing with RSS, so I guess that’s my target audience. I even looked into some self-hosted solutions, like Listmonk, but it didn’t have RSS-…</description>
+      <author>timharek</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>rust-petname 3.0.0 released</title>
-      <link>https://allenap.me/posts/rust-petname-3-0-0-released</link>
-      <guid isPermaLink="false">24eee1ac-ff2a-59a4-9580-dbcc1c3c5d29</guid>
-      <description>rust-petname 3.0.0 is out! rust-petname is fairly simple: it generates random human readable names. It can be used as a library in your Rust projects, or as a command-line application, typically by running cargo install petname . There are breaking changes in the library if you’re upgrading from 2.x, but the command-line tool is largely unchanged. Please read the notes to find out how to upgrade. There are also notes on how to upgrade from 1.x to 2.x if you first need to make that leap. I hope…</description>
-      <author>allenap</author>
-      <pubDate>Sat, 11 Apr 2026 12:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Promoting use of fine-grained PATs</title>
-      <link>https://octet-stream.net/b/scb/2026-04-11-promoting-use-of-fine-grained-pats.html</link>
-      <guid isPermaLink="false">urn:uuid:00337a02-b7ee-433b-b0e8-ad125637978d</guid>
-      <description>Software development is becoming an increasingly risky business. Supply chain attacks are more frequent than ever, and those of us using agentic LLMs run the risk that it will add a dependency automatically that contains malware. We&#39;re perfectly capable of doing that without LLMs of course (see typosquatting) but it&#39;s riskier when an LLM can add the dependency, download it, and run it, all before you get a chance to realise what it&#39;s doing. As a result many of us are making an effort to isolate …</description>
-      <author>thombles</author>
-      <pubDate>Sat, 11 Apr 2026 06:08:51 +0000</pubDate>
+      <title>[Books] Cities of the Plain</title>
+      <link>https://mitchellkember.com/books/cities-of-the-plain</link>
+      <guid isPermaLink="false">https://mitchellkember.com/books/cities-of-the-plain</guid>
+      <description>View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…</description>
+      <author>mk12</author>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

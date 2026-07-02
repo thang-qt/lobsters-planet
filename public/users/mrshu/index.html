@@ -48,6 +48,12 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · Marek Šuppa</p>
+          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
+          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h3>
           <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
@@ -59,21 +65,9 @@
         </article>
       
         <article class="entry">
-          <p class="meta">16 Jun 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h3>
-          <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">14 Jun 2026 · Marek Šuppa</p>
           <h3><a href="https://mareksuppa.com/til/load-bearing/">&#34;Load-bearing&#34; is becoming LLM speak</a></h3>
           <p>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Apr 2026 · Marek Šuppa</p>
-          <h3><a href="https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/">Displaying account-specific Claude Code rate limits with ccstatusline</a></h3>
-          <p>ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…</p>
         </article>
       
     </div>
