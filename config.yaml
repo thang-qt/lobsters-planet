@@ -17,6 +17,12 @@ feeds:
   max_feeds_per_refresh_run: 0
   exclude_site_urls:
     - "https://www.unitedbsd.com/"
+  exclude_site_patterns:
+    - "mastodon"
+    - "forum"
+    - "social"
+    - "threads"
+    - "community."
   common_paths:
     - "/feed.xml"
     - "/feed"

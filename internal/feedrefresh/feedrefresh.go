@@ -27,7 +27,7 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 	client := &http.Client{Timeout: time.Duration(cfg.Feeds.RequestTimeoutSeconds) * time.Second}
 	now := time.Now().UTC()
 	due := store.FeedsDueForRefresh(now, time.Duration(cfg.Feeds.RefreshIntervalHours)*time.Hour, cfg.Feeds.MaxFeedsPerRefreshRun)
-	due = filterFeeds(due, excludedSet(cfg.Feeds.ExcludeSiteURLs), excludedSet(cfg.Feeds.ExcludeFeedURLs))
+	due = filterFeeds(due, excludedSet(cfg.Feeds.ExcludeSiteURLs), excludedSet(cfg.Feeds.ExcludeFeedURLs), cfg.Feeds.ExcludeSitePatterns)
 
 	result := Result{FeedsSelected: len(due)}
 	for index, feed := range due {
@@ -68,13 +68,16 @@ func excludedSet(values []string) map[string]bool {
 	return excluded
 }
 
-func filterFeeds(feeds []state.DiscoveredFeed, excludedSites, excludedFeeds map[string]bool) []state.DiscoveredFeed {
-	if len(excludedSites) == 0 && len(excludedFeeds) == 0 {
+func filterFeeds(feeds []state.DiscoveredFeed, excludedSites, excludedFeeds map[string]bool, patterns []string) []state.DiscoveredFeed {
+	if len(excludedSites) == 0 && len(excludedFeeds) == 0 && len(patterns) == 0 {
 		return feeds
 	}
 	filtered := make([]state.DiscoveredFeed, 0, len(feeds))
 	for _, feed := range feeds {
 		if excludedFeeds[config.NormalizeURL(feed.URL)] || excludedSites[config.NormalizeURL(feed.SiteURL)] {
+			continue
+		}
+		if config.MatchSitePatterns(feed.SiteURL, patterns) {
 			continue
 		}
 		filtered = append(filtered, feed)

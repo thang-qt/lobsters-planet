@@ -34,6 +34,7 @@ type FeedsConfig struct {
 	MaxFeedsPerRefreshRun   int      `yaml:"max_feeds_per_refresh_run"`
 	ExcludeSiteURLs         []string `yaml:"exclude_site_urls"`
 	ExcludeFeedURLs         []string `yaml:"exclude_feed_urls"`
+	ExcludeSitePatterns     []string `yaml:"exclude_site_patterns"`
 	CommonPaths             []string `yaml:"common_paths"`
 }
 
@@ -124,6 +125,7 @@ func Load(path string) (Config, error) {
 	}
 	cfg.Feeds.ExcludeSiteURLs = normalizeURLs(cfg.Feeds.ExcludeSiteURLs)
 	cfg.Feeds.ExcludeFeedURLs = normalizeURLs(cfg.Feeds.ExcludeFeedURLs)
+	cfg.Feeds.ExcludeSitePatterns = NormalizePatterns(cfg.Feeds.ExcludeSitePatterns)
 	return cfg, nil
 }
 
@@ -156,4 +158,32 @@ func NormalizeURL(value string) string {
 		parsed.Path = strings.TrimRight(parsed.Path, "/")
 	}
 	return parsed.String()
+}
+
+// NormalizePatterns lowercases patterns for case-insensitive matching.
+func NormalizePatterns(patterns []string) []string {
+	normalized := make([]string, 0, len(patterns))
+	seen := make(map[string]bool)
+	for _, p := range patterns {
+		p = strings.TrimSpace(strings.ToLower(p))
+		if p != "" && !seen[p] {
+			seen[p] = true
+			normalized = append(normalized, p)
+		}
+	}
+	return normalized
+}
+
+// MatchSitePatterns checks if url matches any of the heuristic patterns (case-insensitive substring match).
+func MatchSitePatterns(rawURL string, patterns []string) bool {
+	if len(patterns) == 0 {
+		return false
+	}
+	lowered := strings.ToLower(rawURL)
+	for _, pattern := range patterns {
+		if strings.Contains(lowered, pattern) {
+			return true
+		}
+	}
+	return false
 }

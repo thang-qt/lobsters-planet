@@ -173,9 +173,10 @@ func applyExclusions(store *state.State, cfg config.Config) {
 	for _, feedURL := range cfg.Feeds.ExcludeFeedURLs {
 		excludedFeeds[config.NormalizeURL(feedURL)] = true
 	}
+	patterns := cfg.Feeds.ExcludeSitePatterns
 
 	for username, user := range store.Users {
-		if excludedSites[config.NormalizeURL(user.HomepageURL)] {
+		if excludedSites[config.NormalizeURL(user.HomepageURL)] || config.MatchSitePatterns(user.HomepageURL, patterns) {
 			for _, feedURL := range user.FeedURLs {
 				excludedFeeds[config.NormalizeURL(feedURL)] = true
 			}
@@ -196,12 +197,12 @@ func applyExclusions(store *state.State, cfg config.Config) {
 		}
 	}
 	for feedURL, feed := range store.Feeds {
-		if excludedFeeds[config.NormalizeURL(feedURL)] || excludedSites[config.NormalizeURL(feed.SiteURL)] {
+		if excludedFeeds[config.NormalizeURL(feedURL)] || excludedSites[config.NormalizeURL(feed.SiteURL)] || config.MatchSitePatterns(feed.SiteURL, patterns) {
 			delete(store.Feeds, feedURL)
 		}
 	}
 	for entryID, entry := range store.Entries {
-		if excludedFeeds[config.NormalizeURL(entry.FeedURL)] || excludedSites[config.NormalizeURL(entry.SiteURL)] {
+		if excludedFeeds[config.NormalizeURL(entry.FeedURL)] || excludedSites[config.NormalizeURL(entry.SiteURL)] || config.MatchSitePatterns(entry.SiteURL, patterns) {
 			delete(store.Entries, entryID)
 		}
 	}

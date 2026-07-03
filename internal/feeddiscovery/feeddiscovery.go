@@ -29,7 +29,7 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 	due := store.SitesDueForFeedDiscovery(now, time.Duration(cfg.Feeds.DiscoveryRecheckDays)*24*time.Hour, cfg.Feeds.MaxSitesPerDiscoveryRun)
 
 	excludedSites := excludedSet(cfg.Feeds.ExcludeSiteURLs)
-	due = filterSites(due, excludedSites)
+	due = filterSites(due, excludedSites, cfg.Feeds.ExcludeSitePatterns)
 
 	result := Result{SitesSelected: len(due)}
 	for index, site := range due {
@@ -75,13 +75,16 @@ func excludedSet(values []string) map[string]bool {
 	return excluded
 }
 
-func filterSites(sites []state.DiscoveredUser, excluded map[string]bool) []state.DiscoveredUser {
-	if len(excluded) == 0 {
+func filterSites(sites []state.DiscoveredUser, excluded map[string]bool, patterns []string) []state.DiscoveredUser {
+	if len(excluded) == 0 && len(patterns) == 0 {
 		return sites
 	}
 	filtered := make([]state.DiscoveredUser, 0, len(sites))
 	for _, site := range sites {
 		if excluded[config.NormalizeURL(site.HomepageURL)] {
+			continue
+		}
+		if config.MatchSitePatterns(site.HomepageURL, patterns) {
 			continue
 		}
 		filtered = append(filtered, site)
