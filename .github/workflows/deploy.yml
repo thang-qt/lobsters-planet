@@ -42,6 +42,10 @@ jobs:
       - name: Build static site
         run: go run ./cmd/lobsters-planet build
 
+      - name: Sync with remote
+        run: |
+          git pull --rebase origin main
+
       - name: Commit refreshed state and public output
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
