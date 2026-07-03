@@ -458,6 +458,9 @@ func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, si
 	if err := writePostPages(publicDir, title, stats, entries, postsPerPage); err != nil {
 		return err
 	}
+	if err := renderPage(filepath.Join(publicDir, "explore", "index.html"), exploreTemplate, map[string]any{"Title": "Explore — " + title}); err != nil {
+		return err
+	}
 	if err := renderPage(filepath.Join(publicDir, "analytics", "index.html"), analyticsTemplate, map[string]any{"Title": title, "Analytics": analytics}); err != nil {
 		return err
 	}

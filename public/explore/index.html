@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore — Lobsters Planet</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="explore-body">
+  <div class="explore-bar">
+    <a class="explore-brand" href="/">Lobsters Planet</a>
+    <span id="site-name" class="explore-name">Pick a site</span>
+    <button id="random-btn" class="explore-btn">Random</button>
+    <button id="random-unique-btn" class="explore-btn">Random unique</button>
+    <a id="open-tab" class="explore-btn" href="#" target="_blank" rel="noopener noreferrer">Open tab</a>
+  </div>
+  <div class="explore-viewport">
+    <iframe id="explore-frame" src="about:blank" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+    <div id="explore-overlay" class="explore-overlay">
+      <p>Click <strong>Random</strong> to explore a site</p>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var KEY = 'lobsters-planet-explored';
+    var sites = [];
+    var visited = [];
+    var btn = document.getElementById('random-btn');
+    var uniqueBtn = document.getElementById('random-unique-btn');
+    var frame = document.getElementById('explore-frame');
+    var overlay = document.getElementById('explore-overlay');
+    var nameEl = document.getElementById('site-name');
+    var tabLink = document.getElementById('open-tab');
+
+    try {
+      visited = JSON.parse(localStorage.getItem(KEY)) || [];
+    } catch(e) {}
+
+    function save() {
+      try { localStorage.setItem(KEY, JSON.stringify(visited)); } catch(e) {}
+    }
+
+    function pickRandom() {
+      return sites.filter(function(s) { return s.homepage_url; })[Math.floor(Math.random() * sites.length)];
+    }
+
+    function pickRandomUnique() {
+      var available = sites.filter(function(s) {
+        return visited.indexOf(s.homepage_url) === -1 && s.homepage_url;
+      });
+      if (available.length === 0) {
+        visited = [];
+        available = sites.filter(function(s) { return s.homepage_url; });
+      }
+      return available[Math.floor(Math.random() * available.length)];
+    }
+
+    function loadSite(site, track) {
+      if (!site) return;
+      if (track) {
+        visited.push(site.homepage_url);
+        save();
+      }
+      nameEl.textContent = site.username + '\u2019s site';
+      tabLink.href = site.homepage_url;
+      overlay.style.display = 'none';
+      frame.src = site.homepage_url;
+    }
+
+    btn.addEventListener('click', function() {
+      if (sites.length === 0) return;
+      loadSite(pickRandom(), false);
+    });
+
+    uniqueBtn.addEventListener('click', function() {
+      if (sites.length === 0) return;
+      loadSite(pickRandomUnique(), true);
+    });
+
+    fetch('/data/sites.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        sites = data;
+        loadSite(pickRandomUnique(), true);
+      });
+  })();
+  </script>
+</body>
+</html>
