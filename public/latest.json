@@ -577,10 +577,10 @@
     "site_url": "https://lalitm.com"
   },
   {
-    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "title": "Hermes Agent formats its output based on the platform you connect as",
-    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
-    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -588,10 +588,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "id": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "title": "Hermes Agent formats its output based on the platform you connect as",
+    "url": "https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/",
+    "summary": "I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -654,17 +654,6 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "title": "Bookmarks - data, design, vis, book",
-    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
-    "published_at": "2026-06-14T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": "https://inkdroid.org"
-  },
-  {
     "id": "https://inkdroid.org/2026/06/14/tree-2/",
     "title": "Tree 2",
     "url": "https://inkdroid.org/2026/06/14/tree-2/",
@@ -676,15 +665,15 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "title": "Marcus Aurelius' Fortress of the Mind",
-    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
-    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
-    "published_at": "2026-06-14T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
+    "id": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "title": "Bookmarks - data, design, vis, book",
+    "url": "https://inkdroid.org/2026/06/14/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…",
+    "published_at": "2026-06-14T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": "https://inkdroid.org"
   },
   {
     "id": "https://mareksuppa.com/til/load-bearing/",
@@ -696,6 +685,17 @@
     "feed_title": "Marek Šuppa",
     "owner_username": "mrshu",
     "site_url": "https://mareksuppa.com"
+  },
+  {
+    "id": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "title": "Marcus Aurelius' Fortress of the Mind",
+    "url": "https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html",
+    "summary": "Thoughts on \"Meditations\" by the Roman emperor Marcus Aurelius",
+    "published_at": "2026-06-14T00:00:00Z",
+    "feed_url": "https://pyjarrett.github.io/rss.xml",
+    "feed_title": "pyj's blog",
+    "owner_username": "pyj",
+    "site_url": "https://pyjarrett.github.io/"
   },
   {
     "id": "https://www.jacky.wtf/essays/2026/where-they-at/",
@@ -776,6 +776,17 @@
     "site_url": "https://mtlynch.io"
   },
   {
+    "id": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "title": "Homelab Improvements",
+    "url": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "summary": "Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…",
+    "published_at": "2026-06-09T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
+  },
+  {
     "id": "https://www.sillylaird.ca/changelog/#2026-06-09",
     "title": "Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed …",
     "url": "https://www.sillylaird.ca/changelog/",
@@ -786,17 +797,6 @@
     "feed_title": "SillyLaird — Changelog",
     "owner_username": "sillylaird",
     "site_url": "https://www.sillylaird.ca"
-  },
-  {
-    "id": "https://www.lifewaza.com/posts/homelab-improvements/",
-    "title": "Homelab Improvements",
-    "url": "https://www.lifewaza.com/posts/homelab-improvements/",
-    "summary": "Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…",
-    "published_at": "2026-06-09T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238393",
@@ -1191,17 +1191,6 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
-    "title": "Coding Agents on Teams",
-    "url": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
-    "summary": "Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It's not a magic bullet for speed or quality but it can be a useful tool and it's not likely to go away. Regardless of what you think about thes…",
-    "published_at": "2026-06-01T00:00:00Z",
-    "feed_url": "https://jeremy.marzhillstudios.com/rss.xml",
-    "feed_title": "Marzhill Musings",
-    "owner_username": "zaphar",
-    "site_url": "https://jeremy.marzhillstudios.com/"
-  },
-  {
     "id": "https://www.philipzucker.com/arena_coegraph2_rational",
     "title": "Arenas, Cyclic Terms, and Flat Equational Systems",
     "url": "https://www.philipzucker.com/arena_coegraph2_rational/",
@@ -1212,6 +1201,17 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
+  },
+  {
+    "id": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
+    "title": "Coding Agents on Teams",
+    "url": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
+    "summary": "Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It's not a magic bullet for speed or quality but it can be a useful tool and it's not likely to go away. Regardless of what you think about thes…",
+    "published_at": "2026-06-01T00:00:00Z",
+    "feed_url": "https://jeremy.marzhillstudios.com/rss.xml",
+    "feed_title": "Marzhill Musings",
+    "owner_username": "zaphar",
+    "site_url": "https://jeremy.marzhillstudios.com/"
   },
   {
     "id": "https://arne.me/library/unverdiente-ungleichheit",
@@ -1368,17 +1368,6 @@
     "site_url": "https://nedbatchelder.com"
   },
   {
-    "id": "https://runxiyu.org/comp/llmenv/",
-    "title": "Environment variables indicative of coding agents",
-    "url": "https://runxiyu.org/comp/llmenv/",
-    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
-    "published_at": "2026-05-29T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
-  },
-  {
     "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
     "title": "Preserving Pixter",
     "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
@@ -1388,6 +1377,17 @@
     "feed_title": "Dmitry.GR",
     "owner_username": "dmitrygr",
     "site_url": "https://dmitry.gr"
+  },
+  {
+    "id": "https://runxiyu.org/comp/llmenv/",
+    "title": "Environment variables indicative of coding agents",
+    "url": "https://runxiyu.org/comp/llmenv/",
+    "summary": "These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…",
+    "published_at": "2026-05-29T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://www.sillylaird.ca/changelog/#2026-05-29",
@@ -1513,18 +1513,6 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
-    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
-    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
-    "published_at": "2026-05-26T00:00:00Z",
-    "updated_at": "2026-05-26T00:00:00Z",
-    "feed_url": "https://greg.burd.me/atom.xml",
-    "feed_title": "greg@burd.me",
-    "owner_username": "gregburd",
-    "site_url": "https://greg.burd.me/"
-  },
-  {
     "id": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
     "title": "pg_turbovec: 4-bit vector search that beats pgvector on storage and latency",
     "url": "https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/",
@@ -1541,6 +1529,18 @@
     "title": "pg_mentat: bringing Mozilla's Mentat back inside PostgreSQL",
     "url": "https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/",
     "summary": "Datomic's data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.",
+    "published_at": "2026-05-26T00:00:00Z",
+    "updated_at": "2026-05-26T00:00:00Z",
+    "feed_url": "https://greg.burd.me/atom.xml",
+    "feed_title": "greg@burd.me",
+    "owner_username": "gregburd",
+    "site_url": "https://greg.burd.me/"
+  },
+  {
+    "id": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "title": "Lime: an LALR(1) parser generator with runtime grammar extensions",
+    "url": "https://greg.burd.me/posts/lime-runtime-extensible-lalr/",
+    "summary": "Yacc and Bison generate parsers at compile time. Database engines, language servers, and extensible query processors need parsers that can evolve at runtime. Lime fills that gap.",
     "published_at": "2026-05-26T00:00:00Z",
     "updated_at": "2026-05-26T00:00:00Z",
     "feed_url": "https://greg.burd.me/atom.xml",
@@ -1650,6 +1650,17 @@
     "site_url": "https://inkdroid.org"
   },
   {
+    "id": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
+    "title": "Is this what life is supposed to feel like?",
+    "url": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
+    "summary": "For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…",
+    "published_at": "2026-05-24T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
+  },
+  {
     "id": "urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64",
     "title": "Childhood Computing",
     "url": "https://susam.net/childhood-computing.html",
@@ -1660,17 +1671,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
-    "title": "Is this what life is supposed to feel like?",
-    "url": "https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/",
-    "summary": "For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…",
-    "published_at": "2026-05-24T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://tante.cc/?p=9352#comment-69190",
@@ -1774,10 +1774,10 @@
     "site_url": "https://marcin.juszkiewicz.com.pl/"
   },
   {
-    "id": "https://jbaber.sdf.org/#alfred_e",
-    "title": "Alfred E. Neuman quotes up to 2005",
-    "url": "https://jbaber.sdf.org/#alfred_e",
-    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
+    "id": "https://jbaber.sdf.org/#beauty",
+    "title": "Beautiful Things",
+    "url": "https://jbaber.sdf.org/#beauty",
+    "summary": "Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1818,10 +1818,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#beauty",
-    "title": "Beautiful Things",
-    "url": "https://jbaber.sdf.org/#beauty",
-    "summary": "Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…",
+    "id": "https://jbaber.sdf.org/#alfred_e",
+    "title": "Alfred E. Neuman quotes up to 2005",
+    "url": "https://jbaber.sdf.org/#alfred_e",
+    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1829,21 +1829,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#TIL",
-    "title": "Today I Learned",
-    "url": "https://jbaber.sdf.org/#TIL",
-    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
-    "published_at": "2026-05-22T00:00:00Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": "https://jbaber.sdf.org"
-  },
-  {
-    "id": "https://jbaber.sdf.org/#laarni",
-    "title": "Laarni",
-    "url": "https://jbaber.sdf.org/#laarni",
-    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "id": "https://jbaber.sdf.org/#now",
+    "title": "Now",
+    "url": "https://jbaber.sdf.org/#now",
+    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1862,10 +1851,21 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#now",
-    "title": "Now",
-    "url": "https://jbaber.sdf.org/#now",
-    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
+    "id": "https://jbaber.sdf.org/#laarni",
+    "title": "Laarni",
+    "url": "https://jbaber.sdf.org/#laarni",
+    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "published_at": "2026-05-22T00:00:00Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": "https://jbaber.sdf.org"
+  },
+  {
+    "id": "https://jbaber.sdf.org/#TIL",
+    "title": "Today I Learned",
+    "url": "https://jbaber.sdf.org/#TIL",
+    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -2050,10 +2050,10 @@
     "site_url": "https://lalitm.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/no/",
-    "title": "None",
-    "url": "https://inkdroid.org/2026/05/17/no/",
-    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
+    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2061,10 +2061,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/17/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 abcde - A Better CD Encoder Ordinarily, the process of grabbing the data off a CD and encoding it, then tagging or commenting it, is very involved. abcde is designed to automate this. It will take an entire CD and convert it into a compressed audio format - Ogg/Vorbis, MPEG Audio Layer III, Free Lossless Audio Codec (FLAC), Ogg/Speex, MPP/MP+(Musepack), M4A (AAC) or Opus format(s). 🔖 The New York Good Times An alternative…",
+    "id": "https://inkdroid.org/2026/05/17/no/",
+    "title": "None",
+    "url": "https://inkdroid.org/2026/05/17/no/",
+    "summary": "There is no wind blowing here on my face cool from the faraway sea. I don’t see that tree green against blue blue behind green. Boarding a train leaving a train no train.",
     "published_at": "2026-05-17T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2094,6 +2094,17 @@
     "site_url": "https://blog.henryvandenbroek.com"
   },
   {
+    "id": "https://abhamra.com/blog/fishtrackted/",
+    "title": "Why not (make what someone already did)?",
+    "url": "https://abhamra.com/blog/fishtrackted/",
+    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
+    "published_at": "2026-05-17T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": "https://abhamra.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/proof_processing",
     "title": "Reading Proof Objects and Completed Rewrite Systems from eprover into Knuckledragger",
     "url": "https://www.philipzucker.com/proof_processing/",
@@ -2104,17 +2115,6 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
-  },
-  {
-    "id": "https://abhamra.com/blog/fishtrackted/",
-    "title": "Why not (make what someone already did)?",
-    "url": "https://abhamra.com/blog/fishtrackted/",
-    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
-    "published_at": "2026-05-17T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": "https://abhamra.com/"
   },
   {
     "id": "https://lalitm.com/post/dont-answer-the-first-question/",
@@ -2217,6 +2217,17 @@
     "site_url": "http://bernat.tech"
   },
   {
+    "id": "https://arne.me/library/platform-decay",
+    "title": "Platform Decay by Martha Wells",
+    "url": "https://arne.me/library/platform-decay",
+    "summary": "I read Platform Decay by Martha Wells",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
+  },
+  {
     "id": "https://mtlynch.io/retrospectives/2026/05/",
     "title": "Refactoring English: Month 17",
     "url": "https://mtlynch.io/retrospectives/2026/05/",
@@ -2238,17 +2249,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://arne.me/library/platform-decay",
-    "title": "Platform Decay by Martha Wells",
-    "url": "https://arne.me/library/platform-decay",
-    "summary": "I read Platform Decay by Martha Wells",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -2329,10 +2329,10 @@
     "site_url": "https://vitonsky.net"
   },
   {
-    "id": "https://nicomee.com/projects/gh-stars-tracker/",
-    "title": "GitHub Stars Tracker",
-    "url": "https://nicomee.com/projects/gh-stars-tracker/",
-    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
+    "id": "https://nicomee.com/projects/npi-validator/",
+    "title": "NPIValidator",
+    "url": "https://nicomee.com/projects/npi-validator/",
+    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -2340,10 +2340,10 @@
     "site_url": "https://nicomee.com"
   },
   {
-    "id": "https://nicomee.com/projects/npi-validator/",
-    "title": "NPIValidator",
-    "url": "https://nicomee.com/projects/npi-validator/",
-    "summary": "C# / .NET 10 CLI and library that validates US National Provider Identifier numbers using the CMS-mandated Luhn checksum — catches bad NPIs locally before they hit NPPES or downstream PHI systems.",
+    "id": "https://nicomee.com/projects/gh-stars-tracker/",
+    "title": "GitHub Stars Tracker",
+    "url": "https://nicomee.com/projects/gh-stars-tracker/",
+    "summary": "Azure Functions app that snapshots GitHub starred-repo lists into a shared Google Sheet on a schedule — time-series of stars, forks, language, and archived state with a tiny PWA dashboard for ad-hoc refresh.",
     "published_at": "2026-05-12T00:00:00Z",
     "feed_url": "https://nicomee.com/rss.xml",
     "feed_title": "Nico Kokonas",
@@ -2361,18 +2361,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
-    "title": "The Problem of Pedagogy in Advanced Mathematics",
-    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
-    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
-    "published_at": "2026-05-11T00:00:00Z",
-    "updated_at": "2026-05-11T00:00:00Z",
-    "feed_url": "https://susam.net/feed.xml",
-    "feed_title": "Susam Pal",
-    "owner_username": "susam",
-    "site_url": "https://susam.net/"
-  },
-  {
     "id": "/posts/webdev-livecompile/",
     "title": "Piping terminal output to the browser using systemfd",
     "url": "/posts/webdev-livecompile/",
@@ -2383,6 +2371,18 @@
     "feed_title": "Hugues Blog",
     "owner_username": "izissise",
     "site_url": "https://izissise.net"
+  },
+  {
+    "id": "urn:uuid:f47ac884-f0f8-47ff-aa66-16a28ec9c980",
+    "title": "The Problem of Pedagogy in Advanced Mathematics",
+    "url": "https://susam.net/advanced-mathematics-pedagogy.html",
+    "summary": "It is a commonly held opinion that educational institutions could do more to improve the pedagogy of mathematics. This is especially applicable to primary and secondary schools, where students are first exposed to mathematics as a formal subject, along with other new subjects. Poor exposition can turn students away from mathematics for a lifetime. Only the highly motivated ones continue to engage with the subject. This is very unfortunate because mathematics is a beautiful subject and it is fill…",
+    "published_at": "2026-05-11T00:00:00Z",
+    "updated_at": "2026-05-11T00:00:00Z",
+    "feed_url": "https://susam.net/feed.xml",
+    "feed_title": "Susam Pal",
+    "owner_username": "susam",
+    "site_url": "https://susam.net/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/09/996796827831476225",
@@ -2396,18 +2396,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
-    "title": "An attempt to understand HRTB, Variance, Lifetimes, and Generics",
-    "url": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
-    "summary": "This blog post assumes you are familiar with Rust’s generic types, ownership/borrowership system, and lifetime annotations. 🙏 A signature you may have seen If you’ve worked with reqwest and serde , and had a custom send() function to do your data munging or convert to your own error variants, you must have encountered something called Higher-Ranked Trait Bounds (HRTBs). So, in this snippet the \u003cT: for\u003c'a\u003e Deserialize\u003c'a\u003e\u003e part. pub async fn send \u003c T : for \u003c' a \u003e Deserialize \u003c' a \u003e\u003e( req :…",
-    "published_at": "2026-05-10T00:00:00Z",
-    "updated_at": "2026-05-10T00:00:00Z",
-    "feed_url": "https://amanjeev.com/atom.xml",
-    "feed_title": "Amanjeev Sethi",
-    "owner_username": "amanjeev",
-    "site_url": "https://amanjeev.com/"
-  },
-  {
     "id": "https://www.philipzucker.com/dtt_python_family",
     "title": "Family Orienting Python Frozenset Dependent Type Theory",
     "url": "https://www.philipzucker.com/dtt_python_family/",
@@ -2418,6 +2406,18 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
+  },
+  {
+    "id": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
+    "title": "An attempt to understand HRTB, Variance, Lifetimes, and Generics",
+    "url": "https://amanjeev.com/blog/hrtb-variance-lifetimes-generics-rust/",
+    "summary": "This blog post assumes you are familiar with Rust’s generic types, ownership/borrowership system, and lifetime annotations. 🙏 A signature you may have seen If you’ve worked with reqwest and serde , and had a custom send() function to do your data munging or convert to your own error variants, you must have encountered something called Higher-Ranked Trait Bounds (HRTBs). So, in this snippet the \u003cT: for\u003c'a\u003e Deserialize\u003c'a\u003e\u003e part. pub async fn send \u003c T : for \u003c' a \u003e Deserialize \u003c' a \u003e\u003e( req :…",
+    "published_at": "2026-05-10T00:00:00Z",
+    "updated_at": "2026-05-10T00:00:00Z",
+    "feed_url": "https://amanjeev.com/atom.xml",
+    "feed_title": "Amanjeev Sethi",
+    "owner_username": "amanjeev",
+    "site_url": "https://amanjeev.com/"
   },
   {
     "id": "https://www.abgeo.dev/projects/mezz/",
@@ -2442,17 +2442,6 @@
     "site_url": "https://arne.me"
   },
   {
-    "id": "https://ethancedwards.com/blog/what-value-do-you-provide",
-    "title": "What Value Do You Provide?",
-    "url": "https://ethancedwards.com/blog/what-value-do-you-provide",
-    "summary": "In a world of increasingly capable AI, what value do you provide?",
-    "published_at": "2026-05-09T00:00:00Z",
-    "feed_url": "https://ethancedwards.com/feed.xml",
-    "feed_title": "Ethan Carter Edwards",
-    "owner_username": "ethancedwards8",
-    "site_url": "https://ethancedwards.com/"
-  },
-  {
     "id": "urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b",
     "title": "I Will Not Add Query Strings to Your URLs",
     "url": "https://susam.net/no-query-strings.html",
@@ -2463,6 +2452,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://ethancedwards.com/blog/what-value-do-you-provide",
+    "title": "What Value Do You Provide?",
+    "url": "https://ethancedwards.com/blog/what-value-do-you-provide",
+    "summary": "In a world of increasingly capable AI, what value do you provide?",
+    "published_at": "2026-05-09T00:00:00Z",
+    "feed_url": "https://ethancedwards.com/feed.xml",
+    "feed_title": "Ethan Carter Edwards",
+    "owner_username": "ethancedwards8",
+    "site_url": "https://ethancedwards.com/"
   },
   {
     "id": "https://jcs.org/notes/2026/05/08/996208116721344513",
@@ -2565,17 +2565,6 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "title": "Seeing typos makes me hapy",
-    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
-    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
-    "published_at": "2026-05-05T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
     "id": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers",
     "title": "Coding with AI Agents is Now a Baseline Expectation for Managers",
     "url": "https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html",
@@ -2586,6 +2575,17 @@
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
     "site_url": "https://code.dblock.org/"
+  },
+  {
+    "id": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "title": "Seeing typos makes me hapy",
+    "url": "https://mlich.eu/posts/seeing-typos-makes-me-happy/",
+    "summary": "I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…",
+    "published_at": "2026-05-05T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://jcs.org/notes/2026/05/04/994840285535244289",
@@ -2644,6 +2644,17 @@
     "site_url": "https://marcin.juszkiewicz.com.pl/"
   },
   {
+    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "title": "Podman rootless containers and the Copy Fail exploit",
+    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
+    "published_at": "2026-05-04T00:00:00Z",
+    "feed_url": "https://garrido.io/index.xml",
+    "feed_title": "Gabriel Garrido",
+    "owner_username": "ggpsv",
+    "site_url": "https://garrido.io"
+  },
+  {
     "id": "urn:uuid:02ace576-3514-4a90-bb09-d8641aec617e",
     "title": "From RSS to Atom",
     "url": "https://susam.net/from-rss-to-atom.html",
@@ -2654,17 +2665,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "title": "Podman rootless containers and the Copy Fail exploit",
-    "url": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
-    "summary": "On April 29th CVE-2026-31431 was publicly disclosed at https://copy.fail/ . This vulnerability allows a local unprivileged user to obtain a root shell by running the Python script shared by the author. This exploit can be used to exploit Linux containers, which are widely used to run all sorts of things: public-facing services, development environments, continuous integration jobs, etc. A container exploited with Copy Fail can used quite effectively for many kinds of attacks. This CVE is quite i…",
-    "published_at": "2026-05-04T00:00:00Z",
-    "feed_url": "https://garrido.io/index.xml",
-    "feed_title": "Gabriel Garrido",
-    "owner_username": "ggpsv",
-    "site_url": "https://garrido.io"
   },
   {
     "id": "https://bpapillon.com/recommended/rift/",
@@ -2678,6 +2678,17 @@
     "site_url": "https://bpapillon.com"
   },
   {
+    "id": "https://runxiyu.org/comp/ch4ht/",
+    "title": "On (not) using “cryptographic hashes” for hash table keys",
+    "url": "https://runxiyu.org/comp/ch4ht/",
+    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
     "title": "QuickQWERTY 1.2.3",
     "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
@@ -2688,17 +2699,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://runxiyu.org/comp/ch4ht/",
-    "title": "On (not) using “cryptographic hashes” for hash table keys",
-    "url": "https://runxiyu.org/comp/ch4ht/",
-    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -2745,18 +2745,6 @@
     "site_url": "https://andrew.cloud/"
   },
   {
-    "id": "https://www.philipzucker.com/dump_calculus",
-    "title": "Lifting and Lowering Functions with The Dump Calculus",
-    "url": "https://www.philipzucker.com/dump_calculus/",
-    "summary": "I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.",
-    "published_at": "2026-05-01T00:00:00Z",
-    "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": "https://www.philipzucker.com/"
-  },
-  {
     "id": "https://endler.dev/2026/taste/",
     "title": "On Taste",
     "url": "https://endler.dev/2026/taste/",
@@ -2766,6 +2754,18 @@
     "feed_title": "Matthias Endler",
     "owner_username": "mre",
     "site_url": "https://endler.dev"
+  },
+  {
+    "id": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
+    "title": "'Fernweh' in Urdu poetry",
+    "url": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
+    "summary": "Introduction A while ago a good friend, Ana , introduced me to the German word “fernweh”. This word, from what I gather, means “wanderlust”, a longing to explore, travel, see far away places. Ana asked me if Urdu has something like this and I was intrigued. This post remained in draft mode for at least two years but not anymore. The closest conceptual cousin in the Urdu (and Persian) tradition are words like justuju ( جستجو ) the restless seeking, combined with avaaragi ( آوارگ…",
+    "published_at": "2026-05-01T00:00:00Z",
+    "updated_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://amanjeev.com/atom.xml",
+    "feed_title": "Amanjeev Sethi",
+    "owner_username": "amanjeev",
+    "site_url": "https://amanjeev.com/"
   },
   {
     "id": "/bug-bash-two",
@@ -2780,16 +2780,16 @@
     "site_url": "https://concerningquality.com"
   },
   {
-    "id": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
-    "title": "'Fernweh' in Urdu poetry",
-    "url": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
-    "summary": "Introduction A while ago a good friend, Ana , introduced me to the German word “fernweh”. This word, from what I gather, means “wanderlust”, a longing to explore, travel, see far away places. Ana asked me if Urdu has something like this and I was intrigued. This post remained in draft mode for at least two years but not anymore. The closest conceptual cousin in the Urdu (and Persian) tradition are words like justuju ( جستجو ) the restless seeking, combined with avaaragi ( آوارگ…",
+    "id": "https://www.philipzucker.com/dump_calculus",
+    "title": "Lifting and Lowering Functions with The Dump Calculus",
+    "url": "https://www.philipzucker.com/dump_calculus/",
+    "summary": "I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.",
     "published_at": "2026-05-01T00:00:00Z",
     "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://amanjeev.com/atom.xml",
-    "feed_title": "Amanjeev Sethi",
-    "owner_username": "amanjeev",
-    "site_url": "https://amanjeev.com/"
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": "https://www.philipzucker.com/"
   },
   {
     "id": "https://jcs.org/notes/2026/04/30/993283158047010817",
@@ -3004,18 +3004,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://www.sillylaird.ca/changelog/#2026-04-20",
-    "title": "Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clear…",
-    "url": "https://www.sillylaird.ca/changelog/",
-    "summary": "Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clearnet site so you can browse Geminispace straight from the browser without a dedicated client.",
-    "published_at": "2026-04-20T00:00:00Z",
-    "updated_at": "2026-04-20T00:00:00Z",
-    "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
-    "feed_title": "SillyLaird — Changelog",
-    "owner_username": "sillylaird",
-    "site_url": "https://www.sillylaird.ca"
-  },
-  {
     "id": "https://randoneering.tech/about/",
     "title": "About",
     "url": "https://randoneering.tech/about/",
@@ -3036,6 +3024,18 @@
     "feed_title": "nrposner",
     "owner_username": "nrposner",
     "site_url": "https://nrposner.com"
+  },
+  {
+    "id": "https://www.sillylaird.ca/changelog/#2026-04-20",
+    "title": "Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clear…",
+    "url": "https://www.sillylaird.ca/changelog/",
+    "summary": "Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clearnet site so you can browse Geminispace straight from the browser without a dedicated client.",
+    "published_at": "2026-04-20T00:00:00Z",
+    "updated_at": "2026-04-20T00:00:00Z",
+    "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
+    "feed_title": "SillyLaird — Changelog",
+    "owner_username": "sillylaird",
+    "site_url": "https://www.sillylaird.ca"
   },
   {
     "id": "https://bernat.tech/posts/pytexas-2026-recap/",
@@ -3104,15 +3104,16 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://arne.me/library/tiamats-wrath",
-    "title": "Tiamat's Wrath by James S. A. Corey",
-    "url": "https://arne.me/library/tiamats-wrath",
-    "summary": "I read Tiamat's Wrath by James S. A. Corey",
+    "id": "https://www.philipzucker.com/thin_egraph",
+    "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
+    "url": "https://www.philipzucker.com/thin_egraph/",
+    "summary": "Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.",
     "published_at": "2026-04-18T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
+    "updated_at": "2026-04-18T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": "https://www.philipzucker.com/"
   },
   {
     "id": "https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/",
@@ -3126,16 +3127,15 @@
     "site_url": "https://www.lifewaza.com/"
   },
   {
-    "id": "https://www.philipzucker.com/thin_egraph",
-    "title": "Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I",
-    "url": "https://www.philipzucker.com/thin_egraph/",
-    "summary": "Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.",
+    "id": "https://arne.me/library/tiamats-wrath",
+    "title": "Tiamat's Wrath by James S. A. Corey",
+    "url": "https://arne.me/library/tiamats-wrath",
+    "summary": "I read Tiamat's Wrath by James S. A. Corey",
     "published_at": "2026-04-18T00:00:00Z",
-    "updated_at": "2026-04-18T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": "https://www.philipzucker.com/"
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
   },
   {
     "id": "https://jcs.org/notes/2026/04/17/988509061389520897",
@@ -3226,16 +3226,26 @@
     "site_url": "https://iamkonstantin.eu"
   },
   {
-    "id": "https://timharek.no/blog/subscribe-via-rss/",
-    "title": "Subscribe via RSS",
-    "url": "https://timharek.no/blog/subscribe-via-rss/",
-    "summary": "Last year I wrote Subscribe via e-mail . I made it possible for people to subscribe to the blog with an e-mail instead of having to rely on RSS. But now, 13 months later, and $126 poorer, I’m canceling my Buttondown subscription. The main reason is money, it’s expensive with $9 for just 7 subscribers. I see in my server logs that a lot more are subscribing with RSS, so I guess that’s my target audience. I even looked into some self-hosted solutions, like Listmonk, but it didn’t have RSS-…",
+    "id": "https://mitchellkember.com/books/cities-of-the-plain",
+    "title": "[Books] Cities of the Plain",
+    "url": "https://mitchellkember.com/books/cities-of-the-plain",
+    "summary": "View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…",
     "published_at": "2026-04-13T00:00:00Z",
-    "updated_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://timharek.no/feed.xml",
-    "feed_title": "Tim Hårek",
-    "owner_username": "timharek",
-    "site_url": "https://timharek.no"
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
+    "site_url": "https://mitchellkember.com"
+  },
+  {
+    "id": "https://mlich.eu/posts/one-thing/",
+    "title": "One Thing",
+    "url": "https://mlich.eu/posts/one-thing/",
+    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
+    "published_at": "2026-04-13T00:00:00Z",
+    "feed_url": "http://juraj.mlich.eu/index.xml",
+    "feed_title": "Juri Mlich",
+    "owner_username": "Juraj",
+    "site_url": "http://juraj.mlich.eu"
   },
   {
     "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
@@ -3260,26 +3270,16 @@
     "site_url": "https://arne.me"
   },
   {
-    "id": "https://mlich.eu/posts/one-thing/",
-    "title": "One Thing",
-    "url": "https://mlich.eu/posts/one-thing/",
-    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
+    "id": "https://timharek.no/blog/subscribe-via-rss/",
+    "title": "Subscribe via RSS",
+    "url": "https://timharek.no/blog/subscribe-via-rss/",
+    "summary": "Last year I wrote Subscribe via e-mail . I made it possible for people to subscribe to the blog with an e-mail instead of having to rely on RSS. But now, 13 months later, and $126 poorer, I’m canceling my Buttondown subscription. The main reason is money, it’s expensive with $9 for just 7 subscribers. I see in my server logs that a lot more are subscribing with RSS, so I guess that’s my target audience. I even looked into some self-hosted solutions, like Listmonk, but it didn’t have RSS-…",
     "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
-    "id": "https://mitchellkember.com/books/cities-of-the-plain",
-    "title": "[Books] Cities of the Plain",
-    "url": "https://mitchellkember.com/books/cities-of-the-plain",
-    "summary": "View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
-    "site_url": "https://mitchellkember.com"
+    "updated_at": "2026-04-13T00:00:00Z",
+    "feed_url": "https://timharek.no/feed.xml",
+    "feed_title": "Tim Hårek",
+    "owner_username": "timharek",
+    "site_url": "https://timharek.no"
   },
   {
     "id": "https://nedbatchelder.com/blog/202604/linklint",
