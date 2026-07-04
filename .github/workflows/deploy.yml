@@ -30,6 +30,9 @@ jobs:
       - name: Test
         run: go test ./...
 
+      - name: Sync with remote before generating changes
+        run: git pull --rebase origin main
+
       - name: Refresh Lobste.rs users
         run: go run ./cmd/lobsters-planet discover
 
@@ -42,9 +45,15 @@ jobs:
       - name: Build static site
         run: go run ./cmd/lobsters-planet build
 
-      - name: Sync with remote
+      - name: Rebase remote changes while keeping generated output
         run: |
-          git pull --rebase origin main
+          if [ -n "$(git status --porcelain)" ]; then
+            git stash push --include-untracked -m ci-generated-output
+            git pull --rebase origin main
+            git stash pop
+          else
+            git pull --rebase origin main
+          fi
 
       - name: Commit refreshed state and public output
         uses: stefanzweifel/git-auto-commit-action@v5
