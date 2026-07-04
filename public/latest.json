@@ -1,14 +1,15 @@
 [
   {
-    "id": "https://runxiyu.org/x509/",
-    "title": "X.509 certificates",
-    "url": "https://runxiyu.org/x509/",
-    "summary": "For document signatures and such, run this (only when you fully understand the command): s=\"$(mktemp)\" cat \u003e \"$s\" \u003c\u003c EOF -----BEGIN CERTIFICATE----- MIIBzjCCAXSgAwIBAgIUaHmeGPiA6P9Uma8qBTFZKDzeAMkwCgYIKoZIzj0EAwIw GzEZMBcGA1UEAwwQUnVueGkgWXUgUm9vdCBDQTAeFw0yNjA3MDMxNjE1MDRaFw0y ODEwMDUxNjE1MDRaMDIxETAPBgNVBAMMCFJ1bnhpIFl1MR0wGwYJKoZIhvcNAQkB Fg5tZUBydW54aXl1Lm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPWVIU7B w8nikZuu5TNoOwLNjK2XGFejxEqFYZPn0hihlT3a5rCKbLj79UPBMRFvrETioJK8 GsHOYhXokz/NsAmjfzB9MAwGA1…",
+    "id": "https://www.sillylaird.ca/changelog/#2026-07-03",
+    "title": "Homepage polish pass III. Removed scanline screen textures in favour of soft ra…",
+    "url": "https://www.sillylaird.ca/changelog/",
+    "summary": "Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.",
     "published_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
+    "updated_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
+    "feed_title": "SillyLaird — Changelog",
+    "owner_username": "sillylaird",
+    "site_url": "https://www.sillylaird.ca"
   },
   {
     "id": "https://www.philipzucker.com/toa_unionfind",
@@ -23,16 +24,26 @@
     "site_url": "https://www.philipzucker.com/"
   },
   {
-    "id": "https://www.sillylaird.ca/changelog/#2026-07-03",
-    "title": "Homepage polish pass III. Removed scanline screen textures in favour of soft ra…",
-    "url": "https://www.sillylaird.ca/changelog/",
-    "summary": "Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.",
+    "id": "https://runxiyu.org/x509/",
+    "title": "X.509 certificates",
+    "url": "https://runxiyu.org/x509/",
+    "summary": "For document signatures and such, run this (only when you fully understand the command): s=\"$(mktemp)\" cat \u003e \"$s\" \u003c\u003c EOF -----BEGIN CERTIFICATE----- MIIBzjCCAXSgAwIBAgIUaHmeGPiA6P9Uma8qBTFZKDzeAMkwCgYIKoZIzj0EAwIw GzEZMBcGA1UEAwwQUnVueGkgWXUgUm9vdCBDQTAeFw0yNjA3MDMxNjE1MDRaFw0y ODEwMDUxNjE1MDRaMDIxETAPBgNVBAMMCFJ1bnhpIFl1MR0wGwYJKoZIhvcNAQkB Fg5tZUBydW54aXl1Lm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPWVIU7B w8nikZuu5TNoOwLNjK2XGFejxEqFYZPn0hihlT3a5rCKbLj79UPBMRFvrETioJK8 GsHOYhXokz/NsAmjfzB9MAwGA1…",
     "published_at": "2026-07-03T00:00:00Z",
-    "updated_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
-    "feed_title": "SillyLaird — Changelog",
-    "owner_username": "sillylaird",
-    "site_url": "https://www.sillylaird.ca"
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
+    "id": "https://theorangeone.net/posts/process-name-observability/",
+    "title": "Process names: The forgotten Observability channel",
+    "url": "https://theorangeone.net/posts/process-name-observability/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "When it comes to observability, especially in an incident, more data is usually better. Without data, it's almost impossible to know what's going on. With insufficient data, you only get half the picture. More data isn't always better. The more data there is, the more you have to sift through. If you're going to have a lot of data, it had better be useful. Observability tools will generally collect data… Continue Reading…",
+    "published_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": "https://theorangeone.net"
   },
   {
     "id": "https://lalitm.com/post/perfetto-v57/",
@@ -612,10 +623,10 @@
     "site_url": "https://lalitm.com"
   },
   {
-    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
-    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
-    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
+    "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
+    "title": "VER 2026 Results Viewer",
+    "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
+    "summary": "VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -634,10 +645,10 @@
     "site_url": "https://mareksuppa.com"
   },
   {
-    "id": "https://mareksuppa.com/links/ver-2026-results-viewer/",
-    "title": "VER 2026 Results Viewer",
-    "url": "https://mareksuppa.com/links/ver-2026-results-viewer/",
-    "summary": "VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…",
+    "id": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp",
+    "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+    "summary": "Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.",
     "published_at": "2026-06-16T00:00:00Z",
     "feed_url": "https://mareksuppa.com/feed.xml",
     "feed_title": "Marek Šuppa",
@@ -811,17 +822,6 @@
     "site_url": "https://mtlynch.io"
   },
   {
-    "id": "https://www.lifewaza.com/posts/homelab-improvements/",
-    "title": "Homelab Improvements",
-    "url": "https://www.lifewaza.com/posts/homelab-improvements/",
-    "summary": "Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…",
-    "published_at": "2026-06-09T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": "https://www.lifewaza.com/"
-  },
-  {
     "id": "https://www.sillylaird.ca/changelog/#2026-06-09",
     "title": "Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed …",
     "url": "https://www.sillylaird.ca/changelog/",
@@ -832,6 +832,17 @@
     "feed_title": "SillyLaird — Changelog",
     "owner_username": "sillylaird",
     "site_url": "https://www.sillylaird.ca"
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "title": "Homelab Improvements",
+    "url": "https://www.lifewaza.com/posts/homelab-improvements/",
+    "summary": "Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…",
+    "published_at": "2026-06-09T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": "https://www.lifewaza.com/"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238393",
@@ -954,6 +965,17 @@
     "feed_title": "sandipb.net",
     "owner_username": "sandipb",
     "site_url": "https://blog.sandipb.net"
+  },
+  {
+    "id": "https://theorangeone.net/posts/docker-nftables-firewall/",
+    "title": "Firewalling Docker with nftables",
+    "url": "https://theorangeone.net/posts/docker-nftables-firewall/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "Docker has a reputation when it comes to firewalling - it's pretty difficult to restrict ports. It's best practice to have a firewall on your servers, to restrict incoming traffic by port or IP address. This means that not just anyone can start a server on an arbitrary port and receive traffic externally - the firewall needs to let it in. However, because of the way Docker works, starting a container listening on a port… Continue Reading…",
+    "published_at": "2026-06-05T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": "https://theorangeone.net"
   },
   {
     "id": "http://nolanlawson.com/?p=16122#comment-238387",
@@ -1237,6 +1259,17 @@
     "site_url": "https://inkdroid.org"
   },
   {
+    "id": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
+    "title": "Coding Agents on Teams",
+    "url": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
+    "summary": "Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It's not a magic bullet for speed or quality but it can be a useful tool and it's not likely to go away. Regardless of what you think about thes…",
+    "published_at": "2026-06-01T00:00:00Z",
+    "feed_url": "https://jeremy.marzhillstudios.com/rss.xml",
+    "feed_title": "Marzhill Musings",
+    "owner_username": "zaphar",
+    "site_url": "https://jeremy.marzhillstudios.com/"
+  },
+  {
     "id": "https://www.philipzucker.com/arena_coegraph2_rational",
     "title": "Arenas, Cyclic Terms, and Flat Equational Systems",
     "url": "https://www.philipzucker.com/arena_coegraph2_rational/",
@@ -1260,17 +1293,6 @@
     "site_url": "https://arne.me"
   },
   {
-    "id": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
-    "title": "Coding Agents on Teams",
-    "url": "https://jeremy.marzhillstudios.com/coding-agents-on-teams/",
-    "summary": "Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It's not a magic bullet for speed or quality but it can be a useful tool and it's not likely to go away. Regardless of what you think about thes…",
-    "published_at": "2026-06-01T00:00:00Z",
-    "feed_url": "https://jeremy.marzhillstudios.com/rss.xml",
-    "feed_title": "Marzhill Musings",
-    "owner_username": "zaphar",
-    "site_url": "https://jeremy.marzhillstudios.com/"
-  },
-  {
     "id": "http://nolanlawson.com/?p=16122#comment-238382",
     "title": "Comment on Using AI to write better code more slowly by Konstantin Mihaltsov",
     "url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238382",
@@ -1282,10 +1304,10 @@
     "site_url": "https://nolanlawson.com"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/untitled/",
-    "title": "Untitled",
-    "url": "https://inkdroid.org/2026/05/31/untitled/",
-    "summary": "Untitled by John Summers",
+    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "title": "Weekly Bookmarks",
+    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1293,10 +1315,10 @@
     "site_url": "https://inkdroid.org"
   },
   {
-    "id": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "title": "Weekly Bookmarks",
-    "url": "https://inkdroid.org/2026/05/31/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…",
+    "id": "https://inkdroid.org/2026/05/31/untitled/",
+    "title": "Untitled",
+    "url": "https://inkdroid.org/2026/05/31/untitled/",
+    "summary": "Untitled by John Summers",
     "published_at": "2026-05-31T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -1425,6 +1447,17 @@
     "site_url": "https://runxiyu.org"
   },
   {
+    "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
+    "title": "Preserving Pixter",
+    "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
+    "summary": "Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved",
+    "published_at": "2026-05-29T00:00:00Z",
+    "feed_url": "https://dmitry.gr/rss.php",
+    "feed_title": "Dmitry.GR",
+    "owner_username": "dmitrygr",
+    "site_url": "https://dmitry.gr"
+  },
+  {
     "id": "https://www.sillylaird.ca/changelog/#2026-05-29",
     "title": "Site refresh. Removed leftover test posts; reorganised the navigation into labe…",
     "url": "https://www.sillylaird.ca/changelog/",
@@ -1435,17 +1468,6 @@
     "feed_title": "SillyLaird — Changelog",
     "owner_username": "sillylaird",
     "site_url": "https://www.sillylaird.ca"
-  },
-  {
-    "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
-    "title": "Preserving Pixter",
-    "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
-    "summary": "Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved",
-    "published_at": "2026-05-29T00:00:00Z",
-    "feed_url": "https://dmitry.gr/rss.php",
-    "feed_title": "Dmitry.GR",
-    "owner_username": "dmitrygr",
-    "site_url": "https://dmitry.gr"
   },
   {
     "id": "https://bernat.tech/posts/blanket-deterministic-threading/",
@@ -1470,10 +1492,10 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
-    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -1481,10 +1503,10 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://jcs.org/notes/2026/05/27/1003448877519323137",
+    "id": "https://jcs.org/notes/2026/05/27/1003448877519323242",
     "title": "joshua stein",
-    "url": "https://jcs.org/notes/2026/05/27/1003448877519323137",
-    "summary": "I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.",
+    "url": "https://jcs.org/notes/2026/05/27/1003448877519323242",
+    "summary": "And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.",
     "published_at": "2026-05-28T02:13:51Z",
     "feed_url": "https://jcs.org/notes/rss",
     "feed_title": "Notes - joshua stein",
@@ -1741,17 +1763,6 @@
     "site_url": "https://tante.cc"
   },
   {
-    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "title": "The Algorithm Behind Shazam",
-    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
-    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
-    "published_at": "2026-05-23T12:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": "https://jordivillar.com"
-  },
-  {
     "id": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
     "title": "Backpressure is all you need",
     "url": "https://lucasfcosta.com/blog/backpressure-is-all-you-need/",
@@ -1761,6 +1772,17 @@
     "feed_title": "Lucas F. Costa - Blog",
     "owner_username": "lucasfcosta",
     "site_url": "https://www.lucasfcosta.com"
+  },
+  {
+    "id": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "title": "The Algorithm Behind Shazam",
+    "url": "https://jordivillar.com/blog/the-algorithm-behind-shazam/",
+    "summary": "I never really thought about how Shazam works. You hold your phone up, it tells you the song, you move on. Then I read this article by Per Thirtysix and got curious enough to dig in. What I found surprised me. The core algorithm was published back in 2003 by Avery Wang 1 . No machine learning, no neural networks. Just signal processing and a hash table. The kind of thing you can implement in a few hundred lines of code. So I did. Pick a clip and follow along. Bach Chopin Geminiani Froberger Anon…",
+    "published_at": "2026-05-23T12:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": "https://jordivillar.com"
   },
   {
     "id": "urn:uuid:78208b12-52d0-473f-b325-527720307e2d",
@@ -1820,10 +1842,10 @@
     "site_url": "https://marcin.juszkiewicz.com.pl/"
   },
   {
-    "id": "https://jbaber.sdf.org/#cairo",
-    "title": "Cairo Composite Manager",
-    "url": "https://jbaber.sdf.org/#cairo",
-    "summary": "Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I'm doing, this advice should be taken with a grain of salt. I make no claims that following my directions won't erase all your data and destroy your computer. short how to",
+    "id": "https://jbaber.sdf.org/#Computers",
+    "title": "Computers",
+    "url": "https://jbaber.sdf.org/#Computers",
+    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1842,10 +1864,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#PAO",
-    "title": "Person - Action - Object",
-    "url": "https://jbaber.sdf.org/#PAO",
-    "summary": "Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it's a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I've actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…",
+    "id": "https://jbaber.sdf.org/#cairo",
+    "title": "Cairo Composite Manager",
+    "url": "https://jbaber.sdf.org/#cairo",
+    "summary": "Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I'm doing, this advice should be taken with a grain of salt. I make no claims that following my directions won't erase all your data and destroy your computer. short how to",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1864,10 +1886,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#Computers",
-    "title": "Computers",
-    "url": "https://jbaber.sdf.org/#Computers",
-    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
+    "id": "https://jbaber.sdf.org/#PAO",
+    "title": "Person - Action - Object",
+    "url": "https://jbaber.sdf.org/#PAO",
+    "summary": "Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it's a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I've actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…",
     "published_at": "2026-05-22T01:41:07Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1875,10 +1897,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#laarni",
-    "title": "Laarni",
-    "url": "https://jbaber.sdf.org/#laarni",
-    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "id": "https://jbaber.sdf.org/#now",
+    "title": "Now",
+    "url": "https://jbaber.sdf.org/#now",
+    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1897,10 +1919,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#wishlist",
-    "title": "Wishlist",
-    "url": "https://jbaber.sdf.org/#wishlist",
-    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "id": "https://jbaber.sdf.org/#laarni",
+    "title": "Laarni",
+    "url": "https://jbaber.sdf.org/#laarni",
+    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -1908,10 +1930,10 @@
     "site_url": "https://jbaber.sdf.org"
   },
   {
-    "id": "https://jbaber.sdf.org/#now",
-    "title": "Now",
-    "url": "https://jbaber.sdf.org/#now",
-    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
+    "id": "https://jbaber.sdf.org/#wishlist",
+    "title": "Wishlist",
+    "url": "https://jbaber.sdf.org/#wishlist",
+    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
     "published_at": "2026-05-22T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -2151,17 +2173,6 @@
     "site_url": "https://blog.henryvandenbroek.com"
   },
   {
-    "id": "https://abhamra.com/blog/fishtrackted/",
-    "title": "Why not (make what someone already did)?",
-    "url": "https://abhamra.com/blog/fishtrackted/",
-    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
-    "published_at": "2026-05-17T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": "https://abhamra.com/"
-  },
-  {
     "id": "https://www.philipzucker.com/proof_processing",
     "title": "Reading Proof Objects and Completed Rewrite Systems from eprover into Knuckledragger",
     "url": "https://www.philipzucker.com/proof_processing/",
@@ -2172,6 +2183,17 @@
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
     "site_url": "https://www.philipzucker.com/"
+  },
+  {
+    "id": "https://abhamra.com/blog/fishtrackted/",
+    "title": "Why not (make what someone already did)?",
+    "url": "https://abhamra.com/blog/fishtrackted/",
+    "summary": "Word Count: 321 This will probably be short, but I wanted to talk a little bit about making things, and the barriers I seem to have to making things. I used to (and sometimes still) find it pointless to try making something when it already exists, especially in a nontrivial capacity, and there's no utility involved. On the flipside, there is the notion of writing something or making something to learn, which only sometimes supercedes my desire to only work on impactful things. I recently read Da…",
+    "published_at": "2026-05-17T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": "https://abhamra.com/"
   },
   {
     "id": "https://lalitm.com/post/dont-answer-the-first-question/",
@@ -2196,17 +2218,6 @@
     "site_url": "https://www.philipotoole.com"
   },
   {
-    "id": "https://polsevev.dev/blog/minirack_nas_part1/",
-    "title": "Minirack NAS Part 1",
-    "url": "https://polsevev.dev/blog/minirack_nas_part1/",
-    "summary": "Planning and building",
-    "published_at": "2026-05-16T00:00:00Z",
-    "feed_url": "https://polsevev.dev/rss.xml",
-    "feed_title": "polsevev.dev",
-    "owner_username": "polsevev",
-    "site_url": "https://polsevev.dev"
-  },
-  {
     "id": "urn:uuid:98fe77c7-c72a-4c4a-93da-315d1342a76b",
     "title": "Five Minutes of Prime Time",
     "url": "https://susam.net/five-minutes-of-prime-time.html",
@@ -2217,6 +2228,17 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://polsevev.dev/blog/minirack_nas_part1/",
+    "title": "Minirack NAS Part 1",
+    "url": "https://polsevev.dev/blog/minirack_nas_part1/",
+    "summary": "Planning and building",
+    "published_at": "2026-05-16T00:00:00Z",
+    "feed_url": "https://polsevev.dev/rss.xml",
+    "feed_title": "polsevev.dev",
+    "owner_username": "polsevev",
+    "site_url": "https://polsevev.dev"
   },
   {
     "id": "https://bernat.tech/posts/pycon-us-2026-packaging-summit-recap/",
@@ -2285,6 +2307,17 @@
     "site_url": "https://arne.me"
   },
   {
+    "id": "https://mtlynch.io/retrospectives/2026/05/",
+    "title": "Refactoring English: Month 17",
+    "url": "https://mtlynch.io/retrospectives/2026/05/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
+    "published_at": "2026-05-14T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": "https://mtlynch.io"
+  },
+  {
     "id": "urn:uuid:b9d391bb-4cf2-49a8-8e7a-c5b7216bdf01",
     "title": "Commenting Guidelines",
     "url": "https://susam.net/commenting.html",
@@ -2295,17 +2328,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://mtlynch.io/retrospectives/2026/05/",
-    "title": "Refactoring English: Month 17",
-    "url": "https://mtlynch.io/retrospectives/2026/05/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…",
-    "published_at": "2026-05-14T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": "https://mtlynch.io"
   },
   {
     "id": "https://garrido.io/microblog/2026/05/116567713284856433/",
@@ -2488,17 +2510,6 @@
     "site_url": "https://www.abgeo.dev"
   },
   {
-    "id": "https://arne.me/library/25-letzte-sommer",
-    "title": "25 letzte Sommer by Stephan Schäfer",
-    "url": "https://arne.me/library/25-letzte-sommer",
-    "summary": "I read 25 letzte Sommer by Stephan Schäfer",
-    "published_at": "2026-05-09T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
     "id": "https://ethancedwards.com/blog/what-value-do-you-provide",
     "title": "What Value Do You Provide?",
     "url": "https://ethancedwards.com/blog/what-value-do-you-provide",
@@ -2520,6 +2531,28 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
+  },
+  {
+    "id": "https://arne.me/library/25-letzte-sommer",
+    "title": "25 letzte Sommer by Stephan Schäfer",
+    "url": "https://arne.me/library/25-letzte-sommer",
+    "summary": "I read 25 letzte Sommer by Stephan Schäfer",
+    "published_at": "2026-05-09T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": "https://arne.me"
+  },
+  {
+    "id": "https://theorangeone.net/posts/not-so-static-website/",
+    "title": "My not-so-static new static website",
+    "url": "https://theorangeone.net/posts/not-so-static-website/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "It's been 3.5 years since I last did this , so it's clearly about that time - time I rewrote my website. If you're reading this post, it's on a brand new custom built platform to serve my website. Under the hood it's still Python and Django , but gone is Wagtail , or any CMS for that matter. It's a semi-static site! According to the git history, I started this rewrite over a… Continue Reading…",
+    "published_at": "2026-05-09T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": "https://theorangeone.net"
   },
   {
     "id": "https://jcs.org/notes/2026/05/08/996208116721344513",
@@ -2576,6 +2609,17 @@
     "feed_title": "Randoneering",
     "owner_username": "randoneering",
     "site_url": "https://randoneering.tech"
+  },
+  {
+    "id": "https://theorangeone.net/posts/torchbox-status-page/",
+    "title": "Torchbox's new status page",
+    "url": "https://theorangeone.net/posts/torchbox-status-page/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "When something breaks, our clients deserve to know. Here's how our new status page makes that easier. Continue Reading…",
+    "published_at": "2026-05-07T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": "https://theorangeone.net"
   },
   {
     "id": "https://www.abgeo.dev/blog/anyone-can-ring-your-doorbell/",
@@ -2735,6 +2779,17 @@
     "site_url": "https://bpapillon.com"
   },
   {
+    "id": "https://runxiyu.org/comp/ch4ht/",
+    "title": "On (not) using “cryptographic hashes” for hash table keys",
+    "url": "https://runxiyu.org/comp/ch4ht/",
+    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
+    "published_at": "2026-05-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
+    "site_url": "https://runxiyu.org"
+  },
+  {
     "id": "urn:uuid:d1c2f6bb-8a47-4785-959b-167b8c1fa13a",
     "title": "QuickQWERTY 1.2.3",
     "url": "https://susam.net/code/news/quickqwerty/1.2.3.html",
@@ -2745,17 +2800,6 @@
     "feed_title": "Susam Pal",
     "owner_username": "susam",
     "site_url": "https://susam.net/"
-  },
-  {
-    "id": "https://runxiyu.org/comp/ch4ht/",
-    "title": "On (not) using “cryptographic hashes” for hash table keys",
-    "url": "https://runxiyu.org/comp/ch4ht/",
-    "summary": "A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \\text{keys} \\to \\{0, 1\\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…",
-    "published_at": "2026-05-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
-    "site_url": "https://runxiyu.org"
   },
   {
     "id": "https://runxiyu.org/comp/mlkem768pack/",
@@ -2802,18 +2846,6 @@
     "site_url": "https://andrew.cloud/"
   },
   {
-    "id": "https://www.philipzucker.com/dump_calculus",
-    "title": "Lifting and Lowering Functions with The Dump Calculus",
-    "url": "https://www.philipzucker.com/dump_calculus/",
-    "summary": "I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.",
-    "published_at": "2026-05-01T00:00:00Z",
-    "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": "https://www.philipzucker.com/"
-  },
-  {
     "id": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
     "title": "'Fernweh' in Urdu poetry",
     "url": "https://amanjeev.com/blog/fernweh-in-urdu-poetry/",
@@ -2824,6 +2856,18 @@
     "feed_title": "Amanjeev Sethi",
     "owner_username": "amanjeev",
     "site_url": "https://amanjeev.com/"
+  },
+  {
+    "id": "/bug-bash-two",
+    "title": "Bug Bash 2: Attack of the Clones",
+    "url": "/bug-bash-two/",
+    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
+    "published_at": "2026-05-01T00:00:00Z",
+    "updated_at": "2026-05-01T00:00:00Z",
+    "feed_url": "https://concerningquality.com/feed.xml",
+    "feed_title": "Concerning Quality",
+    "owner_username": "amw-zero",
+    "site_url": "https://concerningquality.com"
   },
   {
     "id": "https://endler.dev/2026/taste/",
@@ -2837,16 +2881,16 @@
     "site_url": "https://endler.dev"
   },
   {
-    "id": "/bug-bash-two",
-    "title": "Bug Bash 2: Attack of the Clones",
-    "url": "/bug-bash-two/",
-    "summary": "I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.",
+    "id": "https://www.philipzucker.com/dump_calculus",
+    "title": "Lifting and Lowering Functions with The Dump Calculus",
+    "url": "https://www.philipzucker.com/dump_calculus/",
+    "summary": "I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.",
     "published_at": "2026-05-01T00:00:00Z",
     "updated_at": "2026-05-01T00:00:00Z",
-    "feed_url": "https://concerningquality.com/feed.xml",
-    "feed_title": "Concerning Quality",
-    "owner_username": "amw-zero",
-    "site_url": "https://concerningquality.com"
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": "https://www.philipzucker.com/"
   },
   {
     "id": "https://jcs.org/notes/2026/04/30/993283158047010817",
@@ -2929,10 +2973,10 @@
     "site_url": "https://christiano.dev"
   },
   {
-    "id": "https://runxiyu.org/comp/bomsd/",
-    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
-    "url": "https://runxiyu.org/comp/bomsd/",
-    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
+    "id": "https://runxiyu.org/comp/plslander/",
+    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
+    "url": "https://runxiyu.org/comp/plslander/",
+    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -2940,10 +2984,10 @@
     "site_url": "https://runxiyu.org"
   },
   {
-    "id": "https://runxiyu.org/comp/plslander/",
-    "title": "A continued, brief, incomplete, and mostly wrong history of programming languages",
-    "url": "https://runxiyu.org/comp/plslander/",
-    "summary": "With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…",
+    "id": "https://runxiyu.org/comp/bomsd/",
+    "title": "Bandwidth-Optimized ML-KEM via Speculative Decapsulation",
+    "url": "https://runxiyu.org/comp/bomsd/",
+    "summary": "Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…",
     "published_at": "2026-04-27T00:00:00Z",
     "feed_url": "https://runxiyu.org/index.xml",
     "feed_title": "Runxi Yu on Runxi Yu’s Website",
@@ -3117,15 +3161,15 @@
     "site_url": "https://jcs.org"
   },
   {
-    "id": "https://mitchellkember.com/crafts/off-white-shirt",
-    "title": "[Crafts] Off-White Shirt",
-    "url": "https://mitchellkember.com/crafts/off-white-shirt",
-    "summary": "Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…",
+    "id": "https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html",
+    "title": "C++ Alternative Operator Representations",
+    "url": "https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html",
+    "summary": "Equivalent ways of writing the same tokens.",
     "published_at": "2026-04-19T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
-    "site_url": "https://mitchellkember.com"
+    "feed_url": "https://pyjarrett.github.io/rss.xml",
+    "feed_title": "pyj's blog",
+    "owner_username": "pyj",
+    "site_url": "https://pyjarrett.github.io/"
   },
   {
     "id": "https://www.vesto.me/2026/04/19/ode-to-strawberry-music-player.html",
@@ -3139,15 +3183,15 @@
     "site_url": "https://www.vesto.me"
   },
   {
-    "id": "https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html",
-    "title": "C++ Alternative Operator Representations",
-    "url": "https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html",
-    "summary": "Equivalent ways of writing the same tokens.",
+    "id": "https://mitchellkember.com/crafts/off-white-shirt",
+    "title": "[Crafts] Off-White Shirt",
+    "url": "https://mitchellkember.com/crafts/off-white-shirt",
+    "summary": "Pattern : modified Fairfield Button-up Shirt by Thread Theory Fabric : 100% cotton flat sheet from Macy’s Started : 7 February 2026 Finished : 19 April 2026 I made this shirt out of the same material as Contrast Thread Shirt , but in a different color. Each of these twin flat sheets cost $16, but I only used half of the 66ʺ×96ʺ, so they’re more like $8 shirts. Not counting labor, of course! The fabric looks surprisingly good once it’s ironed – I don’t think you could tell it’s a b…",
     "published_at": "2026-04-19T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": "https://pyjarrett.github.io/"
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
+    "site_url": "https://mitchellkember.com"
   },
   {
     "id": "https://jcs.org/notes/2026/04/18/988807432787005441",
@@ -3250,6 +3294,17 @@
     "site_url": "https://jordivillar.com"
   },
   {
+    "id": "https://theorangeone.net/talks/django-chat-200/",
+    "title": "Django Tasks - Django Chat #200",
+    "url": "https://theorangeone.net/talks/django-chat-200/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "I was invited to an episode of Django Chat , to chat about Django Tasks, the Security Team and much more. I'm well aware that a podcast isn't really a \"talk\", but it's appropriate enough. Continue Reading…",
+    "published_at": "2026-04-15T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": "https://theorangeone.net"
+  },
+  {
     "id": "https://www.tyil.nl/post/2026/04/15/my-homelab-tyilnet/",
     "title": "My Homelab: TyilNET",
     "url": "https://www.tyil.nl/post/2026/04/15/my-homelab-tyilnet/",
@@ -3292,61 +3347,5 @@
     "feed_title": "Konstantin's Blog Feed",
     "owner_username": "iamkonstantin",
     "site_url": "https://iamkonstantin.eu"
-  },
-  {
-    "id": "https://mlich.eu/posts/one-thing/",
-    "title": "One Thing",
-    "url": "https://mlich.eu/posts/one-thing/",
-    "summary": "I took this photo in Las Palmas, Gran Canaria in 2020, a few weeks after dropping out of uni to travel the world while working remotely. It wasn’t a great month. I was anxious, unsure of myself and had no idea what came next. But every day I’d grab my camera and walk until the noise in my head quieted down. I was a terrible photographer - trust me - and this shot was more luck than skill. But somehow it came out perfect in a way I still can’t quite explain. That month, I needed exactly one…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "http://juraj.mlich.eu/index.xml",
-    "feed_title": "Juri Mlich",
-    "owner_username": "Juraj",
-    "site_url": "http://juraj.mlich.eu"
-  },
-  {
-    "id": "https://arne.me/library/die-kaenguru-rebellion",
-    "title": "Die Känguru-Rebellion by Marc-Uwe Kling",
-    "url": "https://arne.me/library/die-kaenguru-rebellion",
-    "summary": "I read Die Känguru-Rebellion by Marc-Uwe Kling",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
-    "site_url": "https://arne.me"
-  },
-  {
-    "id": "https://timharek.no/blog/subscribe-via-rss/",
-    "title": "Subscribe via RSS",
-    "url": "https://timharek.no/blog/subscribe-via-rss/",
-    "summary": "Last year I wrote Subscribe via e-mail . I made it possible for people to subscribe to the blog with an e-mail instead of having to rely on RSS. But now, 13 months later, and $126 poorer, I’m canceling my Buttondown subscription. The main reason is money, it’s expensive with $9 for just 7 subscribers. I see in my server logs that a lot more are subscribing with RSS, so I guess that’s my target audience. I even looked into some self-hosted solutions, like Listmonk, but it didn’t have RSS-…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "updated_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://timharek.no/feed.xml",
-    "feed_title": "Tim Hårek",
-    "owner_username": "timharek",
-    "site_url": "https://timharek.no"
-  },
-  {
-    "id": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "title": "Displaying account-specific Claude Code rate limits with ccstatusline",
-    "url": "https://mareksuppa.com/til/claude-code-rate-limits-ccstatusline/",
-    "summary": "ccstatusline is a status bar for Claude Code – it makes it easy to see model info, git branch, token count, cost, context window, and all sorts of other things right from the Claude Code CLI. Since v2.1.0 (March 2026) it can also show rate limit utilization via the Anthropic OAuth API: SessionUsage – how much of the current 5-hour block you’ve already burned through WeeklyUsage – similar concept for the 7-day rolling window BlockResetTimer / WeeklyResetTimer – countdown until the sessi…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://mareksuppa.com/feed.xml",
-    "feed_title": "Marek Šuppa",
-    "owner_username": "mrshu",
-    "site_url": "https://mareksuppa.com"
-  },
-  {
-    "id": "https://mitchellkember.com/books/cities-of-the-plain",
-    "title": "[Books] Cities of the Plain",
-    "url": "https://mitchellkember.com/books/cities-of-the-plain",
-    "summary": "View on Goodreads Author : Cormac McCarthy Published : 1998 Format : audiobook Started : 17 March 2026 Finished : 13 April 2026 This is the final novel in The Border Trilogy . It brings together John Grady Cole from All the Pretty Horses and Billy Parham from The Crossing . I listened to this one as an audiobook so my “highlights” below are from times when I remembered to create a bookmark. Chapter 8 This man who was dying was not a man given to sentimentality. He also had lost friends to de…",
-    "published_at": "2026-04-13T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
-    "site_url": "https://mitchellkember.com"
   }
 ]
