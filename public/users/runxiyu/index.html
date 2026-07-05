@@ -103,26 +103,20 @@
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h3>
-          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
+          <h3><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h3>
+          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
         </article>
       
         <article class="entry">
           <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h3>
-          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
+          <h3><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h3>
+          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
         </article>
       
         <article class="entry">
           <p class="meta">24 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
           <h3><a href="https://runxiyu.org/comp/pq/">My view of the state of post-quantum cryptography</a></h3>
           <p>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/nginx/">My nginx configuration</a></h3>
-          <p>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</p>
         </article>
       
     </div>
