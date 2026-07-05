@@ -119,6 +119,12 @@
           <p>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</p>
         </article>
       
+        <article class="entry">
+          <p class="meta">14 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
+          <h3><a href="https://runxiyu.org/comp/nginx/">My nginx configuration</a></h3>
+          <p>Just for future reference for myself. user nginx; worker_processes auto; pcre_jit on; error_log /var/log/nginx/error.log warn; events { worker_connections 1024; } http { include /etc/nginx/mime.types; default_type application/octet-stream; charset utf-8; charset_types text/plain text/html text/css text/javascript application/javascript application/json; server_tokens off; client_max_body_size 1m; sendfile on; tcp_nopush on; http2 on; http3 on; add_header Alt-Svc &#39;h3=&#34;:443&#34;; ma=86400&#39;; ssl_protoc…</p>
+        </article>
+      
     </div>
   </main>
 
