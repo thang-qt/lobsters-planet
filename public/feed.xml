@@ -5,7 +5,23 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Sun, 05 Jul 2026 20:08:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 05:16:01 +0000</lastBuildDate>
+    <item>
+      <title>First impressions of Claude Fable</title>
+      <link>https://philipotoole.com/first-impressions-of-claude-fable/</link>
+      <guid isPermaLink="false">https://philipotoole.com/?p=8336</guid>
+      <description>Today I tried Anthropic&amp;#8217;s latest model, Fable, for the the first time. I asked it to run a full code review of the core Go code of rqlite. Fable reject my first prompt as unsafe &amp;#8211; review the rqlite code base for potential bugs &amp;#8211; and Claude Code fell back to Opus 4.8. I rewrote [&amp;#8230;]</description>
+      <author>otoolep</author>
+      <pubDate>Mon, 06 Jul 2026 01:12:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dark mode with web standards</title>
+      <link>https://olliewilliams.xyz/blog/dark-mode/</link>
+      <guid isPermaLink="false">https://olliewilliams.xyz/blog/dark-mode/</guid>
+      <description>Respecting the user’s OS setting is straightforward: use the prefers-color-scheme media query in CSS. Arguably, that isn’t enough: users should also be able to customise their choice on a per-site basis. A user might want dark mode for the UI of an application, but light mode for reading long-form text on content-heavy sites, for example. We need to: Support the user’s system setting as the default for when the user lands on our website for the first time Allow the user to override their s…</description>
+      <author>splitbrain</author>
+      <pubDate>Sun, 05 Jul 2026 19:08:40 +0000</pubDate>
+    </item>
     <item>
       <title>Comment on Trying to manufacture permission by Jamma</title>
       <link>https://tante.cc/2026/06/30/trying-to-manufacture-permission/#comment-69502</link>
@@ -18,7 +34,7 @@
       <title>The banal failure of 5G home internet</title>
       <link>https://octet-stream.net/b/scb/2026-07-05-the-banal-failure-of-5g-home-internet.html</link>
       <guid isPermaLink="false">urn:uuid:118bbfc8-3a8d-47d5-b4de-a03c5be1a83d</guid>
-      <description>Hot take: the viability of home 5G internet in Australia has been destroyed by telcos deploying shithouse, cheap modems that will cause most customers to blame cellular connectivity rather than the garbage piece of equipment that Telstra or Vodafone sent them. Back in 2013 Australia had an election and replaced its Labor government with the Liberals. Labor had started building out a National Broadband Network and one of the key parts of this plan was that the vast majority of urban residences an…</description>
+      <description>Hot take: the viability of home 5G internet in Australia has been destroyed by telcos deploying cheap, inferior modems that will cause most customers to blame cellular connectivity rather than the garbage piece of equipment that Telstra or Vodafone sent them. Back in 2013 Australia had an election and replaced its Labor government with the Liberals. Labor had started building out a National Broadband Network and one of the key parts of this plan was that the vast majority of urban residences and…</description>
       <author>thombles</author>
       <pubDate>Sun, 05 Jul 2026 10:30:54 +0000</pubDate>
     </item>
@@ -29,6 +45,14 @@
       <description>These are some things I’ve wandered across on the web this week. 🔖 Opening Panel: Archival Poetics &amp; The War on Memory This opening panel on June 11, 2012 entitled “The War on Memory” includes Eleni Sikelianos, Stacy Szymaszek, Steve Dickison, Steven Taylor, E. Tracy Grinnell, and Anne Waldman. Topics discussed include etymology of the word “archive,” the place of the poet in society, archives as historical documents, technology’s role in archiving, and narrative anthropology. arc…</description>
       <author>edsu</author>
       <pubDate>Sun, 05 Jul 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kaizen #4: Overhauled homelab</title>
+      <link>https://timharek.no/blog/kaizen-4/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/kaizen-4/</guid>
+      <description>I started this “blog-series” to force myself to write more about my set up, and my continuous iterations. But it didn’t happen… until today! This post has been a long time coming, and I have kept the ideas in my head and notes. I will walk through everything I did, in order: Previous setup Network situation What I self-hosted Networking Fiber adventure Wiring Wiring the garage The new server The new setup Debian Dokploy Media Jellyfin Immich Files Monitoring Miscellaneous qBittorrent Lin…</description>
+      <author>timharek</author>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Retractable Cable USB-C Chargers (65W PD)</title>
@@ -47,11 +71,11 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Theory of Arrays (ToA) Union Find</title>
-      <link>https://www.philipzucker.com/toa_unionfind/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/toa_unionfind</guid>
-      <description>One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.</description>
-      <author>philzook</author>
+      <title>Homepage polish pass III. Removed scanline screen textures in favour of soft ra…</title>
+      <link>https://www.sillylaird.ca/changelog/</link>
+      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-03</guid>
+      <description>Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.</description>
+      <author>sillylaird</author>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -63,11 +87,11 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Homepage polish pass III. Removed scanline screen textures in favour of soft ra…</title>
-      <link>https://www.sillylaird.ca/changelog/</link>
-      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-03</guid>
-      <description>Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.</description>
-      <author>sillylaird</author>
+      <title>A Theory of Arrays (ToA) Union Find</title>
+      <link>https://www.philipzucker.com/toa_unionfind/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/toa_unionfind</guid>
+      <description>One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.</description>
+      <author>philzook</author>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -135,14 +159,6 @@
       <pubDate>Wed, 01 Jul 2026 09:23:31 +0000</pubDate>
     </item>
     <item>
-      <title>June 2026</title>
-      <link>https://timharek.no/blog/2026-june-recently/</link>
-      <guid isPermaLink="false">https://timharek.no/blog/2026-june-recently/</guid>
-      <description>2026 is officially 50% done. My goal for this month’s post was to have a proper tagline for the lead, but I can’t think of anything… 🍀 Life Our youngest daughter is growing and “waking up”! It’s still so amazing to see tiny progress every day, and that she’s paying more and more attention. And our oldest is getting big, she’s turning three soon! At work we’ve been busy catching up to new and old leads, following through on projects, finishing things up, clearing up loose end…</description>
-      <author>timharek</author>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Bear</title>
       <link>https://jordivillar.com/notes/the-bear/</link>
       <guid isPermaLink="false">https://jordivillar.com/notes/the-bear/</guid>
@@ -156,6 +172,14 @@
       <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-01</guid>
       <description>Visual polish pass across the homepage and startpage. Added a hero block with the Lain avatar, animated monospace tagline, and a more prominent &#34;Where to start&#34; card grid with emoji icons and neon accent hovers. Introduced subtle CSS-only ambient background textures (soft radial glows in dark mode, paper grain in light mode), section accent underlines, timeline-style update panels, guestbook card containers, and unified badge hover styling for friends/country/tile grids. Protocol pills and theme…</description>
       <author>sillylaird</author>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>June 2026</title>
+      <link>https://timharek.no/blog/2026-june-recently/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/2026-june-recently/</guid>
+      <description>2026 is officially 50% done. My goal for this month’s post was to have a proper tagline for the lead, but I can’t think of anything… 🍀 Life Our youngest daughter is growing and “waking up”! It’s still so amazing to see tiny progress every day, and that she’s paying more and more attention. And our oldest is getting big, she’s turning three soon! At work we’ve been busy catching up to new and old leads, following through on projects, finishing things up, clearing up loose end…</description>
+      <author>timharek</author>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -181,6 +205,14 @@
       <description>I wanna expand on something I wrote a few months ago: One of the features of “AI” is the diffusion of responsibility: “AI” systems are being put in all kinds of processes and when they fuck up (and they always fuck up) it was just the “AI”, or “someone should have checked things”. “AI” companies [&amp;#8230;]</description>
       <author>tante</author>
       <pubDate>Tue, 30 Jun 2026 21:17:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scour - June Update</title>
+      <link>https://emschwartz.me/scour-june-update-2026/</link>
+      <guid isPermaLink="false">https://emschwartz.me/scour-june-update-2026/</guid>
+      <description>Links between articles, easily grow your feed after reading one, a UI makeover, and more.</description>
+      <author>emschwartz</author>
+      <pubDate>Tue, 30 Jun 2026 16:17:00 +0000</pubDate>
     </item>
     <item>
       <title>On &#34;When impressive performance gains do not matter&#34;</title>
@@ -322,7 +354,7 @@
       <guid isPermaLink="false">https://blog.platypush.tech/article/Local-voice-assistant</guid>
       <description>A practical setup for a Raspberry Pi-friendly voice assistant based on Platypush.</description>
       <author>blacklight</author>
-      <pubDate>Mon, 22 Jun 2026 18:20:00 +0000</pubDate>
+      <pubDate>Mon, 22 Jun 2026 20:03:06 +0000</pubDate>
     </item>
     <item>
       <title>Comment on Using AI to write better code more slowly by Tom Conlon</title>
@@ -388,19 +420,19 @@
       <pubDate>Sun, 21 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DeFi Theater: Why Polymarket&#39;s Incentives Don&#39;t Reward the Truth</title>
-      <link>https://omarabid.com/polymarket-bet/</link>
-      <guid isPermaLink="false">https://omarabid.com/polymarket-bet/</guid>
-      <description>How Polymarket&#39;s resolution system punishes voters who defy the crowd, not those who are wrong.</description>
-      <author>csomar</author>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Getting Wayland to work on unprivileged Incus container</title>
       <link>https://runxiyu.org/comp/incuswl/</link>
       <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
       <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
       <author>runxiyu</author>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeFi Theater: Why Polymarket&#39;s Incentives Don&#39;t Reward the Truth</title>
+      <link>https://omarabid.com/polymarket-bet/</link>
+      <guid isPermaLink="false">https://omarabid.com/polymarket-bet/</guid>
+      <description>How Polymarket&#39;s resolution system punishes voters who defy the crowd, not those who are wrong.</description>
+      <author>csomar</author>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -508,10 +540,10 @@
       <pubDate>Tue, 16 Jun 2026 01:36:00 +0000</pubDate>
     </item>
     <item>
-      <title>VER 2026 Results Viewer</title>
-      <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
-      <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
+      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
+      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
+      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -524,10 +556,10 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making HTTP requests from a container that has no curl, using bash /dev/tcp</title>
-      <link>https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</link>
-      <guid isPermaLink="false">https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/</guid>
-      <description>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</description>
+      <title>VER 2026 Results Viewer</title>
+      <link>https://mareksuppa.com/links/ver-2026-results-viewer/</link>
+      <guid isPermaLink="false">https://mareksuppa.com/links/ver-2026-results-viewer/</guid>
+      <description>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</description>
       <author>mrshu</author>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -556,6 +588,14 @@
       <pubDate>Sun, 14 Jun 2026 13:51:50 +0000</pubDate>
     </item>
     <item>
+      <title>Tree 1</title>
+      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
+      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Tree 2</title>
       <link>https://inkdroid.org/2026/06/14/tree-2/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
@@ -568,14 +608,6 @@
       <link>https://inkdroid.org/2026/06/14/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tree 1</title>
-      <link>https://inkdroid.org/2026/06/14/tree-1/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
-      <description>Tree 1 A reflection of a tree in the Northwest Branch river, cropped and turned upside down.</description>
       <author>edsu</author>
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
@@ -652,19 +684,19 @@
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Homelab Improvements</title>
-      <link>https://www.lifewaza.com/posts/homelab-improvements/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/homelab-improvements/</guid>
-      <description>Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…</description>
-      <author>gabe</author>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed …</title>
       <link>https://www.sillylaird.ca/changelog/</link>
       <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-06-09</guid>
       <description>Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed the servers, set them to start automatically with the box, and wrote a proper Gopher menu and Gemini index. The Gemini capsule now serves over the real sillylaird.ca certificate. Added Gemini and Gopher buttons to the header across the whole site and every subdomain, alongside the existing Tor and I2P links. Launched a gemlog (the Gemini name for a blog) at gemini://sillylaird.ca/gemlog/, mirrored automatically from…</description>
       <author>sillylaird</author>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Homelab Improvements</title>
+      <link>https://www.lifewaza.com/posts/homelab-improvements/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/homelab-improvements/</guid>
+      <description>Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…</description>
+      <author>gabe</author>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -844,6 +876,14 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Scour - May Update</title>
+      <link>https://emschwartz.me/scour-may-update-2026/</link>
+      <guid isPermaLink="false">https://emschwartz.me/scour-may-update-2026/</guid>
+      <description>Hi friends, In May, Scour scoured 865,266 posts from 28,671 feeds (1,766 of which were newly added), and 260 new users signed up to bring it across the 3,000 user mark! Here&#39;s what&#39;s new in the product: 🔎 Smarter Interest Matching Scour is now better at finding posts that match your interests. You should see more relevant content and far fewer off-topic articles in your feed. (This sounds simple, but it represents at least a full month&#39;s effort 😅.) The way this works under the hood was one…</description>
+      <author>emschwartz</author>
+      <pubDate>Tue, 02 Jun 2026 22:26:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Comment on Using AI to write better code more slowly by Dmitry Jum</title>
       <link>https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/#comment-238385</link>
       <guid isPermaLink="false">http://nolanlawson.com/?p=16122#comment-238385</guid>
@@ -972,19 +1012,19 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Arenas, Cyclic Terms, and Flat Equational Systems</title>
-      <link>https://www.philipzucker.com/arena_coegraph2_rational/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/arena_coegraph2_rational</guid>
-      <description>I was invited a few months ago into discussions with Cheng Zhang, Sam Coward and Alexandra Silva on some work integrating loopy infinite streamy things into e-graphs. A few years back, I was barking up a similar but distinct tree https://www.philipzucker.com/coegraph/</description>
-      <author>philzook</author>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Coding Agents on Teams</title>
       <link>https://jeremy.marzhillstudios.com/coding-agents-on-teams/</link>
       <guid isPermaLink="false">https://jeremy.marzhillstudios.com/coding-agents-on-teams/</guid>
       <description>Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It&#39;s not a magic bullet for speed or quality but it can be a useful tool and it&#39;s not likely to go away. Regardless of what you think about thes…</description>
       <author>zaphar</author>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arenas, Cyclic Terms, and Flat Equational Systems</title>
+      <link>https://www.philipzucker.com/arena_coegraph2_rational/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/arena_coegraph2_rational</guid>
+      <description>I was invited a few months ago into discussions with Cheng Zhang, Sam Coward and Alexandra Silva on some work integrating loopy infinite streamy things into e-graphs. A few years back, I was barking up a similar but distinct tree https://www.philipzucker.com/coegraph/</description>
+      <author>philzook</author>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -996,18 +1036,18 @@
       <pubDate>Sun, 31 May 2026 15:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>Untitled</title>
-      <link>https://inkdroid.org/2026/05/31/untitled/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
-      <description>Untitled by John Summers</description>
-      <author>edsu</author>
-      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Weekly Bookmarks</title>
       <link>https://inkdroid.org/2026/05/31/bookmarks/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/05/31/bookmarks/</guid>
       <description>These are some things I’ve wandered across on the web this week. 🔖 Software can be finished One of the “25 lessons” I presented at LoopConf this year was “Software can be finished”. I tried to remove this lesson from the talk to make room for something else. But it kinda took on a life of its own and wanted to be in the talk. It was an Important Lesson. “Software can be finished” is a controversial statement. And I want to be clear, as I was in the talk, that in many cases “fi…</description>
+      <author>edsu</author>
+      <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Untitled</title>
+      <link>https://inkdroid.org/2026/05/31/untitled/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/05/31/untitled/</guid>
+      <description>Untitled by John Summers</description>
       <author>edsu</author>
       <pubDate>Sun, 31 May 2026 04:00:00 +0000</pubDate>
     </item>
@@ -1092,11 +1132,11 @@
       <pubDate>Fri, 29 May 2026 11:29:41 +0000</pubDate>
     </item>
     <item>
-      <title>Site refresh. Removed leftover test posts; reorganised the navigation into labe…</title>
-      <link>https://www.sillylaird.ca/changelog/</link>
-      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-05-29</guid>
-      <description>Site refresh. Removed leftover test posts; reorganised the navigation into labelled categories and added a &#34;Where to start&#34; section on the homepage. The Last.fm and radio widgets now fall back gracefully when offline or when JavaScript is unavailable, and video embeds (YouTube, Vimeo, Dailymotion, Bilibili, Niconico) load on click for faster, more private page loads. Tidied typography and mobile spacing throughout. Consolidated the blog, changelog, vibe, and guestbook tools into a single admin p…</description>
-      <author>sillylaird</author>
+      <title>Environment variables indicative of coding agents</title>
+      <link>https://runxiyu.org/comp/llmenv/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
+      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1108,11 +1148,11 @@
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Environment variables indicative of coding agents</title>
-      <link>https://runxiyu.org/comp/llmenv/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
-      <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
-      <author>runxiyu</author>
+      <title>Site refresh. Removed leftover test posts; reorganised the navigation into labe…</title>
+      <link>https://www.sillylaird.ca/changelog/</link>
+      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-05-29</guid>
+      <description>Site refresh. Removed leftover test posts; reorganised the navigation into labelled categories and added a &#34;Where to start&#34; section on the homepage. The Last.fm and radio widgets now fall back gracefully when offline or when JavaScript is unavailable, and video embeds (YouTube, Vimeo, Dailymotion, Bilibili, Niconico) load on click for faster, more private page loads. Tidied typography and mobile spacing throughout. Consolidated the blog, changelog, vibe, and guestbook tools into a single admin p…</description>
+      <author>sillylaird</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1196,14 +1236,6 @@
       <pubDate>Tue, 26 May 2026 08:44:12 +0000</pubDate>
     </item>
     <item>
-      <title>pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</title>
-      <link>https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</guid>
-      <description>Open-source vector similarity for Postgres backed by Google Research&#39;s TurboQuant, with measured numbers against pgvector HNSW.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Lime: an LALR(1) parser generator with runtime grammar extensions</title>
       <link>https://greg.burd.me/posts/lime-runtime-extensible-lalr/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/lime-runtime-extensible-lalr/</guid>
@@ -1216,6 +1248,14 @@
       <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
       <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>pg_turbovec: 4-bit vector search that beats pgvector on storage and latency</title>
+      <link>https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/pg-turbovec-vector-similarity-search/</guid>
+      <description>Open-source vector similarity for Postgres backed by Google Research&#39;s TurboQuant, with measured numbers against pgvector HNSW.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1292,19 +1332,19 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Childhood Computing</title>
-      <link>https://susam.net/childhood-computing.html</link>
-      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
-      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
-      <author>susam</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Is this what life is supposed to feel like?</title>
       <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
       <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
       <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
       <author>Juraj</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Childhood Computing</title>
+      <link>https://susam.net/childhood-computing.html</link>
+      <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
+      <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
+      <author>susam</author>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1388,10 +1428,10 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Alfred E. Neuman quotes up to 2005</title>
-      <link>https://jbaber.sdf.org/#alfred_e</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
-      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
+      <title>Computers</title>
+      <link>https://jbaber.sdf.org/#Computers</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
+      <description>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -1404,14 +1444,6 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Computers</title>
-      <link>https://jbaber.sdf.org/#Computers</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
-      <description>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Person - Action - Object</title>
       <link>https://jbaber.sdf.org/#PAO</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
@@ -1420,10 +1452,18 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Laarni</title>
-      <link>https://jbaber.sdf.org/#laarni</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
-      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
+      <title>Alfred E. Neuman quotes up to 2005</title>
+      <link>https://jbaber.sdf.org/#alfred_e</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
+      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Today I Learned</title>
+      <link>https://jbaber.sdf.org/#TIL</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#TIL</guid>
+      <description>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1436,18 +1476,18 @@
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Today I Learned</title>
-      <link>https://jbaber.sdf.org/#TIL</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#TIL</guid>
-      <description>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wishlist</title>
       <link>https://jbaber.sdf.org/#wishlist</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#wishlist</guid>
       <description>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laarni</title>
+      <link>https://jbaber.sdf.org/#laarni</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
+      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1716,19 +1756,19 @@
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Refactoring English: Month 17</title>
-      <link>https://mtlynch.io/retrospectives/2026/05/</link>
-      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
-      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
-      <author>mtlynch</author>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Platform Decay by Martha Wells</title>
       <link>https://arne.me/library/platform-decay</link>
       <guid isPermaLink="false">https://arne.me/library/platform-decay</guid>
       <description>I read Platform Decay by Martha Wells</description>
       <author>bahlo</author>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refactoring English: Month 17</title>
+      <link>https://mtlynch.io/retrospectives/2026/05/</link>
+      <guid isPermaLink="false">https://mtlynch.io/retrospectives/2026/05/</guid>
+      <description>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights I’m torn between focusing on my book and pursuing security bug bounties. I’m considering a course to teach what I’ve learned about using AI to fin…</description>
+      <author>mtlynch</author>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1859,6 +1899,22 @@
       <pubDate>Sat, 09 May 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>I Will Not Add Query Strings to Your URLs</title>
+      <link>https://susam.net/no-query-strings.html</link>
+      <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
+      <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
+      <author>susam</author>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Value Do You Provide?</title>
+      <link>https://ethancedwards.com/blog/what-value-do-you-provide</link>
+      <guid isPermaLink="false">https://ethancedwards.com/blog/what-value-do-you-provide</guid>
+      <description>In a world of increasingly capable AI, what value do you provide?</description>
+      <author>ethancedwards8</author>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>My not-so-static new static website</title>
       <link>https://theorangeone.net/posts/not-so-static-website/?utm_medium=rss&amp;utm_source=feed-all</link>
       <guid isPermaLink="false">https://theorangeone.net/posts/not-so-static-website/</guid>
@@ -1872,22 +1928,6 @@
       <guid isPermaLink="false">https://arne.me/library/25-letzte-sommer</guid>
       <description>I read 25 letzte Sommer by Stephan Schäfer</description>
       <author>bahlo</author>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Value Do You Provide?</title>
-      <link>https://ethancedwards.com/blog/what-value-do-you-provide</link>
-      <guid isPermaLink="false">https://ethancedwards.com/blog/what-value-do-you-provide</guid>
-      <description>In a world of increasingly capable AI, what value do you provide?</description>
-      <author>ethancedwards8</author>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>I Will Not Add Query Strings to Your URLs</title>
-      <link>https://susam.net/no-query-strings.html</link>
-      <guid isPermaLink="false">urn:uuid:60101ca6-f872-4062-8101-1735dcfd7b9b</guid>
-      <description>Last evening, a short blog post appeared in my feed reader that felt as if it spoke directly to me. It is Chris Morgan&#39;s excellent post I&#39;ve banned query strings . Contents Wisdom on the Web Wander on the Web Misfeature Broken URLs Qualms Conclusion Wisdom on the Web Chris is someone whose Internet comments I have been reading for about half a decade now. I first stumbled upon his comments on Hacker News, where he left very detailed feedback on a small collection of boilerplate CSS rules I had s…</description>
-      <author>susam</author>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1915,19 +1955,19 @@
       <pubDate>Fri, 08 May 2026 01:40:06 +0000</pubDate>
     </item>
     <item>
-      <title>Wander Console 0.6.0</title>
-      <link>https://susam.net/code/news/wander/0.6.0.html</link>
-      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
-      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
-      <author>susam</author>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CCC 2026</title>
       <link>https://runxiyu.org/ccc/</link>
       <guid isPermaLink="false">https://runxiyu.org/ccc/</guid>
       <description>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</description>
       <author>runxiyu</author>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wander Console 0.6.0</title>
+      <link>https://susam.net/code/news/wander/0.6.0.html</link>
+      <guid isPermaLink="false">urn:uuid:800b3a89-946c-4c78-b575-4262f7589885</guid>
+      <description>Wander Console 0.6.0 is now available. This is the sixth release of Wander, a small, decentralised, self-hosted web console that lets visitors to your website discover interesting websites and pages recommended by a community of independent website owners. To try it, go to susam.net/wander/ . To learn how it works and how to set it up on your own website, see the project README . The main change in this release is the removal of support for the via referral query parameter, which was added to re…</description>
+      <author>susam</author>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1979,19 +2019,19 @@
       <pubDate>Tue, 05 May 2026 13:37:06 +0000</pubDate>
     </item>
     <item>
-      <title>Seeing typos makes me hapy</title>
-      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
-      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
-      <author>Juraj</author>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Coding with AI Agents is Now a Baseline Expectation for Managers</title>
       <link>https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers.html</link>
       <guid isPermaLink="false">https://code.dblock.org/2026/05/05/coding-with-ai-agents-is-now-a-baseline-expectation-for-managers</guid>
       <description>AI-first Engineering is now the operating default in many organizations, including mine. Developers have kept up. Vibe coding became agentic engineering, and the race towards truly autonomous engineering isn’t slowing. But what are we, managers, to do? A manager job continues to include recruiting and retaining people, setting clear goals and expectations, fostering communication, owning team workflows, and coaching daily behaviors. To this list we must now add driving AI transformation. Being…</description>
       <author>dblock</author>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seeing typos makes me hapy</title>
+      <link>https://mlich.eu/posts/seeing-typos-makes-me-happy/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/seeing-typos-makes-me-happy/</guid>
+      <description>I read a company-wide announcement yesterday congratulating us on delivering something hard we’ve been working on for months. As I was reading it, I started noticing words my boss would never use… and then a few em dashes. I stopped reading. I’ve enjoyed my job a lot this last year, it’s a relatively small company, so there’s good laughs, work’s interesting, not overly corporate or anything. But it certainly feels that AI has been stealing more and more of the human parts of it and i…</description>
+      <author>Juraj</author>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2107,27 +2147,11 @@
       <pubDate>Fri, 01 May 2026 03:35:08 +0000</pubDate>
     </item>
     <item>
-      <title>Lifting and Lowering Functions with The Dump Calculus</title>
-      <link>https://www.philipzucker.com/dump_calculus/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
-      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
-      <author>philzook</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>&#39;Fernweh&#39; in Urdu poetry</title>
       <link>https://amanjeev.com/blog/fernweh-in-urdu-poetry/</link>
       <guid isPermaLink="false">https://amanjeev.com/blog/fernweh-in-urdu-poetry/</guid>
       <description>Introduction A while ago a good friend, Ana , introduced me to the German word “fernweh”. This word, from what I gather, means “wanderlust”, a longing to explore, travel, see far away places. Ana asked me if Urdu has something like this and I was intrigued. This post remained in draft mode for at least two years but not anymore. The closest conceptual cousin in the Urdu (and Persian) tradition are words like justuju ( جستجو ) the restless seeking, combined with avaaragi ( آوارگ…</description>
       <author>amanjeev</author>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bug Bash 2: Attack of the Clones</title>
-      <link>/bug-bash-two/</link>
-      <guid isPermaLink="false">/bug-bash-two</guid>
-      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
-      <author>amw-zero</author>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2139,12 +2163,44 @@
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Bug Bash 2: Attack of the Clones</title>
+      <link>/bug-bash-two/</link>
+      <guid isPermaLink="false">/bug-bash-two</guid>
+      <description>I’m back from this year’s Bug Bash conference. I was a big fan of the first one. Did the sophomore effort live up to the energy and execution of last year? Or has AI automated away the correctness community, leaving us with nothing left to talk about? Tune in for the verdict.</description>
+      <author>amw-zero</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lifting and Lowering Functions with The Dump Calculus</title>
+      <link>https://www.philipzucker.com/dump_calculus/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/dump_calculus</guid>
+      <description>I’ve been trying to think about how to make a nameless de bruijn-y e-graph and that has led me down a road to consider some interesting functional combinators for lifting and lowering functions.</description>
+      <author>philzook</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scour - April Update</title>
+      <link>https://emschwartz.me/scour-april-update-2026/</link>
+      <guid isPermaLink="false">https://emschwartz.me/scour-april-update-2026/</guid>
+      <description>Hi friends, In April, Scour scoured 778,059 posts from 25,790 feeds . This month, my focus was on ranking improvements and adding a number of new features: 🔃 Ranking Improvements Scour is designed to find hidden gems that interest you, while trying to avoid using popularity signals or pigeonholing you into a narrow slice of content simply because you clicked on one thing (you can read the ranking philosophy here ). Your Scour feed now subtly adjusts based on which content you click on, like, …</description>
+      <author>emschwartz</author>
+      <pubDate>Thu, 30 Apr 2026 20:14:00 +0000</pubDate>
+    </item>
+    <item>
       <title>joshua stein</title>
       <link>https://jcs.org/notes/2026/04/30/993283158047010817</link>
       <guid isPermaLink="false">https://jcs.org/notes/2026/04/30/993283158047010817</guid>
       <description>wow, has apple used their old rainbow logo on anything else since they switched to the flat one? https://www.motorsport.com/imsa/news/porsche-penske-motorsport-running-throwback-apple-computer-livery-at-laguna-seca/10816610/</description>
       <author>jcs</author>
       <pubDate>Thu, 30 Apr 2026 16:45:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Clippy Config Should Be Stricter</title>
+      <link>https://emschwartz.me/your-clippy-config-should-be-stricter/</link>
+      <guid isPermaLink="false">https://emschwartz.me/your-clippy-config-should-be-stricter/</guid>
+      <description>“If it compiles, it works.” This feeling is one of the main things Rust engineers love most about Rust, and a reason why using it with coding agents is especially nice. After debugging some code that compiled but mysteriously stopped in production, I realized that it’s useful to enable more Clippy lints to catch bugs that the compiler won&#39;t prevent by itself. It&#39;s especially useful as guardrails for coding agents, but stricter linting can make your code safer, whether or not you’re codin…</description>
+      <author>emschwartz</author>
+      <pubDate>Thu, 30 Apr 2026 00:12:00 +0000</pubDate>
     </item>
     <item>
       <title>April 2026</title>
@@ -2163,19 +2219,19 @@
       <pubDate>Wed, 29 Apr 2026 15:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>The Will to Change by Bell Hooks</title>
-      <link>https://arne.me/library/the-will-to-change</link>
-      <guid isPermaLink="false">https://arne.me/library/the-will-to-change</guid>
-      <description>I read The Will to Change by Bell Hooks</description>
-      <author>bahlo</author>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenClaw On Raspberry Pi 400</title>
       <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</link>
       <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-400/</guid>
       <description>Introduction # This is the penultimate post in this series. I have a feeling that we’re getting into the “very comfortable” realm for OpenClaw with the Raspberry Pi 400 . This unit has 4GB of RAM and a 1.8Ghz quad-core Cortex-A72 processor. Install Raspberry Pi OS # As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # Follow the Raspberry Pi specific install instructions located here . Run OpenClaw # This time I just copied my .openclaw f…</description>
       <author>gabe</author>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Will to Change by Bell Hooks</title>
+      <link>https://arne.me/library/the-will-to-change</link>
+      <guid isPermaLink="false">https://arne.me/library/the-will-to-change</guid>
+      <description>I read The Will to Change by Bell Hooks</description>
+      <author>bahlo</author>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2243,19 +2299,19 @@
       <pubDate>Fri, 24 Apr 2026 20:27:33 +0000</pubDate>
     </item>
     <item>
-      <title>My view of the state of post-quantum cryptography</title>
-      <link>https://runxiyu.org/comp/pq/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
-      <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
-      <author>runxiyu</author>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Brute force is our zeitgeist</title>
       <link>https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</link>
       <guid isPermaLink="false">https://emanuele.decup.is/posts/20260424-brute-force-is-our-zeirgeist.html</guid>
       <description>I just ran into this good article on lobste.rs . It&#39;s about type modelling and techniques to make invalid states unrepresentable. This is a very elegant principle and something I&#39;ve been advocating a lot over the years. And yet, as I read on, I felt estranged, a bit melancholic, and definitely a dissonance. I stopped for a moment and tried to look deeper into the emotion before it flew away. The alienation I was feeling had little to do with the principle being invalid or outdated, or with me ha…</description>
       <author>balanza</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My view of the state of post-quantum cryptography</title>
+      <link>https://runxiyu.org/comp/pq/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/pq/</guid>
+      <description>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</description>
+      <author>runxiyu</author>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2291,6 +2347,14 @@
       <pubDate>Mon, 20 Apr 2026 06:55:04 +0000</pubDate>
     </item>
     <item>
+      <title>Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clear…</title>
+      <link>https://www.sillylaird.ca/changelog/</link>
+      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-04-20</guid>
+      <description>Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clearnet site so you can browse Geminispace straight from the browser without a dedicated client.</description>
+      <author>sillylaird</author>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>About</title>
       <link>https://randoneering.tech/about/</link>
       <guid isPermaLink="false">https://randoneering.tech/about/</guid>
@@ -2304,14 +2368,6 @@
       <guid isPermaLink="false">https://nrposner.com/blog/why-rust-for-scientific-python-programming/</guid>
       <description>Previously: Rust is 2x faster than Rust: PyO3 Edition Rust, Python, and You: Rust-Python Interop for Python devs Rust-Python Interop for Scientific Codebases All of which are basically the same blog post for slightly different audiences. In light of a conversation I had last week, I figured it was worthwhile to write up the main pitch for Rust in scientific programming, specifically for Python-Rust interoperation. This rendition is aimed at domain scientists accustomed to using Python and famili…</description>
       <author>nrposner</author>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clear…</title>
-      <link>https://www.sillylaird.ca/changelog/</link>
-      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-04-20</guid>
-      <description>Built a small-web bridge. Added a Gemini proxy and a Gemini search to the clearnet site so you can browse Geminispace straight from the browser without a dedicated client.</description>
-      <author>sillylaird</author>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2345,62 +2401,6 @@
       <description>[Read more]</description>
       <author>vesto</author>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>C++ Alternative Operator Representations</title>
-      <link>https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</link>
-      <guid isPermaLink="false">https://pyjarrett.github.io/2026/04/19/cpp-alternative-operator-representations.html</guid>
-      <description>Equivalent ways of writing the same tokens.</description>
-      <author>pyj</author>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/04/18/988807432787005441</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/04/18/988807432787005441</guid>
-      <description>hello past me where does the time go</description>
-      <author>jcs</author>
-      <pubDate>Sat, 18 Apr 2026 15:17:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenClaw On Raspberry Pi 4</title>
-      <link>https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/openclaw-on-raspberry-pi-4/</guid>
-      <description>I’m finally getting around to trying OpenClaw again on slightly beefier hardware than the Pi 3 I used previously. I’m trying to show that you don’t need a $500.00 Mac Mini to run OpenClaw, all you need is a $60.00 Raspberry Pi that you probably already have 1 . Install Raspberry Pi OS # For this test, I’m using the Pi4 with 2GBs of RAM that’s living inside my Mycroft Mark II . As usual, I installed the 64bit Lite version of Raspberry Pi OS and booted up the Pi. Install OpenClaw # This …</description>
-      <author>gabe</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Thinning/Lifting E-Graphs for Alpha Equivalence: Checkpoint I</title>
-      <link>https://www.philipzucker.com/thin_egraph/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/thin_egraph</guid>
-      <description>Thinnings are something that shows up when you think about binders and contexts. I’ve been trying to build an alpha equivalence aware e-graph using the concept. For a moment complexity seemed spiralling out of control, but actually as I understand what is going on, I’m throwing out more and more code and things are getting simpler. I am overdue for checkpoint.</description>
-      <author>philzook</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tiamat&#39;s Wrath by James S. A. Corey</title>
-      <link>https://arne.me/library/tiamats-wrath</link>
-      <guid isPermaLink="false">https://arne.me/library/tiamats-wrath</guid>
-      <description>I read Tiamat&#39;s Wrath by James S. A. Corey</description>
-      <author>bahlo</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/04/17/988509061389520897</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/04/17/988509061389520897</guid>
-      <description>Once a device can boot multiuser, compile its kernel, and has display and keyboard drivers, all further development for it must be done on the device itself Sorry, it&#39;s the law</description>
-      <author>jcs</author>
-      <pubDate>Fri, 17 Apr 2026 19:59:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/04/16/988077258429505537</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/04/16/988077258429505537</guid>
-      <description>Eternal November https://sfconservancy.org/blog/2026/apr/15/eternal-november-generative-ai-llm/ (November 2025 was when Claude Opus 4.5 was released)</description>
-      <author>jcs</author>
-      <pubDate>Thu, 16 Apr 2026 16:03:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
