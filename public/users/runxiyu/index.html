@@ -83,42 +83,6 @@
           <p>Let’s say you have a shallow Git bundle, i.e., not all referenced objects are present. How do you convert it into a normal shallow repository? Initialize the target as a bare-repo with your desired object-format. git init --bare --object-format=sha1 target.git &amp;&amp; cd target.git Find the start of the pack in each bundle (version 2 packs starts with 5041 434b 0000 0002 ). In my case it’s byte offset 77. Extract and index the packfile, creating the .idx and .rev . tail -c &#43;77 ../source.bundle | …</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">8 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/ccc/">CCC 2026</a></h3>
-          <p>CCC 的全称是 Colloquium Cognitionis Callidum ， 这个拉丁文短语的大意是 “Wise Symposium of Knowledge”， 中文的字面意思是：有识之士的知识座谈会。 起初的发起人 Norman Zhu 与 Alex Shi 是两位包玉刚学校的热爱科学，数学，历史和人文的中学生。 中学生知识座谈会的想法也吸引了来自上海的国际学校， 美高、加高的志同道合的同学们一起组织，操办，招募，演讲。 到目前为止，CCC 已经�…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">3 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/ch4ht/">On (not) using “cryptographic hashes” for hash table keys</a></h3>
-          <p>A hash table maps keys to buckets (or, sometimes, more complex schemes such as bucket directories and sizes, as seen in extendible hashing , probe chains in open addressing, etc.). In every case there is a function h : keys → { 0 , 1 } ∗ h : \text{keys} \to \{0, 1\}^* (or some prefix or reduction thereof) whose output the scheme consults to decide where a key lives. What must h h be? The naïve answer of “something that spreads key evenly” may be catestrophically wrong under certain adve…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">2 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/mlkem768pack/">Reducing ML-KEM-768 encapsulation key sizes by 24 octets</a></h3>
-          <p>Disclaimer: I am not a cryptographer. There may be serious bugs or side channels! The minimum MTU for IPv6 is 1280 octets; if you subtract the 40-octet IPv6 header and the 8-octet UDP header, you get 1232 usable octets. ML-KEM-768 public keys are 1184 octets long, leaving little space for other protocol material that you might want to stuff into a single UDP packet. Can you compress ML-KEM-768 public keys? Note that, in the standard ML-KEM-768 public key layout, octets [ 0 , 1152 ) \left[0, 1152…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/bomsd/">Bandwidth-Optimized ML-KEM via Speculative Decapsulation</a></h3>
-          <p>Abstract ML-KEM-768 public keys are 1184 bytes, which is regrettable for UDP-based protocols at the IPv6 MTU floor of 1232 bytes of payload. We present BOMSD, a technique that saves k k bytes on the initial public-key transmission by truncating the public key and having the receiver speculatively maintain 2 8 k 2^{8k} parallel protocol branches until downstream AEAD authentication disambiguates which branch corresponds to the true public key. We identify ML-KEM’s implicit-rejection property, n…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/plslander/">A continued, brief, incomplete, and mostly wrong history of programming languages</a></h3>
-          <p>With apologies to the original . (Please read it before this one.) 2009. Pike and Thompson, who invented C, return to invent C again, this time a relatively verbose, garbage-collected, type/method based, statically typed, not too but kinda object oriented programming language, without single implementation inheritance or multiple interface inheritance, with C-like syntax that isn’t C-like enough, a dumb mascot, 1 no ternary because question marks look annoying to Pike, capitalization of identi…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">24 Apr 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/pq/">My view of the state of post-quantum cryptography</a></h3>
-          <p>ML-KEM Fast, medium-small-ish among PQ, but do you trust the cryptanalysis for now? Classic McEliece 60 years of cryptanalysis, unbroken; megabyte public keys; ciphertext sizes are nice though. Never getting into Noise or TLS. CSIDH Beautiful NIKE, small keys, slow as hell, do you really trust isogenies, also everyone says it’s small because we benchmark CSIDH-512 but does that actually give you real 128-bit PQ? SIDH/SIKE This is why we do cryptanalysis. HQC Does anyone really understand how i…</p>
-        </article>
-      
     </div>
   </main>
 
