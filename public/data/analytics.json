@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-09T16:18:00.832600239Z",
+  "generated_at": "2026-07-09T20:35:31.279408546Z",
   "overview": {
-    "users": 20443,
-    "crawled_profiles": 3200,
-    "homepages": 351,
+    "users": 20446,
+    "crawled_profiles": 3225,
+    "homepages": 335,
     "users_with_feeds": 238,
     "feeds": 63,
     "feeds_with_posts": 63,
@@ -218,18 +218,6 @@
       "about": "Artist, musician, coder, writer. See jamesbritt.com and neurogami.com"
     },
     {
-      "username": "trafficone",
-      "profile_url": "https://lobste.rs/~trafficone",
-      "has_detail_page": true,
-      "profile_checked_at": "2026-07-02T20:01:02.753655208Z",
-      "users_page_rank": 1082,
-      "joined_at": "2012-08-23T13:27:00Z",
-      "karma": 5,
-      "stories_submitted": 0,
-      "comments_posted": 4,
-      "about": "I'm so awesome. I'm so awesome in my behind. When I hit the dance floor, they hardly even mind. I shake it once, shake it twice, shake it thrice, but not a fourth time."
-    },
-    {
       "username": "piroko",
       "profile_url": "https://lobste.rs/~piroko",
       "has_detail_page": true,
@@ -315,6 +303,17 @@
       "stories_submitted": 22,
       "comments_posted": 5,
       "about": "Facebook | LinkedIn | Gab aspe:keyoxide.org:4DUXZAN4MEOSVMYHA6WF7ILJI4"
+    },
+    {
+      "username": "bowmanb",
+      "profile_url": "https://lobste.rs/~bowmanb",
+      "has_detail_page": true,
+      "profile_checked_at": "2026-07-07T10:19:21.287254125Z",
+      "users_page_rank": 15,
+      "joined_at": "2013-02-20T13:34:22Z",
+      "karma": 72,
+      "stories_submitted": 5,
+      "comments_posted": 11
     }
   ],
   "top_karma": [
@@ -1202,18 +1201,6 @@
       "comments_posted": 974
     },
     {
-      "username": "5d22b",
-      "profile_url": "https://lobste.rs/~5d22b",
-      "has_detail_page": true,
-      "profile_checked_at": "2026-07-02T19:52:56.064284762Z",
-      "users_page_rank": 2561,
-      "joined_at": "2022-07-28T00:02:54Z",
-      "karma": 2571,
-      "stories_submitted": 86,
-      "comments_posted": 966,
-      "about": "A mystery..."
-    },
-    {
       "username": "gecko",
       "profile_url": "https://lobste.rs/~gecko",
       "homepage_url": "https://www.bitquabit.com/",
@@ -1265,6 +1252,19 @@
       "stories_submitted": 3,
       "comments_posted": 698,
       "about": "https://social.zaphar.net/@zaphar https://sanefaith.org"
+    },
+    {
+      "username": "mariusor",
+      "profile_url": "https://lobste.rs/~mariusor",
+      "homepage_url": "https://marius.federated.id",
+      "has_detail_page": true,
+      "profile_checked_at": "2026-07-04T05:10:11.753996615Z",
+      "users_page_rank": 1965,
+      "joined_at": "2019-12-18T11:24:34Z",
+      "karma": 3000,
+      "stories_submitted": 5,
+      "comments_posted": 655,
+      "about": "Mostly a programmer. Currently working on a link aggregator inspired by (old)reddit and based on ActivityPub: https://github.com/mariusor/brutalinks A test instance can be found at https://brutalinks.tech Supporting it there are a suite of modules that help with ActivityPub development in Go: https://github.com/go-ap For questions or feedback regarding these projects feel free to reach out on the discussions mailing list. If you want to know more about them there is a wiki."
     }
   ],
   "active_feeds": [
@@ -1482,8 +1482,8 @@
       "site_url": "https://jamesg.blog",
       "feed_title": "James' Coffee Blog",
       "latest_at": "2026-07-09T00:00:00Z",
-      "title": "Nature",
-      "url": "https://jamesg.blog/2026/07/09/nature-walking"
+      "title": "75 reasons to start a personal website",
+      "url": "https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website"
     },
     {
       "username": "nolan",
@@ -1573,20 +1573,12 @@
       "url": "https://kai.dev/posts/learn-core-gnu-utilities/"
     },
     {
-      "username": "sillylaird",
-      "site_url": "https://www.sillylaird.ca",
-      "feed_title": "SillyLaird — Changelog",
+      "username": "runxiyu",
+      "site_url": "https://runxiyu.org",
+      "feed_title": "Runxi Yu on Runxi Yu’s Website",
       "latest_at": "2026-07-03T00:00:00Z",
-      "title": "Homepage polish pass III. Removed scanline screen textures in favour of soft ra…",
-      "url": "https://www.sillylaird.ca/changelog/"
-    },
-    {
-      "username": "philzook",
-      "site_url": "https://www.philipzucker.com/",
-      "feed_title": "Hey There Buddo!",
-      "latest_at": "2026-07-03T00:00:00Z",
-      "title": "A Theory of Arrays (ToA) Union Find",
-      "url": "https://www.philipzucker.com/toa_unionfind/"
+      "title": "X.509 certificates",
+      "url": "https://runxiyu.org/x509/"
     },
     {
       "username": "theorangeone",
@@ -1597,12 +1589,20 @@
       "url": "https://theorangeone.net/posts/process-name-observability/?utm_medium=rss\u0026utm_source=feed-all"
     },
     {
-      "username": "runxiyu",
-      "site_url": "https://runxiyu.org",
-      "feed_title": "Runxi Yu on Runxi Yu’s Website",
+      "username": "philzook",
+      "site_url": "https://www.philipzucker.com/",
+      "feed_title": "Hey There Buddo!",
       "latest_at": "2026-07-03T00:00:00Z",
-      "title": "X.509 certificates",
-      "url": "https://runxiyu.org/x509/"
+      "title": "A Theory of Arrays (ToA) Union Find",
+      "url": "https://www.philipzucker.com/toa_unionfind/"
+    },
+    {
+      "username": "sillylaird",
+      "site_url": "https://www.sillylaird.ca",
+      "feed_title": "SillyLaird — Changelog",
+      "latest_at": "2026-07-03T00:00:00Z",
+      "title": "Homepage polish pass III. Removed scanline screen textures in favour of soft ra…",
+      "url": "https://www.sillylaird.ca/changelog/"
     },
     {
       "username": "lalitm",
