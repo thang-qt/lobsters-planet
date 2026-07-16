@@ -34,6 +34,7 @@ type FeedsConfig struct {
 	MaxFeedsPerRefreshRun   int      `yaml:"max_feeds_per_refresh_run"`
 	ExcludeSiteURLs         []string `yaml:"exclude_site_urls"`
 	ExcludeFeedURLs         []string `yaml:"exclude_feed_urls"`
+	ExcludeEntryPatterns    []string `yaml:"exclude_entry_patterns"`
 	ExcludeSitePatterns     []string `yaml:"exclude_site_patterns"`
 	CommonPaths             []string `yaml:"common_paths"`
 }
@@ -125,6 +126,7 @@ func Load(path string) (Config, error) {
 	}
 	cfg.Feeds.ExcludeSiteURLs = normalizeURLs(cfg.Feeds.ExcludeSiteURLs)
 	cfg.Feeds.ExcludeFeedURLs = normalizeURLs(cfg.Feeds.ExcludeFeedURLs)
+	cfg.Feeds.ExcludeEntryPatterns = NormalizePatterns(cfg.Feeds.ExcludeEntryPatterns)
 	cfg.Feeds.ExcludeSitePatterns = NormalizePatterns(cfg.Feeds.ExcludeSitePatterns)
 	return cfg, nil
 }
@@ -182,6 +184,33 @@ func MatchSitePatterns(rawURL string, patterns []string) bool {
 	lowered := strings.ToLower(rawURL)
 	for _, pattern := range patterns {
 		if strings.Contains(lowered, pattern) {
+			return true
+		}
+	}
+	return false
+}
+
+// MatchEntryPatterns checks if an entry matches any exclusion pattern. Each
+// pattern is split into whitespace-separated terms; all terms must be present in
+// the combined entry metadata, case-insensitively.
+func MatchEntryPatterns(ownerUsername, feedTitle, title, summary, rawURL string, patterns []string) bool {
+	if len(patterns) == 0 {
+		return false
+	}
+	text := strings.ToLower(strings.Join([]string{ownerUsername, feedTitle, title, summary, rawURL}, "\n"))
+	for _, pattern := range patterns {
+		terms := strings.Fields(pattern)
+		if len(terms) == 0 {
+			continue
+		}
+		matched := true
+		for _, term := range terms {
+			if !strings.Contains(text, term) {
+				matched = false
+				break
+			}
+		}
+		if matched {
 			return true
 		}
 	}

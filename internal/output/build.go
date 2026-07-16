@@ -202,7 +202,7 @@ func applyExclusions(store *state.State, cfg config.Config) {
 		}
 	}
 	for entryID, entry := range store.Entries {
-		if excludedFeeds[config.NormalizeURL(entry.FeedURL)] || excludedSites[config.NormalizeURL(entry.SiteURL)] || config.MatchSitePatterns(entry.SiteURL, patterns) {
+		if excludedFeeds[config.NormalizeURL(entry.FeedURL)] || excludedSites[config.NormalizeURL(entry.SiteURL)] || config.MatchSitePatterns(entry.SiteURL, patterns) || config.MatchEntryPatterns(entry.OwnerUsername, entry.FeedTitle, entry.Title, entry.Summary, entry.URL, cfg.Feeds.ExcludeEntryPatterns) {
 			delete(store.Entries, entryID)
 		}
 	}

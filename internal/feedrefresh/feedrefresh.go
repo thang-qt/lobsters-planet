@@ -48,6 +48,7 @@ func Run(ctx context.Context, cfg config.Config) (Result, error) {
 			continue
 		}
 
+		entries = filterEntries(entries, cfg.Feeds.ExcludeEntryPatterns)
 		store.RecordFeedRefreshSuccess(feed.URL, title, entries, checkedAt)
 		result.FeedsSucceeded++
 		result.EntriesFound += len(entries)
@@ -81,6 +82,20 @@ func filterFeeds(feeds []state.DiscoveredFeed, excludedSites, excludedFeeds map[
 			continue
 		}
 		filtered = append(filtered, feed)
+	}
+	return filtered
+}
+
+func filterEntries(entries []state.FeedEntry, patterns []string) []state.FeedEntry {
+	if len(patterns) == 0 {
+		return entries
+	}
+	filtered := make([]state.FeedEntry, 0, len(entries))
+	for _, entry := range entries {
+		if config.MatchEntryPatterns(entry.OwnerUsername, entry.FeedTitle, entry.Title, entry.Summary, entry.URL, patterns) {
+			continue
+		}
+		filtered = append(filtered, entry)
 	}
 	return filtered
 }
