@@ -475,10 +475,10 @@ func writeSitePages(publicDir, title string, stats Stats, users []PublicUser, si
 		}
 	}
 	for _, user := range users {
-		if !user.HasDetailPage {
+		userPosts := entriesByUser[user.Username]
+		if !user.HasDetailPage && len(userPosts) == 0 {
 			continue
 		}
-		userPosts := entriesByUser[user.Username]
 		if len(userPosts) > userEntries {
 			userPosts = userPosts[:userEntries]
 		}

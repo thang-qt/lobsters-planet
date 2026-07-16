@@ -17,6 +17,11 @@ feeds:
   max_feeds_per_refresh_run: 0
   exclude_site_urls:
     - "https://www.unitedbsd.com/"
+  exclude_feed_urls:
+    - "https://tante.cc/comments/feed/"
+    - "https://mastodon.roundpond.net/@CartyBoston.rss"
+    - "https://www.unitedbsd.com/atom"
+    - "https://www.unitedbsd.com/atom/discussions"
   exclude_site_patterns:
     - "mastodon"
     - "forum"
