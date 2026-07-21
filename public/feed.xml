@@ -5,7 +5,31 @@
     <link>https://lobsters-planet.thangqt.com</link>
     <description>Latest posts from Lobste.rs users&#39; personal sites.</description>
     <atom:link href="https://lobsters-planet.thangqt.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <lastBuildDate>Mon, 20 Jul 2026 20:29:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 09:28:24 +0000</lastBuildDate>
+    <item>
+      <title>Reducing overly nested Vendir paths</title>
+      <link>https://www.jvt.me/posts/2026/07/21/vendir-nesting/?utm_medium=rss&amp;utm_source=rss</link>
+      <guid isPermaLink="false">https://www.jvt.me/posts/2026/07/21/vendir-nesting/</guid>
+      <description>🤖 This post includes some LLM-derived content 🤖 I&#39;ve recently been using the pattern I described to combine Renovate and Vendir to sync files in a number of repos, as a means to track OpenAPI spec dependencies. However, one thing I&#39;ve found a bit painful is that when using Vendir to track these dependencies, the directory structure gets very nested. For instance, with config such as: # via https://github.com/rootlyhq/rootly-go/blob/61c86b8660b6f25d1e8d8638417de173350dfb61/vendir.yml apiVer…</description>
+      <author>JamieTanna</author>
+      <pubDate>Tue, 21 Jul 2026 08:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wonders of Web Weaving, Episode 11</title>
+      <link>https://jamesg.blog/2026/07/21/www-11</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/21/www-11</guid>
+      <description>The eleventh episode of Wonders of Web Weaving is out: In Episode 11, I chat with flaMEd, the author of flamedfury.com about, among other things, web communities around games and television shows, sharing music interests with a personal website, community in the indie web, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.</description>
+      <author>capjamesg</author>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SSPPGG</title>
+      <link>https://www.tyil.nl/recipes/rubs/ssppgg/</link>
+      <guid isPermaLink="false">https://www.tyil.nl/recipes/rubs/ssppgg/</guid>
+      <description>A li&amp;rsquo;l twist on the BBQ basic SPG, or Salt Pepper Garlic, rub. It works on pretty much anything, but has a bit more depth in flavour.</description>
+      <author>tyil</author>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>2026W28</title>
       <link>https://jordivillar.com/reads/2026w28/</link>
@@ -55,14 +79,6 @@
       <pubDate>Sun, 19 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[Crafts] Copper Ridge Sock</title>
-      <link>https://mitchellkember.com/crafts/copper-ridge-sock</link>
-      <guid isPermaLink="false">https://mitchellkember.com/crafts/copper-ridge-sock</guid>
-      <description>View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…</description>
-      <author>mk12</author>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Of Day</title>
       <link>https://jamesg.blog/2026/07/19/of-day</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/19/of-day</guid>
@@ -71,10 +87,18 @@
       <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>[Crafts] Copper Ridge Sock</title>
+      <link>https://mitchellkember.com/crafts/copper-ridge-sock</link>
+      <guid isPermaLink="false">https://mitchellkember.com/crafts/copper-ridge-sock</guid>
+      <description>View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…</description>
+      <author>mk12</author>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Setup a Simple, Self-Hosted Web Server with OpenBSD</title>
       <link>https://btxx.org/posts/self-hosted-openbsd/</link>
       <guid isPermaLink="false">https://btxx.org/posts/self-hosted-openbsd/</guid>
-      <description>Setup a Simple, Self-Hosted Web Server with OpenBSD 2026-07-18 This website is being served to you from my HP T630 thin client, running OpenBSD and httpd. Pretty cool, right? And best of all you can do the same! I’m going to walkthrough how to host your own websites locally on OpenBSD. This guide is going to be kept simple on purpose, so feel free to expand on it as you see fit! Requirements Getting Started Wireguard The VPS The Local Server Basic Web Server Give Back to the Community Requirem…</description>
+      <description>Setup a Simple, Self-Hosted Web Server with OpenBSD 2026-07-18 This website is being served to you from my HP T630 thin client, running OpenBSD and httpd 1 . Pretty cool, right? And best of all you can do the same! I’m going to walkthrough how to host your own websites locally on OpenBSD. This guide is going to be kept simple on purpose, so feel free to expand on it as you see fit! Requirements Getting Started Wireguard The VPS The Local Server Basic Web Server Give Back to the Community Requi…</description>
       <author>bt</author>
       <pubDate>Sat, 18 Jul 2026 16:00:00 +0000</pubDate>
     </item>
@@ -118,14 +142,6 @@
       <pubDate>Fri, 17 Jul 2026 04:13:12 +0000</pubDate>
     </item>
     <item>
-      <title>Multi-line links on my home page</title>
-      <link>https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page</guid>
-      <description>Every so often, I publish a blog post with a longer title. When this happens, sometimes the post title wraps onto a second line in my list of blog posts on my site home page. This was a tiny detail, but one that I would often notice. Last night, I brought the design to Front End Study Hall, and asked what I could do to make the text better aligned. For context, the following screenshot shows the grid of links on my home page, with one post, the post about an IndieWeb event in the Southeast Asia …</description>
-      <author>capjamesg</author>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Making TLA+ and x86 Kiss Via Z3Py</title>
       <link>https://www.philipzucker.com/kissin_tla/</link>
       <guid isPermaLink="false">https://www.philipzucker.com/kissin_tla</guid>
@@ -146,6 +162,14 @@
       <link>https://jamesg.blog/2026/07/17/category-page-anchor-links</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/17/category-page-anchor-links</guid>
       <description>Earlier today, I wanted to link to a specific year of posts on my Coffee category page. Importantly, all of my posts in a category are listed on a single page. I do this because I like having an overview of all posts on a single page. And, by having all post tiles on one page, I can search for keywords on the page, which I do quite often. This gave me an idea: I could add HTML IDs to the page that let me link to the most recently published post on each day, month, and year? I came up with the fo…</description>
+      <author>capjamesg</author>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-line links on my home page</title>
+      <link>https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page</guid>
+      <description>Every so often, I publish a blog post with a longer title. When this happens, sometimes the post title wraps onto a second line in my list of blog posts on my site home page. This was a tiny detail, but one that I would often notice. Last night, I brought the design to Front End Study Hall, and asked what I could do to make the text better aligned. For context, the following screenshot shows the grid of links on my home page, with one post, the post about an IndieWeb event in the Southeast Asia …</description>
       <author>capjamesg</author>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -174,18 +198,18 @@
       <pubDate>Thu, 16 Jul 2026 09:29:00 +0000</pubDate>
     </item>
     <item>
-      <title>Re: An IndieWeb Event for Southeast Asia / Pacific Time Zones</title>
-      <link>https://jamesg.blog/2026/07/16/indieweb-asia-pacific</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/16/indieweb-asia-pacific</guid>
-      <description>Naty is hosting a new Homebrew Website Club event on Wednesday, August 5, 2026, at 5:30pm to 7:00pm Hong Kong Time (UTC+8). If there is interest, the event may turn become regular! If the time works for you and you love chatting about websites, I recommend checking out the event. Homebrew Website Clubs are always fun, providing a place to chat about what people are building on their websites, the culture of the web, HTML/CSS, writing on the web, and more. This event adds to several other online …</description>
-      <author>capjamesg</author>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Website superpowers</title>
       <link>https://jamesg.blog/2026/07/16/website-superpowers</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/16/website-superpowers</guid>
       <description>At Homebrew Website Club this week, Thomas mentioned the term “tag healing” during a discussion about tags. The definition I caught was that tag healing is related to reviewing and, if necessary, consolidating, tags used for blog posts or documents. Someone said that “tag healing” sounded like a superpower, which inspired me to ask: if you could have a website-related super power, what would it be? At first, I wanted my superpower to be instant recall of all the URLs on my website, such …</description>
+      <author>capjamesg</author>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: An IndieWeb Event for Southeast Asia / Pacific Time Zones</title>
+      <link>https://jamesg.blog/2026/07/16/indieweb-asia-pacific</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/16/indieweb-asia-pacific</guid>
+      <description>Naty is hosting a new Homebrew Website Club event on Wednesday, August 5, 2026, at 5:30pm to 7:00pm Hong Kong Time (UTC+8). If there is interest, the event may turn become regular! If the time works for you and you love chatting about websites, I recommend checking out the event. Homebrew Website Clubs are always fun, providing a place to chat about what people are building on their websites, the culture of the web, HTML/CSS, writing on the web, and more. This event adds to several other online …</description>
       <author>capjamesg</author>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -222,11 +246,11 @@
       <pubDate>Tue, 14 Jul 2026 10:21:24 +0000</pubDate>
     </item>
     <item>
-      <title>Sunset</title>
-      <link>https://jamesg.blog/2026/07/14/sunset</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/14/sunset</guid>
-      <description>The valley, almost invisible. The most intense degree of aerial perspective whitens the distance below the sun. Looking through the trees I see haze. The hills fade into the ether. The occasional contour of a tree in the distance is visible. I have never seen a sunset like the one I have seen this evening. There are songs I feel; songs I need to play. I go to my piano. I play. I come back. I might have seen a sunset like this before, but it has been a while. What I see rhymes with other sunsets …</description>
-      <author>capjamesg</author>
+      <title>Perspectives on LLM-assisted development</title>
+      <link>https://jo3-l.dev/posts/llms-and-swe/</link>
+      <guid isPermaLink="false">https://jo3-l.dev/posts/llms-and-swe/</guid>
+      <description>Articles and posts about LLM-assisted development that I found interesting and are not slop, plus some of my opinions</description>
+      <author>jo3_l</author>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -238,11 +262,11 @@
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Perspectives on LLM-assisted development</title>
-      <link>https://jo3-l.dev/posts/llms-and-swe/</link>
-      <guid isPermaLink="false">https://jo3-l.dev/posts/llms-and-swe/</guid>
-      <description>Articles and posts about LLM-assisted development that I found interesting and are not slop, plus some of my opinions</description>
-      <author>jo3_l</author>
+      <title>Sunset</title>
+      <link>https://jamesg.blog/2026/07/14/sunset</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/14/sunset</guid>
+      <description>The valley, almost invisible. The most intense degree of aerial perspective whitens the distance below the sun. Looking through the trees I see haze. The hills fade into the ether. The occasional contour of a tree in the distance is visible. I have never seen a sunset like the one I have seen this evening. There are songs I feel; songs I need to play. I go to my piano. I play. I come back. I might have seen a sunset like this before, but it has been a while. What I see rhymes with other sunsets …</description>
+      <author>capjamesg</author>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -294,19 +318,19 @@
       <pubDate>Mon, 13 Jul 2026 05:41:35 +0000</pubDate>
     </item>
     <item>
-      <title>Yes-Brainer — A Council of AI Models</title>
-      <link>https://trekhleb.dev/blog/2026/yesbrainer/</link>
-      <guid isPermaLink="false">https://trekhleb.dev/blog/2026/yesbrainer/</guid>
-      <description>Yes-Brainer is a council of AI models for the decisions that aren&#39;t no-brainers. One question fans out to several models — they answer in parallel, debate to consensus, or get judged to a verdict. No backend, no accounts: your keys, your browser.</description>
-      <author>trekhleb</author>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>‘Repeat that, repeat’ (Collaborative writing)</title>
       <link>https://jamesg.blog/2026/07/13/repeat-that-repeat</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/13/repeat-that-repeat</guid>
       <description>Ruben and I are doing a collaborative writing challenge where we both write our thoughts on the poem “Repeat that, repeat” by Gerard Manley Hopkins. We’re not trying to do an academic formal analysis, rather share our own thoughts. You can read Ruben&#39;s post on his website. If you are interested in writing your thoughts on the poem on your website, you are most welcome! Email me if you write your own reflections, and I’ll add a link to your post if you write one at the bottom of this arti…</description>
       <author>capjamesg</author>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes-Brainer — A Council of AI Models</title>
+      <link>https://trekhleb.dev/blog/2026/yesbrainer/</link>
+      <guid isPermaLink="false">https://trekhleb.dev/blog/2026/yesbrainer/</guid>
+      <description>Yes-Brainer is a council of AI models for the decisions that aren&#39;t no-brainers. One question fans out to several models — they answer in parallel, debate to consensus, or get judged to a verdict. No backend, no accounts: your keys, your browser.</description>
+      <author>trekhleb</author>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -366,10 +390,18 @@
       <pubDate>Sat, 11 Jul 2026 06:31:20 +0000</pubDate>
     </item>
     <item>
-      <title>Joys</title>
-      <link>https://jamesg.blog/2026/07/11/joys</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/joys</guid>
-      <description>Here are a few moments that have brought me joy and have written down while wandering through the world. The Joys, of: Looking back on the year and seeing how many new things I have done.Seeing people start their day - of realising I, too, am starting my day.A friend pointing out an accessibility feature in the train station — of remembering that moment as I navigate my own environment in a different city. I think of the connections between where I am and where I have been; between places near…</description>
+      <title>Reflection</title>
+      <link>https://jamesg.blog/2026/07/11/reflection</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/reflection</guid>
+      <description>Outside one of my childhood bedrooms there was a tree, a single tree. I see the tree vividly in my mind, and remember tracking it as the seasons changed – watching out for the first blossom, followed by the maturity of the leaves, then again by their browning as summer became autumn and autumn became winter. I saw the seasons while I lived them. In the moment I didn&#39;t think anything of the allure of the tree – why did the tree matter so much to me? Was it because there was only one tree that…</description>
+      <author>capjamesg</author>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Winter</title>
+      <link>https://jamesg.blog/2026/07/11/winter</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/winter</guid>
+      <description>Speaking of trains, I tell a story of Winter to my friend, of the train that stopped in the village station on an evening so cold my fellow passengers and I could see our breaths. The local pub offered refuge to all those who wanted to sit in the warmth. I wanted to feel a bit more of the cold – to see my breath; to feel all the parts of me. Anxiety warms the cold, too. Reflecting on the story of Winter, in the cold, there was nothing but warmth. My hands were likely almost immovable, frozen b…</description>
       <author>capjamesg</author>
       <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -390,18 +422,10 @@
       <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reflection</title>
-      <link>https://jamesg.blog/2026/07/11/reflection</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/reflection</guid>
-      <description>Outside one of my childhood bedrooms there was a tree, a single tree. I see the tree vividly in my mind, and remember tracking it as the seasons changed – watching out for the first blossom, followed by the maturity of the leaves, then again by their browning as summer became autumn and autumn became winter. I saw the seasons while I lived them. In the moment I didn&#39;t think anything of the allure of the tree – why did the tree matter so much to me? Was it because there was only one tree that…</description>
-      <author>capjamesg</author>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Winter</title>
-      <link>https://jamesg.blog/2026/07/11/winter</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/winter</guid>
-      <description>Speaking of trains, I tell a story of Winter to my friend, of the train that stopped in the village station on an evening so cold my fellow passengers and I could see our breaths. The local pub offered refuge to all those who wanted to sit in the warmth. I wanted to feel a bit more of the cold – to see my breath; to feel all the parts of me. Anxiety warms the cold, too. Reflecting on the story of Winter, in the cold, there was nothing but warmth. My hands were likely almost immovable, frozen b…</description>
+      <title>Joys</title>
+      <link>https://jamesg.blog/2026/07/11/joys</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/11/joys</guid>
+      <description>Here are a few moments that have brought me joy and have written down while wandering through the world. The Joys, of: Looking back on the year and seeing how many new things I have done.Seeing people start their day - of realising I, too, am starting my day.A friend pointing out an accessibility feature in the train station — of remembering that moment as I navigate my own environment in a different city. I think of the connections between where I am and where I have been; between places near…</description>
       <author>capjamesg</author>
       <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -412,6 +436,22 @@
       <description>I&#39;ve just had a lovely restorative and action-packed couple of weeks holiday in Canada 🍁 (more on that over the weekend) - in the meantime, dare I ask &#34;what have I missed&#34;? 🫣</description>
       <author>JamieTanna</author>
       <pubDate>Fri, 10 Jul 2026 11:28:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lifting Terms: Making Well Scoped Syntax Dumber</title>
+      <link>https://www.philipzucker.com/thin_term/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/thin_term</guid>
+      <description>I have been writing posts about Lifting Egraphs video as an intriguing way of adding variables and scope into an egraph. But pulling back a little, I can see that the simpler thing to talk about first is lifting terms.</description>
+      <author>philzook</author>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Now</title>
+      <link>https://bernat.tech/now/</link>
+      <guid isPermaLink="false">https://bernat.tech/now/</guid>
+      <description>&amp;lt;p&amp;gt;A &amp;lt;a href=&amp;#34;https://nownownow.com/about&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;noopener noreferrer&amp;#34;&amp;gt;now page&amp;lt;/a&amp;gt; : what has my attention this month. Last updated 2026-07-10.&amp;lt;/p&amp;gt; &amp;lt;h2 id=&amp;#34;building&amp;#34;&amp;gt; Building &amp;lt;a class=&amp;#34;heading-link&amp;#34; href=&amp;#34;#building&amp;#34;&amp;gt; &amp;lt;i class=&amp;#34;fa-solid fa-link&amp;#34; aria-hidden=&amp;#34;true&amp;#34; title=&amp;#34;Link to heading&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;span class=&amp;#34;sr-only&amp;#34;&amp;gt;Link to heading&amp;lt;/span&amp;gt; &amp;lt;/a…</description>
+      <author>gaborjbernat</author>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Gardens</title>
@@ -427,22 +467,6 @@
       <guid isPermaLink="false">https://abhamra.com/blog/dont-want-to-be-optimal/</guid>
       <description>Word Count: 291 I don&#39;t want to be optimal. I am not a process, I don&#39;t need to be streamlined. I don’t want enough money to waive every single hassle a person experiences. I don&#39;t need to remove all distractions, to utilize every second of the day, even though it haunts me that I&#39;m not productive all the time. My days are not always fruitful, and full of wasted potential; an optimized me, a perfect rendition, would be producing useful and creative ideas without rest, surely. And yet, that ver…</description>
       <author>aphaelion</author>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Now</title>
-      <link>https://bernat.tech/now/</link>
-      <guid isPermaLink="false">https://bernat.tech/now/</guid>
-      <description>&amp;lt;p&amp;gt;A &amp;lt;a href=&amp;#34;https://nownownow.com/about&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;noopener noreferrer&amp;#34;&amp;gt;now page&amp;lt;/a&amp;gt; : what has my attention this month. Last updated 2026-07-10.&amp;lt;/p&amp;gt; &amp;lt;h2 id=&amp;#34;building&amp;#34;&amp;gt; Building &amp;lt;a class=&amp;#34;heading-link&amp;#34; href=&amp;#34;#building&amp;#34;&amp;gt; &amp;lt;i class=&amp;#34;fa-solid fa-link&amp;#34; aria-hidden=&amp;#34;true&amp;#34; title=&amp;#34;Link to heading&amp;#34;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;span class=&amp;#34;sr-only&amp;#34;&amp;gt;Link to heading&amp;lt;/span&amp;gt; &amp;lt;/a…</description>
-      <author>gaborjbernat</author>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lifting Terms: Making Well Scoped Syntax Dumber</title>
-      <link>https://www.philipzucker.com/thin_term/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/thin_term</guid>
-      <description>I have been writing posts about Lifting Egraphs video as an intriguing way of adding variables and scope into an egraph. But pulling back a little, I can see that the simpler thing to talk about first is lifting terms.</description>
-      <author>philzook</author>
       <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -470,18 +494,18 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sunset; music</title>
-      <link>https://jamesg.blog/2026/07/09/music-at-sunset</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/09/music-at-sunset</guid>
-      <description>The horizon is bathed in orange and a faint pink hue as the hills in the middle distance turn blue with the haze of the summer’s evening. Light white clouds are scattered across the sky. Looking at the clouds, I see art; looking around at the hills and fields I see art, too. I think of the colour Turner used in his paintings. How many times did he look to the sky to find what colour to use? How do I find the words to describe what I see and create an impression in your eye? The orange glow on …</description>
-      <author>capjamesg</author>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>75 reasons to start a personal website</title>
       <link>https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website</guid>
       <description>I love having a personal website. Here, I share reflections, stories, thoughts, ideas, and more. Because I have a website, I always have the idea in the back of my mind that there is a place for my writing. I can write a story and share it with friends, and even the world. What I write might not be perfect, but it is mine. This is my home for my creative works. Earlier today, I read Kaia make an argument for having a personal website that really struck a chord with me: so this manifesto isnt ove…</description>
+      <author>capjamesg</author>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sunset; music</title>
+      <link>https://jamesg.blog/2026/07/09/music-at-sunset</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/09/music-at-sunset</guid>
+      <description>The horizon is bathed in orange and a faint pink hue as the hills in the middle distance turn blue with the haze of the summer’s evening. Light white clouds are scattered across the sky. Looking at the clouds, I see art; looking around at the hills and fields I see art, too. I think of the colour Turner used in his paintings. How many times did he look to the sky to find what colour to use? How do I find the words to describe what I see and create an impression in your eye? The orange glow on …</description>
       <author>capjamesg</author>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -542,19 +566,19 @@
       <pubDate>Tue, 07 Jul 2026 03:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>My Interview With Ludic</title>
-      <link>https://nrposner.com/blog/my-interview-with-ludic/</link>
-      <guid isPermaLink="false">https://nrposner.com/blog/my-interview-with-ludic/</guid>
-      <description>One of my main inspiration these last few years, especially for my consultancy, is Nikhil Suresh, aka Ludic . Last week, I spoke to him to ask him about his experience setting up Hermit Tech , consulting practices and pitfalls, and funny stories. I got permission to share most of my notes (except the parts that might be legally dicey) here. This reflects my own notes, paraphrasing and moving things around in order to make more sense. What prominent consulting advice should I take or not take? Ch…</description>
-      <author>nrposner</author>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Wonders of Web Weaving, Episode 9</title>
       <link>https://jamesg.blog/2026/07/07/www-9</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/07/www-9</guid>
       <description>The ninth episode of Wonders of Web Weaving is out: In Episode 9, I chat with Rachel, the author of kwon.nyc and curator of &#34;The internet used to be* fun *(It still is, but it used to be, too)&#34;. We talk about, among other things, metaphors for the web, creative mediums on the web, physical creative spaces, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.</description>
       <author>capjamesg</author>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Interview With Ludic</title>
+      <link>https://nrposner.com/blog/my-interview-with-ludic/</link>
+      <guid isPermaLink="false">https://nrposner.com/blog/my-interview-with-ludic/</guid>
+      <description>One of my main inspiration these last few years, especially for my consultancy, is Nikhil Suresh, aka Ludic . Last week, I spoke to him to ask him about his experience setting up Hermit Tech , consulting practices and pitfalls, and funny stories. I got permission to share most of my notes (except the parts that might be legally dicey) here. This reflects my own notes, paraphrasing and moving things around in order to make more sense. What prominent consulting advice should I take or not take? Ch…</description>
+      <author>nrposner</author>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -606,6 +630,22 @@
       <pubDate>Sun, 05 Jul 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Kaizen #4: Overhauled homelab</title>
+      <link>https://timharek.no/blog/kaizen-4/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/kaizen-4/</guid>
+      <description>I started this “blog-series” to force myself to write more about my set up, and my continuous iterations. But it didn’t happen… until today! This post has been a long time coming, and I have kept the ideas in my head and notes. I will walk through everything I did, in order: Previous setup Network situation What I self-hosted Networking Fiber adventure Wiring Wiring the garage The new server The new setup Debian Dokploy Media Jellyfin Immich Files Monitoring Miscellaneous qBittorrent Lin…</description>
+      <author>timharek</author>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What does a blog post sound like?</title>
+      <link>https://jamesg.blog/2026/07/05/what-does-a-blog-post-sound-like</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/what-does-a-blog-post-sound-like</guid>
+      <description>As I write, I hear the keys on my keyboard pressing down – the sounds are fast, rhythmic, comforting. I hear the whirr of a hard drive in the background, and the occasional car walk past. Every so often, bird song comes into the foreground; I hear the calls of birds in the distance now. I hear my breath as I breathe in and out. I take a deep breath. I keep writing. This week I wrote down a question in my notes: what does a blog post sound like? I reasoned that there are two perspectives from w…</description>
+      <author>capjamesg</author>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>IndieWebCamp Nürnberg 2026</title>
       <link>https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026</guid>
@@ -618,22 +658,6 @@
       <link>https://jamesg.blog/2026/07/05/star</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/05/star</guid>
       <description>First star — in the sky next to the tall Gothic monument in the town square, a square with many outdoor restaurants — people laugh and take pictures, eat ice cream, stroll, enjoy the moment. I love watching the world. Of seeing colours and tenors and of hearing sounds that you can only appreciate when out in the world — the sound of a bike breaking in the cobblestone, manoeuvring with ease through the town square. Written in Hauptmarkt, Nürnberg.</description>
-      <author>capjamesg</author>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What does a blog post sound like?</title>
-      <link>https://jamesg.blog/2026/07/05/what-does-a-blog-post-sound-like</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/what-does-a-blog-post-sound-like</guid>
-      <description>As I write, I hear the keys on my keyboard pressing down – the sounds are fast, rhythmic, comforting. I hear the whirr of a hard drive in the background, and the occasional car walk past. Every so often, bird song comes into the foreground; I hear the calls of birds in the distance now. I hear my breath as I breathe in and out. I take a deep breath. I keep writing. This week I wrote down a question in my notes: what does a blog post sound like? I reasoned that there are two perspectives from w…</description>
-      <author>capjamesg</author>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forest</title>
-      <link>https://jamesg.blog/2026/07/05/forest</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/forest</guid>
-      <description>You look up from your bed of grass flowers, opening your eyes to see the layers of branches grown by the trees in the grove that surrounds you. The blue sky peeks through the gaps between the leaves. The sunlight that shines through and onto the leaves and branches leaves you with the feeling that, right now, today is both a new day and an aging day. Is it morning or evening? The air is warm, heavy; there is no relief from the heat except for the distraction that comes from your wandering mind. …</description>
       <author>capjamesg</author>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -654,11 +678,19 @@
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Kaizen #4: Overhauled homelab</title>
-      <link>https://timharek.no/blog/kaizen-4/</link>
-      <guid isPermaLink="false">https://timharek.no/blog/kaizen-4/</guid>
-      <description>I started this “blog-series” to force myself to write more about my set up, and my continuous iterations. But it didn’t happen… until today! This post has been a long time coming, and I have kept the ideas in my head and notes. I will walk through everything I did, in order: Previous setup Network situation What I self-hosted Networking Fiber adventure Wiring Wiring the garage The new server The new setup Debian Dokploy Media Jellyfin Immich Files Monitoring Miscellaneous qBittorrent Lin…</description>
-      <author>timharek</author>
+      <title>Author/reader interaction on the indie web</title>
+      <link>https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web</guid>
+      <description>Every so often I hear or read about the significance of readers as part of the indie web. Indeed, the indie web is about much more than making personal websites: it is a space where there are many personal websites to explore. You don’t need a personal website to explore the indie web. And while having a personal website is a way to participate in the indie web, reading is participating, albeit, but in a different way. There are also middle points: for example, being a reader and starting a di…</description>
+      <author>capjamesg</author>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forest</title>
+      <link>https://jamesg.blog/2026/07/05/forest</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/forest</guid>
+      <description>You look up from your bed of grass flowers, opening your eyes to see the layers of branches grown by the trees in the grove that surrounds you. The blue sky peeks through the gaps between the leaves. The sunlight that shines through and onto the leaves and branches leaves you with the feeling that, right now, today is both a new day and an aging day. Is it morning or evening? The air is warm, heavy; there is no relief from the heat except for the distraction that comes from your wandering mind. …</description>
+      <author>capjamesg</author>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -666,14 +698,6 @@
       <link>https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working</guid>
       <description>A few weeks ago, I received a bug report for Artemis that indicated a user’s reader was not being updated as expected. This error was caused by a feed that caused the polling code to error out and stop. My code assumed a value was present and, if it wasn’t, the program would stop running. To understand this bug, you need to know how Artemis retrieves feeds. Artemis polls feeds once per hour. A feed is only polled if there is at least one user for whom it is midnight in their time zone. This …</description>
-      <author>capjamesg</author>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Author/reader interaction on the indie web</title>
-      <link>https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web</guid>
-      <description>Every so often I hear or read about the significance of readers as part of the indie web. Indeed, the indie web is about much more than making personal websites: it is a space where there are many personal websites to explore. You don’t need a personal website to explore the indie web. And while having a personal website is a way to participate in the indie web, reading is participating, albeit, but in a different way. There are also middle points: for example, being a reader and starting a di…</description>
       <author>capjamesg</author>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -686,10 +710,10 @@
       <pubDate>Sat, 04 Jul 2026 20:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>Deduplicating posts after URL changes in Artemis</title>
-      <link>https://jamesg.blog/2026/07/04/artemis-url-deduplication</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/04/artemis-url-deduplication</guid>
-      <description>Occasionally, sites that publish web feeds change the URL of a post that has just been published. This can be for several reasons. For example, I sometimes change post permalinks immediately after publishing because I notice a typo, or because the CMS I use calculated a default permalink that I don’t want to use and I forgot to change it. Until now, Artemis, the calm web reader I maintain, has done nothing if a post has changed its permalink. Importantly, Artemis considers the post URL as a un…</description>
+      <title>Processing feed items without URLs in Artemis</title>
+      <link>https://jamesg.blog/2026/07/04/processing-feed-items-without-urls</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/04/processing-feed-items-without-urls</guid>
+      <description>Artemis, the calm web reader I maintain, supports web feeds marked up with h-feed. h-feed allows you to create a web feed in HTML using microformats. A h-feed may contain zero or more h-entries, each h-entry representing an entry in the feed. For example, my longform feed page is a h-entry. I use Granary to convert the longform feed page into RSS. While h-feed is commonly used for marking up lists of blog posts, it can be used for anything. For example, Tantek has a “daylists” page on his we…</description>
       <author>capjamesg</author>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -702,6 +726,14 @@
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Deduplicating posts after URL changes in Artemis</title>
+      <link>https://jamesg.blog/2026/07/04/artemis-url-deduplication</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/07/04/artemis-url-deduplication</guid>
+      <description>Occasionally, sites that publish web feeds change the URL of a post that has just been published. This can be for several reasons. For example, I sometimes change post permalinks immediately after publishing because I notice a typo, or because the CMS I use calculated a default permalink that I don’t want to use and I forgot to change it. Until now, Artemis, the calm web reader I maintain, has done nothing if a post has changed its permalink. Importantly, Artemis considers the post URL as a un…</description>
+      <author>capjamesg</author>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Small wishes, II</title>
       <link>https://jamesg.blog/2026/07/04/small-wishes-ii</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/07/04/small-wishes-ii</guid>
@@ -710,19 +742,11 @@
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Processing feed items without URLs in Artemis</title>
-      <link>https://jamesg.blog/2026/07/04/processing-feed-items-without-urls</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/07/04/processing-feed-items-without-urls</guid>
-      <description>Artemis, the calm web reader I maintain, supports web feeds marked up with h-feed. h-feed allows you to create a web feed in HTML using microformats. A h-feed may contain zero or more h-entries, each h-entry representing an entry in the feed. For example, my longform feed page is a h-entry. I use Granary to convert the longform feed page into RSS. While h-feed is commonly used for marking up lists of blog posts, it can be used for anything. For example, Tantek has a “daylists” page on his we…</description>
-      <author>capjamesg</author>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Process names: The forgotten Observability channel</title>
-      <link>https://theorangeone.net/posts/process-name-observability/?utm_medium=rss&amp;utm_source=feed-all</link>
-      <guid isPermaLink="false">https://theorangeone.net/posts/process-name-observability/</guid>
-      <description>When it comes to observability, especially in an incident, more data is usually better. Without data, it&#39;s almost impossible to know what&#39;s going on. With insufficient data, you only get half the picture. More data isn&#39;t always better. The more data there is, the more you have to sift through. If you&#39;re going to have a lot of data, it had better be useful. Observability tools will generally collect… Continue Reading…</description>
-      <author>theorangeone</author>
+      <title>Homepage polish pass III. Removed scanline screen textures in favour of soft ra…</title>
+      <link>https://www.sillylaird.ca/changelog/</link>
+      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-03</guid>
+      <description>Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.</description>
+      <author>sillylaird</author>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -734,11 +758,11 @@
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Homepage polish pass III. Removed scanline screen textures in favour of soft ra…</title>
-      <link>https://www.sillylaird.ca/changelog/</link>
-      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-03</guid>
-      <description>Homepage polish pass III. Removed scanline screen textures in favour of soft radial ambient glows; improved secondary text contrast, prose typography for blog/changelog panels, and section breathing room. The vibe video placeholder now uses a terminal-style overlay; protocol pills gained a sidebar alt-nets nav; Friends, Countries, and Buttons collapse into accordions on mobile. Images stay PNG — no WebP conversion.</description>
-      <author>sillylaird</author>
+      <title>Process names: The forgotten Observability channel</title>
+      <link>https://theorangeone.net/posts/process-name-observability/?utm_medium=rss&amp;utm_source=feed-all</link>
+      <guid isPermaLink="false">https://theorangeone.net/posts/process-name-observability/</guid>
+      <description>When it comes to observability, especially in an incident, more data is usually better. Without data, it&#39;s almost impossible to know what&#39;s going on. With insufficient data, you only get half the picture. More data isn&#39;t always better. The more data there is, the more you have to sift through. If you&#39;re going to have a lot of data, it had better be useful. Observability tools will generally collect… Continue Reading…</description>
+      <author>theorangeone</author>
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -782,19 +806,19 @@
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>June 2026</title>
-      <link>https://timharek.no/blog/2026-june-recently/</link>
-      <guid isPermaLink="false">https://timharek.no/blog/2026-june-recently/</guid>
-      <description>2026 is officially 50% done. My goal for this month’s post was to have a proper tagline for the lead, but I can’t think of anything… 🍀 Life Our youngest daughter is growing and “waking up”! It’s still so amazing to see tiny progress every day, and that she’s paying more and more attention. And our oldest is getting big, she’s turning three soon! At work we’ve been busy catching up to new and old leads, following through on projects, finishing things up, clearing up loose end…</description>
-      <author>timharek</author>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Visual polish pass across the homepage and startpage. Added a hero block with t…</title>
       <link>https://www.sillylaird.ca/changelog/</link>
       <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-07-01</guid>
       <description>Visual polish pass across the homepage and startpage. Added a hero block with the Lain avatar, animated monospace tagline, and a more prominent &#34;Where to start&#34; card grid with emoji icons and neon accent hovers. Introduced subtle CSS-only ambient background textures (soft radial glows in dark mode, paper grain in light mode), section accent underlines, timeline-style update panels, guestbook card containers, and unified badge hover styling for friends/country/tile grids. Protocol pills and theme…</description>
       <author>sillylaird</author>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>June 2026</title>
+      <link>https://timharek.no/blog/2026-june-recently/</link>
+      <guid isPermaLink="false">https://timharek.no/blog/2026-june-recently/</guid>
+      <description>2026 is officially 50% done. My goal for this month’s post was to have a proper tagline for the lead, but I can’t think of anything… 🍀 Life Our youngest daughter is growing and “waking up”! It’s still so amazing to see tiny progress every day, and that she’s paying more and more attention. And our oldest is getting big, she’s turning three soon! At work we’ve been busy catching up to new and old leads, following through on projects, finishing things up, clearing up loose end…</description>
+      <author>timharek</author>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -901,18 +925,18 @@
       <pubDate>Sat, 27 Jun 2026 04:24:59 +0000</pubDate>
     </item>
     <item>
-      <title>The Mobility Paradox: EVs Need a New Ecosystem</title>
-      <link>https://gokmengorgen.net/2026/06/27/the-mobility-paradox-evs-need-a-new-ecosystem/</link>
-      <guid isPermaLink="false">https://gokmengorgen.net/2026/06/27/the-mobility-paradox-evs-need-a-new-ecosystem/</guid>
-      <description>There is a fundamental inconsistency between what consumers expect from transportation and what today’s electric vehicle market actually delivers. Most people want more comfort and less planning. They don’t want to drive. They don’t want to think about annual maintenance, tire pressure, or oil changes. They want to get in, go, and arrive — without any mental overhead. Enter the electric vehicle, marketed as the future. But instead of freedom, it demands more: plan your route around charg…</description>
-      <author>goedev</author>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Cloud Design Patterns: A Practical Tour</title>
       <link>https://gokmengorgen.net/2026/06/27/cloud-design-patterns-a-practical-tour/</link>
       <guid isPermaLink="false">https://gokmengorgen.net/2026/06/27/cloud-design-patterns-a-practical-tour/</guid>
       <description>Maybe you’ve had a different experience, but I’ve never once looked at a system and said, “This is perfect, we’re done here.” There is always a new requirement, a shifting bottleneck, or a sudden spike in traffic. You can’t build a distributed system without at least one of your services eventually collapsing under the weight of its own dependencies. It’s a rite of passage. This is a tour of the patterns I keep reaching for across backend systems — written for engineers new to di…</description>
+      <author>goedev</author>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Mobility Paradox: EVs Need a New Ecosystem</title>
+      <link>https://gokmengorgen.net/2026/06/27/the-mobility-paradox-evs-need-a-new-ecosystem/</link>
+      <guid isPermaLink="false">https://gokmengorgen.net/2026/06/27/the-mobility-paradox-evs-need-a-new-ecosystem/</guid>
+      <description>There is a fundamental inconsistency between what consumers expect from transportation and what today’s electric vehicle market actually delivers. Most people want more comfort and less planning. They don’t want to drive. They don’t want to think about annual maintenance, tire pressure, or oil changes. They want to get in, go, and arrive — without any mental overhead. Enter the electric vehicle, marketed as the future. But instead of freedom, it demands more: plan your route around charg…</description>
       <author>goedev</author>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -972,10 +996,10 @@
       <pubDate>Thu, 25 Jun 2026 06:27:50 +0000</pubDate>
     </item>
     <item>
-      <title>Unnatural</title>
-      <link>https://jamesg.blog/2026/06/25/unnatural</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/06/25/unnatural</guid>
-      <description>Content warning: This poem is about the ongoing heat in Europe. I strike an optimistic tone toward the end, but if you would prefer not to read about the heat, I offer you one of the Scottish poems I have written in stead. Nature’s weary tears fill the air; invisible, warming. Relentlessly, days proceed. Hours pass; Celsius rises. Midnights: warm like day. We stay inside. Blinds closed, water glasses full, cookers off. Flowers bloom early. Eyelids weigh; we yearn for rest that does not come. H…</description>
+      <title>Make your own web quizzes!</title>
+      <link>https://jamesg.blog/2026/06/25/make-your-own-web-quizzes</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/06/25/make-your-own-web-quizzes</guid>
+      <description>When I announced that I was open-sourcing a quiz maker earlier this week, I noted that there were several limitations to what I had built. Most importantly, my quiz maker was a Python script, which substantially limits how many people can use it. After writing the blog post, Kami has made a HTML quiz maker that works in the browser. You can read the write-up on her blog, and try out the quiz maker for yourself. I helped out with the styles, which I really enjoyed. It is always nice to have a new…</description>
       <author>capjamesg</author>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -988,10 +1012,10 @@
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Make your own web quizzes!</title>
-      <link>https://jamesg.blog/2026/06/25/make-your-own-web-quizzes</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/06/25/make-your-own-web-quizzes</guid>
-      <description>When I announced that I was open-sourcing a quiz maker earlier this week, I noted that there were several limitations to what I had built. Most importantly, my quiz maker was a Python script, which substantially limits how many people can use it. After writing the blog post, Kami has made a HTML quiz maker that works in the browser. You can read the write-up on her blog, and try out the quiz maker for yourself. I helped out with the styles, which I really enjoyed. It is always nice to have a new…</description>
+      <title>Unnatural</title>
+      <link>https://jamesg.blog/2026/06/25/unnatural</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/06/25/unnatural</guid>
+      <description>Content warning: This poem is about the ongoing heat in Europe. I strike an optimistic tone toward the end, but if you would prefer not to read about the heat, I offer you one of the Scottish poems I have written in stead. Nature’s weary tears fill the air; invisible, warming. Relentlessly, days proceed. Hours pass; Celsius rises. Midnights: warm like day. We stay inside. Blinds closed, water glasses full, cookers off. Flowers bloom early. Eyelids weigh; we yearn for rest that does not come. H…</description>
       <author>capjamesg</author>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1036,14 +1060,6 @@
       <pubDate>Wed, 24 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wonders of Web Weaving, Episode 7</title>
-      <link>https://jamesg.blog/2026/06/23/wonders-of-web-weaving-episode-7</link>
-      <guid isPermaLink="false">https://jamesg.blog/2026/06/23/wonders-of-web-weaving-episode-7</guid>
-      <description>The seventh episode of Wonders of Web Weaving is out: In Episode 7, I chat with Ana, the author of ohhelloana.blog. We talk about, among other things, the growth we see in our websites over time, finding an in-person indie web community, and connecting with people using personal websites. I hope you enjoy the episode! Wonders of Web Weaving has an RSS feed you can use to follow along from wherever you get your podcasts.</description>
-      <author>capjamesg</author>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Follow the PATH, Part 3: Python Virtual Environments</title>
       <link>https://kai.dev/posts/follow-the-path-part-3-python-virtual-environments/</link>
       <guid isPermaLink="false">https://kai.dev/posts/follow-the-path-part-3-python-virtual-environments/</guid>
@@ -1056,6 +1072,14 @@
       <link>https://jamesg.blog/2026/06/23/stars</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/06/23/stars</guid>
       <description>I am continuing to experiment with writing some fiction on this blog. Here is a story I wrote today. Where were words when you needed them the most? Lena had been searching for the answer to that question for her whole life. For Lena, telling a story to light coming from a million miles away felt somehow easier, more comforting, than looking someone in the eye. A woman of few words since childhood, when “please” and “thank you” comprised most of what she said, the light of the stars open…</description>
+      <author>capjamesg</author>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wonders of Web Weaving, Episode 7</title>
+      <link>https://jamesg.blog/2026/06/23/wonders-of-web-weaving-episode-7</link>
+      <guid isPermaLink="false">https://jamesg.blog/2026/06/23/wonders-of-web-weaving-episode-7</guid>
+      <description>The seventh episode of Wonders of Web Weaving is out: In Episode 7, I chat with Ana, the author of ohhelloana.blog. We talk about, among other things, the growth we see in our websites over time, finding an in-person indie web community, and connecting with people using personal websites. I hope you enjoy the episode! Wonders of Web Weaving has an RSS feed you can use to follow along from wherever you get your podcasts.</description>
       <author>capjamesg</author>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1100,18 +1124,18 @@
       <pubDate>Mon, 22 Jun 2026 01:41:04 +0000</pubDate>
     </item>
     <item>
-      <title>Which microformat are you? [Quiz]</title>
-      <link>https://jamesg.blog/microformats-quiz</link>
-      <guid isPermaLink="false">https://jamesg.blog/microformats-quiz</guid>
-      <description>Have you ever wondered which microformat best suits your personality? If so, this quiz is for you! Answer the following questions to find out which microformats2 classes best embody your personality. Also: happy belated 21st dt-bday to microformats! (Celebrated on 20 June, 2026) Question 1 If you could choose a career from the following options, which would you choose? Cartographer Explorer Musician Restaurant critic Writer Biographer Surfer Photographer Web developer I&#39;d want to spend all my da…</description>
-      <author>capjamesg</author>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Inside; outside</title>
       <link>https://jamesg.blog/2026/06/22/inside-outside</link>
       <guid isPermaLink="false">https://jamesg.blog/2026/06/22/inside-outside</guid>
       <description>Looking idly out the window of my favourite coffee shop, sipping on a cool iced latte that I needed after a long walk on a warm summer’s afternoon, a thought came to mind: Why am I so fascinated by the outside world when I just sat down inside? Even now, back at my desk, I find my eyes occasionally looking out the window. I see a black cat walking slowly on the pavement, someone leaning into a friend’s car window to chat, and the vistas of greens – the dark greens of trees and the lighter …</description>
+      <author>capjamesg</author>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Which microformat are you? [Quiz]</title>
+      <link>https://jamesg.blog/microformats-quiz</link>
+      <guid isPermaLink="false">https://jamesg.blog/microformats-quiz</guid>
+      <description>Have you ever wondered which microformat best suits your personality? If so, this quiz is for you! Answer the following questions to find out which microformats2 classes best embody your personality. Also: happy belated 21st dt-bday to microformats! (Celebrated on 20 June, 2026) Question 1 If you could choose a career from the following options, which would you choose? Cartographer Explorer Musician Restaurant critic Writer Biographer Surfer Photographer Web developer I&#39;d want to spend all my da…</description>
       <author>capjamesg</author>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1171,14 +1195,6 @@
       <pubDate>Sun, 21 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Getting Wayland to work on unprivileged Incus container</title>
-      <link>https://runxiyu.org/comp/incuswl/</link>
-      <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
-      <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
-      <author>runxiyu</author>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DeFi Theater: Why Polymarket&#39;s Incentives Don&#39;t Reward the Truth</title>
       <link>https://omarabid.com/polymarket-bet/</link>
       <guid isPermaLink="false">https://omarabid.com/polymarket-bet/</guid>
@@ -1192,6 +1208,14 @@
       <guid isPermaLink="false">https://jamesg.blog/2026/06/21/small-wishes</guid>
       <description>I like to wish people a happy day, and so many of my conversations start with “Happy Sunday”, or similar. Today I was able to add an additional well-wish: “Happy Solstice!” As I write, it is 9pm and the sun is still radiating over the hills. Trees cast long shadows over the quiet fields. The pattern of branches at the top of a tree reminded me of a village Kirk I saw earlier today. I started my morning with a long walk followed by a (decaf) coffee. I love when I can start the day with a …</description>
       <author>capjamesg</author>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Wayland to work on unprivileged Incus container</title>
+      <link>https://runxiyu.org/comp/incuswl/</link>
+      <guid isPermaLink="false">https://runxiyu.org/comp/incuswl/</guid>
+      <description>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</description>
+      <author>runxiyu</author>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1275,19 +1299,19 @@
       <pubDate>Wed, 17 Jun 2026 03:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into c…</title>
-      <link>https://www.sillylaird.ca/changelog/</link>
-      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-06-17</guid>
-      <description>Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into coloured monospace protocol pills in the header, collapsed the theme and language controls to icon buttons, and added a desktop homepage sidebar for quick orientation. Reworked &#34;Where to start&#34; into compact entry cards, simplified the contact block with Tor/I2P and alternate XMPP addresses folded into a details panel, and split the network area into clearer friends, countries, games, and buttons groups. Country links n…</description>
-      <author>sillylaird</author>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Where I&#39;ve been, and the future of this blog</title>
       <link>https://ntietz.com/blog/where-ive-been/?utm_source=atom&amp;utm_medium=feed</link>
       <guid isPermaLink="false">https://ntietz.com/blog/where-ive-been/</guid>
       <description>Recently, I got an email from a reader who noted that I hadn&#39;t published anything in a little while, and he said he hopes I&#39;m doing well. The truth is, some days I am and some days I&#39;m not. I want to share a little bit about what&#39;s been going on, and what the future looks like. This is a pretty vulnerable post, so here&#39;s the deal. I&#39;m going to tell you this, but it&#39;s just between you and me, okay? And there&#39;s one condition: you don&#39;t reach out to me to say &#34;I&#39;m so sorry!&#34; When people share stori…</description>
       <author>ntietz</author>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into c…</title>
+      <link>https://www.sillylaird.ca/changelog/</link>
+      <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-06-17</guid>
+      <description>Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into coloured monospace protocol pills in the header, collapsed the theme and language controls to icon buttons, and added a desktop homepage sidebar for quick orientation. Reworked &#34;Where to start&#34; into compact entry cards, simplified the contact block with Tor/I2P and alternate XMPP addresses folded into a details panel, and split the network area into clearer friends, countries, games, and buttons groups. Country links n…</description>
+      <author>sillylaird</author>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1387,14 +1411,6 @@
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tree 2</title>
-      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
-      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
-      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
-      <author>edsu</author>
-      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tree 1</title>
       <link>https://inkdroid.org/2026/06/14/tree-1/</link>
       <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-1/</guid>
@@ -1403,12 +1419,12 @@
       <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Marcus Aurelius&#39; Fortress of the Mind</title>
-      <link>https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html</link>
-      <guid isPermaLink="false">https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html</guid>
-      <description>Thoughts on &#34;Meditations&#34; by the Roman emperor Marcus Aurelius</description>
-      <author>pyj</author>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      <title>Tree 2</title>
+      <link>https://inkdroid.org/2026/06/14/tree-2/</link>
+      <guid isPermaLink="false">https://inkdroid.org/2026/06/14/tree-2/</guid>
+      <description>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</description>
+      <author>edsu</author>
+      <pubDate>Sun, 14 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>&#34;Load-bearing&#34; is becoming LLM speak</title>
@@ -1416,6 +1432,14 @@
       <guid isPermaLink="false">https://mareksuppa.com/til/load-bearing/</guid>
       <description>A civil-engineering metaphor seems to have become part of Claude&amp;rsquo;s LLM speak.</description>
       <author>mrshu</author>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Marcus Aurelius&#39; Fortress of the Mind</title>
+      <link>https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html</link>
+      <guid isPermaLink="false">https://pyjarrett.github.io/2026/06/14/marcus-aurelius-fortress-of-the-mind.html</guid>
+      <description>Thoughts on &#34;Meditations&#34; by the Roman emperor Marcus Aurelius</description>
+      <author>pyj</author>
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1491,19 +1515,19 @@
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Homelab Improvements</title>
-      <link>https://www.lifewaza.com/posts/homelab-improvements/</link>
-      <guid isPermaLink="false">https://www.lifewaza.com/posts/homelab-improvements/</guid>
-      <description>Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…</description>
-      <author>gabe</author>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed …</title>
       <link>https://www.sillylaird.ca/changelog/</link>
       <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-06-09</guid>
       <description>Small-web day. Brought the Gemini capsule and Gopher hole fully online — fixed the servers, set them to start automatically with the box, and wrote a proper Gopher menu and Gemini index. The Gemini capsule now serves over the real sillylaird.ca certificate. Added Gemini and Gopher buttons to the header across the whole site and every subdomain, alongside the existing Tor and I2P links. Launched a gemlog (the Gemini name for a blog) at gemini://sillylaird.ca/gemlog/, mirrored automatically from…</description>
       <author>sillylaird</author>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Homelab Improvements</title>
+      <link>https://www.lifewaza.com/posts/homelab-improvements/</link>
+      <guid isPermaLink="false">https://www.lifewaza.com/posts/homelab-improvements/</guid>
+      <description>Introduction # My home network is a bit of a mess. I’ve got multiple services running on multiple machines, and everything is IP addresses and ports. I don’t have any DNS resolution going on internally so I just keep a bunch of IP addresses in my head. I’d like to clean that up so that I can have internal names for things so that instead of typing an IP address plus a port number, I can just type a name. Currently, I have two main servers hosting internal applications. 192.168.1.10 - Intel…</description>
+      <author>gabe</author>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1595,18 +1619,18 @@
       <pubDate>Sun, 07 Jun 2026 02:42:00 +0000</pubDate>
     </item>
     <item>
-      <title>2026 Software Trends</title>
-      <link>https://gokmengorgen.net/2026/06/07/2026-software-trends/</link>
-      <guid isPermaLink="false">https://gokmengorgen.net/2026/06/07/2026-software-trends/</guid>
-      <description>This article was originally written in Turkish in December 2025 as a contribution to the “2026 Trends in the Software World” series. The original collection can be found here: Yazılım Dünyasında 2026 Trendleri . Hello, this is my third article. For four years now, I’ve been talking about mass layoffs, recessions, emerging business sectors, and working frameworks like the hybrid model. As someone who has been coding in Python for over 15 years and working without interruption, 2025 turn…</description>
-      <author>goedev</author>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Real EV Bottleneck: Not Range</title>
       <link>https://gokmengorgen.net/2026/06/07/the-real-ev-bottleneck-not-range/</link>
       <guid isPermaLink="false">https://gokmengorgen.net/2026/06/07/the-real-ev-bottleneck-not-range/</guid>
       <description>Is it technically impossible to build a smartphone with a battery that lasts a full month? I suppose it would either be a heavy brick, take an eternity to charge, or just be too expensive to make any sense. Even if a company fixed all those issues and started mass production, I’d probably still be sitting here thinking: “I don’t mind plugging my phone in once a day, why on earth do I need more?”</description>
+      <author>goedev</author>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026 Software Trends</title>
+      <link>https://gokmengorgen.net/2026/06/07/2026-software-trends/</link>
+      <guid isPermaLink="false">https://gokmengorgen.net/2026/06/07/2026-software-trends/</guid>
+      <description>This article was originally written in Turkish in December 2025 as a contribution to the “2026 Trends in the Software World” series. The original collection can be found here: Yazılım Dünyasında 2026 Trendleri . Hello, this is my third article. For four years now, I’ve been talking about mass layoffs, recessions, emerging business sectors, and working frameworks like the hybrid model. As someone who has been coding in Python for over 15 years and working without interruption, 2025 turn…</description>
       <author>goedev</author>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1883,11 +1907,11 @@
       <pubDate>Mon, 01 Jun 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Arenas, Cyclic Terms, and Flat Equational Systems</title>
-      <link>https://www.philipzucker.com/arena_coegraph2_rational/</link>
-      <guid isPermaLink="false">https://www.philipzucker.com/arena_coegraph2_rational</guid>
-      <description>I was invited a few months ago into discussions with Cheng Zhang, Sam Coward and Alexandra Silva on some work integrating loopy infinite streamy things into e-graphs. A few years back, I was barking up a similar but distinct tree https://www.philipzucker.com/coegraph/</description>
-      <author>philzook</author>
+      <title>Coding Agents on Teams</title>
+      <link>https://jeremy.marzhillstudios.com/coding-agents-on-teams/</link>
+      <guid isPermaLink="false">https://jeremy.marzhillstudios.com/coding-agents-on-teams/</guid>
+      <description>Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It&#39;s not a magic bullet for speed or quality but it can be a useful tool and it&#39;s not likely to go away. Regardless of what you think about thes…</description>
+      <author>zaphar</author>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1899,11 +1923,11 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Coding Agents on Teams</title>
-      <link>https://jeremy.marzhillstudios.com/coding-agents-on-teams/</link>
-      <guid isPermaLink="false">https://jeremy.marzhillstudios.com/coding-agents-on-teams/</guid>
-      <description>Coding Agents on Teams Introduction Unless you have been living under a rock over the last year you are probably aware that AI agents have taken the software industry by storm. It has become clear that a coding agent can deliver software to varying levels of quality in timelines that are accelerated compared to what your average developer could deliver. It&#39;s not a magic bullet for speed or quality but it can be a useful tool and it&#39;s not likely to go away. Regardless of what you think about thes…</description>
-      <author>zaphar</author>
+      <title>Arenas, Cyclic Terms, and Flat Equational Systems</title>
+      <link>https://www.philipzucker.com/arena_coegraph2_rational/</link>
+      <guid isPermaLink="false">https://www.philipzucker.com/arena_coegraph2_rational</guid>
+      <description>I was invited a few months ago into discussions with Cheng Zhang, Sam Coward and Alexandra Silva on some work integrating loopy infinite streamy things into e-graphs. A few years back, I was barking up a similar but distinct tree https://www.philipzucker.com/coegraph/</description>
+      <author>philzook</author>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2027,6 +2051,14 @@
       <pubDate>Fri, 29 May 2026 11:29:41 +0000</pubDate>
     </item>
     <item>
+      <title>Preserving Pixter</title>
+      <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
+      <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
+      <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
+      <author>dmitrygr</author>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Site refresh. Removed leftover test posts; reorganised the navigation into labe…</title>
       <link>https://www.sillylaird.ca/changelog/</link>
       <guid isPermaLink="false">https://www.sillylaird.ca/changelog/#2026-05-29</guid>
@@ -2040,14 +2072,6 @@
       <guid isPermaLink="false">https://runxiyu.org/comp/llmenv/</guid>
       <description>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</description>
       <author>runxiyu</author>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Preserving Pixter</title>
-      <link>https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</link>
-      <guid isPermaLink="false">https://dmitry.gr/?r=05.Projects&amp;proj=37.%20Pixter</guid>
-      <description>Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved</description>
-      <author>dmitrygr</author>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2076,17 +2100,17 @@
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
-      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
+      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
     <item>
       <title>joshua stein</title>
-      <link>https://jcs.org/notes/2026/05/27/1003448877519323137</link>
-      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323137</guid>
-      <description>I have lost all enthusiasm for reading about new software projects, especially dealing with vintage computing. What would have sounded amazing a year or two ago and made me want to engage with the author, I now just assume was something AI spit out and feels hollow and boring so I skim past it.</description>
+      <link>https://jcs.org/notes/2026/05/27/1003448877519323242</link>
+      <guid isPermaLink="false">https://jcs.org/notes/2026/05/27/1003448877519323242</guid>
+      <description>And writing software feels like being Marge in that go-kart race. Work slow and steady for a year writing something neat that had never been brought to a platform before, but someone can hear about it and use Claude to whiz by you in a week and make something with 10 times the functionality.</description>
       <author>jcs</author>
       <pubDate>Thu, 28 May 2026 02:13:51 +0000</pubDate>
     </item>
@@ -2147,18 +2171,18 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>pg_tre: approximate regex as a real Postgres index AM</title>
-      <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
-      <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
-      <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
-      <author>gregburd</author>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>pg_mentat: bringing Mozilla&#39;s Mentat back inside PostgreSQL</title>
       <link>https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</link>
       <guid isPermaLink="false">https://greg.burd.me/posts/pg-mentat-from-mozilla-mentat/</guid>
       <description>Datomic&#39;s data model is too good to leave in a deprecated repo. The pgrx port lives in the database that already has the rest of your data.</description>
+      <author>gregburd</author>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>pg_tre: approximate regex as a real Postgres index AM</title>
+      <link>https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</link>
+      <guid isPermaLink="false">https://greg.burd.me/posts/pg-tre-approximate-regex-as-an-index-am/</guid>
+      <description>A native USING tre index access method with three-tier filtering, WAL coverage, and Levenshtein-distance recheck. Sub-millisecond on tens of thousands of rows.</description>
       <author>gregburd</author>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2235,19 +2259,19 @@
       <pubDate>Sun, 24 May 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is this what life is supposed to feel like?</title>
-      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
-      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
-      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
-      <author>Juraj</author>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Childhood Computing</title>
       <link>https://susam.net/childhood-computing.html</link>
       <guid isPermaLink="false">urn:uuid:61e4898d-c887-40dd-81c3-05f39045ce64</guid>
       <description>I recently stumbled upon a nice blog post titled Childhood Computing . It made me think about my own childhood computing experience. I am much older than the author of the aforementioned post, but like them, I too love computers. I have for most of my life. In 1992, when I was eight years old, my parents decided to transfer me to a new school because of its curriculum. They did not know it then, and it probably did not even matter to them, but this new school had a computer lab. That was quite r…</description>
       <author>susam</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is this what life is supposed to feel like?</title>
+      <link>https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</link>
+      <guid isPermaLink="false">https://mlich.eu/posts/is-this-what-life-is-supposed-to-feel-like/</guid>
+      <description>For years I was tired. Not the kind of tired sleep fixes. The kind that’s just there, behind everything. Doctors never found anything so I kept gaslighting myself into thinking it was me. I’m too stressed, I’m not eating right, I’m not moving enough, … Two months ago I gave up on that and spent an ungodly amount of money at private hospitals. Turns out it wasn’t all in my head - I have a rare gut disease. I’m now on immunosuppressants and a six-food elimination diet (no wheat, dair…</description>
+      <author>Juraj</author>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2291,10 +2315,10 @@
       <pubDate>Fri, 22 May 2026 07:17:00 +0000</pubDate>
     </item>
     <item>
-      <title>Person - Action - Object</title>
-      <link>https://jbaber.sdf.org/#PAO</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
-      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
+      <title>Alfred E. Neuman quotes up to 2005</title>
+      <link>https://jbaber.sdf.org/#alfred_e</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
+      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
@@ -2307,14 +2331,6 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Cairo Composite Manager</title>
-      <link>https://jbaber.sdf.org/#cairo</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#cairo</guid>
-      <description>Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I&#39;m doing, this advice should be taken with a grain of salt. I make no claims that following my directions won&#39;t erase all your data and destroy your computer. short how to</description>
-      <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
-    </item>
-    <item>
       <title>Computers</title>
       <link>https://jbaber.sdf.org/#Computers</link>
       <guid isPermaLink="false">https://jbaber.sdf.org/#Computers</guid>
@@ -2323,26 +2339,26 @@
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Alfred E. Neuman quotes up to 2005</title>
-      <link>https://jbaber.sdf.org/#alfred_e</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#alfred_e</guid>
-      <description>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</description>
+      <title>Cairo Composite Manager</title>
+      <link>https://jbaber.sdf.org/#cairo</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#cairo</guid>
+      <description>Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I&#39;m doing, this advice should be taken with a grain of salt. I make no claims that following my directions won&#39;t erase all your data and destroy your computer. short how to</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Laarni</title>
-      <link>https://jbaber.sdf.org/#laarni</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
-      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
+      <title>Person - Action - Object</title>
+      <link>https://jbaber.sdf.org/#PAO</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#PAO</guid>
+      <description>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</description>
       <author>jbaber</author>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 01:41:07 +0000</pubDate>
     </item>
     <item>
-      <title>Today I Learned</title>
-      <link>https://jbaber.sdf.org/#TIL</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#TIL</guid>
-      <description>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</description>
+      <title>Wishlist</title>
+      <link>https://jbaber.sdf.org/#wishlist</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#wishlist</guid>
+      <description>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2355,10 +2371,18 @@
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wishlist</title>
-      <link>https://jbaber.sdf.org/#wishlist</link>
-      <guid isPermaLink="false">https://jbaber.sdf.org/#wishlist</guid>
-      <description>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</description>
+      <title>Today I Learned</title>
+      <link>https://jbaber.sdf.org/#TIL</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#TIL</guid>
+      <description>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</description>
+      <author>jbaber</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laarni</title>
+      <link>https://jbaber.sdf.org/#laarni</link>
+      <guid isPermaLink="false">https://jbaber.sdf.org/#laarni</guid>
+      <description>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</description>
       <author>jbaber</author>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2377,30 +2401,6 @@
       <description>I had a newsletter on this blog for years, but I didn’t send a single email for a long time. This is the story of how I finally got it back up and running, and what I learned along the way. A quick note up front, because this caused some confusion: by “hosting my own” I mean I don’t use a newsletter platform . The signup backend and the CLI I use to send issues are mine, and the issues themselves are just markdown files in a git repo. I still use Plunk as the sending backend (so SES, bou…</description>
       <author>mre</author>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.jvt.me/mf2/2026/05/4ctda/?utm_medium=rss&amp;utm_source=rss</link>
-      <guid isPermaLink="false">https://www.jvt.me/mf2/2026/05/4ctda/</guid>
-      <description>Reposted Cassidy (@cassidoo.co) Post details Heads up maintainers of packages, this is a big deal: https://github.com/orgs/community/discussions/196340</description>
-      <author>JamieTanna</author>
-      <pubDate>Wed, 20 May 2026 12:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>rqlite v10.1: Schema management via the Web Console</title>
-      <link>https://philipotoole.com/rqlite10-1-0-schema-management/</link>
-      <guid isPermaLink="false">https://philipotoole.com/?p=8315</guid>
-      <description>rqlite is a lightweight, open-source, distributed relational database built on SQLite and Raft. Version 10.1.0 has been released with improvements to the built-in web console. The web console now support directly examining the schema of your database tables, and basic schema management.</description>
-      <author>otoolep</author>
-      <pubDate>Wed, 20 May 2026 11:30:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>On Google declaring war on the Web</title>
-      <link>https://tante.cc/2026/05/20/on-google-declaring-war-on-the-web/</link>
-      <guid isPermaLink="false">https://tante.cc/?p=9352</guid>
-      <description>In Yesterday&amp;#8217;s IO Keynote Google declared war on the remnants of the Web. (See longer description on their website.) TL;DR: They are pushing Search more into the &amp;#8220;here&amp;#8217;s your processed answer&amp;#8221; direction that &amp;#8220;AI Overviews&amp;#8221; have established (you know, those AI snippets in current Search that are wrong about 10% of the time). So they [&amp;#8230;]</description>
-      <author>tante</author>
-      <pubDate>Wed, 20 May 2026 08:44:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
