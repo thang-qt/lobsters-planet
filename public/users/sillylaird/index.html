@@ -48,6 +48,12 @@
     <div class="entries">
       
         <article class="entry">
+          <p class="meta">23 Jul 2026 · SillyLaird — Changelog</p>
+          <h3><a href="https://www.sillylaird.ca/changelog/">Ops, security, and visual cleanup pass. Fixed nightly backup and uptime cron sc…</a></h3>
+          <p>Ops, security, and visual cleanup pass. Fixed nightly backup and uptime cron scripts (executable bits so maintenance actually runs); removed a broken missing-script cron entry. Blocked public download of ops docs, tools, and SQLite databases on the blog and changelog hosts; locked guestbook internal PHP bootstrap files at the edge. Blog public pages no longer open a session for anonymous readers; guestbook sessions start only when a form/captcha needs them. Blog gained HSTS/CSP headers; legacy b…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">12 Jul 2026 · SillyLaird — Changelog</p>
           <h3><a href="https://www.sillylaird.ca/changelog/">Hardening and hygiene. Admin password moved out of the web root (supports passw…</a></h3>
           <p>Hardening and hygiene. Admin password moved out of the web root (supports password_hash &#43; legacy sha256); robots.txt disallows admin/API/tools; security headers are nginx-only (no PHP duplicates); homepage no longer sets a session cookie for anonymous visitors. /mstartpage/ permanently redirects to /startpage/. Shared head_meta on section indexes; locale dicts filled to parity; image budget scans startpage/gaming/computers and oversized assets recompressed; maintenance cron for backup, uptime, a…</p>

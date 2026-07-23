@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-23T09:16:40.31085293Z",
+  "generated_at": "2026-07-23T15:16:51.285495312Z",
   "overview": {
     "users": 20528,
-    "crawled_profiles": 4475,
+    "crawled_profiles": 4500,
     "homepages": 1,
     "users_with_feeds": 238,
     "feeds": 71,
@@ -127,20 +127,28 @@
       "latest_at": "2026-07-23T00:39:22Z"
     },
     {
-      "feed_url": "https://jbaber.sdf.org/feed.xml",
-      "feed_title": "John Baber-Lucero",
-      "owner_username": "jbaber",
-      "site_url": "",
-      "entries": 7,
-      "latest_at": "2026-05-22T01:41:07Z"
-    },
-    {
       "feed_url": "https://lalitm.com/index.xml",
       "feed_title": "Lalit Maganti",
       "owner_username": "lalitm",
       "site_url": "",
       "entries": 7,
       "latest_at": "2026-07-17T00:00:00Z"
+    },
+    {
+      "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
+      "feed_title": "SillyLaird — Changelog",
+      "owner_username": "sillylaird",
+      "site_url": "",
+      "entries": 7,
+      "latest_at": "2026-07-23T00:00:00Z"
+    },
+    {
+      "feed_url": "https://www.jacky.wtf/essays/feed.atom",
+      "feed_title": "Jacky Alciné's essays",
+      "owner_username": "jalcine",
+      "site_url": "",
+      "entries": 6,
+      "latest_at": "2026-07-23T14:00:00Z"
     },
     {
       "feed_url": "https://nedbatchelder.com/blog/rss.xml",
@@ -159,12 +167,12 @@
       "latest_at": "2026-07-03T00:00:00Z"
     },
     {
-      "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
-      "feed_title": "SillyLaird — Changelog",
-      "owner_username": "sillylaird",
+      "feed_url": "https://octet-stream.net/feed",
+      "feed_title": "Serious Computer Business",
+      "owner_username": "thombles",
       "site_url": "",
       "entries": 6,
-      "latest_at": "2026-07-12T00:00:00Z"
+      "latest_at": "2026-07-23T11:35:22Z"
     },
     {
       "feed_url": "https://f055.net/comments/feed/",
@@ -173,14 +181,6 @@
       "site_url": "",
       "entries": 5,
       "latest_at": "2026-06-02T16:40:06Z"
-    },
-    {
-      "feed_url": "https://www.jacky.wtf/essays/feed.atom",
-      "feed_title": "Jacky Alciné's essays",
-      "owner_username": "jalcine",
-      "site_url": "",
-      "entries": 5,
-      "latest_at": "2026-07-07T03:30:00Z"
     },
     {
       "feed_url": "https://www.philipzucker.com/feed.xml",
@@ -197,14 +197,6 @@
       "site_url": "",
       "entries": 5,
       "latest_at": "2026-07-15T16:12:24Z"
-    },
-    {
-      "feed_url": "https://octet-stream.net/feed",
-      "feed_title": "Serious Computer Business",
-      "owner_username": "thombles",
-      "site_url": "",
-      "entries": 5,
-      "latest_at": "2026-07-22T12:08:54Z"
     },
     {
       "feed_url": "https://gokmengorgen.net/index.xml",
@@ -237,6 +229,14 @@
       "site_url": "",
       "entries": 4,
       "latest_at": "2026-06-17T03:30:00Z"
+    },
+    {
+      "feed_url": "https://jbaber.sdf.org/feed.xml",
+      "feed_title": "John Baber-Lucero",
+      "owner_username": "jbaber",
+      "site_url": "",
+      "entries": 4,
+      "latest_at": "2026-05-22T01:41:07Z"
     },
     {
       "feed_url": "https://jcs.org/notes/rss",
@@ -273,6 +273,22 @@
   ],
   "recent_sites": [
     {
+      "username": "jalcine",
+      "site_url": "",
+      "feed_title": "Jacky Alciné's essays",
+      "latest_at": "2026-07-23T14:00:00Z",
+      "title": "On the Notion of Shutting the Fuck up",
+      "url": "https://www.jacky.wtf/essays/2026/shut-the-fuck-up/"
+    },
+    {
+      "username": "thombles",
+      "site_url": "",
+      "feed_title": "Serious Computer Business",
+      "latest_at": "2026-07-23T11:35:22Z",
+      "title": "Automatic JavaVM and Context detection using Rust on Android",
+      "url": "https://octet-stream.net/b/scb/2026-07-23-automatic-javavm-and-context-detection-using-rust-on-android.html"
+    },
+    {
       "username": "ayushnix",
       "site_url": "",
       "feed_title": "Posts from @ayushnix@social.ayushnix.com",
@@ -281,12 +297,12 @@
       "url": "https://social.ayushnix.com/@ayushnix/statuses/01KY66KA7A1V9HJAAV4C07C3SP"
     },
     {
-      "username": "thombles",
+      "username": "sillylaird",
       "site_url": "",
-      "feed_title": "Serious Computer Business",
-      "latest_at": "2026-07-22T12:08:54Z",
-      "title": "Hold on to your hats, HaLow is here",
-      "url": "https://octet-stream.net/b/scb/2026-07-22-hold-on-to-your-hats-halow-is-here.html"
+      "feed_title": "SillyLaird — Changelog",
+      "latest_at": "2026-07-23T00:00:00Z",
+      "title": "Ops, security, and visual cleanup pass. Fixed nightly backup and uptime cron sc…",
+      "url": "https://www.sillylaird.ca/changelog/"
     },
     {
       "username": "JamieTanna",
@@ -392,20 +408,20 @@
       "url": "https://hpjansson.org/blag/2021/09/16/chafa-1-8-terminal-graphics-with-a-side-of-everything/#comment-77206"
     },
     {
-      "username": "philzook",
-      "site_url": "",
-      "feed_title": "Hey There Buddo!",
-      "latest_at": "2026-07-17T00:00:00Z",
-      "title": "Making TLA+ and x86 Kiss Via Z3Py",
-      "url": "https://www.philipzucker.com/kissin_tla/"
-    },
-    {
       "username": "lalitm",
       "site_url": "",
       "feed_title": "Lalit Maganti",
       "latest_at": "2026-07-17T00:00:00Z",
       "title": "What I'm Changing After A Year Of Blogging",
       "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/"
+    },
+    {
+      "username": "philzook",
+      "site_url": "",
+      "feed_title": "Hey There Buddo!",
+      "latest_at": "2026-07-17T00:00:00Z",
+      "title": "Making TLA+ and x86 Kiss Via Z3Py",
+      "url": "https://www.philipzucker.com/kissin_tla/"
     },
     {
       "username": "tante",
@@ -454,22 +470,6 @@
       "latest_at": "2026-07-13T11:19:49Z",
       "title": "Turn Platypush into your favourite weather app",
       "url": "https://blog.platypush.tech/article/Platypush-as-a-weather-app"
-    },
-    {
-      "username": "nolan",
-      "site_url": "",
-      "feed_title": "Comments for Read the Tea Leaves",
-      "latest_at": "2026-07-13T09:15:38Z",
-      "title": "Comment on The struggle of using native emoji on the web by keke lele",
-      "url": "https://nolanlawson.com/2022/04/08/the-struggle-of-using-native-emoji-on-the-web/#comment-238407"
-    },
-    {
-      "username": "trekhleb",
-      "site_url": "",
-      "feed_title": "Trekhleb.dev RSS Feed",
-      "latest_at": "2026-07-13T00:00:00Z",
-      "title": "Yes-Brainer — A Council of AI Models",
-      "url": "https://trekhleb.dev/blog/2026/yesbrainer/"
     }
   ]
 }
