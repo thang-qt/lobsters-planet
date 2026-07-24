@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-24T09:14:28.810393248Z",
+  "generated_at": "2026-07-24T14:57:33.238632088Z",
   "overview": {
-    "users": 20532,
-    "crawled_profiles": 4575,
+    "users": 20535,
+    "crawled_profiles": 4600,
     "homepages": 1,
     "users_with_feeds": 238,
-    "feeds": 72,
-    "feeds_with_posts": 72,
+    "feeds": 73,
+    "feeds_with_posts": 73,
     "entries": 300
   },
   "oldest_users": [
@@ -183,6 +183,14 @@
       "latest_at": "2026-06-02T16:40:06Z"
     },
     {
+      "feed_url": "https://jcs.org/notes/rss",
+      "feed_title": "Notes - joshua stein",
+      "owner_username": "jcs",
+      "site_url": "",
+      "entries": 5,
+      "latest_at": "2026-07-24T14:23:16Z"
+    },
+    {
       "feed_url": "https://www.philipzucker.com/feed.xml",
       "feed_title": "Hey There Buddo!",
       "owner_username": "philzook",
@@ -231,14 +239,6 @@
       "latest_at": "2026-06-17T03:30:00Z"
     },
     {
-      "feed_url": "https://jcs.org/notes/rss",
-      "feed_title": "Notes - joshua stein",
-      "owner_username": "jcs",
-      "site_url": "",
-      "entries": 4,
-      "latest_at": "2026-05-28T02:13:51Z"
-    },
-    {
       "feed_url": "https://mareksuppa.com/feed.xml",
       "feed_title": "Marek Šuppa",
       "owner_username": "mrshu",
@@ -272,6 +272,22 @@
     }
   ],
   "recent_sites": [
+    {
+      "username": "jcs",
+      "site_url": "",
+      "feed_title": "Notes - joshua stein",
+      "latest_at": "2026-07-24T14:23:16Z",
+      "title": "joshua stein",
+      "url": "https://jcs.org/notes/2026/07/24/1024788628681769103"
+    },
+    {
+      "username": "dmathieu",
+      "site_url": "",
+      "feed_title": "Software Engineering and Stuff",
+      "latest_at": "2026-07-24T00:00:00Z",
+      "title": "Thank you, Codeberg",
+      "url": "https://dmathieu.com/en/opinions/thank-you-codeberg/"
+    },
     {
       "username": "jalcine",
       "site_url": "",
@@ -312,12 +328,12 @@
       "url": "https://www.jvt.me/mf2/2026/07/jt00e/?utm_medium=rss\u0026utm_source=rss"
     },
     {
-      "username": "shapr",
+      "username": "tyil",
       "site_url": "",
-      "feed_title": "shapr's RSS feed",
+      "feed_title": "About Me on Tyil",
       "latest_at": "2026-07-21T00:00:00Z",
-      "title": "No central server, only BitTorrent",
-      "url": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html"
+      "title": "SSPPGG",
+      "url": "https://www.tyil.nl/recipes/rubs/ssppgg/"
     },
     {
       "username": "capjamesg",
@@ -328,12 +344,12 @@
       "url": "https://jamesg.blog/2026/07/21/www-11"
     },
     {
-      "username": "tyil",
+      "username": "shapr",
       "site_url": "",
-      "feed_title": "About Me on Tyil",
+      "feed_title": "shapr's RSS feed",
       "latest_at": "2026-07-21T00:00:00Z",
-      "title": "SSPPGG",
-      "url": "https://www.tyil.nl/recipes/rubs/ssppgg/"
+      "title": "No central server, only BitTorrent",
+      "url": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html"
     },
     {
       "username": "jordi",
@@ -454,22 +470,6 @@
       "latest_at": "2026-07-15T00:00:00Z",
       "title": "Refactoring English: Month 19",
       "url": "https://mtlynch.io/retrospectives/2026/07/"
-    },
-    {
-      "username": "nedbat",
-      "site_url": "",
-      "feed_title": "Ned Batchelder's blog",
-      "latest_at": "2026-07-14T10:21:24Z",
-      "title": "A place of certainty",
-      "url": "https://nedbatchelder.com/blog/202607/a_place_of_certainty"
-    },
-    {
-      "username": "jo3_l",
-      "site_url": "",
-      "feed_title": "Joe's Blog",
-      "latest_at": "2026-07-14T00:00:00Z",
-      "title": "Perspectives on LLM-assisted development",
-      "url": "https://jo3-l.dev/posts/llms-and-swe/"
     }
   ]
 }
