@@ -24,7 +24,7 @@
     <section class="page-title">
       <p class="eyebrow">Feed</p>
       <h1>All posts</h1>
-      <p>300 recent entries. Last built 25 Jul 2026, 08:55 UTC. <a href="/feed.xml">RSS</a></p>
+      <p>300 recent entries. Last built 25 Jul 2026, 14:45 UTC. <a href="/feed.xml">RSS</a></p>
     </section>
     <div class="entries">
       
@@ -42,18 +42,6 @@
       
         <article class="entry">
           <p class="meta">22 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
-          <h2><a href="https://jamesg.blog/2026/06/22/inside-outside">Inside; outside</a></h2>
-          <p>Looking idly out the window of my favourite coffee shop, sipping on a cool iced latte that I needed after a long walk on a warm summer’s afternoon, a thought came to mind: Why am I so fascinated by the outside world when I just sat down inside? Even now, back at my desk, I find my eyes occasionally looking out the window. I see a black cat walking slowly on the pavement, someone leaning into a friend’s car window to chat, and the vistas of greens – the dark greens of trees and the lighter …</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">22 Jun 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
-          <h2><a href="https://www.lifewaza.com/posts/setting-up-a-reverse-proxy/">Setting up a Reverse Proxy</a></h2>
-          <p>The first step on my homelab improvement journey is setting up a reverse proxy. What’s a reverse-proxy? A reverse proxy is a server that sits in front of your other servers. Instead of sending requests directly to the server where the application is running, you send them to the proxy and it proxies your request to the real server. It’s called a reverse proxy because a “normal” (or forward) proxy sits in front of client machines to proxy outbound requests to the internet, while a reverse…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">22 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
           <h2><a href="https://jamesg.blog/2026/06/22/removing-prefixes-and-suffixes-in-python">Removing prefixes and suffixes in Python</a></h2>
           <p>A few weeks ago, I learned about the removeprefix method in Python. It lets you remove a specific prefix from the beginning of a string. For example, I can use the following code to remove www. from the beginning of a domain name: &#34;www.jamesg.blog&#34;.removeprefix(&#34;www.&#34;) If the string doesn’t contain the prefix, nothing happens; if the string does contain the prefix, the prefix is removed. Note: If you are parsing URLs in Python, you should use a library like urllib.parse to extract parts of a U…</p>
         </article>
@@ -62,6 +50,18 @@
           <p class="meta">22 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
           <h2><a href="https://jamesg.blog/microformats-quiz">Which microformat are you? [Quiz]</a></h2>
           <p>Have you ever wondered which microformat best suits your personality? If so, this quiz is for you! Answer the following questions to find out which microformats2 classes best embody your personality. Also: happy belated 21st dt-bday to microformats! (Celebrated on 20 June, 2026) Question 1 If you could choose a career from the following options, which would you choose? Cartographer Explorer Musician Restaurant critic Writer Biographer Surfer Photographer Web developer I&#39;d want to spend all my da…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
+          <h2><a href="https://jamesg.blog/2026/06/22/inside-outside">Inside; outside</a></h2>
+          <p>Looking idly out the window of my favourite coffee shop, sipping on a cool iced latte that I needed after a long walk on a warm summer’s afternoon, a thought came to mind: Why am I so fascinated by the outside world when I just sat down inside? Even now, back at my desk, I find my eyes occasionally looking out the window. I see a black cat walking slowly on the pavement, someone leaning into a friend’s car window to chat, and the vistas of greens – the dark greens of trees and the lighter …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">22 Jun 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
+          <h2><a href="https://www.lifewaza.com/posts/setting-up-a-reverse-proxy/">Setting up a Reverse Proxy</a></h2>
+          <p>The first step on my homelab improvement journey is setting up a reverse proxy. What’s a reverse-proxy? A reverse proxy is a server that sits in front of your other servers. Instead of sending requests directly to the server where the application is running, you send them to the proxy and it proxies your request to the real server. It’s called a reverse proxy because a “normal” (or forward) proxy sits in front of client machines to proxy outbound requests to the internet, while a reverse…</p>
         </article>
       
         <article class="entry">
@@ -95,12 +95,6 @@
         </article>
       
         <article class="entry">
-          <p class="meta">21 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
-          <h2><a href="https://jamesg.blog/2026/06/21/small-wishes">Small wishes</a></h2>
-          <p>I like to wish people a happy day, and so many of my conversations start with “Happy Sunday”, or similar. Today I was able to add an additional well-wish: “Happy Solstice!” As I write, it is 9pm and the sun is still radiating over the hills. Trees cast long shadows over the quiet fields. The pattern of branches at the top of a tree reminded me of a village Kirk I saw earlier today. I started my morning with a long walk followed by a (decaf) coffee. I love when I can start the day with a …</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">21 Jun 2026 · <a href="/users/runxiyu/">runxiyu</a> · Runxi Yu on Runxi Yu’s Website</p>
           <h2><a href="https://runxiyu.org/comp/incuswl/">Getting Wayland to work on unprivileged Incus container</a></h2>
           <p>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</p>
@@ -110,6 +104,12 @@
           <p class="meta">21 Jun 2026 · <a href="/users/csomar/">csomar</a> · Omar Abid - Personal Blog</p>
           <h2><a href="https://omarabid.com/polymarket-bet/">DeFi Theater: Why Polymarket&#39;s Incentives Don&#39;t Reward the Truth</a></h2>
           <p>How Polymarket&#39;s resolution system punishes voters who defy the crowd, not those who are wrong.</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">21 Jun 2026 · <a href="/users/capjamesg/">capjamesg</a> · James&#39; Coffee Blog</p>
+          <h2><a href="https://jamesg.blog/2026/06/21/small-wishes">Small wishes</a></h2>
+          <p>I like to wish people a happy day, and so many of my conversations start with “Happy Sunday”, or similar. Today I was able to add an additional well-wish: “Happy Solstice!” As I write, it is 9pm and the sun is still radiating over the hills. Trees cast long shadows over the quiet fields. The pattern of branches at the top of a tree reminded me of a village Kirk I saw earlier today. I started my morning with a long walk followed by a (decaf) coffee. I love when I can start the day with a …</p>
         </article>
       
         <article class="entry">
@@ -173,15 +173,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">17 Jun 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
-          <h2><a href="https://ntietz.com/blog/where-ive-been/?utm_source=atom&amp;utm_medium=feed">Where I&#39;ve been, and the future of this blog</a></h2>
-          <p>Recently, I got an email from a reader who noted that I hadn&#39;t published anything in a little while, and he said he hopes I&#39;m doing well. The truth is, some days I am and some days I&#39;m not. I want to share a little bit about what&#39;s been going on, and what the future looks like. This is a pretty vulnerable post, so here&#39;s the deal. I&#39;m going to tell you this, but it&#39;s just between you and me, okay? And there&#39;s one condition: you don&#39;t reach out to me to say &#34;I&#39;m so sorry!&#34; When people share stori…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">17 Jun 2026 · <a href="/users/sillylaird/">sillylaird</a> · SillyLaird — Changelog</p>
           <h2><a href="https://www.sillylaird.ca/changelog/">Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into c…</a></h2>
           <p>Homepage structure pass. Promoted the Gemini, Gopher, Tor, and I2P links into coloured monospace protocol pills in the header, collapsed the theme and language controls to icon buttons, and added a desktop homepage sidebar for quick orientation. Reworked &#34;Where to start&#34; into compact entry cards, simplified the contact block with Tor/I2P and alternate XMPP addresses folded into a details panel, and split the network area into clearer friends, countries, games, and buttons groups. Country links n…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">17 Jun 2026 · <a href="/users/ntietz/">ntietz</a> · ntietz.com blog - technically a blog</p>
+          <h2><a href="https://ntietz.com/blog/where-ive-been/?utm_source=atom&amp;utm_medium=feed">Where I&#39;ve been, and the future of this blog</a></h2>
+          <p>Recently, I got an email from a reader who noted that I hadn&#39;t published anything in a little while, and he said he hopes I&#39;m doing well. The truth is, some days I am and some days I&#39;m not. I want to share a little bit about what&#39;s been going on, and what the future looks like. This is a pretty vulnerable post, so here&#39;s the deal. I&#39;m going to tell you this, but it&#39;s just between you and me, okay? And there&#39;s one condition: you don&#39;t reach out to me to say &#34;I&#39;m so sorry!&#34; When people share stori…</p>
         </article>
       
         <article class="entry">
@@ -210,6 +210,12 @@
       
         <article class="entry">
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
+          <h2><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h2>
+          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h2><a href="https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/">Making HTTP requests from a container that has no curl, using bash /dev/tcp</a></h2>
           <p>Edit: This has generated a nice discussion on Hacker News – check it out too! I needed to check that one container could reach another over an internal Docker network: a plain GET /health against a service on a shared network. The obvious move is curl http://service:8642/health . But this app image was stripped right down, with no curl or wget and nothing else around that I could use to open a socket.</p>
         </article>
@@ -218,12 +224,6 @@
           <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
           <h2><a href="https://mareksuppa.com/til/hermes-agent-formats-output-by-platform/">Hermes Agent formats its output based on the platform you connect as</a></h2>
           <p>I ran into this while building a chat UI against Hermes Agent , Nous Research’s self-hosted agent gateway. Replies over its HTTP API came back as plain text with bare URLs – no **bold** , no ## headings, no [label](url) – even though my UI renders Markdown. The same agent formats answers with Markdown when used from Slack. The reason why is that Hermes injects a per-platform hint into the system prompt depending on which platform adapter you connect through. Here is a short snippet from ag…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">16 Jun 2026 · <a href="/users/mrshu/">mrshu</a> · Marek Šuppa</p>
-          <h2><a href="https://mareksuppa.com/links/ver-2026-results-viewer/">VER 2026 Results Viewer</a></h2>
-          <p>VER 2026 is Slovakia’s periodic evaluation of research, development, artistic, and other creative activity at public universities and public research institutions. I put together this small open-source viewer because I was frustrated by how hard the original website made it to interpret and share the public results. The viewer is a friendlier interface over the original public sources: it lets you filter by evaluation area, institution, institution type, quality profile, and research funding f…</p>
         </article>
       
         <article class="entry">
@@ -258,14 +258,14 @@
       
         <article class="entry">
           <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h2><a href="https://inkdroid.org/2026/06/14/bookmarks/">Bookmarks - data, design, vis, book</a></h2>
-          <p>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</p>
+          <h2><a href="https://inkdroid.org/2026/06/14/tree-2/">Tree 2</a></h2>
+          <p>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</p>
         </article>
       
         <article class="entry">
           <p class="meta">14 Jun 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
-          <h2><a href="https://inkdroid.org/2026/06/14/tree-2/">Tree 2</a></h2>
-          <p>Tree 2 Same as Tree 1 but after playing with some filters on my Android phone before uploading.</p>
+          <h2><a href="https://inkdroid.org/2026/06/14/bookmarks/">Bookmarks - data, design, vis, book</a></h2>
+          <p>These are some things I’ve wandered across on the web this week. 🔖 When Bits Rot - with C McKean, L Talboom, A Page-Mitchell English Edition: floppy disks, hard drives, CDs, DVDs, SSD drives - no matter what you choose to store your data on - ultimately they all decay. With my guests Callum McKean, Leontien Talboom and Adrian Page-Mitchell, we’re going to talk about what kinds of data we find on old drives, why we want to get them in the first place, and what can go wrong with the storage…</p>
         </article>
       
         <article class="entry">
