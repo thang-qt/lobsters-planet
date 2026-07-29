@@ -34,7 +34,7 @@
         
         
         <div><dt>Profile checked</dt><dd>22 Jul 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>28 Jul 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>29 Jul 2026</dd></div>
       </dl>
       
     </section>
@@ -75,12 +75,6 @@
           <p class="meta">29 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
           <h3><a href="https://runxiyu.org/comp/llmenv/">Environment variables indicative of coding agents</a></h3>
           <p>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">27 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/shallowbundle/">Converting shallow Git bundles into normal repositories</a></h3>
-          <p>Let’s say you have a shallow Git bundle, i.e., not all referenced objects are present. How do you convert it into a normal shallow repository? Initialize the target as a bare-repo with your desired object-format. git init --bare --object-format=sha1 target.git &amp;&amp; cd target.git Find the start of the pack in each bundle (version 2 packs starts with 5041 434b 0000 0002 ). In my case it’s byte offset 77. Extract and index the packfile, creating the .idx and .rev . tail -c &#43;77 ../source.bundle | …</p>
         </article>
       
     </div>
