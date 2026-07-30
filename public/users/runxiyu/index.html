@@ -71,12 +71,6 @@
           <p>Properly configuring your service manager is good and all, but sometimes I just want to start a few services on startup and be able to tinker with them as I go. My solution is just to run my stuff in a tmux. I mean, this is a shell script. You can specify things and wait for readiness in whatever way you wish. #!/bin/sh set -ux session=&#34;tmuxsvc&#34; tmux has-session -t &#34;$session&#34; 2&gt;/dev/null &amp;&amp; { tmux attach -t &#34;$session&#34;; exit 0; } tmux new-session -d -s &#34;$session&#34; -n misc tmux new-window -t &#34;$sess…</p>
         </article>
       
-        <article class="entry">
-          <p class="meta">29 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/llmenv/">Environment variables indicative of coding agents</a></h3>
-          <p>These might be useful to block or otherwise indicate things to LLM coding agents when they encounter your project, for example refusing to build or run tests, or telling the agent it’s performing copyright infringement (which appears to be effective in causing them to bail). The below is a list of environment variables highly indicative of LLM agents. There are other methods, such as traversing /proc to find parents. Please email me with additions. OpenAI Codex CODEX_MANAGED_PACKAGE_ROOT CODEX…</p>
-        </article>
-      
     </div>
   </main>
 
