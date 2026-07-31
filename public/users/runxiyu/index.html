@@ -34,7 +34,7 @@
         
         
         <div><dt>Profile checked</dt><dd>22 Jul 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>30 Jul 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>31 Jul 2026</dd></div>
       </dl>
       
     </section>
@@ -63,12 +63,6 @@
           <p class="meta">21 Jun 2026 · Runxi Yu on Runxi Yu’s Website</p>
           <h3><a href="https://runxiyu.org/comp/incuswl/">Getting Wayland to work on unprivileged Incus container</a></h3>
           <p>incus config device add &#34;$CONTAINER&#34; wayland proxy \ connect=unix:&#34;$XDG_RUNTIME_DIR&#34;/&#34;$WAYLAND_DISPLAY&#34; \ listen=unix:/run/user/1000/wayland-0 \ bind=container \ uid=1000 gid=1000 mode=0660 \ security.uid=1000 security.gid=1000 incus config device add &#34;$CONTAINER&#34; gpu gpu No need to mess with ID mapping or anything like that, apparently. Works much better than waypipe for GPU-accelerated applications.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">30 May 2026 · Runxi Yu on Runxi Yu’s Website</p>
-          <h3><a href="https://runxiyu.org/comp/tmuxsvc/">Supervising services with tmux</a></h3>
-          <p>Properly configuring your service manager is good and all, but sometimes I just want to start a few services on startup and be able to tinker with them as I go. My solution is just to run my stuff in a tmux. I mean, this is a shell script. You can specify things and wait for readiness in whatever way you wish. #!/bin/sh set -ux session=&#34;tmuxsvc&#34; tmux has-session -t &#34;$session&#34; 2&gt;/dev/null &amp;&amp; { tmux attach -t &#34;$session&#34;; exit 0; } tmux new-session -d -s &#34;$session&#34; -n misc tmux new-window -t &#34;$sess…</p>
         </article>
       
     </div>
