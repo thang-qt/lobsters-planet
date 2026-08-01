@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T09:04:57.635736627Z",
+  "generated_at": "2026-08-01T14:40:34.497524208Z",
   "overview": {
     "users": 20565,
-    "crawled_profiles": 5325,
+    "crawled_profiles": 5350,
     "homepages": 1,
     "users_with_feeds": 238,
-    "feeds": 69,
-    "feeds_with_posts": 69,
+    "feeds": 68,
+    "feeds_with_posts": 68,
     "entries": 300
   },
   "oldest_users": [
@@ -83,15 +83,15 @@
       "feed_title": "Jamie Tanna | Software Engineer",
       "owner_username": "JamieTanna",
       "site_url": "",
-      "entries": 29,
-      "latest_at": "2026-07-31T11:29:00Z"
+      "entries": 30,
+      "latest_at": "2026-08-01T11:27:00Z"
     },
     {
       "feed_url": "https://inkdroid.org/feed.xml",
       "feed_title": "inkdroid",
       "owner_username": "edsu",
       "site_url": "https://inkdroid.org",
-      "entries": 18,
+      "entries": 17,
       "latest_at": "2026-07-26T04:00:00Z"
     },
     {
@@ -119,6 +119,14 @@
       "latest_at": "2026-07-23T00:39:22Z"
     },
     {
+      "feed_url": "https://toot.cat/@dredmorbius.rss",
+      "feed_title": "Doc Edward Morbius ⭕​",
+      "owner_username": "dredmorbius",
+      "site_url": "",
+      "entries": 9,
+      "latest_at": "2026-08-01T05:10:51Z"
+    },
+    {
       "feed_url": "https://jordivillar.com/rss.xml",
       "feed_title": "Jordi Villar",
       "owner_username": "jordi",
@@ -135,12 +143,12 @@
       "latest_at": "2026-07-27T09:43:00Z"
     },
     {
-      "feed_url": "https://toot.cat/@dredmorbius.rss",
-      "feed_title": "Doc Edward Morbius ⭕​",
-      "owner_username": "dredmorbius",
+      "feed_url": "https://www.jacky.wtf/links/feed.atom",
+      "feed_title": "Jacky Alciné's linklog",
+      "owner_username": "jalcine",
       "site_url": "",
-      "entries": 8,
-      "latest_at": "2026-08-01T04:10:45Z"
+      "entries": 6,
+      "latest_at": "2026-07-31T12:30:00Z"
     },
     {
       "feed_url": "https://www.jacky.wtf/essays/feed.atom",
@@ -149,14 +157,6 @@
       "site_url": "",
       "entries": 6,
       "latest_at": "2026-07-23T14:00:00Z"
-    },
-    {
-      "feed_url": "https://www.jacky.wtf/links/feed.atom",
-      "feed_title": "Jacky Alciné's linklog",
-      "owner_username": "jalcine",
-      "site_url": "",
-      "entries": 6,
-      "latest_at": "2026-07-31T12:30:00Z"
     },
     {
       "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
@@ -199,14 +199,6 @@
       "latest_at": "2026-07-26T14:54:28Z"
     },
     {
-      "feed_url": "https://www.philipzucker.com/feed.xml",
-      "feed_title": "Hey There Buddo!",
-      "owner_username": "philzook",
-      "site_url": "",
-      "entries": 5,
-      "latest_at": "2026-07-29T00:00:00Z"
-    },
-    {
       "feed_url": "https://tante.cc/feed/",
       "feed_title": "Smashing Frames",
       "owner_username": "tante",
@@ -237,6 +229,14 @@
       "site_url": "",
       "entries": 4,
       "latest_at": "2026-06-16T00:00:00Z"
+    },
+    {
+      "feed_url": "https://www.philipzucker.com/feed.xml",
+      "feed_title": "Hey There Buddo!",
+      "owner_username": "philzook",
+      "site_url": "",
+      "entries": 4,
+      "latest_at": "2026-07-29T00:00:00Z"
     },
     {
       "feed_url": "https://www.splitbrain.org/feed/blog",
@@ -273,11 +273,34 @@
   ],
   "recent_sites": [
     {
+      "username": "JamieTanna",
+      "site_url": "",
+      "feed_title": "Jamie Tanna | Software Engineer",
+      "latest_at": "2026-08-01T11:27:00Z",
+      "url": "https://www.jvt.me/mf2/2026/08/rzxtp/?utm_medium=rss\u0026utm_source=rss"
+    },
+    {
+      "username": "Foxboron",
+      "site_url": "",
+      "feed_title": "Morten Linderud",
+      "latest_at": "2026-08-01T11:00:00Z",
+      "title": "Resigning from Arch Linux",
+      "url": "https://linderud.dev/blog/resigning-from-arch-linux/"
+    },
+    {
+      "username": "sandipb",
+      "site_url": "",
+      "feed_title": "sandipb.net",
+      "latest_at": "2026-08-01T07:29:40Z",
+      "title": "Codex's Built-In Web Search Can Return Stale Results",
+      "url": "https://blog.sandipb.net/2026/08/01/codex-s-built-in-web-search-can-return-stale-results/"
+    },
+    {
       "username": "dredmorbius",
       "site_url": "",
       "feed_title": "Doc Edward Morbius ⭕​",
-      "latest_at": "2026-08-01T04:10:45Z",
-      "url": "https://toot.cat/@dredmorbius/117018292733210452"
+      "latest_at": "2026-08-01T05:10:51Z",
+      "url": "https://toot.cat/@dredmorbius/117018529057268883"
     },
     {
       "username": "christiano",
@@ -294,13 +317,6 @@
       "latest_at": "2026-07-31T13:00:00Z",
       "title": "Weeknotes for 7/31/2026",
       "url": "https://www.jacky.wtf/weeknotes/2026/Jul-31/"
-    },
-    {
-      "username": "JamieTanna",
-      "site_url": "",
-      "feed_title": "Jamie Tanna | Software Engineer",
-      "latest_at": "2026-07-31T11:29:00Z",
-      "url": "https://www.jvt.me/mf2/2026/07/nhn6t/?utm_medium=rss\u0026utm_source=rss"
     },
     {
       "username": "timharek",
@@ -323,8 +339,8 @@
       "site_url": "",
       "feed_title": "with words, wonder",
       "latest_at": "2026-07-31T00:00:00Z",
-      "title": "Of Day",
-      "url": "https://jamesg.blog/2026/07/31/of-day-2"
+      "title": "Lattes",
+      "url": "https://jamesg.blog/2026/07/31/lattes"
     },
     {
       "username": "ABGEO",
@@ -453,22 +469,6 @@
       "latest_at": "2026-07-23T11:35:22Z",
       "title": "Automatic JavaVM and Context detection using Rust on Android",
       "url": "https://octet-stream.net/b/scb/2026-07-23-automatic-javavm-and-context-detection-using-rust-on-android.html"
-    },
-    {
-      "username": "ayushnix",
-      "site_url": "",
-      "feed_title": "Posts from @ayushnix@social.ayushnix.com",
-      "latest_at": "2026-07-23T00:39:22Z",
-      "title": "I guess this is what I deserve for trying to support independent and local book sellers like https://www.bookchor.com/\n\nThe f...",
-      "url": "https://social.ayushnix.com/@ayushnix/statuses/01KY66KA7A1V9HJAAV4C07C3SP"
-    },
-    {
-      "username": "sillylaird",
-      "site_url": "",
-      "feed_title": "SillyLaird — Changelog",
-      "latest_at": "2026-07-23T00:00:00Z",
-      "title": "Ops, security, and visual cleanup pass. Fixed nightly backup and uptime cron sc…",
-      "url": "https://www.sillylaird.ca/changelog/"
     }
   ]
 }
