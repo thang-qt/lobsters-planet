@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04T09:39:10.758713842Z",
+  "generated_at": "2026-08-04T15:22:04.411443675Z",
   "overview": {
-    "users": 20579,
-    "crawled_profiles": 5625,
+    "users": 20580,
+    "crawled_profiles": 5650,
     "homepages": 1,
     "users_with_feeds": 238,
-    "feeds": 65,
-    "feeds_with_posts": 65,
+    "feeds": 64,
+    "feeds_with_posts": 64,
     "entries": 300
   },
   "oldest_users": [
@@ -75,15 +75,15 @@
       "feed_title": "James' Coffee Blog",
       "owner_username": "capjamesg",
       "site_url": "https://jamesg.blog",
-      "entries": 55,
-      "latest_at": "2026-08-03T00:00:00Z"
+      "entries": 58,
+      "latest_at": "2026-08-04T00:00:00Z"
     },
     {
       "feed_url": "https://www.jvt.me/feed.xml",
       "feed_title": "Jamie Tanna | Software Engineer",
       "owner_username": "JamieTanna",
       "site_url": "",
-      "entries": 31,
+      "entries": 30,
       "latest_at": "2026-08-02T20:10:49Z"
     },
     {
@@ -91,7 +91,7 @@
       "feed_title": "inkdroid",
       "owner_username": "edsu",
       "site_url": "https://inkdroid.org",
-      "entries": 17,
+      "entries": 16,
       "latest_at": "2026-08-02T04:00:00Z"
     },
     {
@@ -191,14 +191,6 @@
       "latest_at": "2026-07-30T00:00:00Z"
     },
     {
-      "feed_url": "https://gokmengorgen.net/index.xml",
-      "feed_title": "Gökmen Görgen",
-      "owner_username": "goedev",
-      "site_url": "",
-      "entries": 4,
-      "latest_at": "2026-06-27T00:00:00Z"
-    },
-    {
       "feed_url": "https://jcs.org/notes/rss",
       "feed_title": "Notes - joshua stein",
       "owner_username": "jcs",
@@ -255,29 +247,53 @@
       "latest_at": "2026-07-31T00:00:00Z"
     },
     {
+      "feed_url": "https://gokmengorgen.net/index.xml",
+      "feed_title": "Gökmen Görgen",
+      "owner_username": "goedev",
+      "site_url": "",
+      "entries": 3,
+      "latest_at": "2026-06-27T00:00:00Z"
+    },
+    {
+      "feed_url": "https://hpjansson.org/blag/comments/feed/",
+      "feed_title": "Comments for Et tu, Cthulhu",
+      "owner_username": "hpj",
+      "site_url": "",
+      "entries": 3,
+      "latest_at": "2026-08-04T13:05:31Z"
+    },
+    {
       "feed_url": "https://marcin.juszkiewicz.com.pl/feed/",
       "feed_title": "Marcin Juszkiewicz",
       "owner_username": "hrw",
       "site_url": "",
       "entries": 3,
       "latest_at": "2026-07-29T09:26:00Z"
-    },
-    {
-      "feed_url": "https://www.jacky.wtf/essays/feed.atom",
-      "feed_title": "Jacky Alciné's essays",
-      "owner_username": "jalcine",
-      "site_url": "",
-      "entries": 3,
-      "latest_at": "2026-07-23T14:00:00Z"
     }
   ],
   "recent_sites": [
+    {
+      "username": "hpj",
+      "site_url": "",
+      "feed_title": "Comments for Et tu, Cthulhu",
+      "latest_at": "2026-08-04T13:05:31Z",
+      "title": "Comment on Adventure game graphics with DALL-E 2 by deepai",
+      "url": "https://hpjansson.org/blag/2022/08/16/adventure-game-graphics-with-dall-e-2/#comment-79010"
+    },
     {
       "username": "dredmorbius",
       "site_url": "",
       "feed_title": "Doc Edward Morbius ⭕​",
       "latest_at": "2026-08-04T01:54:39Z",
       "url": "https://toot.cat/@dredmorbius/117034744523200487"
+    },
+    {
+      "username": "capjamesg",
+      "site_url": "",
+      "feed_title": "with words, wonder",
+      "latest_at": "2026-08-04T00:00:00Z",
+      "title": "Sorting drafts with w-shingling",
+      "url": "https://jamesg.blog/2026/08/04/sorting-drafts-with-w-shingling"
     },
     {
       "username": "sandipb",
@@ -300,16 +316,8 @@
       "site_url": "",
       "feed_title": "asb's corner",
       "latest_at": "2026-08-03T00:00:00Z",
-      "title": "Longitude",
-      "url": "https://abhamra.com/book_reviews/longitude/"
-    },
-    {
-      "username": "capjamesg",
-      "site_url": "",
-      "feed_title": "with words, wonder",
-      "latest_at": "2026-08-03T00:00:00Z",
-      "title": "Midnight",
-      "url": "https://jamesg.blog/2026/08/03/midnight"
+      "title": "When Einstein Walked With Gödel: Excursions to the Edge of Thought",
+      "url": "https://abhamra.com/book_reviews/einstein-godel/"
     },
     {
       "username": "jcs",
@@ -326,14 +334,6 @@
       "latest_at": "2026-08-02T20:10:49Z",
       "title": "Week Notes 26#31",
       "url": "https://www.jvt.me/week-notes/2026/31/?utm_medium=rss\u0026utm_source=rss"
-    },
-    {
-      "username": "hpj",
-      "site_url": "",
-      "feed_title": "Comments for Et tu, Cthulhu",
-      "latest_at": "2026-08-02T04:39:06Z",
-      "title": "Comment on Chafa 1.8: Terminal graphics with a side of everything by Kaomoji",
-      "url": "https://hpjansson.org/blag/2021/09/16/chafa-1-8-terminal-graphics-with-a-side-of-everything/#comment-78775"
     },
     {
       "username": "edsu",
@@ -456,20 +456,20 @@
       "url": "https://www.philipzucker.com/bdd_term_alg_effects/"
     },
     {
+      "username": "bahlo",
+      "site_url": "",
+      "feed_title": "Arne Bahlo’s Book Reviews",
+      "latest_at": "2026-07-29T00:00:00Z",
+      "title": "Ich las Die Assistentin von Caroline Wahl",
+      "url": "https://arne.me/library/die-assistentin"
+    },
+    {
       "username": "splitbrain",
       "site_url": "",
       "feed_title": "Linkblog",
       "latest_at": "2026-07-28T05:47:01Z",
       "title": "Datatype — variable font that turns text into charts",
       "url": "https://franktisellano.github.io/datatype/"
-    },
-    {
-      "username": "nedbat",
-      "site_url": "",
-      "feed_title": "Ned Batchelder's blog",
-      "latest_at": "2026-07-26T14:54:28Z",
-      "title": "Acidica",
-      "url": "https://nedbatchelder.com/blog/202607/acidica"
     }
   ]
 }
