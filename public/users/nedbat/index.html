@@ -34,7 +34,7 @@
         
         
         <div><dt>Profile checked</dt><dd>29 Jul 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>9 Aug 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>10 Aug 2026</dd></div>
       </dl>
       
     </section>
@@ -46,6 +46,12 @@
       </div>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">9 Aug 2026 · Ned Batchelder&#39;s blog</p>
+          <h3><a href="https://nedbatchelder.com/blog/202608/callerspecific_coverage">Caller-specific coverage</a></h3>
+          <p>I’ve had an idea rattling around to get more detail from coverage measurement. Can we measure the coverage in a function separately for each caller of the function? Here’s why I want it: in Acidica , my toy BASIC interpreter, I have code to implement the built-in functions that looks something like this: match func_name : case &#34;LEN&#34; : if len ( args ) != 1 : raise TypeError ( f &#34;Wrong arguments for LEN, got { len ( args ) } &#34; ) return len ( args [ 0 ]) case &#34;LEFT$&#34; : if len ( args ) != 2 : ra…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">26 Jul 2026 · Ned Batchelder&#39;s blog</p>
