@@ -23,7 +23,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 1 discovered personal sites. Last built 15 Aug 2026, 07:29 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 1 discovered personal sites. Last built 15 Aug 2026, 13:43 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -32,6 +32,12 @@
       <a href="/posts/">All posts</a>
     </section>
     <div class="entries compact-feed">
+      
+        <article class="entry">
+          <p class="meta">15 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h3><a href="https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html">Benchmarks Are Free Now</a></h3>
+          <p>My previous post walked through four bugs in ruby-enum , a gem I maintain, all stemming from the fact that class-level instance variables aren’t inherited by subclasses. The third fix, #59 , made keys , key? , value? , key , value , to_h , parse and each walk up superclass and merge in a parent’s enums, so a subclass would see everything its ancestors defined. It was correct, fully tested, and shipped. It also made every one of those methods roughly 5x slower on any subclass. def _enum_hash …</p>
+        </article>
       
         <article class="entry">
           <p class="meta">15 Aug 2026 · <a href="/users/dmitrygr/">dmitrygr</a> · Dmitry.GR</p>
@@ -65,8 +71,8 @@
       
         <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/paper">paper</a></h3>
-          <p>to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/memories">memories</a></h3>
+          <p>the forever flutters like a lantern, warming, present.</p>
         </article>
       
         <article class="entry">
@@ -77,20 +83,8 @@
       
         <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/questions-ii">questions, ii</a></h3>
-          <p>(what if) home pages (were, are) ever-changing poems(?)</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/memories">memories</a></h3>
-          <p>the forever flutters like a lantern, warming, present.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
-          <h3><a href="https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html">Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)</a></h3>
-          <p>The ruby-enum gem is a small library I maintain that adds enum-like behavior to a class via include Ruby::Enum and define :KEY, value . Four pull requests landed against it recently, each fixing a different symptom, and all four turned out to be the same underlying bug: class-level instance variables set in a module’s included hook are not inherited by subclasses the way you might expect. All of these fixes shipped in ruby-enum 1.2.0 . Ruby::Enum stores its keys and values in instance variable…</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/paper">paper</a></h3>
+          <p>to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.</p>
         </article>
       
         <article class="entry">
@@ -100,9 +94,21 @@
         </article>
       
         <article class="entry">
+          <p class="meta">14 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h3><a href="https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html">Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)</a></h3>
+          <p>The ruby-enum gem is a small library I maintain that adds enum-like behavior to a class via include Ruby::Enum and define :KEY, value . Four pull requests landed against it recently, each fixing a different symptom, and all four turned out to be the same underlying bug: class-level instance variables set in a module’s included hook are not inherited by subclasses the way you might expect. All of these fixes shipped in ruby-enum 1.2.0 . Ruby::Enum stores its keys and values in instance variable…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/gabe/">gabe</a> · lifewaza</p>
           <h3><a href="https://www.lifewaza.com/posts/configuring-local-dns/">Configuring local DNS</a></h3>
           <p>In the last article in this series, I got caddy up and running and told it about all the services I wanted it to know about. Now I need to setup the mapping between the names (grafana.lifewaza.com) and the IP address where caddy is running (192.168.1.10). Since I run a local DNS resolver ( unbound ) I can just add entries to it’s configuration file ( /var/unbound/etc/unbound.conf ) for each of the services I want to name. # transparent local zone for lifewaza.com local-zone: &#34;lifewaza.com&#34; tra…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/questions-ii">questions, ii</a></h3>
+          <p>(what if) home pages (were, are) ever-changing poems(?)</p>
         </article>
       
         <article class="entry">
@@ -113,8 +119,8 @@
       
         <article class="entry">
           <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#beauty">Beautiful Things</a></h3>
-          <p>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</p>
+          <h3><a href="https://jbaber.sdf.org/#Computers">Computers</a></h3>
+          <p>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</p>
         </article>
       
         <article class="entry">
@@ -131,32 +137,14 @@
       
         <article class="entry">
           <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
+          <h3><a href="https://jbaber.sdf.org/#beauty">Beautiful Things</a></h3>
+          <p>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
           <h3><a href="https://jbaber.sdf.org/#cairo">Cairo Composite Manager</a></h3>
           <p>Cairo Composite Manager 2011-10-11 This is what I had to do to get Cairo Composite Manager working to get expose-like behavior for normal Gnome. Sergey Davidoff has a working version in his ppa. Follow his directions . Because I have no idea what I&#39;m doing, this advice should be taken with a grain of salt. I make no claims that following my directions won&#39;t erase all your data and destroy your computer. short how to</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#Computers">Computers</a></h3>
-          <p>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#TIL">Today I Learned</a></h3>
-          <p>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#now">Now</a></h3>
-          <p>Now These are things I&#39;m doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/13/afterglow">Afterglow</a></h3>
-          <p>Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…</p>
         </article>
       
         <article class="entry">
@@ -166,27 +154,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/13/sunset-2">Sunset</a></h3>
-          <p>I was just in time to catch the moment when the sun started to recede behind the hills in the distance, a moment in which two birds flew together and danced into the night, in which there were the last flickers of the golden glow of Evening thinking through the window, in which I looked to see the colours of the rest of the sky and, when looking back, realise the sun has now set; its brilliant yellow glow becoming cooler with every passing minute. I looked to the clouds and saw the shape of a gi…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/13/questions">Questions</a></h3>
-          <p>Ever since I published “Blogs, websites, and identity”, I have been thinking about and discussing some of the questions I raised in the blog post: why do we take photos, what does it mean to write on the web. The essay feels like a starting point: a framing from which to work, a point of reference, a repository of questions. In the essay, I wrote: But I can’t shake my question: what does it mean to write on the web? I am still thinking about this question. I am no closer to having a writte…</p>
-        </article>
-      
-        <article class="entry">
           <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
           <h3><a href="https://jbaber.sdf.org/#wishlist">Wishlist</a></h3>
           <p>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</p>
         </article>
       
         <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
-          <h3><a href="https://mtlynch.io/retrospectives/2026/08/">Refactoring English: Month 20</a></h3>
-          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights July’s book sales tripled the already-strong sales I saw in June. I’m fighting the world’s dumbest scraper bot. I’m using AI to make a multiplay…</p>
+          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
+          <h3><a href="https://jbaber.sdf.org/#TIL">Today I Learned</a></h3>
+          <p>Today I Learned &#34;Meta&#34; meant &#34;after&#34; in Greek, not &#34;about&#34; since the Metaphysics section came literally after the Physics section in the organization of Aristotle&#39;s treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) &#34; Selfie s&#34; are usually backwards images. It&#39;s obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…</p>
         </article>
       
         <article class="entry">
@@ -202,15 +178,39 @@
         </article>
       
         <article class="entry">
-          <p class="meta">12 Aug 2026 · <a href="/users/dredmorbius/">dredmorbius</a> · Doc Edward Morbius ⭕​</p>
-          <h3><a href="https://toot.cat/@dredmorbius/117084836021755475"></a></h3>
-          <p>HN discussion on France&#39;s telemarketing ban Yesterday&#39;s discussion impressed me with the number of comments indicating total rejection of the mainstream direct-dial phone network (PSTN: Public Switched Telephone Network), by which I mean not merely landlines but mobile and (compatible) VOIP/SIP systems. Spam calls, once largely confined the the US and a few other countries, are spreading. Comment highlights: Telemarketers have ruined the phone network for me. I haven&#39;t answered an unknown call f…</p>
+          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
+          <h3><a href="https://jbaber.sdf.org/#now">Now</a></h3>
+          <p>Now These are things I&#39;m doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/13/sunset-2">Sunset</a></h3>
+          <p>I was just in time to catch the moment when the sun started to recede behind the hills in the distance, a moment in which two birds flew together and danced into the night, in which there were the last flickers of the golden glow of Evening thinking through the window, in which I looked to see the colours of the rest of the sky and, when looking back, realise the sun has now set; its brilliant yellow glow becoming cooler with every passing minute. I looked to the clouds and saw the shape of a gi…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
+          <h3><a href="https://mtlynch.io/retrospectives/2026/08/">Refactoring English: Month 20</a></h3>
+          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights July’s book sales tripled the already-strong sales I saw in June. I’m fighting the world’s dumbest scraper bot. I’m using AI to make a multiplay…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/13/afterglow">Afterglow</a></h3>
+          <p>Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/13/questions">Questions</a></h3>
+          <p>Ever since I published “Blogs, websites, and identity”, I have been thinking about and discussing some of the questions I raised in the blog post: why do we take photos, what does it mean to write on the web. The essay feels like a starting point: a framing from which to work, a point of reference, a repository of questions. In the essay, I wrote: But I can’t shake my question: what does it mean to write on the web? I am still thinking about this question. I am no closer to having a writte…</p>
         </article>
       
         <article class="entry">
           <p class="meta">12 Aug 2026 · <a href="/users/dredmorbius/">dredmorbius</a> · Doc Edward Morbius ⭕​</p>
-          <h3><a href="https://toot.cat/@dredmorbius/117084504185944330"></a></h3>
-          <p>Using the web is basically impossible without an ad blocker, and having a phone is basically impossible without a call blocker. -- altern8 (Hacker News) https:// news.ycombinator.com/item?id=4 9256281 # Robocalls # PhoneSpam # DeathOfTelephony</p>
+          <h3><a href="https://toot.cat/@dredmorbius/117084836021755475"></a></h3>
+          <p>HN discussion on France&#39;s telemarketing ban Yesterday&#39;s discussion impressed me with the number of comments indicating total rejection of the mainstream direct-dial phone network (PSTN: Public Switched Telephone Network), by which I mean not merely landlines but mobile and (compatible) VOIP/SIP systems. Spam calls, once largely confined the the US and a few other countries, are spreading. Comment highlights: Telemarketers have ruined the phone network for me. I haven&#39;t answered an unknown call f…</p>
         </article>
       
     </div>
