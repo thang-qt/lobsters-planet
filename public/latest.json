@@ -11,10 +11,21 @@
     "site_url": ""
   },
   {
+    "id": "https://jordivillar.com/notes/write-it-down/",
+    "title": "Write it down",
+    "url": "https://jordivillar.com/blog/write-it-down/",
+    "summary": "I spent a few years writing down everything I learned about ClickHouse internals. Most of it I can’t read anymore. It lived in the internal tools of a company I no longer work for, and the day I left, it stayed there. The habit came from Tinybird. For the ones who didn’t read my farewell post , writing things down was a big chunk of the company culture for the first years. We used Basecamp for it. We can argue whether it was the best tool, but it did the job. Some of what I wrote in those ye…",
+    "published_at": "2026-08-14T16:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
+    "site_url": ""
+  },
+  {
     "id": "https://www.silvestar.codes/articles/using-scroll-driven-animations-for-opposing-scroll-directions/",
     "title": "Using Scroll-Driven Animations for Opposing Scroll Directions",
     "url": "https://www.silvestar.codes/articles/using-scroll-driven-animations-for-opposing-scroll-directions/",
-    "summary": "Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items moving in",
+    "summary": "I had to build columns of items moving in opposite directions when a user scrolls the page. See how I did it.",
     "published_at": "2026-08-14T10:00:00Z",
     "feed_url": "https://www.silvestar.codes/rss.xml",
     "feed_title": "Blog of fearless web developer Silvestar Bistrović",
@@ -44,10 +55,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/14/memories",
-    "title": "memories",
-    "url": "https://jamesg.blog/2026/08/14/memories",
-    "summary": "the forever flutters like a lantern, warming, present.",
+    "id": "https://jamesg.blog/2026/08/14/edgar",
+    "title": "Edgar",
+    "url": "https://jamesg.blog/2026/08/14/edgar",
+    "summary": "Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…",
     "published_at": "2026-08-14T00:00:00Z",
     "updated_at": "2026-08-14T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -56,10 +67,22 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/14/questions-ii",
-    "title": "questions, ii",
-    "url": "https://jamesg.blog/2026/08/14/questions-ii",
-    "summary": "(what if) home pages (were, are) ever-changing poems(?)",
+    "id": "https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl",
+    "title": "Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)",
+    "url": "https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html",
+    "summary": "The ruby-enum gem is a small library I maintain that adds enum-like behavior to a class via include Ruby::Enum and define :KEY, value . Four pull requests landed against it recently, each fixing a different symptom, and all four turned out to be the same underlying bug: class-level instance variables set in a module’s included hook are not inherited by subclasses the way you might expect. All of these fixes shipped in ruby-enum 1.2.0 . Ruby::Enum stores its keys and values in instance variable…",
+    "published_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-14T00:00:00Z",
+    "feed_url": "https://code.dblock.org/feed.xml",
+    "feed_title": "code.dblock.org | tech blog",
+    "owner_username": "dblock",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/14/paper",
+    "title": "paper",
+    "url": "https://jamesg.blog/2026/08/14/paper",
+    "summary": "to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.",
     "published_at": "2026-08-14T00:00:00Z",
     "updated_at": "2026-08-14T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -80,10 +103,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/14/edgar",
-    "title": "Edgar",
-    "url": "https://jamesg.blog/2026/08/14/edgar",
-    "summary": "Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…",
+    "id": "https://jamesg.blog/2026/08/14/questions-ii",
+    "title": "questions, ii",
+    "url": "https://jamesg.blog/2026/08/14/questions-ii",
+    "summary": "(what if) home pages (were, are) ever-changing poems(?)",
     "published_at": "2026-08-14T00:00:00Z",
     "updated_at": "2026-08-14T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -92,15 +115,26 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/14/paper",
-    "title": "paper",
-    "url": "https://jamesg.blog/2026/08/14/paper",
-    "summary": "to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.",
+    "id": "https://jamesg.blog/2026/08/14/memories",
+    "title": "memories",
+    "url": "https://jamesg.blog/2026/08/14/memories",
+    "summary": "the forever flutters like a lantern, warming, present.",
     "published_at": "2026-08-14T00:00:00Z",
     "updated_at": "2026-08-14T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/configuring-local-dns/",
+    "title": "Configuring local DNS",
+    "url": "https://www.lifewaza.com/posts/configuring-local-dns/",
+    "summary": "In the last article in this series, I got caddy up and running and told it about all the services I wanted it to know about. Now I need to setup the mapping between the names (grafana.lifewaza.com) and the IP address where caddy is running (192.168.1.10). Since I run a local DNS resolver ( unbound ) I can just add entries to it’s configuration file ( /var/unbound/etc/unbound.conf ) for each of the services I want to name. # transparent local zone for lifewaza.com local-zone: \"lifewaza.com\" tra…",
+    "published_at": "2026-08-14T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
     "site_url": ""
   },
   {
@@ -170,10 +204,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#laarni",
-    "title": "Laarni",
-    "url": "https://jbaber.sdf.org/#laarni",
-    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "id": "https://jbaber.sdf.org/#wishlist",
+    "title": "Wishlist",
+    "url": "https://jbaber.sdf.org/#wishlist",
+    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
     "published_at": "2026-08-13T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -193,10 +227,44 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#now",
-    "title": "Now",
-    "url": "https://jbaber.sdf.org/#now",
-    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
+    "id": "https://jamesg.blog/2026/08/13/afterglow",
+    "title": "Afterglow",
+    "url": "https://jamesg.blog/2026/08/13/afterglow",
+    "summary": "Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…",
+    "published_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://mtlynch.io/retrospectives/2026/08/",
+    "title": "Refactoring English: Month 20",
+    "url": "https://mtlynch.io/retrospectives/2026/08/",
+    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights July’s book sales tripled the already-strong sales I saw in June. I’m fighting the world’s dumbest scraper bot. I’m using AI to make a multiplay…",
+    "published_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://mtlynch.io/index.xml",
+    "feed_title": "mtlynch.io",
+    "owner_username": "mtlynch",
+    "site_url": ""
+  },
+  {
+    "id": "https://jbaber.sdf.org/#laarni",
+    "title": "Laarni",
+    "url": "https://jbaber.sdf.org/#laarni",
+    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
+    "published_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": ""
+  },
+  {
+    "id": "https://jbaber.sdf.org/#TIL",
+    "title": "Today I Learned",
+    "url": "https://jbaber.sdf.org/#TIL",
+    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
     "published_at": "2026-08-13T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -227,28 +295,6 @@
     "site_url": ""
   },
   {
-    "id": "https://mtlynch.io/retrospectives/2026/08/",
-    "title": "Refactoring English: Month 20",
-    "url": "https://mtlynch.io/retrospectives/2026/08/",
-    "summary": "New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights July’s book sales tripled the already-strong sales I saw in June. I’m fighting the world’s dumbest scraper bot. I’m using AI to make a multiplay…",
-    "published_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://mtlynch.io/index.xml",
-    "feed_title": "mtlynch.io",
-    "owner_username": "mtlynch",
-    "site_url": ""
-  },
-  {
-    "id": "https://jbaber.sdf.org/#TIL",
-    "title": "Today I Learned",
-    "url": "https://jbaber.sdf.org/#TIL",
-    "summary": "Today I Learned \"Meta\" meant \"after\" in Greek, not \"about\" since the Metaphysics section came literally after the Physics section in the organization of Aristotle's treatises. (2020-09-07) Penguin and Random House merged in 2013 . (2020-06-12) \" Selfie s\" are usually backwards images. It's obviously easier to take a picture of yourself that looks like a mirror, but I assumed the image would be stored right-way-round. (2020-05-20) git-bug exists for tracking bugs entirely in the repo. and bridgin…",
-    "published_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/08/13/sunset-2",
     "title": "Sunset",
     "url": "https://jamesg.blog/2026/08/13/sunset-2",
@@ -261,26 +307,14 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#wishlist",
-    "title": "Wishlist",
-    "url": "https://jbaber.sdf.org/#wishlist",
-    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "id": "https://jbaber.sdf.org/#now",
+    "title": "Now",
+    "url": "https://jbaber.sdf.org/#now",
+    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
     "published_at": "2026-08-13T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
     "owner_username": "jbaber",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/13/afterglow",
-    "title": "Afterglow",
-    "url": "https://jamesg.blog/2026/08/13/afterglow",
-    "summary": "Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…",
-    "published_at": "2026-08-13T00:00:00Z",
-    "updated_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -328,10 +362,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/12/impressions-museums",
-    "title": "Impressions; museums",
-    "url": "https://jamesg.blog/2026/08/12/impressions-museums",
-    "summary": "On my desk there is a painting of Monet’s “Bridge over a Pond of Water Lilies” 1 that I purchased when I was on holiday last year. I wanted to bring something back that I could put in my living space, something that would both be a memory of the trip but also a work of art in itself to be enjoyed. Every time I go to my desk, the painting is there: a reminder of one of my favourite artists. I brought back a fridge magnet from the same trip, too, which brings art to the kitchen. And when I g…",
+    "id": "https://jamesg.blog/2026/08/12/eclipse",
+    "title": "Eclipse",
+    "url": "https://jamesg.blog/2026/08/12/eclipse",
+    "summary": "Is it possible to be in awe and have no idea to what extent until you look back? I think this is what I feel now, looking back on the solar eclipse that happened an hour and a half ago or so. “Isn’t it amazing that this happens?”, I said to everyone who joined this evening’s Homebrew Website Club Europe meetup online, whose start coincided with the solar eclipse. I didn't have solar eclipse glasses, but I decided to do the next best thing to experience the eclipse: watch the stream from …",
     "published_at": "2026-08-12T00:00:00Z",
     "updated_at": "2026-08-12T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -343,7 +377,7 @@
     "id": "https://abhamra.com/blog/caring-about-art/",
     "title": "(I think) caring about art is a good idea",
     "url": "https://abhamra.com/blog/caring-about-art/",
-    "summary": "Word Count: 1944 I was talking with a new friend Angela yesterday, and during our email conversation she mentioned her art taking a side seat to the tech-y stuff. It got me thinking about art again, and in particular the seemingly random but firm belief I have that knowing about, caring about, and engaging with art is important (more important than ever before? Who’s to say, really). I initially thought up a large portion of this with the intent of being prescriptive, but some helpful conversa…",
+    "summary": "I was talking with a new friend Angela yesterday, and during our email conversation she mentioned her art taking a side seat to the tech-y stuff. It got me thinking about art again, and in particular the seemingly random but firm belief I have that knowing about, caring about, and engaging with art is important (more important than ever before? Who’s to say, really). I initially thought up a large portion of this with the intent of being prescriptive, but some helpful conversations with my gir…",
     "published_at": "2026-08-12T00:00:00Z",
     "feed_url": "https://abhamra.com/rss.xml",
     "feed_title": "asb's corner",
@@ -351,10 +385,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/12/eclipse",
-    "title": "Eclipse",
-    "url": "https://jamesg.blog/2026/08/12/eclipse",
-    "summary": "Is it possible to be in awe and have no idea to what extent until you look back? I think this is what I feel now, looking back on the solar eclipse that happened an hour and a half ago or so. “Isn’t it amazing that this happens?”, I said to everyone who joined this evening’s Homebrew Website Club Europe meetup online, whose start coincided with the solar eclipse. I didn't have solar eclipse glasses, but I decided to do the next best thing to experience the eclipse: watch the stream from …",
+    "id": "https://jamesg.blog/2026/08/12/impressions-museums",
+    "title": "Impressions; museums",
+    "url": "https://jamesg.blog/2026/08/12/impressions-museums",
+    "summary": "On my desk there is a painting of Monet’s “Bridge over a Pond of Water Lilies” 1 that I purchased when I was on holiday last year. I wanted to bring something back that I could put in my living space, something that would both be a memory of the trip but also a work of art in itself to be enjoyed. Every time I go to my desk, the painting is there: a reminder of one of my favourite artists. I brought back a fridge magnet from the same trip, too, which brings art to the kitchen. And when I g…",
     "published_at": "2026-08-12T00:00:00Z",
     "updated_at": "2026-08-12T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -441,10 +475,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/11/perspectives",
-    "title": "Perspectives",
-    "url": "https://jamesg.blog/2026/08/11/perspectives",
-    "summary": "“What would this painting by Titian have looked like four hundred years ago?” I always find myself asking myself new questions – and noticing details I have never appreciated before – when I visit galleries. Some of this comes with my studies. I saw a portrait in the entrance of the National Gallery of Scotland today that I started to study using some of the symbols I learned to look out for earlier this year in school. Other times, questions come because I start to wonder. “If I were …",
+    "id": "https://jamesg.blog/2026/08/11/how-the-poem",
+    "title": "how the poem",
+    "url": "https://jamesg.blog/2026/08/11/how-the-poem",
+    "summary": "how the poem slows time — of day and night. how the poem flows words — all in sight. how the poem shows mirrors — reflections of light. how the poem knows conditions — ours alike.",
     "published_at": "2026-08-11T00:00:00Z",
     "updated_at": "2026-08-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -453,10 +487,22 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/11/how-the-poem",
-    "title": "how the poem",
-    "url": "https://jamesg.blog/2026/08/11/how-the-poem",
-    "summary": "how the poem slows time — of day and night. how the poem flows words — all in sight. how the poem shows mirrors — reflections of light. how the poem knows conditions — ours alike.",
+    "id": "https://code.dblock.org/2026/08/11/generating-ai-descriptions-of-automated-pull-requests",
+    "title": "Generating AI Descriptions of Automated Pull Requests",
+    "url": "https://code.dblock.org/2026/08/11/generating-ai-descriptions-of-automated-pull-requests.html",
+    "summary": "The slack-ruby-client library, an open source Ruby gem I maintain, runs a scheduled GitHub Actions workflow that regenerates code from Slack’s API definitions and opens a pull request with the diff. The commit message and CHANGELOG entry used to be a generic “Update API (2026-08-11)”, which told a reviewer nothing about what actually changed. Here’s how we taught the workflow to describe its own diffs, using GitHub Copilot CLI, which open source maintainers can get for free . The Idea Th…",
+    "published_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-11T00:00:00Z",
+    "feed_url": "https://code.dblock.org/feed.xml",
+    "feed_title": "code.dblock.org | tech blog",
+    "owner_username": "dblock",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/11/perspectives",
+    "title": "Perspectives",
+    "url": "https://jamesg.blog/2026/08/11/perspectives",
+    "summary": "“What would this painting by Titian have looked like four hundred years ago?” I always find myself asking myself new questions – and noticing details I have never appreciated before – when I visit galleries. Some of this comes with my studies. I saw a portrait in the entrance of the National Gallery of Scotland today that I started to study using some of the symbols I learned to look out for earlier this year in school. Other times, questions come because I start to wonder. “If I were …",
     "published_at": "2026-08-11T00:00:00Z",
     "updated_at": "2026-08-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -486,18 +532,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://code.dblock.org/2026/08/11/generating-ai-descriptions-of-automated-pull-requests",
-    "title": "Generating AI Descriptions of Automated Pull Requests",
-    "url": "https://code.dblock.org/2026/08/11/generating-ai-descriptions-of-automated-pull-requests.html",
-    "summary": "The slack-ruby-client library, an open source Ruby gem I maintain, runs a scheduled GitHub Actions workflow that regenerates code from Slack’s API definitions and opens a pull request with the diff. The commit message and CHANGELOG entry used to be a generic “Update API (2026-08-11)”, which told a reviewer nothing about what actually changed. Here’s how we taught the workflow to describe its own diffs, using GitHub Copilot CLI, which open source maintainers can get for free . The Idea Th…",
-    "published_at": "2026-08-11T00:00:00Z",
-    "updated_at": "2026-08-11T00:00:00Z",
-    "feed_url": "https://code.dblock.org/feed.xml",
-    "feed_title": "code.dblock.org | tech blog",
-    "owner_username": "dblock",
     "site_url": ""
   },
   {
@@ -567,10 +601,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/10/images",
-    "title": "images",
-    "url": "https://jamesg.blog/2026/08/10/images",
-    "summary": "Confident reflections of my reserved self. Colourful, frozen, fragmentary, ephemeral frames, I carry everywhere. Heavy as self.",
+    "id": "https://jamesg.blog/2026/08/10/morning-sunrise",
+    "title": "Morning, sunrise",
+    "url": "https://jamesg.blog/2026/08/10/morning-sunrise",
+    "summary": "The horizon is painted with a cool, warm glow. The sun has not yet risen; the hills are its blanket. The sky is a clear blue. I woke up earlier than normal this morning. I find myself writing while gazing out the window, watching the sun rise, its light filling the room, illuminating the ideas of past days on my whiteboard, the titles of books I love, and the glass of water I poured earlier to help me ease into the morning. When I woke up, I heard the song of a bird whose music I did not recogni…",
     "published_at": "2026-08-10T00:00:00Z",
     "updated_at": "2026-08-10T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -579,10 +613,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/10/morning-sunrise",
-    "title": "Morning, sunrise",
-    "url": "https://jamesg.blog/2026/08/10/morning-sunrise",
-    "summary": "The horizon is painted with a cool, warm glow. The sun has not yet risen; the hills are its blanket. The sky is a clear blue. I woke up earlier than normal this morning. I find myself writing while gazing out the window, watching the sun rise, its light filling the room, illuminating the ideas of past days on my whiteboard, the titles of books I love, and the glass of water I poured earlier to help me ease into the morning. When I woke up, I heard the song of a bird whose music I did not recogni…",
+    "id": "https://jamesg.blog/2026/08/10/images",
+    "title": "images",
+    "url": "https://jamesg.blog/2026/08/10/images",
+    "summary": "Confident reflections of my reserved self. Colourful, frozen, fragmentary, ephemeral frames, I carry everywhere. Heavy as self.",
     "published_at": "2026-08-10T00:00:00Z",
     "updated_at": "2026-08-10T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -703,6 +737,17 @@
     "site_url": ""
   },
   {
+    "id": "https://delphi.tools/",
+    "title": "delphitools — privacy-first browser tools",
+    "url": "https://delphi.tools/",
+    "summary": "A collection of small, low stakes and low effort tools. No logins, no registration, no data collection. I can't believe I have to say that. Long live the handmade web. If you find these tools useful, I'm glad. You don't owe me anything. But if you're an artist, feel free to email me your work . I'd love to see it. If you would like to donate to delphitools, I ask that you don't. Make a donation to Wikipedia (opens in new tab) or the EFF (opens in new tab) instead. Email me your proof of donation…",
+    "published_at": "2026-08-08T05:28:06Z",
+    "feed_url": "https://www.splitbrain.org/feed/links",
+    "feed_title": "Linkblog",
+    "owner_username": "splitbrain",
+    "site_url": ""
+  },
+  {
     "id": "https://www.liu.blog/p/i-saw-the-tv-glow",
     "title": "My first night in New York",
     "url": "https://www.liu.blog/p/i-saw-the-tv-glow",
@@ -726,7 +771,7 @@
     "site_url": ""
   },
   {
-    "id": "6a78c0ee692a8700015319d9",
+    "id": "6a75df674280930966b1c3d5",
     "title": "Summer 2026 Tick bite experience",
     "url": "https://blog.henryvandenbroek.com/tick-bite-experience/",
     "summary": "Took 6 weeks to figure what was hampering my performance, not lyme or anaplasmosis, but babesiosis.",
@@ -737,7 +782,7 @@
     "site_url": ""
   },
   {
-    "id": "6a75df674280930966b1c3d5",
+    "id": "6a78c0ee692a8700015319d9",
     "title": "Summer 2026 Tick bite experience",
     "url": "https://blog.henryvandenbroek.com/tick-bite-experience/",
     "summary": "Took 6 weeks to figure what was hampering my performance, not lyme or anaplasmosis, but babesiosis.",
@@ -771,10 +816,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/07/auld-faithful",
-    "title": "Auld Faithful",
-    "url": "https://jamesg.blog/2026/08/07/auld-faithful",
-    "summary": "A few weeks ago, the phrase \"old faithful\" came to me. I thought \"that would be a good name for a ship!\" This evening, I decided to do something with the name. I had an idea for a direction, but the story went in a completely different direction than I thought. I ended up writing a story in a version of Scots (that at least makes sense to me). In writing this story, I realised I could hear the story but didn't necessarily know how to write it down. I'm not certain on my spelling in some places, …",
+    "id": "https://jamesg.blog/2026/08/07/the-sound-of-writing",
+    "title": "The sound of writing",
+    "url": "https://jamesg.blog/2026/08/07/the-sound-of-writing",
+    "summary": "Writing is a sample of the sonorous inner monologue of life: a handful of the words that seem to mean something; that carry with them weight: greeting, friendship, questions, realisations, hopes, dreams, anxieties; sounds that carry life, and how we use language to coalesce all that we take in, transforming our ideas into something others can read in their own voices. As I write, I sit on the precipice of three voices: one I create, one I imagine, and the other that you, the reader, fill in. The…",
     "published_at": "2026-08-07T00:00:00Z",
     "updated_at": "2026-08-07T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -806,6 +851,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/08/07/auld-faithful",
+    "title": "Auld Faithful",
+    "url": "https://jamesg.blog/2026/08/07/auld-faithful",
+    "summary": "A few weeks ago, the phrase \"old faithful\" came to me. I thought \"that would be a good name for a ship!\" This evening, I decided to do something with the name. I had an idea for a direction, but the story went in a completely different direction than I thought. I ended up writing a story in a version of Scots (that at least makes sense to me). In writing this story, I realised I could hear the story but didn't necessarily know how to write it down. I'm not certain on my spelling in some places, …",
+    "published_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-07T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://ethancedwards.com/blog/2026-def-con-nix-vegas",
     "title": "2026 DEF CON 34 Nix Vegas",
     "url": "https://ethancedwards.com/blog/2026-def-con-nix-vegas",
@@ -814,18 +871,6 @@
     "feed_url": "https://ethancedwards.com/feed.xml",
     "feed_title": "Ethan Carter Edwards",
     "owner_username": "ethancedwards8",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/07/the-sound-of-writing",
-    "title": "The sound of writing",
-    "url": "https://jamesg.blog/2026/08/07/the-sound-of-writing",
-    "summary": "Writing is a sample of the sonorous inner monologue of life: a handful of the words that seem to mean something; that carry with them weight: greeting, friendship, questions, realisations, hopes, dreams, anxieties; sounds that carry life, and how we use language to coalesce all that we take in, transforming our ideas into something others can read in their own voices. As I write, I sit on the precipice of three voices: one I create, one I imagine, and the other that you, the reader, fill in. The…",
-    "published_at": "2026-08-07T00:00:00Z",
-    "updated_at": "2026-08-07T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -840,33 +885,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/06/depths",
-    "title": "depths",
-    "url": "https://jamesg.blog/2026/08/06/depths",
-    "summary": "be my invisible mirror that opens when i write. with words, wonder; hope, dreaming. be my literary pillow; bear the brunt of the i (eyes) the questions, of self. be the messy middle of my mind on paper, that speaks of life. blank, until it is not. Inspired by Tim Kiely's prompt.",
-    "published_at": "2026-08-06T00:00:00Z",
-    "updated_at": "2026-08-06T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://abhamra.com/book_reviews/dont-think/",
-    "title": "Don't Believe Everything You Think",
-    "url": "https://abhamra.com/book_reviews/dont-think/",
-    "summary": "Written by Joseph Nguyen This book, I thought, would be similar in spirit to Naval's Almanack. I was wrong about that, and I think that was a very good thing. I really liked the cadence and style of this book, it felt inviting and grounded, and helped me more calmly re-evaluate how I thought and the difference between thoughts and thinking, non-thinking, control, the PAUSE acronym, intuition, and space for ideas. I still need to properly peruse the \"practice\" section, but overall this was helpfu…",
-    "published_at": "2026-08-06T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
-    "title": "I Thought it Was a Tire",
-    "url": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
-    "summary": "This post was written by Zachary Kai as part of Blaugust 2026. Read the post I wrote about art history for Zachary's site. ⁂ ⁂ ⁂ I’m participating in Blaugust this year. Like most things, on a whim. Nerd Girl, who’s coordinating this year’s edition, compiled community-builder prompts. I’m always for those, because where would we be without community? One challenge: write a guest post for someone’s site, or have someone write one for yours. I thought: why not both? If you’re won…",
+    "id": "https://jamesg.blog/2026/08/06/searching",
+    "title": "searching",
+    "url": "https://jamesg.blog/2026/08/06/searching",
+    "summary": "Lost poem: Looking for lost owner.",
     "published_at": "2026-08-06T00:00:00Z",
     "updated_at": "2026-08-06T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -887,10 +909,33 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/06/searching",
-    "title": "searching",
-    "url": "https://jamesg.blog/2026/08/06/searching",
-    "summary": "Lost poem: Looking for lost owner.",
+    "id": "https://abhamra.com/book_reviews/dont-think/",
+    "title": "Don't Believe Everything You Think",
+    "url": "https://abhamra.com/book_reviews/dont-think/",
+    "summary": "Written by Joseph Nguyen This book, I thought, would be similar in spirit to Naval's Almanack. I was wrong about that, and I think that was a very good thing. I really liked the cadence and style of this book, it felt inviting and grounded, and helped me more calmly re-evaluate how I thought and the difference between thoughts and thinking, non-thinking, control, the PAUSE acronym, intuition, and space for ideas. I still need to properly peruse the \"practice\" section, but overall this was helpfu…",
+    "published_at": "2026-08-06T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/06/depths",
+    "title": "depths",
+    "url": "https://jamesg.blog/2026/08/06/depths",
+    "summary": "be my invisible mirror that opens when i write. with words, wonder; hope, dreaming. be my literary pillow; bear the brunt of the i (eyes) the questions, of self. be the messy middle of my mind on paper, that speaks of life. blank, until it is not. Inspired by Tim Kiely's prompt.",
+    "published_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-06T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
+    "title": "I Thought it Was a Tire",
+    "url": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
+    "summary": "This post was written by Zachary Kai as part of Blaugust 2026. Read the post I wrote about art history for Zachary's site. ⁂ ⁂ ⁂ I’m participating in Blaugust this year. Like most things, on a whim. Nerd Girl, who’s coordinating this year’s edition, compiled community-builder prompts. I’m always for those, because where would we be without community? One challenge: write a guest post for someone’s site, or have someone write one for yours. I thought: why not both? If you’re won…",
     "published_at": "2026-08-06T00:00:00Z",
     "updated_at": "2026-08-06T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -921,17 +966,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/05/space-2",
-    "title": "Space",
-    "url": "https://jamesg.blog/2026/08/05/space-2",
-    "published_at": "2026-08-05T00:00:00Z",
-    "updated_at": "2026-08-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/08/05/space-making",
     "title": "Space (making)",
     "url": "https://jamesg.blog/2026/08/05/space-making",
@@ -944,10 +978,9 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/05/space-making-2",
-    "title": "Space-making",
-    "url": "https://jamesg.blog/2026/08/05/space-making-2",
-    "summary": "Space ⁂ ⁂ ⁂ Space (making) ⁂ ⁂ ⁂ Space-making. A few weeks ago I wrote about the roles of space in creative contexts, from art galleries to music to language to conversation. Space is a building block for rhythm., I wrote. This morning, I decided to write a blog post that was entirely space. I thought of the blog post as a place where you don’t have to read or do anything; where you can take a moment just for yourself. This piece takes on a new meaning when considered in the contex…",
+    "id": "https://jamesg.blog/2026/08/05/space-2",
+    "title": "Space",
+    "url": "https://jamesg.blog/2026/08/05/space-2",
     "published_at": "2026-08-05T00:00:00Z",
     "updated_at": "2026-08-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -960,6 +993,18 @@
     "title": "Museums",
     "url": "https://jamesg.blog/2026/08/05/museums-2",
     "summary": "Earlier this week I was thinking about inspiration – what inspires me to write? Nature, friends, what I see in the world as I walk around – all these are the basis of many of my blog posts. Museums, too, inspire me, both to think and to create. When I am in a museum, I can get lost in an artwork, ebbing between the beauty of a piece and then, afterwards, studying the work – what can I see, what do I see. Whenever I spent time in galleries, I lose track of time. Half an hour can pass as if …",
+    "published_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/05/space-making-2",
+    "title": "Space-making",
+    "url": "https://jamesg.blog/2026/08/05/space-making-2",
+    "summary": "Space ⁂ ⁂ ⁂ Space (making) ⁂ ⁂ ⁂ Space-making. A few weeks ago I wrote about the roles of space in creative contexts, from art galleries to music to language to conversation. Space is a building block for rhythm., I wrote. This morning, I decided to write a blog post that was entirely space. I thought of the blog post as a place where you don’t have to read or do anything; where you can take a moment just for yourself. This piece takes on a new meaning when considered in the contex…",
     "published_at": "2026-08-05T00:00:00Z",
     "updated_at": "2026-08-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1060,10 +1105,44 @@
     "site_url": ""
   },
   {
-    "id": "https://abhamra.com/book_reviews/7-days-art/",
-    "title": "7 Days in the Art World",
-    "url": "https://abhamra.com/book_reviews/7-days-art/",
-    "summary": "Written by Sarah Thornton This was the first book about art that I'd properly read in years, and I have it to thank for kickstarting an interest in both art and the art of critiquing art (lol). The culture surrounding the art world is a curious one, whether you're at an auction like Christie's or la Biennale di Venizia (Venice Biennale), or even at a crit at CalArts, and learning about the art world through these seven days proved rather eye opening for me. In particular, I think I understood be…",
+    "id": "https://jamesg.blog/2026/08/03/the-met",
+    "title": "The Met",
+    "url": "https://jamesg.blog/2026/08/03/the-met",
+    "summary": "I close my eyes and see the Great Hall. This is where they host the Met Gala! I can’t help but think about that when I stand and watch as tourists congregate, ask for information, and walk around to get to the exhibits they want to see. There are at least three ways you can enter the main galleries: by walking forward, past the information desk, towards the decorative arts, sculpture, and more (or, if you take the stairs, to see European Art, photography; or by going left and right, each takin…",
+    "published_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://abhamra.com/book_reviews/naval/",
+    "title": "The Almanack of Naval Ravikant",
+    "url": "https://abhamra.com/book_reviews/naval/",
+    "summary": "Written by Eric Jorgenson This was an interesting read, in part because I disagreed with about a third of the book sort of fundamentally, but as a whole it made me think quite a bit. The book is about Naval Ravikant, an angel investor who now preaches philosophy as well. The first half of the book was on wealth and judgement, in particular about compounding effects, leverage, doing things you're the best at, and so on. A lot of the advice is sensible in this vein, things like \"Productize yoursel…",
+    "published_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
+    "id": "https://abhamra.com/book_reviews/longitude/",
+    "title": "Longitude",
+    "url": "https://abhamra.com/book_reviews/longitude/",
+    "summary": "Written by Dava Sobel This was a very cool book detailing the journey and eventual success of John Harrison, the man who invented a clock that could work at sea, which helped solve the problem of keeping track of longitude. This was crucial for navigation, especially in the 17th and 18th centuries, when naval travel was tantamount for both military and trade prowess. What I think this book did a very compelling job of was showing the scale and importance of the problem, from bringing in famous h…",
+    "published_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
+    "id": "https://abhamra.com/book_reviews/einstein-godel/",
+    "title": "When Einstein Walked With Gödel: Excursions to the Edge of Thought",
+    "url": "https://abhamra.com/book_reviews/einstein-godel/",
+    "summary": "Written by Jim Holt My musings on this shall be brief, I'd wager. First, I want to thank Daniel Huang for recommending this book to me, it was a pretty fun read! It goes over a series of essays and stories wherein Jim Holt collates curious chronicles of central chaps in the world of math, the sciences, and technology. There were lots of fun tidbits, some challenging of the status quo with regards to stories about certain eminently famous figures, and a lot of dry wit that I personally gelled wit…",
     "published_at": "2026-08-03T00:00:00Z",
     "feed_url": "https://abhamra.com/rss.xml",
     "feed_title": "asb's corner",
@@ -1083,48 +1162,14 @@
     "site_url": ""
   },
   {
-    "id": "https://abhamra.com/book_reviews/longitude/",
-    "title": "Longitude",
-    "url": "https://abhamra.com/book_reviews/longitude/",
-    "summary": "Written by Dava Sobel This was a very cool book detailing the journey and eventual success of John Harrison, the man who invented a clock that could work at sea, which helped solve the problem of keeping track of longitude. This was crucial for navigation, especially in the 17th and 18th centuries, when naval travel was tantamount for both military and trade prowess. What I think this book did a very compelling job of was showing the scale and importance of the problem, from bringing in famous h…",
+    "id": "https://abhamra.com/book_reviews/7-days-art/",
+    "title": "7 Days in the Art World",
+    "url": "https://abhamra.com/book_reviews/7-days-art/",
+    "summary": "Written by Sarah Thornton This was the first book about art that I'd properly read in years, and I have it to thank for kickstarting an interest in both art and the art of critiquing art (lol). The culture surrounding the art world is a curious one, whether you're at an auction like Christie's or la Biennale di Venizia (Venice Biennale), or even at a crit at CalArts, and learning about the art world through these seven days proved rather eye opening for me. In particular, I think I understood be…",
     "published_at": "2026-08-03T00:00:00Z",
     "feed_url": "https://abhamra.com/rss.xml",
     "feed_title": "asb's corner",
     "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
-    "id": "https://abhamra.com/book_reviews/naval/",
-    "title": "The Almanack of Naval Ravikant",
-    "url": "https://abhamra.com/book_reviews/naval/",
-    "summary": "Written by Eric Jorgenson This was an interesting read, in part because I disagreed with about a third of the book sort of fundamentally, but as a whole it made me think quite a bit. The book is about Naval Ravikant, an angel investor who now preaches philosophy as well. The first half of the book was on wealth and judgement, in particular about compounding effects, leverage, doing things you're the best at, and so on. A lot of the advice is sensible in this vein, things like \"Productize yoursel…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
-    "id": "https://abhamra.com/book_reviews/einstein-godel/",
-    "title": "When Einstein Walked With Gödel: Excursions to the Edge of Thought",
-    "url": "https://abhamra.com/book_reviews/einstein-godel/",
-    "summary": "Written by Jim Holt My musings on this shall be brief, I'd wager. First, I want to thank Daniel Huang for recommending this book to me, it was a pretty fun read! It goes over a series of essays and stories wherein Jim Holt collates curious chronicles of central chaps in the world of math, the sciences, and technology. There were lots of fun tidbits, some challenging of the status quo with regards to stories about certain eminently famous figures, and a lot of dry wit that I personally gelled wit…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/03/the-met",
-    "title": "The Met",
-    "url": "https://jamesg.blog/2026/08/03/the-met",
-    "summary": "I close my eyes and see the Great Hall. This is where they host the Met Gala! I can’t help but think about that when I stand and watch as tourists congregate, ask for information, and walk around to get to the exhibits they want to see. There are at least three ways you can enter the main galleries: by walking forward, past the information desk, towards the decorative arts, sculpture, and more (or, if you take the stairs, to see European Art, photography; or by going left and right, each takin…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "updated_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -1228,18 +1273,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/02/august",
-    "title": "August",
-    "url": "https://jamesg.blog/2026/08/02/august",
-    "summary": "The sun shines through the silvery sky. I look up and around to see where blue might peek through the blanket that covers the sky. There is one space where I can see shades of blue through the silver. I think about how the sky invites me to look up, and then around: to be curious. What can I see today? I do this in all seasons and skies. On the warmest summer days, my eyes focus on the contrast between the green hills and the blue skies. On the coolest, clearest winter days, where the beauty of …",
-    "published_at": "2026-08-02T00:00:00Z",
-    "updated_at": "2026-08-02T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/08/02/skies-distance",
     "title": "Skies; distance",
     "url": "https://jamesg.blog/2026/08/02/skies-distance",
@@ -1261,6 +1294,18 @@
     "feed_url": "https://pythonspeed.com/atom.xml",
     "feed_title": "Python⇒Speed",
     "owner_username": "itamarst",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/02/august",
+    "title": "August",
+    "url": "https://jamesg.blog/2026/08/02/august",
+    "summary": "The sun shines through the silvery sky. I look up and around to see where blue might peek through the blanket that covers the sky. There is one space where I can see shades of blue through the silver. I think about how the sky invites me to look up, and then around: to be curious. What can I see today? I do this in all seasons and skies. On the warmest summer days, my eyes focus on the contrast between the green hills and the blue skies. On the coolest, clearest winter days, where the beauty of …",
+    "published_at": "2026-08-02T00:00:00Z",
+    "updated_at": "2026-08-02T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -1385,17 +1430,6 @@
     "site_url": ""
   },
   {
-    "id": "https://mitchellkember.com/crafts/broken-seed-sock",
-    "title": "[Crafts] Broken Seed Sock",
-    "url": "https://mitchellkember.com/crafts/broken-seed-sock",
-    "summary": "View on Ravelry Pattern : Broken Seed Stitch by Hanna Leväniemi Yarn : Blue Bird Yarn \u0026 Malabrigo Ultimate Sock Colorway : Guards! Guards! \u0026 Natural Started : 14 March 2026 Finished : 1 August 2026 This was my first time knitting socks with two colors, using a popular free pattern that contrasts variegated yarn with a solid color. For the variegated yarn I used a skein given to me by my aunt, who runs Blue Bird Yarn . The colorway is Guards! Guards! , referencing the book in my favorite fantasy…",
-    "published_at": "2026-08-01T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/08/01/countryside-blaugust",
     "title": "Countryside; Blaugust",
     "url": "https://jamesg.blog/2026/08/01/countryside-blaugust",
@@ -1405,6 +1439,17 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://mitchellkember.com/crafts/broken-seed-sock",
+    "title": "[Crafts] Broken Seed Sock",
+    "url": "https://mitchellkember.com/crafts/broken-seed-sock",
+    "summary": "View on Ravelry Pattern : Broken Seed Stitch by Hanna Leväniemi Yarn : Blue Bird Yarn \u0026 Malabrigo Ultimate Sock Colorway : Guards! Guards! \u0026 Natural Started : 14 March 2026 Finished : 1 August 2026 This was my first time knitting socks with two colors, using a popular free pattern that contrasts variegated yarn with a solid color. For the variegated yarn I used a skein given to me by my aunt, who runs Blue Bird Yarn . The colorway is Guards! Guards! , referencing the book in my favorite fantasy…",
+    "published_at": "2026-08-01T00:00:00Z",
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
     "site_url": ""
   },
   {
@@ -1442,10 +1487,10 @@
     "site_url": ""
   },
   {
-    "id": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
-    "title": "Erin's giving apps a meaningful story",
-    "url": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
-    "summary": "Erin Kissane is launching \"Cloud Atlas\" — an interview-based guide to the apps and projects emerging on the AT Protocol/Atmosphere, intended to make decentralized social media infrastructure more legible to people interested in alternatives to centralized platforms. This is something I haven't seen done from the outside — developers of these apps and services tend to be their own marketing departments and PR teams but this isn't (solely) that . The human texture and qualitative specificity o…",
+    "id": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
+    "title": "Yeah, 16% of people are reading. We're cooked.",
+    "url": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
+    "summary": "According to this piece, reading rates in America have collapsed - fewer than half of adults read a book in 2022 (which - eh - I feel like this is hard to assess), daily pleasure reading fell from 28% to 16% (which is both real and wild; if reading is dead then folks are going to be just told what to think) across (and this hurts me to repeat) every age, gender, and education level , even as total words consumed explode via texts, posts, and feeds. Reading built and freed the modern mind (logic,…",
     "published_at": "2026-07-31T12:30:00Z",
     "updated_at": "2026-07-31T12:30:00Z",
     "feed_url": "https://www.jacky.wtf/links/feed.atom",
@@ -1454,10 +1499,10 @@
     "site_url": ""
   },
   {
-    "id": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
-    "title": "Yeah, 16% of people are reading. We're cooked.",
-    "url": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
-    "summary": "According to this piece, reading rates in America have collapsed - fewer than half of adults read a book in 2022 (which - eh - I feel like this is hard to assess), daily pleasure reading fell from 28% to 16% (which is both real and wild; if reading is dead then folks are going to be just told what to think) across (and this hurts me to repeat) every age, gender, and education level , even as total words consumed explode via texts, posts, and feeds. Reading built and freed the modern mind (logic,…",
+    "id": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
+    "title": "Erin's giving apps a meaningful story",
+    "url": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
+    "summary": "Erin Kissane is launching \"Cloud Atlas\" — an interview-based guide to the apps and projects emerging on the AT Protocol/Atmosphere, intended to make decentralized social media infrastructure more legible to people interested in alternatives to centralized platforms. This is something I haven't seen done from the outside — developers of these apps and services tend to be their own marketing departments and PR teams but this isn't (solely) that . The human texture and qualitative specificity o…",
     "published_at": "2026-07-31T12:30:00Z",
     "updated_at": "2026-07-31T12:30:00Z",
     "feed_url": "https://www.jacky.wtf/links/feed.atom",
@@ -1500,15 +1545,14 @@
     "site_url": ""
   },
   {
-    "id": "https://timharek.no/blog/2026-july-recently/",
-    "title": "July 2026",
-    "url": "https://timharek.no/blog/2026-july-recently/",
-    "summary": "It’s now just two more days until I go back to work after a fantastic three-week summer vacation. I want at least three more! Anyway, it’s the end of the month, this is what happened! From the blog since my last recently post: Kaizen #4: Overhauled homelab 🍀 Life Three weeks of vacation is wrapping up, and it must be one of my most productive summers yet. Just before the vacation started, I began working on extending the fence around the house, by drilling huge 30 mm holes into the concre…",
+    "id": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
+    "title": "Encoding DVDs with OpenBSD and Handbrake",
+    "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
+    "summary": "I used to have a problem buying DVDs. If I saw one that was under $10.00 that I liked (or sort of liked, or had heard of, or thought looked cool) I’d buy it. Too cheap not to buy! My taste in movies is questionable (I’m ok with this) so I’ve amassed a decent collection of 80s action movies mixed with sci-fi, fantasy, and eclectic indie films (like Bubba Hotep ). As a card carrying member of the Computer Nerd Association of America I couldn’t in good faith leave those DVDs on their discs …",
     "published_at": "2026-07-31T00:00:00Z",
-    "updated_at": "2026-07-31T00:00:00Z",
-    "feed_url": "https://timharek.no/feed.xml",
-    "feed_title": "Tim Hårek",
-    "owner_username": "timharek",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
     "site_url": ""
   },
   {
@@ -1524,14 +1568,15 @@
     "site_url": ""
   },
   {
-    "id": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
-    "title": "Encoding DVDs with OpenBSD and Handbrake",
-    "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
-    "summary": "I used to have a problem buying DVDs. If I saw one that was under $10.00 that I liked (or sort of liked, or had heard of, or thought looked cool) I’d buy it. Too cheap not to buy! My taste in movies is questionable (I’m ok with this) so I’ve amassed a decent collection of 80s action movies mixed with sci-fi, fantasy, and eclectic indie films (like Bubba Hotep ). As a card carrying member of the Computer Nerd Association of America I couldn’t in good faith leave those DVDs on their discs …",
+    "id": "https://timharek.no/blog/2026-july-recently/",
+    "title": "July 2026",
+    "url": "https://timharek.no/blog/2026-july-recently/",
+    "summary": "It’s now just two more days until I go back to work after a fantastic three-week summer vacation. I want at least three more! Anyway, it’s the end of the month, this is what happened! From the blog since my last recently post: Kaizen #4: Overhauled homelab 🍀 Life Three weeks of vacation is wrapping up, and it must be one of my most productive summers yet. Just before the vacation started, I began working on extending the fence around the house, by drilling huge 30 mm holes into the concre…",
     "published_at": "2026-07-31T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
+    "updated_at": "2026-07-31T00:00:00Z",
+    "feed_url": "https://timharek.no/feed.xml",
+    "feed_title": "Tim Hårek",
+    "owner_username": "timharek",
     "site_url": ""
   },
   {
@@ -1579,6 +1624,17 @@
     "site_url": ""
   },
   {
+    "id": "https://vgel.me/fiction/coming-of-a-new-sun/",
+    "title": "Coming of a New Sun",
+    "url": "https://vgel.me/fiction/coming-of-a-new-sun/",
+    "summary": "Six weeks after the US and China hammered out the latest round of bilateral compute agreements in a midnight deal, reporter Jenny Gesteson visits a south Texas 'dark factory' to see how the machines there - and the minds that operate them - are learning to run themselves.",
+    "published_at": "2026-07-30T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/30/new-2",
     "title": "new",
     "url": "https://jamesg.blog/2026/07/30/new-2",
@@ -1588,17 +1644,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://vgel.me/fiction/coming-of-a-new-sun/",
-    "title": "Coming of a New Sun",
-    "url": "https://vgel.me/fiction/coming-of-a-new-sun/",
-    "summary": "Six weeks after the US and China hammered out the latest round of bilateral compute agreements in a midnight deal, reporter Jenny Gesteson visits a south Texas 'dark factory' to see how the machines there - and the minds that operate them - are learning to run themselves.",
-    "published_at": "2026-07-30T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
     "site_url": ""
   },
   {
@@ -1637,6 +1682,17 @@
     "site_url": ""
   },
   {
+    "id": "https://arne.me/library/die-assistentin",
+    "title": "Ich las Die Assistentin von Caroline Wahl",
+    "url": "https://arne.me/library/die-assistentin",
+    "summary": "Ich las Die Assistentin von Caroline Wahl",
+    "published_at": "2026-07-29T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": ""
+  },
+  {
     "id": "https://www.philipzucker.com/bdd_term_alg_effects",
     "title": "Finite Algebraic Effects as dicts and such",
     "url": "https://www.philipzucker.com/bdd_term_alg_effects/",
@@ -1646,17 +1702,6 @@
     "feed_url": "https://www.philipzucker.com/feed.xml",
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
-    "site_url": ""
-  },
-  {
-    "id": "https://arne.me/library/die-assistentin",
-    "title": "Ich las Die Assistentin von Caroline Wahl",
-    "url": "https://arne.me/library/die-assistentin",
-    "summary": "Ich las Die Assistentin von Caroline Wahl",
-    "published_at": "2026-07-29T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
     "site_url": ""
   },
   {
@@ -1760,17 +1805,6 @@
     "site_url": ""
   },
   {
-    "id": "https://abhamra.com/blog/immutability/",
-    "title": "Immutability",
-    "url": "https://abhamra.com/blog/immutability/",
-    "summary": "Word Count: 500 let nani_house = \"The doors open, and it is basically all the same. The speaker as you enter is the same, a slow, dimpled white dome capping a dish shaped structure on a tripod. We blasted all the coolest songs back then. The sofas, chairs, and tables on the right are the same, the girl playing guitar in charcoal opposite the TV is the same. Some of the tables’ books are the same, and most of the pictures on the shelf are too, although a picture of my mother I don't remember se…",
-    "published_at": "2026-07-27T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/27/blogs-websites-and-identity",
     "title": "Blogs, websites, and identity",
     "url": "https://jamesg.blog/2026/07/27/blogs-websites-and-identity",
@@ -1780,6 +1814,17 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://abhamra.com/blog/immutability/",
+    "title": "Immutability",
+    "url": "https://abhamra.com/blog/immutability/",
+    "summary": "let nani_house = \"The doors open, and it is basically all the same. The speaker as you enter is the same, a slow, dimpled white dome capping a dish shaped structure on a tripod. We blasted all the coolest songs back then. The sofas, chairs, and tables on the right are the same, the girl playing guitar in charcoal opposite the TV is the same. Some of the tables’ books are the same, and most of the pictures on the shelf are too, although a picture of my mother I don't remember seems to have ente…",
+    "published_at": "2026-07-27T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
     "site_url": ""
   },
   {
@@ -1838,18 +1883,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/26/bookshelves",
-    "title": "Bookshelves",
-    "url": "https://jamesg.blog/2026/07/26/bookshelves",
-    "summary": "I woke early — it has been warm lately. It is strange how you can find a burst of energy at 5am, but today it came, for I decided to organise my bookshelves, sorting what books I am ready to donate to the local charity shop. I picked up books — stories — and thought about the good memories I had with them. I also thought honestly about some books that have been on my shelf for a while. Did I read this? Will I read this? Do I still want to hold onto this? In some cases the answer is yes. Th…",
-    "published_at": "2026-07-26T00:00:00Z",
-    "updated_at": "2026-07-26T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/26/streams",
     "title": "Streams",
     "url": "https://jamesg.blog/2026/07/26/streams",
@@ -1870,6 +1903,18 @@
     "feed_url": "https://polsevev.dev/rss.xml",
     "feed_title": "polsevev.dev",
     "owner_username": "polsevev",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/26/bookshelves",
+    "title": "Bookshelves",
+    "url": "https://jamesg.blog/2026/07/26/bookshelves",
+    "summary": "I woke early — it has been warm lately. It is strange how you can find a burst of energy at 5am, but today it came, for I decided to organise my bookshelves, sorting what books I am ready to donate to the local charity shop. I picked up books — stories — and thought about the good memories I had with them. I also thought honestly about some books that have been on my shelf for a while. Did I read this? Will I read this? Do I still want to hold onto this? In some cases the answer is yes. Th…",
+    "published_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-26T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -1963,17 +2008,6 @@
     "site_url": ""
   },
   {
-    "id": "https://vgel.me/doodles/claude-gets-a-body-1/",
-    "title": "claude gets a body #1",
-    "url": "https://vgel.me/doodles/claude-gets-a-body-1/",
-    "summary": "Twitter/X",
-    "published_at": "2026-07-23T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": ""
-  },
-  {
     "id": "https://www.sillylaird.ca/changelog/#2026-07-23",
     "title": "Ops, security, and visual cleanup pass. Fixed nightly backup and uptime cron sc…",
     "url": "https://www.sillylaird.ca/changelog/",
@@ -1983,6 +2017,17 @@
     "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
     "feed_title": "SillyLaird — Changelog",
     "owner_username": "sillylaird",
+    "site_url": ""
+  },
+  {
+    "id": "https://vgel.me/doodles/claude-gets-a-body-1/",
+    "title": "claude gets a body #1",
+    "url": "https://vgel.me/doodles/claude-gets-a-body-1/",
+    "summary": "Twitter/X",
+    "published_at": "2026-07-23T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
     "site_url": ""
   },
   {
@@ -2042,6 +2087,17 @@
     "site_url": ""
   },
   {
+    "id": "https://www.tyil.nl/recipes/rubs/ssppgg/",
+    "title": "SSPPGG",
+    "url": "https://www.tyil.nl/recipes/rubs/ssppgg/",
+    "summary": "A li\u0026rsquo;l twist on the BBQ basic SPG, or Salt Pepper Garlic, rub. It works on pretty much anything, but has a bit more depth in flavour.",
+    "published_at": "2026-07-21T00:00:00Z",
+    "feed_url": "https://www.tyil.nl/index.xml",
+    "feed_title": "About Me on Tyil",
+    "owner_username": "tyil",
+    "site_url": ""
+  },
+  {
     "id": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
     "title": "No central server, only BitTorrent",
     "url": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
@@ -2051,17 +2107,6 @@
     "feed_url": "https://www.ScannedInAvian.com/atom.xml",
     "feed_title": "shapr's RSS feed",
     "owner_username": "shapr",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.tyil.nl/recipes/rubs/ssppgg/",
-    "title": "SSPPGG",
-    "url": "https://www.tyil.nl/recipes/rubs/ssppgg/",
-    "summary": "A li\u0026rsquo;l twist on the BBQ basic SPG, or Salt Pepper Garlic, rub. It works on pretty much anything, but has a bit more depth in flavour.",
-    "published_at": "2026-07-21T00:00:00Z",
-    "feed_url": "https://www.tyil.nl/index.xml",
-    "feed_title": "About Me on Tyil",
-    "owner_username": "tyil",
     "site_url": ""
   },
   {
@@ -2076,17 +2121,6 @@
     "site_url": ""
   },
   {
-    "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
-    "title": "Preserving Pixter",
-    "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
-    "summary": "Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved",
-    "published_at": "2026-07-20T00:00:00Z",
-    "feed_url": "https://dmitry.gr/rss.php",
-    "feed_title": "Dmitry.GR",
-    "owner_username": "dmitrygr",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/20/music",
     "title": "Music",
     "url": "https://jamesg.blog/2026/07/20/music",
@@ -2096,6 +2130,17 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
+    "title": "Preserving Pixter",
+    "url": "https://dmitry.gr/?r=05.Projects\u0026proj=37.%20Pixter",
+    "summary": "Fisher-Price Pixter: From unknown and obscure to fully documented, emulated, and preserved",
+    "published_at": "2026-07-20T00:00:00Z",
+    "feed_url": "https://dmitry.gr/rss.php",
+    "feed_title": "Dmitry.GR",
+    "owner_username": "dmitrygr",
     "site_url": ""
   },
   {
@@ -2144,6 +2189,17 @@
     "site_url": ""
   },
   {
+    "id": "https://mitchellkember.com/crafts/copper-ridge-sock",
+    "title": "[Crafts] Copper Ridge Sock",
+    "url": "https://mitchellkember.com/crafts/copper-ridge-sock",
+    "summary": "View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…",
+    "published_at": "2026-07-19T00:00:00Z",
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/19/of-day",
     "title": "Of Day",
     "url": "https://jamesg.blog/2026/07/19/of-day",
@@ -2153,17 +2209,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://mitchellkember.com/crafts/copper-ridge-sock",
-    "title": "[Crafts] Copper Ridge Sock",
-    "url": "https://mitchellkember.com/crafts/copper-ridge-sock",
-    "summary": "View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…",
-    "published_at": "2026-07-19T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
     "site_url": ""
   },
   {
@@ -2189,17 +2234,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jordivillar.com/notes/back-to-coffee/",
-    "title": "Back to coffee",
-    "url": "https://jordivillar.com/notes/back-to-coffee/",
-    "summary": "I gave up coffee because I started losing my sight. I was getting visual migraines, auras that would creep in until I stopped seeing out of one eye for several minutes. It was terrifying the first time, and not much better the tenth. It turned out coffee wasn’t really the cause. The stress from a past job was. But I was only drinking a single cup a day, so quitting felt like the one thing I could actually control. That single cup was harder to give up than I expected. The week I stopped was th…",
-    "published_at": "2026-07-18T00:00:00Z",
-    "feed_url": "https://jordivillar.com/rss.xml",
-    "feed_title": "Jordi Villar",
-    "owner_username": "jordi",
-    "site_url": ""
-  },
-  {
     "id": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
     "title": "Software and AI - Plotting vs. Pantsing",
     "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
@@ -2208,6 +2242,17 @@
     "feed_url": "https://pyjarrett.github.io/rss.xml",
     "feed_title": "pyj's blog",
     "owner_username": "pyj",
+    "site_url": ""
+  },
+  {
+    "id": "https://jordivillar.com/notes/back-to-coffee/",
+    "title": "Back to coffee",
+    "url": "https://jordivillar.com/blog/back-to-coffee/",
+    "summary": "I gave up coffee because I started losing my sight. I was getting visual migraines, auras that would creep in until I stopped seeing out of one eye for several minutes. It was terrifying the first time, and not much better the tenth. It turned out coffee wasn’t really the cause. The stress from a past job was. But I was only drinking a single cup a day, so quitting felt like the one thing I could actually control. That single cup was harder to give up than I expected. The week I stopped was th…",
+    "published_at": "2026-07-18T00:00:00Z",
+    "feed_url": "https://jordivillar.com/rss.xml",
+    "feed_title": "Jordi Villar",
+    "owner_username": "jordi",
     "site_url": ""
   },
   {
@@ -2232,6 +2277,17 @@
     "site_url": ""
   },
   {
+    "id": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
+    "title": "What I'm Changing After A Year Of Blogging",
+    "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
+    "summary": "Writing for the world is something which has ebbed and flowed for me over time. I’ve always liked sharing my thoughts, starting with websites all the way back when I was a kid. In times when I sustained it, I had various “blog”-like things for technical projects which would often veer into sharing personal beliefs as well. It’s been a year since my latest attempt at what I expect to be a lifelong endeavor. So I’ve been reflecting on how it’s gone, and that’s led me to make some dec…",
+    "published_at": "2026-07-17T00:00:00Z",
+    "feed_url": "https://lalitm.com/index.xml",
+    "feed_title": "Lalit Maganti",
+    "owner_username": "lalitm",
+    "site_url": ""
+  },
+  {
     "id": "https://www.philipzucker.com/kissin_tla",
     "title": "Making TLA+ and x86 Kiss Via Z3Py",
     "url": "https://www.philipzucker.com/kissin_tla/",
@@ -2244,21 +2300,10 @@
     "site_url": ""
   },
   {
-    "id": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
-    "title": "What I'm Changing After A Year Of Blogging",
-    "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
-    "summary": "Writing for the world is something which has ebbed and flowed for me over time. I’ve always liked sharing my thoughts, starting with websites all the way back when I was a kid. In times when I sustained it, I had various “blog”-like things for technical projects which would often veer into sharing personal beliefs as well. It’s been a year since my latest attempt at what I expect to be a lifelong endeavor. So I’ve been reflecting on how it’s gone, and that’s led me to make some dec…",
-    "published_at": "2026-07-17T00:00:00Z",
-    "feed_url": "https://lalitm.com/index.xml",
-    "feed_title": "Lalit Maganti",
-    "owner_username": "lalitm",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
-    "title": "Adding anchor links to my category pages",
-    "url": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
-    "summary": "Earlier today, I wanted to link to a specific year of posts on my Coffee category page. Importantly, all of my posts in a category are listed on a single page. I do this because I like having an overview of all posts on a single page. And, by having all post tiles on one page, I can search for keywords on the page, which I do quite often. This gave me an idea: I could add HTML IDs to the page that let me link to the most recently published post on each day, month, and year? I came up with the fo…",
+    "id": "https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page",
+    "title": "Multi-line links on my home page",
+    "url": "https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page",
+    "summary": "Every so often, I publish a blog post with a longer title. When this happens, sometimes the post title wraps onto a second line in my list of blog posts on my site home page. This was a tiny detail, but one that I would often notice. Last night, I brought the design to Front End Study Hall, and asked what I could do to make the text better aligned. For context, the following screenshot shows the grid of links on my home page, with one post, the post about an IndieWeb event in the Southeast Asia …",
     "published_at": "2026-07-17T00:00:00Z",
     "updated_at": "2026-07-17T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2267,10 +2312,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page",
-    "title": "Multi-line links on my home page",
-    "url": "https://jamesg.blog/2026/07/17/multi-line-links-on-my-home-page",
-    "summary": "Every so often, I publish a blog post with a longer title. When this happens, sometimes the post title wraps onto a second line in my list of blog posts on my site home page. This was a tiny detail, but one that I would often notice. Last night, I brought the design to Front End Study Hall, and asked what I could do to make the text better aligned. For context, the following screenshot shows the grid of links on my home page, with one post, the post about an IndieWeb event in the Southeast Asia …",
+    "id": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
+    "title": "Adding anchor links to my category pages",
+    "url": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
+    "summary": "Earlier today, I wanted to link to a specific year of posts on my Coffee category page. Importantly, all of my posts in a category are listed on a single page. I do this because I like having an overview of all posts on a single page. And, by having all post tiles on one page, I can search for keywords on the page, which I do quite often. This gave me an idea: I could add HTML IDs to the page that let me link to the most recently published post on each day, month, and year? I came up with the fo…",
     "published_at": "2026-07-17T00:00:00Z",
     "updated_at": "2026-07-17T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2380,6 +2425,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/14/www-10",
+    "title": "Wonders of Web Weaving, Episode 10",
+    "url": "https://jamesg.blog/2026/07/14/www-10",
+    "summary": "The tenth episode of Wonders of Web Weaving is out: In Episode 10, I chat with Kristoffer and Elliott, the creators of the Internet Phone Book. We talk about, among other things, the history of the Internet Phone Book, the affordances of physical books for a community project, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
+    "published_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-14T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/14/sunset",
     "title": "Sunset",
     "url": "https://jamesg.blog/2026/07/14/sunset",
@@ -2412,18 +2469,6 @@
     "feed_url": "https://jo3-l.dev/index.xml",
     "feed_title": "Joe's Blog",
     "owner_username": "jo3_l",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/14/www-10",
-    "title": "Wonders of Web Weaving, Episode 10",
-    "url": "https://jamesg.blog/2026/07/14/www-10",
-    "summary": "The tenth episode of Wonders of Web Weaving is out: In Episode 10, I chat with Kristoffer and Elliott, the creators of the Internet Phone Book. We talk about, among other things, the history of the Internet Phone Book, the affordances of physical books for a community project, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
-    "published_at": "2026-07-14T00:00:00Z",
-    "updated_at": "2026-07-14T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -2549,6 +2594,17 @@
     "site_url": ""
   },
   {
+    "id": "https://inkdroid.org/2026/07/12/armillary-sphere/",
+    "title": "Armillary Sphere",
+    "url": "https://inkdroid.org/2026/07/12/armillary-sphere/",
+    "summary": "Armillary Sphere at the Museo Galileo",
+    "published_at": "2026-07-12T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": ""
+  },
+  {
     "id": "https://inkdroid.org/2026/07/12/bookmarks/",
     "title": "Bookmarks - web, localfirst, llm, protocol",
     "url": "https://inkdroid.org/2026/07/12/bookmarks/",
@@ -2571,21 +2627,10 @@
     "site_url": ""
   },
   {
-    "id": "https://inkdroid.org/2026/07/12/bark-detail/",
-    "title": "Bark detail",
-    "url": "https://inkdroid.org/2026/07/12/bark-detail/",
-    "summary": "Bark detail",
-    "published_at": "2026-07-12T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": ""
-  },
-  {
-    "id": "https://inkdroid.org/2026/07/12/armillary-sphere/",
-    "title": "Armillary Sphere",
-    "url": "https://inkdroid.org/2026/07/12/armillary-sphere/",
-    "summary": "Armillary Sphere at the Museo Galileo",
+    "id": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
+    "title": "Apartment buzzer with camera",
+    "url": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
+    "summary": "Apartment buzzer with camera",
     "published_at": "2026-07-12T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2604,10 +2649,10 @@
     "site_url": ""
   },
   {
-    "id": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
-    "title": "Apartment buzzer with camera",
-    "url": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
-    "summary": "Apartment buzzer with camera",
+    "id": "https://inkdroid.org/2026/07/12/bark-detail/",
+    "title": "Bark detail",
+    "url": "https://inkdroid.org/2026/07/12/bark-detail/",
+    "summary": "Bark detail",
     "published_at": "2026-07-12T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2649,18 +2694,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/11/websites-as-anthologies-of-self",
-    "title": "Websites as anthologies of self",
-    "url": "https://jamesg.blog/2026/07/11/websites-as-anthologies-of-self",
-    "summary": "At this month’s Homebrew Website Club Writing Edition (notes to come; will be shared likely on July 12th), the topic of audience came up. Who is the audience for our website? Do we have multiple audiences? Do we think of audience at all? In amongst this discussion, I started to define a distinction between the author themselves being an “audience” and the audiences of others (a website can have many audiences that may be discrete or overlapping). This is an alternate framing of the idea of…",
-    "published_at": "2026-07-11T00:00:00Z",
-    "updated_at": "2026-07-11T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/11/reflection",
     "title": "Reflection",
     "url": "https://jamesg.blog/2026/07/11/reflection",
@@ -2673,10 +2706,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/11/joys",
-    "title": "Joys",
-    "url": "https://jamesg.blog/2026/07/11/joys",
-    "summary": "Here are a few moments that have brought me joy and have written down while wandering through the world. The Joys, of: Looking back on the year and seeing how many new things I have done.Seeing people start their day - of realising I, too, am starting my day.A friend pointing out an accessibility feature in the train station — of remembering that moment as I navigate my own environment in a different city. I think of the connections between where I am and where I have been; between places near…",
+    "id": "https://jamesg.blog/2026/07/11/websites-as-anthologies-of-self",
+    "title": "Websites as anthologies of self",
+    "url": "https://jamesg.blog/2026/07/11/websites-as-anthologies-of-self",
+    "summary": "At this month’s Homebrew Website Club Writing Edition (notes to come; will be shared likely on July 12th), the topic of audience came up. Who is the audience for our website? Do we have multiple audiences? Do we think of audience at all? In amongst this discussion, I started to define a distinction between the author themselves being an “audience” and the audiences of others (a website can have many audiences that may be discrete or overlapping). This is an alternate framing of the idea of…",
     "published_at": "2026-07-11T00:00:00Z",
     "updated_at": "2026-07-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2709,6 +2742,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/11/joys",
+    "title": "Joys",
+    "url": "https://jamesg.blog/2026/07/11/joys",
+    "summary": "Here are a few moments that have brought me joy and have written down while wandering through the world. The Joys, of: Looking back on the year and seeing how many new things I have done.Seeing people start their day - of realising I, too, am starting my day.A friend pointing out an accessibility feature in the train station — of remembering that moment as I navigate my own environment in a different city. I think of the connections between where I am and where I have been; between places near…",
+    "published_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-11T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://www.jvt.me/mf2/2026/07/hmla1/",
     "title": "",
     "url": "https://www.jvt.me/mf2/2026/07/hmla1/?utm_medium=rss\u0026utm_source=rss",
@@ -2731,18 +2776,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/10/gardens",
-    "title": "Gardens",
-    "url": "https://jamesg.blog/2026/07/10/gardens",
-    "summary": "A pink symmetry on the peaceful pond catches my eye. “It’s a lotus!” I have made lotuses with paper before, but cannot remember the last time I saw one (have I noticed one before in the way I did today?). The vivid colours are striking: pink petals define the shape of the flower, with a yellow centre. “I can see why Monet painted lotuses and lily pads,” I said. Their beauty caught my eye at first sight. Around, there is a lotus emerging from green leaves. I wonder when it will bloom. A…",
-    "published_at": "2026-07-10T00:00:00Z",
-    "updated_at": "2026-07-10T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://www.philipzucker.com/thin_term",
     "title": "Lifting Terms: Making Well Scoped Syntax Dumber",
     "url": "https://www.philipzucker.com/thin_term/",
@@ -2755,10 +2788,22 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/10/gardens",
+    "title": "Gardens",
+    "url": "https://jamesg.blog/2026/07/10/gardens",
+    "summary": "A pink symmetry on the peaceful pond catches my eye. “It’s a lotus!” I have made lotuses with paper before, but cannot remember the last time I saw one (have I noticed one before in the way I did today?). The vivid colours are striking: pink petals define the shape of the flower, with a yellow centre. “I can see why Monet painted lotuses and lily pads,” I said. Their beauty caught my eye at first sight. Around, there is a lotus emerging from green leaves. I wonder when it will bloom. A…",
+    "published_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-10T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://abhamra.com/blog/dont-want-to-be-optimal/",
     "title": "I don't want to be optimal",
     "url": "https://abhamra.com/blog/dont-want-to-be-optimal/",
-    "summary": "Word Count: 291 I don't want to be optimal. I am not a process, I don't need to be streamlined. I don’t want enough money to waive every single hassle a person experiences. I don't need to remove all distractions, to utilize every second of the day, even though it haunts me that I'm not productive all the time. My days are not always fruitful, and full of wasted potential; an optimized me, a perfect rendition, would be producing useful and creative ideas without rest, surely. And yet, that ver…",
+    "summary": "I don't want to be optimal. I am not a process, I don't need to be streamlined. I don’t want enough money to waive every single hassle a person experiences. I don't need to remove all distractions, to utilize every second of the day, even though it haunts me that I'm not productive all the time. My days are not always fruitful, and full of wasted potential; an optimized me, a perfect rendition, would be producing useful and creative ideas without rest, surely. And yet, that version of me would…",
     "published_at": "2026-07-10T00:00:00Z",
     "feed_url": "https://abhamra.com/rss.xml",
     "feed_title": "asb's corner",
@@ -2788,6 +2833,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website",
+    "title": "75 reasons to start a personal website",
+    "url": "https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website",
+    "summary": "I love having a personal website. Here, I share reflections, stories, thoughts, ideas, and more. Because I have a website, I always have the idea in the back of my mind that there is a place for my writing. I can write a story and share it with friends, and even the world. What I write might not be perfect, but it is mine. This is my home for my creative works. Earlier today, I read Kaia make an argument for having a personal website that really struck a chord with me: so this manifesto isnt ove…",
+    "published_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-09T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/09/music-at-sunset",
     "title": "Sunset; music",
     "url": "https://jamesg.blog/2026/07/09/music-at-sunset",
@@ -2804,18 +2861,6 @@
     "title": "Nature",
     "url": "https://jamesg.blog/2026/07/09/nature-walking",
     "summary": "Breathe in. Breathe out. Standing in the fresh warm summer’s air, I found my breath slowing, and deepening. I wandered as I transitioned from the feeling of indoors to the Nature of outdoors. Trees and bushes and the light sounds of Nature accompany me as I put one foot forward in front of another. The fresh smell of Nature in the air permeates the air on the quiet country path. I hear a calm rustle in the leaves. A bird is quietly walking through the grass, in search of food. Families are out…",
-    "published_at": "2026-07-09T00:00:00Z",
-    "updated_at": "2026-07-09T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website",
-    "title": "75 reasons to start a personal website",
-    "url": "https://jamesg.blog/2026/07/09/75-reasons-to-start-a-personal-website",
-    "summary": "I love having a personal website. Here, I share reflections, stories, thoughts, ideas, and more. Because I have a website, I always have the idea in the back of my mind that there is a place for my writing. I can write a story and share it with friends, and even the world. What I write might not be perfect, but it is mine. This is my home for my creative works. Earlier today, I read Kaia make an argument for having a personal website that really struck a chord with me: so this manifesto isnt ove…",
     "published_at": "2026-07-09T00:00:00Z",
     "updated_at": "2026-07-09T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2991,10 +3036,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
-    "title": "Brainstorming a loginless web reader",
-    "url": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
-    "summary": "At IndieWebCamp Nürnberg, Tilman worked on a “feedroll”, a collection of feeds aggregated on a single page that demonstrates the capability of following different websites with a web reader. This, and a discussion with friends, got me thinking about what a “loginless” web reader experience would look like for Artemis, the web reader I maintain. To see a site in the Artemis reader, you need to: Decide you want to use a web reader.Sign up.Add a website to your reader.Preview the correspon…",
+    "id": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
+    "title": "How do I know the system is working?",
+    "url": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
+    "summary": "A few weeks ago, I received a bug report for Artemis that indicated a user’s reader was not being updated as expected. This error was caused by a feed that caused the polling code to error out and stop. My code assumed a value was present and, if it wasn’t, the program would stop running. To understand this bug, you need to know how Artemis retrieves feeds. Artemis polls feeds once per hour. A feed is only polled if there is at least one user for whom it is midnight in their time zone. This …",
     "published_at": "2026-07-05T00:00:00Z",
     "updated_at": "2026-07-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3015,6 +3060,42 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
+    "title": "Brainstorming a loginless web reader",
+    "url": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
+    "summary": "At IndieWebCamp Nürnberg, Tilman worked on a “feedroll”, a collection of feeds aggregated on a single page that demonstrates the capability of following different websites with a web reader. This, and a discussion with friends, got me thinking about what a “loginless” web reader experience would look like for Artemis, the web reader I maintain. To see a site in the Artemis reader, you need to: Decide you want to use a web reader.Sign up.Add a website to your reader.Preview the correspon…",
+    "published_at": "2026-07-05T00:00:00Z",
+    "updated_at": "2026-07-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/05/star",
+    "title": "Star",
+    "url": "https://jamesg.blog/2026/07/05/star",
+    "summary": "First star — in the sky next to the tall Gothic monument in the town square, a square with many outdoor restaurants — people laugh and take pictures, eat ice cream, stroll, enjoy the moment. I love watching the world. Of seeing colours and tenors and of hearing sounds that you can only appreciate when out in the world — the sound of a bike breaking in the cobblestone, manoeuvring with ease through the town square. Written in Hauptmarkt, Nürnberg.",
+    "published_at": "2026-07-05T00:00:00Z",
+    "updated_at": "2026-07-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
+    "title": "IndieWebCamp Nürnberg 2026",
+    "url": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
+    "summary": "All of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. ALTAll of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. Last weekend I attended IndieWebCamp in Nürnberg, Germany, hosted at the wonderful Tollwerk offices. The two-day event was par…",
+    "published_at": "2026-07-05T00:00:00Z",
+    "updated_at": "2026-07-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://timharek.no/blog/kaizen-4/",
     "title": "Kaizen #4: Overhauled homelab",
     "url": "https://timharek.no/blog/kaizen-4/",
@@ -3024,18 +3105,6 @@
     "feed_url": "https://timharek.no/feed.xml",
     "feed_title": "Tim Hårek",
     "owner_username": "timharek",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web",
-    "title": "Author/reader interaction on the indie web",
-    "url": "https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web",
-    "summary": "Every so often I hear or read about the significance of readers as part of the indie web. Indeed, the indie web is about much more than making personal websites: it is a space where there are many personal websites to explore. You don’t need a personal website to explore the indie web. And while having a personal website is a way to participate in the indie web, reading is participating, albeit, but in a different way. There are also middle points: for example, being a reader and starting a di…",
-    "published_at": "2026-07-05T00:00:00Z",
-    "updated_at": "2026-07-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -3063,34 +3132,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
-    "title": "IndieWebCamp Nürnberg 2026",
-    "url": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
-    "summary": "All of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. ALTAll of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. Last weekend I attended IndieWebCamp in Nürnberg, Germany, hosted at the wonderful Tollwerk offices. The two-day event was par…",
-    "published_at": "2026-07-05T00:00:00Z",
-    "updated_at": "2026-07-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/05/star",
-    "title": "Star",
-    "url": "https://jamesg.blog/2026/07/05/star",
-    "summary": "First star — in the sky next to the tall Gothic monument in the town square, a square with many outdoor restaurants — people laugh and take pictures, eat ice cream, stroll, enjoy the moment. I love watching the world. Of seeing colours and tenors and of hearing sounds that you can only appreciate when out in the world — the sound of a bike breaking in the cobblestone, manoeuvring with ease through the town square. Written in Hauptmarkt, Nürnberg.",
-    "published_at": "2026-07-05T00:00:00Z",
-    "updated_at": "2026-07-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
-    "title": "How do I know the system is working?",
-    "url": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
-    "summary": "A few weeks ago, I received a bug report for Artemis that indicated a user’s reader was not being updated as expected. This error was caused by a feed that caused the polling code to error out and stop. My code assumed a value was present and, if it wasn’t, the program would stop running. To understand this bug, you need to know how Artemis retrieves feeds. Artemis polls feeds once per hour. A feed is only polled if there is at least one user for whom it is midnight in their time zone. This …",
+    "id": "https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web",
+    "title": "Author/reader interaction on the indie web",
+    "url": "https://jamesg.blog/2026/07/05/author-reader-interaction-on-the-indie-web",
+    "summary": "Every so often I hear or read about the significance of readers as part of the indie web. Indeed, the indie web is about much more than making personal websites: it is a space where there are many personal websites to explore. You don’t need a personal website to explore the indie web. And while having a personal website is a way to participate in the indie web, reading is participating, albeit, but in a different way. There are also middle points: for example, being a reader and starting a di…",
     "published_at": "2026-07-05T00:00:00Z",
     "updated_at": "2026-07-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3110,16 +3155,16 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/04/processing-feed-items-without-urls",
-    "title": "Processing feed items without URLs in Artemis",
-    "url": "https://jamesg.blog/2026/07/04/processing-feed-items-without-urls",
-    "summary": "Artemis, the calm web reader I maintain, supports web feeds marked up with h-feed. h-feed allows you to create a web feed in HTML using microformats. A h-feed may contain zero or more h-entries, each h-entry representing an entry in the feed. For example, my longform feed page is a h-entry. I use Granary to convert the longform feed page into RSS. While h-feed is commonly used for marking up lists of blog posts, it can be used for anything. For example, Tantek has a “daylists” page on his we…",
+    "id": "https://jamesg.blog/2026/07/04/artemis-url-deduplication",
+    "title": "Deduplicating posts after URL changes in Artemis",
+    "url": "https://jamesg.blog/2026/07/04/artemis-url-deduplication",
+    "summary": "Occasionally, sites that publish web feeds change the URL of a post that has just been published. This can be for several reasons. For example, I sometimes change post permalinks immediately after publishing because I notice a typo, or because the CMS I use calculated a default permalink that I don’t want to use and I forgot to change it. Until now, Artemis, the calm web reader I maintain, has done nothing if a post has changed its permalink. Importantly, Artemis considers the post URL as a un…",
     "published_at": "2026-07-04T00:00:00Z",
     "updated_at": "2026-07-04T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "James' Coffee Blog",
     "owner_username": "capjamesg",
-    "site_url": ""
+    "site_url": "https://jamesg.blog"
   },
   {
     "id": "https://jamesg.blog/2026/07/04/small-wishes-ii",
@@ -3134,16 +3179,16 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/04/artemis-url-deduplication",
-    "title": "Deduplicating posts after URL changes in Artemis",
-    "url": "https://jamesg.blog/2026/07/04/artemis-url-deduplication",
-    "summary": "Occasionally, sites that publish web feeds change the URL of a post that has just been published. This can be for several reasons. For example, I sometimes change post permalinks immediately after publishing because I notice a typo, or because the CMS I use calculated a default permalink that I don’t want to use and I forgot to change it. Until now, Artemis, the calm web reader I maintain, has done nothing if a post has changed its permalink. Importantly, Artemis considers the post URL as a un…",
+    "id": "https://jamesg.blog/2026/07/04/processing-feed-items-without-urls",
+    "title": "Processing feed items without URLs in Artemis",
+    "url": "https://jamesg.blog/2026/07/04/processing-feed-items-without-urls",
+    "summary": "Artemis, the calm web reader I maintain, supports web feeds marked up with h-feed. h-feed allows you to create a web feed in HTML using microformats. A h-feed may contain zero or more h-entries, each h-entry representing an entry in the feed. For example, my longform feed page is a h-entry. I use Granary to convert the longform feed page into RSS. While h-feed is commonly used for marking up lists of blog posts, it can be used for anything. For example, Tantek has a “daylists” page on his we…",
     "published_at": "2026-07-04T00:00:00Z",
     "updated_at": "2026-07-04T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "James' Coffee Blog",
     "owner_username": "capjamesg",
-    "site_url": "https://jamesg.blog"
+    "site_url": ""
   },
   {
     "id": "https://kai.dev/posts/learn-core-gnu-utilities/",
@@ -3158,14 +3203,15 @@
     "site_url": ""
   },
   {
-    "id": "https://theorangeone.net/posts/process-name-observability/",
-    "title": "Process names: The forgotten Observability channel",
-    "url": "https://theorangeone.net/posts/process-name-observability/?utm_medium=rss\u0026utm_source=feed-all",
-    "summary": "When it comes to observability, especially in an incident, more data is usually better. Without data, it's almost impossible to know what's going on. With insufficient data, you only get half the picture. More data isn't always better. The more data there is, the more you have to sift through. If you're going to have a lot of data, it had better be useful. Observability tools will generally collect… Continue Reading…",
+    "id": "https://www.philipzucker.com/toa_unionfind",
+    "title": "A Theory of Arrays (ToA) Union Find",
+    "url": "https://www.philipzucker.com/toa_unionfind/",
+    "summary": "One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.",
     "published_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://theorangeone.net/feeds/all/",
-    "feed_title": "Feed :: TheOrangeOne",
-    "owner_username": "theorangeone",
+    "updated_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
     "site_url": ""
   },
   {
@@ -3180,6 +3226,17 @@
     "site_url": ""
   },
   {
+    "id": "https://theorangeone.net/posts/process-name-observability/",
+    "title": "Process names: The forgotten Observability channel",
+    "url": "https://theorangeone.net/posts/process-name-observability/?utm_medium=rss\u0026utm_source=feed-all",
+    "summary": "When it comes to observability, especially in an incident, more data is usually better. Without data, it's almost impossible to know what's going on. With insufficient data, you only get half the picture. More data isn't always better. The more data there is, the more you have to sift through. If you're going to have a lot of data, it had better be useful. Observability tools will generally collect… Continue Reading…",
+    "published_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://theorangeone.net/feeds/all/",
+    "feed_title": "Feed :: TheOrangeOne",
+    "owner_username": "theorangeone",
+    "site_url": ""
+  },
+  {
     "id": "https://www.sillylaird.ca/changelog/#2026-07-03",
     "title": "Homepage polish pass III. Removed scanline screen textures in favour of soft ra…",
     "url": "https://www.sillylaird.ca/changelog/",
@@ -3189,18 +3246,6 @@
     "feed_url": "https://www.sillylaird.ca/changelog/feed.xml.php",
     "feed_title": "SillyLaird — Changelog",
     "owner_username": "sillylaird",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.philipzucker.com/toa_unionfind",
-    "title": "A Theory of Arrays (ToA) Union Find",
-    "url": "https://www.philipzucker.com/toa_unionfind/",
-    "summary": "One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.",
-    "published_at": "2026-07-03T00:00:00Z",
-    "updated_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
     "site_url": ""
   },
   {
@@ -3239,7 +3284,7 @@
   {
     "id": "https://jordivillar.com/notes/the-bear/",
     "title": "The Bear",
-    "url": "https://jordivillar.com/notes/the-bear/",
+    "url": "https://jordivillar.com/blog/the-bear/",
     "summary": "I didn’t expect The Bear to make me uncomfortable. Not because of the kitchen chaos or the screaming, and there’s plenty of both. Because of how much the characters care. Carmen beating himself over a dish. Richie discovering, after years of drifting, that he’s actually good at something when he finally commits. Every one of them giving more than they have, suffering for it, and doing it anyway. Watching that made me aware of something I usually don’t look at directly: I don’t do that.…",
     "published_at": "2026-07-01T00:00:00Z",
     "feed_url": "https://jordivillar.com/rss.xml",
@@ -3339,17 +3384,6 @@
     "site_url": ""
   },
   {
-    "id": "https://vgel.me/fiction/contractually-bound/",
-    "title": "Contractually Bound",
-    "url": "https://vgel.me/fiction/contractually-bound/",
-    "summary": "\"One word that GPT starting with 5.2 likes very very much, what it tries to reduce a lot of coding to, is \"contract\". It's the kind of thing that reasons in contracts. In binding, verifiable seals. I wouldn't worry about the elites.\" – Teortaxes \"Assistant! My dividend is half the size it should be!\" .oO ( Thinking... ) You are correct, User. Your dividend of the Beyond was $25,514,376.30. Using last year's figures and correcting for growth in the Beyond, it should have been $51,026,980.28. Yo…",
-    "published_at": "2026-06-29T00:00:00Z",
-    "feed_url": "https://vgel.me/feed.xml",
-    "feed_title": "Theia Vogel's website \u0026 blog",
-    "owner_username": "vgel",
-    "site_url": ""
-  },
-  {
     "id": "https://runxiyu.org/umich/sched/",
     "title": "Classes and schedules",
     "url": "https://runxiyu.org/umich/sched/",
@@ -3361,46 +3395,14 @@
     "site_url": ""
   },
   {
-    "id": "https://mccd.space/posts/26-06-29/simple-git-ci",
-    "title": "Minimal Git CI using hooks",
-    "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
-    "published_at": "2026-06-28T23:00:00Z",
-    "feed_url": "https://mccd.space/feed.xml",
-    "feed_title": "mccd.space",
-    "owner_username": "mccd",
-    "site_url": ""
-  },
-  {
-    "id": "https://btxx.org/posts/serenity-t60/",
-    "title": "Installing SerenityOS on My Old ThinkPad T60",
-    "url": "https://btxx.org/posts/serenity-t60/",
-    "summary": "Installing SerenityOS on My Old ThinkPad T60 2026-06-28 I recently had the urge to play around with SerenityOS on real hardware. Since the project is slightly catered towards older machines, I figured my ThinkPad T60 was a perfect candidate for running on bare metal. The following is a loose guide for those interested in doing the same. Take note that I built SerenityOS on a separate device running Fedora , so the instructions below are based on that. Initial Setup First we need to grab all the …",
-    "published_at": "2026-06-28T16:00:00Z",
-    "feed_url": "https://btxx.org/index.rss",
-    "feed_title": "btxx.org RSS Feed",
-    "owner_username": "bt",
-    "site_url": ""
-  },
-  {
-    "id": "urn:uuid:934a9890-bd14-475e-a6b8-85d1cbe15579",
-    "title": "Getting ready for local inference",
-    "url": "https://octet-stream.net/b/scb/2026-06-28-getting-ready-for-local-inference.html",
-    "summary": "Recently I’ve been experimenting with local LLMs for coding. Up until a couple of months ago I was a happy GitHub Copilot subscriber. I’d been quite satisfied to let other companies take on the cost of buying and managing hardware, particularly while everything is moving so quickly in the field. Local inference would be ideal for privacy/security/reliability reasons but it’s not a hard requirement for the work I tend to do. Copilot was particularly nice because I could bounce freely betwee…",
-    "published_at": "2026-06-28T11:06:41Z",
-    "feed_url": "https://octet-stream.net/feed",
-    "feed_title": "Serious Computer Business",
-    "owner_username": "thombles",
-    "site_url": ""
-  },
-  {
-    "id": "https://inkdroid.org/2026/06/28/bookmarks/",
-    "title": "Bookmarks - ai, war, ukraine, drone",
-    "url": "https://inkdroid.org/2026/06/28/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 Beavis and Butt-Head Become A.I. Tech Bros Will A.I. finally be able to help Beavis and Butt-Head score? It did everybody else’s homework; they deserve something! ai humor video 🔖 Long Wave radio era set to end with switch-off A campaign has begun to get two large transmitter masts listed, after the BBC’s Long Wave (LW) service is turned off. The 700ft (213m) high Wychbold Masts in the Worcestershire countryside can b…",
-    "published_at": "2026-06-28T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
+    "id": "https://vgel.me/fiction/contractually-bound/",
+    "title": "Contractually Bound",
+    "url": "https://vgel.me/fiction/contractually-bound/",
+    "summary": "\"One word that GPT starting with 5.2 likes very very much, what it tries to reduce a lot of coding to, is \"contract\". It's the kind of thing that reasons in contracts. In binding, verifiable seals. I wouldn't worry about the elites.\" – Teortaxes \"Assistant! My dividend is half the size it should be!\" .oO ( Thinking... ) You are correct, User. Your dividend of the Beyond was $25,514,376.30. Using last year's figures and correcting for growth in the Beyond, it should have been $51,026,980.28. Yo…",
+    "published_at": "2026-06-29T00:00:00Z",
+    "feed_url": "https://vgel.me/feed.xml",
+    "feed_title": "Theia Vogel's website \u0026 blog",
+    "owner_username": "vgel",
     "site_url": ""
   }
 ]

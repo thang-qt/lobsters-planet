@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T19:45:14.850247216Z",
+  "generated_at": "2026-08-15T02:33:31.606911631Z",
   "overview": {
     "users": 20631,
-    "crawled_profiles": 6650,
+    "crawled_profiles": 6675,
     "homepages": 1,
     "users_with_feeds": 238,
     "feeds": 60,
@@ -99,7 +99,7 @@
       "feed_title": "inkdroid",
       "owner_username": "edsu",
       "site_url": "",
-      "entries": 17,
+      "entries": 16,
       "latest_at": "2026-08-11T04:00:00Z"
     },
     {
@@ -111,20 +111,28 @@
       "latest_at": "2026-08-13T01:06:25Z"
     },
     {
+      "feed_url": "https://jordivillar.com/rss.xml",
+      "feed_title": "Jordi Villar",
+      "owner_username": "jordi",
+      "site_url": "",
+      "entries": 9,
+      "latest_at": "2026-08-14T16:00:00Z"
+    },
+    {
+      "feed_url": "https://www.splitbrain.org/feed/links",
+      "feed_title": "Linkblog",
+      "owner_username": "splitbrain",
+      "site_url": "",
+      "entries": 9,
+      "latest_at": "2026-08-08T05:28:06Z"
+    },
+    {
       "feed_url": "https://abhamra.com/rss.xml",
       "feed_title": "asb's corner",
       "owner_username": "aphaelion",
       "site_url": "",
       "entries": 8,
       "latest_at": "2026-08-12T00:00:00Z"
-    },
-    {
-      "feed_url": "https://jordivillar.com/rss.xml",
-      "feed_title": "Jordi Villar",
-      "owner_username": "jordi",
-      "site_url": "",
-      "entries": 8,
-      "latest_at": "2026-08-10T08:44:21Z"
     },
     {
       "feed_url": "https://lalitm.com/index.xml",
@@ -135,28 +143,12 @@
       "latest_at": "2026-08-09T13:53:00Z"
     },
     {
-      "feed_url": "https://www.splitbrain.org/feed/links",
-      "feed_title": "Linkblog",
-      "owner_username": "splitbrain",
-      "site_url": "",
-      "entries": 8,
-      "latest_at": "2026-07-28T05:47:01Z"
-    },
-    {
       "feed_url": "https://hpjansson.org/blag/comments/feed/",
       "feed_title": "Comments for Et tu, Cthulhu",
       "owner_username": "hpj",
       "site_url": "",
       "entries": 7,
       "latest_at": "2026-08-11T16:06:22Z"
-    },
-    {
-      "feed_url": "https://octet-stream.net/feed",
-      "feed_title": "Serious Computer Business",
-      "owner_username": "thombles",
-      "site_url": "",
-      "entries": 6,
-      "latest_at": "2026-08-09T11:37:02Z"
     },
     {
       "feed_url": "https://nolanlawson.com/comments/feed/",
@@ -181,6 +173,14 @@
       "site_url": "",
       "entries": 5,
       "latest_at": "2026-08-09T18:00:00Z"
+    },
+    {
+      "feed_url": "https://octet-stream.net/feed",
+      "feed_title": "Serious Computer Business",
+      "owner_username": "thombles",
+      "site_url": "",
+      "entries": 5,
+      "latest_at": "2026-08-09T11:37:02Z"
     },
     {
       "feed_url": "https://jcs.org/notes/rss",
@@ -213,6 +213,14 @@
       "site_url": "",
       "entries": 3,
       "latest_at": "2026-08-15T00:00:00Z"
+    },
+    {
+      "feed_url": "https://www.lifewaza.com/index.xml",
+      "feed_title": "lifewaza",
+      "owner_username": "gabe",
+      "site_url": "",
+      "entries": 3,
+      "latest_at": "2026-08-14T00:00:00Z"
     },
     {
       "feed_url": "https://www.jacky.wtf/links/feed.atom",
@@ -261,14 +269,6 @@
       "site_url": "",
       "entries": 3,
       "latest_at": "2026-08-10T20:12:52Z"
-    },
-    {
-      "feed_url": "https://tante.cc/feed/",
-      "feed_title": "Smashing Frames",
-      "owner_username": "tante",
-      "site_url": "",
-      "entries": 3,
-      "latest_at": "2026-07-15T16:12:24Z"
     }
   ],
   "recent_sites": [
@@ -279,6 +279,14 @@
       "latest_at": "2026-08-15T00:00:00Z",
       "title": "TODO",
       "url": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20VR"
+    },
+    {
+      "username": "jordi",
+      "site_url": "",
+      "feed_title": "Jordi Villar",
+      "latest_at": "2026-08-14T16:00:00Z",
+      "title": "Write it down",
+      "url": "https://jordivillar.com/blog/write-it-down/"
     },
     {
       "username": "starbist",
@@ -304,12 +312,28 @@
       "url": "https://toot.cat/@dredmorbius/117092043544701779"
     },
     {
+      "username": "gabe",
+      "site_url": "",
+      "feed_title": "lifewaza",
+      "latest_at": "2026-08-14T00:00:00Z",
+      "title": "Configuring local DNS",
+      "url": "https://www.lifewaza.com/posts/configuring-local-dns/"
+    },
+    {
       "username": "capjamesg",
       "site_url": "",
       "feed_title": "with words, wonder",
       "latest_at": "2026-08-14T00:00:00Z",
-      "title": "memories",
-      "url": "https://jamesg.blog/2026/08/14/memories"
+      "title": "Edgar",
+      "url": "https://jamesg.blog/2026/08/14/edgar"
+    },
+    {
+      "username": "dblock",
+      "site_url": "",
+      "feed_title": "code.dblock.org | tech blog",
+      "latest_at": "2026-08-14T00:00:00Z",
+      "title": "Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)",
+      "url": "https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html"
     },
     {
       "username": "ABGEO",
@@ -376,14 +400,6 @@
       "url": "https://philipotoole.com/codex-for-open-source/"
     },
     {
-      "username": "dblock",
-      "site_url": "",
-      "feed_title": "code.dblock.org | tech blog",
-      "latest_at": "2026-08-11T00:00:00Z",
-      "title": "Generating AI Descriptions of Automated Pull Requests",
-      "url": "https://code.dblock.org/2026/08/11/generating-ai-descriptions-of-automated-pull-requests.html"
-    },
-    {
       "username": "splitbrain",
       "site_url": "",
       "feed_title": "splitbrain.org - blog",
@@ -398,14 +414,6 @@
       "latest_at": "2026-08-10T16:50:43Z",
       "title": "Comment on We mourn our craft by A Workaphile’s Apology « Some Thoughts on a Mysterious Universe",
       "url": "https://nolanlawson.com/2026/02/07/we-mourn-our-craft/#comment-238410"
-    },
-    {
-      "username": "jordi",
-      "site_url": "",
-      "feed_title": "Jordi Villar",
-      "latest_at": "2026-08-10T08:44:21Z",
-      "title": "2026W31",
-      "url": "https://jordivillar.com/reads/2026w31/"
     },
     {
       "username": "sandipb",
@@ -462,14 +470,6 @@
       "latest_at": "2026-08-07T00:00:00Z",
       "title": "An Intuitionistic Micro Proof Assistant",
       "url": "https://www.philipzucker.com/kd_intu/"
-    },
-    {
-      "username": "gabe",
-      "site_url": "",
-      "feed_title": "lifewaza",
-      "latest_at": "2026-08-07T00:00:00Z",
-      "title": "Encoding DVDs with OpenBSD and Handbrake - Update",
-      "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake-update/"
     }
   ]
 }
