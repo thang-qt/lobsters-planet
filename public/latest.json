@@ -1,5 +1,16 @@
 [
   {
+    "id": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20VR",
+    "title": "TODO",
+    "url": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20VR",
+    "summary": "TODO summary",
+    "published_at": "2026-08-15T00:00:00Z",
+    "feed_url": "https://dmitry.gr/rss.php",
+    "feed_title": "Dmitry.GR",
+    "owner_username": "dmitrygr",
+    "site_url": ""
+  },
+  {
     "id": "https://code.dblock.org/2026/08/15/benchmarks-are-free-now",
     "title": "Benchmarks Are Free Now",
     "url": "https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html",
@@ -9,17 +20,6 @@
     "feed_url": "https://code.dblock.org/feed.xml",
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
-    "site_url": ""
-  },
-  {
-    "id": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20VR",
-    "title": "TODO",
-    "url": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20VR",
-    "summary": "TODO summary",
-    "published_at": "2026-08-15T00:00:00Z",
-    "feed_url": "https://dmitry.gr/rss.php",
-    "feed_title": "Dmitry.GR",
-    "owner_username": "dmitrygr",
     "site_url": ""
   },
   {
@@ -67,6 +67,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/08/14/questions-ii",
+    "title": "questions, ii",
+    "url": "https://jamesg.blog/2026/08/14/questions-ii",
+    "summary": "(what if) home pages (were, are) ever-changing poems(?)",
+    "published_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-14T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/08/14/memories",
     "title": "memories",
     "url": "https://jamesg.blog/2026/08/14/memories",
@@ -76,6 +88,29 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/14/edgar",
+    "title": "Edgar",
+    "url": "https://jamesg.blog/2026/08/14/edgar",
+    "summary": "Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…",
+    "published_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-14T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://www.lifewaza.com/posts/configuring-local-dns/",
+    "title": "Configuring local DNS",
+    "url": "https://www.lifewaza.com/posts/configuring-local-dns/",
+    "summary": "In the last article in this series, I got caddy up and running and told it about all the services I wanted it to know about. Now I need to setup the mapping between the names (grafana.lifewaza.com) and the IP address where caddy is running (192.168.1.10). Since I run a local DNS resolver ( unbound ) I can just add entries to it’s configuration file ( /var/unbound/etc/unbound.conf ) for each of the services I want to name. # transparent local zone for lifewaza.com local-zone: \"lifewaza.com\" tra…",
+    "published_at": "2026-08-14T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
     "site_url": ""
   },
   {
@@ -103,18 +138,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/14/edgar",
-    "title": "Edgar",
-    "url": "https://jamesg.blog/2026/08/14/edgar",
-    "summary": "Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…",
-    "published_at": "2026-08-14T00:00:00Z",
-    "updated_at": "2026-08-14T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl",
     "title": "Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)",
     "url": "https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html",
@@ -124,29 +147,6 @@
     "feed_url": "https://code.dblock.org/feed.xml",
     "feed_title": "code.dblock.org | tech blog",
     "owner_username": "dblock",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.lifewaza.com/posts/configuring-local-dns/",
-    "title": "Configuring local DNS",
-    "url": "https://www.lifewaza.com/posts/configuring-local-dns/",
-    "summary": "In the last article in this series, I got caddy up and running and told it about all the services I wanted it to know about. Now I need to setup the mapping between the names (grafana.lifewaza.com) and the IP address where caddy is running (192.168.1.10). Since I run a local DNS resolver ( unbound ) I can just add entries to it’s configuration file ( /var/unbound/etc/unbound.conf ) for each of the services I want to name. # transparent local zone for lifewaza.com local-zone: \"lifewaza.com\" tra…",
-    "published_at": "2026-08-14T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/14/questions-ii",
-    "title": "questions, ii",
-    "url": "https://jamesg.blog/2026/08/14/questions-ii",
-    "summary": "(what if) home pages (were, are) ever-changing poems(?)",
-    "published_at": "2026-08-14T00:00:00Z",
-    "updated_at": "2026-08-14T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -161,10 +161,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#Computers",
-    "title": "Computers",
-    "url": "https://jbaber.sdf.org/#Computers",
-    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
+    "id": "https://jbaber.sdf.org/#beauty",
+    "title": "Beautiful Things",
+    "url": "https://jbaber.sdf.org/#beauty",
+    "summary": "Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…",
     "published_at": "2026-08-13T01:06:25Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -172,10 +172,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#alfred_e",
-    "title": "Alfred E. Neuman quotes up to 2005",
-    "url": "https://jbaber.sdf.org/#alfred_e",
-    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
+    "id": "https://jbaber.sdf.org/#Computers",
+    "title": "Computers",
+    "url": "https://jbaber.sdf.org/#Computers",
+    "summary": "Computers 2007-05-22 The city's central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…",
     "published_at": "2026-08-13T01:06:25Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -194,17 +194,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#beauty",
-    "title": "Beautiful Things",
-    "url": "https://jbaber.sdf.org/#beauty",
-    "summary": "Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…",
-    "published_at": "2026-08-13T01:06:25Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": ""
-  },
-  {
     "id": "https://jbaber.sdf.org/#cairo",
     "title": "Cairo Composite Manager",
     "url": "https://jbaber.sdf.org/#cairo",
@@ -216,21 +205,33 @@
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#laarni",
-    "title": "Laarni",
-    "url": "https://jbaber.sdf.org/#laarni",
-    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
-    "published_at": "2026-08-13T00:00:00Z",
+    "id": "https://jbaber.sdf.org/#alfred_e",
+    "title": "Alfred E. Neuman quotes up to 2005",
+    "url": "https://jbaber.sdf.org/#alfred_e",
+    "summary": "Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I'll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you're apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won't go out with you if you…",
+    "published_at": "2026-08-13T01:06:25Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
     "owner_username": "jbaber",
     "site_url": ""
   },
   {
-    "id": "https://jbaber.sdf.org/#wishlist",
-    "title": "Wishlist",
-    "url": "https://jbaber.sdf.org/#wishlist",
-    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "id": "https://jamesg.blog/2026/08/13/questions",
+    "title": "Questions",
+    "url": "https://jamesg.blog/2026/08/13/questions",
+    "summary": "Ever since I published “Blogs, websites, and identity”, I have been thinking about and discussing some of the questions I raised in the blog post: why do we take photos, what does it mean to write on the web. The essay feels like a starting point: a framing from which to work, a point of reference, a repository of questions. In the essay, I wrote: But I can’t shake my question: what does it mean to write on the web? I am still thinking about this question. I am no closer to having a writte…",
+    "published_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jbaber.sdf.org/#laarni",
+    "title": "Laarni",
+    "url": "https://jbaber.sdf.org/#laarni",
+    "summary": "Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black",
     "published_at": "2026-08-13T00:00:00Z",
     "feed_url": "https://jbaber.sdf.org/feed.xml",
     "feed_title": "John Baber-Lucero",
@@ -249,18 +250,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/13/breath",
-    "title": "breath",
-    "url": "https://jamesg.blog/2026/08/13/breath",
-    "summary": "first breaths, outdoors: in, out. calm.",
-    "published_at": "2026-08-13T00:00:00Z",
-    "updated_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20RV",
     "title": "RISC-V: They Should Have Known Better",
     "url": "https://dmitry.gr/?r=06.%20Thoughts\u0026proj=12.%20RV",
@@ -269,29 +258,6 @@
     "feed_url": "https://dmitry.gr/rss.php",
     "feed_title": "Dmitry.GR",
     "owner_username": "dmitrygr",
-    "site_url": ""
-  },
-  {
-    "id": "https://jbaber.sdf.org/#now",
-    "title": "Now",
-    "url": "https://jbaber.sdf.org/#now",
-    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
-    "published_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://jbaber.sdf.org/feed.xml",
-    "feed_title": "John Baber-Lucero",
-    "owner_username": "jbaber",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/13/sunset-2",
-    "title": "Sunset",
-    "url": "https://jamesg.blog/2026/08/13/sunset-2",
-    "summary": "I was just in time to catch the moment when the sun started to recede behind the hills in the distance, a moment in which two birds flew together and danced into the night, in which there were the last flickers of the golden glow of Evening thinking through the window, in which I looked to see the colours of the rest of the sky and, when looking back, realise the sun has now set; its brilliant yellow glow becoming cooler with every passing minute. I looked to the clouds and saw the shape of a gi…",
-    "published_at": "2026-08-13T00:00:00Z",
-    "updated_at": "2026-08-13T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -318,10 +284,44 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/13/questions",
-    "title": "Questions",
-    "url": "https://jamesg.blog/2026/08/13/questions",
-    "summary": "Ever since I published “Blogs, websites, and identity”, I have been thinking about and discussing some of the questions I raised in the blog post: why do we take photos, what does it mean to write on the web. The essay feels like a starting point: a framing from which to work, a point of reference, a repository of questions. In the essay, I wrote: But I can’t shake my question: what does it mean to write on the web? I am still thinking about this question. I am no closer to having a writte…",
+    "id": "https://jbaber.sdf.org/#wishlist",
+    "title": "Wishlist",
+    "url": "https://jbaber.sdf.org/#wishlist",
+    "summary": "Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I'm going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…",
+    "published_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": ""
+  },
+  {
+    "id": "https://jbaber.sdf.org/#now",
+    "title": "Now",
+    "url": "https://jbaber.sdf.org/#now",
+    "summary": "Now These are things I'm doing now: Married to Laarni Raising two boys Living in Columbia, Maryland, USA . This is a now page Updated: 2025-10-20",
+    "published_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jbaber.sdf.org/feed.xml",
+    "feed_title": "John Baber-Lucero",
+    "owner_username": "jbaber",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/13/sunset-2",
+    "title": "Sunset",
+    "url": "https://jamesg.blog/2026/08/13/sunset-2",
+    "summary": "I was just in time to catch the moment when the sun started to recede behind the hills in the distance, a moment in which two birds flew together and danced into the night, in which there were the last flickers of the golden glow of Evening thinking through the window, in which I looked to see the colours of the rest of the sky and, when looking back, realise the sun has now set; its brilliant yellow glow becoming cooler with every passing minute. I looked to the clouds and saw the shape of a gi…",
+    "published_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-13T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/13/breath",
+    "title": "breath",
+    "url": "https://jamesg.blog/2026/08/13/breath",
+    "summary": "first breaths, outdoors: in, out. calm.",
     "published_at": "2026-08-13T00:00:00Z",
     "updated_at": "2026-08-13T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -374,6 +374,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/08/12/eclipse",
+    "title": "Eclipse",
+    "url": "https://jamesg.blog/2026/08/12/eclipse",
+    "summary": "Is it possible to be in awe and have no idea to what extent until you look back? I think this is what I feel now, looking back on the solar eclipse that happened an hour and a half ago or so. “Isn’t it amazing that this happens?”, I said to everyone who joined this evening’s Homebrew Website Club Europe meetup online, whose start coincided with the solar eclipse. I didn't have solar eclipse glasses, but I decided to do the next best thing to experience the eclipse: watch the stream from …",
+    "published_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-12T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://abhamra.com/blog/caring-about-art/",
     "title": "(I think) caring about art is a good idea",
     "url": "https://abhamra.com/blog/caring-about-art/",
@@ -389,18 +401,6 @@
     "title": "Impressions; museums",
     "url": "https://jamesg.blog/2026/08/12/impressions-museums",
     "summary": "On my desk there is a painting of Monet’s “Bridge over a Pond of Water Lilies” 1 that I purchased when I was on holiday last year. I wanted to bring something back that I could put in my living space, something that would both be a memory of the trip but also a work of art in itself to be enjoyed. Every time I go to my desk, the painting is there: a reminder of one of my favourite artists. I brought back a fridge magnet from the same trip, too, which brings art to the kitchen. And when I g…",
-    "published_at": "2026-08-12T00:00:00Z",
-    "updated_at": "2026-08-12T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/12/eclipse",
-    "title": "Eclipse",
-    "url": "https://jamesg.blog/2026/08/12/eclipse",
-    "summary": "Is it possible to be in awe and have no idea to what extent until you look back? I think this is what I feel now, looking back on the solar eclipse that happened an hour and a half ago or so. “Isn’t it amazing that this happens?”, I said to everyone who joined this evening’s Homebrew Website Club Europe meetup online, whose start coincided with the solar eclipse. I didn't have solar eclipse glasses, but I decided to do the next best thing to experience the eclipse: watch the stream from …",
     "published_at": "2026-08-12T00:00:00Z",
     "updated_at": "2026-08-12T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -443,6 +443,17 @@
     "site_url": ""
   },
   {
+    "id": "https://inkdroid.org/2026/08/11/vine-on-bark/",
+    "title": "Vine on bark",
+    "url": "https://inkdroid.org/2026/08/11/vine-on-bark/",
+    "summary": "Vine on bark",
+    "published_at": "2026-08-11T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": ""
+  },
+  {
     "id": "https://inkdroid.org/2026/08/11/wacz-pdf/",
     "title": "WACZ to PDF",
     "url": "https://inkdroid.org/2026/08/11/wacz-pdf/",
@@ -465,17 +476,6 @@
     "site_url": ""
   },
   {
-    "id": "https://inkdroid.org/2026/08/11/vine-on-bark/",
-    "title": "Vine on bark",
-    "url": "https://inkdroid.org/2026/08/11/vine-on-bark/",
-    "summary": "Vine on bark",
-    "published_at": "2026-08-11T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": ""
-  },
-  {
     "id": "https://philipotoole.com/?p=8371",
     "title": "Codex for Open Source",
     "url": "https://philipotoole.com/codex-for-open-source/",
@@ -484,6 +484,18 @@
     "feed_url": "https://philipotoole.com/feed/",
     "feed_title": "Philip O'Toole",
     "owner_username": "otoolep",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/11/music-electricity",
+    "title": "Music; electricity",
+    "url": "https://jamesg.blog/2026/08/11/music-electricity",
+    "summary": "As I approached the top of one of the many long staircases from Cockburn Street to the Royal Mile, I felt an electricity in the air. The street was full; shows happening everywhere as part of the Edinburgh Fringe festival. People were handing out fliers to fill crowds. I always love seeing how people invite you to a show. Some hand out fliers kindly. Others stand on street corners. The person I saw first was what we’d call a “chancer” here in Scotland. To a passing tourist, he said “If y…",
+    "published_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-11T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -503,18 +515,6 @@
     "title": "how the poem",
     "url": "https://jamesg.blog/2026/08/11/how-the-poem",
     "summary": "how the poem slows time — of day and night. how the poem flows words — all in sight. how the poem shows mirrors — reflections of light. how the poem knows conditions — ours alike.",
-    "published_at": "2026-08-11T00:00:00Z",
-    "updated_at": "2026-08-11T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/11/music-electricity",
-    "title": "Music; electricity",
-    "url": "https://jamesg.blog/2026/08/11/music-electricity",
-    "summary": "As I approached the top of one of the many long staircases from Cockburn Street to the Royal Mile, I felt an electricity in the air. The street was full; shows happening everywhere as part of the Edinburgh Fringe festival. People were handing out fliers to fill crowds. I always love seeing how people invite you to a show. Some hand out fliers kindly. Others stand on street corners. The person I saw first was what we’d call a “chancer” here in Scotland. To a passing tourist, he said “If y…",
     "published_at": "2026-08-11T00:00:00Z",
     "updated_at": "2026-08-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -613,10 +613,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/10/morning-sunrise",
-    "title": "Morning, sunrise",
-    "url": "https://jamesg.blog/2026/08/10/morning-sunrise",
-    "summary": "The horizon is painted with a cool, warm glow. The sun has not yet risen; the hills are its blanket. The sky is a clear blue. I woke up earlier than normal this morning. I find myself writing while gazing out the window, watching the sun rise, its light filling the room, illuminating the ideas of past days on my whiteboard, the titles of books I love, and the glass of water I poured earlier to help me ease into the morning. When I woke up, I heard the song of a bird whose music I did not recogni…",
+    "id": "https://jamesg.blog/2026/08/10/images",
+    "title": "images",
+    "url": "https://jamesg.blog/2026/08/10/images",
+    "summary": "Confident reflections of my reserved self. Colourful, frozen, fragmentary, ephemeral frames, I carry everywhere. Heavy as self.",
     "published_at": "2026-08-10T00:00:00Z",
     "updated_at": "2026-08-10T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -637,10 +637,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/10/images",
-    "title": "images",
-    "url": "https://jamesg.blog/2026/08/10/images",
-    "summary": "Confident reflections of my reserved self. Colourful, frozen, fragmentary, ephemeral frames, I carry everywhere. Heavy as self.",
+    "id": "https://jamesg.blog/2026/08/10/morning-sunrise",
+    "title": "Morning, sunrise",
+    "url": "https://jamesg.blog/2026/08/10/morning-sunrise",
+    "summary": "The horizon is painted with a cool, warm glow. The sun has not yet risen; the hills are its blanket. The sky is a clear blue. I woke up earlier than normal this morning. I find myself writing while gazing out the window, watching the sun rise, its light filling the room, illuminating the ideas of past days on my whiteboard, the titles of books I love, and the glass of water I poured earlier to help me ease into the morning. When I woke up, I heard the song of a bird whose music I did not recogni…",
     "published_at": "2026-08-10T00:00:00Z",
     "updated_at": "2026-08-10T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -783,7 +783,7 @@
     "site_url": ""
   },
   {
-    "id": "6a78c0ee692a8700015319d9",
+    "id": "6a75df674280930966b1c3d5",
     "title": "Summer 2026 Tick bite experience",
     "url": "https://blog.henryvandenbroek.com/tick-bite-experience/",
     "summary": "Took 6 weeks to figure what was hampering my performance, not lyme or anaplasmosis, but babesiosis.",
@@ -794,7 +794,7 @@
     "site_url": ""
   },
   {
-    "id": "6a75df674280930966b1c3d5",
+    "id": "6a78c0ee692a8700015319d9",
     "title": "Summer 2026 Tick bite experience",
     "url": "https://blog.henryvandenbroek.com/tick-bite-experience/",
     "summary": "Took 6 weeks to figure what was hampering my performance, not lyme or anaplasmosis, but babesiosis.",
@@ -840,29 +840,6 @@
     "site_url": ""
   },
   {
-    "id": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake-update/",
-    "title": "Encoding DVDs with OpenBSD and Handbrake - Update",
-    "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake-update/",
-    "summary": "The encoding finally finished! [20:44:04] Finished work at: Thu Aug 6 20:44:04 2026 [20:44:04] libhb: work result = 0 Encode done! HandBrake has exited. Took about 7 days to encode 56 DVDs from VIDEO_TS folders into more modern .mkv format, using H.264 to save on space. It looks like the .mkv files are quite a bit smaller than the source material: $ du -sk */ | awk '{s+=$1} END {print \"Original Folders: \" s/1024/1024 \" GB\"}' Original Folders: 277.174 GB $ du -sk *.mkv | awk '{s+=$1} END {print \"…",
-    "published_at": "2026-08-07T00:00:00Z",
-    "feed_url": "https://www.lifewaza.com/index.xml",
-    "feed_title": "lifewaza",
-    "owner_username": "gabe",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.philipzucker.com/kd_intu",
-    "title": "An Intuitionistic Micro Proof Assistant",
-    "url": "https://www.philipzucker.com/kd_intu/",
-    "summary": "I’ve been tinkering on a solver-oriented interactive proof assistant as a library called Knuckledragger https://github.com/philzook58/knuckledragger .",
-    "published_at": "2026-08-07T00:00:00Z",
-    "updated_at": "2026-08-07T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": ""
-  },
-  {
     "id": "https://ethancedwards.com/blog/2026-def-con-nix-vegas",
     "title": "2026 DEF CON 34 Nix Vegas",
     "url": "https://ethancedwards.com/blog/2026-def-con-nix-vegas",
@@ -886,6 +863,29 @@
     "site_url": ""
   },
   {
+    "id": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake-update/",
+    "title": "Encoding DVDs with OpenBSD and Handbrake - Update",
+    "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake-update/",
+    "summary": "The encoding finally finished! [20:44:04] Finished work at: Thu Aug 6 20:44:04 2026 [20:44:04] libhb: work result = 0 Encode done! HandBrake has exited. Took about 7 days to encode 56 DVDs from VIDEO_TS folders into more modern .mkv format, using H.264 to save on space. It looks like the .mkv files are quite a bit smaller than the source material: $ du -sk */ | awk '{s+=$1} END {print \"Original Folders: \" s/1024/1024 \" GB\"}' Original Folders: 277.174 GB $ du -sk *.mkv | awk '{s+=$1} END {print \"…",
+    "published_at": "2026-08-07T00:00:00Z",
+    "feed_url": "https://www.lifewaza.com/index.xml",
+    "feed_title": "lifewaza",
+    "owner_username": "gabe",
+    "site_url": ""
+  },
+  {
+    "id": "https://www.philipzucker.com/kd_intu",
+    "title": "An Intuitionistic Micro Proof Assistant",
+    "url": "https://www.philipzucker.com/kd_intu/",
+    "summary": "I’ve been tinkering on a solver-oriented interactive proof assistant as a library called Knuckledragger https://github.com/philzook58/knuckledragger .",
+    "published_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-07T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": ""
+  },
+  {
     "id": "https://manishrjain.com/launching-docovia",
     "title": "Docovia: The Land for Your Docs",
     "url": "https://manishrjain.com/launching-docovia",
@@ -897,10 +897,21 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/06/morning-2",
-    "title": "Morning",
-    "url": "https://jamesg.blog/2026/08/06/morning-2",
-    "summary": "Warm tea, wiki edits, and zines sent by a friend that arrived earlier this week welcome me to the morning. Yesterday there was a rain shower more intense than any I have seen for a while; a powerful wind blew through the air. Now, the day is calm: the sky is cloudy and a light breeze sways the leaves on the trees to and fro. Birds call. My tea is empty. I should make another cup. I look around the room and think of how different times bring life to different parts of the place. My guitar sings i…",
+    "id": "https://abhamra.com/book_reviews/dont-think/",
+    "title": "Don't Believe Everything You Think",
+    "url": "https://abhamra.com/book_reviews/dont-think/",
+    "summary": "Written by Joseph Nguyen This book, I thought, would be similar in spirit to Naval's Almanack. I was wrong about that, and I think that was a very good thing. I really liked the cadence and style of this book, it felt inviting and grounded, and helped me more calmly re-evaluate how I thought and the difference between thoughts and thinking, non-thinking, control, the PAUSE acronym, intuition, and space for ideas. I still need to properly peruse the \"practice\" section, but overall this was helpfu…",
+    "published_at": "2026-08-06T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/06/depths",
+    "title": "depths",
+    "url": "https://jamesg.blog/2026/08/06/depths",
+    "summary": "be my invisible mirror that opens when i write. with words, wonder; hope, dreaming. be my literary pillow; bear the brunt of the i (eyes) the questions, of self. be the messy middle of my mind on paper, that speaks of life. blank, until it is not. Inspired by Tim Kiely's prompt.",
     "published_at": "2026-08-06T00:00:00Z",
     "updated_at": "2026-08-06T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -921,17 +932,6 @@
     "site_url": ""
   },
   {
-    "id": "https://abhamra.com/book_reviews/dont-think/",
-    "title": "Don't Believe Everything You Think",
-    "url": "https://abhamra.com/book_reviews/dont-think/",
-    "summary": "Written by Joseph Nguyen This book, I thought, would be similar in spirit to Naval's Almanack. I was wrong about that, and I think that was a very good thing. I really liked the cadence and style of this book, it felt inviting and grounded, and helped me more calmly re-evaluate how I thought and the difference between thoughts and thinking, non-thinking, control, the PAUSE acronym, intuition, and space for ideas. I still need to properly peruse the \"practice\" section, but overall this was helpfu…",
-    "published_at": "2026-08-06T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
     "title": "I Thought it Was a Tire",
     "url": "https://jamesg.blog/2026/08/06/i-thought-it-was-a-tire",
@@ -944,10 +944,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/06/depths",
-    "title": "depths",
-    "url": "https://jamesg.blog/2026/08/06/depths",
-    "summary": "be my invisible mirror that opens when i write. with words, wonder; hope, dreaming. be my literary pillow; bear the brunt of the i (eyes) the questions, of self. be the messy middle of my mind on paper, that speaks of life. blank, until it is not. Inspired by Tim Kiely's prompt.",
+    "id": "https://jamesg.blog/2026/08/06/morning-2",
+    "title": "Morning",
+    "url": "https://jamesg.blog/2026/08/06/morning-2",
+    "summary": "Warm tea, wiki edits, and zines sent by a friend that arrived earlier this week welcome me to the morning. Yesterday there was a rain shower more intense than any I have seen for a while; a powerful wind blew through the air. Now, the day is calm: the sky is cloudy and a light breeze sways the leaves on the trees to and fro. Birds call. My tea is empty. I should make another cup. I look around the room and think of how different times bring life to different parts of the place. My guitar sings i…",
     "published_at": "2026-08-06T00:00:00Z",
     "updated_at": "2026-08-06T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -978,9 +978,22 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/05/space-2",
-    "title": "Space",
-    "url": "https://jamesg.blog/2026/08/05/space-2",
+    "id": "https://jamesg.blog/2026/08/05/museums-2",
+    "title": "Museums",
+    "url": "https://jamesg.blog/2026/08/05/museums-2",
+    "summary": "Earlier this week I was thinking about inspiration – what inspires me to write? Nature, friends, what I see in the world as I walk around – all these are the basis of many of my blog posts. Museums, too, inspire me, both to think and to create. When I am in a museum, I can get lost in an artwork, ebbing between the beauty of a piece and then, afterwards, studying the work – what can I see, what do I see. Whenever I spent time in galleries, I lose track of time. Half an hour can pass as if …",
+    "published_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/05/space-making-2",
+    "title": "Space-making",
+    "url": "https://jamesg.blog/2026/08/05/space-making-2",
+    "summary": "Space ⁂ ⁂ ⁂ Space (making) ⁂ ⁂ ⁂ Space-making. A few weeks ago I wrote about the roles of space in creative contexts, from art galleries to music to language to conversation. Space is a building block for rhythm., I wrote. This morning, I decided to write a blog post that was entirely space. I thought of the blog post as a place where you don’t have to read or do anything; where you can take a moment just for yourself. This piece takes on a new meaning when considered in the contex…",
     "published_at": "2026-08-05T00:00:00Z",
     "updated_at": "2026-08-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1001,22 +1014,9 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/05/museums-2",
-    "title": "Museums",
-    "url": "https://jamesg.blog/2026/08/05/museums-2",
-    "summary": "Earlier this week I was thinking about inspiration – what inspires me to write? Nature, friends, what I see in the world as I walk around – all these are the basis of many of my blog posts. Museums, too, inspire me, both to think and to create. When I am in a museum, I can get lost in an artwork, ebbing between the beauty of a piece and then, afterwards, studying the work – what can I see, what do I see. Whenever I spent time in galleries, I lose track of time. Half an hour can pass as if …",
-    "published_at": "2026-08-05T00:00:00Z",
-    "updated_at": "2026-08-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/05/space-making-2",
-    "title": "Space-making",
-    "url": "https://jamesg.blog/2026/08/05/space-making-2",
-    "summary": "Space ⁂ ⁂ ⁂ Space (making) ⁂ ⁂ ⁂ Space-making. A few weeks ago I wrote about the roles of space in creative contexts, from art galleries to music to language to conversation. Space is a building block for rhythm., I wrote. This morning, I decided to write a blog post that was entirely space. I thought of the blog post as a place where you don’t have to read or do anything; where you can take a moment just for yourself. This piece takes on a new meaning when considered in the contex…",
+    "id": "https://jamesg.blog/2026/08/05/space-2",
+    "title": "Space",
+    "url": "https://jamesg.blog/2026/08/05/space-2",
     "published_at": "2026-08-05T00:00:00Z",
     "updated_at": "2026-08-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1047,10 +1047,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/04/raindrops",
-    "title": "Raindrops",
-    "url": "https://jamesg.blog/2026/08/04/raindrops",
-    "summary": "Raindrops cascade from the skies in straight lines, watering the ground left dry after July. Since the rain started falling again, the plant outside has been growing well. Will it blossom again this year? Can plants blossom twice in one year? I hope to see the pink petals again, but, if nothing else, I have the memories of its colours from earlier in the season. I went for a walk earlier today, before the rain began. I admired the puddles as I walked; collections of water after a dry season. I w…",
+    "id": "https://jamesg.blog/2026/08/04/www-13",
+    "title": "Wonders of Web Weaving, Episode 13",
+    "url": "https://jamesg.blog/2026/08/04/www-13",
+    "summary": "The thirteenth episode of Wonders of Web Weaving is out: In Episode 13, I chat with Sophia, the author of Fractal Kitty about, among other things, making interactive web pages about mathematics, the intersection of art, words, and math, the math blogging community, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
     "published_at": "2026-08-04T00:00:00Z",
     "updated_at": "2026-08-04T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1059,10 +1059,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/04/evening",
-    "title": "Evening",
-    "url": "https://jamesg.blog/2026/08/04/evening",
-    "summary": "What if the musical memories of songs last played months ago were not held in the muscles, but in the heart – the passion coming through with every E that follows C? The occasional B, played at just the right moment, adds depth. I love the moment of getting into a song: when the notes flow and you’re enjoying the music – the moments when nothing seems to matter but the note you hear, and what note you are going to play next. I like to try playing new notes to see if they work; maybe they d…",
+    "id": "https://jamesg.blog/2026/08/04/raindrops",
+    "title": "Raindrops",
+    "url": "https://jamesg.blog/2026/08/04/raindrops",
+    "summary": "Raindrops cascade from the skies in straight lines, watering the ground left dry after July. Since the rain started falling again, the plant outside has been growing well. Will it blossom again this year? Can plants blossom twice in one year? I hope to see the pink petals again, but, if nothing else, I have the memories of its colours from earlier in the season. I went for a walk earlier today, before the rain began. I admired the puddles as I walked; collections of water after a dry season. I w…",
     "published_at": "2026-08-04T00:00:00Z",
     "updated_at": "2026-08-04T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1083,10 +1083,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/04/www-13",
-    "title": "Wonders of Web Weaving, Episode 13",
-    "url": "https://jamesg.blog/2026/08/04/www-13",
-    "summary": "The thirteenth episode of Wonders of Web Weaving is out: In Episode 13, I chat with Sophia, the author of Fractal Kitty about, among other things, making interactive web pages about mathematics, the intersection of art, words, and math, the math blogging community, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
+    "id": "https://jamesg.blog/2026/08/04/evening",
+    "title": "Evening",
+    "url": "https://jamesg.blog/2026/08/04/evening",
+    "summary": "What if the musical memories of songs last played months ago were not held in the muscles, but in the heart – the passion coming through with every E that follows C? The occasional B, played at just the right moment, adds depth. I love the moment of getting into a song: when the notes flow and you’re enjoying the music – the moments when nothing seems to matter but the note you hear, and what note you are going to play next. I like to try playing new notes to see if they work; maybe they d…",
     "published_at": "2026-08-04T00:00:00Z",
     "updated_at": "2026-08-04T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1117,29 +1117,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/03/midnight",
-    "title": "Midnight",
-    "url": "https://jamesg.blog/2026/08/03/midnight",
-    "summary": "The voice of the romantic midnight harkens; its calm tones echo through the day with the help of words. Is midnight romantic? I have been thinking about moments between: the transitions from one state to another. Yesterday, as I left the cafe from which I had purchased a coffee, I noticed how the sounds of the cafe receded into the background with every step I took, as the sounds of Nature and all that was around in my new environment took over. The echoes of new orders – lattes; morning fuels…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "updated_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://abhamra.com/book_reviews/einstein-godel/",
-    "title": "When Einstein Walked With Gödel: Excursions to the Edge of Thought",
-    "url": "https://abhamra.com/book_reviews/einstein-godel/",
-    "summary": "Written by Jim Holt My musings on this shall be brief, I'd wager. First, I want to thank Daniel Huang for recommending this book to me, it was a pretty fun read! It goes over a series of essays and stories wherein Jim Holt collates curious chronicles of central chaps in the world of math, the sciences, and technology. There were lots of fun tidbits, some challenging of the status quo with regards to stories about certain eminently famous figures, and a lot of dry wit that I personally gelled wit…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
-    "site_url": ""
-  },
-  {
     "id": "https://abhamra.com/book_reviews/longitude/",
     "title": "Longitude",
     "url": "https://abhamra.com/book_reviews/longitude/",
@@ -1151,10 +1128,45 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/08/03/am",
+    "title": "am",
+    "url": "https://jamesg.blog/2026/08/03/am",
+    "summary": "The shortest words — the most weight: I, a, (e)m.",
+    "published_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/08/03/the-met",
+    "title": "The Met",
+    "url": "https://jamesg.blog/2026/08/03/the-met",
+    "summary": "I close my eyes and see the Great Hall. This is where they host the Met Gala! I can’t help but think about that when I stand and watch as tourists congregate, ask for information, and walk around to get to the exhibits they want to see. There are at least three ways you can enter the main galleries: by walking forward, past the information desk, towards the decorative arts, sculpture, and more (or, if you take the stairs, to see European Art, photography; or by going left and right, each takin…",
+    "published_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://abhamra.com/book_reviews/7-days-art/",
     "title": "7 Days in the Art World",
     "url": "https://abhamra.com/book_reviews/7-days-art/",
     "summary": "Written by Sarah Thornton This was the first book about art that I'd properly read in years, and I have it to thank for kickstarting an interest in both art and the art of critiquing art (lol). The culture surrounding the art world is a curious one, whether you're at an auction like Christie's or la Biennale di Venizia (Venice Biennale), or even at a crit at CalArts, and learning about the art world through these seven days proved rather eye opening for me. In particular, I think I understood be…",
+    "published_at": "2026-08-03T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
+    "id": "https://abhamra.com/book_reviews/einstein-godel/",
+    "title": "When Einstein Walked With Gödel: Excursions to the Edge of Thought",
+    "url": "https://abhamra.com/book_reviews/einstein-godel/",
+    "summary": "Written by Jim Holt My musings on this shall be brief, I'd wager. First, I want to thank Daniel Huang for recommending this book to me, it was a pretty fun read! It goes over a series of essays and stories wherein Jim Holt collates curious chronicles of central chaps in the world of math, the sciences, and technology. There were lots of fun tidbits, some challenging of the status quo with regards to stories about certain eminently famous figures, and a lot of dry wit that I personally gelled wit…",
     "published_at": "2026-08-03T00:00:00Z",
     "feed_url": "https://abhamra.com/rss.xml",
     "feed_title": "asb's corner",
@@ -1173,22 +1185,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/08/03/the-met",
-    "title": "The Met",
-    "url": "https://jamesg.blog/2026/08/03/the-met",
-    "summary": "I close my eyes and see the Great Hall. This is where they host the Met Gala! I can’t help but think about that when I stand and watch as tourists congregate, ask for information, and walk around to get to the exhibits they want to see. There are at least three ways you can enter the main galleries: by walking forward, past the information desk, towards the decorative arts, sculpture, and more (or, if you take the stairs, to see European Art, photography; or by going left and right, each takin…",
-    "published_at": "2026-08-03T00:00:00Z",
-    "updated_at": "2026-08-03T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/08/03/am",
-    "title": "am",
-    "url": "https://jamesg.blog/2026/08/03/am",
-    "summary": "The shortest words — the most weight: I, a, (e)m.",
+    "id": "https://jamesg.blog/2026/08/03/midnight",
+    "title": "Midnight",
+    "url": "https://jamesg.blog/2026/08/03/midnight",
+    "summary": "The voice of the romantic midnight harkens; its calm tones echo through the day with the help of words. Is midnight romantic? I have been thinking about moments between: the transitions from one state to another. Yesterday, as I left the cafe from which I had purchased a coffee, I noticed how the sounds of the cafe receded into the background with every step I took, as the sounds of Nature and all that was around in my new environment took over. The echoes of new orders – lattes; morning fuels…",
     "published_at": "2026-08-03T00:00:00Z",
     "updated_at": "2026-08-03T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -1499,10 +1499,10 @@
     "site_url": ""
   },
   {
-    "id": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
-    "title": "Yeah, 16% of people are reading. We're cooked.",
-    "url": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
-    "summary": "According to this piece, reading rates in America have collapsed - fewer than half of adults read a book in 2022 (which - eh - I feel like this is hard to assess), daily pleasure reading fell from 28% to 16% (which is both real and wild; if reading is dead then folks are going to be just told what to think) across (and this hurts me to repeat) every age, gender, and education level , even as total words consumed explode via texts, posts, and feeds. Reading built and freed the modern mind (logic,…",
+    "id": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
+    "title": "Erin's giving apps a meaningful story",
+    "url": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
+    "summary": "Erin Kissane is launching \"Cloud Atlas\" — an interview-based guide to the apps and projects emerging on the AT Protocol/Atmosphere, intended to make decentralized social media infrastructure more legible to people interested in alternatives to centralized platforms. This is something I haven't seen done from the outside — developers of these apps and services tend to be their own marketing departments and PR teams but this isn't (solely) that . The human texture and qualitative specificity o…",
     "published_at": "2026-07-31T12:30:00Z",
     "updated_at": "2026-07-31T12:30:00Z",
     "feed_url": "https://www.jacky.wtf/links/feed.atom",
@@ -1511,10 +1511,10 @@
     "site_url": ""
   },
   {
-    "id": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
-    "title": "Erin's giving apps a meaningful story",
-    "url": "https://www.jacky.wtf/links/2026/Jul/cloud-atlas/",
-    "summary": "Erin Kissane is launching \"Cloud Atlas\" — an interview-based guide to the apps and projects emerging on the AT Protocol/Atmosphere, intended to make decentralized social media infrastructure more legible to people interested in alternatives to centralized platforms. This is something I haven't seen done from the outside — developers of these apps and services tend to be their own marketing departments and PR teams but this isn't (solely) that . The human texture and qualitative specificity o…",
+    "id": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
+    "title": "Yeah, 16% of people are reading. We're cooked.",
+    "url": "https://www.jacky.wtf/links/2026/Jul/end-of-reading/",
+    "summary": "According to this piece, reading rates in America have collapsed - fewer than half of adults read a book in 2022 (which - eh - I feel like this is hard to assess), daily pleasure reading fell from 28% to 16% (which is both real and wild; if reading is dead then folks are going to be just told what to think) across (and this hurts me to repeat) every age, gender, and education level , even as total words consumed explode via texts, posts, and feeds. Reading built and freed the modern mind (logic,…",
     "published_at": "2026-07-31T12:30:00Z",
     "updated_at": "2026-07-31T12:30:00Z",
     "feed_url": "https://www.jacky.wtf/links/feed.atom",
@@ -1545,6 +1545,30 @@
     "site_url": ""
   },
   {
+    "id": "https://timharek.no/blog/2026-july-recently/",
+    "title": "July 2026",
+    "url": "https://timharek.no/blog/2026-july-recently/",
+    "summary": "It’s now just two more days until I go back to work after a fantastic three-week summer vacation. I want at least three more! Anyway, it’s the end of the month, this is what happened! From the blog since my last recently post: Kaizen #4: Overhauled homelab 🍀 Life Three weeks of vacation is wrapping up, and it must be one of my most productive summers yet. Just before the vacation started, I began working on extending the fence around the house, by drilling huge 30 mm holes into the concre…",
+    "published_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-07-31T00:00:00Z",
+    "feed_url": "https://timharek.no/feed.xml",
+    "feed_title": "Tim Hårek",
+    "owner_username": "timharek",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/31/of-day-2",
+    "title": "Of Day",
+    "url": "https://jamesg.blog/2026/07/31/of-day-2",
+    "summary": "I hear the birds singing as I sit by the window and look out on the horizon. I like looking at all the colours of the sky in the moments after sunset, when ambers recede and the sky becomes ever more blue before night time. I hear the sound of my fingers typing on my keyboard, too: nature and words are my evening. Nature and words are my evening, and so too is music. Moments ago I was playing on the piano, two songs I love but haven’t played in as long as I can remember. And one more song that…",
+    "published_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-07-31T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
     "title": "Encoding DVDs with OpenBSD and Handbrake",
     "url": "https://www.lifewaza.com/posts/encoding-dvds-with-openbsd-and-handbrake/",
@@ -1565,30 +1589,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/31/of-day-2",
-    "title": "Of Day",
-    "url": "https://jamesg.blog/2026/07/31/of-day-2",
-    "summary": "I hear the birds singing as I sit by the window and look out on the horizon. I like looking at all the colours of the sky in the moments after sunset, when ambers recede and the sky becomes ever more blue before night time. I hear the sound of my fingers typing on my keyboard, too: nature and words are my evening. Nature and words are my evening, and so too is music. Moments ago I was playing on the piano, two songs I love but haven’t played in as long as I can remember. And one more song that…",
-    "published_at": "2026-07-31T00:00:00Z",
-    "updated_at": "2026-07-31T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://timharek.no/blog/2026-july-recently/",
-    "title": "July 2026",
-    "url": "https://timharek.no/blog/2026-july-recently/",
-    "summary": "It’s now just two more days until I go back to work after a fantastic three-week summer vacation. I want at least three more! Anyway, it’s the end of the month, this is what happened! From the blog since my last recently post: Kaizen #4: Overhauled homelab 🍀 Life Three weeks of vacation is wrapping up, and it must be one of my most productive summers yet. Just before the vacation started, I began working on extending the fence around the house, by drilling huge 30 mm holes into the concre…",
-    "published_at": "2026-07-31T00:00:00Z",
-    "updated_at": "2026-07-31T00:00:00Z",
-    "feed_url": "https://timharek.no/feed.xml",
-    "feed_title": "Tim Hårek",
-    "owner_username": "timharek",
     "site_url": ""
   },
   {
@@ -1636,6 +1636,18 @@
     "site_url": ""
   },
   {
+    "id": "https://jamesg.blog/2026/07/30/the-writers-mind",
+    "title": "the writer’s mind",
+    "url": "https://jamesg.blog/2026/07/30/the-writers-mind",
+    "summary": "making notes and reviewing quotes, collected from day and night: here, there are stories. i revel in observing, and in place- making. where am i? how do i feel? what does this mean to me? i think of the melody of words their cadence and shape and tense and from all, i feel:. from words, wonder; with words, wonder.",
+    "published_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-30T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/30/new-2",
     "title": "new",
     "url": "https://jamesg.blog/2026/07/30/new-2",
@@ -1656,18 +1668,6 @@
     "feed_url": "https://vgel.me/feed.xml",
     "feed_title": "Theia Vogel's website \u0026 blog",
     "owner_username": "vgel",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/30/the-writers-mind",
-    "title": "the writer’s mind",
-    "url": "https://jamesg.blog/2026/07/30/the-writers-mind",
-    "summary": "making notes and reviewing quotes, collected from day and night: here, there are stories. i revel in observing, and in place- making. where am i? how do i feel? what does this mean to me? i think of the melody of words their cadence and shape and tense and from all, i feel:. from words, wonder; with words, wonder.",
-    "published_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-07-30T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -1694,6 +1694,17 @@
     "site_url": ""
   },
   {
+    "id": "https://arne.me/library/die-assistentin",
+    "title": "Ich las Die Assistentin von Caroline Wahl",
+    "url": "https://arne.me/library/die-assistentin",
+    "summary": "Ich las Die Assistentin von Caroline Wahl",
+    "published_at": "2026-07-29T00:00:00Z",
+    "feed_url": "https://arne.me/library/feed.xml",
+    "feed_title": "Arne Bahlo’s Book Reviews",
+    "owner_username": "bahlo",
+    "site_url": ""
+  },
+  {
     "id": "https://www.philipzucker.com/bdd_term_alg_effects",
     "title": "Finite Algebraic Effects as dicts and such",
     "url": "https://www.philipzucker.com/bdd_term_alg_effects/",
@@ -1703,17 +1714,6 @@
     "feed_url": "https://www.philipzucker.com/feed.xml",
     "feed_title": "Hey There Buddo!",
     "owner_username": "philzook",
-    "site_url": ""
-  },
-  {
-    "id": "https://arne.me/library/die-assistentin",
-    "title": "Ich las Die Assistentin von Caroline Wahl",
-    "url": "https://arne.me/library/die-assistentin",
-    "summary": "Ich las Die Assistentin von Caroline Wahl",
-    "published_at": "2026-07-29T00:00:00Z",
-    "feed_url": "https://arne.me/library/feed.xml",
-    "feed_title": "Arne Bahlo’s Book Reviews",
-    "owner_username": "bahlo",
     "site_url": ""
   },
   {
@@ -1817,6 +1817,17 @@
     "site_url": ""
   },
   {
+    "id": "https://abhamra.com/blog/immutability/",
+    "title": "Immutability",
+    "url": "https://abhamra.com/blog/immutability/",
+    "summary": "let nani_house = \"The doors open, and it is basically all the same. The speaker as you enter is the same, a slow, dimpled white dome capping a dish shaped structure on a tripod. We blasted all the coolest songs back then. The sofas, chairs, and tables on the right are the same, the girl playing guitar in charcoal opposite the TV is the same. Some of the tables’ books are the same, and most of the pictures on the shelf are too, although a picture of my mother I don't remember seems to have ente…",
+    "published_at": "2026-07-27T00:00:00Z",
+    "feed_url": "https://abhamra.com/rss.xml",
+    "feed_title": "asb's corner",
+    "owner_username": "aphaelion",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/27/blogs-websites-and-identity",
     "title": "Blogs, websites, and identity",
     "url": "https://jamesg.blog/2026/07/27/blogs-websites-and-identity",
@@ -1826,17 +1837,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://abhamra.com/blog/immutability/",
-    "title": "Immutability",
-    "url": "https://abhamra.com/blog/immutability/",
-    "summary": "let nani_house = \"The doors open, and it is basically all the same. The speaker as you enter is the same, a slow, dimpled white dome capping a dish shaped structure on a tripod. We blasted all the coolest songs back then. The sofas, chairs, and tables on the right are the same, the girl playing guitar in charcoal opposite the TV is the same. Some of the tables’ books are the same, and most of the pictures on the shelf are too, although a picture of my mother I don't remember seems to have ente…",
-    "published_at": "2026-07-27T00:00:00Z",
-    "feed_url": "https://abhamra.com/rss.xml",
-    "feed_title": "asb's corner",
-    "owner_username": "aphaelion",
     "site_url": ""
   },
   {
@@ -1895,6 +1895,17 @@
     "site_url": ""
   },
   {
+    "id": "https://polsevev.dev/blog/minirack_nas_part2/",
+    "title": "Minirack NAS Part 2",
+    "url": "https://polsevev.dev/blog/minirack_nas_part2/",
+    "summary": "Software and other stuff",
+    "published_at": "2026-07-26T00:00:00Z",
+    "feed_url": "https://polsevev.dev/rss.xml",
+    "feed_title": "polsevev.dev",
+    "owner_username": "polsevev",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/26/bookshelves",
     "title": "Bookshelves",
     "url": "https://jamesg.blog/2026/07/26/bookshelves",
@@ -1904,17 +1915,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://polsevev.dev/blog/minirack_nas_part2/",
-    "title": "Minirack NAS Part 2",
-    "url": "https://polsevev.dev/blog/minirack_nas_part2/",
-    "summary": "Software and other stuff",
-    "published_at": "2026-07-26T00:00:00Z",
-    "feed_url": "https://polsevev.dev/rss.xml",
-    "feed_title": "polsevev.dev",
-    "owner_username": "polsevev",
     "site_url": ""
   },
   {
@@ -2087,15 +2087,15 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/21/www-11",
-    "title": "Wonders of Web Weaving, Episode 11",
-    "url": "https://jamesg.blog/2026/07/21/www-11",
-    "summary": "The eleventh episode of Wonders of Web Weaving is out: In Episode 11, I chat with flaMEd, the author of flamedfury.com about, among other things, web communities around games and television shows, sharing music interests with a personal website, community in the indie web, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
+    "id": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
+    "title": "No central server, only BitTorrent",
+    "url": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
+    "summary": "BEP 44 - store 1000 bytes on the BitTorrent distributed hash table",
     "published_at": "2026-07-21T00:00:00Z",
     "updated_at": "2026-07-21T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "with words, wonder",
-    "owner_username": "capjamesg",
+    "feed_url": "https://www.ScannedInAvian.com/atom.xml",
+    "feed_title": "shapr's RSS feed",
+    "owner_username": "shapr",
     "site_url": ""
   },
   {
@@ -2110,15 +2110,15 @@
     "site_url": ""
   },
   {
-    "id": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
-    "title": "No central server, only BitTorrent",
-    "url": "https://www.scannedinavian.com/no-central-server-only-bittorrent.html",
-    "summary": "BEP 44 - store 1000 bytes on the BitTorrent distributed hash table",
+    "id": "https://jamesg.blog/2026/07/21/www-11",
+    "title": "Wonders of Web Weaving, Episode 11",
+    "url": "https://jamesg.blog/2026/07/21/www-11",
+    "summary": "The eleventh episode of Wonders of Web Weaving is out: In Episode 11, I chat with flaMEd, the author of flamedfury.com about, among other things, web communities around games and television shows, sharing music interests with a personal website, community in the indie web, and more. I hope you enjoy the episode! Wonders of Web Weaving also has an RSS feed you can use to follow along from wherever you get your podcasts.",
     "published_at": "2026-07-21T00:00:00Z",
     "updated_at": "2026-07-21T00:00:00Z",
-    "feed_url": "https://www.ScannedInAvian.com/atom.xml",
-    "feed_title": "shapr's RSS feed",
-    "owner_username": "shapr",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "with words, wonder",
+    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -2201,6 +2201,17 @@
     "site_url": ""
   },
   {
+    "id": "https://mitchellkember.com/crafts/copper-ridge-sock",
+    "title": "[Crafts] Copper Ridge Sock",
+    "url": "https://mitchellkember.com/crafts/copper-ridge-sock",
+    "summary": "View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…",
+    "published_at": "2026-07-19T00:00:00Z",
+    "feed_url": "https://mitchellkember.com/feed",
+    "feed_title": "Mitchell Kember",
+    "owner_username": "mk12",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/19/of-day",
     "title": "Of Day",
     "url": "https://jamesg.blog/2026/07/19/of-day",
@@ -2210,17 +2221,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://mitchellkember.com/crafts/copper-ridge-sock",
-    "title": "[Crafts] Copper Ridge Sock",
-    "url": "https://mitchellkember.com/crafts/copper-ridge-sock",
-    "summary": "View on Ravelry Pattern : my own Yarn : Patons Kroy Socks Colorway : Copper Colors Started : 3 July 2026 Finished : 19 July 2026 For these socks I made ridges by purling every fourth round. I thought it would be fun to try a horizontal texture like this, instead of the more usual vertical ribbbing. I did 62 sts as a compromise between my recent 60-stitch socks (which are a bit too snug) and my older 64-stitch socks (which seem perfect at first, but then stretch out too much). I forgot about deal…",
-    "published_at": "2026-07-19T00:00:00Z",
-    "feed_url": "https://mitchellkember.com/feed",
-    "feed_title": "Mitchell Kember",
-    "owner_username": "mk12",
     "site_url": ""
   },
   {
@@ -2246,17 +2246,6 @@
     "site_url": ""
   },
   {
-    "id": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
-    "title": "Software and AI - Plotting vs. Pantsing",
-    "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
-    "summary": "An alt take on why some like or dislike AI",
-    "published_at": "2026-07-18T00:00:00Z",
-    "feed_url": "https://pyjarrett.github.io/rss.xml",
-    "feed_title": "pyj's blog",
-    "owner_username": "pyj",
-    "site_url": ""
-  },
-  {
     "id": "https://jordivillar.com/notes/back-to-coffee/",
     "title": "Back to coffee",
     "url": "https://jordivillar.com/blog/back-to-coffee/",
@@ -2265,6 +2254,17 @@
     "feed_url": "https://jordivillar.com/rss.xml",
     "feed_title": "Jordi Villar",
     "owner_username": "jordi",
+    "site_url": ""
+  },
+  {
+    "id": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
+    "title": "Software and AI - Plotting vs. Pantsing",
+    "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
+    "summary": "An alt take on why some like or dislike AI",
+    "published_at": "2026-07-18T00:00:00Z",
+    "feed_url": "https://pyjarrett.github.io/rss.xml",
+    "feed_title": "pyj's blog",
+    "owner_username": "pyj",
     "site_url": ""
   },
   {
@@ -2301,6 +2301,17 @@
     "site_url": ""
   },
   {
+    "id": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
+    "title": "What I'm Changing After A Year Of Blogging",
+    "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
+    "summary": "Writing for the world is something which has ebbed and flowed for me over time. I’ve always liked sharing my thoughts, starting with websites all the way back when I was a kid. In times when I sustained it, I had various “blog”-like things for technical projects which would often veer into sharing personal beliefs as well. It’s been a year since my latest attempt at what I expect to be a lifelong endeavor. So I’ve been reflecting on how it’s gone, and that’s led me to make some dec…",
+    "published_at": "2026-07-17T00:00:00Z",
+    "feed_url": "https://lalitm.com/index.xml",
+    "feed_title": "Lalit Maganti",
+    "owner_username": "lalitm",
+    "site_url": ""
+  },
+  {
     "id": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
     "title": "Adding anchor links to my category pages",
     "url": "https://jamesg.blog/2026/07/17/category-page-anchor-links",
@@ -2310,17 +2321,6 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
-    "title": "What I'm Changing After A Year Of Blogging",
-    "url": "https://lalitm.com/post/what-i-m-changing-after-a-year-of-blogging/",
-    "summary": "Writing for the world is something which has ebbed and flowed for me over time. I’ve always liked sharing my thoughts, starting with websites all the way back when I was a kid. In times when I sustained it, I had various “blog”-like things for technical projects which would often veer into sharing personal beliefs as well. It’s been a year since my latest attempt at what I expect to be a lifelong endeavor. So I’ve been reflecting on how it’s gone, and that’s led me to make some dec…",
-    "published_at": "2026-07-17T00:00:00Z",
-    "feed_url": "https://lalitm.com/index.xml",
-    "feed_title": "Lalit Maganti",
-    "owner_username": "lalitm",
     "site_url": ""
   },
   {
@@ -2369,10 +2369,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/16/website-superpowers",
-    "title": "Website superpowers",
-    "url": "https://jamesg.blog/2026/07/16/website-superpowers",
-    "summary": "At Homebrew Website Club this week, Thomas mentioned the term “tag healing” during a discussion about tags. The definition I caught was that tag healing is related to reviewing and, if necessary, consolidating, tags used for blog posts or documents. Someone said that “tag healing” sounded like a superpower, which inspired me to ask: if you could have a website-related super power, what would it be? At first, I wanted my superpower to be instant recall of all the URLs on my website, such …",
+    "id": "https://jamesg.blog/2026/07/16/indieweb-asia-pacific",
+    "title": "Re: An IndieWeb Event for Southeast Asia / Pacific Time Zones",
+    "url": "https://jamesg.blog/2026/07/16/indieweb-asia-pacific",
+    "summary": "Naty is hosting a new Homebrew Website Club event on Wednesday, August 5, 2026, at 5:30pm to 7:00pm Hong Kong Time (UTC+8). If there is interest, the event may turn become regular! If the time works for you and you love chatting about websites, I recommend checking out the event. Homebrew Website Clubs are always fun, providing a place to chat about what people are building on their websites, the culture of the web, HTML/CSS, writing on the web, and more. This event adds to several other online …",
     "published_at": "2026-07-16T00:00:00Z",
     "updated_at": "2026-07-16T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2381,10 +2381,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/16/indieweb-asia-pacific",
-    "title": "Re: An IndieWeb Event for Southeast Asia / Pacific Time Zones",
-    "url": "https://jamesg.blog/2026/07/16/indieweb-asia-pacific",
-    "summary": "Naty is hosting a new Homebrew Website Club event on Wednesday, August 5, 2026, at 5:30pm to 7:00pm Hong Kong Time (UTC+8). If there is interest, the event may turn become regular! If the time works for you and you love chatting about websites, I recommend checking out the event. Homebrew Website Clubs are always fun, providing a place to chat about what people are building on their websites, the culture of the web, HTML/CSS, writing on the web, and more. This event adds to several other online …",
+    "id": "https://jamesg.blog/2026/07/16/website-superpowers",
+    "title": "Website superpowers",
+    "url": "https://jamesg.blog/2026/07/16/website-superpowers",
+    "summary": "At Homebrew Website Club this week, Thomas mentioned the term “tag healing” during a discussion about tags. The definition I caught was that tag healing is related to reviewing and, if necessary, consolidating, tags used for blog posts or documents. Someone said that “tag healing” sounded like a superpower, which inspired me to ask: if you could have a website-related super power, what would it be? At first, I wanted my superpower to be instant recall of all the URLs on my website, such …",
     "published_at": "2026-07-16T00:00:00Z",
     "updated_at": "2026-07-16T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2437,17 +2437,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jo3-l.dev/posts/llms-and-swe/",
-    "title": "Perspectives on LLM-assisted development",
-    "url": "https://jo3-l.dev/posts/llms-and-swe/",
-    "summary": "Articles and posts about LLM-assisted development that I found interesting and are not slop, plus some of my opinions",
-    "published_at": "2026-07-14T00:00:00Z",
-    "feed_url": "https://jo3-l.dev/index.xml",
-    "feed_title": "Joe's Blog",
-    "owner_username": "jo3_l",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/14/space-rhythm",
     "title": "Space",
     "url": "https://jamesg.blog/2026/07/14/space-rhythm",
@@ -2481,6 +2470,17 @@
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
     "feed_title": "with words, wonder",
     "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jo3-l.dev/posts/llms-and-swe/",
+    "title": "Perspectives on LLM-assisted development",
+    "url": "https://jo3-l.dev/posts/llms-and-swe/",
+    "summary": "Articles and posts about LLM-assisted development that I found interesting and are not slop, plus some of my opinions",
+    "published_at": "2026-07-14T00:00:00Z",
+    "feed_url": "https://jo3-l.dev/index.xml",
+    "feed_title": "Joe's Blog",
+    "owner_username": "jo3_l",
     "site_url": ""
   },
   {
@@ -2606,32 +2606,10 @@
     "site_url": ""
   },
   {
-    "id": "https://inkdroid.org/2026/07/12/bookmarks/",
-    "title": "Bookmarks - web, localfirst, llm, protocol",
-    "url": "https://inkdroid.org/2026/07/12/bookmarks/",
-    "summary": "These are some things I’ve wandered across on the web this week. 🔖 UNHCR’s future is at risk – and so is its past UNHCR’s archives are not just dusty shelves of internal paperwork. Within around 10 kilometres of shelving lie official records, file notes, testimonies and images dating back to UNHCR’s creation in 1950, documenting global displacement from the aftermath of the Second World War through the Cold War and decolonization to today’s conflicts and climate-driven crises. Alo…",
-    "published_at": "2026-07-12T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": ""
-  },
-  {
-    "id": "https://inkdroid.org/2026/07/12/armillary-sphere/",
-    "title": "Armillary Sphere",
-    "url": "https://inkdroid.org/2026/07/12/armillary-sphere/",
-    "summary": "Armillary Sphere at the Museo Galileo",
-    "published_at": "2026-07-12T04:00:00Z",
-    "feed_url": "https://inkdroid.org/feed.xml",
-    "feed_title": "inkdroid",
-    "owner_username": "edsu",
-    "site_url": ""
-  },
-  {
-    "id": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
-    "title": "Apartment buzzer with camera",
-    "url": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
-    "summary": "Apartment buzzer with camera",
+    "id": "https://inkdroid.org/2026/07/12/clouds-over-florence/",
+    "title": "Clouds over Florence",
+    "url": "https://inkdroid.org/2026/07/12/clouds-over-florence/",
+    "summary": "Clouds over Florence",
     "published_at": "2026-07-12T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2650,10 +2628,21 @@
     "site_url": ""
   },
   {
-    "id": "https://inkdroid.org/2026/07/12/clouds-over-florence/",
-    "title": "Clouds over Florence",
-    "url": "https://inkdroid.org/2026/07/12/clouds-over-florence/",
-    "summary": "Clouds over Florence",
+    "id": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
+    "title": "Apartment buzzer with camera",
+    "url": "https://inkdroid.org/2026/07/12/apartment-buzzer-with-camera/",
+    "summary": "Apartment buzzer with camera",
+    "published_at": "2026-07-12T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": ""
+  },
+  {
+    "id": "https://inkdroid.org/2026/07/12/armillary-sphere/",
+    "title": "Armillary Sphere",
+    "url": "https://inkdroid.org/2026/07/12/armillary-sphere/",
+    "summary": "Armillary Sphere at the Museo Galileo",
     "published_at": "2026-07-12T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2665,6 +2654,17 @@
     "title": "Tindaro Screpolato",
     "url": "https://inkdroid.org/2026/07/12/tindaro-screpolato/",
     "summary": "Tindaro Screpolato In the Boboli Gardens, Florence",
+    "published_at": "2026-07-12T04:00:00Z",
+    "feed_url": "https://inkdroid.org/feed.xml",
+    "feed_title": "inkdroid",
+    "owner_username": "edsu",
+    "site_url": ""
+  },
+  {
+    "id": "https://inkdroid.org/2026/07/12/bookmarks/",
+    "title": "Bookmarks - web, localfirst, llm, protocol",
+    "url": "https://inkdroid.org/2026/07/12/bookmarks/",
+    "summary": "These are some things I’ve wandered across on the web this week. 🔖 UNHCR’s future is at risk – and so is its past UNHCR’s archives are not just dusty shelves of internal paperwork. Within around 10 kilometres of shelving lie official records, file notes, testimonies and images dating back to UNHCR’s creation in 1950, documenting global displacement from the aftermath of the Second World War through the Cold War and decolonization to today’s conflicts and climate-driven crises. Alo…",
     "published_at": "2026-07-12T04:00:00Z",
     "feed_url": "https://inkdroid.org/feed.xml",
     "feed_title": "inkdroid",
@@ -2718,10 +2718,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/11/winter",
-    "title": "Winter",
-    "url": "https://jamesg.blog/2026/07/11/winter",
-    "summary": "Speaking of trains, I tell a story of Winter to my friend, of the train that stopped in the village station on an evening so cold my fellow passengers and I could see our breaths. The local pub offered refuge to all those who wanted to sit in the warmth. I wanted to feel a bit more of the cold – to see my breath; to feel all the parts of me. Anxiety warms the cold, too. Reflecting on the story of Winter, in the cold, there was nothing but warmth. My hands were likely almost immovable, frozen b…",
+    "id": "https://jamesg.blog/2026/07/11/reflection",
+    "title": "Reflection",
+    "url": "https://jamesg.blog/2026/07/11/reflection",
+    "summary": "Outside one of my childhood bedrooms there was a tree, a single tree. I see the tree vividly in my mind, and remember tracking it as the seasons changed – watching out for the first blossom, followed by the maturity of the leaves, then again by their browning as summer became autumn and autumn became winter. I saw the seasons while I lived them. In the moment I didn't think anything of the allure of the tree – why did the tree matter so much to me? Was it because there was only one tree that…",
     "published_at": "2026-07-11T00:00:00Z",
     "updated_at": "2026-07-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2742,10 +2742,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/11/reflection",
-    "title": "Reflection",
-    "url": "https://jamesg.blog/2026/07/11/reflection",
-    "summary": "Outside one of my childhood bedrooms there was a tree, a single tree. I see the tree vividly in my mind, and remember tracking it as the seasons changed – watching out for the first blossom, followed by the maturity of the leaves, then again by their browning as summer became autumn and autumn became winter. I saw the seasons while I lived them. In the moment I didn't think anything of the allure of the tree – why did the tree matter so much to me? Was it because there was only one tree that…",
+    "id": "https://jamesg.blog/2026/07/11/winter",
+    "title": "Winter",
+    "url": "https://jamesg.blog/2026/07/11/winter",
+    "summary": "Speaking of trains, I tell a story of Winter to my friend, of the train that stopped in the village station on an evening so cold my fellow passengers and I could see our breaths. The local pub offered refuge to all those who wanted to sit in the warmth. I wanted to feel a bit more of the cold – to see my breath; to feel all the parts of me. Anxiety warms the cold, too. Reflecting on the story of Winter, in the cold, there was nothing but warmth. My hands were likely almost immovable, frozen b…",
     "published_at": "2026-07-11T00:00:00Z",
     "updated_at": "2026-07-11T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2777,30 +2777,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/10/gardens",
-    "title": "Gardens",
-    "url": "https://jamesg.blog/2026/07/10/gardens",
-    "summary": "A pink symmetry on the peaceful pond catches my eye. “It’s a lotus!” I have made lotuses with paper before, but cannot remember the last time I saw one (have I noticed one before in the way I did today?). The vivid colours are striking: pink petals define the shape of the flower, with a yellow centre. “I can see why Monet painted lotuses and lily pads,” I said. Their beauty caught my eye at first sight. Around, there is a lotus emerging from green leaves. I wonder when it will bloom. A…",
-    "published_at": "2026-07-10T00:00:00Z",
-    "updated_at": "2026-07-10T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.philipzucker.com/thin_term",
-    "title": "Lifting Terms: Making Well Scoped Syntax Dumber",
-    "url": "https://www.philipzucker.com/thin_term/",
-    "summary": "I have been writing posts about Lifting Egraphs video as an intriguing way of adding variables and scope into an egraph. But pulling back a little, I can see that the simpler thing to talk about first is lifting terms.",
-    "published_at": "2026-07-10T00:00:00Z",
-    "updated_at": "2026-07-10T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": ""
-  },
-  {
     "id": "https://abhamra.com/blog/dont-want-to-be-optimal/",
     "title": "I don't want to be optimal",
     "url": "https://abhamra.com/blog/dont-want-to-be-optimal/",
@@ -2820,6 +2796,30 @@
     "feed_url": "https://bernat.tech/index.xml",
     "feed_title": "Bernát Gábor — Python packaging, tox, virtualenv \u0026 open source",
     "owner_username": "gaborjbernat",
+    "site_url": ""
+  },
+  {
+    "id": "https://www.philipzucker.com/thin_term",
+    "title": "Lifting Terms: Making Well Scoped Syntax Dumber",
+    "url": "https://www.philipzucker.com/thin_term/",
+    "summary": "I have been writing posts about Lifting Egraphs video as an intriguing way of adding variables and scope into an egraph. But pulling back a little, I can see that the simpler thing to talk about first is lifting terms.",
+    "published_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-10T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/10/gardens",
+    "title": "Gardens",
+    "url": "https://jamesg.blog/2026/07/10/gardens",
+    "summary": "A pink symmetry on the peaceful pond catches my eye. “It’s a lotus!” I have made lotuses with paper before, but cannot remember the last time I saw one (have I noticed one before in the way I did today?). The vivid colours are striking: pink petals define the shape of the flower, with a yellow centre. “I can see why Monet painted lotuses and lily pads,” I said. Their beauty caught my eye at first sight. Around, there is a lotus emerging from green leaves. I wonder when it will bloom. A…",
+    "published_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-10T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
     "site_url": ""
   },
   {
@@ -2845,10 +2845,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/09/music-at-sunset",
-    "title": "Sunset; music",
-    "url": "https://jamesg.blog/2026/07/09/music-at-sunset",
-    "summary": "The horizon is bathed in orange and a faint pink hue as the hills in the middle distance turn blue with the haze of the summer’s evening. Light white clouds are scattered across the sky. Looking at the clouds, I see art; looking around at the hills and fields I see art, too. I think of the colour Turner used in his paintings. How many times did he look to the sky to find what colour to use? How do I find the words to describe what I see and create an impression in your eye? The orange glow on …",
+    "id": "https://jamesg.blog/2026/07/09/nature-walking",
+    "title": "Nature",
+    "url": "https://jamesg.blog/2026/07/09/nature-walking",
+    "summary": "Breathe in. Breathe out. Standing in the fresh warm summer’s air, I found my breath slowing, and deepening. I wandered as I transitioned from the feeling of indoors to the Nature of outdoors. Trees and bushes and the light sounds of Nature accompany me as I put one foot forward in front of another. The fresh smell of Nature in the air permeates the air on the quiet country path. I hear a calm rustle in the leaves. A bird is quietly walking through the grass, in search of food. Families are out…",
     "published_at": "2026-07-09T00:00:00Z",
     "updated_at": "2026-07-09T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -2869,10 +2869,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/09/nature-walking",
-    "title": "Nature",
-    "url": "https://jamesg.blog/2026/07/09/nature-walking",
-    "summary": "Breathe in. Breathe out. Standing in the fresh warm summer’s air, I found my breath slowing, and deepening. I wandered as I transitioned from the feeling of indoors to the Nature of outdoors. Trees and bushes and the light sounds of Nature accompany me as I put one foot forward in front of another. The fresh smell of Nature in the air permeates the air on the quiet country path. I hear a calm rustle in the leaves. A bird is quietly walking through the grass, in search of food. Families are out…",
+    "id": "https://jamesg.blog/2026/07/09/music-at-sunset",
+    "title": "Sunset; music",
+    "url": "https://jamesg.blog/2026/07/09/music-at-sunset",
+    "summary": "The horizon is bathed in orange and a faint pink hue as the hills in the middle distance turn blue with the haze of the summer’s evening. Light white clouds are scattered across the sky. Looking at the clouds, I see art; looking around at the hills and fields I see art, too. I think of the colour Turner used in his paintings. How many times did he look to the sky to find what colour to use? How do I find the words to describe what I see and create an impression in your eye? The orange glow on …",
     "published_at": "2026-07-09T00:00:00Z",
     "updated_at": "2026-07-09T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3048,10 +3048,34 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/a-week-in-nurnberg",
-    "title": "A week in Nürnberg",
-    "url": "https://jamesg.blog/2026/07/05/a-week-in-nurnberg",
-    "summary": "James’ Coffee Blog has been on a bit of a break while I went on holiday to Nürnberg, Germany. I set off last Friday and returned the Friday after, during which time I attended an IndieWebCamp, an in-person Homebrew Website Club at Technische Hochschule Nürnberg, and spent many hours exploring museums, coffee shops, and, of course, eating delicious ice cream and gelato (why does Nürnberg have so many gelato shops?). My trip was anchored around the IndieWeb events. The IndieWebCamp was hosted…",
+    "id": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
+    "title": "IndieWebCamp Nürnberg 2026",
+    "url": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
+    "summary": "All of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. ALTAll of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. Last weekend I attended IndieWebCamp in Nürnberg, Germany, hosted at the wonderful Tollwerk offices. The two-day event was par…",
+    "published_at": "2026-07-05T00:00:00Z",
+    "updated_at": "2026-07-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/05/forest",
+    "title": "Forest",
+    "url": "https://jamesg.blog/2026/07/05/forest",
+    "summary": "You look up from your bed of grass flowers, opening your eyes to see the layers of branches grown by the trees in the grove that surrounds you. The blue sky peeks through the gaps between the leaves. The sunlight that shines through and onto the leaves and branches leaves you with the feeling that, right now, today is both a new day and an aging day. Is it morning or evening? The air is warm, heavy; there is no relief from the heat except for the distraction that comes from your wandering mind. …",
+    "published_at": "2026-07-05T00:00:00Z",
+    "updated_at": "2026-07-05T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
+    "title": "How do I know the system is working?",
+    "url": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
+    "summary": "A few weeks ago, I received a bug report for Artemis that indicated a user’s reader was not being updated as expected. This error was caused by a feed that caused the polling code to error out and stop. My code assumed a value was present and, if it wasn’t, the program would stop running. To understand this bug, you need to know how Artemis retrieves feeds. Artemis polls feeds once per hour. A feed is only polled if there is at least one user for whom it is midnight in their time zone. This …",
     "published_at": "2026-07-05T00:00:00Z",
     "updated_at": "2026-07-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3084,10 +3108,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/forest",
-    "title": "Forest",
-    "url": "https://jamesg.blog/2026/07/05/forest",
-    "summary": "You look up from your bed of grass flowers, opening your eyes to see the layers of branches grown by the trees in the grove that surrounds you. The blue sky peeks through the gaps between the leaves. The sunlight that shines through and onto the leaves and branches leaves you with the feeling that, right now, today is both a new day and an aging day. Is it morning or evening? The air is warm, heavy; there is no relief from the heat except for the distraction that comes from your wandering mind. …",
+    "id": "https://jamesg.blog/2026/07/05/star",
+    "title": "Star",
+    "url": "https://jamesg.blog/2026/07/05/star",
+    "summary": "First star — in the sky next to the tall Gothic monument in the town square, a square with many outdoor restaurants — people laugh and take pictures, eat ice cream, stroll, enjoy the moment. I love watching the world. Of seeing colours and tenors and of hearing sounds that you can only appreciate when out in the world — the sound of a bike breaking in the cobblestone, manoeuvring with ease through the town square. Written in Hauptmarkt, Nürnberg.",
     "published_at": "2026-07-05T00:00:00Z",
     "updated_at": "2026-07-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3108,30 +3132,6 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
-    "title": "IndieWebCamp Nürnberg 2026",
-    "url": "https://jamesg.blog/2026/07/05/indiewebcamp-nurnberg-2026",
-    "summary": "All of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. ALTAll of the participants of IndieWebCamp Nürnberg, lined up in three rows, one row behind the other. I am in the middle of the back row, wearing my green and grey microformats t-shirt. Last weekend I attended IndieWebCamp in Nürnberg, Germany, hosted at the wonderful Tollwerk offices. The two-day event was par…",
-    "published_at": "2026-07-05T00:00:00Z",
-    "updated_at": "2026-07-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
-    "title": "How do I know the system is working?",
-    "url": "https://jamesg.blog/2026/07/05/how-do-i-know-the-system-is-working",
-    "summary": "A few weeks ago, I received a bug report for Artemis that indicated a user’s reader was not being updated as expected. This error was caused by a feed that caused the polling code to error out and stop. My code assumed a value was present and, if it wasn’t, the program would stop running. To understand this bug, you need to know how Artemis retrieves feeds. Artemis polls feeds once per hour. A feed is only polled if there is at least one user for whom it is midnight in their time zone. This …",
-    "published_at": "2026-07-05T00:00:00Z",
-    "updated_at": "2026-07-05T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
     "id": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
     "title": "Brainstorming a loginless web reader",
     "url": "https://jamesg.blog/2026/07/05/brainstorming-a-loginless-web-reader",
@@ -3144,10 +3144,10 @@
     "site_url": ""
   },
   {
-    "id": "https://jamesg.blog/2026/07/05/star",
-    "title": "Star",
-    "url": "https://jamesg.blog/2026/07/05/star",
-    "summary": "First star — in the sky next to the tall Gothic monument in the town square, a square with many outdoor restaurants — people laugh and take pictures, eat ice cream, stroll, enjoy the moment. I love watching the world. Of seeing colours and tenors and of hearing sounds that you can only appreciate when out in the world — the sound of a bike breaking in the cobblestone, manoeuvring with ease through the town square. Written in Hauptmarkt, Nürnberg.",
+    "id": "https://jamesg.blog/2026/07/05/a-week-in-nurnberg",
+    "title": "A week in Nürnberg",
+    "url": "https://jamesg.blog/2026/07/05/a-week-in-nurnberg",
+    "summary": "James’ Coffee Blog has been on a bit of a break while I went on holiday to Nürnberg, Germany. I set off last Friday and returned the Friday after, during which time I attended an IndieWebCamp, an in-person Homebrew Website Club at Technische Hochschule Nürnberg, and spent many hours exploring museums, coffee shops, and, of course, eating delicious ice cream and gelato (why does Nürnberg have so many gelato shops?). My trip was anchored around the IndieWeb events. The IndieWebCamp was hosted…",
     "published_at": "2026-07-05T00:00:00Z",
     "updated_at": "2026-07-05T00:00:00Z",
     "feed_url": "https://jamesg.blog/feeds/posts.xml",
@@ -3164,6 +3164,30 @@
     "feed_url": "https://www.splitbrain.org/feed/blog",
     "feed_title": "splitbrain.org - blog",
     "owner_username": "splitbrain",
+    "site_url": ""
+  },
+  {
+    "id": "https://jamesg.blog/2026/07/04/small-wishes-ii",
+    "title": "Small wishes, II",
+    "url": "https://jamesg.blog/2026/07/04/small-wishes-ii",
+    "summary": "June 21st, 2026 — After my coffee, a thought came to mind: I hope that one day I can see the countryside from a double-decker bus. It’s a small wish. It may never happen but I hold onto the thought any way. I stood at the bus terminal today thinking that it was only a few weeks ago I had wished to go on a double decker bus. Today, it happened: a most delightful surprise. I arrived at the bus early enough that I had my pick of seats. I sat on the top deck in the front seat, where I had almost…",
+    "published_at": "2026-07-04T00:00:00Z",
+    "updated_at": "2026-07-04T00:00:00Z",
+    "feed_url": "https://jamesg.blog/feeds/posts.xml",
+    "feed_title": "James' Coffee Blog",
+    "owner_username": "capjamesg",
+    "site_url": ""
+  },
+  {
+    "id": "https://kai.dev/posts/learn-core-gnu-utilities/",
+    "title": "Learn Core GNU Utilities",
+    "url": "https://kai.dev/posts/learn-core-gnu-utilities/",
+    "summary": "I believe that there are some things you just have to learn and memorize through repetition, and no shortcuts will help. One of those things is GNU Coreutils , a collection of standard shell commands that we all use every day. Do any of these commands look familiar to you? I'd bet most do: cat , chmod , cp , echo , ls , mv , pwd , rm , sort , touch , and many more. The coreutils collection/branding is 20+ years old, but the individual utitilies are 40+ years old. They have withstood the test of …",
+    "published_at": "2026-07-04T00:00:00Z",
+    "updated_at": "2026-07-04T00:00:00Z",
+    "feed_url": "https://kai.dev/atom.xml",
+    "feed_title": "kai.dev",
+    "owner_username": "kai",
     "site_url": ""
   },
   {
@@ -3191,42 +3215,6 @@
     "site_url": "https://jamesg.blog"
   },
   {
-    "id": "https://kai.dev/posts/learn-core-gnu-utilities/",
-    "title": "Learn Core GNU Utilities",
-    "url": "https://kai.dev/posts/learn-core-gnu-utilities/",
-    "summary": "I believe that there are some things you just have to learn and memorize through repetition, and no shortcuts will help. One of those things is GNU Coreutils , a collection of standard shell commands that we all use every day. Do any of these commands look familiar to you? I'd bet most do: cat , chmod , cp , echo , ls , mv , pwd , rm , sort , touch , and many more. The coreutils collection/branding is 20+ years old, but the individual utitilies are 40+ years old. They have withstood the test of …",
-    "published_at": "2026-07-04T00:00:00Z",
-    "updated_at": "2026-07-04T00:00:00Z",
-    "feed_url": "https://kai.dev/atom.xml",
-    "feed_title": "kai.dev",
-    "owner_username": "kai",
-    "site_url": ""
-  },
-  {
-    "id": "https://jamesg.blog/2026/07/04/small-wishes-ii",
-    "title": "Small wishes, II",
-    "url": "https://jamesg.blog/2026/07/04/small-wishes-ii",
-    "summary": "June 21st, 2026 — After my coffee, a thought came to mind: I hope that one day I can see the countryside from a double-decker bus. It’s a small wish. It may never happen but I hold onto the thought any way. I stood at the bus terminal today thinking that it was only a few weeks ago I had wished to go on a double decker bus. Today, it happened: a most delightful surprise. I arrived at the bus early enough that I had my pick of seats. I sat on the top deck in the front seat, where I had almost…",
-    "published_at": "2026-07-04T00:00:00Z",
-    "updated_at": "2026-07-04T00:00:00Z",
-    "feed_url": "https://jamesg.blog/feeds/posts.xml",
-    "feed_title": "James' Coffee Blog",
-    "owner_username": "capjamesg",
-    "site_url": ""
-  },
-  {
-    "id": "https://www.philipzucker.com/toa_unionfind",
-    "title": "A Theory of Arrays (ToA) Union Find",
-    "url": "https://www.philipzucker.com/toa_unionfind/",
-    "summary": "One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.",
-    "published_at": "2026-07-03T00:00:00Z",
-    "updated_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://www.philipzucker.com/feed.xml",
-    "feed_title": "Hey There Buddo!",
-    "owner_username": "philzook",
-    "site_url": ""
-  },
-  {
     "id": "https://theorangeone.net/posts/process-name-observability/",
     "title": "Process names: The forgotten Observability channel",
     "url": "https://theorangeone.net/posts/process-name-observability/?utm_medium=rss\u0026utm_source=feed-all",
@@ -3235,6 +3223,17 @@
     "feed_url": "https://theorangeone.net/feeds/all/",
     "feed_title": "Feed :: TheOrangeOne",
     "owner_username": "theorangeone",
+    "site_url": ""
+  },
+  {
+    "id": "https://runxiyu.org/x509/",
+    "title": "X.509 certificates",
+    "url": "https://runxiyu.org/x509/",
+    "summary": "For document signatures and such, run this (only when you fully understand the command): s=\"$(mktemp)\" cat \u003e \"$s\" \u003c\u003c EOF -----BEGIN CERTIFICATE----- MIIBzjCCAXSgAwIBAgIUaHmeGPiA6P9Uma8qBTFZKDzeAMkwCgYIKoZIzj0EAwIw GzEZMBcGA1UEAwwQUnVueGkgWXUgUm9vdCBDQTAeFw0yNjA3MDMxNjE1MDRaFw0y ODEwMDUxNjE1MDRaMDIxETAPBgNVBAMMCFJ1bnhpIFl1MR0wGwYJKoZIhvcNAQkB Fg5tZUBydW54aXl1Lm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPWVIU7B w8nikZuu5TNoOwLNjK2XGFejxEqFYZPn0hihlT3a5rCKbLj79UPBMRFvrETioJK8 GsHOYhXokz/NsAmjfzB9MAwGA1…",
+    "published_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://runxiyu.org/index.xml",
+    "feed_title": "Runxi Yu on Runxi Yu’s Website",
+    "owner_username": "runxiyu",
     "site_url": ""
   },
   {
@@ -3250,14 +3249,15 @@
     "site_url": ""
   },
   {
-    "id": "https://runxiyu.org/x509/",
-    "title": "X.509 certificates",
-    "url": "https://runxiyu.org/x509/",
-    "summary": "For document signatures and such, run this (only when you fully understand the command): s=\"$(mktemp)\" cat \u003e \"$s\" \u003c\u003c EOF -----BEGIN CERTIFICATE----- MIIBzjCCAXSgAwIBAgIUaHmeGPiA6P9Uma8qBTFZKDzeAMkwCgYIKoZIzj0EAwIw GzEZMBcGA1UEAwwQUnVueGkgWXUgUm9vdCBDQTAeFw0yNjA3MDMxNjE1MDRaFw0y ODEwMDUxNjE1MDRaMDIxETAPBgNVBAMMCFJ1bnhpIFl1MR0wGwYJKoZIhvcNAQkB Fg5tZUBydW54aXl1Lm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPWVIU7B w8nikZuu5TNoOwLNjK2XGFejxEqFYZPn0hihlT3a5rCKbLj79UPBMRFvrETioJK8 GsHOYhXokz/NsAmjfzB9MAwGA1…",
+    "id": "https://www.philipzucker.com/toa_unionfind",
+    "title": "A Theory of Arrays (ToA) Union Find",
+    "url": "https://www.philipzucker.com/toa_unionfind/",
+    "summary": "One thing I’ve been discussing with Rudi, Michel and Max is union find annotations. Union find enhancements that still feel like union finds.",
     "published_at": "2026-07-03T00:00:00Z",
-    "feed_url": "https://runxiyu.org/index.xml",
-    "feed_title": "Runxi Yu on Runxi Yu’s Website",
-    "owner_username": "runxiyu",
+    "updated_at": "2026-07-03T00:00:00Z",
+    "feed_url": "https://www.philipzucker.com/feed.xml",
+    "feed_title": "Hey There Buddo!",
+    "owner_username": "philzook",
     "site_url": ""
   },
   {
