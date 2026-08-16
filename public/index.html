@@ -23,7 +23,7 @@
   <main>
     <section class="page-title">
       <h1>Latest posts</h1>
-      <p>300 recent entries from 1 discovered personal sites. Last built 16 Aug 2026, 07:30 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
+      <p>300 recent entries from 1 discovered personal sites. Last built 16 Aug 2026, 13:46 UTC. <a href="/feed.xml">RSS</a> · <a href="/posts/">All posts</a> · <a href="/users/">Users</a></p>
     </section>
 
 
@@ -32,6 +32,12 @@
       <a href="/posts/">All posts</a>
     </section>
     <div class="entries compact-feed">
+      
+        <article class="entry">
+          <p class="meta">16 Aug 2026 · <a href="/users/edsu/">edsu</a> · inkdroid</p>
+          <h3><a href="https://inkdroid.org/2026/08/16/bookmarks/">Bookmarks - harvard, labor, philosophy, archive</a></h3>
+          <p>These are some things I’ve wandered across on the web this week. 🔖 Illich at 100 We’re spreading a rumour. Over the first weekend in September, 2026, there will be local gatherings around dinner tables and picnic blankets and in convivial spaces of different kinds, in places around the world, to mark what would have been the 100th birthday of Ivan Illich. Whether you’re a newcomer to Illich’s work, a long-time reader or anywhere in between, you are warmly invited to be part of this. C…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">15 Aug 2026 · <a href="/users/lalitm/">lalitm</a> · Lalit Maganti</p>
@@ -46,9 +52,15 @@
         </article>
       
         <article class="entry">
-          <p class="meta">15 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/15/surf-by-stanley-cursiter">Surf by Stanley Cursiter</a></h3>
-          <p>The National Gallery of Scotland has a temporary exhibition of Stanley Cursiter’s artwork going on at the moment. Cursiter was both an artist and keeper (which I understand to be like a curator), later director, of the National Gallery of Scotland. The exhibition, in one of the side rooms to the main hall, is filled with a selection of works throughout his career. Walking through the room, I was surprised and delighted by the range of his works. I liked his “Synthesis of the Supper Room at a…</p>
+          <p class="meta">15 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h3><a href="https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html">Benchmarks Are Free Now</a></h3>
+          <p>My previous post walked through four bugs in ruby-enum , a gem I maintain, all stemming from the fact that class-level instance variables aren’t inherited by subclasses. The third fix, #59 , made keys , key? , value? , key , value , to_h , parse and each walk up superclass and merge in a parent’s enums, so a subclass would see everything its ancestors defined. It was correct, fully tested, and shipped. It also made every one of those methods roughly 5x slower on any subclass. def _enum_hash …</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">15 Aug 2026 · <a href="/users/dmitrygr/">dmitrygr</a> · Dmitry.GR</p>
+          <h3><a href="https://dmitry.gr/?r=06.%20Thoughts&amp;proj=12.%20VR">TODO</a></h3>
+          <p>TODO summary</p>
         </article>
       
         <article class="entry">
@@ -64,15 +76,9 @@
         </article>
       
         <article class="entry">
-          <p class="meta">15 Aug 2026 · <a href="/users/dmitrygr/">dmitrygr</a> · Dmitry.GR</p>
-          <h3><a href="https://dmitry.gr/?r=06.%20Thoughts&amp;proj=12.%20VR">TODO</a></h3>
-          <p>TODO summary</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">15 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
-          <h3><a href="https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html">Benchmarks Are Free Now</a></h3>
-          <p>My previous post walked through four bugs in ruby-enum , a gem I maintain, all stemming from the fact that class-level instance variables aren’t inherited by subclasses. The third fix, #59 , made keys , key? , value? , key , value , to_h , parse and each walk up superclass and merge in a parent’s enums, so a subclass would see everything its ancestors defined. It was correct, fully tested, and shipped. It also made every one of those methods roughly 5x slower on any subclass. def _enum_hash …</p>
+          <p class="meta">15 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/15/surf-by-stanley-cursiter">Surf by Stanley Cursiter</a></h3>
+          <p>The National Gallery of Scotland has a temporary exhibition of Stanley Cursiter’s artwork going on at the moment. Cursiter was both an artist and keeper (which I understand to be like a curator), later director, of the National Gallery of Scotland. The exhibition, in one of the side rooms to the main hall, is filled with a selection of works throughout his career. Walking through the room, I was surprised and delighted by the range of his works. I liked his “Synthesis of the Supper Room at a…</p>
         </article>
       
         <article class="entry">
@@ -100,15 +106,21 @@
         </article>
       
         <article class="entry">
-          <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/paper">paper</a></h3>
-          <p>to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.</p>
+          <p class="meta">14 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
+          <h3><a href="https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html">Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)</a></h3>
+          <p>The ruby-enum gem is a small library I maintain that adds enum-like behavior to a class via include Ruby::Enum and define :KEY, value . Four pull requests landed against it recently, each fixing a different symptom, and all four turned out to be the same underlying bug: class-level instance variables set in a module’s included hook are not inherited by subclasses the way you might expect. All of these fixes shipped in ruby-enum 1.2.0 . Ruby::Enum stores its keys and values in instance variable…</p>
         </article>
       
         <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/edgar">Edgar</a></h3>
-          <p>Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/autumn-2">Autumn</a></h3>
+          <p>While walking earlier today, I noticed a few tall trees in the distance were starting to turn yellow. One tree in particular stands out to me; one changing faster than others, adding a new hue to the once all-green canopy of trees. I look around and start to notice the first signs of yellowing on other trees, too – the ends of branches tinted with the colour of the next season; leaf-shaped reminders that, with time, summer becomes autumn; green becomes yellow and red and brown as we cycle thro…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/paper">paper</a></h3>
+          <p>to feel the boundaries of the paper loneliness hopes blankness fullness peripheries texture colour; within its edges: frames of beginnings.</p>
         </article>
       
         <article class="entry">
@@ -119,8 +131,8 @@
       
         <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/questions-ii">questions, ii</a></h3>
-          <p>(what if) home pages (were, are) ever-changing poems(?)</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/edgar">Edgar</a></h3>
+          <p>Wearing a distinguished red scarf, the fluffy librarian sits atop a shelf of books. Of the stacks and stacks of stories and tales resting beneath, he knows all. Edgar is a quiet, soft fellow — content contemplating closer to the clouds. He could recite any poem from Dickinson — or paint a portrait of the quietest, fullest Japanese coffee shop. Instead, he sits patiently, waiting for the moment when you reach out, asking “what should I read today?” With a smile always on his face, and wit…</p>
         </article>
       
         <article class="entry">
@@ -131,14 +143,8 @@
       
         <article class="entry">
           <p class="meta">14 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/14/autumn-2">Autumn</a></h3>
-          <p>While walking earlier today, I noticed a few tall trees in the distance were starting to turn yellow. One tree in particular stands out to me; one changing faster than others, adding a new hue to the once all-green canopy of trees. I look around and start to notice the first signs of yellowing on other trees, too – the ends of branches tinted with the colour of the next season; leaf-shaped reminders that, with time, summer becomes autumn; green becomes yellow and red and brown as we cycle thro…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">14 Aug 2026 · <a href="/users/dblock/">dblock</a> · code.dblock.org | tech blog</p>
-          <h3><a href="https://code.dblock.org/2026/08/14/instance-variables-are-not-inherited-and-why-that-breaks-your-dsl.html">Ruby Instance Variables Are Not Inherited (and Why That Breaks Your DSL)</a></h3>
-          <p>The ruby-enum gem is a small library I maintain that adds enum-like behavior to a class via include Ruby::Enum and define :KEY, value . Four pull requests landed against it recently, each fixing a different symptom, and all four turned out to be the same underlying bug: class-level instance variables set in a module’s included hook are not inherited by subclasses the way you might expect. All of these fixes shipped in ruby-enum 1.2.0 . Ruby::Enum stores its keys and values in instance variable…</p>
+          <h3><a href="https://jamesg.blog/2026/08/14/questions-ii">questions, ii</a></h3>
+          <p>(what if) home pages (were, are) ever-changing poems(?)</p>
         </article>
       
         <article class="entry">
@@ -149,20 +155,8 @@
       
         <article class="entry">
           <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#beauty">Beautiful Things</a></h3>
-          <p>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
           <h3><a href="https://jbaber.sdf.org/#PAO">Person - Action - Object</a></h3>
           <p>Person - Action - Object 2014-03-23 My person-action-object (PAO) system using major system words exclusively. Some are a stretch, but it&#39;s a very easy system to learn with the major system crutch. Note: Animals make great objects. I like to distinguish 03 and 3, so I&#39;ve actually got 110 triplets. My real personal list replaces many celebrity and generic names with friends: I suggest you do likewise. Suggestions for simpler replacements are more than welcome. Having the triplets be striking them…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#Computers">Computers</a></h3>
-          <p>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</p>
         </article>
       
         <article class="entry">
@@ -173,8 +167,32 @@
       
         <article class="entry">
           <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
+          <h3><a href="https://jbaber.sdf.org/#beauty">Beautiful Things</a></h3>
+          <p>Beautiful Things 2008-01-07 The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself. Henry Miller perspective Steampunk Datamancer Steam Punk Workshop Língua Portuguesa vi Spiders Evolution Biological Stellar Geological Smoke curling Liquid crowning Clouds Intricate Machinery Steam toys Engines Carburetors Typewriters Typewriters The Virtual Typewriter Museum The Human Body Celtic knotting Radial Symmet…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
           <h3><a href="https://jbaber.sdf.org/#alfred_e">Alfred E. Neuman quotes up to 2005</a></h3>
           <p>Alfred E. Neuman quotes up to 2005 2008-01-05 Fa, fa, fa. Alfred E. Neuman Show me a trunk murderer, and I&#39;ll show you a sloppy packer. (Issue 038) Bars are something which if you go into too many of, you&#39;re apt to come out singing a few of, and maybe land behind some! (Issue 039) It takes 12,000 workers to put a bottle of milk on your doorstep, and at 4 A.M. in the morning, it sounds like it. (Issue 040) There are more important things in life than money... but they won&#39;t go out with you if you…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
+          <h3><a href="https://jbaber.sdf.org/#Computers">Computers</a></h3>
+          <p>Computers 2007-05-22 The city&#39;s central computer told you?! R2D2, you know better than to trust a strange computer! C3P0 When I teach math to students who want to use calculators or argue with people who like voting by touchscreen, I always find myself trying to explain why you should be careful trusting machines too much. Even though they make very few mistakes of their own, human error/corruption is always present. I just remembered the best, simple demonstration of this principle: short compu…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/13/sunset-2">Sunset</a></h3>
+          <p>I was just in time to catch the moment when the sun started to recede behind the hills in the distance, a moment in which two birds flew together and danced into the night, in which there were the last flickers of the golden glow of Evening thinking through the window, in which I looked to see the colours of the rest of the sky and, when looking back, realise the sun has now set; its brilliant yellow glow becoming cooler with every passing minute. I looked to the clouds and saw the shape of a gi…</p>
+        </article>
+      
+        <article class="entry">
+          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
+          <h3><a href="https://jamesg.blog/2026/08/13/afterglow">Afterglow</a></h3>
+          <p>Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…</p>
         </article>
       
         <article class="entry">
@@ -190,27 +208,9 @@
         </article>
       
         <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/13/breath">breath</a></h3>
-          <p>first breaths, outdoors: in, out. calm.</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#wishlist">Wishlist</a></h3>
-          <p>Wishlist And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous. Exodus 23:8 I have been unable to think of any polite way to tell this to people directly, so I&#39;m going to say it on my webpage. I have enough stuff. If you want to purchase a present for me, please donate as much as you would spend on me to one of the following charities. A $5.00 donation means so much more to me than a $50.00 gift certificate. Of course if you want to make me a pizz…</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/jbaber/">jbaber</a> · John Baber-Lucero</p>
-          <h3><a href="https://jbaber.sdf.org/#laarni">Laarni</a></h3>
-          <p>Laarni Marital status: Married (to John ) Eye color: Brown Hair color: Black</p>
-        </article>
-      
-        <article class="entry">
-          <p class="meta">13 Aug 2026 · <a href="/users/capjamesg/">capjamesg</a> · with words, wonder</p>
-          <h3><a href="https://jamesg.blog/2026/08/13/afterglow">Afterglow</a></h3>
-          <p>Is this what “afterglow” means? The question came to me as I looked up at the sky twenty minutes or so after sunset. There is a faint orange colour on the horizon where the sun was. The colour grows paler away from the hills; the sky is now mostly blue, the top of the sky darkening while the horizon is slightly white, painted with lines of light and lightdark grey clouds; two dark clouds appear to the right of the horizon, surrounded by the red of the afterglow. I knew the word “afterglow,…</p>
+          <p class="meta">13 Aug 2026 · <a href="/users/mtlynch/">mtlynch</a> · mtlynch.io</p>
+          <h3><a href="https://mtlynch.io/retrospectives/2026/08/">Refactoring English: Month 20</a></h3>
+          <p>New here? Hi, I’m Michael. I’m a software developer and founder of small, indie tech businesses. I’m currently working on a book called Refactoring English: Effective Writing for Software Developers . Every month, I publish a retrospective like this one to share how things are going with my book and my professional life overall. Highlights July’s book sales tripled the already-strong sales I saw in June. I’m fighting the world’s dumbest scraper bot. I’m using AI to make a multiplay…</p>
         </article>
       
     </div>
