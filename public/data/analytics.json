@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T07:47:13.862929691Z",
+  "generated_at": "2026-08-17T13:48:59.750487735Z",
   "overview": {
-    "users": 20635,
-    "crawled_profiles": 6900,
+    "users": 20638,
+    "crawled_profiles": 6925,
     "homepages": 1,
     "users_with_feeds": 238,
-    "feeds": 62,
-    "feeds_with_posts": 62,
+    "feeds": 60,
+    "feeds_with_posts": 60,
     "entries": 300
   },
   "oldest_users": [
@@ -74,9 +74,9 @@
       "feed_url": "https://jamesg.blog/feeds/posts.xml",
       "feed_title": "James' Coffee Blog",
       "owner_username": "capjamesg",
-      "site_url": "https://jamesg.blog",
-      "entries": 83,
-      "latest_at": "2026-08-16T00:00:00Z"
+      "site_url": "",
+      "entries": 84,
+      "latest_at": "2026-08-17T00:00:00Z"
     },
     {
       "feed_url": "https://www.jvt.me/feed.xml",
@@ -127,12 +127,12 @@
       "latest_at": "2026-08-13T01:06:25Z"
     },
     {
-      "feed_url": "https://lalitm.com/index.xml",
-      "feed_title": "Lalit Maganti",
-      "owner_username": "lalitm",
+      "feed_url": "https://jordivillar.com/rss.xml",
+      "feed_title": "Jordi Villar",
+      "owner_username": "jordi",
       "site_url": "",
       "entries": 8,
-      "latest_at": "2026-08-15T19:31:41Z"
+      "latest_at": "2026-08-17T07:55:37Z"
     },
     {
       "feed_url": "https://hpjansson.org/blag/comments/feed/",
@@ -143,12 +143,20 @@
       "latest_at": "2026-08-11T16:06:22Z"
     },
     {
-      "feed_url": "https://jordivillar.com/rss.xml",
-      "feed_title": "Jordi Villar",
-      "owner_username": "jordi",
+      "feed_url": "https://lalitm.com/index.xml",
+      "feed_title": "Lalit Maganti",
+      "owner_username": "lalitm",
       "site_url": "",
       "entries": 7,
-      "latest_at": "2026-08-14T16:00:00Z"
+      "latest_at": "2026-08-15T19:31:41Z"
+    },
+    {
+      "feed_url": "https://octet-stream.net/feed",
+      "feed_title": "Serious Computer Business",
+      "owner_username": "thombles",
+      "site_url": "",
+      "entries": 6,
+      "latest_at": "2026-08-17T07:43:38Z"
     },
     {
       "feed_url": "https://nolanlawson.com/comments/feed/",
@@ -173,14 +181,6 @@
       "site_url": "",
       "entries": 5,
       "latest_at": "2026-08-09T18:00:00Z"
-    },
-    {
-      "feed_url": "https://octet-stream.net/feed",
-      "feed_title": "Serious Computer Business",
-      "owner_username": "thombles",
-      "site_url": "",
-      "entries": 5,
-      "latest_at": "2026-08-09T11:37:02Z"
     },
     {
       "feed_url": "https://jcs.org/notes/rss",
@@ -273,6 +273,30 @@
   ],
   "recent_sites": [
     {
+      "username": "jordi",
+      "site_url": "",
+      "feed_title": "Jordi Villar",
+      "latest_at": "2026-08-17T07:55:37Z",
+      "title": "2026W32",
+      "url": "https://jordivillar.com/reads/2026w32/"
+    },
+    {
+      "username": "thombles",
+      "site_url": "",
+      "feed_title": "Serious Computer Business",
+      "latest_at": "2026-08-17T07:43:38Z",
+      "title": "netwatcher v0.8.0 - the AI bugfix release",
+      "url": "https://octet-stream.net/b/scb/2026-08-17-netwatcher-0.8.0-the-ai-bugfix-release.html"
+    },
+    {
+      "username": "capjamesg",
+      "site_url": "",
+      "feed_title": "with words, wonder",
+      "latest_at": "2026-08-17T00:00:00Z",
+      "title": "I’m Old Fashioned by Ben Paterson",
+      "url": "https://jamesg.blog/2026/08/17/im-old-fashioned"
+    },
+    {
       "username": "JamieTanna",
       "site_url": "",
       "feed_title": "Jamie Tanna | Software Engineer",
@@ -303,14 +327,6 @@
       "latest_at": "2026-08-16T04:00:00Z",
       "title": "Bookmarks - harvard, labor, philosophy, archive",
       "url": "https://inkdroid.org/2026/08/16/bookmarks/"
-    },
-    {
-      "username": "capjamesg",
-      "site_url": "",
-      "feed_title": "with words, wonder",
-      "latest_at": "2026-08-16T00:00:00Z",
-      "title": "Inspiration from physical artefacts",
-      "url": "https://jamesg.blog/2026/08/16/inspiration-from-physical-artefacts"
     },
     {
       "username": "dmitrygr",
@@ -361,14 +377,6 @@
       "url": "https://abhamra.com/blog/retrospective-creative-writing-26/"
     },
     {
-      "username": "jordi",
-      "site_url": "",
-      "feed_title": "Jordi Villar",
-      "latest_at": "2026-08-14T16:00:00Z",
-      "title": "Write it down",
-      "url": "https://jordivillar.com/blog/write-it-down/"
-    },
-    {
       "username": "starbist",
       "site_url": "",
       "feed_title": "Blog of fearless web developer Silvestar Bistrović",
@@ -404,8 +412,8 @@
       "site_url": "",
       "feed_title": "John Baber-Lucero",
       "latest_at": "2026-08-13T01:06:25Z",
-      "title": "Beautiful Things",
-      "url": "https://jbaber.sdf.org/#beauty"
+      "title": "Computers",
+      "url": "https://jbaber.sdf.org/#Computers"
     },
     {
       "username": "mtlynch",
@@ -446,14 +454,6 @@
       "latest_at": "2026-08-09T17:56:25Z",
       "title": "Caller-specific coverage",
       "url": "https://nedbatchelder.com/blog/202608/callerspecific_coverage"
-    },
-    {
-      "username": "thombles",
-      "site_url": "",
-      "feed_title": "Serious Computer Business",
-      "latest_at": "2026-08-09T11:37:02Z",
-      "title": "WiFi HaLow on Phones",
-      "url": "https://octet-stream.net/b/scb/2026-08-09-wifi-halow-on-phones.html"
     },
     {
       "username": "liu",
