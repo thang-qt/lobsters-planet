@@ -34,7 +34,7 @@
         
         
         <div><dt>Profile checked</dt><dd>8 Aug 2026</dd></div>
-        <div><dt>Feed refreshed</dt><dd>17 Aug 2026</dd></div>
+        <div><dt>Feed refreshed</dt><dd>18 Aug 2026</dd></div>
       </dl>
       
     </section>
@@ -46,6 +46,12 @@
       </div>
     </section>
     <div class="entries">
+      
+        <article class="entry">
+          <p class="meta">17 Aug 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/pytorch-profiles-perfetto/">PyTorch profiles are going to look much better in Perfetto</a></h3>
+          <p>PyTorch profiles are going to look much better in the next release of Perfetto. Last time, I explained how PyTorch’s profiler emits events that overlap in ways that are technically forbidden by the Chrome JSON Trace Event spec. As a result, Perfetto used to drop these events on the floor. In the last release we stopped doing that, keeping all the events and merging the overlapping ones back together for display. Unfortunately, this fix is more of a workaround: in practice, the trace simply doe…</p>
+        </article>
       
         <article class="entry">
           <p class="meta">15 Aug 2026 · Lalit Maganti</p>
