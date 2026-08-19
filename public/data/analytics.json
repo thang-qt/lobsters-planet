@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T07:36:38.380958825Z",
+  "generated_at": "2026-08-19T13:53:37.61107125Z",
   "overview": {
-    "users": 20652,
-    "crawled_profiles": 7100,
+    "users": 20653,
+    "crawled_profiles": 7125,
     "homepages": 1,
     "users_with_feeds": 238,
     "feeds": 60,
@@ -75,7 +75,7 @@
       "feed_title": "James' Coffee Blog",
       "owner_username": "capjamesg",
       "site_url": "",
-      "entries": 80,
+      "entries": 79,
       "latest_at": "2026-08-18T00:00:00Z"
     },
     {
@@ -127,6 +127,14 @@
       "latest_at": "2026-08-13T01:06:25Z"
     },
     {
+      "feed_url": "https://lalitm.com/index.xml",
+      "feed_title": "Lalit Maganti",
+      "owner_username": "lalitm",
+      "site_url": "",
+      "entries": 9,
+      "latest_at": "2026-08-18T22:35:00Z"
+    },
+    {
       "feed_url": "https://hpjansson.org/blag/comments/feed/",
       "feed_title": "Comments for Et tu, Cthulhu",
       "owner_username": "hpj",
@@ -141,14 +149,6 @@
       "site_url": "",
       "entries": 8,
       "latest_at": "2026-08-17T07:55:37Z"
-    },
-    {
-      "feed_url": "https://lalitm.com/index.xml",
-      "feed_title": "Lalit Maganti",
-      "owner_username": "lalitm",
-      "site_url": "",
-      "entries": 8,
-      "latest_at": "2026-08-17T00:00:00Z"
     },
     {
       "feed_url": "https://octet-stream.net/feed",
@@ -273,6 +273,14 @@
   ],
   "recent_sites": [
     {
+      "username": "lalitm",
+      "site_url": "",
+      "feed_title": "Lalit Maganti",
+      "latest_at": "2026-08-18T22:35:00Z",
+      "title": "Opus 5 doesn't use em-dashes in code comments",
+      "url": "https://lalitm.com/post/code-comments-are-a-model-fingerprint/"
+    },
+    {
       "username": "christiano",
       "site_url": "",
       "feed_title": "Christiano Anderson",
@@ -293,8 +301,8 @@
       "site_url": "",
       "feed_title": "with words, wonder",
       "latest_at": "2026-08-18T00:00:00Z",
-      "title": "Movement",
-      "url": "https://jamesg.blog/2026/08/18/movement"
+      "title": "The Poet (Le poète) by Picasso",
+      "url": "https://jamesg.blog/2026/08/18/the-poet-le-poete-by-picasso"
     },
     {
       "username": "JamieTanna",
@@ -328,28 +336,20 @@
       "url": "https://octet-stream.net/b/scb/2026-08-17-netwatcher-0.8.0-the-ai-bugfix-release.html"
     },
     {
-      "username": "dmitrygr",
-      "site_url": "",
-      "feed_title": "Dmitry.GR",
-      "latest_at": "2026-08-17T00:00:00Z",
-      "title": "PokéWalker hacking",
-      "url": "https://dmitry.gr/?r=05.Projects\u0026proj=28.%20pokewalker"
-    },
-    {
-      "username": "lalitm",
-      "site_url": "",
-      "feed_title": "Lalit Maganti",
-      "latest_at": "2026-08-17T00:00:00Z",
-      "title": "PyTorch profiles are going to look much better in Perfetto",
-      "url": "https://lalitm.com/post/pytorch-profiles-perfetto/"
-    },
-    {
       "username": "mre",
       "site_url": "",
       "feed_title": "Matthias Endler",
       "latest_at": "2026-08-17T00:00:00Z",
       "title": "GitHub Was Never About the Source Code",
       "url": "https://endler.dev/2026/github-was-never-about-the-source-code/"
+    },
+    {
+      "username": "dmitrygr",
+      "site_url": "",
+      "feed_title": "Dmitry.GR",
+      "latest_at": "2026-08-17T00:00:00Z",
+      "title": "PokéWalker hacking",
+      "url": "https://dmitry.gr/?r=05.Projects\u0026proj=28.%20pokewalker"
     },
     {
       "username": "nolan",
@@ -443,8 +443,8 @@
       "site_url": "",
       "feed_title": "John Baber-Lucero",
       "latest_at": "2026-08-13T01:06:25Z",
-      "title": "Computers",
-      "url": "https://jbaber.sdf.org/#Computers"
+      "title": "Person - Action - Object",
+      "url": "https://jbaber.sdf.org/#PAO"
     },
     {
       "username": "mtlynch",

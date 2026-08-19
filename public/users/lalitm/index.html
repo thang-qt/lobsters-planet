@@ -48,6 +48,12 @@
     <div class="entries">
       
         <article class="entry">
+          <p class="meta">18 Aug 2026 · Lalit Maganti</p>
+          <h3><a href="https://lalitm.com/post/code-comments-are-a-model-fingerprint/">Opus 5 doesn&#39;t use em-dashes in code comments</a></h3>
+          <p>I’ve been using Opus 5 as my main coding for the last few days 1, and I noticed something odd: the code comments stopped using em-dashes; everything is double hyphens (--) now. Instead of going off a gut feeling, I decided to actually run some checks. agentsview indexes all my conversations into a SQLite database, so this kind of question is just a query away. Here’s the chart: Seems pretty clear to me! But you might say “maybe it’s not the model, maybe it’s something else”. Well act…</p>
+        </article>
+      
+        <article class="entry">
           <p class="meta">17 Aug 2026 · Lalit Maganti</p>
           <h3><a href="https://lalitm.com/post/pytorch-profiles-perfetto/">PyTorch profiles are going to look much better in Perfetto</a></h3>
           <p>PyTorch profiles are going to look much better in the next release of Perfetto. Last time, I explained how PyTorch’s profiler emits events that overlap in ways that are technically forbidden by the Chrome JSON Trace Event spec. As a result, Perfetto used to drop these events on the floor. In the last release we stopped doing that, keeping all the events and merging the overlapping ones back together for display. Unfortunately, this fix is more of a workaround: in practice, the trace simply doe…</p>
