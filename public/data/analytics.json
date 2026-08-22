@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T07:30:24.698910552Z",
+  "generated_at": "2026-08-22T13:44:08.652910031Z",
   "overview": {
-    "users": 20666,
-    "crawled_profiles": 7400,
+    "users": 20667,
+    "crawled_profiles": 7425,
     "homepages": 1,
     "users_with_feeds": 238,
     "feeds": 60,
@@ -72,11 +72,11 @@
   "active_feeds": [
     {
       "feed_url": "https://jamesg.blog/feeds/posts.xml",
-      "feed_title": "James' Coffee Blog",
+      "feed_title": "with words, wonder",
       "owner_username": "capjamesg",
       "site_url": "",
-      "entries": 83,
-      "latest_at": "2026-08-21T00:00:00Z"
+      "entries": 86,
+      "latest_at": "2026-08-22T00:00:00Z"
     },
     {
       "feed_url": "https://www.jvt.me/feed.xml",
@@ -103,22 +103,6 @@
       "latest_at": "2026-08-16T04:00:00Z"
     },
     {
-      "feed_url": "https://www.splitbrain.org/feed/links",
-      "feed_title": "Linkblog",
-      "owner_username": "splitbrain",
-      "site_url": "",
-      "entries": 10,
-      "latest_at": "2026-08-15T22:03:39Z"
-    },
-    {
-      "feed_url": "https://abhamra.com/rss.xml",
-      "feed_title": "asb's corner",
-      "owner_username": "aphaelion",
-      "site_url": "",
-      "entries": 9,
-      "latest_at": "2026-08-15T00:00:00Z"
-    },
-    {
       "feed_url": "https://jbaber.sdf.org/feed.xml",
       "feed_title": "John Baber-Lucero",
       "owner_username": "jbaber",
@@ -135,6 +119,14 @@
       "latest_at": "2026-08-18T22:35:00Z"
     },
     {
+      "feed_url": "https://abhamra.com/rss.xml",
+      "feed_title": "asb's corner",
+      "owner_username": "aphaelion",
+      "site_url": "",
+      "entries": 8,
+      "latest_at": "2026-08-15T00:00:00Z"
+    },
+    {
       "feed_url": "https://hpjansson.org/blag/comments/feed/",
       "feed_title": "Comments for Et tu, Cthulhu",
       "owner_username": "hpj",
@@ -149,6 +141,14 @@
       "site_url": "",
       "entries": 8,
       "latest_at": "2026-08-17T07:55:37Z"
+    },
+    {
+      "feed_url": "https://www.splitbrain.org/feed/links",
+      "feed_title": "Linkblog",
+      "owner_username": "splitbrain",
+      "site_url": "",
+      "entries": 8,
+      "latest_at": "2026-08-15T22:03:39Z"
     },
     {
       "feed_url": "https://nolanlawson.com/comments/feed/",
@@ -273,6 +273,14 @@
   ],
   "recent_sites": [
     {
+      "username": "capjamesg",
+      "site_url": "",
+      "feed_title": "with words, wonder",
+      "latest_at": "2026-08-22T00:00:00Z",
+      "title": "seasons",
+      "url": "https://jamesg.blog/2026/08/22/seasons"
+    },
+    {
       "username": "philzook",
       "site_url": "",
       "feed_title": "Hey There Buddo!",
@@ -281,28 +289,20 @@
       "url": "https://www.philipzucker.com/type_algebra_semiring/"
     },
     {
-      "username": "sillylaird",
-      "site_url": "",
-      "feed_title": "SillyLaird — Changelog",
-      "latest_at": "2026-08-21T00:00:00Z",
-      "title": "MOTD for the waifu XMPP bot. `/admin.php?section=motd` pins a notice; waifu pos…",
-      "url": "https://www.sillylaird.ca/changelog/"
-    },
-    {
-      "username": "capjamesg",
-      "site_url": "",
-      "feed_title": "with words, wonder",
-      "latest_at": "2026-08-21T00:00:00Z",
-      "title": "HTML element letter count distribution",
-      "url": "https://jamesg.blog/2026/08/21/html-element-letter-counts"
-    },
-    {
       "username": "gabe",
       "site_url": "",
       "feed_title": "lifewaza",
       "latest_at": "2026-08-21T00:00:00Z",
       "title": "Centralized Logging on OpenBSD with Loki and Grafana",
       "url": "https://www.lifewaza.com/posts/centralized-logging-on-openbsd-with-loki-and-grafana/"
+    },
+    {
+      "username": "sillylaird",
+      "site_url": "",
+      "feed_title": "SillyLaird — Changelog",
+      "latest_at": "2026-08-21T00:00:00Z",
+      "title": "MOTD for the waifu XMPP bot. `/admin.php?section=motd` pins a notice; waifu pos…",
+      "url": "https://www.sillylaird.ca/changelog/"
     },
     {
       "username": "dredmorbius",
@@ -431,20 +431,20 @@
       "url": "https://openscreenshot.app/"
     },
     {
-      "username": "aphaelion",
-      "site_url": "",
-      "feed_title": "asb's corner",
-      "latest_at": "2026-08-15T00:00:00Z",
-      "title": "a retrospective on creative writing, 2026",
-      "url": "https://abhamra.com/blog/retrospective-creative-writing-26/"
-    },
-    {
       "username": "dblock",
       "site_url": "",
       "feed_title": "code.dblock.org | tech blog",
       "latest_at": "2026-08-15T00:00:00Z",
       "title": "Benchmarks Are Free Now",
       "url": "https://code.dblock.org/2026/08/15/benchmarks-are-free-now.html"
+    },
+    {
+      "username": "aphaelion",
+      "site_url": "",
+      "feed_title": "asb's corner",
+      "latest_at": "2026-08-15T00:00:00Z",
+      "title": "a retrospective on creative writing, 2026",
+      "url": "https://abhamra.com/blog/retrospective-creative-writing-26/"
     },
     {
       "username": "starbist",
@@ -467,8 +467,8 @@
       "site_url": "",
       "feed_title": "John Baber-Lucero",
       "latest_at": "2026-08-13T01:06:25Z",
-      "title": "Beautiful Things",
-      "url": "https://jbaber.sdf.org/#beauty"
+      "title": "Alfred E. Neuman quotes up to 2005",
+      "url": "https://jbaber.sdf.org/#alfred_e"
     }
   ]
 }
