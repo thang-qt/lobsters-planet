@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T19:30:37.071445647Z",
+  "generated_at": "2026-08-25T02:36:37.935823133Z",
   "overview": {
     "users": 20677,
-    "crawled_profiles": 7650,
+    "crawled_profiles": 7675,
     "homepages": 1,
     "users_with_feeds": 238,
     "feeds": 59,
@@ -95,6 +95,14 @@
       "latest_at": "2026-08-23T14:57:21Z"
     },
     {
+      "feed_url": "https://nolanlawson.com/comments/feed/",
+      "feed_title": "Comments for Read the Tea Leaves",
+      "owner_username": "nolan",
+      "site_url": "",
+      "entries": 13,
+      "latest_at": "2026-08-24T20:25:13Z"
+    },
+    {
       "feed_url": "https://inkdroid.org/feed.xml",
       "feed_title": "inkdroid",
       "owner_username": "edsu",
@@ -103,36 +111,12 @@
       "latest_at": "2026-08-23T04:00:00Z"
     },
     {
-      "feed_url": "https://nolanlawson.com/comments/feed/",
-      "feed_title": "Comments for Read the Tea Leaves",
-      "owner_username": "nolan",
-      "site_url": "",
-      "entries": 11,
-      "latest_at": "2026-08-24T12:32:15Z"
-    },
-    {
       "feed_url": "https://jbaber.sdf.org/feed.xml",
       "feed_title": "John Baber-Lucero",
       "owner_username": "jbaber",
       "site_url": "",
       "entries": 9,
       "latest_at": "2026-08-13T01:06:25Z"
-    },
-    {
-      "feed_url": "https://jordivillar.com/rss.xml",
-      "feed_title": "Jordi Villar",
-      "owner_username": "jordi",
-      "site_url": "",
-      "entries": 9,
-      "latest_at": "2026-08-24T08:00:07Z"
-    },
-    {
-      "feed_url": "https://lalitm.com/index.xml",
-      "feed_title": "Lalit Maganti",
-      "owner_username": "lalitm",
-      "site_url": "",
-      "entries": 9,
-      "latest_at": "2026-08-18T22:35:00Z"
     },
     {
       "feed_url": "https://abhamra.com/rss.xml",
@@ -151,11 +135,27 @@
       "latest_at": "2026-08-18T10:14:09Z"
     },
     {
+      "feed_url": "https://jordivillar.com/rss.xml",
+      "feed_title": "Jordi Villar",
+      "owner_username": "jordi",
+      "site_url": "",
+      "entries": 8,
+      "latest_at": "2026-08-24T08:00:07Z"
+    },
+    {
+      "feed_url": "https://lalitm.com/index.xml",
+      "feed_title": "Lalit Maganti",
+      "owner_username": "lalitm",
+      "site_url": "",
+      "entries": 8,
+      "latest_at": "2026-08-18T22:35:00Z"
+    },
+    {
       "feed_url": "https://www.splitbrain.org/feed/links",
       "feed_title": "Linkblog",
       "owner_username": "splitbrain",
       "site_url": "",
-      "entries": 7,
+      "entries": 6,
       "latest_at": "2026-08-15T22:03:39Z"
     },
     {
@@ -273,12 +273,20 @@
   ],
   "recent_sites": [
     {
+      "username": "otoolep",
+      "site_url": "",
+      "feed_title": "Comments for Philip O'Toole",
+      "latest_at": "2026-08-25T00:01:16Z",
+      "title": "Comment on Gresham’s law and Slack by Why Slack isn’t working – Philip O'Toole",
+      "url": "https://philipotoole.com/greshams-law-and-slack/#comment-90460"
+    },
+    {
       "username": "nolan",
       "site_url": "",
       "feed_title": "Comments for Read the Tea Leaves",
-      "latest_at": "2026-08-24T12:32:15Z",
-      "title": "Comment on How I use AI agents to write code by AI 編碼代理如何理解您的代碼庫與開發者工具 - 超人行銷",
-      "url": "https://nolanlawson.com/2025/12/22/how-i-use-ai-agents-to-write-code/#comment-238432"
+      "latest_at": "2026-08-24T20:25:13Z",
+      "title": "Comment on The asteroid currently hitting frontend web development by Nolan Lawson",
+      "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/#comment-238435"
     },
     {
       "username": "jordi",
@@ -301,8 +309,16 @@
       "site_url": "",
       "feed_title": "with words, wonder",
       "latest_at": "2026-08-24T00:00:00Z",
-      "title": "Things I want to remember",
-      "url": "https://jamesg.blog/2026/08/24/from-today"
+      "title": "Art, technology; change",
+      "url": "https://jamesg.blog/2026/08/24/art-technology-change"
+    },
+    {
+      "username": "mre",
+      "site_url": "",
+      "feed_title": "Matthias Endler",
+      "latest_at": "2026-08-24T00:00:00Z",
+      "title": "Advice to Young Developers",
+      "url": "https://endler.dev/2026/advice-to-young-developers/"
     },
     {
       "username": "azhenley",
@@ -352,20 +368,20 @@
       "url": "https://nedbatchelder.com/blog/202608/micro_language_implementation_calcium"
     },
     {
-      "username": "philzook",
-      "site_url": "",
-      "feed_title": "Hey There Buddo!",
-      "latest_at": "2026-08-21T00:00:00Z",
-      "title": "Grobner / Buchberger / Knuth Bendix for Semirings and Seven Trees in One",
-      "url": "https://www.philipzucker.com/type_algebra_semiring/"
-    },
-    {
       "username": "sillylaird",
       "site_url": "",
       "feed_title": "SillyLaird — Changelog",
       "latest_at": "2026-08-21T00:00:00Z",
       "title": "MOTD for the waifu XMPP bot. `/admin.php?section=motd` pins a notice; waifu pos…",
       "url": "https://www.sillylaird.ca/changelog/"
+    },
+    {
+      "username": "philzook",
+      "site_url": "",
+      "feed_title": "Hey There Buddo!",
+      "latest_at": "2026-08-21T00:00:00Z",
+      "title": "Grobner / Buchberger / Knuth Bendix for Semirings and Seven Trees in One",
+      "url": "https://www.philipzucker.com/type_algebra_semiring/"
     },
     {
       "username": "gabe",
@@ -382,14 +398,6 @@
       "latest_at": "2026-08-20T00:00:00Z",
       "title": "Browser De-Slop",
       "url": "https://www.sacredheartsc.com/blog/browser-de-slop/"
-    },
-    {
-      "username": "otoolep",
-      "site_url": "",
-      "feed_title": "Philip O'Toole",
-      "latest_at": "2026-08-19T21:31:33Z",
-      "title": "From 18 months to 6: High-velocity database engineering",
-      "url": "https://philipotoole.com/from-18-months-to-6-high-velocity-database-engineering/"
     },
     {
       "username": "lalitm",
@@ -430,14 +438,6 @@
       "latest_at": "2026-08-17T00:00:00Z",
       "title": "PokéWalker hacking",
       "url": "https://dmitry.gr/?r=05.Projects\u0026proj=28.%20pokewalker"
-    },
-    {
-      "username": "mre",
-      "site_url": "",
-      "feed_title": "Matthias Endler",
-      "latest_at": "2026-08-17T00:00:00Z",
-      "title": "GitHub Was Never About the Source Code",
-      "url": "https://endler.dev/2026/github-was-never-about-the-source-code/"
     },
     {
       "username": "bhelx",
